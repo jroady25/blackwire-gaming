@@ -1,12 +1,201 @@
 {
-  "generated_at": "2026-09-14T01:39:44Z",
-  "note": "placeholder -- overwritten by the poll-servers.yml GitHub Action on its first run",
+  "generated_at": "2026-09-14T02:03:39Z",
   "servers": {
     "ark": {
-      "servers": []
+      "servers": [
+        {
+          "name": "Event Map \u2014 Club Ark",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "Ragnarok \u2014 PVE",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": [
+            "Lady Sharp"
+          ]
+        },
+        {
+          "name": "Valguero \u2014 PVE",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Valguero_WP",
+          "players": []
+        },
+        {
+          "name": "Astraeos \u2014 PVE",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": [
+            "jf2000x",
+            "KAKASHIxHATAKE97"
+          ]
+        },
+        {
+          "name": "Extinction \u2014 PVE",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
+        },
+        {
+          "name": "Astraeos \u2014 Primal Chaos",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": [
+            "JDavid_0325"
+          ]
+        },
+        {
+          "name": "Ragnarok \u2014 Jurassic Awakening",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
+        {
+          "name": "Decended \u2014 PVE",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
+        {
+          "name": "Event Map (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
+        },
+        {
+          "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": [
+            "VirtualParadise"
+          ]
+        },
+        {
+          "name": "Svartalfheim \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Svartalfheim_WP",
+          "players": []
+        },
+        {
+          "name": "Forglar 1 \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Forglar_WP",
+          "players": []
+        },
+        {
+          "name": "Scorched Earth \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
+        },
+        {
+          "name": "Abberation \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Aberration_WP",
+          "players": []
+        },
+        {
+          "name": "Lost Colony \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "players": [
+            "AllenDWoodz"
+          ]
+        },
+        {
+          "name": "Forglar 2 \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Forglar2_WP",
+          "players": [
+            "Spyre"
+          ]
+        },
+        {
+          "name": "The Island \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": [
+            "runcrawlslither"
+          ]
+        },
+        {
+          "name": "The Center \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": []
+        },
+        {
+          "name": "Genesis 1 \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Genesis_WP",
+          "players": []
+        },
+        {
+          "name": "Bjarnheim \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
+        }
+      ]
     },
     "palworld": {
-      "servers": []
+      "servers": [
+        {
+          "name": "Palworld Server 1",
+          "online": false,
+          "players_current": 0,
+          "players_max": 16,
+          "map": null
+        },
+        {
+          "name": "Palworld Server 2",
+          "online": false,
+          "players_current": 0,
+          "players_max": 16,
+          "map": null
+        }
+      ]
     },
     "once_human": {
       "servers": []

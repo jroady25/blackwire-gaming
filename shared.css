@@ -509,3 +509,14 @@ a:focus-visible, button:focus-visible, .plate:focus-visible{outline:2px solid va
 .support-card h3{font-family:var(--font-display); font-weight:800; font-size:1.3rem; text-transform:uppercase; margin:10px 0 8px;}
 .support-card p{color:var(--text-dim); font-size:0.9rem; flex:1; margin:0 0 20px;}
 .support-card .btn-primary{align-self:flex-start;}
+
+/* Donate button in the header nav, injected by site.js next to Sign In —
+   outlined instead of filled so it doesn't compete with the primary
+   Sign In CTA for attention */
+.nav-donate{
+  font-size:0.76rem; font-weight:700; letter-spacing:0.07em; text-transform:uppercase;
+  color:var(--blood-text); background:transparent; border:1px solid var(--blood);
+  padding:8px 14px; text-decoration:none; white-space:nowrap;
+}
+.nav-donate:hover{background:var(--blood); color:#fff;}
+@media (max-width:480px){ .nav-donate{padding:8px 10px;} }

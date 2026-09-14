@@ -79,3 +79,15 @@
     }
   });
 })();
+
+/* Staff link - drops the admin panel into the footer of every page, so it
+   lives in one place instead of being pasted into nine HTML files. */
+(function(){
+  var foot = document.querySelector('.foot-links');
+  if(!foot || foot.querySelector('a[href="/admin"]')) return;
+  var a = document.createElement('a');
+  a.href = '/admin';
+  a.rel = 'nofollow';
+  a.textContent = 'Staff';
+  foot.appendChild(a);
+})();

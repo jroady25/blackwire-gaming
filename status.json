@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:01:10Z",
+  "generated_at": "2026-09-14T06:28:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -113,20 +113,20 @@
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
@@ -141,12 +141,13 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "crusader4j"
+            "crusader4j",
+            "Dame Duchess"
           ]
         },
         {

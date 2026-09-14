@@ -17,9 +17,8 @@ id = "8738ebd9dfc04d27a4a9a1cc6563bdfc"
 
 # Fires scheduled() in src/worker.js, which checks for any due delayed
 # restart/stop/start jobs and runs them.
-# VERIFY: copy the exact cron expression from the live Worker's
-# Settings -> Triggers -> Cron Triggers before the first deploy from CI —
-# this is a reasonable guess (every minute), not a confirmed value.
+# Confirmed against the live Worker's Settings -> Triggers -> Cron
+# Triggers (checked 2026-09-14): runs every minute, matching this.
 [triggers]
 crons = ["* * * * *"]
 
@@ -27,19 +26,12 @@ crons = ["* * * * *"]
 # the workers.dev root. src/worker.js reads this at request time.
 [vars]
 BASE_PATH = "/admin"
+SERVICE_ALLOWLIST = ""
+NAME_EXCLUDE = ""
+CLUSTERS = '''[{"name": "Palworld", "match": ["palworld"]}, {"name": "Trixter's Dino Mischief", "match": ["trixter"]}, {"name": "BlackWire", "match": ["blackwire", "ark"]}]'''
 
 # --------------------------------------------------------------------
 # NOT included here on purpose, and why:
-#
-# SERVICE_ALLOWLIST / NAME_EXCLUDE / CLUSTERS
-#   These are plain (non-secret) vars the live Worker currently has set
-#   in the Cloudflare dashboard (Workers & Pages -> blackwire-admin ->
-#   Settings -> Variables). Their exact values weren't available from
-#   this migration (no Cloudflare dashboard session to read them from),
-#   and `wrangler deploy` treats this file as the full source of truth —
-#   deploying without them here would blank them out on the live Worker.
-#   Before the first deploy from CI, copy their current values from the
-#   dashboard into a `[vars]` block above.
 #
 # NITRADO_TOKEN / SESSION_SECRET / ADMIN_PASSWORD / DISCORD_CLIENT_ID /
 # DISCORD_CLIENT_SECRET / DISCORD_GUILD_ID / DISCORD_ADMIN_ROLE_IDS /

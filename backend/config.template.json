@@ -1,7 +1,7 @@
 {
   "_comment": "This file is safe to commit -- it holds server IDs, IPs and ports, none of which are secrets. The real credentials (Nitrado API token, ARK RCON password, Palworld admin passwords) are NEVER in this file -- they live in this repo's GitHub Actions secrets and get merged in at run time by build_config.py. See README.md for how to set those secrets. Do not add real passwords/tokens here.",
 
-  "auto_discover_ark": false,
+  "auto_discover_ark": true,
   "auto_discover_name_filter": "blackwire",
   "auto_discover_exclude_ids": [],
   "ark_servers": [

@@ -61,9 +61,15 @@ SETUP
        included automatically once host/password are filled in — no
        extra setup needed for names specifically, unlike ARK's RCON step
        above.
-     - once_human: confirmed no API and no RCON for this server, so
-       leave this null — there's no supported way to get live counts
-       for it. See the comment above query_once_human_a2s() if curious.
+     - once_human_servers: one entry per Once Human world (e.g. a PvE
+       server and a PvP server), each with "name", "players_max", and
+       optionally "host"/"query_port". Confirmed no API and no RCON for
+       this game, so leave "host" blank on every entry — there's no
+       supported way to get live player counts for it (see the comment
+       above query_once_human_a2s() if curious). Listing the servers
+       here anyway still gets you an accurate Servers/Total slots count
+       on the site, which is why this is a list rather than a single
+       null like before.
 3. Test it once by hand:
      python3 blackwire_status_poller.py --config config.json --out status.json
    ...then open status.json and sanity-check the numbers against what
@@ -498,12 +504,15 @@ def poll_palworld_group(entries):
 # ---------------------------------------------------------------------
 # Once Human — CONFIRMED UNAVAILABLE.
 #
-# Justin's confirmed his Once Human server exposes neither an API nor
+# Justin's confirmed his Once Human servers expose neither an API nor
 # RCON, so there's currently no supported way to pull live player
 # counts for this game the way ARK and Palworld do. The website already
 # reflects this honestly (no "syncing" language, no live feed promised
 # on this game's plate or page) rather than showing a permanently-stuck
-# pending state.
+# pending state. What IS shown live is the plain server/slot count (see
+# poll_once_human_group below and renderCapacityOnly in live-data.js) —
+# that's config, not a query, so it's always accurate without needing a
+# working live-data path.
 #
 # The function below is left in purely as a speculative long shot, not
 # something to rely on: NetEase doesn't publish docs for the custom-
@@ -512,9 +521,10 @@ def poll_palworld_group(entries):
 # in the same 27015/27016/27017 pattern popularized by Source-engine
 # servers — which suggests, but doesn't confirm, the query port might
 # answer a standard A2S_INFO request even without RCON/API access. If
-# you ever get a host/port for the server and want to try it purely out
-# of curiosity, config.json's once_human block will pick it up — but
-# don't expect it to work, and there's no need to chase this further.
+# you ever get a host/port for a server and want to try it purely out
+# of curiosity, that entry's "host" in config.json's once_human_servers
+# list will pick it up — but don't expect it to work, and there's no
+# need to chase this further.
 # ---------------------------------------------------------------------
  
 def query_once_human_a2s(host, port, timeout=3):
@@ -550,17 +560,28 @@ def query_once_human_a2s(host, port, timeout=3):
             sock.close()
  
  
-def poll_once_human(cfg):
-    if not cfg or not cfg.get("host"):
-        return []
-    name = cfg.get("name", "Once Human World")
-    result = query_once_human_a2s(cfg["host"], cfg.get("query_port", 27016))
-    if result is None:
-        return [{
-            "name": name, "online": False,
-            "players_current": 0, "players_max": cfg.get("players_max", 20),
-        }]
-    return [{"name": name, "online": True, **result}]
+def poll_once_human_group(entries):
+    """entries: list of {name, [host], [query_port], [players_max]} — see
+    config.example.json. Same fallback pattern as poll_palworld_group:
+    an entry with no "host" filled in (the expected case — see the big
+    comment above, this game has no confirmed live-query path) just
+    reports offline using its configured players_max, so the site still
+    gets an accurate server count / total slot count even though it can
+    never show a real player headcount for this game."""
+    results = []
+    for entry in entries:
+        name = entry.get("name", "Once Human World")
+        result = None
+        if entry.get("host"):
+            result = query_once_human_a2s(entry["host"], entry.get("query_port", 27016))
+        if result is None:
+            results.append({
+                "name": name, "online": False,
+                "players_current": 0, "players_max": entry.get("players_max", 20),
+            })
+        else:
+            results.append({"name": name, "online": True, **result})
+    return results
  
  
 def main():
@@ -605,7 +626,7 @@ def main():
  
     ark = poll_nitrado_group(ark_entries, cfg["nitrado_token"], cfg.get("ark_rcon_password"))
     palworld = poll_palworld_group(cfg.get("palworld_servers", []))
-    once_human = poll_once_human(cfg.get("once_human"))
+    once_human = poll_once_human_group(cfg.get("once_human_servers", []))
  
     status = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),

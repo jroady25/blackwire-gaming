@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T22:29:46Z",
+  "generated_at": "2026-09-14T22:31:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -143,12 +143,10 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

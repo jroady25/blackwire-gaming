@@ -351,18 +351,6 @@ h2.section-title{font-family:var(--font-display); font-weight:800; font-size:cla
 .step h3{font-family:var(--font-display); font-weight:700; font-size:1.1rem; text-transform:uppercase;}
 .step p{color:var(--text-dim); font-size:0.88rem; margin-top:6px;}
 
-/* ---------- starter kit / promo block ---------- */
-.kit{
-  max-width:900px; margin-inline:auto; display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:center;
-  background:linear-gradient(135deg,var(--panel),var(--panel-2)); border:1px solid var(--line); padding:clamp(28px,4vw,44px);
-}
-@media (max-width:760px){ .kit{grid-template-columns:1fr;} }
-.kit-tag{font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.09em; text-transform:uppercase; color:var(--blood-text);}
-.kit h3{font-family:var(--font-display); font-weight:800; font-size:1.6rem; text-transform:uppercase; margin-top:10px;}
-.kit p{color:var(--text-dim); margin-top:10px; font-size:0.95rem;}
-.kit-list{display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; padding:0; list-style:none;}
-.kit-list li{font-family:var(--font-mono); font-size:0.72rem; color:var(--text-dim); border:1px solid var(--line); padding:5px 10px;}
-
 /* ---------- cursor spotlight — a flashlight over the whole network ---------- */
 .spotlight{
   position:fixed; inset:0; pointer-events:none; z-index:500;

@@ -1,0 +1,49 @@
+name: Poll BlackWire servers
+
+# Runs every 5 minutes, plus a manual "Run workflow" button in the
+# Actions tab for testing without waiting on the clock. GitHub's own
+# servers run this -- nothing here needs a droplet, and there's no
+# server for anyone to patch or that can go down from neglect.
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+
+      - name: Build config.json from repo secrets
+        working-directory: backend
+        env:
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
+          ARK_RCON_PASSWORD: ${{ secrets.ARK_RCON_PASSWORD }}
+          PALWORLD_1_PASSWORD: ${{ secrets.PALWORLD_1_PASSWORD }}
+          PALWORLD_2_PASSWORD: ${{ secrets.PALWORLD_2_PASSWORD }}
+        run: python3 build_config.py > config.json
+
+      - name: Run the poller
+        working-directory: backend
+        run: python3 blackwire_status_poller.py --config config.json --out ../status.json
+
+      - name: Delete the generated config.json (it held real secrets)
+        if: always()
+        run: rm -f backend/config.json
+
+      - name: Commit status.json if it changed
+        run: |
+          git config user.name "blackwire-status-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add status.json
+          if git diff --cached --quiet; then
+            echo "No change in server status -- nothing to commit."
+          else
+            git commit -m "Update live server status"
+            git push
+          fi

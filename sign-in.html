@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In — BlackWire Gaming</title>
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/jpeg" href="assets/nav-icon.jpg">
+<meta name="description" content="BlackWire access runs through Discord. Join, verify, and get whitelisted on your game of choice.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sign In — BlackWire Gaming">
+<meta property="og:description" content="BlackWire access runs through Discord. Join, verify, and get whitelisted on your game of choice.">
+<meta property="og:image" content="https://claude.ai/code/artifact/b5242545-b346-4a95-97ee-ee63ee22c71d/assets/hawk-emblem.png">
+<meta property="og:url" content="https://claude.ai/code/artifact/b5242545-b346-4a95-97ee-ee63ee22c71d/sign-in.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sign In — BlackWire Gaming">
+<meta name="twitter:description" content="BlackWire access runs through Discord. Join, verify, and get whitelisted on your game of choice.">
+<meta name="twitter:image" content="https://claude.ai/code/artifact/b5242545-b346-4a95-97ee-ee63ee22c71d/assets/hawk-emblem.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+  .discord-mark{width:22px; height:22px; flex:none;}
+  .steps-list{list-style:none; margin:24px 0 0; padding:0; display:flex; flex-direction:column; gap:0; max-width:640px;}
+  .steps-list li{display:flex; gap:18px; padding-block:20px; border-top:1px solid var(--line);}
+  .steps-list li:first-child{border-top:none; padding-top:0;}
+  .steps-list .num{
+    flex:none; width:32px; height:32px; border-radius:50%; border:2px solid var(--blood); background:var(--void);
+    display:flex; align-items:center; justify-content:center; font-family:var(--font-mono); font-size:0.8rem; font-weight:700; color:var(--blood);
+  }
+  .steps-list h3{font-family:var(--font-display); font-weight:700; font-size:1.05rem; text-transform:uppercase; margin:0;}
+  .steps-list p{color:var(--text-dim); font-size:0.9rem; margin:6px 0 0;}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+<header class="wrap">
+  <a class="brand" href="index.html">
+    <img class="brand-mark" src="assets/nav-icon.jpg" alt="">
+    <span class="brand-word">BLACK<span>WIRE</span></span>
+  </a>
+  <nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html#play">Play</a>
+      <a href="index.html#live">Servers</a>
+      <a href="index.html#why">About</a>
+      <a href="guides.html">Guides</a>
+    </div>
+    <a class="signin" href="sign-in.html">Sign In</a>
+  </nav>
+</header>
+<div class="hazard-bar"></div>
+<span id="main" tabindex="-1"></span>
+
+<div class="wrap">
+  <a class="crumb" href="index.html">Back to BlackWire</a>
+
+  <section class="page-hero reveal-init is-visible">
+    <span class="section-eyebrow" style="text-align:left;">sign_in</span>
+    <h1>Access runs through <em>Discord.</em></h1>
+    <p class="section-desc">BlackWire doesn't run its own account system — your Discord identity is your BlackWire identity. Join the server, verify, and you're whitelisted on whichever game you're playing.</p>
+  </section>
+</div>
+
+<div class="wire-track wrap">
+  <div class="spine-block">
+    <h2 class="sr-only">Steps to get connected</h2>
+    <ol class="steps-list">
+      <li>
+        <span class="num">1</span>
+        <div>
+          <h3>Join the Discord</h3>
+          <p>This is the front door for every game on the network — announcements, rules, live support, and where whitelisting happens.</p>
+        </div>
+      </li>
+      <li>
+        <span class="num">2</span>
+        <div>
+          <h3>Read the rules, then verify</h3>
+          <p>A short read in the <strong>#rules</strong> channel, then react or run the verify command to unlock the rest of the server.</p>
+        </div>
+      </li>
+      <li>
+        <span class="num">3</span>
+        <div>
+          <h3>Pick your game's channel</h3>
+          <p>Each game has its own channel with connect info, current map/server list, and a request to get whitelisted if the game needs it.</p>
+        </div>
+      </li>
+    </ol>
+
+    <div style="margin-top:36px;">
+      <a class="btn-primary" href="https://discord.gg/blackwire" rel="noopener">
+        Join the BlackWire Discord &rarr;
+      </a>
+    </div>
+  </div>
+
+  <div class="spine-block">
+    <div class="stub"></div>
+    <div class="node-dot"></div>
+    <div style="height:24px;"></div>
+    <div class="manifesto reveal-init is-visible" style="grid-template-columns:1fr;">
+      <div>
+        <span class="section-eyebrow">already_in</span>
+        <h2 class="manifesto-title" style="font-size:clamp(1.5rem,3vw,2rem);">Already on the Discord?</h2>
+        <p class="manifesto-lead" style="max-width:56ch;">You don't need to sign in again here — server IPs, the current map rotation, and any whitelist requests all live in your game's channel on Discord. This page exists so new players know where to go first.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="wrap">
+  <div class="foot-brand">BLACKWIRE GAMING &mdash; Connect &bull; Conquer &bull; Survive</div>
+  <div class="foot-links">
+    <a href="guides.html">Guides</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>

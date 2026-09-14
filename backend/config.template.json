@@ -1,0 +1,36 @@
+{
+  "_comment": "This file is safe to commit -- it holds server IDs, IPs and ports, none of which are secrets. The real credentials (Nitrado API token, ARK RCON password, Palworld admin passwords) are NEVER in this file -- they live in this repo's GitHub Actions secrets and get merged in at run time by build_config.py. See README.md for how to set those secrets. Do not add real passwords/tokens here.",
+
+  "auto_discover_ark": false,
+  "auto_discover_name_filter": "blackwire",
+  "auto_discover_exclude_ids": [],
+  "ark_servers": [
+    {"service_id": "18012721", "name": "Event Map — Club Ark"},
+    {"service_id": "17681860", "name": "Ragnarok — PVE", "host": "31.214.196.38", "rcon_port": 11010},
+    {"service_id": "17801131", "name": "Valguero — PVE", "host": "31.214.239.14", "rcon_port": 12120},
+    {"service_id": "18111130", "name": "Astraeos — PVE", "host": "85.190.136.237", "rcon_port": 11230},
+    {"service_id": "18111154", "name": "Extinction — PVE", "host": "31.214.196.62", "rcon_port": 12360},
+    {"service_id": "18667313", "name": "Astraeos — Primal Chaos", "host": "85.190.136.157", "rcon_port": 11470},
+    {"service_id": "18863471", "name": "Ragnarok — Jurassic Awakening", "host": "31.214.196.81", "rcon_port": 11070},
+    {"service_id": "19826461", "name": "Decended — PVE", "host": "217.114.196.23", "rcon_port": 11420},
+    {"service_id": "18357526", "name": "Event Map (JKRZ)", "host": "85.190.136.145", "rcon_port": 11060},
+    {"service_id": "18357580", "name": "Island SOTF — PVP (Limited/JKRZ)", "host": "31.214.239.29", "rcon_port": 11430},
+    {"service_id": "18610040", "name": "Svartalfheim — PVE (JKRZ)", "host": "31.214.196.124", "rcon_port": 11510},
+    {"service_id": "18859910", "name": "Forglar 1 — PVE (JKRZ)", "host": "85.190.136.229", "rcon_port": 11370},
+    {"service_id": "18860204", "name": "Scorched Earth — PVE (JKRZ)", "host": "31.214.196.78", "rcon_port": 11730},
+    {"service_id": "18863102", "name": "Abberation — PVE (JKRZ)", "host": "31.214.196.84", "rcon_port": 11920},
+    {"service_id": "19072757", "name": "Lost Colony — PVE (JKRZ)", "host": "85.190.136.250", "rcon_port": 11660},
+    {"service_id": "19368770", "name": "Forglar 2 — PVE (JKRZ)", "host": "31.214.239.94", "rcon_port": 11520},
+    {"service_id": "19368830", "name": "The Island — PVE (JKRZ)", "host": "31.214.196.46", "rcon_port": 11110},
+    {"service_id": "19377800", "name": "The Center — PVE (JKRZ)", "host": "31.214.239.62", "rcon_port": 11100},
+    {"service_id": "19426823", "name": "Genesis 1 — PVE (JKRZ)", "host": "31.214.196.31", "rcon_port": 11160},
+    {"service_id": "19466842", "name": "Bjarnheim — PVE (JKRZ)", "host": "31.214.239.74", "rcon_port": 11350}
+  ],
+
+  "palworld_servers": [
+    {"service_id": "17667688", "name": "Palworld Server 1", "host": "170.23.78.90", "rest_api_port": 17103, "username": "admin", "players_max": 16},
+    {"service_id": "19733590", "name": "Palworld Server 2", "host": "95.156.213.85", "rest_api_port": 17093, "username": "admin", "players_max": 16}
+  ],
+
+  "once_human": null
+}

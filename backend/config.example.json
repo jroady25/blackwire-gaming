@@ -1,0 +1,27 @@
+{
+  "nitrado_token": "YOUR_NITRADO_API_TOKEN",
+
+  "auto_discover_ark": false,
+  "auto_discover_name_filter": "blackwire",
+  "auto_discover_exclude_ids": [],
+  "ark_rcon_password": "YOUR_ARK_RCON_PASSWORD",
+  "ark_servers": [
+    {"service_id": "111111", "name": "Astraeos — PVE", "host": "your.ark.server.ip", "rcon_port": 11230},
+    {"service_id": "222222", "name": "Forglar 2 — PVE (JKRZ)"},
+    {"service_id": "333333", "name": "Lost Colony — PVE (JKRZ)"},
+    {"service_id": "444444", "name": "The Island — PVE (JKRZ)"},
+    {"service_id": "555555", "name": "Island SOTF — PVP (Limited/JKRZ)"}
+  ],
+
+  "palworld_servers": [
+    {"service_id": "666666", "name": "Palworld Server 1", "host": "your.palworld.server.ip", "rest_api_port": 17103, "username": "admin", "password": "YOUR_PALWORLD_ADMIN_PASSWORD", "players_max": 16},
+    {"service_id": "777777", "name": "Palworld Server 2", "host": "your.other.palworld.server.ip", "rest_api_port": 17093, "username": "admin", "password": "YOUR_PALWORLD_ADMIN_PASSWORD", "players_max": 16}
+  ],
+
+  "once_human": {
+    "name": "Once Human World",
+    "host": "your.oncehuman.server.ip",
+    "query_port": 27016,
+    "players_max": 20
+  }
+}

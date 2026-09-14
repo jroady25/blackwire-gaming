@@ -1,0 +1,9 @@
+# Real credentials never get committed -- config.json is generated at
+# run time (locally by you, or in CI by build_config.py) from
+# config.template.json + secrets. See backend/README section in the
+# root README.md.
+backend/config.json
+
+__pycache__/
+*.pyc
+.DS_Store

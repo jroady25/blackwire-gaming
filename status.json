@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-14T01:39:44Z",
+  "note": "placeholder -- overwritten by the poll-servers.yml GitHub Action on its first run",
+  "servers": {
+    "ark": {
+      "servers": []
+    },
+    "palworld": {
+      "servers": []
+    },
+    "once_human": {
+      "servers": []
+    }
+  }
+}

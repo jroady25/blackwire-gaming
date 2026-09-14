@@ -27,8 +27,8 @@ crons = ["* * * * *"]
 [vars]
 BASE_PATH = "/admin"
 SERVICE_ALLOWLIST = ""
-NAME_EXCLUDE = ""
-CLUSTERS = '''[{"name": "Palworld", "match": ["palworld"]}, {"name": "Trixter's Dino Mischief", "match": ["trixter"]}, {"name": "BlackWire", "match": ["blackwire", "ark"]}]'''
+NAME_EXCLUDE = "trixter"
+CLUSTERS = '''[{"name": "Palworld", "match": ["palworld"]}, {"name": "BlackWire", "match": ["blackwire", "ark"]}]'''
 
 # --------------------------------------------------------------------
 # NOT included here on purpose, and why:

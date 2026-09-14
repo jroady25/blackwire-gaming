@@ -32,5 +32,8 @@
     {"service_id": "19733590", "name": "Palworld Server 2", "host": "95.156.213.85", "rest_api_port": 17093, "username": "admin", "players_max": 16}
   ],
 
-  "once_human": null
+    "once_human_servers": [
+    {"name": "Once Human — PVE", "host": "", "query_port": 27016, "players_max": 20},
+    {"name": "Once Human — PVP", "host": "", "query_port": 27016, "players_max": 20}
+    ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:28:32Z",
+  "generated_at": "2026-09-14T22:29:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,13 +13,10 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "AllenDWoodz",
-            "CrumblingTea70"
-          ]
+          "players": []
         },
         {
           "name": "Valguero \u2014 PVE",
@@ -32,20 +29,20 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -60,12 +57,10 @@
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Vince-Meat83"
-          ]
+          "players": []
         },
         {
           "name": "Decended \u2014 PVE",
@@ -128,10 +123,12 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
@@ -146,10 +143,12 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "runcrawlslither"
+          ]
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -182,10 +181,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "StankGoose ",
             "Salem"
           ],
           "map": null

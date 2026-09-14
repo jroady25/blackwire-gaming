@@ -6,15 +6,15 @@
 <title>BlackWire Gaming</title>
 <meta name="color-scheme" content="dark">
 <link rel="icon" type="image/jpeg" href="assets/nav-icon.jpg">
-<meta name="description" content="BlackWire Gaming runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and a Once Human world — one network, one standard.">
+<meta name="description" content="BlackWire Gaming runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and Once Human worlds — one network, one standard.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="BlackWire Gaming">
-<meta property="og:description" content="BlackWire Gaming runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and a Once Human world — one network, one standard.">
+<meta property="og:description" content="BlackWire Gaming runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and Once Human worlds — one network, one standard.">
 <meta property="og:image" content="https://claude.ai/code/artifact/b5242545-b346-4a95-97ee-ee63ee22c71d/assets/hawk-emblem.png">
 <meta property="og:url" content="https://claude.ai/code/artifact/b5242545-b346-4a95-97ee-ee63ee22c71d/index.html">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="BlackWire Gaming">
-<meta name="twitter:description" content="BlackWire Gaming runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and a Once Human world — one network, one standard.">
+<meta name="twitter:description" content="BlackWire Gaming runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and Once Human worlds — one network, one standard.">
 <meta name="twitter:image" content="https://claude.ai/code/artifact/b5242545-b346-4a95-97ee-ee63ee22c71d/assets/hawk-emblem.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,7 +68,7 @@
       <div class="eye-glow" aria-hidden="true"></div>
     </div>
   </div>
-  <p class="sub" style="max-width:52ch; color:var(--text-dim); margin-top:24px;">BlackWire runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and a Once Human world — all held to the same standard: active staff, clear rules, communities built to last.</p>
+  <p class="sub" style="max-width:52ch; color:var(--text-dim); margin-top:24px;">BlackWire runs no-wipe ARK: Survival Ascended clusters, Palworld servers, and Once Human worlds — all held to the same standard: active staff, clear rules, communities built to last.</p>
   <div class="hero-ctas">
     <a class="btn-primary" href="#network">Choose Your Game</a>
     <a class="btn-ghost" href="#live">See live servers &darr;</a>
@@ -92,7 +92,7 @@
   <div class="branch-row right" id="play">
     <div></div>
     <div class="connector"><span class="node-dot"></span></div>
-    <article class="plate ark-plate branch-panel">
+    <article class="plate ark-plate branch-panel" id="ark-plate">
       <div class="plate-tag">No-Wipe &middot; PvE &middot; via Nitrado</div>
       <div class="plate-head">
         <span class="plate-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M5 4 L9 20"/><path d="M11 3 L14 21"/><path d="M17 5 L19 19"/></svg></span>
@@ -104,6 +104,7 @@
         <div><span id="ark-online-count">6</span><small>Online now</small></div>
         <div><span id="ark-maps-count">13</span><small>Maps</small></div>
       </div>
+      <div class="sync-state"><span class="sync-dot"></span>Online now: <b id="ark-live-players">syncing via Nitrado&hellip;</b></div>
       <a class="plate-link" href="games/ark.html">Enter ARK Cluster &rarr;</a>
     </article>
   </div>
@@ -136,10 +137,10 @@
         <span class="plate-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="7" r="3"/><circle cx="7.5" cy="15" r="3"/><circle cx="16.5" cy="15" r="3"/><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/></svg></span>
         <h3 class="plate-name">Once Human</h3>
       </div>
-      <p class="plate-desc">A BlackWire-run Once Human world.</p>
+      <p class="plate-desc">Two BlackWire-run Once Human worlds — one PvE, one PvP.</p>
       <div class="plate-stats">
-        <div><span id="oncehuman-total-servers">1</span><small>Server</small></div>
-        <div><span id="oncehuman-total-slots">20</span><small>Player slots</small></div>
+        <div><span id="oncehuman-total-servers">2</span><small>Servers</small></div>
+        <div><span id="oncehuman-total-slots">40</span><small>Player slots</small></div>
       </div>
       <div class="sync-state">No live feed for this game &mdash; <b>see Discord for status</b></div>
       <a class="plate-link" href="games/once-human.html">Enter Once Human &rarr;</a>
@@ -299,6 +300,6 @@
 </footer>
 
 <script src="site.js"></script>
-<script src="live-data.js?v=3"></script>
+<script src="live-data.js?v=4"></script>
 </body>
 </html>

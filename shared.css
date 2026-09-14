@@ -283,6 +283,13 @@ h2.section-title{font-family:var(--font-display); font-weight:800; font-size:cla
    distinct from "pending", which implies a feed is coming once wired up */
 .plate.sync-plate.no-feed::before{content:"No live feed"; color:var(--text-faint);}
 
+/* ARK's sync-dot (added alongside the Servers/Online-now/Maps stats) —
+   unlike Palworld/Once Human, ARK never has an "unconfigured, waiting on
+   credentials" phase (its Nitrado token is already wired up for every
+   server), so its dot goes straight to steady live-red rather than
+   blinking amber first. */
+.plate.ark-plate .sync-dot{background:var(--live); box-shadow:0 0 6px var(--live); animation:none;}
+
 .sync-plate{overflow:hidden;}
 .sync-plate::before{
   content:"Live feed pending"; position:absolute; top:16px; right:-1px;

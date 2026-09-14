@@ -39,7 +39,7 @@
  */
 (function(){
   // Root-relative and same-origin on purpose — see header comment above.
-  var STATUS_URL = '/status.json';
+  var STATUS_URL = new URL('status.json', document.currentScript.src).href;
 
   // How many names to spell out inline before collapsing the rest into
   // "+N more" — keeps a 20-player row from blowing out the table on a

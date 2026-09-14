@@ -16,11 +16,14 @@ binding = "STORE"
 id = "8738ebd9dfc04d27a4a9a1cc6563bdfc"
 
 # Fires scheduled() in src/worker.js, which checks for any due delayed
-# restart/stop/start jobs and runs them.
-# Confirmed against the live Worker's Settings -> Triggers -> Cron
-# Triggers (checked 2026-09-14): runs every minute, matching this.
+# restart/stop/start jobs and runs them. Each scheduled() call does a KV
+# list() against the sched: prefix, even when nothing is due — at every
+# minute that was 1,440 list ops/day, over Cloudflare's free 1,000/day KV
+# list cap (hit 90% on 2026-09-14). Slowed to every 5 minutes (~288/day)
+# to stay well under it; scheduled restarts now fire within ~5 min of
+# their target time instead of ~1 min.
 [triggers]
-crons = ["* * * * *"]
+crons = ["*/5 * * * *"]
 
 # Mounts the panel at blackwiregaming.com/admin instead of serving from
 # the workers.dev root. src/worker.js reads this at request time.

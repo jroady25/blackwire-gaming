@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T17:28:22Z",
+  "generated_at": "2026-09-14T18:27:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,12 +29,11 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
-            "OSOxTHExSKRUB"
+            "Harru"
           ]
         },
         {
@@ -58,10 +57,12 @@
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Vince-Meat83"
+          ]
         },
         {
           "name": "Decended \u2014 PVE",
@@ -82,12 +83,10 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "VirtualParadise"
-          ]
+          "players": []
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
@@ -132,10 +131,12 @@
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "Spyre"
+          ]
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",

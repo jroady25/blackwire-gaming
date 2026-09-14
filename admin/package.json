@@ -1,0 +1,13 @@
+{
+  "name": "blackwire-admin",
+  "private": true,
+  "version": "1.0.0",
+  "description": "BlackWire Server Control - Cloudflare Worker admin panel for starting, stopping and restarting the BlackWire Nitrado gameservers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:27:57Z",
+  "generated_at": "2026-09-14T15:28:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,7 +13,7 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -21,7 +21,7 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": []
@@ -29,10 +29,13 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "dejectedheart71",
+            "Harru"
+          ]
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -137,10 +140,12 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "runcrawlslither"
+          ]
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

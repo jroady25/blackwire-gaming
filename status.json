@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:28:27Z",
+  "generated_at": "2026-09-14T20:28:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,11 +13,12 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "NanQuil55"
+            "NanQuil55",
+            "CrumblingTea70"
           ]
         },
         {
@@ -49,20 +50,23 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "santos_g3"
+            "santos_g3",
+            "JDavid_0325"
           ]
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Vince-Meat83"
+          ]
         },
         {
           "name": "Decended \u2014 PVE",
@@ -135,11 +139,12 @@
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [
-            "Spyre"
+            "Spyre",
+            "Lyulf_kaldez"
           ]
         },
         {

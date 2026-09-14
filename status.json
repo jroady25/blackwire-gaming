@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:28:33Z",
+  "generated_at": "2026-09-14T10:27:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,10 +29,13 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "OSOxTHExSKRUB",
+            "dejectedheart71"
+          ]
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -133,15 +136,10 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 3,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "OSOxTHExSKRUB",
-            "dejectedheart71",
-            "Dame Duchess",
-            "crusader4j"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

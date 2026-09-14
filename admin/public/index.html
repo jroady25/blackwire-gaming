@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'"
+    />
+    <title>BlackWire · Server Control</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0706'/%3E%3Cpath d='M18 3 8 18h6l-2 11 10-15h-6z' fill='%23e2231a'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="hazard-bar"></div>
+
+    <!-- Login -->
+    <section id="login-view" class="login hidden">
+      <div class="login-card">
+        <div class="eyebrow"><span class="live-dot"></span> Restricted // Staff only</div>
+        <h1 class="headline">Server<br />Control</h1>
+        <p class="muted">Start, stop and restart the BlackWire network.</p>
+
+        <div id="login-error" class="error-box hidden"></div>
+
+        <a id="discord-btn" class="btn discord wide hidden" href="auth/discord">Sign in with Discord</a>
+        <div id="login-divider" class="divider hidden"><span>or</span></div>
+
+        <form id="password-form" class="hidden">
+          <label for="admin-name">Your name <span class="faint">// shows in the log</span></label>
+          <input id="admin-name" type="text" autocomplete="nickname" maxlength="32" placeholder="e.g. Sapper" />
+          <label for="admin-password">Admin password</label>
+          <input id="admin-password" type="password" autocomplete="current-password" required />
+          <button class="btn primary wide" type="submit">Authenticate</button>
+        </form>
+
+        <a class="back-link" href="/">&larr; blackwiregaming.com</a>
+      </div>
+    </section>
+
+    <!-- Dashboard -->
+    <section id="app-view" class="app hidden">
+      <div class="wrap">
+        <header>
+          <a class="brand" href="/">
+            <span class="brand-mark"></span>
+            <span class="brand-word">BLACK<span class="blood">WIRE</span></span>
+          </a>
+          <div class="topbar-actions">
+            <button id="refresh-btn" class="btn ghost">Refresh</button>
+            <button id="audit-btn" class="btn ghost">Log</button>
+            <button id="logout-btn" class="btn ghost">Sign out</button>
+          </div>
+        </header>
+
+        <div id="statusbar" class="statusbar"></div>
+      </div>
+
+      <div class="wrap">
+        <div id="schedule-banner" class="schedule-banner hidden"></div>
+        <div id="list-error" class="error-box wide hidden"></div>
+
+        <div class="bulkbar">
+          <div class="bulk-left">
+            <button id="select-all" class="btn tiny ghost">Select all</button>
+            <span id="selection-note" class="plate-tag"></span>
+          </div>
+          <div class="bulk-right">
+            <button class="btn" data-bulk="start">Start</button>
+            <button class="btn warn" data-bulk="stop">Stop</button>
+            <button class="btn primary" data-bulk="restart">Restart</button>
+          </div>
+        </div>
+
+        <main id="grid" class="grid"></main>
+      </div>
+    </section>
+
+    <!-- Action dialog -->
+    <div id="dialog" class="modal-backdrop hidden">
+      <div class="modal">
+        <div class="eyebrow"><span class="live-dot"></span> Confirm action</div>
+        <h2 id="dialog-title">Restart</h2>
+        <p id="dialog-targets" class="plate-tag"></p>
+
+        <div id="message-field">
+          <label for="dialog-message">Message to Nitrado <span class="faint">// in-game where supported</span></label>
+          <input id="dialog-message" type="text" maxlength="200" />
+        </div>
+
+        <label>Countdown</label>
+        <div class="chip-row" id="delay-chips"></div>
+        <p id="delay-note" class="faint small"></p>
+
+        <div class="modal-actions">
+          <button id="dialog-cancel" class="btn ghost">Cancel</button>
+          <button id="dialog-confirm" class="btn primary">Restart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Audit log -->
+    <div id="audit" class="modal-backdrop hidden">
+      <div class="modal">
+        <div class="eyebrow"><span class="live-dot"></span> Activity</div>
+        <h2>Recent actions</h2>
+        <div id="audit-list" class="audit-list"></div>
+        <div class="modal-actions">
+          <button id="audit-close" class="btn primary">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="toasts" class="toasts"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

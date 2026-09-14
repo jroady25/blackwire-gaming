@@ -1,4 +1,16 @@
 (function(){
+  // Register the service worker so the site can be installed as an app.
+  // Resolved relative to this script's own location (same trick
+  // live-data.js uses for status.json) so it still finds sw.js and gets
+  // the right scope whether this is served from the custom domain's true
+  // root or previewed from GitHub's own /blackwire-gaming/ subfolder.
+  if('serviceWorker' in navigator){
+    var swUrl = new URL('sw.js', document.currentScript.src).href;
+    navigator.serviceWorker.register(swUrl).catch(function(){
+      // offline install just won't be available -- nothing else breaks
+    });
+  }
+
   // every node powers on as you scroll to it, instead of sitting there fully lit from load
   var targets = document.querySelectorAll('.spine-head, .branch-panel, .manifesto, .ticker-frame, .kit, .reveal');
   targets.forEach(function(el){ el.classList.add('reveal-init'); });

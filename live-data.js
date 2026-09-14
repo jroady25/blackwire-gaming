@@ -38,7 +38,15 @@
  * needs revisiting.
  */
 (function(){
-  // Root-relative and same-origin on purpose — see header comment above.
+  // Resolved relative to this very script's own location (not the page
+  // that included it) rather than hardcoded as root-relative. status.json
+  // always lives right next to live-data.js at the repo root, so this
+  // works correctly whether the page loading it is at the site root
+  // (index.html, or any page once a custom domain is connected) or one
+  // level down (games/ark.html etc.) -- and it also works correctly on
+  // GitHub's own free address, which serves the whole site from a
+  // /blackwire-gaming/ subfolder rather than a domain's true root, where
+  // a plain root-relative "/status.json" would 404.
   var STATUS_URL = new URL('status.json', document.currentScript.src).href;
 
   // How many names to spell out inline before collapsing the rest into
@@ -146,6 +154,27 @@
     }
   }
 
+  // Once Human specifically: there's no supported live-query path for
+  // this game at all (see the poller's big comment on this), so this
+  // deliberately never touches a "live players" field or a "no live
+  // feed" callout -- only the plain server-count / total-slots numbers,
+  // which ARE known for real from config even without live polling.
+  // Keeping this separate from renderPlate/renderGamePageStat (which
+  // both also flip a card to "is-live" styling or hide the pending
+  // notice) means adding a second Once Human server never makes the
+  // site imply real-time counts it can't actually provide.
+  function renderCapacityOnly(game, serverCountId, slotsId){
+    if(!game || !Array.isArray(game.servers) || !game.servers.length) return;
+    if(serverCountId){
+      var countEl = document.getElementById(serverCountId);
+      if(countEl) countEl.textContent = game.servers.length;
+    }
+    if(slotsId){
+      var slotsEl = document.getElementById(slotsId);
+      if(slotsEl) slotsEl.textContent = sumField(game.servers, 'players_max');
+    }
+  }
+
   // per-game pages (games/palworld.html, games/once-human.html): fill
   // in the "Live player counts" spec row, hide the pending notice, and
   // (same reasoning as above) drive Servers/Total slots from the real list
@@ -170,6 +199,12 @@
     }
   }
 
+  // Appending a changing query string is what actually defeats caching
+  // here -- GitHub Pages sits behind a CDN that can serve a slightly
+  // stale status.json for a few minutes after it updates regardless of
+  // the cache:'no-store' option below (that option only controls this
+  // browser's own local cache, not the CDN in front of GitHub Pages).
+  // A different URL every load can't be served from a stale cache entry.
   fetch(STATUS_URL + '?_=' + Date.now(), {cache: 'no-store'})
     .then(function(res){
       if(!res.ok) throw new Error('status.json not reachable (' + res.status + ')');
@@ -179,11 +214,18 @@
       if(!data || !data.servers) return;
       renderArkStats(data.servers.ark);
       renderServerFeed(data.servers.ark, 'ark-feed-body');
+      // ARK's homepage card gets the same "Online now: X / Y online" real
+      // player-headcount line Palworld has -- passing null for the
+      // server-count/slot-count ids since ARK's plate already drives
+      // those from renderArkStats above, so this only touches the new
+      // sync-state line (and tags the card is-live, harmless for
+      // ark-plate -- see shared.css).
+      renderPlate(data.servers.ark, 'ark-plate', 'ark-live-players', null, null);
       renderServerFeed(data.servers.palworld, 'palworld-feed-body');
       renderPlate(data.servers.palworld, 'palworld-plate', 'palworld-sync-state', 'palworld-total-servers', 'palworld-total-slots');
-      renderPlate(data.servers.once_human, 'oncehuman-plate', 'oncehuman-sync-state', 'oncehuman-total-servers', 'oncehuman-total-slots');
+      renderCapacityOnly(data.servers.once_human, 'oncehuman-total-servers', 'oncehuman-total-slots');
       renderGamePageStat('palworld-live-dd', 'palworld-pending-callout', data.servers.palworld, 'palworld-page-total-servers', 'palworld-page-total-slots');
-      renderGamePageStat('oncehuman-live-dd', 'oncehuman-pending-callout', data.servers.once_human, 'oncehuman-page-total-servers', 'oncehuman-page-total-slots');
+      renderCapacityOnly(data.servers.once_human, 'oncehuman-page-total-servers', 'oncehuman-page-total-slots');
     })
     .catch(function(){
       // status.json isn't up yet (or this is the Cowork preview) —

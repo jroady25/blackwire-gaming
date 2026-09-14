@@ -1,0 +1,36 @@
+name: Discover ARK services (one-time check)
+
+# Manual-only, temporary workflow: sanity-checks discover_blackwire_ark_services()
+# against the real Nitrado account before auto_discover_ark is turned on in
+# config.template.json. Prints only service_id + name pairs to this run's log
+# (never the Nitrado token itself) so Justin can compare the list against his
+# real ~30 ARK services and confirm it correctly picks out BlackWire's and
+# skips anything else (e.g. "Trixter's Dino Mischief"). Safe to delete once
+# that comparison is done and auto_discover_ark is confirmed working.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v4
+
+      - name: Build config.json from repo secrets
+        working-directory: backend
+        env:
+          NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
+        run: python3 build_config.py > config.json
+
+      - name: Run ARK auto-discovery (read-only, prints service_id + name only)
+        working-directory: backend
+        run: python3 blackwire_status_poller.py --config config.json --discover-only
+
+      - name: Delete the generated config.json (it held the real Nitrado token)
+        if: always()
+        run: rm -f backend/config.json
+

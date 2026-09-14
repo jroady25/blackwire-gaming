@@ -1,11 +1,14 @@
 name: Deploy BlackWire admin panel
 
-# Manual only for now — flip to `push: { branches: [main], paths: ['admin/**'] }`
-# once the one-time migration steps in admin/README.md are done (copying
-# SERVICE_ALLOWLIST / NAME_EXCLUDE / CLUSTERS into admin/wrangler.toml, and
-# adding the CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID repo secrets).
-# Deploying before then would overwrite those three vars on the live Worker.
+# Deploys automatically whenever admin/** changes land on main. The
+# one-time migration steps in admin/README.md are done (SERVICE_ALLOWLIST /
+# NAME_EXCLUDE / CLUSTERS are set in admin/wrangler.toml, and the
+# CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID repo secrets are in place) —
+# a manual workflow_dispatch test run deployed cleanly on 2026-09-14.
 on:
+  push:
+    branches: [main]
+    paths: ['admin/**']
   workflow_dispatch: {}
 
 jobs:

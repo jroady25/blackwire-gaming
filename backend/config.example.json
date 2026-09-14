@@ -18,10 +18,8 @@
     {"service_id": "777777", "name": "Palworld Server 2", "host": "your.other.palworld.server.ip", "rest_api_port": 17093, "username": "admin", "password": "YOUR_PALWORLD_ADMIN_PASSWORD", "players_max": 16}
   ],
 
-  "once_human": {
-    "name": "Once Human World",
-    "host": "your.oncehuman.server.ip",
-    "query_port": 27016,
-    "players_max": 20
-  }
+  "once_human_servers": [
+    {"name": "Once Human — PVE", "host": "your.pve.oncehuman.server.ip", "query_port": 27016, "players_max": 20},
+    {"name": "Once Human — PVP", "host": "your.pvp.oncehuman.server.ip", "query_port": 27016, "players_max": 20}
+  ]
 }

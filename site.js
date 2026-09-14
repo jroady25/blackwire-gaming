@@ -80,6 +80,21 @@
   });
 })();
 
+/* Donate nav button - injected into the header next to Sign In, same
+   reasoning as the two footer-link blocks above: one place to maintain
+   instead of nine HTML files. Skipped on the donate page itself since a
+   link to the page you're already on doesn't help anyone. */
+(function(){
+  if(location.pathname.split('/').pop() === 'donate.html') return;
+  var signin = document.querySelector('header nav .signin');
+  if(!signin || document.querySelector('.nav-donate')) return;
+  var a = document.createElement('a');
+  a.href = 'donate.html';
+  a.className = 'nav-donate';
+  a.textContent = 'Donate';
+  signin.parentNode.insertBefore(a, signin);
+})();
+
 /* Donate link - same idea as the Staff link below: injected into every
    page's footer from here instead of pasted into every HTML file. */
 (function(){

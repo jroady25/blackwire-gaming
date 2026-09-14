@@ -80,6 +80,17 @@
   });
 })();
 
+/* Donate link - same idea as the Staff link below: injected into every
+   page's footer from here instead of pasted into every HTML file. */
+(function(){
+  var foot = document.querySelector('.foot-links');
+  if(!foot || foot.querySelector('a[href="donate.html"]')) return;
+  var a = document.createElement('a');
+  a.href = 'donate.html';
+  a.textContent = 'Donate';
+  foot.appendChild(a);
+})();
+
 /* Staff link - drops the admin panel into the footer of every page, so it
    lives in one place instead of being pasted into nine HTML files. */
 (function(){

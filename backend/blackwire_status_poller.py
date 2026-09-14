@@ -2,14 +2,14 @@
 """
 BlackWire status poller
 ========================
-
+ 
 Polls Nitrado's API for ARK: Survival Ascended and Palworld servers, and
 attempts a live query against the Once Human custom server, then writes
 a single status.json that the BlackWire website's live-data.js fetches
 to fill in real numbers on the homepage and per-game pages. Nothing on
 the website depends on this running — if it isn't, or status.json isn't
 reachable yet, the site just falls back to its static placeholder text.
-
+ 
 WHY THIS EXISTS AS A SEPARATE SCRIPT
 -------------------------------------
 The website itself is static HTML/JS with no server of its own. It can't
@@ -20,7 +20,7 @@ do that). So this script is meant to run somewhere you control (your
 DigitalOcean droplet is the obvious place, since that's already hosting
 the old site), poll the real data, and drop a small plain JSON file
 somewhere the website's JS can fetch it with a normal HTTPS GET.
-
+ 
 SETUP
 -----
 1. cp config.example.json config.json
@@ -81,12 +81,12 @@ SETUP
 6. Update STATUS_URL near the top of live-data.js (in the website's
    files) to point at wherever that ends up — e.g.
    "https://blackwiregaming.gg/status.json" — and republish the site.
-
+ 
 No third-party packages are required — everything here is Python's
 standard library, so this should run as-is with `python3` on the
 droplet.
 """
-
+ 
 import argparse
 import json
 import socket
@@ -95,14 +95,14 @@ import sys
 import time
 import urllib.error
 import urllib.request
-
+ 
 NITRADO_API_BASE = "https://api.nitrado.net"
-
-
+ 
+ 
 def log(msg):
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}", file=sys.stderr)
-
-
+ 
+ 
 def nitrado_get_gameserver(service_id, token):
     """
     Calls Nitrado's gameserver-details endpoint and pulls the live query
@@ -111,7 +111,7 @@ def nitrado_get_gameserver(service_id, token):
     data populated (some configs don't expose it — RCON is the fallback
     for those, but the exact command differs per game so it isn't
     implemented generically here).
-
+ 
     Docs: https://doc.nitrado.net/#api-Gameserver-Details
     """
     url = f"{NITRADO_API_BASE}/services/{service_id}/gameservers"
@@ -122,7 +122,7 @@ def nitrado_get_gameserver(service_id, token):
     except (urllib.error.URLError, TimeoutError, ValueError) as exc:
         log(f"Nitrado API call failed for service {service_id}: {exc}")
         return None
-
+ 
     try:
         gs = payload["data"]["gameserver"]
         status = gs.get("status")
@@ -143,8 +143,8 @@ def nitrado_get_gameserver(service_id, token):
     except (KeyError, TypeError) as exc:
         log(f"Unexpected Nitrado response shape for service {service_id}: {exc}")
         return None
-
-
+ 
+ 
 def poll_nitrado_group(entries, token, rcon_password=None):
     """rcon_password: the shared ARK RCON/admin password to use for any
     entry that has "host" and "rcon_port" filled in but no per-entry
@@ -166,9 +166,9 @@ def poll_nitrado_group(entries, token, rcon_password=None):
                 "map": None,
             })
             continue
-
+ 
         row = {"name": entry["name"], **data}
-
+ 
         # Optional: layer in the actual connected-player names via RCON,
         # on top of the count Nitrado's API already gave us above. Only
         # attempted when this entry has enough to try, and failure here
@@ -178,11 +178,11 @@ def poll_nitrado_group(entries, token, rcon_password=None):
             rcon_data = query_ark_rcon_players(entry["host"], entry["rcon_port"], password)
             if rcon_data is not None:
                 row["players"] = rcon_data["players"]
-
+ 
         results.append(row)
     return results
-
-
+ 
+ 
 # ---------------------------------------------------------------------
 # ARK auto-discovery — OFF by default, not yet live-verified.
 #
@@ -214,7 +214,7 @@ def poll_nitrado_group(entries, token, rcon_password=None):
 # ...and check the printed list against your real server list. Once that
 # looks right, set "auto_discover_ark": true in config.json.
 # ---------------------------------------------------------------------
-
+ 
 def nitrado_list_services(token):
     """GET /services — every service on the account. Returns a list of
     raw service dicts (shape varies), or [] on any failure."""
@@ -231,8 +231,8 @@ def nitrado_list_services(token):
     except (KeyError, TypeError) as exc:
         log(f"Unexpected /services response shape: {exc}")
         return []
-
-
+ 
+ 
 def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=None):
     """Returns [{"service_id", "name"}, ...] for every ARK: Survival
     Ascended service on the account whose live server name contains
@@ -245,7 +245,7 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         service_id = str(svc.get("id", ""))
         if not service_id or service_id in exclude_ids:
             continue
-
+ 
         url = f"{NITRADO_API_BASE}/services/{service_id}/gameservers"
         req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
         try:
@@ -254,34 +254,34 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         except (urllib.error.URLError, TimeoutError, ValueError) as exc:
             log(f"Discovery: couldn't fetch service {service_id}: {exc}")
             continue
-
+ 
         try:
             gs = payload["data"]["gameserver"]
         except (KeyError, TypeError):
             continue
-
+ 
         # Best-effort guess at which field says "this is ARK: Survival
         # Ascended" — unconfirmed, see caveat above.
         game_hint = str(gs.get("game") or gs.get("game_human") or gs.get("type") or "").lower()
         looks_like_ark = ("ark" in game_hint) or ("asa" in game_hint) or ("survival" in game_hint)
         if game_hint and not looks_like_ark:
             continue  # confidently a different game (e.g. Palworld) — skip quietly
-
+ 
         query = gs.get("query") or {}
         server_name = str(query.get("server_name") or "")
         if name_filter.lower() not in server_name.lower():
             continue
-
+ 
         if not game_hint:
             log(f"Discovery: service {service_id} ('{server_name}') matched the "
                 f"name filter but its game type field came back empty, so this "
                 f"is included on the name match alone — worth double-checking.")
-
+ 
         found.append({"service_id": service_id, "name": server_name or f"Service {service_id}"})
-
+ 
     return found
-
-
+ 
+ 
 # ---------------------------------------------------------------------
 # ARK RCON — the actual list of connected player names, on top of the
 # count Nitrado's API already gives us.
@@ -307,17 +307,17 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
 # leaves your own droplet, and never paste it anywhere other than your
 # own config.json.
 # ---------------------------------------------------------------------
-
+ 
 _RCON_AUTH = 3
 _RCON_AUTH_RESPONSE = 2
 _RCON_EXEC_COMMAND = 2
-
-
+ 
+ 
 def _rcon_pack(pkt_id, pkt_type, body):
     payload = struct.pack("<ii", pkt_id, pkt_type) + body.encode("utf-8") + b"\x00\x00"
     return struct.pack("<i", len(payload)) + payload
-
-
+ 
+ 
 def _rcon_recv_exact(sock, n):
     buf = b""
     while len(buf) < n:
@@ -326,16 +326,16 @@ def _rcon_recv_exact(sock, n):
             raise ConnectionError("RCON socket closed unexpectedly")
         buf += chunk
     return buf
-
-
+ 
+ 
 def _rcon_read_packet(sock):
     size = struct.unpack("<i", _rcon_recv_exact(sock, 4))[0]
     payload = _rcon_recv_exact(sock, size)
     pkt_id, pkt_type = struct.unpack("<ii", payload[:8])
     body = payload[8:-2].decode("utf-8", errors="replace")
     return pkt_id, pkt_type, body
-
-
+ 
+ 
 def query_ark_rcon_players(host, port, password, timeout=6):
     """Returns {"players": [name, ...]} or None on any failure (wrong
     password, RCON not reachable/enabled, connection refused, etc.)."""
@@ -344,7 +344,7 @@ def query_ark_rcon_players(host, port, password, timeout=6):
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.settimeout(timeout)
         sock.connect((host, port))
-
+ 
         sock.sendall(_rcon_pack(1, _RCON_AUTH, password))
         # Some servers send an empty SERVERDATA_RESPONSE_VALUE packet
         # ahead of the real auth response — skip past it if present.
@@ -357,14 +357,14 @@ def query_ark_rcon_players(host, port, password, timeout=6):
         if not auth_ok:
             log(f"ARK RCON auth failed ({host}:{port}) — check the RCON password.")
             return None
-
+ 
         sock.sendall(_rcon_pack(2, _RCON_EXEC_COMMAND, "listplayers"))
         _pkt_id, _pkt_type, body = _rcon_read_packet(sock)
-
+ 
         text = body.strip()
         if not text or "no players connected" in text.lower():
             return {"players": []}
-
+ 
         names = []
         for line in text.splitlines():
             line = line.strip()
@@ -381,8 +381,8 @@ def query_ark_rcon_players(host, port, password, timeout=6):
     finally:
         if sock is not None:
             sock.close()
-
-
+ 
+ 
 # ---------------------------------------------------------------------
 # Palworld — its OWN official REST API, not Nitrado's API and not RCON.
 #
@@ -406,34 +406,51 @@ def query_ark_rcon_players(host, port, password, timeout=6):
 # here since this connects straight to your server's own IP, not
 # through a public CA-verified hostname.
 # ---------------------------------------------------------------------
-
+ 
 def query_palworld_rest_api(host, port, username, password, timeout=5):
     """Returns {"online", "players_current", "players_max"} or None on
     any failure (wrong password, server offline, REST API disabled,
-    wrong port, etc.)."""
+    wrong port, etc.).
+ 
+    Tries HTTPS first (current Palworld dedicated server builds serve
+    the REST API over HTTPS with a self-signed cert), then falls back
+    to plain HTTP automatically. Some servers -- older Palworld
+    versions, or certain hosts' setups -- serve it unencrypted instead,
+    and there's no reliable way to know which without asking, so this
+    just tries both and uses whichever one answers. No per-server
+    config needed for this either way."""
     import base64
     import ssl
-
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-
+ 
     auth = base64.b64encode(f"{username}:{password}".encode("utf-8")).decode("ascii")
     headers = {"Authorization": f"Basic {auth}", "Accept": "application/json"}
-
-    def _get(path):
-        url = f"https://{host}:{port}{path}"
+ 
+    def _get(scheme, path):
+        url = f"{scheme}://{host}:{port}{path}"
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
+        if scheme == "https":
+            ctx = ssl.create_default_context()
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+            with urllib.request.urlopen(req, timeout=timeout, context=ctx) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode("utf-8"))
-
-    try:
-        players_payload = _get("/v1/api/players")
-        settings_payload = _get("/v1/api/settings")
-    except (urllib.error.URLError, TimeoutError, ValueError) as exc:
-        log(f"Palworld REST API call failed ({host}:{port}): {exc}")
+ 
+    players_payload = settings_payload = None
+    last_exc = None
+    for scheme in ("https", "http"):
+        try:
+            players_payload = _get(scheme, "/v1/api/players")
+            settings_payload = _get(scheme, "/v1/api/settings")
+            break
+        except (urllib.error.URLError, TimeoutError, ValueError, ConnectionError) as exc:
+            last_exc = exc
+            continue
+    if players_payload is None or settings_payload is None:
+        log(f"Palworld REST API call failed ({host}:{port}, tried https and http): {last_exc}")
         return None
-
+ 
     try:
         raw_players = players_payload.get("players", [])
         current = len(raw_players)
@@ -447,8 +464,8 @@ def query_palworld_rest_api(host, port, username, password, timeout=5):
     except (KeyError, TypeError, ValueError) as exc:
         log(f"Unexpected Palworld REST API response shape ({host}:{port}): {exc}")
         return None
-
-
+ 
+ 
 def poll_palworld_group(entries):
     """entries: list of {name, host, rest_api_port, username, password,
     [players_max]} — see config.example.json. Falls back to a visibly
@@ -476,8 +493,8 @@ def poll_palworld_group(entries):
             data["map"] = None
             results.append({"name": entry["name"], **data})
     return results
-
-
+ 
+ 
 # ---------------------------------------------------------------------
 # Once Human — CONFIRMED UNAVAILABLE.
 #
@@ -499,7 +516,7 @@ def poll_palworld_group(entries):
 # of curiosity, config.json's once_human block will pick it up — but
 # don't expect it to work, and there's no need to chase this further.
 # ---------------------------------------------------------------------
-
+ 
 def query_once_human_a2s(host, port, timeout=3):
     """Best-effort Source-style A2S_INFO query. Returns
     {"players_current", "players_max"} or None on any failure."""
@@ -510,7 +527,7 @@ def query_once_human_a2s(host, port, timeout=3):
         request = b"\xFF\xFF\xFF\xFFTSource Engine Query\x00"
         sock.sendto(request, (host, port))
         data, _ = sock.recvfrom(4096)
-
+ 
         # A2S_INFO response: 4-byte header (FF FF FF FF), 1-byte type
         # ('I'), 1-byte protocol version, then null-terminated name/map/
         # folder/game strings, a 2-byte app id, then 1 byte each for
@@ -531,8 +548,8 @@ def query_once_human_a2s(host, port, timeout=3):
     finally:
         if sock is not None:
             sock.close()
-
-
+ 
+ 
 def poll_once_human(cfg):
     if not cfg or not cfg.get("host"):
         return []
@@ -544,8 +561,8 @@ def poll_once_human(cfg):
             "players_current": 0, "players_max": cfg.get("players_max", 20),
         }]
     return [{"name": name, "online": True, **result}]
-
-
+ 
+ 
 def main():
     parser = argparse.ArgumentParser(description="Poll BlackWire's game servers and write status.json")
     parser.add_argument("--config", default="config.json")
@@ -556,10 +573,10 @@ def main():
                               "against your real Nitrado account before turning on "
                               "auto_discover_ark in config.json.")
     args = parser.parse_args()
-
+ 
     with open(args.config, encoding="utf-8") as f:
         cfg = json.load(f)
-
+ 
     if args.discover_only:
         discovered = discover_blackwire_ark_services(
             cfg["nitrado_token"],
@@ -570,7 +587,7 @@ def main():
         log(f"Discovery found {len(discovered)} matching service(s). Compare this "
             f"against your real server list before enabling auto_discover_ark.")
         return
-
+ 
     ark_entries = list(cfg.get("ark_servers", []))
     if cfg.get("auto_discover_ark"):
         discovered = discover_blackwire_ark_services(
@@ -585,11 +602,11 @@ def main():
                     f"('{svc['name']}') — not in config.json's hand-listed ark_servers.")
                 ark_entries.append(svc)
                 known_ids.add(svc["service_id"])
-
+ 
     ark = poll_nitrado_group(ark_entries, cfg["nitrado_token"], cfg.get("ark_rcon_password"))
     palworld = poll_palworld_group(cfg.get("palworld_servers", []))
     once_human = poll_once_human(cfg.get("once_human"))
-
+ 
     status = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "servers": {
@@ -598,11 +615,12 @@ def main():
             "once_human": {"servers": once_human},
         },
     }
-
+ 
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(status, f, indent=2)
     log(f"Wrote {args.out}")
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
+ 

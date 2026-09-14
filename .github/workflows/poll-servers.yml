@@ -9,6 +9,13 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch: {}
 
+# Serialize runs so an overlapping schedule + manual trigger can't race
+# each other's git push (queues instead of racing; doesn't cancel a
+# run already in progress).
+concurrency:
+  group: poll-servers
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -45,5 +52,8 @@ jobs:
             echo "No change in server status -- nothing to commit."
           else
             git commit -m "Update live server status"
+            # Rebase onto whatever's newest on main before pushing, in case
+            # another run (or a manual push) landed a commit in between.
+            git pull --rebase origin main
             git push
           fi

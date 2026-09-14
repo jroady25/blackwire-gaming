@@ -170,7 +170,7 @@
     }
   }
 
-  fetch(STATUS_URL, {cache: 'no-store'})
+  fetch(STATUS_URL + '?_=' + Date.now(), {cache: 'no-store'})
     .then(function(res){
       if(!res.ok) throw new Error('status.json not reachable (' + res.status + ')');
       return res.json();

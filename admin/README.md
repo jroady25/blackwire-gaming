@@ -25,27 +25,29 @@ site repo, under `admin/`, so future changes are pushed through normal git +
 review instead of a one-off local deploy — see
 `.github/workflows/deploy-admin.yml`.
 
-**Before that workflow's first real deploy, do this once:**
+**One-time migration steps — status:**
 
-1. Open the Cloudflare dashboard → Workers & Pages → `blackwire-admin` →
-   Settings → Variables, and copy the current values of `SERVICE_ALLOWLIST`,
-   `NAME_EXCLUDE`, and `CLUSTERS` into a `[vars]` block in `wrangler.toml`
-   (alongside `BASE_PATH`, which is already there). These three weren't
-   available to copy automatically during the migration — `wrangler deploy`
-   treats `wrangler.toml` as the full source of truth for vars, so
-   deploying without them would blank them out on the live Worker.
-2. Same Settings page → Triggers → Cron Triggers: confirm the cron
-   expression matches `wrangler.toml`'s `[triggers]` block (currently a
-   placeholder of "every minute" — not a confirmed value).
-3. Settings → Domains & Routes: confirm the `blackwiregaming.com/admin*`
-   route is still there (this migration doesn't touch it).
-4. Add two **GitHub Actions repo secrets** (Settings → Secrets and
-   variables → Actions, on the `blackwire-gaming` repo):
+1. ~~Copy `SERVICE_ALLOWLIST`, `NAME_EXCLUDE`, and `CLUSTERS` from the
+   Cloudflare dashboard into `wrangler.toml`'s `[vars]` block.~~ **Done** —
+   copied from the live Worker's Settings → Variables and committed
+   alongside `BASE_PATH`.
+2. ~~Confirm the cron expression in `wrangler.toml`'s `[triggers]` block
+   matches the live Worker's Settings → Triggers → Cron Triggers.~~
+   **Done** — confirmed as every minute, matching `crons = ["* * * * *"]`.
+3. ~~Confirm the `blackwiregaming.com/admin*` route is still bound to the
+   Worker (Settings → Domains & Routes).~~ **Done** — confirmed still
+   bound; this migration doesn't touch routes either way.
+4. **Still needed** — add two GitHub Actions repo secrets (Settings →
+   Secrets and variables → Actions, on the `blackwire-gaming` repo):
    - `CLOUDFLARE_API_TOKEN` — an API token scoped to Workers edit for
      this account (Cloudflare dashboard → My Profile → API Tokens →
      Create Token → "Edit Cloudflare Workers" template).
    - `CLOUDFLARE_ACCOUNT_ID` — found on the right-hand side of the
      Workers & Pages overview page in the dashboard.
+
+   These two need to be entered directly in GitHub's Settings UI by
+   someone with access to both the Cloudflare account and this repo —
+   they can't be added through this migration.
 
 Everything else — `NITRADO_TOKEN`, `SESSION_SECRET`, `ADMIN_PASSWORD`,
 `DISCORD_CLIENT_ID`, `DISCORD_CLIENT_SECRET`, `DISCORD_GUILD_ID`,

@@ -1,0 +1,63 @@
+name = "blackwire-admin"
+main = "src/worker.js"
+compatibility_date = "2026-09-14"
+
+# Static dashboard (index.html / styles.css / app.js) served via the
+# ASSETS binding referenced in src/worker.js.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Sessions, login rate-limiting, scheduled-action jobs, and the audit log
+# all live in this KV namespace. Id copied from the live Worker — do not
+# change it, or a fresh (empty) namespace will be created instead.
+[[kv_namespaces]]
+binding = "STORE"
+id = "8738ebd9dfc04d27a4a9a1cc6563bdfc"
+
+# Fires scheduled() in src/worker.js, which checks for any due delayed
+# restart/stop/start jobs and runs them.
+# VERIFY: copy the exact cron expression from the live Worker's
+# Settings -> Triggers -> Cron Triggers before the first deploy from CI —
+# this is a reasonable guess (every minute), not a confirmed value.
+[triggers]
+crons = ["* * * * *"]
+
+# Mounts the panel at blackwiregaming.com/admin instead of serving from
+# the workers.dev root. src/worker.js reads this at request time.
+[vars]
+BASE_PATH = "/admin"
+
+# --------------------------------------------------------------------
+# NOT included here on purpose, and why:
+#
+# SERVICE_ALLOWLIST / NAME_EXCLUDE / CLUSTERS
+#   These are plain (non-secret) vars the live Worker currently has set
+#   in the Cloudflare dashboard (Workers & Pages -> blackwire-admin ->
+#   Settings -> Variables). Their exact values weren't available from
+#   this migration (no Cloudflare dashboard session to read them from),
+#   and `wrangler deploy` treats this file as the full source of truth —
+#   deploying without them here would blank them out on the live Worker.
+#   Before the first deploy from CI, copy their current values from the
+#   dashboard into a `[vars]` block above.
+#
+# NITRADO_TOKEN / SESSION_SECRET / ADMIN_PASSWORD / DISCORD_CLIENT_ID /
+# DISCORD_CLIENT_SECRET / DISCORD_GUILD_ID / DISCORD_ADMIN_ROLE_IDS /
+# NITRADO_BASE_URL
+#   Worker secrets (`wrangler secret put ...`), set directly in
+#   Cloudflare and never written to a file. A normal `wrangler deploy`
+#   does not touch existing secrets, so these stay put across this
+#   migration with nothing to do.
+#
+# Workers Route (blackwiregaming.com/admin*)
+#   Routes aren't declared in this file by default in this setup: the
+#   live Worker already has a route bound to it in the dashboard
+#   (Workers & Pages -> blackwire-admin -> Settings -> Domains & Routes),
+#   and `wrangler deploy` leaves existing routes alone unless you add a
+#   [[routes]] block here. Nothing to do for this migration; add one
+#   only if you want the route itself managed from this file going
+#   forward, e.g.:
+#     [[routes]]
+#     pattern = "blackwiregaming.com/admin*"
+#     zone_name = "blackwiregaming.com"
+# --------------------------------------------------------------------

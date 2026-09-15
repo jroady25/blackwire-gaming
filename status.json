@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:12:00Z",
+  "generated_at": "2026-09-15T04:17:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,11 +13,12 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1"
+            "Arigatu1",
+            "Lady Sharp"
           ]
         },
         {
@@ -26,7 +27,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "Astraeos \u2014 PVE",

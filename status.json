@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:02:38Z",
+  "generated_at": "2026-09-15T03:06:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,7 +13,7 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -35,7 +35,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "dejectedheart71"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -131,7 +131,8 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "AllenDWoodz"
+            "AllenDWoodz",
+            "legendx12x"
           ]
         },
         {
@@ -166,7 +167,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "dejectedheart71"
+          ]
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

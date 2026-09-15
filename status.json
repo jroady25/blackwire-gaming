@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:36:59Z",
+  "generated_at": "2026-09-15T02:42:18Z",
   "servers": {
     "ark": {
       "servers": [
@@ -103,7 +103,7 @@
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
           "players": []
@@ -147,12 +147,11 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
-            "NanQuil55"
+            "Reilig"
           ]
         },
         {

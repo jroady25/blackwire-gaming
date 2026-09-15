@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:07:21Z",
+  "generated_at": "2026-09-15T14:12:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,7 +29,7 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -175,9 +175,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Salem"
+          ],
           "map": null
         },
         {

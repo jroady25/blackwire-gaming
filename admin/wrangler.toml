@@ -38,11 +38,23 @@ CLUSTERS = '''[{"name": "Palworld", "match": ["palworld"]}, {"name": "BlackWire"
 #
 # NITRADO_TOKEN / SESSION_SECRET / ADMIN_PASSWORD / DISCORD_CLIENT_ID /
 # DISCORD_CLIENT_SECRET / DISCORD_GUILD_ID / DISCORD_ADMIN_ROLE_IDS /
-# NITRADO_BASE_URL
+# NITRADO_BASE_URL / GH_DISPATCH_TOKEN
 #   Worker secrets (`wrangler secret put ...`), set directly in
 #   Cloudflare and never written to a file. A normal `wrangler deploy`
 #   does not touch existing secrets, so these stay put across this
 #   migration with nothing to do.
+#
+#   GH_DISPATCH_TOKEN specifically (added 2026-09-15, not yet set): a
+#   GitHub token used by scheduled() in src/worker.js to reliably kick
+#   off the public site's poll-servers.yml workflow every 5 minutes,
+#   since GitHub's own schedule: trigger for that workflow has proven
+#   unreliable. Create a fine-grained GitHub PAT scoped to ONLY the
+#   jroady25/blackwire-gaming repo with "Actions: Read and write"
+#   permission and nothing else, then set it with
+#   `wrangler secret put GH_DISPATCH_TOKEN` (or via the Cloudflare
+#   dashboard: blackwire-admin -> Settings -> Variables -> add a
+#   secret). Until it's set, dispatchStatusPoll() silently no-ops, so
+#   this is safe to have deployed already.
 #
 # Workers Route (blackwiregaming.com/admin*)
 #   Routes aren't declared in this file by default in this setup: the

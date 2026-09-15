@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:47:26Z",
+  "generated_at": "2026-09-15T19:52:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,10 +21,12 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "NanQuil55"
+          ]
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -84,7 +86,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "VirtualParadise"
+          ]
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
@@ -117,8 +121,8 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
-            "Sir_S4us4ge_JTW",
-            "SL4UGHT3R_MDW"
+            "SL4UGHT3R_MDW",
+            "Sir_S4us4ge_JTW"
           ]
         },
         {
@@ -144,7 +148,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "taterbugg_06"
+            "taterbugg_06",
+            "runcrawlslither"
           ]
         },
         {

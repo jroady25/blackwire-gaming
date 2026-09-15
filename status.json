@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:37:07Z",
+  "generated_at": "2026-09-15T22:42:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,7 +13,7 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -37,7 +37,7 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [

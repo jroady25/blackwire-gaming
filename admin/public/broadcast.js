@@ -81,7 +81,7 @@
     if (!ids.length) { $('send-note').className = 'note bad'; $('send-note').textContent = 'Pick at least one server first.'; return; }
     if (!message) { $('send-note').className = 'note bad'; $('send-note').textContent = 'Type a message first.'; return; }
 
-    var buttons = [$('send-chat'), $('send-center')];
+    var buttons = [$('send-chat')];
     buttons.forEach(function (b) { b.disabled = true; });
     $('send-note').className = 'note';
     $('send-note').textContent = 'Sending to ' + ids.length + ' server' + (ids.length > 1 ? 's' : '') + '…';
@@ -93,8 +93,7 @@
         var failed = (data.results || []).length - ok;
         $('send-note').className = 'note' + (failed ? ' warn' : '');
         $('send-note').textContent = 'Sent to ' + ok + ' server' + (ok === 1 ? '' : 's') +
-          (failed ? ', ' + failed + ' failed.' : '.') +
-          (data.mode === 'center' ? ' Center screen.' : ' In chat.');
+          (failed ? ', ' + failed + ' failed.' : '.');
       })
       .catch(function (err) {
         if (err.message === 'unauthorized') return;
@@ -207,7 +206,6 @@
     syncPicked();
   });
   $('send-chat').addEventListener('click', function () { send('chat'); });
-  $('send-center').addEventListener('click', function () { send('center'); });
   $('roster-load').addEventListener('click', loadRoster);
 
   api('api/rcon/targets')
@@ -221,7 +219,6 @@
           'ARK_RCON_PASSWORD is not set on the Worker, so nothing here can send yet. ' +
           'Add it in Cloudflare (blackwire-admin → Settings → Variables → add a secret) — it is the same ARK admin password the poller already uses.';
         $('send-chat').disabled = true;
-        $('send-center').disabled = true;
         $('roster-load').disabled = true;
       }
       if (!TARGETS.length) {

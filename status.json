@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:26:56Z",
+  "generated_at": "2026-09-15T22:32:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,11 +13,10 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "AllenDWoodz",
             "Reilig"
           ]
         },
@@ -140,7 +139,7 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []
@@ -167,7 +166,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         }
       ]
     },
@@ -176,11 +177,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "StankGoose "
-          ],
+          "players": [],
           "map": null
         },
         {

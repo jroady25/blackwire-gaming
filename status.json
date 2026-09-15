@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:37:10Z",
+  "generated_at": "2026-09-15T07:42:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,7 +45,7 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []

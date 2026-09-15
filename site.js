@@ -117,3 +117,14 @@
   a.textContent = 'Staff';
   foot.appendChild(a);
 })();
+/* Wall link - the network board at wall.html, injected into the nav
+   the same way Donate is, so it lives in one place. */
+(function(){
+  if(location.pathname.split('/').pop() === 'wall.html') return;
+  var links = document.getElementById('navLinks');
+  if(!links || links.querySelector('a[href="wall.html"]')) return;
+  var a = document.createElement('a');
+  a.href = 'wall.html';
+  a.textContent = 'Wall';
+  links.appendChild(a);
+})();

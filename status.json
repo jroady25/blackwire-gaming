@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:57:08Z",
+  "generated_at": "2026-09-15T03:02:38Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,8 +17,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1",
-            "NanQuil55"
+            "Arigatu1"
           ]
         },
         {
@@ -156,12 +155,10 @@
         {
           "name": "The Center \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

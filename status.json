@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:27:05Z",
+  "generated_at": "2026-09-15T02:32:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,7 +13,7 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [

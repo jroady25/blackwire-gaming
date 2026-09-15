@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:22:18Z",
+  "generated_at": "2026-09-15T21:26:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,12 +29,10 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "jana_mew"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -91,12 +89,10 @@
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
@@ -104,7 +100,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -136,9 +134,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "RogueTheDeadly"
-          ]
+          "players": []
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",

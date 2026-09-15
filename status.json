@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:52:21Z",
+  "generated_at": "2026-09-15T07:57:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,7 +33,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "dejectedheart71"
+            "dejectedheart71",
+            "AllenDWoodz"
           ]
         },
         {
@@ -121,12 +122,10 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T20:12:14Z",
+  "generated_at": "2026-09-15T20:17:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -31,7 +31,7 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [

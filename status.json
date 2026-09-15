@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:12:19Z",
+  "generated_at": "2026-09-15T21:17:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,10 +29,12 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "jana_mew"
+          ]
         },
         {
           "name": "Extinction \u2014 PVE",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:06:49Z",
+  "generated_at": "2026-09-15T03:12:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -31,11 +31,13 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "legendx12x",
+            "dejectedheart71"
           ]
         },
         {
@@ -131,8 +133,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "AllenDWoodz",
-            "legendx12x"
+            "AllenDWoodz"
           ]
         },
         {
@@ -167,9 +168,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "dejectedheart71"
-          ]
+          "players": []
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

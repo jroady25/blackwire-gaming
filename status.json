@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:37:03Z",
+  "generated_at": "2026-09-15T04:42:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -79,7 +79,7 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -121,13 +121,12 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
             "AllenDWoodz",
-            "Dame Duchess",
-            "arty8r"
+            "Dame Duchess"
           ]
         },
         {
@@ -167,10 +166,12 @@
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "arty8r"
+          ]
         }
       ]
     },

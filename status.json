@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:32:31Z",
+  "generated_at": "2026-09-15T03:36:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,10 +13,12 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "Valguero \u2014 PVE",
@@ -160,12 +162,10 @@
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "dejectedheart71"
-          ]
+          "players": []
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

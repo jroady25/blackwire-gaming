@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:32:28Z",
+  "generated_at": "2026-09-15T07:37:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,9 +48,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "JDavid_0325"
-          ]
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",

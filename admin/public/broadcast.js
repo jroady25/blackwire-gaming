@@ -62,12 +62,14 @@
   function renderResults(results) {
     $('results').innerHTML = results.map(function (r) {
       var name = NAMES[r.serviceId] || r.serviceId;
-      // Show whatever the server said back. ARK usually answers an accepted
-      // command with nothing, so any text here is the server complaining.
+      // "Server received, But no response!!" is ARK's way of saying the
+      // command ran and produced no output -- that's a success, not a
+      // failure. Anything else coming back is the server complaining.
       var reply = (r.body || '').trim().replace(/\s+/g, ' ').slice(0, 90);
+      var benign = !reply || /server received/i.test(reply);
       return '<div class="res"><span>' + esc(name) + '</span>' +
         (r.ok
-          ? '<span class="' + (reply ? 'bad' : 'ok') + '">' + esc(reply || 'sent') + '</span>'
+          ? '<span class="' + (benign ? 'ok' : 'bad') + '">' + esc(benign ? 'sent' : reply) + '</span>'
           : '<span class="bad">' + esc(r.error || 'failed') + '</span>') +
         '</div>';
     }).join('');

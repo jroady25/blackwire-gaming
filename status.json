@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:07:00Z",
+  "generated_at": "2026-09-15T04:12:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,9 +34,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "KAKASHIxHATAKE97"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -191,9 +189,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "KonekoTheKatt"
+          ],
           "map": null
         }
       ]

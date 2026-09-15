@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:27:11Z",
+  "generated_at": "2026-09-15T16:32:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -149,7 +149,7 @@
         {
           "name": "The Center \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []

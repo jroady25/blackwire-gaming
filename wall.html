@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BlackWire — Network Wall</title>
+<meta name="theme-color" content="#0a0706">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   BLACKWIRE NETWORK WALL
+   Full-screen ops board. Built for a TV or spare monitor at
+   viewing distance. Reads status.json from its own directory,
+   same trick live-data.js uses, so it works at the domain root
+   or from GitHub's /blackwire-gaming/ preview subfolder.
+   ============================================================ */
+
+/* Tokens lifted verbatim from the site's shared.css so the wall is the
+   same object as the rest of BlackWire, not a lookalike. */
+:root{
+  --void:       #0a0706;
+  --panel:      #160d0c;
+  --panel-2:    #1d1210;
+  --line:       #3a1a16;
+  --steel:      #9a938c;
+  --blood:      #e2231a;
+  --blood-deep: #7a120c;
+  --blood-text: #ea514a;
+  --live:       #ff4433;
+  --pending:    #d9a441;
+  --text:       #ece7e2;
+  --text-dim:   #ad9f97;
+  --text-faint: #8f8078;
+
+  --font-display:'Big Shoulders Stencil Text', 'Arial Narrow', sans-serif;
+  --font-body:   'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:   'IBM Plex Mono', 'Courier New', monospace;
+
+  --blood-glow: rgba(226,35,26,.20);
+
+  --gap: clamp(6px, .55vw, 14px);
+  --notch: clamp(7px, .62vw, 14px);
+
+  /* same corner cut and direction as .plate on the site */
+  --plate-clip: polygon(
+    var(--notch) 0, 100% 0,
+    100% calc(100% - var(--notch)), calc(100% - var(--notch)) 100%,
+    0 100%, 0 var(--notch)
+  );
+}
+
+*{ box-sizing:border-box; margin:0; padding:0; }
+
+html,body{ height:100%; overflow:hidden; }
+
+body{
+  background:var(--void);
+  color:var(--text);
+  font-family:var(--font-mono);
+  font-size:clamp(11px, .78vw, 20px);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+/* Same circuit-trace field the rest of the site sits on, dropped to a
+   third of its opacity so it reads as texture at TV distance instead of
+   competing with the plates, plus a vignette to seat them. */
+body::before{
+  content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='170' height='170'%3E%3Cg fill='none' stroke='%23e2231a' stroke-width='1.2' opacity='0.05'%3E%3Cpath d='M0 32 H42 V74 H96 V32 H170'/%3E%3Cpath d='M22 170 V124 H74 V92'/%3E%3Cpath d='M170 108 H128 V146 H104'/%3E%3C/g%3E%3Cg fill='%23e2231a' opacity='0.05'%3E%3Ccircle cx='42' cy='32' r='2.2'/%3E%3Ccircle cx='42' cy='74' r='2.2'/%3E%3Ccircle cx='96' cy='74' r='2.2'/%3E%3Ccircle cx='96' cy='32' r='2.2'/%3E%3Ccircle cx='74' cy='124' r='2.2'/%3E%3Ccircle cx='74' cy='92' r='2.2'/%3E%3Ccircle cx='128' cy='108' r='2.2'/%3E%3Ccircle cx='128' cy='146' r='2.2'/%3E%3Ccircle cx='104' cy='146' r='2.2'/%3E%3C/g%3E%3C/svg%3E"),
+    radial-gradient(ellipse 120% 90% at 50% 0%, rgba(226,35,26,.05), transparent 60%),
+    radial-gradient(ellipse 140% 110% at 50% 100%, rgba(0,0,0,.55), transparent 55%);
+  background-size:170px 170px, cover, cover;
+}
+
+/* Burn-in mitigation: the whole board drifts a few pixels over ~11
+   minutes. Imperceptible while you're looking at it, but it stops a
+   static plate edge etching itself into an OLED left on all day. */
+@keyframes drift{
+  0%   { transform:translate(0,0); }
+  25%  { transform:translate(3px,2px); }
+  50%  { transform:translate(0,4px); }
+  75%  { transform:translate(-3px,1px); }
+  100% { transform:translate(0,0); }
+}
+
+#wall{
+  position:relative; z-index:1;
+  height:100%;
+  padding:clamp(10px,1vw,26px);
+  padding-top:calc(clamp(10px,1vw,26px) + env(safe-area-inset-top, 0px));
+  padding-bottom:calc(clamp(10px,1vw,26px) + env(safe-area-inset-bottom, 0px));
+  display:grid;
+  grid-template-rows:auto auto 1fr auto;
+  gap:var(--gap);
+  animation:drift 660s ease-in-out infinite;
+}
+
+/* ---------------- header ---------------- */
+
+.head{
+  display:flex; align-items:flex-end; justify-content:space-between;
+  gap:var(--gap); padding-bottom:clamp(6px,.5vw,12px);
+  border-bottom:2px solid var(--line);
+}
+
+.brand{ display:flex; align-items:baseline; gap:.6em; min-width:0; }
+
+.brand h1{
+  font-family:var(--font-display);
+  font-weight:900;
+  font-size:clamp(26px, 3.1vw, 74px);
+  line-height:.82;
+  letter-spacing:.012em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+.brand h1 .wire{ color:var(--blood); }
+
+.brand .sub{
+  font-size:clamp(8px,.62vw,15px);
+  letter-spacing:.42em;
+  text-transform:uppercase;
+  color:var(--text-faint);
+  white-space:nowrap;
+  padding-bottom:.35em;
+}
+
+.clock{ text-align:right; line-height:1; flex-shrink:0; }
+.clock .time{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:clamp(26px,3.1vw,74px);
+  line-height:.82;
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.02em;
+}
+.clock .sync{
+  margin-top:.45em;
+  font-size:clamp(8px,.6vw,14px);
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--text-faint);
+  white-space:nowrap;
+}
+.clock .sync b{ color:var(--text-dim); font-weight:500; }
+.clock .sync.stale{ color:var(--pending); }
+.clock .sync.stale b{ color:var(--pending); }
+
+/* ---------------- top stat strip ---------------- */
+
+.strip{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:var(--gap);
+}
+
+.stat{
+  background:linear-gradient(160deg, var(--panel-2), var(--panel));
+  border-left:3px solid var(--blood-deep);
+  clip-path:var(--plate-clip);
+  padding:clamp(6px,.6vw,15px) clamp(9px,.85vw,22px);
+  display:flex; flex-direction:column; align-items:flex-start; gap:.25em;
+}
+.stat .label{
+  font-size:clamp(8px,.58vw,14px);
+  letter-spacing:.24em; text-transform:uppercase; color:var(--text-faint);
+  order:2;
+}
+.stat .value{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:clamp(22px,2.3vw,56px);
+  line-height:.85;
+  font-variant-numeric:tabular-nums;
+}
+.stat.hot{ border-left-color:var(--blood); }
+.stat.hot .value{ color:var(--blood); }
+.stat .value .of{ color:var(--text-faint); font-size:.5em; }
+
+/* ---------------- body grid ---------------- */
+
+.board{
+  display:grid;
+  grid-template-columns:1fr clamp(190px, 21vw, 460px);
+  gap:var(--gap);
+  column-gap:calc(var(--gap) * 2.4);
+  min-height:0;
+}
+
+.col{ display:grid; gap:var(--gap); min-height:0; }
+.col.side{ grid-template-rows:1fr 1fr; }
+
+section.zone{
+  display:grid;
+  grid-template-rows:auto 1fr;
+  gap:var(--gap);
+  min-height:0;
+}
+
+.zone-head{
+  display:flex; align-items:center; gap:.65em;
+  border-bottom:1px solid var(--line);
+  padding-bottom:.3em;
+}
+.zone-head h2{
+  font-family:var(--font-display);
+  font-weight:700;
+  font-size:clamp(15px,1.45vw,36px);
+  line-height:1;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+.zone-head .meta{
+  margin-left:auto;
+  font-size:clamp(8px,.6vw,15px);
+  letter-spacing:.16em; text-transform:uppercase;
+  color:var(--text-faint);
+  white-space:nowrap;
+}
+.zone-head .meta b{ color:var(--text); font-weight:600; }
+
+/* Rows stretch to fill the column. A wall display that only fills the
+   top half of the screen is a website, not a wall display. */
+.grid{
+  display:grid;
+  gap:var(--gap);
+  min-height:0;
+  align-content:stretch;
+  grid-auto-rows:minmax(0, 1fr);
+}
+#ark-grid{ grid-template-columns:repeat(auto-fill, minmax(clamp(150px,13.5vw,300px), 1fr)); }
+.col.side .grid{ grid-template-columns:1fr; }
+
+/* ---------------- server plate ---------------- */
+
+.srv{
+  position:relative;
+  background:linear-gradient(158deg, var(--panel-2) 0%, var(--panel) 70%);
+  clip-path:var(--plate-clip);
+  padding:clamp(5px,.5vw,13px) clamp(7px,.68vw,17px) clamp(6px,.55vw,14px);
+  display:grid;
+  grid-auto-rows:auto;
+  align-content:space-between;
+  gap:clamp(2px,.2vw,6px);
+  border-left:3px solid var(--text-faint);
+  min-width:0;
+  overflow:hidden;
+}
+
+/* Three states, deliberately different at ten feet:
+   offline = dimmed out, online-but-empty = lit edge only,
+   populated = breathing glow. Otherwise a wall of "online" plates all
+   shout equally and you can't see where anyone actually is. */
+.srv.on{ border-left-color:var(--blood); }
+.srv.off{ opacity:.42; }
+
+.srv.pop::after{
+  content:''; position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(100deg, var(--blood-glow), transparent 58%);
+  animation:breathe 3.4s ease-in-out infinite;
+}
+@keyframes breathe{ 0%,100%{opacity:.45} 50%{opacity:1} }
+
+.srv .name{
+  display:flex; align-items:center; gap:.45em;
+  font-family:var(--font-body);
+  font-weight:600;
+  font-size:clamp(10px,.82vw,21px);
+  line-height:1.12;
+  letter-spacing:.005em;
+  min-width:0;
+}
+.srv .name span{
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+
+.dot{
+  flex:0 0 auto;
+  width:.52em; height:.52em; border-radius:50%;
+  background:var(--text-faint);
+}
+.srv.on .dot{
+  background:var(--live);
+  box-shadow:0 0 0 0 var(--blood);
+  animation:ping 2.4s ease-out infinite;
+}
+@keyframes ping{
+  0%{ box-shadow:0 0 0 0 rgba(226,35,26,.55); }
+  70%{ box-shadow:0 0 0 .55em rgba(226,35,26,0); }
+  100%{ box-shadow:0 0 0 0 rgba(226,35,26,0); }
+}
+
+.srv .row{
+  display:flex; align-items:flex-end; justify-content:space-between; gap:.5em;
+}
+
+.srv .map{
+  font-size:clamp(8px,.58vw,14px);
+  letter-spacing:.14em; text-transform:uppercase;
+  color:var(--text-faint);
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+
+.srv .count{
+  font-family:var(--font-display);
+  font-weight:700;
+  /* scales off height as well as width, so tall plates on a TV get a
+     number you can read from the couch */
+  font-size:clamp(18px, min(2vw, 5.2vh), 58px);
+  line-height:.78;
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+  flex:0 0 auto;
+}
+.srv.on .count{ color:var(--text); }
+.srv.on.pop .count{ color:var(--blood); }
+.srv .count .of{ color:var(--text-faint); font-size:.5em; font-weight:400; }
+
+.bar{
+  height:clamp(3px,.24vw,7px);
+  background:#000;
+  overflow:hidden;
+}
+.bar i{
+  display:block; height:100%; width:0%;
+  background:linear-gradient(90deg, var(--blood-deep), var(--blood));
+  transition:width .9s cubic-bezier(.2,.7,.2,1);
+}
+.srv.off .bar i{ background:var(--text-faint); }
+
+.roster{
+  font-size:clamp(8px,.56vw,13px);
+  color:var(--text-dim);
+  letter-spacing:.04em;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  min-height:1.1em;
+}
+.roster:empty::before{ content:'—'; color:var(--line); }
+
+/* ---------------- footer ---------------- */
+
+.foot{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:var(--gap);
+  border-top:1px solid var(--line);
+  padding-top:clamp(4px,.4vw,10px);
+  font-size:clamp(8px,.58vw,14px);
+  letter-spacing:.2em; text-transform:uppercase;
+  color:var(--text-faint);
+}
+.foot .marks{ display:flex; gap:1.6em; flex-wrap:wrap; }
+.foot .key{ display:flex; align-items:center; gap:.45em; }
+.foot .key i{ width:.55em; height:.55em; border-radius:50%; display:inline-block; }
+.foot .key i.live{ background:var(--blood); }
+.foot .key i.dark{ background:var(--text-faint); }
+.foot .err{ color:var(--pending); letter-spacing:.14em; }
+
+/* ---------------- narrow / portrait fallback ---------------- */
+
+@media (max-aspect-ratio: 1/1), (max-width: 900px){
+  html,body{ overflow:auto; }
+  #wall{ height:auto; min-height:100%; animation:none; }
+  .board{ grid-template-columns:1fr; column-gap:var(--gap); }
+  .col.side{ grid-template-rows:auto auto; }
+  .strip{ grid-template-columns:repeat(2,1fr); }
+  /* stop stretching rows once the page scrolls — plates size to content */
+  .grid{ grid-auto-rows:auto; align-content:start; }
+  .srv{ align-content:start; gap:clamp(3px,1vw,8px); }
+  .srv .count{ font-size:clamp(20px,7vw,40px); }
+  #ark-grid{ grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); }
+}
+</style>
+</head>
+<body>
+
+<div id="wall">
+
+  <header class="head">
+    <div class="brand">
+      <h1>BLACK<span class="wire">WIRE</span></h1>
+      <div class="sub">Network Status</div>
+    </div>
+    <div class="clock">
+      <div class="time" id="clock">--:--</div>
+      <div class="sync" id="sync">Sync <b>—</b></div>
+    </div>
+  </header>
+
+  <div class="strip">
+    <div class="stat hot">
+      <span class="label">Players</span>
+      <span class="value" id="s-players">0</span>
+    </div>
+    <div class="stat">
+      <span class="label">Servers Up</span>
+      <span class="value" id="s-up">0<span class="of">/0</span></span>
+    </div>
+    <div class="stat">
+      <span class="label">Capacity</span>
+      <span class="value" id="s-cap">0<span class="of">%</span></span>
+    </div>
+    <div class="stat">
+      <span class="label">Populated</span>
+      <span class="value" id="s-pop">0</span>
+    </div>
+  </div>
+
+  <div class="board">
+    <div class="col">
+      <section class="zone">
+        <div class="zone-head">
+          <h2>ARK — Survival Ascended</h2>
+          <div class="meta"><b id="ark-up">0</b>/<span id="ark-total">0</span> online · <b id="ark-players">0</b> players</div>
+        </div>
+        <div class="grid" id="ark-grid"></div>
+      </section>
+    </div>
+
+    <div class="col side">
+      <section class="zone">
+        <div class="zone-head">
+          <h2>Palworld</h2>
+          <div class="meta"><b id="pal-up">0</b>/<span id="pal-total">0</span></div>
+        </div>
+        <div class="grid" id="pal-grid"></div>
+      </section>
+
+      <section class="zone">
+        <div class="zone-head">
+          <h2>Once Human</h2>
+          <div class="meta"><b id="oh-up">0</b>/<span id="oh-total">0</span></div>
+        </div>
+        <div class="grid" id="oh-grid"></div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="foot">
+    <div class="marks">
+      <span class="key"><i class="live"></i> Online</span>
+      <span class="key"><i class="dark"></i> Offline</span>
+    </div>
+    <div class="err" id="err"></div>
+    <div id="stamp">blackwiregaming.com</div>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  'use strict';
+
+  /* status.json resolved relative to this page, so /wall.html at the
+     domain root and the GitHub /blackwire-gaming/ preview both work. */
+  var STATUS_URL = new URL('status.json', document.baseURI).href;
+
+  var REFRESH_MS = 60000;   // status.json itself only moves every 5 min
+  var STALE_MS   = 16 * 60000;  // three missed polls => say so
+
+  /* Last known payload, so a single failed fetch doesn't blank the wall.
+     Seeded with a snapshot to keep the board populated on first paint
+     and in any preview where the fetch can't reach the live file. */
+  var SNAPSHOT = {"generated_at":null,"servers":{"ark":{"servers":[{"name":"Event Map — Club Ark","online":false,"players_current":0,"players_max":0,"map":null},{"name":"Ragnarok — PVE","online":true,"players_current":1,"players_max":20,"map":"Ragnarok_WP","players":["Arigatu1"]}]},"palworld":{"servers":[{"name":"Palworld Server 1","online":true,"players_current":1,"players_max":16,"players":["StankGoose"],"map":null},{"name":"Palworld Server 2","online":true,"players_current":0,"players_max":16,"players":[],"map":null}]},"once_human":{"servers":[{"name":"Once Human — PVE","online":false,"players_current":0,"players_max":20},{"name":"Once Human — PVP","online":false,"players_current":0,"players_max":20}]}}};
+
+  var el = function(id){ return document.getElementById(id); };
+
+  /* ---------- map codes -> readable names ---------- */
+  var MAPS = {
+    TheIsland_WP:'The Island', TheCenter_WP:'The Center',
+    ScorchedEarth_WP:'Scorched Earth', Aberration_WP:'Aberration',
+    Extinction_WP:'Extinction', Ragnarok_WP:'Ragnarok',
+    Astraeos_WP:'Astraeos', Valguero_WP:'Valguero',
+    CrystalIsles_WP:'Crystal Isles', Fjordur_WP:'Fjordur',
+    LostIsland_WP:'Lost Island', Genesis_WP:'Genesis',
+    Gen2_WP:'Genesis 2', BobsMissions_WP:'Club Ark'
+  };
+  function prettyMap(m){
+    if(!m) return '';
+    if(MAPS[m]) return MAPS[m];
+    return String(m).replace(/_WP$/,'').replace(/([a-z])([A-Z])/g,'$1 $2');
+  }
+
+  /* Server names already carry the map ("Ragnarok — PVE"), so only show
+     the map line when it adds something the name doesn't. */
+  function mapLine(srv){
+    var m = prettyMap(srv.map);
+    if(!m) return '';
+    var n = (srv.name||'').toLowerCase();
+    if(n.indexOf(m.toLowerCase()) !== -1) return '';
+    return m;
+  }
+
+  function esc(s){
+    return String(s==null?'':s).replace(/[&<>"]/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];
+    });
+  }
+
+  function plate(srv){
+    var on   = !!srv.online;
+    var cur  = srv.players_current|0;
+    var max  = srv.players_max|0;
+    var pct  = (on && max>0) ? Math.min(100, Math.round(cur/max*100)) : 0;
+    var pop  = on && cur>0;
+    var list = Array.isArray(srv.players)
+      ? srv.players.map(function(p){ return String(p).trim(); }).filter(Boolean)
+      : [];
+
+    var cls = 'srv ' + (on ? 'on' : 'off') + (pop ? ' pop' : '');
+    var ml  = mapLine(srv);
+
+    return '<div class="' + cls + '">'
+      + '<div class="name"><i class="dot"></i><span>' + esc(srv.name) + '</span></div>'
+      + '<div class="row">'
+        + '<div class="map">' + (on ? (ml || 'Online') : 'Offline') + '</div>'
+        + '<div class="count">' + (on ? cur : '—')
+          + (on && max ? '<span class="of">/' + max + '</span>' : '')
+        + '</div>'
+      + '</div>'
+      + '<div class="bar"><i style="width:' + pct + '%"></i></div>'
+      + '<div class="roster">' + esc(list.join(', ')) + '</div>'
+      + '</div>';
+  }
+
+  function tally(list){
+    var t = { up:0, total:list.length, players:0, slots:0, pop:0 };
+    list.forEach(function(s){
+      if(s.online){
+        t.up++;
+        t.slots   += (s.players_max|0);
+        t.players += (s.players_current|0);
+        if((s.players_current|0) > 0) t.pop++;
+      }
+    });
+    return t;
+  }
+
+  function render(data){
+    var g   = (data && data.servers) || {};
+    var ark = (g.ark && g.ark.servers) || [];
+    var pal = (g.palworld && g.palworld.servers) || [];
+    var oh  = (g.once_human && g.once_human.servers) || [];
+
+    el('ark-grid').innerHTML = ark.map(plate).join('');
+    el('pal-grid').innerHTML = pal.map(plate).join('');
+    el('oh-grid').innerHTML  = oh.map(plate).join('');
+
+    var ta = tally(ark), tp = tally(pal), to = tally(oh);
+
+    el('ark-up').textContent     = ta.up;
+    el('ark-total').textContent  = ta.total;
+    el('ark-players').textContent= ta.players;
+    el('pal-up').textContent     = tp.up;
+    el('pal-total').textContent  = tp.total;
+    el('oh-up').textContent      = to.up;
+    el('oh-total').textContent   = to.total;
+
+    var players = ta.players + tp.players + to.players;
+    var up      = ta.up + tp.up + to.up;
+    var total   = ta.total + tp.total + to.total;
+    var slots   = ta.slots + tp.slots + to.slots;
+    var pop     = ta.pop + tp.pop + to.pop;
+
+    el('s-players').textContent = players;
+    el('s-up').innerHTML        = up + '<span class="of">/' + total + '</span>';
+    el('s-cap').innerHTML       = (slots ? Math.round(players/slots*100) : 0) + '<span class="of">%</span>';
+    el('s-pop').textContent     = pop;
+  }
+
+  function stampSync(iso, failed){
+    var node = el('sync');
+    if(!iso){ node.innerHTML = 'Sync <b>—</b>'; return; }
+    var t   = new Date(iso);
+    var age = Date.now() - t.getTime();
+    var mins= Math.max(0, Math.round(age/60000));
+    var ago = mins < 1 ? 'just now' : mins + 'm ago';
+    node.innerHTML = 'Sync <b>' + ago + '</b>';
+    node.classList.toggle('stale', age > STALE_MS || !!failed);
+  }
+
+  function clock(){
+    var d = new Date();
+    el('clock').textContent =
+      String(d.getHours()).padStart(2,'0') + ':' + String(d.getMinutes()).padStart(2,'0');
+  }
+
+  var last = null;
+
+  function pull(){
+    fetch(STATUS_URL + '?_=' + Date.now(), { cache:'no-store' })
+      .then(function(r){
+        if(!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function(data){
+        last = data;
+        el('err').textContent = '';
+        render(data);
+        stampSync(data.generated_at, false);
+      })
+      .catch(function(e){
+        /* keep the last good board on screen; just flag the feed */
+        el('err').textContent = 'Feed unreachable — showing last known';
+        if(last) stampSync(last.generated_at, true);
+        else { render(SNAPSHOT); stampSync(null, true); }
+      });
+  }
+
+  render(SNAPSHOT);
+  clock();
+  pull();
+  setInterval(clock, 10000);
+  setInterval(pull, REFRESH_MS);
+  /* re-age the "Xm ago" label between pulls so it never looks frozen */
+  setInterval(function(){ if(last) stampSync(last.generated_at, false); }, 30000);
+})();
+</script>
+</body>
+</html>

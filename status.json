@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:32:20Z",
+  "generated_at": "2026-09-15T02:36:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -35,8 +35,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "dejectedheart71",
-            "legendx12x"
+            "dejectedheart71"
           ]
         },
         {
@@ -148,11 +147,12 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig"
+            "Reilig",
+            "NanQuil55"
           ]
         },
         {
@@ -174,7 +174,7 @@
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:42:02Z",
+  "generated_at": "2026-09-15T23:45:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,12 +47,10 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3"
-          ]
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",

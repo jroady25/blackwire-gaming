@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:42:18Z",
+  "generated_at": "2026-09-15T02:47:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,11 +13,12 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1"
+            "Arigatu1",
+            "NanQuil55"
           ]
         },
         {
@@ -31,7 +32,7 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -44,9 +45,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "Coffee Slayer"
-          ]
+          "players": []
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -103,7 +102,7 @@
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar_WP",
           "players": []
@@ -111,7 +110,7 @@
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []
@@ -150,17 +149,17 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Reilig"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

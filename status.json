@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:03:43Z",
+  "generated_at": "2026-09-15T13:07:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,9 +42,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "Sir_S4us4ge_JTW"
-          ]
+          "players": []
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -156,7 +154,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

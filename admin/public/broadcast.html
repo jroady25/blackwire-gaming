@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'"
+    />
+    <title>BlackWire · Broadcast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0706'/%3E%3Cpath d='M18 3 8 18h6l-2 11 10-15h-6z' fill='%23e2231a'/%3E%3C/svg%3E"
+    />
+    <style>
+      .bc-wrap {
+        max-width: 1020px;
+        margin: 0 auto;
+        padding-inline: var(--gutter);
+        padding-block: 26px 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+      .bc-head {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 14px;
+      }
+      .bc-head h1 {
+        font-family: var(--font-display);
+        font-weight: 900;
+        font-size: clamp(30px, 5vw, 50px);
+        line-height: 0.88;
+        margin: 0;
+      }
+      .bc-head h1 em { font-style: normal; color: var(--blood); }
+      .sec { display: flex; flex-direction: column; gap: 11px; }
+      .sec > h2 {
+        font-family: var(--font-display);
+        font-weight: 800;
+        font-size: 24px;
+        margin: 0;
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .sec > h2 span {
+        font-family: var(--font-mono);
+        font-size: 10px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--text-faint);
+        font-weight: 400;
+      }
+      .box { border: 1px solid var(--line); background: var(--panel); padding: 14px 16px; display: flex; flex-direction: column; gap: 12px; }
+      .targets { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 3px 14px; }
+      .tgt { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-dim); min-width: 0; }
+      .tgt input { accent-color: var(--blood); width: 15px; height: 15px; flex: none; }
+      .tgt span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      textarea {
+        width: 100%;
+        min-height: 74px;
+        resize: vertical;
+        background: #100a09;
+        border: 1px solid var(--line);
+        color: var(--text);
+        font-family: var(--font-body);
+        font-size: 14px;
+        padding: 9px 11px;
+      }
+      textarea:focus { outline: none; border-color: var(--blood); }
+      .row { display: flex; gap: 9px; flex-wrap: wrap; align-items: center; }
+      .spacer { flex: 1 1 auto; }
+      .count { font-family: var(--font-mono); font-size: 10.5px; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+      .count.over { color: var(--blood-text); }
+      .results { display: flex; flex-direction: column; gap: 2px; }
+      .res {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+        align-items: baseline;
+        font-family: var(--font-mono);
+        font-size: 11.5px;
+        padding: 5px 0;
+        border-bottom: 1px solid #241310;
+      }
+      .res .ok { color: var(--good, #5fb87a); }
+      .res .bad { color: var(--blood-text); text-align: right; }
+      .players { display: flex; flex-direction: column; gap: 2px; }
+      .pl {
+        display: grid;
+        grid-template-columns: 1fr auto auto;
+        gap: 10px;
+        align-items: center;
+        padding: 6px 0;
+        border-bottom: 1px solid #241310;
+        font-size: 13.5px;
+      }
+      .pl .pid { font-family: var(--font-mono); font-size: 10.5px; color: var(--text-faint); }
+      .note { font-family: var(--font-mono); font-size: 10.5px; color: var(--text-faint); line-height: 1.7; margin: 0; }
+      .note.warn { color: var(--pending); }
+      .note.bad { color: var(--blood-text); }
+      .gate { border: 1px solid var(--line); background: var(--panel); padding: 22px 24px; display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+      .hidden { display: none !important; }
+      select { background: #100a09; border: 1px solid var(--line); color: var(--text); font-family: var(--font-mono); font-size: 12.5px; padding: 6px 8px; max-width: 100%; }
+      select:focus { outline: none; border-color: var(--blood); }
+    </style>
+  </head>
+  <body>
+    <div class="hazard-bar"></div>
+
+    <div class="bc-wrap">
+      <div class="bc-head">
+        <div>
+          <div class="eyebrow"><span class="live-dot"></span> Restricted // Staff only</div>
+          <h1>In-game <em>Broadcast</em></h1>
+        </div>
+        <div class="row">
+          <a class="btn tiny ghost" href="activity.html">Activity</a>
+          <a class="btn tiny ghost" href="./">Back to control</a>
+        </div>
+      </div>
+
+      <section id="gate" class="gate hidden">
+        <p class="muted" id="gate-msg">Sign in on the control panel first.</p>
+        <a class="btn primary" href="./">Go to Server Control</a>
+      </section>
+
+      <div id="body" class="hidden" style="display: flex; flex-direction: column; gap: 24px">
+        <p class="note warn hidden" id="unconfigured"></p>
+
+        <section class="sec">
+          <h2>Servers <span>ark only &middot; rcon endpoints from the poller config</span></h2>
+          <div class="box">
+            <div class="row">
+              <button class="btn tiny ghost" type="button" id="all">Select all</button>
+              <button class="btn tiny ghost" type="button" id="none">Clear</button>
+              <span class="spacer"></span>
+              <span class="count" id="picked">0 selected</span>
+            </div>
+            <div class="targets" id="targets"></div>
+          </div>
+        </section>
+
+        <section class="sec">
+          <h2>Message <span>one line &middot; reaches anyone in-game right now</span></h2>
+          <div class="box">
+            <textarea id="msg" maxlength="240" placeholder="Restarting in 10 minutes — get somewhere safe and log out."></textarea>
+            <div class="row">
+              <button class="btn primary" type="button" id="send-chat">Send to chat</button>
+              <button class="btn warn" type="button" id="send-center">Center screen</button>
+              <span class="spacer"></span>
+              <span class="count" id="chars">0 / 240</span>
+            </div>
+            <p class="note" id="send-note">Chat drops it in the in-game chat box. Center screen is the big one — louder, use it for restarts.</p>
+            <div class="results" id="results"></div>
+          </div>
+        </section>
+
+        <section class="sec">
+          <h2>Who's on <span>live rcon roster</span></h2>
+          <div class="box">
+            <div class="row">
+              <select id="roster-server"></select>
+              <button class="btn ghost" type="button" id="roster-load">Check</button>
+              <span class="spacer"></span>
+              <span class="count" id="roster-count"></span>
+            </div>
+            <div class="players" id="players"></div>
+            <p class="note" id="roster-note">Reads the roster straight off the server, so it's current rather than up to five minutes old like the site.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="broadcast.js"></script>
+  </body>
+</html>

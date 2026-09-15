@@ -21,6 +21,14 @@ import {
 } from "./auth.js";
 import { cancelSchedule, createSchedule, dueSchedules, listSchedules, readAudit, writeAudit } from "./schedule.js";
 import { readActivity, recordPresence } from "./presence.js";
+import {
+  parsePlayers,
+  rconConfigured,
+  rconEndpoints,
+  rconExec,
+  sanitizeMessage,
+  sanitizePlayerId,
+} from "./rcon.js";
 
 const SNAPSHOT_KEY = "status:snapshot";
 const SNAPSHOT_FRESH_MS = 45000;
@@ -99,6 +107,65 @@ async function runAction(env, { action, serviceIds, message, actor }) {
   return results;
 }
 
+/** ARK servers that have an RCON endpoint, named from the live snapshot. */
+async function rconTargetList(env) {
+  const endpoints = await rconEndpoints();
+  const names = new Map();
+  try {
+    const snapshot = await getSnapshot(env);
+    for (const server of snapshot.servers || []) names.set(String(server.serviceId), server.name);
+  } catch {
+    // Names are cosmetic; the config's own name is a fine fallback.
+  }
+  return [...endpoints.entries()]
+    .map(([serviceId, endpoint]) => ({
+      serviceId,
+      name: names.get(serviceId) || endpoint.name || `Service ${serviceId}`,
+      address: `${endpoint.host}:${endpoint.port}`,
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+}
+
+/**
+ * Run the same RCON commands against several servers. One unreachable
+ * server reports itself and never fails the rest of the broadcast.
+ */
+async function runRcon(env, { serviceIds, commands, actor, action, message }) {
+  const endpoints = await rconEndpoints();
+  const results = new Array(serviceIds.length);
+  const LIMIT = 6;
+
+  let cursor = 0;
+  async function worker() {
+    while (cursor < serviceIds.length) {
+      const index = cursor++;
+      const serviceId = String(serviceIds[index]);
+      const endpoint = endpoints.get(serviceId);
+      if (!endpoint) {
+        results[index] = { serviceId, ok: false, error: "No RCON endpoint configured for this server." };
+        continue;
+      }
+      try {
+        const bodies = await rconExec(endpoint, env.ARK_RCON_PASSWORD, commands);
+        results[index] = { serviceId, ok: true, body: (bodies[bodies.length - 1] || "").trim() };
+      } catch (err) {
+        results[index] = { serviceId, ok: false, error: err.message };
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(LIMIT, serviceIds.length) }, worker));
+
+  await writeAudit(env, {
+    actor,
+    action,
+    serviceIds,
+    message: message || null,
+    ok: results.filter((r) => r.ok).length,
+    failed: results.filter((r) => !r.ok).length,
+  });
+  return results;
+}
+
 async function handleApi(request, env, url, session) {
   const path = url.pathname;
 
@@ -139,6 +206,62 @@ async function handleApi(request, env, url, session) {
   }
 
   if (!session) return json({ error: "Not signed in." }, 401);
+
+  if (path === "/api/rcon/targets") {
+    return json({ configured: rconConfigured(env), targets: await rconTargetList(env) });
+  }
+
+  if (path === "/api/rcon/players") {
+    if (!rconConfigured(env)) return json({ error: "ARK_RCON_PASSWORD is not set on the Worker." }, 400);
+    const serviceId = String(url.searchParams.get("serviceId") || "");
+    const endpoint = (await rconEndpoints()).get(serviceId);
+    if (!endpoint) return json({ error: "No RCON endpoint configured for that server." }, 404);
+    try {
+      const [body] = await rconExec(endpoint, env.ARK_RCON_PASSWORD, ["listplayers"]);
+      return json({ serviceId, players: parsePlayers(body) });
+    } catch (err) {
+      return json({ error: err.message }, 502);
+    }
+  }
+
+  if (path === "/api/rcon/say" && request.method === "POST") {
+    if (!csrfOk(request)) return json({ error: "Bad request." }, 400);
+    if (!rconConfigured(env)) return json({ error: "ARK_RCON_PASSWORD is not set on the Worker." }, 400);
+    const body = await request.json().catch(() => ({}));
+    const message = sanitizeMessage(body.message);
+    if (!message) return json({ error: "Nothing to send." }, 400);
+    const serviceIds = (body.serviceIds || []).map(String).filter(Boolean);
+    if (!serviceIds.length) return json({ error: "Pick at least one server." }, 400);
+
+    // Broadcast puts it center-screen; ServerChat drops it in chat.
+    const center = body.mode === "center";
+    const results = await runRcon(env, {
+      serviceIds,
+      commands: [`${center ? "Broadcast" : "ServerChat"} ${message}`],
+      actor: session.u,
+      action: center ? "broadcast" : "serverchat",
+      message,
+    });
+    return json({ results, message, mode: center ? "center" : "chat" });
+  }
+
+  if (path === "/api/rcon/kick" && request.method === "POST") {
+    if (!csrfOk(request)) return json({ error: "Bad request." }, 400);
+    if (!rconConfigured(env)) return json({ error: "ARK_RCON_PASSWORD is not set on the Worker." }, 400);
+    const body = await request.json().catch(() => ({}));
+    const serviceId = String(body.serviceId || "");
+    const playerId = sanitizePlayerId(body.playerId);
+    if (!serviceId || !playerId) return json({ error: "Need a server and a player id." }, 400);
+
+    const results = await runRcon(env, {
+      serviceIds: [serviceId],
+      commands: [`KickPlayer ${playerId}`],
+      actor: session.u,
+      action: "kick",
+      message: `${body.playerName || playerId} (${playerId})`,
+    });
+    return json({ result: results[0] });
+  }
 
   if (path === "/api/activity") {
     return json(await readActivity(env));

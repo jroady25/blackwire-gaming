@@ -62,8 +62,13 @@
   function renderResults(results) {
     $('results').innerHTML = results.map(function (r) {
       var name = NAMES[r.serviceId] || r.serviceId;
+      // Show whatever the server said back. ARK usually answers an accepted
+      // command with nothing, so any text here is the server complaining.
+      var reply = (r.body || '').trim().replace(/\s+/g, ' ').slice(0, 90);
       return '<div class="res"><span>' + esc(name) + '</span>' +
-        (r.ok ? '<span class="ok">sent</span>' : '<span class="bad">' + esc(r.error || 'failed') + '</span>') +
+        (r.ok
+          ? '<span class="' + (reply ? 'bad' : 'ok') + '">' + esc(reply || 'sent') + '</span>'
+          : '<span class="bad">' + esc(r.error || 'failed') + '</span>') +
         '</div>';
     }).join('');
   }

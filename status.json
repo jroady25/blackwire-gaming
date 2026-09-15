@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:12:01Z",
+  "generated_at": "2026-09-15T01:17:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,7 +44,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Coffee Slayer"
+          ]
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",

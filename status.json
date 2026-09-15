@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:07:31Z",
+  "generated_at": "2026-09-15T13:12:29Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,14 +32,12 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": []
@@ -151,7 +149,7 @@
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [

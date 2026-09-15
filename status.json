@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:47:12Z",
+  "generated_at": "2026-09-15T04:52:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -125,8 +125,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "AllenDWoodz",
-            "Dame Duchess"
+            "AllenDWoodz"
           ]
         },
         {
@@ -145,7 +144,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Dame Duchess"
+          ]
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -166,12 +167,10 @@
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "arty8r"
-          ]
+          "players": []
         }
       ]
     },

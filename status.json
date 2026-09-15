@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:54:06Z",
+  "generated_at": "2026-09-15T18:57:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,12 +29,10 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "SL4UGHT3R_MDW"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -117,11 +115,12 @@
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
-            "Sir_S4us4ge_JTW"
+            "Sir_S4us4ge_JTW",
+            "SL4UGHT3R_MDW"
           ]
         },
         {

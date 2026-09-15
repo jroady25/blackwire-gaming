@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:52:09Z",
+  "generated_at": "2026-09-15T02:57:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -102,10 +102,12 @@
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "arty8r"
+          ]
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -149,9 +151,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "arty8r"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

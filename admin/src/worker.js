@@ -20,6 +20,7 @@ import {
   verifySignedToken,
 } from "./auth.js";
 import { cancelSchedule, createSchedule, dueSchedules, listSchedules, readAudit, writeAudit } from "./schedule.js";
+import { readActivity, recordPresence } from "./presence.js";
 
 const SNAPSHOT_KEY = "status:snapshot";
 const SNAPSHOT_FRESH_MS = 45000;
@@ -138,6 +139,10 @@ async function handleApi(request, env, url, session) {
   }
 
   if (!session) return json({ error: "Not signed in." }, 401);
+
+  if (path === "/api/activity") {
+    return json(await readActivity(env));
+  }
 
   if (path === "/api/servers") {
     try {
@@ -325,5 +330,9 @@ export default {
       console.log(`Fired ${job.action} for ${job.serviceIds.length} server(s)`, JSON.stringify(results));
     }
     await dispatchStatusPoll(env);
+
+    // Fold the roster the poller published into the presence history.
+    const presence = await recordPresence(env);
+    if (presence && presence.skipped) console.log(`Presence skipped: ${presence.skipped}`);
   },
 };

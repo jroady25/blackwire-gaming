@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:21:58Z",
+  "generated_at": "2026-09-15T01:27:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,11 +13,12 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1"
+            "Arigatu1",
+            "NanQuil55"
           ]
         },
         {
@@ -196,10 +197,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "KonekoTheKatt"
+            "KonekoTheKatt",
+            "Enslaved Player"
           ],
           "map": null
         }

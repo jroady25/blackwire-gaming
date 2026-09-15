@@ -1,9 +1,19 @@
 name: Poll BlackWire servers
 
-# Runs every 5 minutes, plus a manual "Run workflow" button in the
-# Actions tab for testing without waiting on the clock. GitHub's own
-# servers run this -- nothing here needs a droplet, and there's no
-# server for anyone to patch or that can go down from neglect. (re-registered 2026-09-14 -- schedule wasn't firing)
+# Runs every 5 minutes. GitHub's own servers run this -- nothing here
+# needs a droplet, and there's no server for anyone to patch or that
+# can go down from neglect.
+#
+# The schedule: trigger below is kept as a passive backup, but as of
+# 2026-09-15 it is NOT the primary way this fires: checked against the
+# Actions run history, GitHub's own scheduler was dropping the vast
+# majority of these firings even after being re-registered on
+# 2026-09-14 (only ~3 genuine schedule-triggered runs in ~19 hours,
+# vs. the configured every-5-minutes). The reliable path now is the
+# blackwire-admin Cloudflare Worker's own cron (proven reliable),
+# which calls this workflow's dispatch API directly every 5 minutes --
+# see dispatchStatusPoll() in admin/src/worker.js. workflow_dispatch
+# below is what that call (and the manual "Run workflow" button) uses.
 on:
   schedule:
     - cron: '*/5 * * * *'

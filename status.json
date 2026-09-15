@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:32:11Z",
+  "generated_at": "2026-09-15T22:37:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,9 +16,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Reilig"
-          ]
+          "players": []
         },
         {
           "name": "Valguero \u2014 PVE",
@@ -42,7 +40,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -113,10 +113,12 @@
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
@@ -139,7 +141,7 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []
@@ -166,9 +168,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         }
       ]
     },

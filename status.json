@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:42:16Z",
+  "generated_at": "2026-09-15T07:47:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -162,7 +162,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "dejectedheart71"
+          ]
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

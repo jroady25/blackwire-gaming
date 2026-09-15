@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T20:17:19Z",
+  "generated_at": "2026-09-15T20:22:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,18 +24,17 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "NanQuil55"
-          ]
+          "players": []
         },
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "AllenDWoodz"
+            "AllenDWoodz",
+            "Sir_S4us4ge_JTW"
           ]
         },
         {
@@ -52,7 +51,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "IcoN-C_o"
+          ]
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -120,10 +121,7 @@
           "players_current": 2,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "SL4UGHT3R_MDW",
-            "Sir_S4us4ge_JTW"
-          ]
+          "players": []
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",

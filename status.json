@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:02:10Z",
+  "generated_at": "2026-09-15T22:07:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,10 +13,12 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Valguero \u2014 PVE",
@@ -45,12 +47,10 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "IcoN-C_o"
-          ]
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -109,7 +109,6 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": [
-            "AllenDWoodz",
             "MattyRoth83"
           ]
         },

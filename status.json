@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:07:08Z",
+  "generated_at": "2026-09-15T02:12:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -175,7 +175,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "arty8r"
+          ]
         }
       ]
     },

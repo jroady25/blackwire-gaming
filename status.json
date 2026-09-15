@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:27:00Z",
+  "generated_at": "2026-09-15T01:32:18Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,10 +52,12 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "JDavid_0325"
+          ]
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -149,9 +151,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Reilig"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -174,10 +174,12 @@
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "arty8r"
+          ]
         }
       ]
     },
@@ -197,11 +199,10 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "KonekoTheKatt",
-            "Enslaved Player"
+            "KonekoTheKatt"
           ],
           "map": null
         }

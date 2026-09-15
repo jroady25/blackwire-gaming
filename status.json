@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:56:59Z",
+  "generated_at": "2026-09-15T04:02:43Z",
   "servers": {
     "ark": {
       "servers": [
@@ -124,7 +124,7 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [

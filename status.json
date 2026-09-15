@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:32:56Z",
+  "generated_at": "2026-09-15T14:37:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,10 +21,12 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -139,12 +141,10 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Lady Sharp"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:57:00Z",
+  "generated_at": "2026-09-15T02:02:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -138,7 +138,7 @@
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [
@@ -172,7 +172,7 @@
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []

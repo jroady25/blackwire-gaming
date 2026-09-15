@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:32:18Z",
+  "generated_at": "2026-09-15T01:42:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -70,12 +70,10 @@
         {
           "name": "Decended \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "yousef-zc"
-          ]
+          "players": []
         },
         {
           "name": "Event Map (JKRZ)",
@@ -164,22 +162,18 @@
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "Gjenesis"
-          ]
+          "players": []
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "arty8r"
-          ]
+          "players": []
         }
       ]
     },

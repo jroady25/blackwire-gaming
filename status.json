@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:52:05Z",
+  "generated_at": "2026-09-15T03:56:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -92,12 +92,10 @@
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": [
-            "arty8r"
-          ]
+          "players": []
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
@@ -131,7 +129,8 @@
           "map": "LostColony_WP",
           "players": [
             "AllenDWoodz",
-            "Dame Duchess"
+            "Dame Duchess",
+            "arty8r"
           ]
         },
         {

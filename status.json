@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:52:07Z",
+  "generated_at": "2026-09-15T21:57:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -105,10 +105,12 @@
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -145,7 +147,7 @@
         {
           "name": "The Center \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []
@@ -173,11 +175,10 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "StankGoose ",
-            "unKNoWnSoLDieR"
+            "StankGoose "
           ],
           "map": null
         },

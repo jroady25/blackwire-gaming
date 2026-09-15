@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:17:24Z",
+  "generated_at": "2026-09-15T17:22:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,20 +13,20 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "NanQuil55"
+          ]
         },
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "NanQuil55"
-          ]
+          "players": []
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -107,12 +107,10 @@
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Sir_S4us4ge_JTW"
-          ]
+          "players": []
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -120,7 +118,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",

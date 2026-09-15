@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:27:04Z",
+  "generated_at": "2026-09-15T18:32:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,10 +55,12 @@
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Vince-Meat83"
+          ]
         },
         {
           "name": "Decended \u2014 PVE",
@@ -113,11 +115,12 @@
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
-            "SL4UGHT3R_MDW"
+            "SL4UGHT3R_MDW",
+            "Sir_S4us4ge_JTW"
           ]
         },
         {
@@ -188,10 +191,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "KonekoTheKatt"
+            "KonekoTheKatt",
+            "Gura"
           ],
           "map": null
         }

@@ -221,6 +221,45 @@ async function handleDiscord(request, env, url, path, base) {
   }
 }
 
+
+/**
+ * The public site's own status poller (poll-servers.yml, a separate
+ * GitHub Actions workflow that polls Nitrado + RCON and commits
+ * status.json for live-data.js to read) relies on GitHub Actions'
+ * schedule: trigger to run every 5 minutes -- but GitHub's own schedule
+ * dispatcher is best-effort and, in practice on this repo, has been
+ * dropping the vast majority of those firings (see that workflow's
+ * comment). This Worker's own cron trigger has proven reliable, so it
+ * dispatches that workflow directly over the GitHub API instead of
+ * waiting on GitHub's internal scheduler. Requires a GH_DISPATCH_TOKEN
+ * Worker secret (a GitHub token scoped only to Actions:write on this
+ * repo) -- silently does nothing until that's set, so this is safe to
+ * ship before the secret exists.
+ */
+async function dispatchStatusPoll(env) {
+  if (!env.GH_DISPATCH_TOKEN) return;
+  try {
+    const resp = await fetch(
+      "https://api.github.com/repos/jroady25/blackwire-gaming/actions/workflows/poll-servers.yml/dispatches",
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${env.GH_DISPATCH_TOKEN}`,
+          Accept: "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+          "User-Agent": "blackwire-admin-worker",
+        },
+        body: JSON.stringify({ ref: "main" }),
+      },
+    );
+    if (!resp.ok) {
+      console.log(`GitHub dispatch failed: ${resp.status} ${await resp.text()}`);
+    }
+  } catch (err) {
+    console.log(`GitHub dispatch error: ${err.message}`);
+  }
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -285,5 +324,6 @@ export default {
       });
       console.log(`Fired ${job.action} for ${job.serviceIds.length} server(s)`, JSON.stringify(results));
     }
+    await dispatchStatusPoll(env);
   },
 };

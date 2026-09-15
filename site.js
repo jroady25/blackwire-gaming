@@ -117,6 +117,7 @@
   a.textContent = 'Staff';
   foot.appendChild(a);
 })();
+
 /* Wall link - the network board at wall.html, injected into the nav
    the same way Donate is, so it lives in one place. */
 (function(){

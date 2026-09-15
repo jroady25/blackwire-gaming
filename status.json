@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:28:15Z",
+  "generated_at": "2026-09-15T00:28:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,7 +17,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "NanQuil55"
+            "Arigatu1"
           ]
         },
         {
@@ -49,12 +49,10 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "IcoN-C_o"
-          ]
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -67,10 +65,12 @@
         {
           "name": "Decended \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "yousef-zc"
+          ]
         },
         {
           "name": "Event Map (JKRZ)",
@@ -135,12 +135,10 @@
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "Spyre"
-          ]
+          "players": []
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
@@ -174,12 +172,10 @@
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         }
       ]
     },

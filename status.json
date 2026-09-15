@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:42:01Z",
+  "generated_at": "2026-09-15T03:47:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -126,11 +126,12 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "AllenDWoodz"
+            "AllenDWoodz",
+            "Dame Duchess"
           ]
         },
         {
@@ -146,12 +147,10 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Dame Duchess"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

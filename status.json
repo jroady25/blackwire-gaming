@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:42:04Z",
+  "generated_at": "2026-09-15T04:47:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -79,7 +79,7 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -121,7 +121,7 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
@@ -142,7 +142,7 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []

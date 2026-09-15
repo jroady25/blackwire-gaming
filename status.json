@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:32:37Z",
+  "generated_at": "2026-09-15T21:36:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -100,7 +100,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -120,10 +122,11 @@
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "players": []
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
@@ -182,11 +185,12 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 16,
           "players": [
             "Gura",
-            "KonekoTheKatt"
+            "KonekoTheKatt",
+            "jana_mew"
           ],
           "map": null
         }

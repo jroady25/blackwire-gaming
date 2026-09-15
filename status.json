@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T09:52:29Z",
+  "generated_at": "2026-09-15T10:02:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,12 +21,10 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "Lady Sharp"
-          ]
+          "players": []
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -64,7 +62,7 @@
         },
         {
           "name": "Decended \u2014 PVE",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
@@ -105,10 +103,12 @@
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",

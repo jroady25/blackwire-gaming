@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:42:10Z",
+  "generated_at": "2026-09-15T19:47:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,11 +29,10 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Sir_S4us4ge_JTW",
             "AllenDWoodz"
           ]
         },
@@ -48,7 +47,7 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -114,10 +113,11 @@
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
+            "Sir_S4us4ge_JTW",
             "SL4UGHT3R_MDW"
           ]
         },
@@ -144,7 +144,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "runcrawlslither"
+            "taterbugg_06"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:07:05Z",
+  "generated_at": "2026-09-15T22:12:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -105,12 +105,10 @@
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",

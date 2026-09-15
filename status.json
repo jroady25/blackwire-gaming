@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:07:06Z",
+  "generated_at": "2026-09-15T23:12:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,12 +21,10 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -157,10 +155,12 @@
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

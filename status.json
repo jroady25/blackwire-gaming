@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:21:50Z",
+  "generated_at": "2026-09-15T03:27:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -31,13 +31,12 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "KAKASHIxHATAKE97",
-            "legendx12x",
-            "dejectedheart71"
+            "legendx12x"
           ]
         },
         {
@@ -93,20 +92,20 @@
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": []
+          "players": [
+            "arty8r"
+          ]
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": [
-            "arty8r"
-          ]
+          "players": []
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -163,10 +162,12 @@
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "dejectedheart71"
+          ]
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
@@ -183,22 +184,18 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "Salem",
             "StankGoose "
           ],
           "map": null
         },
         {
           "name": "Palworld Server 2",
-          "online": true,
-          "players_current": 1,
+          "online": false,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "KonekoTheKatt"
-          ],
           "map": null
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:57:11Z",
+  "generated_at": "2026-09-15T09:03:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -38,7 +38,7 @@
         },
         {
           "name": "Extinction \u2014 PVE",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
@@ -46,7 +46,7 @@
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
@@ -94,19 +94,17 @@
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar_WP",
-          "players": []
+          "map": "Forglar_WP"
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "ScorchedEarth_WP",
-          "players": []
+          "map": "ScorchedEarth_WP"
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -118,11 +116,10 @@
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "map": "LostColony_WP"
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
@@ -137,13 +134,11 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Lady Sharp",
-            "runcrawlslither",
-            "crusader4j"
+            "Lady Sharp"
           ]
         },
         {
@@ -164,11 +159,10 @@
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "players": []
+          "map": "Bjarnheim_WP"
         }
       ]
     },

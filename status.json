@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:02:30Z",
+  "generated_at": "2026-09-15T23:07:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,10 +21,12 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -37,12 +39,11 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "Reilig",
-            "AllenDWoodz"
+            "Reilig"
           ]
         },
         {
@@ -82,7 +83,7 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []

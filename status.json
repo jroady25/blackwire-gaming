@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:12:31Z",
+  "generated_at": "2026-09-16T11:17:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,18 +28,18 @@
         },
         {
           "name": "Astraeos \u2014 PVE",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
-        },
-        {
-          "name": "Extinction \u2014 PVE",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "Extinction \u2014 PVE",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -66,6 +66,13 @@
         },
         {
           "name": "Event Map (JKRZ)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -73,19 +80,11 @@
           "players": []
         },
         {
-          "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
+          "name": "Svartalfheim \u2014 PVE (JKRZ)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
-        },
-        {
-          "name": "Svartalfheim \u2014 PVE (JKRZ)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
-          "players": []
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
@@ -137,11 +136,10 @@
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T00:52:05Z",
+  "generated_at": "2026-09-16T00:57:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -191,8 +191,8 @@
           "players_max": 16,
           "players": [
             "jana_mew",
-            "KonekoTheKatt",
-            "Gura"
+            "Gura",
+            "KonekoTheKatt"
           ],
           "map": null
         }

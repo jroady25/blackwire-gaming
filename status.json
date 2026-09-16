@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:56:56Z",
+  "generated_at": "2026-09-16T00:02:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,10 +29,12 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -77,10 +79,12 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "bo3o"
+          ]
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
@@ -117,12 +121,10 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",

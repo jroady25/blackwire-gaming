@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:12:10Z",
+  "generated_at": "2026-09-16T12:17:38Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,25 +33,26 @@
         },
         {
           "name": "Extinction \u2014 PVE",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP",
+          "map": "Extinction_WP",
           "players": []
         },
         {
-          "name": "Ragnarok \u2014 Jurassic Awakening",
+          "name": "Astraeos \u2014 Primal Chaos",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "Ragnarok \u2014 Jurassic Awakening",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "Decended \u2014 PVE",
@@ -94,10 +95,11 @@
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -117,10 +119,13 @@
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Forglar2_WP",
+          "players": [
+            "Spyre"
+          ]
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:36:59Z",
+  "generated_at": "2026-09-16T04:42:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,9 +51,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "JDavid_0325"
-          ]
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -82,12 +80,10 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "VirtualParadise"
-          ]
+          "players": []
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",

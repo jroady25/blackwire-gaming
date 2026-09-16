@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T23:11:59Z",
+  "generated_at": "2026-09-16T23:17:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,7 +32,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Lyulf_kaldez"
+          ]
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -47,13 +49,10 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3",
-            "Lyulf_kaldez"
-          ]
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -173,10 +172,9 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
           "map": null
         },
         {

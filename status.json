@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:22:25Z",
+  "generated_at": "2026-09-16T16:28:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,10 +33,11 @@
         },
         {
           "name": "Extinction \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -61,17 +62,21 @@
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": [
+            "VirtualParadise"
+          ]
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
@@ -82,10 +87,11 @@
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Forglar_WP",
+          "players": []
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -138,10 +144,11 @@
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },

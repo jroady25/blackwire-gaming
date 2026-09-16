@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:52:18Z",
+  "generated_at": "2026-09-16T19:57:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -118,6 +118,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
+            "SL4UGHT3R_MDW",
             "Sir_S4us4ge_JTW"
           ]
         },

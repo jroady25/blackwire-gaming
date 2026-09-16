@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:17:28Z",
+  "generated_at": "2026-09-16T08:22:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,10 +28,11 @@
         },
         {
           "name": "Astraeos \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -43,10 +44,11 @@
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -58,18 +60,18 @@
         },
         {
           "name": "Decended \u2014 PVE",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
-        },
-        {
-          "name": "Event Map (JKRZ)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "Event Map (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
@@ -103,10 +105,11 @@
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Aberration_WP",
+          "players": []
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
@@ -128,10 +131,11 @@
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -143,17 +147,19 @@
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Genesis_WP",
+          "players": []
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },

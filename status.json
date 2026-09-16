@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:17:30Z",
+  "generated_at": "2026-09-16T19:22:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,7 +21,7 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": []
@@ -117,7 +117,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
@@ -130,12 +132,10 @@
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "RogueTheDeadly"
-          ]
+          "players": []
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
@@ -187,9 +187,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "KonekoTheKatt"
+          ],
           "map": null
         }
       ]

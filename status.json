@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:37:10Z",
+  "generated_at": "2026-09-16T12:42:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,11 +12,10 @@
         },
         {
           "name": "Ragnarok \u2014 PVE",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Valguero \u2014 PVE",
@@ -36,18 +35,18 @@
         },
         {
           "name": "Extinction \u2014 PVE",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
+        },
+        {
+          "name": "Astraeos \u2014 Primal Chaos",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
-        },
-        {
-          "name": "Astraeos \u2014 Primal Chaos",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -66,35 +65,31 @@
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -114,31 +109,24 @@
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar2_WP",
-          "players": [
-            "Spyre"
-          ]
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -150,11 +138,10 @@
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Genesis_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

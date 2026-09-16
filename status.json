@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T06:26:52Z",
+  "generated_at": "2026-09-16T06:28:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -84,10 +84,11 @@
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Forglar_WP",
+          "players": []
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -144,10 +145,11 @@
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T09:47:13Z",
+  "generated_at": "2026-09-16T09:52:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,10 +20,11 @@
         },
         {
           "name": "Valguero \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Valguero_WP",
+          "players": []
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -49,10 +50,11 @@
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "Decended \u2014 PVE",
@@ -71,10 +73,11 @@
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
@@ -93,10 +96,11 @@
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -119,14 +123,17 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "Spyre"
+          ]
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

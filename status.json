@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:57:03Z",
+  "generated_at": "2026-09-16T23:02:43Z",
   "servers": {
     "ark": {
       "servers": [
@@ -145,10 +145,12 @@
         {
           "name": "The Center \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Lyulf_kaldez"
+          ]
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

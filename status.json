@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:42:55Z",
+  "generated_at": "2026-09-16T13:47:38Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,10 +33,11 @@
         },
         {
           "name": "Extinction \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -55,19 +56,17 @@
         },
         {
           "name": "Decended \u2014 PVE",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
@@ -112,7 +111,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP"
+          "map": "LostColony_WP",
+          "players": []
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
@@ -127,7 +127,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP"
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

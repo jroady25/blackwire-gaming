@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T06:46:52Z",
+  "generated_at": "2026-09-16T06:52:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,10 +42,11 @@
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -64,10 +65,11 @@
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
@@ -94,10 +96,11 @@
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",

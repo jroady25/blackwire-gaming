@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:33:23Z",
+  "generated_at": "2026-09-16T16:38:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,11 +33,10 @@
         },
         {
           "name": "Extinction \u2014 PVE",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -69,13 +68,10 @@
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": [
-            "VirtualParadise"
-          ]
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",

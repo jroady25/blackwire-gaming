@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:47:18Z",
+  "generated_at": "2026-09-16T22:51:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -60,7 +60,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Lyulf_kaldez"
+          ]
         },
         {
           "name": "Decended \u2014 PVE",

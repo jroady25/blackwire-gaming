@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:15:01Z",
+  "generated_at": "2026-09-16T16:18:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -96,11 +96,10 @@
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Aberration_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",

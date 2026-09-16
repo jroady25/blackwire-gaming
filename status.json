@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T23:47:10Z",
+  "generated_at": "2026-09-16T23:52:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -125,7 +125,7 @@
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [
@@ -183,11 +183,10 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "KonekoTheKatt",
-            "jana_mew"
+            "KonekoTheKatt"
           ],
           "map": null
         }

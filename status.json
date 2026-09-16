@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:52:23Z",
+  "generated_at": "2026-09-16T15:57:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -106,34 +106,34 @@
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "Forglar 2 \u2014 PVE (JKRZ)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "map": "LostColony_WP",
+          "players": []
         },
         {
-          "name": "The Center \u2014 PVE (JKRZ)",
+          "name": "Forglar 2 \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Forglar2_WP",
+          "players": []
+        },
+        {
+          "name": "The Island \u2014 PVE (JKRZ)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "The Center \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

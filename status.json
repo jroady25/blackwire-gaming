@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:27:30Z",
+  "generated_at": "2026-09-16T13:29:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,10 +41,13 @@
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": [
+            "IcoN-C_o"
+          ]
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -71,11 +74,10 @@
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
@@ -101,10 +103,11 @@
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Aberration_WP",
+          "players": []
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",

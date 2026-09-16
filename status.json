@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:07:13Z",
+  "generated_at": "2026-09-16T07:12:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -56,10 +56,11 @@
         },
         {
           "name": "Decended \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "Event Map (JKRZ)",
@@ -77,18 +78,18 @@
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
-          "players": []
-        },
-        {
-          "name": "Forglar 1 \u2014 PVE (JKRZ)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "Forglar 1 \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Forglar_WP",
+          "players": []
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
@@ -133,10 +134,11 @@
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
@@ -148,10 +150,11 @@
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },
@@ -168,10 +171,9 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "jana_mew",
             "KonekoTheKatt",
             "Gura"
           ],

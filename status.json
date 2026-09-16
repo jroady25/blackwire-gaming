@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T12:57:12Z",
+  "generated_at": "2026-09-16T13:03:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -62,11 +62,10 @@
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
@@ -120,35 +119,33 @@
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Genesis_WP",
+          "map": "TheCenter_WP",
           "players": []
         },
         {
-          "name": "Bjarnheim \u2014 PVE (JKRZ)",
+          "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "Bjarnheim \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },

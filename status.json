@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:32:45Z",
+  "generated_at": "2026-09-16T15:37:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,10 +20,11 @@
         },
         {
           "name": "Valguero \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Valguero_WP",
+          "players": []
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -67,10 +68,11 @@
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
@@ -100,11 +102,10 @@
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "ScorchedEarth_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -139,11 +140,10 @@
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
@@ -155,10 +155,11 @@
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },

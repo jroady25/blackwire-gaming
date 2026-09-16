@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:02:35Z",
+  "generated_at": "2026-09-16T08:07:18Z",
   "servers": {
     "ark": {
       "servers": [
@@ -86,18 +86,18 @@
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar_WP",
-          "players": []
-        },
-        {
-          "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "Scorched Earth \u2014 PVE (JKRZ)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -131,11 +131,10 @@
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

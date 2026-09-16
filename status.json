@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:57:15Z",
+  "generated_at": "2026-09-16T20:03:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -114,11 +114,10 @@
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
-            "SL4UGHT3R_MDW",
             "Sir_S4us4ge_JTW"
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:07:05Z",
+  "generated_at": "2026-09-16T19:12:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,10 +21,12 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -133,7 +135,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "RogueTheDeadly"
+          ]
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
@@ -141,9 +145,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Sir_S4us4ge_JTW"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",

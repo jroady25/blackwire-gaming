@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:12:20Z",
+  "generated_at": "2026-09-16T22:17:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,20 +29,20 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "perfectlyteri"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -82,12 +82,10 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "VOODOO7831"
-          ]
+          "players": []
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:47:26Z",
+  "generated_at": "2026-09-16T08:52:25Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,26 +12,25 @@
         },
         {
           "name": "Ragnarok \u2014 PVE",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
+        {
+          "name": "Valguero \u2014 PVE",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
         },
         {
-          "name": "Valguero \u2014 PVE",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Valguero_WP",
-          "players": []
-        },
-        {
           "name": "Astraeos \u2014 PVE",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -43,18 +42,18 @@
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
-        },
-        {
-          "name": "Ragnarok \u2014 Jurassic Awakening",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
+        },
+        {
+          "name": "Ragnarok \u2014 Jurassic Awakening",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "Decended \u2014 PVE",
@@ -66,11 +65,10 @@
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
@@ -82,11 +80,10 @@
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",
@@ -104,19 +101,17 @@
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Aberration_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
@@ -135,27 +130,24 @@
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Genesis_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         }
       ]
     },

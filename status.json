@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:12:48Z",
+  "generated_at": "2026-09-16T15:17:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,18 +20,18 @@
         },
         {
           "name": "Valguero \u2014 PVE",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Valguero_WP",
+          "players": []
+        },
+        {
+          "name": "Astraeos \u2014 PVE",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
-        },
-        {
-          "name": "Astraeos \u2014 PVE",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -42,11 +42,10 @@
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -66,10 +65,11 @@
         },
         {
           "name": "Event Map (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
@@ -146,10 +146,11 @@
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },

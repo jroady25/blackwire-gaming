@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:57:06Z",
+  "generated_at": "2026-09-16T19:03:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,7 +29,7 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -106,7 +106,7 @@
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []

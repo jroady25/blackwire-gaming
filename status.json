@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:17:20Z",
+  "generated_at": "2026-09-16T18:19:37Z",
   "servers": {
     "ark": {
       "servers": [
@@ -136,12 +136,10 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "players": []
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -196,13 +194,13 @@
       "servers": [
         {
           "name": "Once Human \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20
         },
         {
           "name": "Once Human \u2014 PVP",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20
         }

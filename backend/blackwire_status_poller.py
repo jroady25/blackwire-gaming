@@ -562,12 +562,14 @@ def query_once_human_a2s(host, port, timeout=3):
  
 def poll_once_human_group(entries):
     """entries: list of {name, [host], [query_port], [players_max]} — see
-    config.example.json. Same fallback pattern as poll_palworld_group:
-    an entry with no "host" filled in (the expected case — see the big
-    comment above, this game has no confirmed live-query path) just
-    reports offline using its configured players_max, so the site still
-    gets an accurate server count / total slot count even though it can
-    never show a real player headcount for this game."""
+    config.example.json. An entry with no "host" filled in (the expected
+    case — see the big comment above, this game has no confirmed
+    live-query path) now reports online (not offline) using its
+    configured players_max: Justin's confirmed these servers effectively
+    never go down, so showing them dimmed/offline on the wall board was
+    actively misleading rather than just incomplete. Player count stays
+    at 0 since a real headcount still isn't knowable without a live
+    query -- only the up/down state changed."""
     results = []
     for entry in entries:
         name = entry.get("name", "Once Human World")
@@ -576,7 +578,7 @@ def poll_once_human_group(entries):
             result = query_once_human_a2s(entry["host"], entry.get("query_port", 27016))
         if result is None:
             results.append({
-                "name": name, "online": False,
+                "name": name, "online": True,
                 "players_current": 0, "players_max": entry.get("players_max", 20),
             })
         else:

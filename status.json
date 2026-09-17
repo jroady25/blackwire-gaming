@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:28:22Z",
+  "generated_at": "2026-09-17T23:32:25Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,15 +13,17 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "do_gotcha"
+          ]
         },
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": []
@@ -29,7 +31,7 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -37,12 +39,13 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
             "Reilig",
-            "ckgamer_7"
+            "ckgamer_7",
+            "FC ICEY"
           ]
         },
         {
@@ -138,12 +141,11 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "runcrawlslither",
-            "do_gotcha"
+            "runcrawlslither"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:52:37Z",
+  "generated_at": "2026-09-17T19:57:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -149,10 +149,12 @@
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

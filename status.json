@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:12:31Z",
+  "generated_at": "2026-09-17T20:17:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,10 +45,12 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "JDavid_0325"
+          ]
         },
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
@@ -112,7 +114,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
@@ -149,12 +153,10 @@
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "Sir_S4us4ge_JTW"
-          ]
+          "players": []
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",

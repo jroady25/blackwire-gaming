@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T19:33:02Z",
+  "generated_at": "2026-09-17T19:37:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -117,12 +117,10 @@
         {
           "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "Sir_S4us4ge_JTW"
-          ]
+          "players": []
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
@@ -143,10 +141,12 @@
         {
           "name": "The Center \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

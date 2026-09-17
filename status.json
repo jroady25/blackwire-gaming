@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T10:07:05Z",
+  "generated_at": "2026-09-17T10:12:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -65,7 +65,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP"
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "Event Map (JKRZ)",
@@ -180,11 +181,9 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "KonekoTheKatt"
-          ],
+          "players": [],
           "map": null
         }
       ]

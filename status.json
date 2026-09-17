@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:22:09Z",
+  "generated_at": "2026-09-17T03:27:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -182,14 +182,9 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": true,
-          "players_current": 3,
+          "online": false,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "jana_mew",
-            "KonekoTheKatt",
-            "Gura"
-          ],
           "map": null
         }
       ]

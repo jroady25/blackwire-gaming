@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:17:24Z",
+  "generated_at": "2026-09-17T21:22:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -134,7 +134,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "Lyulf_kaldez"
+          ]
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",

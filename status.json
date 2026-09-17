@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:32:33Z",
+  "generated_at": "2026-09-17T20:36:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,10 +53,12 @@
         {
           "name": "Ragnarok \u2014 Jurassic Awakening",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Vince-Meat83"
+          ]
         },
         {
           "name": "Decended \u2014 PVE",
@@ -64,9 +66,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "icon_saud8345"
-          ]
+          "players": []
         },
         {
           "name": "Event Map (JKRZ)",
@@ -82,9 +82,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "VirtualParadise"
-          ]
+          "players": []
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",

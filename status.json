@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T01:56:58Z",
+  "generated_at": "2026-09-17T02:02:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,12 +13,11 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1",
-            "Reilig"
+            "Arigatu1"
           ]
         },
         {
@@ -42,12 +41,10 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "Coffee Slayer"
-          ]
+          "players": []
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -140,11 +137,12 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "runcrawlslither"
+            "runcrawlslither",
+            "Reilig"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T01:12:08Z",
+  "generated_at": "2026-09-17T01:16:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -23,7 +23,7 @@
         {
           "name": "Valguero \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": []

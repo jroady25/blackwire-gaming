@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:57:20Z",
+  "generated_at": "2026-09-17T10:03:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -62,7 +62,7 @@
         },
         {
           "name": "Decended \u2014 PVE",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",

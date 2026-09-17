@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:28:42Z",
+  "generated_at": "2026-09-17T03:32:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,13 +29,10 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "legendx12x",
-            "nb_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -131,7 +128,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "RogueTheDeadly"
+          ]
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
@@ -182,9 +181,13 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": false,
-          "players_current": 0,
+          "online": true,
+          "players_current": 2,
           "players_max": 16,
+          "players": [
+            "jana_mew",
+            "Gura"
+          ],
           "map": null
         }
       ]

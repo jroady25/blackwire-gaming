@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:12:09Z",
+  "generated_at": "2026-09-17T03:17:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,8 +33,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "nb_gotcha",
-            "legendx12x"
+            "legendx12x",
+            "nb_gotcha"
           ]
         },
         {
@@ -183,11 +183,10 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 16,
           "players": [
             "jana_mew",
-            "Gura",
             "KonekoTheKatt"
           ],
           "map": null

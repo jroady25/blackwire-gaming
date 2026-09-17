@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T02:07:04Z",
+  "generated_at": "2026-09-17T02:12:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,10 +41,12 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -142,7 +144,7 @@
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "Reilig"
+            "crusader4j"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:47:07Z",
+  "generated_at": "2026-09-17T03:52:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,9 +16,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "Valguero \u2014 PVE",
@@ -182,12 +180,13 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 16,
           "players": [
             "jana_mew",
             "Gura",
-            "KonekoTheKatt"
+            "KonekoTheKatt",
+            "arty8r"
           ],
           "map": null
         }

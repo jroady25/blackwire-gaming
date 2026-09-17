@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:22:27Z",
+  "generated_at": "2026-09-17T14:27:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -79,12 +79,10 @@
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "VirtualParadise"
-          ]
+          "players": []
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",

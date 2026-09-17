@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:37:04Z",
+  "generated_at": "2026-09-17T03:42:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -130,9 +130,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "RogueTheDeadly"
-          ]
+          "players": []
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
@@ -184,11 +182,12 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 16,
           "players": [
             "jana_mew",
-            "Gura"
+            "Gura",
+            "KonekoTheKatt"
           ],
           "map": null
         }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:02:47Z",
+  "generated_at": "2026-09-17T21:07:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,12 +29,10 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -107,10 +105,12 @@
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:27:16Z",
+  "generated_at": "2026-09-17T20:32:33Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,7 +45,7 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -64,7 +64,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "icon_saud8345"
+          ]
         },
         {
           "name": "Event Map (JKRZ)",

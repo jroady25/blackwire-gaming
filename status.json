@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:04:07Z",
+  "generated_at": "2026-09-17T09:08:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,7 +12,7 @@
         },
         {
           "name": "Ragnarok \u2014 PVE",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP"
@@ -30,33 +30,29 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
+          "map": "Astraeos_WP"
         },
         {
           "name": "Extinction \u2014 PVE",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP"
-        },
-        {
-          "name": "Astraeos \u2014 Primal Chaos",
-          "online": false,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": [
-            "IcoN-C_o"
-          ]
-        },
-        {
-          "name": "Ragnarok \u2014 Jurassic Awakening",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
+          "map": "Extinction_WP",
           "players": []
+        },
+        {
+          "name": "Astraeos \u2014 Primal Chaos",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Astraeos_WP"
+        },
+        {
+          "name": "Ragnarok \u2014 Jurassic Awakening",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP"
         },
         {
           "name": "Decended \u2014 PVE",
@@ -71,20 +67,18 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "map": "TheIsland_WP"
         },
         {
           "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "map": "TheIsland_WP"
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP",
@@ -95,14 +89,16 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar_WP"
+          "map": "Forglar_WP",
+          "players": []
         },
         {
           "name": "Scorched Earth \u2014 PVE (JKRZ)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "ScorchedEarth_WP"
+          "map": "ScorchedEarth_WP",
+          "players": []
         },
         {
           "name": "Abberation \u2014 PVE (JKRZ)",
@@ -117,23 +113,22 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP"
+          "map": "LostColony_WP",
+          "players": []
         },
         {
           "name": "Forglar 2 \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar2_WP",
-          "players": []
+          "map": "Forglar2_WP"
         },
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "map": "TheIsland_WP"
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -148,15 +143,15 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Genesis_WP",
-          "players": []
+          "map": "Genesis_WP"
         },
         {
           "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Bjarnheim_WP"
+          "map": "Bjarnheim_WP",
+          "players": []
         }
       ]
     },
@@ -173,11 +168,10 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "KonekoTheKatt",
-            "Gura"
+            "KonekoTheKatt"
           ],
           "map": null
         }

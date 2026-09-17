@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T09:12:18Z",
+  "generated_at": "2026-09-17T09:17:38Z",
   "servers": {
     "ark": {
       "servers": [
@@ -23,7 +23,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Valguero_WP"
+          "map": "Valguero_WP",
+          "players": []
         },
         {
           "name": "Astraeos \u2014 PVE",
@@ -44,7 +45,7 @@
         {
           "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -142,7 +143,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheCenter_WP"
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:37:04Z",
+  "generated_at": "2026-09-17T23:41:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -152,9 +152,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "Genesis 1 \u2014 PVE (JKRZ)",

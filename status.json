@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T16:28:46Z",
+  "generated_at": "2026-09-17T16:33:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -82,7 +82,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "VirtualParadise"
+          ]
         },
         {
           "name": "Svartalfheim \u2014 PVE (JKRZ)",

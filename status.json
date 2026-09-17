@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:06:51Z",
+  "generated_at": "2026-09-17T23:12:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,7 +29,7 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -37,10 +37,12 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "Astraeos \u2014 Primal Chaos",
@@ -88,7 +90,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": []
+          "players": [
+            "do_gotcha"
+          ]
         },
         {
           "name": "Forglar 1 \u2014 PVE (JKRZ)",

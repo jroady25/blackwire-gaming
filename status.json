@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T03:52:08Z",
+  "generated_at": "2026-09-17T03:56:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,7 +13,7 @@
         {
           "name": "Ragnarok \u2014 PVE",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -29,10 +29,12 @@
         {
           "name": "Astraeos \u2014 PVE",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "KAKASHIxHATAKE97"
+          ]
         },
         {
           "name": "Extinction \u2014 PVE",
@@ -180,13 +182,14 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 16,
           "players": [
             "jana_mew",
             "Gura",
             "KonekoTheKatt",
-            "arty8r"
+            "arty8r",
+            "Athena"
           ],
           "map": null
         }

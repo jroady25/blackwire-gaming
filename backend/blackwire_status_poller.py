@@ -145,6 +145,14 @@ def nitrado_get_gameserver(service_id, token):
             "players_current": int(current),
             "players_max": int(maximum),
             "map": query.get("map"),
+            # Nitrado's own live server name, when it returns one -- lets
+            # poll_nitrado_group() show the server's *actual current* name
+            # (e.g. after Justin renames/reconfigures it on Nitrado) instead
+            # of the static label typed into config.json once and never
+            # revisited. Justin flagged an ARK entry stuck on an old name
+            # ("Event Map -- Club Ark") that no longer matched the real
+            # server -- this is what keeps that from happening again.
+            "live_name": query.get("server_name") or None,
         }
     except (KeyError, TypeError) as exc:
         log(f"Unexpected Nitrado response shape for service {service_id}: {exc}")
@@ -173,7 +181,12 @@ def poll_nitrado_group(entries, token, rcon_password=None):
             })
             continue
  
-        row = {"name": entry["name"], **data}
+        # Prefer Nitrado's live server name over the static config label,
+        # falling back to the config label only when Nitrado doesn't return
+        # a live name (e.g. the no-query-data case handled above, which
+        # never reaches this line since it "continue"s earlier).
+        live_name = data.pop("live_name", None)
+        row = {"name": live_name if live_name else entry["name"], **data}
  
         # Optional: layer in the actual connected-player names via RCON,
         # on top of the count Nitrado's API already gave us above. Only

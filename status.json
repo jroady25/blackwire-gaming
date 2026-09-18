@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:22:26Z",
+  "generated_at": "2026-09-18T20:27:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -59,7 +59,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Vince-Meat83"
+            "Vince-Meat83",
+            "Lowflow"
           ]
         },
         {

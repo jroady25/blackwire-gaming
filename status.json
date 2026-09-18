@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:17:22Z",
+  "generated_at": "2026-09-18T14:22:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,7 +32,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "do_gotcha"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",
@@ -87,7 +89,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP",
           "players": []

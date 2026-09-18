@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-09-18T01:41:57Z",
+  "generated_at": "2026-09-18T01:46:45Z",
   "servers": {
     "ark": {
       "servers": [
-        {
-          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Astraeos_WP"
-        },
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.25)",
           "online": true,
@@ -27,6 +20,13 @@
           "players": []
         },
         {
+          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Astraeos_WP"
+        },
+        {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.25)",
           "online": true,
           "players_current": 0,
@@ -40,7 +40,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Coffee Slayer"
+          ]
         },
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.25)",

@@ -40,12 +40,20 @@ SETUP
        counts only, same as before — this is purely additive. See the
        big comment above query_ark_rcon_players() for what this needs
        and why it's a separate mechanism from the Nitrado API above.
-     - auto_discover_ark: set true to also auto-add any ARK server on
-       your Nitrado account whose name contains "blackwire", instead of
-       relying only on the hand-listed ark_servers above — see the big
-       comment above discover_blackwire_ark_services() before enabling
-       this; it needs a one-time sanity check with --discover-only
-       against your real account first.
+     - auto_discover_ark: set true and this becomes the SOURCE OF TRUTH
+       for which ARK servers show up on the site and what they're named:
+       add, rename, or remove a server on Nitrado (as long as its live
+       name still contains "blackwire") and the site follows within one
+       poll, no config.json edit needed. ark_servers above still matters
+       when this is on -- it's now just where you optionally add "host"
+       + "rcon_port" (and a per-entry "rcon_password" override) to a
+       discovered server's service_id, to get that server's connected-
+       player-names feature; typing a bare "name"/service_id there with
+       no host/rcon_port does nothing once discovery is on, since the
+       live Nitrado name and server list always win. See the big comment
+       above discover_blackwire_ark_services() before enabling this; it
+       needs a one-time sanity check with --discover-only against your
+       real account first.
      - palworld_servers: Palworld servers do NOT use Nitrado's API for
        live data (Nitrado returns no query data for this game) — instead
        each server has its own REST API. Per entry, fill in:
@@ -203,35 +211,48 @@ def poll_nitrado_group(entries, token, rcon_password=None):
  
  
 # ---------------------------------------------------------------------
-# ARK auto-discovery — OFF by default, not yet live-verified.
+# ARK auto-discovery -- ON (config.json's auto_discover_ark: true), and,
+# as of this update, AUTHORITATIVE rather than merely additive.
 #
 # Justin's ask: when he adds, removes, or renames a server on Nitrado,
 # the site should reflect it immediately, without him having to come
-# back and hand-edit config.json's ark_servers list every time. Without
-# this, that list has to be manually kept in sync with his real Nitrado
-# account, same as the old site's hardcoded numbers were.
+# back and hand-edit config.json's ark_servers list every time.
 #
 # This walks every service on the Nitrado account (GET /services), and
 # for each one that looks like an ARK: Survival Ascended server with
 # "BlackWire" in its actual live server name (not just Justin's private
-# account-level label for it — same rule used to build the original 19-
-# server list), adds it automatically. Anything already listed by hand
-# in ark_servers still works exactly as before — this only ADDS newly-
-# discovered servers that aren't already in that list, so config.json's
-# list still doubles as a manual override for edge cases (see
-# auto_discover_exclude_ids below).
+# account-level label for it), includes it. main() below now treats this
+# discovered list as the definitive list of which ARK servers exist and
+# what they're named -- add one on Nitrado and it appears on the site
+# next poll, rename one and the site's label follows (the same live-name
+# lookup poll_nitrado_group() already does per-poll, from Nitrado's own
+# API response), remove/decommission one and it drops off automatically.
+# config.json's hand-listed ark_servers is NOT the source of the list
+# itself anymore when this is on -- it's only consulted for optional
+# per-server RCON host/rcon_port/rcon_password overrides, matched by
+# service_id, so the connected-player-names feature keeps working for
+# servers that already have that configured. A newly-discovered server
+# just won't have player names until that's added by hand, same as a
+# freshly hand-typed entry wouldn't.
 #
-# CAVEAT: the exact field Nitrado uses in its API response to say "this
-# is an ARK: Survival Ascended service" wasn't confirmed against a real
-# account when this was written (Nitrado's docs don't spell it out, and
-# testing needs a live token, which isn't something to leave sitting in
-# this file). The code below tries several reasonably-likely field
-# names and logs clearly whenever it can't tell — it does NOT silently
-# guess wrong and drop a server, or silently include a wrong one without
-# a log line you can check. Before turning this on for real:
+# SAFETY NET: if discovery comes back with zero services (API hiccup,
+# bad/expired token, temporary Nitrado outage, etc.), main() falls back
+# to the hand-listed ark_servers for that one run rather than showing an
+# empty ARK section on the site.
+#
+# CAVEAT (unchanged from before this was turned on): the exact field
+# Nitrado uses in its API response to say "this is an ARK: Survival
+# Ascended service" wasn't confirmed against a real account when this
+# was first written. The code below tries several reasonably-likely
+# field names and logs clearly whenever it can't tell -- it does NOT
+# silently guess wrong and drop a server, or silently include a wrong
+# one without a log line you can check. To re-sanity-check discovery
+# against the real account at any time:
 #   python3 blackwire_status_poller.py --config config.json --discover-only
-# ...and check the printed list against your real server list. Once that
-# looks right, set "auto_discover_ark": true in config.json.
+# Also note the name filter: a server renamed so its live name no longer
+# contains "blackwire" (auto_discover_name_filter in config.json) will
+# drop out of discovery even though it still exists on the account --
+# worth knowing if a server ever mysteriously vanishes from the site.
 # ---------------------------------------------------------------------
  
 def nitrado_list_services(token):
@@ -624,20 +645,40 @@ def main():
             f"against your real server list before enabling auto_discover_ark.")
         return
  
-    ark_entries = list(cfg.get("ark_servers", []))
+    ark_entries_config = list(cfg.get("ark_servers", []))
     if cfg.get("auto_discover_ark"):
         discovered = discover_blackwire_ark_services(
             cfg["nitrado_token"],
             name_filter=cfg.get("auto_discover_name_filter", "blackwire"),
             exclude_ids=cfg.get("auto_discover_exclude_ids", []),
         )
-        known_ids = {str(e["service_id"]) for e in ark_entries}
-        for svc in discovered:
-            if svc["service_id"] not in known_ids:
-                log(f"Discovery: adding newly-found service {svc['service_id']} "
-                    f"('{svc['name']}') — not in config.json's hand-listed ark_servers.")
-                ark_entries.append(svc)
-                known_ids.add(svc["service_id"])
+        if discovered:
+            # Discovery is authoritative now: it decides which ARK
+            # servers exist and what they're named. The hand-listed
+            # ark_servers in config.json is only consulted here to carry
+            # over optional RCON connection info for servers that already
+            # have it configured (matched by service_id) -- see the big
+            # comment above discover_blackwire_ark_services().
+            overrides_by_id = {str(e["service_id"]): e for e in ark_entries_config}
+            ark_entries = []
+            for svc in discovered:
+                entry = dict(svc)
+                override = overrides_by_id.get(str(svc["service_id"]))
+                if override:
+                    for key in ("host", "rcon_port", "rcon_password", "players_max"):
+                        if key in override:
+                            entry[key] = override[key]
+                ark_entries.append(entry)
+            log(f"Discovery: {len(ark_entries)} ARK server(s) live on Nitrado "
+                f"now drive the site's ARK list.")
+        else:
+            log("Discovery returned zero ARK services (API hiccup, bad "
+                "token, or the account/filter genuinely has none) -- "
+                "falling back to config.json's hand-listed ark_servers for "
+                "this run rather than showing an empty ARK section.")
+            ark_entries = ark_entries_config
+    else:
+        ark_entries = ark_entries_config
  
     ark = poll_nitrado_group(ark_entries, cfg["nitrado_token"], cfg.get("ark_rcon_password"))
     palworld = poll_palworld_group(cfg.get("palworld_servers", []))

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:27:19Z",
+  "generated_at": "2026-09-18T17:32:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -72,7 +72,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.28)",

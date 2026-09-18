@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:12:14Z",
+  "generated_at": "2026-09-18T14:17:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -90,9 +90,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.28)",

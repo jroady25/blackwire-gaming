@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T01:46:45Z",
+  "generated_at": "2026-09-18T01:52:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,7 +41,8 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "Coffee Slayer"
+            "Coffee Slayer",
+            "Reilig"
           ]
         },
         {
@@ -141,8 +142,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
-            "crusader4j"
+            "crusader4j",
+            "runcrawlslither"
           ]
         },
         {

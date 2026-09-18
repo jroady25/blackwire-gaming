@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T04:42:12Z",
+  "generated_at": "2026-09-18T04:47:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,8 +34,7 @@
           "map": "Astraeos_WP",
           "players": [
             "legendx12x",
-            "do_gotcha",
-            "nb_gotcha"
+            "do_gotcha"
           ]
         },
         {

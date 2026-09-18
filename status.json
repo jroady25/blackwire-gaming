@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:17:38Z",
+  "generated_at": "2026-09-18T19:22:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -111,12 +111,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "SL4UGHT3R_MDW"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.28)",

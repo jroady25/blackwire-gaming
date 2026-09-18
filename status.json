@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T09:12:44Z",
+  "generated_at": "2026-09-18T09:17:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,18 +12,19 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire - Valguero - PVE - (v93.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Valguero_WP"
-        },
-        {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP"
+        },
+        {
+          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.28)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",
@@ -42,7 +43,7 @@
           "players": []
         },
         {
-          "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.25)",
+          "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -58,7 +59,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.25)",
+          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -114,7 +115,7 @@
           "players": []
         },
         {
-          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.25)",
+          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -122,7 +123,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.25)",
+          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -130,14 +131,15 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.25)",
+          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheCenter_WP"
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.25)",
+          "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:07:19Z",
+  "generated_at": "2026-09-18T10:12:29Z",
   "servers": {
     "ark": {
       "servers": [
@@ -59,7 +59,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire - Decended - PVE - (v93.25)",
+          "name": "[DGS] BlackWire - Decended - PVE - (v93.28)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -177,9 +177,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "KonekoTheKatt"
+          ],
           "map": null
         }
       ]

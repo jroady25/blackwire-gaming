@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T02:47:10Z",
+  "generated_at": "2026-09-18T02:52:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,7 +45,7 @@
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -85,7 +85,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Svartalfheim_WP",
           "players": [
@@ -135,7 +135,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.25)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

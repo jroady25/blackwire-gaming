@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:47:14Z",
+  "generated_at": "2026-09-18T10:52:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -60,10 +60,11 @@
         },
         {
           "name": "[DGS] BlackWire - Decended - PVE - (v93.28)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.28)",
@@ -91,10 +92,11 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.28)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Forglar_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.28)",
@@ -126,6 +128,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.28)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
           "players": []
         },
         {

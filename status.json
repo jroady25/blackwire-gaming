@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T01:11:54Z",
+  "generated_at": "2026-09-18T01:17:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,13 +37,13 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "ckgamer_7",
             "FC ICEY",
-            "Walkm"
+            "Walkm",
+            "ckgamer_7"
           ]
         },
         {

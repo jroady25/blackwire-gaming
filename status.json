@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-18T01:22:02Z",
+  "generated_at": "2026-09-18T01:26:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "Event Map \u2014 Club Ark",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Astraeos_WP"
         },
         {
           "name": "Ragnarok \u2014 PVE",
@@ -37,13 +37,12 @@
         {
           "name": "Extinction \u2014 PVE",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
             "FC ICEY",
-            "Walkm",
-            "ckgamer_7"
+            "Walkm"
           ]
         },
         {

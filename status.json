@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T01:30:50Z",
+  "generated_at": "2026-09-18T01:32:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,7 +41,6 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "FC ICEY",
             "Walkm"
           ]
         },

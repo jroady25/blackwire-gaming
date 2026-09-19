@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:47:22Z",
+  "generated_at": "2026-09-19T10:52:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,10 +9,7 @@
           "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Sir_S4us4ge_JTW",
-            "SL4UGHT3R_MDW"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.28)",
@@ -141,7 +138,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.28)",

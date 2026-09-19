@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T06:47:19Z",
+  "generated_at": "2026-09-19T06:52:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -70,11 +70,10 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.28)",

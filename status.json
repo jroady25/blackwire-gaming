@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-09-19T10:17:05Z",
+  "generated_at": "2026-09-19T10:22:06Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Sir_S4us4ge_JTW"
+            "Sir_S4us4ge_JTW",
+            "SL4UGHT3R_MDW"
           ]
         },
         {
@@ -31,12 +32,10 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "SL4UGHT3R_MDW"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",

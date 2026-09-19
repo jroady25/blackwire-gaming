@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T02:22:11Z",
+  "generated_at": "2026-09-19T02:27:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",

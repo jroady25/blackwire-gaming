@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T03:02:57Z",
+  "generated_at": "2026-09-19T03:07:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -135,7 +135,7 @@
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": []
@@ -143,13 +143,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.28)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "crusader4j",
-            "Reilig"
+            "crusader4j"
           ]
         },
         {
@@ -183,19 +182,19 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "StankGoose "
-          ],
+          "players": [],
           "map": null
         },
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "KonekoTheKatt"
+          ],
           "map": null
         }
       ]

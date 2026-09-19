@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T03:22:09Z",
+  "generated_at": "2026-09-19T03:27:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,7 +34,6 @@
           "map": "Astraeos_WP",
           "players": [
             "legendx12x",
-            "do_gotcha",
             "KAKASHIxHATAKE97"
           ]
         },
@@ -86,9 +85,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "VirtualParadise"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.28)",
@@ -189,12 +186,9 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": true,
-          "players_current": 1,
+          "online": false,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "KonekoTheKatt"
-          ],
           "map": null
         }
       ]

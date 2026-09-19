@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T21:32:22Z",
+  "generated_at": "2026-09-19T21:37:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -39,11 +39,12 @@
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "Coffee Slayer"
+            "Coffee Slayer",
+            "Reilig"
           ]
         },
         {
@@ -139,12 +140,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Reilig"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.28)",

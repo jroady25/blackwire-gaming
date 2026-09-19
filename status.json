@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-09-19T09:42:27Z",
+  "generated_at": "2026-09-19T09:45:26Z",
   "servers": {
     "ark": {
       "servers": [
+        {
+          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP"
+        },
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
           "online": true,
@@ -20,20 +27,12 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP"
-        },
-        {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.28)",
           "online": true,
           "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Sir_S4us4ge_JTW",
             "SL4UGHT3R_MDW"
           ]
         },
@@ -120,12 +119,11 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.28)",
-          "online": true,
+          "name": "Lost Colony \u2014 PVE (JKRZ)",
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.28)",

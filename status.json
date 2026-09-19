@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T21:02:50Z",
+  "generated_at": "2026-09-19T21:07:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -139,12 +139,11 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.28)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Reilig",
-            "Star",
             "Coffee Slayer"
           ]
         },

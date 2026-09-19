@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T21:57:00Z",
+  "generated_at": "2026-09-19T22:02:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,7 +45,6 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "Coffee Slayer",
             "Reilig"
           ]
         },

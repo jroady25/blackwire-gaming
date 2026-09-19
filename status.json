@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:17:19Z",
+  "generated_at": "2026-09-19T18:22:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,7 +33,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Sir_S4us4ge_JTW",
             "SL4UGHT3R_MDW"
           ]
         },
@@ -58,7 +57,7 @@
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.28)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -119,7 +118,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "Sir_S4us4ge_JTW"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.28)",

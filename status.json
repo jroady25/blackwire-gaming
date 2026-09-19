@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:12:20Z",
+  "generated_at": "2026-09-19T18:17:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -61,7 +61,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Vince-Meat83"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Decended - PVE - (v93.28)",

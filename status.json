@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:56:56Z",
+  "generated_at": "2026-09-20T23:02:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,12 +45,10 @@
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "IcoN-C_o"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.28)",
@@ -183,11 +181,9 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Gura"
-          ],
+          "players": [],
           "map": null
         }
       ]

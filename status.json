@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T21:07:01Z",
+  "generated_at": "2026-09-20T21:12:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -60,12 +60,10 @@
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Vince-Meat83"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Decended - PVE - (v93.28)",

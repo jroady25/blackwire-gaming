@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T03:56:49Z",
+  "generated_at": "2026-09-20T04:02:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.28)",
@@ -105,11 +103,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": [
-            "Lady Sharp"
+            "Lady Sharp",
+            "Arigatu1"
           ]
         },
         {

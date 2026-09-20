@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-09-20T04:52:16Z",
+  "generated_at": "2026-09-20T04:57:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.28)",
@@ -24,7 +22,7 @@
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP"
         },
@@ -181,11 +179,10 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 16,
           "players": [
             "SlayKen",
-            "KonekoTheKatt",
             "Gura"
           ],
           "map": null

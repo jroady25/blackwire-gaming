@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:22:02Z",
+  "generated_at": "2026-09-20T12:26:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,9 +32,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "nb_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T18:47:17Z",
+  "generated_at": "2026-09-20T18:52:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.28)",
@@ -31,12 +29,13 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.28)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "legendx12x",
-            "SL4UGHT3R_MDW"
+            "SL4UGHT3R_MDW",
+            "do_gotcha"
           ]
         },
         {

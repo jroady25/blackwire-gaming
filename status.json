@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T21:22:17Z",
+  "generated_at": "2026-09-20T21:27:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,8 +33,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KAKASHIxHATAKE97",
-            "legendx12x"
+            "legendx12x",
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -52,7 +52,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "santos_g3",
             "JDavid_0325",
             "IcoN-C_o"
           ]
@@ -84,10 +83,12 @@
         {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.28)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "VirtualParadise"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.28)",

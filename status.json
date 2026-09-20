@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T04:32:13Z",
+  "generated_at": "2026-09-20T04:37:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,9 +50,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "JDavid_0325"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.28)",

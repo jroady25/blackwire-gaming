@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T16:32:28Z",
+  "generated_at": "2026-09-20T16:37:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,19 +22,20 @@
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP"
         },
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.28)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Sir_S4us4ge_JTW",
             "SL4UGHT3R_MDW",
+            "nb_gotcha",
             "legendx12x"
           ]
         },
@@ -147,12 +148,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "nb_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.28)",

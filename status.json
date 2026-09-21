@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:22:17Z",
+  "generated_at": "2026-09-21T22:27:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -82,7 +82,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "VirtualParadise"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.28)",

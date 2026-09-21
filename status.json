@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T16:17:18Z",
+  "generated_at": "2026-09-21T16:22:18Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,7 +22,7 @@
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP"
         },
@@ -45,12 +45,10 @@
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "IcoN-C_o"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.28)",
@@ -173,10 +171,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "Salem"
+            "Salem",
+            "StankGoose "
           ],
           "map": null
         },

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T01:17:11Z",
+  "generated_at": "2026-09-22T01:21:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -48,10 +48,7 @@
           "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3",
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.28)",
@@ -83,9 +80,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "VirtualParadise"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.28)",
@@ -145,7 +140,8 @@
             "runcrawlslither",
             "Reilig",
             "crusader4j",
-            "Lady Sharp"
+            "Lady Sharp",
+            "Arigatu1"
           ]
         },
         {
@@ -170,9 +166,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         }
       ]
     },

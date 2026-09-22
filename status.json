@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:41:52Z",
+  "generated_at": "2026-09-22T06:47:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -162,13 +162,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.28)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
             "domaskidd1",
-            "ProjectMend",
-            "YajafoodTheDestr..."
+            "ProjectMend"
           ]
         }
       ]

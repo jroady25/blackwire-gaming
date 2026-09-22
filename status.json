@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T01:11:55Z",
+  "generated_at": "2026-09-22T01:17:11Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -45,11 +45,12 @@
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "santos_g3"
+            "santos_g3",
+            "legendx12x"
           ]
         },
         {
@@ -143,8 +144,8 @@
           "players": [
             "runcrawlslither",
             "Reilig",
-            "Lady Sharp",
-            "crusader4j"
+            "crusader4j",
+            "Lady Sharp"
           ]
         },
         {
@@ -166,10 +167,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.28)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         }
       ]
     },

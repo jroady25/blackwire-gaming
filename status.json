@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:07:06Z",
+  "generated_at": "2026-09-22T03:12:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -79,7 +79,7 @@
         {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []
@@ -122,9 +122,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.28)",
@@ -143,7 +141,8 @@
           "players": [
             "runcrawlslither",
             "crusader4j",
-            "taterbugg_06"
+            "taterbugg_06",
+            "legendx12x"
           ]
         },
         {

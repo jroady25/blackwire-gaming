@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-22T21:12:04Z",
+  "generated_at": "2026-09-22T21:16:59Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "SuperBozzie"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.28)",

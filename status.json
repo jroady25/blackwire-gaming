@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:57:05Z",
+  "generated_at": "2026-09-22T07:03:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -140,7 +140,8 @@
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "crusader4j"
+            "crusader4j",
+            "taterbugg_06"
           ]
         },
         {
@@ -162,7 +163,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.28)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []

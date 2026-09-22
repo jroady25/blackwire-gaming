@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T08:57:16Z",
+  "generated_at": "2026-09-22T09:03:21Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
@@ -36,7 +36,7 @@
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
@@ -44,7 +44,7 @@
         },
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
@@ -92,19 +92,17 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar_WP",
-          "players": []
+          "map": "Forglar_WP"
         },
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "ScorchedEarth_WP",
-          "players": []
+          "map": "ScorchedEarth_WP"
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.28)",
@@ -116,11 +114,10 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "map": "LostColony_WP"
         },
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.28)",
@@ -156,11 +153,10 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.28)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "players": []
+          "map": "Bjarnheim_WP"
         }
       ]
     },

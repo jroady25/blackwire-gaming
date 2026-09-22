@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:37:10Z",
+  "generated_at": "2026-09-22T08:42:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,7 +9,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "crusader4j"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.28)",

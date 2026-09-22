@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T00:17:09Z",
+  "generated_at": "2026-09-22T00:22:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,7 +37,7 @@
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": []
@@ -103,12 +103,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Lady Sharp"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.28)",
@@ -137,12 +135,13 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.28)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "Reilig"
+            "Reilig",
+            "Lady Sharp"
           ]
         },
         {

@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-09-22T22:32:58Z",
+  "generated_at": "2026-09-22T22:37:02Z",
   "servers": {
     "ark": {
       "servers": [
-        {
-          "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.28)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP"
-        },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
           "online": true,
@@ -19,21 +12,14 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.28)",
+          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP"
         },
         {
-          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.28)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP"
-        },
-        {
-          "name": "[DGS] BlackWire - Extinction - PVE - (v93.28)",
+          "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -41,11 +27,12 @@
           "players": []
         },
         {
-          "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.28)",
+          "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
@@ -64,7 +51,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.28)",
+          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -88,11 +75,12 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.28)",
+          "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar_WP"
+          "map": "Forglar_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.33)",
@@ -111,7 +99,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.28)",
+          "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -119,7 +107,7 @@
           "players": []
         },
         {
-          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.28)",
+          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -127,7 +115,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.28)",
+          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -135,7 +123,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.28)",
+          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -143,7 +131,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.28)",
+          "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,

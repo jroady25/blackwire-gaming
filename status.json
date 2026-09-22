@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:02:34Z",
+  "generated_at": "2026-09-22T06:07:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -139,8 +139,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "runcrawlslither",
-            "crusader4j"
+            "runcrawlslither"
           ]
         },
         {
@@ -167,8 +166,7 @@
           "map": "Bjarnheim_WP",
           "players": [
             "domaskidd1",
-            "ProjectMend",
-            "bboytheekid"
+            "ProjectMend"
           ]
         }
       ]

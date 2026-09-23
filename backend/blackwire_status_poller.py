@@ -330,6 +330,19 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
  
         query = gs.get("query") or {}
         server_name = str(query.get("server_name") or "")
+        if not server_name:
+            # The service responded, but with no query data at all -- no
+            # name to judge by. This is NOT "confidently not a match": a
+            # server that's offline or briefly hasn't been queried by
+            # Nitrado can report empty query data even though it's really
+            # one of ours. Treat it the same as an unreachable probe so a
+            # server we already know about can be carried over from the
+            # cache instead of silently vanishing from the site.
+            log(f"Discovery: service {service_id}: no query data in the API "
+                f"response this run, so its name can't be confirmed -- "
+                f"treating as unreachable rather than assuming it's not a match.")
+            unreachable_ids.add(service_id)
+            continue
         if name_filter.lower() not in server_name.lower():
             continue  # confidently not a match this run -- has a name, just not ours
  

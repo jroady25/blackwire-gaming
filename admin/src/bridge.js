@@ -86,7 +86,6 @@ async function readBody(request) {
   }
   return Object.keys(out).length ? out : { unparsed: trimmed.slice(0, 400) };
 }
-}
 
 function dayKey(d = new Date()) {
   return EVENT_PREFIX + d.toISOString().slice(0, 10);

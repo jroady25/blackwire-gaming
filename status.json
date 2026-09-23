@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T19:56:14Z",
+  "generated_at": "2026-09-23T20:01:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -71,7 +71,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

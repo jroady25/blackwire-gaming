@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T12:11:29Z",
+  "generated_at": "2026-09-23T12:15:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,6 +28,22 @@
           "players": []
         },
         {
+          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Forglar2_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": []
+        },
+        {
           "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
@@ -36,7 +52,21 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
+          "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
@@ -57,35 +87,7 @@
           "map": null
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",
+          "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
@@ -99,14 +101,21 @@
           "map": null
         },
         {
-          "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
+          "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
         },
         {
-          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
+          "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
@@ -127,21 +136,14 @@
           "map": null
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.33)",
+          "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
         },
         {
-          "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.33)",
+          "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,

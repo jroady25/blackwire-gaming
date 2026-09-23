@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:21:52Z",
+  "generated_at": "2026-09-23T09:26:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -11,14 +11,6 @@
           "map": "Astraeos_WP"
         },
         {
-          "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP",
-          "players": []
-        },
-        {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
           "online": true,
           "players_current": 0,
@@ -27,11 +19,11 @@
           "players": []
         },
         {
-          "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
+          "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
+          "map": "TheIsland_WP",
           "players": []
         },
         {
@@ -75,6 +67,14 @@
           "players": []
         },
         {
+          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": []
+        },
+        {
           "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
@@ -83,7 +83,7 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",
+          "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
@@ -91,48 +91,6 @@
         },
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
@@ -147,6 +105,48 @@
         },
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,

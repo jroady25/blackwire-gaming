@@ -118,28 +118,18 @@ def log(msg):
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {msg}", file=sys.stderr)
  
  
-def nitrado_get_gameserver(service_id, token):
-    """
-    Calls Nitrado's gameserver-details endpoint and pulls the live query
-    block out of the response. Returns {"online", "players_current",
-    "players_max"} or None if the call fails or the server has no query
-    data populated (some configs don't expose it — RCON is the fallback
-    for those, but the exact command differs per game so it isn't
-    implemented generically here).
- 
-    Docs: https://doc.nitrado.net/#api-Gameserver-Details
-    """
-    url = f"{NITRADO_API_BASE}/services/{service_id}/gameservers"
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
+def _parse_gameserver_status(service_id, gs):
+    """Shared by nitrado_get_gameserver() (a fresh fetch) and
+    poll_nitrado_group() when it already has this run's discovery probe
+    for this service (see probed_gs below) -- same parsing either way,
+    just sometimes skipping a second network call for data we already
+    fetched once this run. Takes an already-fetched "gameserver" dict
+    (payload["data"]["gameserver"]) and returns {"online",
+    "players_current", "players_max", "map", "live_name"} or None if
+    this server has no query data populated (some configs don't expose
+    it — RCON is the fallback for those, but the exact command differs
+    per game so it isn't implemented generically here)."""
     try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            payload = json.loads(resp.read().decode("utf-8"))
-    except (urllib.error.URLError, TimeoutError, ValueError) as exc:
-        log(f"Nitrado API call failed for service {service_id}: {exc}")
-        return None
- 
-    try:
-        gs = payload["data"]["gameserver"]
         status = gs.get("status")
         query = gs.get("query") or {}
         current = query.get("player_current")
@@ -168,15 +158,59 @@ def nitrado_get_gameserver(service_id, token):
         return None
  
  
-def poll_nitrado_group(entries, token, rcon_password=None):
+def nitrado_get_gameserver(service_id, token):
+    """
+    Calls Nitrado's gameserver-details endpoint and parses the live
+    query block out of the response via _parse_gameserver_status().
+    Returns {"online", "players_current", "players_max"} or None if the
+    call fails or the server has no query data populated.
+ 
+    Docs: https://doc.nitrado.net/#api-Gameserver-Details
+    """
+    url = f"{NITRADO_API_BASE}/services/{service_id}/gameservers"
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            payload = json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, ValueError) as exc:
+        log(f"Nitrado API call failed for service {service_id}: {exc}")
+        return None
+ 
+    try:
+        gs = payload["data"]["gameserver"]
+    except (KeyError, TypeError) as exc:
+        log(f"Unexpected Nitrado response shape for service {service_id}: {exc}")
+        return None
+    return _parse_gameserver_status(service_id, gs)
+ 
+ 
+def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
     """rcon_password: the shared ARK RCON/admin password to use for any
     entry that has "host" and "rcon_port" filled in but no per-entry
     "rcon_password" override — see the ARK RCON section below. Purely
     additive: entries without host/rcon_port still work exactly as
-    before, using only Nitrado's API for counts."""
+    before, using only Nitrado's API for counts.
+ 
+    probed_gs: optional {service_id: gameserver_dict} already fetched
+    this run by discover_blackwire_ark_services() -- when a service_id
+    is in here, its status is parsed straight from that data instead of
+    hitting Nitrado's API a second time for the exact same service in
+    the exact same run. This roughly halves the number of Nitrado API
+    calls a single poll makes (discovery + status used to each fetch
+    every service separately), which matters because a service whose
+    discovery probe just failed this run is very likely to fail an
+    immediate second call too -- so the old double-fetch wasn't even
+    buying a second chance, just extra load. Falls back to a fresh
+    nitrado_get_gameserver() call for anything not in probed_gs (e.g.
+    auto_discover_ark is off, so there was no discovery pass at all)."""
+    probed_gs = probed_gs or {}
     results = []
     for entry in entries:
-        data = nitrado_get_gameserver(entry["service_id"], token)
+        service_id = entry["service_id"]
+        if service_id in probed_gs:
+            data = _parse_gameserver_status(service_id, probed_gs[service_id])
+        else:
+            data = nitrado_get_gameserver(service_id, token)
         if data is None:
             # Keep the server listed but mark it unreachable, rather than
             # silently dropping the row — a visibly-offline server reads
@@ -275,7 +309,7 @@ def nitrado_list_services(token):
  
  
 def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=None):
-    """Returns (found, unreachable_ids, account_ids):
+    """Returns (found, unreachable_ids, account_ids, probed_gs):
       found: [{"service_id", "name"}, ...] for every service CONFIRMED
         this run to be a BlackWire ARK: Survival Ascended server (live
         name contains name_filter, game type looks like ARK).
@@ -290,6 +324,14 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         apart from "temporarily unreachable this run" (present here,
         but also in unreachable_ids) -- see the big comment above
         main()'s ark_entries handling for why that distinction exists.
+      probed_gs: {service_id: gameserver_dict} for every service whose
+        per-service call succeeded and returned a parseable
+        payload["data"]["gameserver"] this run, whatever it turned out
+        to contain (matched, not matched, even no query data) -- this
+        is the same raw data poll_nitrado_group() would otherwise fetch
+        AGAIN a few seconds later for the exact same service. main()
+        passes this straight through so that second, redundant fetch
+        can be skipped -- see the big comment on poll_nitrado_group().
     See the big comment above this function for the game-type caveat --
     it hasn't been live-verified, so it logs anything ambiguous instead
     of guessing silently."""
@@ -297,6 +339,7 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
     found = []
     unreachable_ids = set()
     account_ids = set()
+    probed_gs = {}
     for svc in nitrado_list_services(token):
         service_id = str(svc.get("id", ""))
         if not service_id:
@@ -320,6 +363,13 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         except (KeyError, TypeError):
             unreachable_ids.add(service_id)
             continue
+ 
+        # Save this now, regardless of what the rest of this loop
+        # iteration decides about game type / name match -- it's this
+        # service's real gameserver payload for this run either way,
+        # and reusing it below is what lets poll_nitrado_group() skip
+        # calling Nitrado again for the same service_id.
+        probed_gs[service_id] = gs
  
         # Best-effort guess at which field says "this is ARK: Survival
         # Ascended" — unconfirmed, see caveat above.
@@ -353,7 +403,7 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
  
         found.append({"service_id": service_id, "name": server_name or f"Service {service_id}"})
  
-    return found, unreachable_ids, account_ids
+    return found, unreachable_ids, account_ids, probed_gs
 
 
 def load_ark_cache(path):
@@ -686,7 +736,7 @@ def main():
         cfg = json.load(f)
  
     if args.discover_only:
-        discovered, unreachable, account_ids = discover_blackwire_ark_services(
+        discovered, unreachable, account_ids, _probed_gs = discover_blackwire_ark_services(
             cfg["nitrado_token"],
             name_filter=cfg.get("auto_discover_name_filter", "blackwire"),
             exclude_ids=cfg.get("auto_discover_exclude_ids", []),
@@ -705,8 +755,13 @@ def main():
     # this is what lets a server survive one bad poll instead of
     # vanishing off the site. See the big comment just below.
     ark_cache_path = os.path.join(os.path.dirname(args.out) or ".", "known_ark_services.json")
+    # Populated below only when auto_discover_ark ran and actually talked
+    # to Nitrado this run -- poll_nitrado_group() treats None/empty the
+    # same as "no discovery data to reuse" and just falls back to its own
+    # fresh per-service call, same as before this existed.
+    probed_gs = None
     if cfg.get("auto_discover_ark"):
-        discovered, unreachable, account_ids = discover_blackwire_ark_services(
+        discovered, unreachable, account_ids, probed_gs = discover_blackwire_ark_services(
             cfg["nitrado_token"],
             name_filter=cfg.get("auto_discover_name_filter", "blackwire"),
             exclude_ids=cfg.get("auto_discover_exclude_ids", []),
@@ -777,7 +832,7 @@ def main():
     else:
         ark_entries = ark_entries_config
  
-    ark = poll_nitrado_group(ark_entries, cfg["nitrado_token"], cfg.get("ark_rcon_password"))
+    ark = poll_nitrado_group(ark_entries, cfg["nitrado_token"], cfg.get("ark_rcon_password"), probed_gs=probed_gs)
     palworld = poll_palworld_group(cfg.get("palworld_servers", []))
     once_human = poll_once_human_group(cfg.get("once_human_servers", []))
  

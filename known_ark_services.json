@@ -4,10 +4,6 @@
     "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)"
   },
   {
-    "service_id": "18012721",
-    "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)"
-  },
-  {
     "service_id": "18111130",
     "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)"
   },
@@ -30,6 +26,10 @@
   {
     "service_id": "18863102",
     "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.33)"
+  },
+  {
+    "service_id": "19072757",
+    "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.33)"
   },
   {
     "service_id": "19368830",

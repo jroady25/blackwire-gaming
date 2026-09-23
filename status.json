@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-09-23T07:22:27Z",
+  "generated_at": "2026-09-23T07:27:24Z",
   "servers": {
     "ark": {
       "servers": [
-        {
-          "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP"
-        },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
           "online": true,
@@ -41,6 +34,13 @@
           "players": []
         },
         {
+          "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP"
+        },
+        {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",
           "online": true,
           "players_current": 0,
@@ -57,6 +57,14 @@
           "players": []
         },
         {
+          "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Aberration_WP",
+          "players": []
+        },
+        {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
@@ -66,10 +74,11 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T06:52:12Z",
+  "generated_at": "2026-09-23T06:57:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,6 +28,14 @@
           "players": []
         },
         {
+          "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
+        },
+        {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
           "online": true,
           "players_current": 2,
@@ -36,6 +44,14 @@
           "players": [
             "santos_g3"
           ]
+        },
+        {
+          "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
@@ -70,20 +86,11 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Aberration_WP",
-          "players": []
-        },
-        {
           "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.33)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",

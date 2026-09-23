@@ -1,39 +1,8 @@
 {
-  "generated_at": "2026-09-23T11:16:32Z",
+  "generated_at": "2026-09-23T11:21:18Z",
   "servers": {
     "ark": {
       "servers": [
-        {
-          "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Valguero_WP",
-          "players": []
-        },
-        {
-          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP"
-        },
-        {
-          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
-        },
-        {
-          "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP",
-          "players": []
-        },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
           "online": true,
@@ -44,11 +13,10 @@
         },
         {
           "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
-          "online": true,
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
+          "players_max": 0,
+          "map": null
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
@@ -99,11 +67,11 @@
           "players": []
         },
         {
-          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.33)",
+          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar2_WP",
+          "map": "TheIsland_WP",
           "players": []
         },
         {
@@ -115,28 +83,14 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
+          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
           "map": null
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",
+          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,
@@ -150,7 +104,49 @@
           "map": null
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
+          "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,

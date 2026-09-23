@@ -58,6 +58,15 @@ jobs:
           git config user.name "blackwire-status-bot"
           git config user.email "actions@users.noreply.github.com"
           git add status.json
+          # known_ark_services.json is the poller's last-known-good ARK
+          # server cache (service_id + name) -- it's what lets a server
+          # survive a transient Nitrado API blip during discovery
+          # instead of vanishing off the site. It only exists once
+          # auto_discover_ark has successfully run at least once, so
+          # guard the add for the very first run after this was added.
+          if [ -f known_ark_services.json ]; then
+            git add known_ark_services.json
+          fi
           if git diff --cached --quiet; then
             echo "No change in server status -- nothing to commit."
           else

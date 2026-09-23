@@ -21,6 +21,7 @@ import {
 } from "./auth.js";
 import { cancelSchedule, createSchedule, dueSchedules, listSchedules, readAudit, writeAudit } from "./schedule.js";
 import { readActivity, recordPresence } from "./presence.js";
+import { handleBridgeLog, handleBridgePing } from "./bridge.js";
 import {
   parsePlayers,
   rconConfigured,
@@ -205,7 +206,13 @@ async function handleApi(request, env, url, session) {
     return json({ ok: true }, 200, { "Set-Cookie": sessionCookie("", { clear: true }) });
   }
 
+  // Called by the ARK server itself, so it must sit ahead of the session
+  // gate. Auth is the X-BW-Key shared secret, handled inside.
+  if (path === "/api/bridge/ping") return handleBridgePing(request, env);
+
   if (!session) return json({ error: "Not signed in." }, 401);
+
+  if (path === "/api/bridge/log") return handleBridgeLog(env);
 
   if (path === "/api/rcon/targets") {
     return json({ configured: rconConfigured(env), targets: await rconTargetList(env) });

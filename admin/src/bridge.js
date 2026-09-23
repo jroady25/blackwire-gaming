@@ -101,7 +101,17 @@ export async function handleBridgePing(request, env) {
     prev.unshift(entry);
     await env.STORE.put(PING_KEY, JSON.stringify(prev.slice(0, MAX_PINGS)));
   }
-  return json({ ok: true, authed: entry.authed });
+  // Echo back how many pings are stored and when the last non-probe one
+  // arrived, so a test can be confirmed without signing in anywhere.
+  let stored = 0;
+  let lastFromGame = null;
+  if (env.STORE) {
+    const all = (await env.STORE.get(PING_KEY, "json")) || [];
+    stored = all.length;
+    const fromGame = all.find((e) => e && e.body && e.body.src === "BWC_Singleton");
+    if (fromGame) lastFromGame = fromGame.at;
+  }
+  return json({ ok: true, authed: entry.authed, stored, lastFromGame });
 }
 
 // One rolling key per UTC day. The mod may batch several events into one

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:41:18Z",
+  "generated_at": "2026-09-23T23:46:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -137,10 +137,12 @@
         {
           "name": "The Island \u2014 PVE (JKRZ)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 0,
           "map": null,
-          "players": []
+          "players": [
+            "taterbugg_06"
+          ]
         },
         {
           "name": "The Center \u2014 PVE (JKRZ)",
@@ -184,7 +186,7 @@
           "players_current": 1,
           "players_max": 16,
           "players": [
-            "w1ndfox49"
+            "Boogey"
           ],
           "map": null
         }

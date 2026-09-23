@@ -183,6 +183,7 @@ export async function handleBridgeEvent(request, env) {
   let lastFromGame = null;
   let lastEvent = null;
   const byType = {};
+  const lastByType = {};
   if (env.STORE) {
     const all = (await env.STORE.get(dayKey(), "json")) || [];
     dayTotal = all.length;
@@ -191,10 +192,11 @@ export async function handleBridgeEvent(request, env) {
       if (e.server !== "probe" && e.player !== "claude-probe") {
         lastFromGame = e.at;
         lastEvent = e;
+        lastByType[e.type] = e;
       }
     }
   }
-  return json({ ok: true, stored: clean.length, authed: key.authed, dayTotal, byType, lastFromGame, lastEvent });
+  return json({ ok: true, stored: clean.length, authed: key.authed, dayTotal, byType, lastFromGame, lastEvent, lastByType });
 }
 
 export async function handleBridgeLog(env) {

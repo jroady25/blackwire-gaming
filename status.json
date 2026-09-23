@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-09-23T02:07:00Z",
+  "generated_at": "2026-09-23T02:12:05Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "crusader4j"
+            "crusader4j",
+            "MattyRoth83"
           ]
         },
         {

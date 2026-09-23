@@ -1,14 +1,53 @@
 {
-  "generated_at": "2026-09-23T06:32:13Z",
+  "generated_at": "2026-09-23T06:37:00Z",
   "servers": {
     "ark": {
       "servers": [
+        {
+          "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Valguero_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Astraeos_WP"
+        },
+        {
+          "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
         {
           "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
           "players": []
         },
         {
@@ -41,6 +80,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
           "players": []
         },
         {

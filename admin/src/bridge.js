@@ -164,7 +164,20 @@ export async function handleBridgeEvent(request, env) {
     }
     await env.STORE.put(TOTALS_KEY, JSON.stringify(totals));
   }
-  return json({ ok: true, stored: clean.length, authed: key.authed });
+  // Echo the day's totals so a probe can confirm what the game sent without
+  // needing an admin session.
+  let dayTotal = 0;
+  let lastFromGame = null;
+  const byType = {};
+  if (env.STORE) {
+    const all = (await env.STORE.get(dayKey(), "json")) || [];
+    dayTotal = all.length;
+    for (const e of all) {
+      byType[e.type] = (byType[e.type] || 0) + 1;
+      if (e.server !== "probe" && e.player !== "claude-probe") lastFromGame = e.at;
+    }
+  }
+  return json({ ok: true, stored: clean.length, authed: key.authed, dayTotal, byType, lastFromGame });
 }
 
 export async function handleBridgeLog(env) {

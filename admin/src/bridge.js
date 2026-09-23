@@ -67,11 +67,25 @@ async function readBody(request) {
     return null;
   }
   if (!raw) return null;
-  try {
-    return JSON.parse(raw);
-  } catch {
-    return { unparsed: raw.slice(0, 400) };
+  const trimmed = raw.trim();
+  if (trimmed.startsWith("{") || trimmed.startsWith("[")) {
+    try {
+      return JSON.parse(trimmed);
+    } catch {
+      return { unparsed: trimmed.slice(0, 400) };
+    }
   }
+  // Pipe form: type=player_join|player=Sapper|playerId=77001
+  // A Blueprint pin default cannot contain a double quote, so the mod sends
+  // this instead of JSON and it is parsed here.
+  const out = {};
+  for (const part of trimmed.split("|")) {
+    const eq = part.indexOf("=");
+    if (eq < 1) continue;
+    out[part.slice(0, eq).trim()] = part.slice(eq + 1).trim();
+  }
+  return Object.keys(out).length ? out : { unparsed: trimmed.slice(0, 400) };
+}
 }
 
 function dayKey(d = new Date()) {

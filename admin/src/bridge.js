@@ -181,16 +181,20 @@ export async function handleBridgeEvent(request, env) {
   // needing an admin session.
   let dayTotal = 0;
   let lastFromGame = null;
+  let lastEvent = null;
   const byType = {};
   if (env.STORE) {
     const all = (await env.STORE.get(dayKey(), "json")) || [];
     dayTotal = all.length;
     for (const e of all) {
       byType[e.type] = (byType[e.type] || 0) + 1;
-      if (e.server !== "probe" && e.player !== "claude-probe") lastFromGame = e.at;
+      if (e.server !== "probe" && e.player !== "claude-probe") {
+        lastFromGame = e.at;
+        lastEvent = e;
+      }
     }
   }
-  return json({ ok: true, stored: clean.length, authed: key.authed, dayTotal, byType, lastFromGame });
+  return json({ ok: true, stored: clean.length, authed: key.authed, dayTotal, byType, lastFromGame, lastEvent });
 }
 
 export async function handleBridgeLog(env) {

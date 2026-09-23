@@ -4,12 +4,12 @@
     "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)"
   },
   {
-    "service_id": "18012721",
-    "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)"
+    "service_id": "18111130",
+    "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)"
   },
   {
-    "service_id": "18863471",
-    "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)"
+    "service_id": "18667313",
+    "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)"
   },
   {
     "service_id": "18357526",
@@ -30,10 +30,6 @@
   {
     "service_id": "18860204",
     "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.33)"
-  },
-  {
-    "service_id": "18863102",
-    "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.33)"
   },
   {
     "service_id": "19072757",
@@ -64,19 +60,23 @@
     "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)"
   },
   {
-    "service_id": "19826461",
-    "name": "[DGS] BlackWire - Decended - PVE - (v93.33)"
-  },
-  {
-    "service_id": "18667313",
-    "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)"
-  },
-  {
-    "service_id": "18111130",
-    "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)"
-  },
-  {
     "service_id": "17681860",
     "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)"
+  },
+  {
+    "service_id": "18863471",
+    "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)"
+  },
+  {
+    "service_id": "18863102",
+    "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.33)"
+  },
+  {
+    "service_id": "18012721",
+    "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)"
+  },
+  {
+    "service_id": "19826461",
+    "name": "[DGS] BlackWire - Decended - PVE - (v93.33)"
   }
 ]

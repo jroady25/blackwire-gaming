@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:28:04Z",
+  "generated_at": "2026-09-23T14:31:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,18 +14,19 @@
           ]
         },
         {
-          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)",
+          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
-          "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
+          "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
+          "map": "Astraeos_WP",
           "players": []
         },
         {
@@ -66,14 +67,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
-        },
-        {
-          "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Aberration_WP",
           "players": []
         },
         {
@@ -118,10 +111,11 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)",
-          "online": false,
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
@@ -131,29 +125,35 @@
           "map": null
         },
         {
-          "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
-        },
-        {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "[DGS] BlackWire - Decended - PVE - (v93.33)",
           "online": false,
           "players_current": 0,
           "players_max": 0,

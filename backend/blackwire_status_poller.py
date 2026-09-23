@@ -308,6 +308,9 @@ def nitrado_list_services(token):
         return []
  
  
+_DEBUG_DUMPS = {"n": 0, "limit": 5}  # TEMP DEBUG, see note below -- remove once diagnosed
+
+
 def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=None):
     """Returns (found, unreachable_ids, account_ids, probed_gs):
       found: [{"service_id", "name"}, ...] for every service CONFIRMED
@@ -352,6 +355,7 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
         try:
             with urllib.request.urlopen(req, timeout=10) as resp:
+                http_status = resp.status
                 payload = json.loads(resp.read().decode("utf-8"))
         except (urllib.error.URLError, TimeoutError, ValueError) as exc:
             log(f"Discovery: couldn't fetch service {service_id}: {exc}")
@@ -363,6 +367,20 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         except (KeyError, TypeError):
             unreachable_ids.add(service_id)
             continue
+ 
+        # TEMP DEBUG (Justin asked to root-cause the account-wide "no
+        # query data" pattern) -- log only the non-sensitive fields
+        # (never credentials/ftp/mysql/rcon) for the first few services
+        # this run, so we can see exactly what Nitrado sent back instead
+        # of guessing. Remove once diagnosed.
+        if _DEBUG_DUMPS["n"] < _DEBUG_DUMPS["limit"]:
+            _DEBUG_DUMPS["n"] += 1
+            safe = {k: gs.get(k) for k in
+                    ("id", "status", "game", "game_human", "type", "query",
+                     "must_be_started", "suspend_status")
+                    if k in gs}
+            log(f"DEBUG service {service_id}: http_status={http_status} "
+                f"fields={json.dumps(safe, default=str)[:2000]}")
  
         # Save this now, regardless of what the rest of this loop
         # iteration decides about game type / name match -- it's this

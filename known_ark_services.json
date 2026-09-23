@@ -8,24 +8,20 @@
     "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)"
   },
   {
+    "service_id": "18111130",
+    "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)"
+  },
+  {
     "service_id": "18111154",
     "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)"
-  },
-  {
-    "service_id": "18863471",
-    "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)"
-  },
-  {
-    "service_id": "19826461",
-    "name": "[DGS] BlackWire - Decended - PVE - (v93.33)"
   },
   {
     "service_id": "18357526",
     "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)"
   },
   {
-    "service_id": "18357580",
-    "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)"
+    "service_id": "18610040",
+    "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.33)"
   },
   {
     "service_id": "18859910",
@@ -56,24 +52,28 @@
     "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.33)"
   },
   {
-    "service_id": "18012721",
-    "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)"
+    "service_id": "19826461",
+    "name": "[DGS] BlackWire - Decended - PVE - (v93.33)"
   },
   {
-    "service_id": "18111130",
-    "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)"
+    "service_id": "18357580",
+    "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)"
+  },
+  {
+    "service_id": "18863471",
+    "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)"
   },
   {
     "service_id": "19072757",
     "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.33)"
   },
   {
-    "service_id": "18610040",
-    "name": "[DGS] BlackWire (JKRZ) - Svartalfheim - PVE - (v93.33)"
-  },
-  {
     "service_id": "18860204",
     "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.33)"
+  },
+  {
+    "service_id": "18012721",
+    "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)"
   },
   {
     "service_id": "18667313",

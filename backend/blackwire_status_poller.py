@@ -103,6 +103,7 @@ droplet.
  
 import argparse
 import json
+import os
 import socket
 import struct
 import sys
@@ -274,16 +275,34 @@ def nitrado_list_services(token):
  
  
 def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=None):
-    """Returns [{"service_id", "name"}, ...] for every ARK: Survival
-    Ascended service on the account whose live server name contains
-    name_filter (case-insensitive). See the big comment above — this
-    hasn't been live-verified, so it logs anything ambiguous instead of
-    guessing silently."""
+    """Returns (found, unreachable_ids, account_ids):
+      found: [{"service_id", "name"}, ...] for every service CONFIRMED
+        this run to be a BlackWire ARK: Survival Ascended server (live
+        name contains name_filter, game type looks like ARK).
+      unreachable_ids: {service_id, ...} for services still on the
+        Nitrado account (present in /services) whose per-service probe
+        failed THIS run (timeout, malformed response, API error) --
+        this run simply couldn't tell whether they match. NOT the same
+        as "confirmed this isn't a BlackWire ARK server".
+      account_ids: {service_id, ...} for every service_id currently on
+        the Nitrado account, straight from /services. main() uses this
+        to tell "genuinely removed from the account" (missing here)
+        apart from "temporarily unreachable this run" (present here,
+        but also in unreachable_ids) -- see the big comment above
+        main()'s ark_entries handling for why that distinction exists.
+    See the big comment above this function for the game-type caveat --
+    it hasn't been live-verified, so it logs anything ambiguous instead
+    of guessing silently."""
     exclude_ids = {str(x) for x in (exclude_ids or [])}
     found = []
+    unreachable_ids = set()
+    account_ids = set()
     for svc in nitrado_list_services(token):
         service_id = str(svc.get("id", ""))
-        if not service_id or service_id in exclude_ids:
+        if not service_id:
+            continue
+        account_ids.add(service_id)
+        if service_id in exclude_ids:
             continue
  
         url = f"{NITRADO_API_BASE}/services/{service_id}/gameservers"
@@ -293,11 +312,13 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
                 payload = json.loads(resp.read().decode("utf-8"))
         except (urllib.error.URLError, TimeoutError, ValueError) as exc:
             log(f"Discovery: couldn't fetch service {service_id}: {exc}")
+            unreachable_ids.add(service_id)
             continue
  
         try:
             gs = payload["data"]["gameserver"]
         except (KeyError, TypeError):
+            unreachable_ids.add(service_id)
             continue
  
         # Best-effort guess at which field says "this is ARK: Survival
@@ -305,12 +326,12 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         game_hint = str(gs.get("game") or gs.get("game_human") or gs.get("type") or "").lower()
         looks_like_ark = ("ark" in game_hint) or ("asa" in game_hint) or ("survival" in game_hint)
         if game_hint and not looks_like_ark:
-            continue  # confidently a different game (e.g. Palworld) — skip quietly
+            continue  # confidently a different game (e.g. Palworld) — skip quietly, not "unreachable"
  
         query = gs.get("query") or {}
         server_name = str(query.get("server_name") or "")
         if name_filter.lower() not in server_name.lower():
-            continue
+            continue  # confidently not a match this run -- has a name, just not ours
  
         if not game_hint:
             log(f"Discovery: service {service_id} ('{server_name}') matched the "
@@ -319,7 +340,24 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
  
         found.append({"service_id": service_id, "name": server_name or f"Service {service_id}"})
  
-    return found
+    return found, unreachable_ids, account_ids
+
+
+def load_ark_cache(path):
+    """Reads the last-known-good {"service_id", "name"} list this same
+    poller wrote out on a past run -- see the big comment in main()
+    about why this exists (surviving a transient Nitrado API blip
+    during discovery without servers vanishing off the site)."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return []
+
+
+def save_ark_cache(path, entries):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(entries, f, indent=2)
  
  
 # ---------------------------------------------------------------------
@@ -635,33 +673,77 @@ def main():
         cfg = json.load(f)
  
     if args.discover_only:
-        discovered = discover_blackwire_ark_services(
+        discovered, unreachable, account_ids = discover_blackwire_ark_services(
             cfg["nitrado_token"],
             name_filter=cfg.get("auto_discover_name_filter", "blackwire"),
             exclude_ids=cfg.get("auto_discover_exclude_ids", []),
         )
         print(json.dumps(discovered, indent=2))
-        log(f"Discovery found {len(discovered)} matching service(s). Compare this "
-            f"against your real server list before enabling auto_discover_ark.")
+        log(f"Discovery found {len(discovered)} matching service(s), "
+            f"{len(unreachable)} unreachable this run, out of {len(account_ids)} "
+            f"total service(s) on the account. Compare this against your real "
+            f"server list before enabling auto_discover_ark.")
         return
  
     ark_entries_config = list(cfg.get("ark_servers", []))
+    # Cache of the last run's confirmed {"service_id", "name"} ARK list,
+    # written alongside status.json (see save_ark_cache below) and
+    # committed to the repo by the workflow, same as status.json is --
+    # this is what lets a server survive one bad poll instead of
+    # vanishing off the site. See the big comment just below.
+    ark_cache_path = os.path.join(os.path.dirname(args.out) or ".", "known_ark_services.json")
     if cfg.get("auto_discover_ark"):
-        discovered = discover_blackwire_ark_services(
+        discovered, unreachable, account_ids = discover_blackwire_ark_services(
             cfg["nitrado_token"],
             name_filter=cfg.get("auto_discover_name_filter", "blackwire"),
             exclude_ids=cfg.get("auto_discover_exclude_ids", []),
         )
-        if discovered:
-            # Discovery is authoritative now: it decides which ARK
-            # servers exist and what they're named. The hand-listed
-            # ark_servers in config.json is only consulted here to carry
-            # over optional RCON connection info for servers that already
-            # have it configured (matched by service_id) -- see the big
-            # comment above discover_blackwire_ark_services().
+        if discovered or unreachable:
+            # Discovery is authoritative for which ARK servers exist and
+            # what they're named -- but Nitrado's API is not perfectly
+            # reliable run to run, and a per-service probe failing here
+            # (see discover_blackwire_ark_services' unreachable_ids)
+            # doesn't mean the server is gone, just that this run
+            # couldn't re-confirm it. Without a fallback, that made
+            # servers flicker on and off the site's list any time
+            # Nitrado's API had a rough few minutes, exactly like the
+            # "only 13 servers" report that prompted this.
+            #
+            # So: a service that's unreachable THIS run but was
+            # confirmed by a PAST run (in the cache) and is still on the
+            # Nitrado account (in account_ids -- i.e. not actually
+            # deleted) gets carried over using its last-known name.
+            # poll_nitrado_group()'s own separate API call still decides
+            # whether to show it online or offline, exactly like it
+            # always has for every other server -- carrying it over just
+            # keeps it from disappearing outright.
+            cached_by_id = {str(e["service_id"]): e for e in load_ark_cache(ark_cache_path)}
+            discovered_ids = {svc["service_id"] for svc in discovered}
+            known = list(discovered)
+            kept_stale = 0
+            for service_id in unreachable:
+                if service_id in discovered_ids:
+                    continue
+                cached_entry = cached_by_id.get(service_id)
+                if cached_entry and service_id in account_ids:
+                    known.append({"service_id": service_id, "name": cached_entry["name"]})
+                    kept_stale += 1
+            # Persist the full merged set (fresh + carried-over), not just
+            # this run's fresh confirmations -- otherwise a server that
+            # stays unreachable for two runs in a row would drop out of
+            # the cache after the first carry-over and vanish on the
+            # second. A server only truly drops out once it's missing
+            # from account_ids, i.e. Nitrado itself no longer lists it.
+            save_ark_cache(ark_cache_path, known)
+
+            # The hand-listed ark_servers in config.json is only
+            # consulted here to carry over optional RCON connection info
+            # for servers that already have it configured (matched by
+            # service_id) -- see the big comment above
+            # discover_blackwire_ark_services().
             overrides_by_id = {str(e["service_id"]): e for e in ark_entries_config}
             ark_entries = []
-            for svc in discovered:
+            for svc in known:
                 entry = dict(svc)
                 override = overrides_by_id.get(str(svc["service_id"]))
                 if override:
@@ -669,13 +751,15 @@ def main():
                         if key in override:
                             entry[key] = override[key]
                 ark_entries.append(entry)
-            log(f"Discovery: {len(ark_entries)} ARK server(s) live on Nitrado "
-                f"now drive the site's ARK list.")
+            log(f"Discovery: {len(ark_entries)} ARK server(s) on the site this run "
+                f"({len(discovered)} freshly confirmed"
+                + (f", {kept_stale} carried over after an unreachable probe this run"
+                   if kept_stale else "") + ").")
         else:
-            log("Discovery returned zero ARK services (API hiccup, bad "
-                "token, or the account/filter genuinely has none) -- "
-                "falling back to config.json's hand-listed ark_servers for "
-                "this run rather than showing an empty ARK section.")
+            log("Discovery couldn't even list services on the account this run "
+                "(full API/token failure) -- falling back to config.json's "
+                "hand-listed ark_servers rather than showing an empty ARK "
+                "section.")
             ark_entries = ark_entries_config
     else:
         ark_entries = ark_entries_config

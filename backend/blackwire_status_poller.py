@@ -211,9 +211,35 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
             data = _parse_gameserver_status(service_id, probed_gs[service_id])
         else:
             data = nitrado_get_gameserver(service_id, token)
+
+        password = entry.get("rcon_password") or rcon_password
+
         if data is None:
-            # Keep the server listed but mark it unreachable, rather than
-            # silently dropping the row — a visibly-offline server reads
+            # Nitrado's own query data is missing this run (empty/no query
+            # block, whatever the cause on their end). If this entry has
+            # RCON details, try that as a fallback before marking the
+            # server offline -- RCON talks to the game server directly
+            # over its own port, so it isn't affected by whatever is
+            # making Nitrado's query collection come back empty. A
+            # successful RCON auth + listplayers response is itself good
+            # evidence the server is actually up, so use it for online
+            # status and the live player count too, not just names.
+            rcon_data = None
+            if entry.get("host") and entry.get("rcon_port") and password:
+                rcon_data = query_ark_rcon_players(entry["host"], entry["rcon_port"], password)
+            if rcon_data is not None:
+                results.append({
+                    "name": entry["name"],
+                    "online": True,
+                    "players_current": len(rcon_data["players"]),
+                    "players_max": entry.get("players_max", 0),
+                    "map": None,
+                    "players": rcon_data["players"],
+                })
+                continue
+            # No usable Nitrado data and no (or failed) RCON fallback --
+            # keep the server listed but mark it unreachable, rather than
+            # silently dropping the row. A visibly-offline server reads
             # better on the site than one that just vanishes.
             results.append({
                 "name": entry["name"],
@@ -235,7 +261,6 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
         # on top of the count Nitrado's API already gave us above. Only
         # attempted when this entry has enough to try, and failure here
         # never affects the count/online status already established.
-        password = entry.get("rcon_password") or rcon_password
         if entry.get("host") and entry.get("rcon_port") and password:
             rcon_data = query_ark_rcon_players(entry["host"], entry["rcon_port"], password)
             if rcon_data is not None:

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:31:33Z",
+  "generated_at": "2026-09-24T15:41:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,7 +33,7 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [

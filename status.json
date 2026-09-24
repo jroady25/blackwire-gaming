@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:56:23Z",
+  "generated_at": "2026-09-24T15:01:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,9 +37,9 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "John Wivk",
             "DireMeek",
-            "ChiefLeaf21"
+            "ChiefLeaf21",
+            "John Wivk"
           ]
         },
         {
@@ -56,7 +56,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "IcoN-C_o"
+          ]
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
@@ -144,7 +146,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "runcrawlslither"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",

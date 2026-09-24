@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-24T00:11:17Z",
+  "generated_at": "2026-09-24T00:16:22Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "MelPR46"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
@@ -141,8 +143,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
-            "taterbugg_06"
+            "Reilig"
           ]
         },
         {

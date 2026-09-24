@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:46:15Z",
+  "generated_at": "2026-09-24T06:51:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,7 +48,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "IcoN-C_o"
+          ]
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.33)",
@@ -125,7 +127,7 @@
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [

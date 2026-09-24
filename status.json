@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:06:16Z",
+  "generated_at": "2026-09-24T21:11:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,7 +9,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
@@ -29,12 +31,10 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "SWNG ZULU"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",
@@ -70,11 +70,10 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "map": "TheIsland_WP"
         },
         {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",

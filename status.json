@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-24T21:11:23Z",
+  "generated_at": "2026-09-24T21:16:10Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.33)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -70,10 +70,13 @@
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.33)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP"
+          "map": "TheIsland_WP",
+          "players": [
+            "FB_Sapper_Actual"
+          ]
         },
         {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.33)",
@@ -178,12 +181,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 16,
           "players": [
             "Gura",
-            "Boogey",
-            "jana_mew"
+            "Boogey"
           ],
           "map": null
         }

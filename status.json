@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T01:56:21Z",
+  "generated_at": "2026-09-24T02:01:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -31,7 +31,7 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -99,10 +99,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.33)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.33)",
@@ -126,9 +128,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.33)",
@@ -141,17 +141,18 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "crusader4j"
+            "crusader4j",
+            "runcrawlslither"
           ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []
@@ -159,7 +160,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []

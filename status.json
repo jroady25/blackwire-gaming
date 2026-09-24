@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:51:16Z",
+  "generated_at": "2026-09-24T06:56:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,7 +45,7 @@
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.33)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -132,7 +132,8 @@
           "map": "Forglar2_WP",
           "players": [
             "Lyulf_kaldez",
-            "RogueTheDeadly"
+            "RogueTheDeadly",
+            "Spyre"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T20:01:20Z",
+  "generated_at": "2026-09-24T20:06:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -133,7 +133,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.33)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -171,11 +171,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "StankGoose "
-          ],
+          "players": [],
           "map": null
         },
         {
@@ -185,8 +183,8 @@
           "players_max": 16,
           "players": [
             "Gura",
-            "Boogey",
-            "SlayKen"
+            "SlayKen",
+            "Boogey"
           ],
           "map": null
         }

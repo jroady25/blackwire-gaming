@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T06:41:13Z",
+  "generated_at": "2026-09-24T06:46:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -129,7 +129,8 @@
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [
-            "Lyulf_kaldez"
+            "Lyulf_kaldez",
+            "RogueTheDeadly"
           ]
         },
         {

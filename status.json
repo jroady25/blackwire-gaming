@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:06:20Z",
+  "generated_at": "2026-09-24T17:11:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,10 @@
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.33)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.33)",
@@ -31,10 +29,12 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "ChiefLeaf21"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.33)",

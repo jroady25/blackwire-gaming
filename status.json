@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T08:36:10Z",
+  "generated_at": "2026-09-24T08:41:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -129,8 +129,7 @@
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [
-            "Skytoss2027",
-            "Lyulf_kaldez"
+            "Skytoss2027"
           ]
         },
         {
@@ -183,10 +182,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "KonekoTheKatt"
+            "KonekoTheKatt",
+            "Lyulf_kaldez"
           ],
           "map": null
         }

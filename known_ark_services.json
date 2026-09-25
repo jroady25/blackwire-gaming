@@ -1,9 +1,5 @@
 [
   {
-    "service_id": "17681860",
-    "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.36)"
-  },
-  {
     "service_id": "17801131",
     "name": "[DGS] BlackWire - Valguero - PVE - (v93.36)"
   },
@@ -78,5 +74,9 @@
   {
     "service_id": "19466842",
     "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.36)"
+  },
+  {
+    "service_id": "17681860",
+    "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.36)"
   }
 ]

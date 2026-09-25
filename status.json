@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T07:51:16Z",
+  "generated_at": "2026-09-25T07:56:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,11 +29,10 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.33)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "John Wivk",
             "DireMeek"
           ]
         },
@@ -147,7 +146,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.33)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T23:11:18Z",
+  "generated_at": "2026-09-25T23:16:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,10 @@
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.36)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.36)",
@@ -135,10 +133,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.36)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.36)",

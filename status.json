@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T21:55:47Z",
+  "generated_at": "2026-09-26T22:00:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,7 +37,7 @@
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": []
@@ -58,9 +58,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Vince-Meat83"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Decended - PVE - (v93.38)",
@@ -97,10 +95,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "Jadean"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",

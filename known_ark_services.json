@@ -9,7 +9,11 @@
   },
   {
     "service_id": "18012721",
-    "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.36)"
+    "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)"
+  },
+  {
+    "service_id": "18111130",
+    "name": "[DGS] BlackWire - Astraeos - PVE - (v93.38)"
   },
   {
     "service_id": "18111154",
@@ -65,7 +69,7 @@
   },
   {
     "service_id": "19377800",
-    "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.36)"
+    "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.38)"
   },
   {
     "service_id": "19426823",
@@ -74,9 +78,5 @@
   {
     "service_id": "19466842",
     "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)"
-  },
-  {
-    "service_id": "18111130",
-    "name": "[DGS] BlackWire - Astraeos - PVE - (v93.36)"
   }
 ]

@@ -32,10 +32,6 @@
     "name": "[DGS] BlackWire - Decended - PVE - (v93.36)"
   },
   {
-    "service_id": "18357526",
-    "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.38)"
-  },
-  {
     "service_id": "18357580",
     "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.38)"
   },
@@ -56,10 +52,6 @@
     "name": "[DGS] BlackWire (JKRZ) - Abberation - PVE - (v93.38)"
   },
   {
-    "service_id": "19072757",
-    "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)"
-  },
-  {
     "service_id": "19368770",
     "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)"
   },
@@ -78,5 +70,13 @@
   {
     "service_id": "19466842",
     "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)"
+  },
+  {
+    "service_id": "19072757",
+    "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)"
+  },
+  {
+    "service_id": "18357526",
+    "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.38)"
   }
 ]

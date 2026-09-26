@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T09:31:08Z",
+  "generated_at": "2026-09-26T09:35:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -71,14 +71,6 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
-        },
-        {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.38)",
           "online": true,
           "players_current": 0,
@@ -119,14 +111,6 @@
           "players": []
         },
         {
-          "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
-        },
-        {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
@@ -137,12 +121,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Lady Sharp"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.38)",
@@ -166,6 +148,22 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "players": []
+        },
+        {
+          "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
           "players": []
         }
       ]

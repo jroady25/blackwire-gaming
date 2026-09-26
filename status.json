@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:35:58Z",
+  "generated_at": "2026-09-26T07:40:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,20 +22,19 @@
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.36)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP"
         },
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.36)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "sporty-cider53",
-            "DireMeek",
-            "John Wivk"
+            "DireMeek"
           ]
         },
         {
@@ -105,7 +104,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.36)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []
@@ -142,7 +141,8 @@
           "map": "TheIsland_WP",
           "players": [
             "JAMARxxxxFOE",
-            "Lady Sharp"
+            "Lady Sharp",
+            "John Wivk"
           ]
         },
         {

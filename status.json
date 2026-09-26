@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:51:07Z",
+  "generated_at": "2026-09-26T07:56:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,11 +29,10 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.36)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "sporty-cider53",
             "DireMeek"
           ]
         },
@@ -141,8 +140,8 @@
           "map": "TheIsland_WP",
           "players": [
             "JAMARxxxxFOE",
-            "Lady Sharp",
-            "John Wivk"
+            "John Wivk",
+            "Lady Sharp"
           ]
         },
         {

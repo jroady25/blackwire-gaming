@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T01:06:20Z",
+  "generated_at": "2026-09-26T01:11:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,10 +47,12 @@
         {
           "name": "[DGS] Blackwire - Astraeos - Primal Chaos - (v93.36)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "JDavid_0325"
+          ]
         },
         {
           "name": "[DGS] Blackwire - Ragnarok - Jurassic Awakening - (v93.36)",
@@ -143,7 +145,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.36)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [

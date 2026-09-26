@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T16:45:57Z",
+  "generated_at": "2026-09-26T16:51:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,12 +29,10 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire - Extinction - PVE - (v93.38)",
@@ -73,15 +71,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.38)",
           "online": true,
-          "players_current": 5,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "MattyRoth83",
-            "runcrawlslither",
-            "Reilig",
-            "Coffee Slayer"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.38)",
@@ -142,10 +135,14 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Reilig",
+            "Coffee Slayer",
+            "do_gotcha"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Center - PVE - (v93.38)",
@@ -153,7 +150,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "runcrawlslither"
+          ]
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",

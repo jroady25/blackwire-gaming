@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:05:50Z",
+  "generated_at": "2026-09-26T10:10:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,7 +16,7 @@
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": []
@@ -24,7 +24,7 @@
         {
           "name": "[DGS] BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP"
         },
@@ -65,7 +65,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP"
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - Event Map - (v93.38)",
@@ -158,10 +159,12 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         }
       ]
     },

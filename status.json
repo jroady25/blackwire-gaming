@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:21:04Z",
+  "generated_at": "2026-09-27T21:25:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,9 +32,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
@@ -184,11 +182,10 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "jana_mew",
-            "Angel"
+            "jana_mew"
           ],
           "map": null
         }

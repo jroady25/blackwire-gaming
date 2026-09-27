@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T07:10:58Z",
+  "generated_at": "2026-09-27T07:16:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -117,7 +117,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": []
@@ -177,11 +177,12 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 16,
           "players": [
             "KonekoTheKatt",
-            "Void"
+            "Void",
+            "Gura"
           ],
           "map": null
         }

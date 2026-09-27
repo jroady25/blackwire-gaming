@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T02:25:51Z",
+  "generated_at": "2026-09-27T02:30:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -129,7 +129,7 @@
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [

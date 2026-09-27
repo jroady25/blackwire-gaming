@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T00:40:52Z",
+  "generated_at": "2026-09-27T00:45:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -93,12 +93,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": [
-            "Jadean"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",

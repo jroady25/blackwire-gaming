@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T16:30:57Z",
+  "generated_at": "2026-09-27T16:35:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,13 +29,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "DireMeek",
             "legendx12x",
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "do_gotcha"
           ]
         },
         {
@@ -89,12 +90,10 @@
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)",
@@ -139,10 +138,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",

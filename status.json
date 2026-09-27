@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T07:06:00Z",
+  "generated_at": "2026-09-27T07:10:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -117,7 +117,7 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": []

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:20:56Z",
+  "generated_at": "2026-09-27T14:25:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,7 +18,8 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg"
+            "DriftNalg",
+            "nb_gotcha"
           ]
         },
         {
@@ -31,12 +32,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "DireMeek",
-            "nb_gotcha"
+            "DireMeek"
           ]
         },
         {

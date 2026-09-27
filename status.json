@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-09-27T11:05:52Z",
+  "generated_at": "2026-09-27T11:10:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v93.38)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "John Wivk",
             "JAMARxxxxFOE"
           ]
         },
@@ -32,10 +31,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "John Wivk",
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
@@ -180,11 +182,10 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "KonekoTheKatt",
-            "Void"
+            "KonekoTheKatt"
           ],
           "map": null
         }

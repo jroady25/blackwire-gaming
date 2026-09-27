@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-27T06:01:06Z",
+  "generated_at": "2026-09-27T06:06:00Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "[DGS] BlackWire - Ragnarok - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Lyulf_kaldez"
+          ]
         },
         {
           "name": "[DGS] BlackWire - Valguero - PVE - (v93.38)",
@@ -125,12 +127,10 @@
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "Lyulf_kaldez"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] BlackWire (JKRZ) - The Island - PVE - (v93.38)",

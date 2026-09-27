@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:25:50Z",
+  "generated_at": "2026-09-27T08:30:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,11 +29,12 @@
         {
           "name": "[DGS] BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "JAMARxxxxFOE"
+            "JAMARxxxxFOE",
+            "John Wivk"
           ]
         },
         {
@@ -119,12 +120,10 @@
         {
           "name": "[DGS] BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "Drippinn567"
-          ]
+          "players": []
         },
         {
           "name": "[DGS] Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T19:05:58Z",
+  "generated_at": "2026-09-28T19:10:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,7 +34,8 @@
           "map": "Astraeos_WP",
           "players": [
             "I-Be-Stroganoff",
-            "Bulbigar2"
+            "Bulbigar2",
+            "DireMeek"
           ]
         },
         {
@@ -117,9 +118,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",

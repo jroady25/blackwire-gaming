@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:50:49Z",
+  "generated_at": "2026-09-28T22:55:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -73,6 +73,13 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire - The Fractured Seas - Rp - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 26,
+          "map": "Genesis_WP"
         },
         {
           "name": "BlackWire - Decended - PVE - (v93.38)",
@@ -160,7 +167,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "runcrawlslither"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",

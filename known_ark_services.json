@@ -1,9 +1,5 @@
 [
   {
-    "service_id": "17681860",
-    "name": "BlackWire - Ragnarok - PVE - (v93.38)"
-  },
-  {
     "service_id": "17801131",
     "name": "BlackWire - Valguero - PVE - (v93.38)"
   },
@@ -78,5 +74,9 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)"
+  },
+  {
+    "service_id": "17681860",
+    "name": "BlackWire - Ragnarok - PVE - (v93.38)"
   }
 ]

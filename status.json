@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:11:03Z",
+  "generated_at": "2026-09-28T15:15:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,7 +33,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "DireMeek",
             "I-Be-Stroganoff",
             "DriftNalg",
             "John Wivk"
@@ -109,7 +108,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v93.38)",

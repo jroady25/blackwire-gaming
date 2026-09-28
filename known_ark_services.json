@@ -1,5 +1,9 @@
 [
   {
+    "service_id": "17681860",
+    "name": "BlackWire - Ragnarok - PVE - (v93.38)"
+  },
+  {
     "service_id": "17801131",
     "name": "BlackWire - Valguero - PVE - (v93.38)"
   },
@@ -60,23 +64,19 @@
     "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)"
   },
   {
-    "service_id": "19368830",
-    "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)"
-  },
-  {
     "service_id": "19377800",
     "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)"
-  },
-  {
-    "service_id": "19426823",
-    "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)"
   },
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)"
   },
   {
-    "service_id": "17681860",
-    "name": "BlackWire - Ragnarok - PVE - (v93.38)"
+    "service_id": "19368830",
+    "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)"
+  },
+  {
+    "service_id": "19426823",
+    "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)"
   }
 ]

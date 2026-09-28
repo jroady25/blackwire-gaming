@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:35:52Z",
+  "generated_at": "2026-09-28T22:40:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -25,6 +25,13 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP"
+        },
+        {
+          "name": "BlackWire - Draconic Acension - PVE - - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP"
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",

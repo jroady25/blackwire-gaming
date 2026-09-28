@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T06:35:55Z",
+  "generated_at": "2026-09-28T06:40:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "JAMARxxxxFOE"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v93.38)",
@@ -36,7 +34,8 @@
           "map": "Astraeos_WP",
           "players": [
             "DireMeek",
-            "John Wivk"
+            "John Wivk",
+            "JAMARxxxxFOE"
           ]
         },
         {

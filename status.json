@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:11:32Z",
+  "generated_at": "2026-09-28T09:15:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,11 +16,12 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Valguero_WP"
+          "map": "Valguero_WP",
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP"
@@ -30,7 +31,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
@@ -110,7 +112,11 @@
           "players_current": 3,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "JAMARxxxxFOE",
+            "John Wivk",
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
@@ -141,7 +147,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheCenter_WP"
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",

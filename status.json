@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T16:15:59Z",
+  "generated_at": "2026-09-28T16:20:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,7 +18,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg"
+            "Chibister"
           ]
         },
         {
@@ -141,8 +141,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Bulbigar2",
-            "I-Be-Stroganoff"
+            "Bulbigar2"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T04:26:02Z",
+  "generated_at": "2026-09-28T04:31:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -101,7 +101,7 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []
@@ -133,7 +133,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

@@ -44,6 +44,10 @@
     "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v93.38)"
   },
   {
+    "service_id": "18859910",
+    "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)"
+  },
+  {
     "service_id": "18860204",
     "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)"
   },
@@ -74,9 +78,5 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)"
-  },
-  {
-    "service_id": "18859910",
-    "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)"
   }
 ]

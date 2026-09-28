@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:35:56Z",
+  "generated_at": "2026-09-28T15:40:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -35,7 +35,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "I-Be-Stroganoff"
+            "I-Be-Stroganoff",
+            "DireMeek"
           ]
         },
         {
@@ -105,12 +106,10 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v93.38)",
@@ -126,9 +125,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",

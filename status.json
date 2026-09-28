@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-28T11:51:15Z",
+  "generated_at": "2026-09-28T11:57:27Z",
   "servers": {
     "ark": {
       "servers": [
         {
-          "name": "BlackWire - Extinction - PVE - (v93.38)",
+          "name": "BlackWire - Ragnarok - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -12,108 +12,17 @@
           "players": []
         },
         {
-          "name": "Blackwire - Astraeos - Primal Chaos - (v93.38)",
+          "name": "BlackWire (JKRZ) - Abberation - PVE - (v93.38)",
           "online": true,
           "players_current": 1,
           "players_max": 0,
           "map": null,
           "players": [
-            "IcoN-C_o"
+            "John Wivk"
           ]
-        },
-        {
-          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v93.38)",
-          "online": true,
-          "players_current": 3,
-          "players_max": 0,
-          "map": null,
-          "players": [
-            "JAMARxxxxFOE",
-            "John Wivk",
-            "DireMeek"
-          ]
-        },
-        {
-          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -129,7 +38,7 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - Abberation - PVE - (v93.38)",
+          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -137,7 +46,7 @@
           "players": []
         },
         {
-          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -153,7 +62,7 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
+          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -161,7 +70,97 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVE - (v93.38)",
+          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v93.38)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 0,
+          "map": null,
+          "players": [
+            "JAMARxxxxFOE",
+            "DireMeek"
+          ]
+        },
+        {
+          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Decended - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Extinction - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,

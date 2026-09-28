@@ -1,17 +1,10 @@
 {
-  "generated_at": "2026-09-28T11:31:17Z",
+  "generated_at": "2026-09-28T11:37:26Z",
   "servers": {
     "ark": {
       "servers": [
         {
-          "name": "Event Map \u2014 Club Ark",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null
-        },
-        {
-          "name": "Ragnarok \u2014 PVE",
+          "name": "BlackWire - Decended - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -19,34 +12,28 @@
           "players": []
         },
         {
-          "name": "Valguero \u2014 PVE",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "Astraeos \u2014 PVE",
+          "name": "BlackWire - Extinction - PVE - (v93.38)",
           "online": true,
           "players_current": 2,
           "players_max": 0,
           "map": null,
           "players": [
-            "JAMARxxxxFOE",
+            "John Wivk",
             "DireMeek"
           ]
         },
         {
-          "name": "Extinction \u2014 PVE",
+          "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 0,
           "map": null,
-          "players": []
+          "players": [
+            "JAMARxxxxFOE"
+          ]
         },
         {
-          "name": "Astraeos \u2014 Primal Chaos",
+          "name": "Blackwire - Astraeos - Primal Chaos - (v93.38)",
           "online": true,
           "players_current": 1,
           "players_max": 0,
@@ -56,7 +43,7 @@
           ]
         },
         {
-          "name": "Ragnarok \u2014 Jurassic Awakening",
+          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -64,7 +51,7 @@
           "players": []
         },
         {
-          "name": "Decended \u2014 PVE",
+          "name": "BlackWire - Valguero - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -72,7 +59,7 @@
           "players": []
         },
         {
-          "name": "Event Map (JKRZ)",
+          "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -80,7 +67,7 @@
           "players": []
         },
         {
-          "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
+          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -88,7 +75,14 @@
           "players": []
         },
         {
-          "name": "Svartalfheim \u2014 PVE (JKRZ)",
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null
+        },
+        {
+          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -96,7 +90,7 @@
           "players": []
         },
         {
-          "name": "Forglar 1 \u2014 PVE (JKRZ)",
+          "name": "BlackWire (JKRZ) - Event Map - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -104,17 +98,7 @@
           "players": []
         },
         {
-          "name": "Scorched Earth \u2014 PVE (JKRZ)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 0,
-          "map": null,
-          "players": [
-            "John Wivk"
-          ]
-        },
-        {
-          "name": "Abberation \u2014 PVE (JKRZ)",
+          "name": "BlackWire - Ragnarok - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -122,7 +106,7 @@
           "players": []
         },
         {
-          "name": "Lost Colony \u2014 PVE (JKRZ)",
+          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -130,7 +114,7 @@
           "players": []
         },
         {
-          "name": "Forglar 2 \u2014 PVE (JKRZ)",
+          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -138,7 +122,7 @@
           "players": []
         },
         {
-          "name": "The Island \u2014 PVE (JKRZ)",
+          "name": "BlackWire (JKRZ) - Abberation - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -146,7 +130,7 @@
           "players": []
         },
         {
-          "name": "The Center \u2014 PVE (JKRZ)",
+          "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -154,7 +138,7 @@
           "players": []
         },
         {
-          "name": "Genesis 1 \u2014 PVE (JKRZ)",
+          "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -162,7 +146,23 @@
           "players": []
         },
         {
-          "name": "Bjarnheim \u2014 PVE (JKRZ)",
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
           "players_max": 0,

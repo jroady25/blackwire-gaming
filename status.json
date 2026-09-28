@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T23:00:53Z",
+  "generated_at": "2026-09-28T23:05:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -160,8 +160,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
-            "MattyRoth83"
+            "MattyRoth83",
+            "Reilig"
           ]
         },
         {
@@ -170,9 +170,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",

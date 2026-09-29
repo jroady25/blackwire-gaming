@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:26:02Z",
+  "generated_at": "2026-09-29T03:30:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,7 +42,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
             "Bulbigar2",
             "JAMARxxxxFOE",
             "DireMeek",
@@ -169,7 +168,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "runcrawlslither",
             "crusader4j"
           ]
         },
@@ -213,9 +211,10 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         }
       ]

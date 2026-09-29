@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:15:50Z",
+  "generated_at": "2026-09-29T21:20:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
@@ -41,15 +39,19 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Bulbigar2"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire Test Server - (v93.38)",
@@ -172,10 +174,12 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "utu_doughboy420"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)",

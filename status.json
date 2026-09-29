@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T05:30:50Z",
+  "generated_at": "2026-09-29T05:35:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -162,17 +162,6 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
-          "online": true,
-          "players_current": 2,
-          "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": [
-            "runcrawlslither",
-            "crusader4j"
-          ]
-        },
-        {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
@@ -187,6 +176,17 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": [
+            "runcrawlslither",
+            "crusader4j"
+          ]
         }
       ]
     },

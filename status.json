@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-09-29T23:00:55Z",
+  "generated_at": "2026-09-29T23:05:36Z",
   "servers": {
     "ark": {
       "servers": [
+        {
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP"
+        },
         {
           "name": "BlackWire - Ragnarok - PVE - (v93.38)",
           "online": true,
@@ -20,28 +27,15 @@
           "players": []
         },
         {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP"
-        },
-        {
-          "name": "BlackWire - Draconic Acension - PVE - - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "ScorchedEarth_WP"
-        },
-        {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Bulbigar2",
-            "legendx12x"
+            "legendx12x",
+            "JAMARxxxxFOE"
           ]
         },
         {
@@ -51,13 +45,6 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire Test Server - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP"
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v93.38)",
@@ -74,13 +61,6 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire - The Fractured Seas - Rp - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 26,
-          "map": "Genesis_WP"
         },
         {
           "name": "BlackWire - Decended - PVE - (v93.38)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:55:44Z",
+  "generated_at": "2026-09-29T03:01:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -141,7 +141,6 @@
           "map": "Aberration_WP",
           "players": [
             "JAMARxxxxFOE",
-            "John Wivk",
             "DireMeek"
           ]
         },
@@ -170,7 +169,8 @@
           "players": [
             "runcrawlslither",
             "I-Be-Stroganoff",
-            "crusader4j"
+            "crusader4j",
+            "legendx12x"
           ]
         },
         {
@@ -204,9 +204,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "StankGoose "
+          ],
           "map": null
         },
         {

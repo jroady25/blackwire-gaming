@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T09:50:58Z",
+  "generated_at": "2026-09-29T09:55:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -154,10 +154,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
@@ -189,9 +191,10 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         },
         {

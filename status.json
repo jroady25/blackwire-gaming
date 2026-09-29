@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-29T23:35:47Z",
+  "generated_at": "2026-09-29T23:40:42Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "JAMARxxxxFOE"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v93.38)",
@@ -36,12 +38,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bulbigar2",
-            "JAMARxxxxFOE"
+            "Bulbigar2"
           ]
         },
         {
@@ -85,10 +86,12 @@
         {
           "name": "BlackWire - Decended - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "F__0vv"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v93.38)",

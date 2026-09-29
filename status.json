@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:20:56Z",
+  "generated_at": "2026-09-29T22:26:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -164,11 +164,12 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [
-            "Reilig"
+            "Reilig",
+            "MattyRoth83"
           ]
         },
         {

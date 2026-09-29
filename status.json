@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:56:03Z",
+  "generated_at": "2026-09-29T22:01:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -142,10 +142,7 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "map": "LostColony_WP"
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",
@@ -153,7 +150,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
@@ -166,7 +165,7 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []
@@ -182,7 +181,7 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []

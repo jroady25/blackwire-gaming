@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:50:58Z",
+  "generated_at": "2026-09-29T03:56:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v93.38)",
@@ -38,14 +36,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Bulbigar2",
             "JAMARxxxxFOE",
-            "DireMeek",
-            "legendx12x"
+            "legendx12x",
+            "nb_gotcha"
           ]
         },
         {
@@ -150,9 +148,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "nb_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:16:07Z",
+  "generated_at": "2026-09-29T06:21:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -156,10 +156,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",

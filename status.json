@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T21:35:59Z",
+  "generated_at": "2026-09-29T21:40:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,12 +36,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bulbigar2",
-            "DireMeek"
+            "Bulbigar2"
           ]
         },
         {
@@ -119,7 +118,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar_WP"
+          "map": "Forglar_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v93.38)",
@@ -135,7 +135,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v93.38)",
@@ -175,9 +177,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:21:02Z",
+  "generated_at": "2026-09-30T03:25:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,9 +54,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Test Server - (v93.38)",
@@ -211,10 +209,9 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
           "map": null
         }
       ]

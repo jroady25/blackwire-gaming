@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:55:50Z",
+  "generated_at": "2026-09-30T09:01:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,7 +28,7 @@
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v93.38)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP"
@@ -39,9 +39,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
@@ -161,9 +159,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "king44"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",

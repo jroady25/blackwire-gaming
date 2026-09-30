@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T21:06:22Z",
+  "generated_at": "2026-09-30T21:11:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,12 +36,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Bulbigar2"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
@@ -74,9 +72,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Vince-Meat83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v93.38)",

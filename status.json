@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:20:50Z",
+  "generated_at": "2026-09-30T04:25:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -169,7 +169,7 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []
@@ -197,10 +197,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "StankGoose ",
             "Salem"
           ],
           "map": null

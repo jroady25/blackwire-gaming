@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:15:55Z",
+  "generated_at": "2026-09-30T09:21:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,6 +34,17 @@
           "map": "ScorchedEarth_WP"
         },
         {
+          "name": "BlackWire - Astraeos - PVE - (v93.38)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": [
+            "John Wivk",
+            "DireMeek"
+          ]
+        },
+        {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
           "online": true,
           "players_current": 0,
@@ -47,6 +58,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - (v93.38)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v93.38)",
@@ -151,9 +170,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v93.38)",
@@ -171,24 +188,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v93.38)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 0,
-          "map": null,
-          "players": [
-            "DireMeek"
-          ]
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - (v93.38)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
           "players": []
         }
       ]

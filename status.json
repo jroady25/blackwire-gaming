@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T02:40:55Z",
+  "generated_at": "2026-09-30T02:45:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,8 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg",
-            "legendx12x"
+            "DriftNalg"
           ]
         },
         {
@@ -165,7 +164,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "crusader4j"
+            "crusader4j",
+            "legendx12x"
           ]
         },
         {

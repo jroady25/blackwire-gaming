@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T05:11:07Z",
+  "generated_at": "2026-09-30T05:16:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -157,9 +157,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "crusader4j"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)",

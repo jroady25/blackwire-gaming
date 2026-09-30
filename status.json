@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-09-30T04:05:59Z",
+  "generated_at": "2026-09-30T04:15:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v93.38)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1",
-            "legendx12x"
+            "Arigatu1"
           ]
         },
         {
@@ -159,11 +158,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "crusader4j"
+            "crusader4j",
+            "legendx12x"
           ]
         },
         {

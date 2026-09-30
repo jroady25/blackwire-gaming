@@ -44,6 +44,10 @@
     "name": "BlackWire - Decended - PVE - (v93.38)"
   },
   {
+    "service_id": "18357526",
+    "name": "BlackWire (JKRZ) - Event Map - (v93.38)"
+  },
+  {
     "service_id": "18357580",
     "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v93.38)"
   },
@@ -86,9 +90,5 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)"
-  },
-  {
-    "service_id": "18357526",
-    "name": "BlackWire (JKRZ) - Event Map - (v93.38)"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:05:57Z",
+  "generated_at": "2026-09-30T03:11:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,11 +40,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v93.38)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "nb_gotcha"
+            "nb_gotcha",
+            "Bulbigar2"
           ]
         },
         {
@@ -68,9 +69,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "JDavid_0325"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v93.38)",
@@ -166,7 +165,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "crusader4j"
+            "crusader4j",
+            "legendx12x"
           ]
         },
         {
@@ -200,10 +200,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "StankGoose "
+            "StankGoose ",
+            "Salem"
           ],
           "map": null
         },

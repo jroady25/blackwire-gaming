@@ -76,6 +76,10 @@
     "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v93.38)"
   },
   {
+    "service_id": "19368830",
+    "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)"
+  },
+  {
     "service_id": "19377800",
     "name": "BlackWire (JKRZ) - The Center - PVE - (v93.38)"
   },
@@ -86,9 +90,5 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v93.38)"
-  },
-  {
-    "service_id": "19368830",
-    "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)"
   }
 ]

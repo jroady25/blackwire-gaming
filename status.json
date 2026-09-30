@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:40:58Z",
+  "generated_at": "2026-09-30T13:45:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -39,7 +39,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v93.38)",
@@ -154,7 +156,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v93.38)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

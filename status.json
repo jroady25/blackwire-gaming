@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:26:12Z",
+  "generated_at": "2026-10-01T22:31:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -172,10 +172,12 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.7)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "utu_doughboy420"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.7)",
@@ -192,10 +194,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "Salem",
             "StankGoose "
           ],
           "map": null

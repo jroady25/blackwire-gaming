@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:21:30Z",
+  "generated_at": "2026-10-01T13:26:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,7 +52,7 @@
         {
           "name": "BlackWire Test Server - (v94.7)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
         },

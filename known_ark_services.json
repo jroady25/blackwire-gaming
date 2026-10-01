@@ -20,10 +20,6 @@
     "name": "BlackWire - Astraeos - PVE - (v94.7)"
   },
   {
-    "service_id": "18111154",
-    "name": "BlackWire - Extinction - PVE - (v94.7)"
-  },
-  {
     "service_id": "18271504",
     "name": "BlackWire Test Server - (v94.7)"
   },
@@ -90,5 +86,9 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.7)"
+  },
+  {
+    "service_id": "18111154",
+    "name": "BlackWire - Extinction - PVE - (v94.7)"
   }
 ]

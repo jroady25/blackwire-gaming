@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:56:18Z",
+  "generated_at": "2026-10-01T17:01:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -100,12 +100,10 @@
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.7)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "AWS3_Luca"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.7)",

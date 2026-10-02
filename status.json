@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:01:44Z",
+  "generated_at": "2026-10-02T22:06:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,7 +36,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.11)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -158,10 +158,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.11)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.11)",

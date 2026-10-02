@@ -5,11 +5,11 @@
   },
   {
     "service_id": "17801131",
-    "name": "BlackWire - Valguero - PVE - (v94.7)"
+    "name": "BlackWire - Valguero - PVE - (v94.11)"
   },
   {
     "service_id": "18012721",
-    "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.7)"
+    "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.11)"
   },
   {
     "service_id": "18111097",
@@ -17,7 +17,7 @@
   },
   {
     "service_id": "18111130",
-    "name": "BlackWire - Astraeos - PVE - (v94.7)"
+    "name": "BlackWire - Astraeos - PVE - (v94.11)"
   },
   {
     "service_id": "18111154",
@@ -28,8 +28,12 @@
     "name": "BlackWire Test Server - (v94.11)"
   },
   {
+    "service_id": "18667313",
+    "name": "Blackwire - Astraeos - Primal Chaos - (v94.11)"
+  },
+  {
     "service_id": "18863471",
-    "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.7)"
+    "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.11)"
   },
   {
     "service_id": "19380386",
@@ -45,7 +49,7 @@
   },
   {
     "service_id": "18357580",
-    "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.7)"
+    "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.11)"
   },
   {
     "service_id": "18610040",
@@ -61,7 +65,7 @@
   },
   {
     "service_id": "18863102",
-    "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.11)"
   },
   {
     "service_id": "19072757",
@@ -69,26 +73,22 @@
   },
   {
     "service_id": "19368770",
-    "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.7)"
+    "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.11)"
   },
   {
     "service_id": "19368830",
-    "name": "BlackWire (JKRZ) - The Island - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - The Island - PVE - (v94.11)"
   },
   {
     "service_id": "19377800",
-    "name": "BlackWire (JKRZ) - The Center - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - The Center - PVE - (v94.11)"
   },
   {
     "service_id": "19426823",
-    "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.11)"
   },
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.11)"
-  },
-  {
-    "service_id": "18667313",
-    "name": "Blackwire - Astraeos - Primal Chaos - (v94.7)"
   }
 ]

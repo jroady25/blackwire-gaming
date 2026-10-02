@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:06:11Z",
+  "generated_at": "2026-10-02T22:11:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -158,11 +158,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.11)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "legendx12x"
+            "legendx12x",
+            "Reilig"
           ]
         },
         {

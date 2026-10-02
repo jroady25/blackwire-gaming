@@ -1,7 +1,7 @@
 [
   {
     "service_id": "17681860",
-    "name": "BlackWire - Ragnarok - PVE - (v94.7)"
+    "name": "BlackWire - Ragnarok - PVE - (v94.11)"
   },
   {
     "service_id": "17801131",
@@ -25,11 +25,7 @@
   },
   {
     "service_id": "18271504",
-    "name": "BlackWire Test Server - (v94.7)"
-  },
-  {
-    "service_id": "18667313",
-    "name": "Blackwire - Astraeos - Primal Chaos - (v94.7)"
+    "name": "BlackWire Test Server - (v94.11)"
   },
   {
     "service_id": "18863471",
@@ -37,7 +33,7 @@
   },
   {
     "service_id": "19380386",
-    "name": "BlackWire - The Fractured Seas - Rp - (v94.7)"
+    "name": "BlackWire - The Fractured Seas - Rp - (v94.11)"
   },
   {
     "service_id": "19826461",
@@ -45,7 +41,7 @@
   },
   {
     "service_id": "18357526",
-    "name": "BlackWire (JKRZ) - Event Map - (v94.7)"
+    "name": "BlackWire (JKRZ) - Event Map - (v94.11)"
   },
   {
     "service_id": "18357580",
@@ -53,15 +49,15 @@
   },
   {
     "service_id": "18610040",
-    "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.11)"
   },
   {
     "service_id": "18859910",
-    "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.11)"
   },
   {
     "service_id": "18860204",
-    "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.11)"
   },
   {
     "service_id": "18863102",
@@ -69,7 +65,7 @@
   },
   {
     "service_id": "19072757",
-    "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.11)"
   },
   {
     "service_id": "19368770",
@@ -89,6 +85,10 @@
   },
   {
     "service_id": "19466842",
-    "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.7)"
+    "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.11)"
+  },
+  {
+    "service_id": "18667313",
+    "name": "Blackwire - Astraeos - Primal Chaos - (v94.7)"
   }
 ]

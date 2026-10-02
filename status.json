@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:11:04Z",
+  "generated_at": "2026-10-02T12:16:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -85,9 +85,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "xXJammyDonutsXx"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.11)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:01:12Z",
+  "generated_at": "2026-10-02T10:06:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -81,13 +81,10 @@
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.7)",
-          "online": true,
-          "players_current": 1,
+          "online": false,
+          "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": [
-            "xXJammyDonutsXx"
-          ]
+          "map": "Ragnarok_WP"
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.11)",

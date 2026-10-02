@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-02T20:16:15Z",
+  "generated_at": "2026-10-02T20:21:15Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.11)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -17,9 +17,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.11)",
@@ -141,12 +139,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.11)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": []

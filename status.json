@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:21:12Z",
+  "generated_at": "2026-10-02T22:26:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,7 +9,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.11)",
@@ -22,7 +24,7 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.11)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP"
         },
@@ -46,10 +48,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.11)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "BlackWire Test Server - (v94.11)",
@@ -156,13 +160,10 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.11)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "legendx12x",
-            "Reilig"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.11)",
@@ -175,7 +176,7 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.11)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []

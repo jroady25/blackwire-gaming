@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:01:17Z",
+  "generated_at": "2026-10-02T06:06:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,7 +40,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "John Wivk"
           ]
         },
         {
@@ -61,12 +62,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.7)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.7)",

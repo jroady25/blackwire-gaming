@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:26:19Z",
+  "generated_at": "2026-10-02T06:31:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,7 +40,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "John Wivk"
           ]
         },
         {
@@ -175,9 +176,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.7)",

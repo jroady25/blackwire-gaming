@@ -80,15 +80,15 @@
     "name": "BlackWire (JKRZ) - The Island - PVE - (v94.11)"
   },
   {
+    "service_id": "19377800",
+    "name": "BlackWire (JKRZ) - The Center - PVE - (v94.11)"
+  },
+  {
     "service_id": "19426823",
     "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.11)"
   },
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.11)"
-  },
-  {
-    "service_id": "19377800",
-    "name": "BlackWire (JKRZ) - The Center - PVE - (v94.11)"
   }
 ]

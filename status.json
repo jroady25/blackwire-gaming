@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:36:13Z",
+  "generated_at": "2026-10-02T08:40:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -82,10 +82,12 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.7)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "xXJammyDonutsXx"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.7)",
@@ -190,9 +192,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "StankGoose "
+          ],
           "map": null
         },
         {

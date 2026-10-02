@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:31:05Z",
+  "generated_at": "2026-10-02T21:36:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,11 +36,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.11)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bulbigar2"
+            "Bulbigar2",
+            "legendx12x",
+            "DireMeek"
           ]
         },
         {
@@ -94,10 +96,12 @@
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.11)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.11)",
@@ -166,12 +170,11 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.11)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [
-            "do_gotcha",
-            "MattyRoth83"
+            "do_gotcha"
           ]
         },
         {

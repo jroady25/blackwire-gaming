@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:36:04Z",
+  "generated_at": "2026-10-02T21:41:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -96,11 +96,12 @@
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.11)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "MattyRoth83"
+            "MattyRoth83",
+            "do_gotcha"
           ]
         },
         {
@@ -173,9 +174,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.11)",

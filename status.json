@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:16:09Z",
+  "generated_at": "2026-10-02T07:21:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,10 +14,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.7)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.7)",
@@ -181,9 +183,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         }
       ]
     },
@@ -200,12 +200,9 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Athena",
-            "arty8r"
-          ],
+          "players": [],
           "map": null
         }
       ]

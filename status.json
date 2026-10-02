@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:06:13Z",
+  "generated_at": "2026-10-02T20:11:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -39,7 +39,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Bulbigar2"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.11)",
@@ -179,7 +181,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.11)",

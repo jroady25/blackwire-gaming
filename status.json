@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:32:38Z",
+  "generated_at": "2026-10-03T19:36:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -117,14 +117,6 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.15)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.15)",
           "online": true,
           "players_current": 0,
@@ -186,6 +178,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.15)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
           "players": []
         }
       ]

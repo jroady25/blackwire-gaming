@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:41:05Z",
+  "generated_at": "2026-10-03T08:46:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -132,7 +132,7 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.11)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [

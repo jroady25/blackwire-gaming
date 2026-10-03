@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:11:20Z",
+  "generated_at": "2026-10-03T01:16:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -62,7 +62,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "IcoN-C_o"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.11)",
@@ -194,10 +196,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "Salem"
+            "Salem",
+            "StankGoose "
           ],
           "map": null
         },

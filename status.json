@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T06:01:03Z",
+  "generated_at": "2026-10-03T06:06:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,12 +36,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.11)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KAKASHIxHATAKE97",
-            "DireMeek"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -201,10 +200,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "Athena"
+            "Athena",
+            "arty8r"
           ],
           "map": null
         }

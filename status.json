@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-03T20:26:04Z",
+  "generated_at": "2026-10-03T20:31:12Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.15)",
@@ -40,9 +42,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
-            "legendx12x",
-            "Bulbigar2"
+            "Harru"
           ]
         },
         {
@@ -202,9 +202,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "arty8r"
+          ],
           "map": null
         }
       ]

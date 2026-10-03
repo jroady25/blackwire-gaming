@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:21:03Z",
+  "generated_at": "2026-10-03T08:26:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,7 +9,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Lady Sharp"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.11)",
@@ -161,9 +163,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Lady Sharp"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.11)",

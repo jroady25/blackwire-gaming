@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:51:13Z",
+  "generated_at": "2026-10-03T04:56:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,10 +14,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.11)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.11)",
@@ -36,12 +38,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.11)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.11)",
@@ -90,8 +90,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "DRIFTWOOD",
-            "KristyG"
+            "DRIFTWOOD"
           ]
         },
         {

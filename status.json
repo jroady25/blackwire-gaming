@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:16:10Z",
+  "generated_at": "2026-10-03T04:21:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -67,8 +67,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "JDavid_0325",
-            "santos_g3"
+            "santos_g3",
+            "JDavid_0325"
           ]
         },
         {

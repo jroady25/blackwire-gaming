@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:26:16Z",
+  "generated_at": "2026-10-03T14:31:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,12 +36,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.15)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bulbigar2",
-            "Harru"
+            "Bulbigar2"
           ]
         },
         {
@@ -184,10 +183,12 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "Pote?nyGrzyb"
+          ]
         }
       ]
     },

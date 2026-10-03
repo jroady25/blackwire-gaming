@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:01:12Z",
+  "generated_at": "2026-10-03T14:06:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -95,7 +95,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.15)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:06:05Z",
+  "generated_at": "2026-10-03T11:11:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Pote?nyGrzyb"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.15)",
@@ -31,17 +29,19 @@
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP"
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Pote?nyGrzyb"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.15)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:01:19Z",
+  "generated_at": "2026-10-03T21:06:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,7 +51,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "BlackWire Test Server - (v94.15)",

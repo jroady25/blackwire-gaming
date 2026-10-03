@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:26:12Z",
+  "generated_at": "2026-10-03T09:31:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -130,12 +130,11 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.15)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
-            "John Wivk",
-            "DireMeek"
+            "John Wivk"
           ]
         },
         {
@@ -173,10 +172,12 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)",

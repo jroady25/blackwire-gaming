@@ -16,6 +16,10 @@
     "name": "BlackWire - Draconic Acension - PVE - - (v94.15)"
   },
   {
+    "service_id": "18111130",
+    "name": "BlackWire - Astraeos - PVE - (v94.15)"
+  },
+  {
     "service_id": "18111154",
     "name": "BlackWire - Extinction - PVE - (v94.15)"
   },
@@ -86,9 +90,5 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)"
-  },
-  {
-    "service_id": "18111130",
-    "name": "BlackWire - Astraeos - PVE - (v94.15)"
   }
 ]

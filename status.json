@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:31:09Z",
+  "generated_at": "2026-10-04T18:36:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "MadBuckeye22"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.15)",
@@ -65,8 +63,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "IcoN-C_o",
-            "JDavid_0325"
+            "IcoN-C_o"
           ]
         },
         {
@@ -180,7 +177,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "MadBuckeye22"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)",

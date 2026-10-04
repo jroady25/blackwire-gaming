@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:16:11Z",
+  "generated_at": "2026-10-04T10:21:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -72,7 +72,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [

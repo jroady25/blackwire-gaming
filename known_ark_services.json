@@ -28,10 +28,6 @@
     "name": "BlackWire Test Server - (v94.15)"
   },
   {
-    "service_id": "18667313",
-    "name": "Blackwire - Astraeos - Primal Chaos - (v94.15)"
-  },
-  {
     "service_id": "18863471",
     "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.15)"
   },
@@ -68,10 +64,6 @@
     "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.15)"
   },
   {
-    "service_id": "19072757",
-    "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)"
-  },
-  {
     "service_id": "19368770",
     "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.15)"
   },
@@ -90,5 +82,13 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)"
+  },
+  {
+    "service_id": "19072757",
+    "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)"
+  },
+  {
+    "service_id": "18667313",
+    "name": "Blackwire - Astraeos - Primal Chaos - (v94.15)"
   }
 ]

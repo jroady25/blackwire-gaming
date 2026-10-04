@@ -64,6 +64,10 @@
     "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.15)"
   },
   {
+    "service_id": "18863102",
+    "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.15)"
+  },
+  {
     "service_id": "19072757",
     "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)"
   },
@@ -86,9 +90,5 @@
   {
     "service_id": "19466842",
     "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)"
-  },
-  {
-    "service_id": "18863102",
-    "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.15)"
   }
 ]

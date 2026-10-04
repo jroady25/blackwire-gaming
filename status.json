@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T21:56:06Z",
+  "generated_at": "2026-10-04T22:01:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -87,7 +87,7 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -203,12 +203,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 16,
           "players": [
             "Athena",
-            "arty8r",
-            "jana_mew"
+            "arty8r"
           ],
           "map": null
         }

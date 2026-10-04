@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:26:14Z",
+  "generated_at": "2026-10-04T10:31:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,7 +19,8 @@
           "map": "Valguero_WP",
           "players": [
             "Lady Sharp",
-            "blueee"
+            "blueee",
+            "John Wivk"
           ]
         },
         {
@@ -43,7 +44,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "John Wivk",
             "Pote?nyGrzyb"
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:36:18Z",
+  "generated_at": "2026-10-04T10:41:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.15)",
@@ -128,10 +126,12 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.15)",

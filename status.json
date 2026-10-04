@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:06:12Z",
+  "generated_at": "2026-10-04T19:11:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,7 +14,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -178,11 +178,12 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
-            "MadBuckeye22"
+            "MadBuckeye22",
+            "ghostykun0210"
           ]
         },
         {

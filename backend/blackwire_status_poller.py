@@ -395,6 +395,26 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         # and reusing it below is what lets poll_nitrado_group() skip
         # calling Nitrado again for the same service_id.
         probed_gs[service_id] = gs
+
+        # TEMP DEBUG (one run): what does Nitrado actually give us per
+        # service beyond the query block -- network fields (ip/ports),
+        # slots, game id -- and for non-ARK services, what game they are.
+        # Keys only for settings, never values (no passwords in logs).
+        try:
+            _settings = gs.get("settings") or {}
+            _dbg = {k: gs.get(k) for k in ("game", "game_human", "status", "ip", "port",
+                                            "query_port", "rcon_port", "slots", "label",
+                                            "location", "type") if k in gs}
+            _dbg["top_keys"] = sorted(gs.keys())
+            _dbg["settings_sections"] = sorted(_settings.keys()) if isinstance(_settings, dict) else str(type(_settings))
+            _cfg = _settings.get("config") if isinstance(_settings, dict) else None
+            if isinstance(_cfg, dict):
+                _dbg["settings_config_keys"] = sorted(k for k in _cfg.keys() if "pass" not in k.lower())
+            _q = gs.get("query") or {}
+            _dbg["query_keys"] = sorted(_q.keys()) if isinstance(_q, dict) else str(type(_q))
+            log(f"DEBUG {service_id}: {json.dumps(_dbg, default=str)[:3000]}")
+        except Exception as _exc:  # debug must never break a poll
+            log(f"DEBUG {service_id}: dump failed: {_exc}")
  
         # Best-effort guess at which field says "this is ARK: Survival
         # Ascended" — unconfirmed, see caveat above.

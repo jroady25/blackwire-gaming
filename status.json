@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:51:04Z",
+  "generated_at": "2026-10-04T10:56:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,12 +36,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Pote?nyGrzyb"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.15)",
@@ -142,7 +140,7 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [

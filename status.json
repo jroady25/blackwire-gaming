@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T19:16:14Z",
+  "generated_at": "2026-10-05T19:26:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -150,12 +150,10 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.15)",
@@ -184,10 +182,12 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)",

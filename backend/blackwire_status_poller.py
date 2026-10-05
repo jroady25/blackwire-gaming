@@ -214,6 +214,20 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
 
         password = entry.get("rcon_password") or rcon_password
 
+        # RCON connection details: config.json's hand-typed host/rcon_port
+        # win if present, otherwise fall back to what Nitrado itself just
+        # told us about this very service (its gameserver payload carries
+        # top-level "ip" and "rcon_port" -- confirmed against the live API
+        # 2026-10-04, and the values matched every hand-typed entry). This
+        # is what makes a brand-new ARK server get player NAMES on the
+        # site with zero config edits, same as it already got its name
+        # and count via discovery. "slots" is the real max player count,
+        # which matters for the no-query fallback rows below.
+        gs_now = probed_gs.get(service_id) or {}
+        rcon_host = entry.get("host") or gs_now.get("ip")
+        rcon_port = entry.get("rcon_port") or gs_now.get("rcon_port")
+        slots = entry.get("players_max") or gs_now.get("slots") or 0
+
         if data is None:
             # Nitrado's own query data is missing this run (empty/no query
             # block, whatever the cause on their end). If this entry has
@@ -225,14 +239,14 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
             # evidence the server is actually up, so use it for online
             # status and the live player count too, not just names.
             rcon_data = None
-            if entry.get("host") and entry.get("rcon_port") and password:
-                rcon_data = query_ark_rcon_players(entry["host"], entry["rcon_port"], password)
+            if rcon_host and rcon_port and password:
+                rcon_data = query_ark_rcon_players(rcon_host, rcon_port, password)
             if rcon_data is not None:
                 results.append({
                     "name": entry["name"],
                     "online": True,
                     "players_current": len(rcon_data["players"]),
-                    "players_max": entry.get("players_max", 0),
+                    "players_max": slots,
                     "map": None,
                     "players": rcon_data["players"],
                 })
@@ -245,7 +259,7 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
                 "name": entry["name"],
                 "online": False,
                 "players_current": 0,
-                "players_max": entry.get("players_max", 0),
+                "players_max": slots,
                 "map": None,
             })
             continue
@@ -261,13 +275,79 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
         # on top of the count Nitrado's API already gave us above. Only
         # attempted when this entry has enough to try, and failure here
         # never affects the count/online status already established.
-        if entry.get("host") and entry.get("rcon_port") and password:
-            rcon_data = query_ark_rcon_players(entry["host"], entry["rcon_port"], password)
+        if rcon_host and rcon_port and password:
+            rcon_data = query_ark_rcon_players(rcon_host, rcon_port, password)
             if rcon_data is not None:
                 row["players"] = rcon_data["players"]
  
         results.append(row)
     return results
+
+
+# ---------------------------------------------------------------------------
+# Other Nitrado games (anything on the account that isn't ARK or Palworld)
+# ---------------------------------------------------------------------------
+# Added 2026-10-04 after a RuneScape: Dragonwilds server was added on
+# Nitrado and never appeared on the site: the poller only knew ARK (by
+# name discovery), Palworld (hand-listed, own REST API) and Once Human
+# (hand-listed, no API at all). Every other game on the account was being
+# skipped silently by the ARK discovery loop's game-type check.
+#
+# Discovery already fetched every service's gameserver payload this run
+# (probed_gs), so this costs zero extra API calls: group every service
+# whose game isn't ARK/Palworld under its own key, named by Nitrado's own
+# game label ("dragonwilds" -> "Runescape: Dragonwilds"). Each one gets:
+#   online          -- Nitrado's own status == "started" (reliable; this is
+#                      the same field the admin panel's start/stop uses)
+#   players_current -- from Nitrado's query block when the game populates
+#                      it, otherwise None (= "unknown", NOT zero). Dragonwilds
+#                      has no query/RCON protocol at all (confirmed on the
+#                      game's dedicated-server docs), so for it this is
+#                      always None and the wall shows the plate as online
+#                      without a count rather than lying with a 0.
+#   players_max     -- query player_max if present, else Nitrado's "slots"
+#   name            -- query server_name if present, else a config
+#                      override from other_nitrado_names, else the game's
+#                      own label.
+# There's no name filter here (no query data = no name to filter on), so
+# this trusts that every non-ARK/non-Palworld service on the account is
+# meant to be on the site. Use auto_discover_other_exclude_ids to hide one.
+
+def discover_other_nitrado_games(probed_gs, exclude_ids=None, name_overrides=None,
+                                 known_palworld_ids=None):
+    exclude_ids = {str(x) for x in (exclude_ids or [])}
+    name_overrides = {str(k): v for k, v in (name_overrides or {}).items()}
+    known_palworld_ids = {str(x) for x in (known_palworld_ids or [])}
+    groups = {}
+    for service_id, gs in (probed_gs or {}).items():
+        service_id = str(service_id)
+        if service_id in exclude_ids or service_id in known_palworld_ids:
+            continue
+        game = str(gs.get("game") or "").strip().lower()
+        if not game:
+            continue
+        looks_like_ark = ("ark" in game) or ("asa" in game) or ("survival" in game)
+        if looks_like_ark or game == "palworld":
+            continue  # handled by their own, better-informed code paths
+        query = gs.get("query") or {}
+        current = query.get("player_current")
+        maximum = query.get("player_max")
+        row = {
+            "service_id": service_id,
+            "name": (query.get("server_name") or name_overrides.get(service_id)
+                     or gs.get("game_human") or game),
+            "online": gs.get("status") == "started",
+            "players_current": int(current) if current is not None else None,
+            "players_max": int(maximum) if maximum is not None else int(gs.get("slots") or 0),
+            "map": query.get("map"),
+        }
+        slug = "".join(ch if ch.isalnum() else "_" for ch in game).strip("_") or "other"
+        bucket = groups.setdefault(slug, {"label": gs.get("game_human") or game, "servers": []})
+        bucket["servers"].append(row)
+    for slug, bucket in groups.items():
+        log(f"Other Nitrado games: {len(bucket['servers'])} {bucket['label']} server(s) "
+            f"on the account this run (shown under '{slug}').")
+    return groups
  
  
 # ---------------------------------------------------------------------
@@ -395,26 +475,6 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
         # and reusing it below is what lets poll_nitrado_group() skip
         # calling Nitrado again for the same service_id.
         probed_gs[service_id] = gs
-
-        # TEMP DEBUG (one run): what does Nitrado actually give us per
-        # service beyond the query block -- network fields (ip/ports),
-        # slots, game id -- and for non-ARK services, what game they are.
-        # Keys only for settings, never values (no passwords in logs).
-        try:
-            _settings = gs.get("settings") or {}
-            _dbg = {k: gs.get(k) for k in ("game", "game_human", "status", "ip", "port",
-                                            "query_port", "rcon_port", "slots", "label",
-                                            "location", "type") if k in gs}
-            _dbg["top_keys"] = sorted(gs.keys())
-            _dbg["settings_sections"] = sorted(_settings.keys()) if isinstance(_settings, dict) else str(type(_settings))
-            _cfg = _settings.get("config") if isinstance(_settings, dict) else None
-            if isinstance(_cfg, dict):
-                _dbg["settings_config_keys"] = sorted(k for k in _cfg.keys() if "pass" not in k.lower())
-            _q = gs.get("query") or {}
-            _dbg["query_keys"] = sorted(_q.keys()) if isinstance(_q, dict) else str(type(_q))
-            log(f"DEBUG {service_id}: {json.dumps(_dbg, default=str)[:3000]}")
-        except Exception as _exc:  # debug must never break a poll
-            log(f"DEBUG {service_id}: dump failed: {_exc}")
  
         # Best-effort guess at which field says "this is ARK: Survival
         # Ascended" — unconfirmed, see caveat above.
@@ -889,6 +949,22 @@ def main():
             "once_human": {"servers": once_human},
         },
     }
+
+    # Any other game on the Nitrado account (e.g. RuneScape: Dragonwilds)
+    # rides along automatically -- see discover_other_nitrado_games(). Only
+    # possible when discovery ran this run, since that's where the
+    # per-service payloads come from. Off switch: auto_discover_other_games.
+    if probed_gs and cfg.get("auto_discover_other_games", True):
+        others = discover_other_nitrado_games(
+            probed_gs,
+            exclude_ids=cfg.get("auto_discover_other_exclude_ids", []),
+            name_overrides=cfg.get("other_nitrado_names", {}),
+            known_palworld_ids=[p.get("service_id") for p in cfg.get("palworld_servers", [])],
+        )
+        for slug, bucket in others.items():
+            if slug in status["servers"]:
+                slug = f"other_{slug}"
+            status["servers"][slug] = bucket
  
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(status, f, indent=2)

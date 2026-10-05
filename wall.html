@@ -529,6 +529,11 @@ section.zone{
         </div>
         <div class="grid" id="oh-grid"></div>
       </section>
+
+      <!-- Any other game the poller finds on Nitrado (e.g. RuneScape:
+           Dragonwilds) gets its own zone here, built from status.json at
+           render time -- no edit to this page needed when one is added. -->
+      <div id="extra-zones"></div>
     </div>
   </div>
 
@@ -595,10 +600,14 @@ section.zone{
 
   function plate(srv, hero){
     var on   = !!srv.online;
+    /* players_current === null means "online, but this game exposes no
+       player count at all" (Dragonwilds has no query/RCON) -- show the
+       plate lit with a dash instead of lying with a 0. */
+    var unknown = on && (srv.players_current === null || srv.players_current === undefined);
     var cur  = srv.players_current|0;
     var max  = srv.players_max|0;
-    var pct  = (on && max>0) ? Math.min(100, Math.round(cur/max*100)) : 0;
-    var pop  = on && cur>0;
+    var pct  = (on && !unknown && max>0) ? Math.min(100, Math.round(cur/max*100)) : 0;
+    var pop  = on && !unknown && cur>0;
     var list = Array.isArray(srv.players)
       ? srv.players.map(function(p){ return String(p).trim(); }).filter(Boolean)
       : [];
@@ -610,7 +619,7 @@ section.zone{
       + '<div class="name"><i class="dot"></i><span>' + esc(srv.name) + '</span></div>'
       + '<div class="row">'
         + '<div class="map">' + (on ? (ml || 'Online') : 'Offline') + '</div>'
-        + '<div class="count">' + (on ? cur : '—')
+        + '<div class="count">' + (on && !unknown ? cur : '—')
           + (on && max ? '<span class="of">/' + max + '</span>' : '')
         + '</div>'
       + '</div>'
@@ -624,12 +633,46 @@ section.zone{
     list.forEach(function(s){
       if(s.online){
         t.up++;
+        /* a server with no player count at all (null) still counts as
+           up, but stays out of the player/slot/capacity math so the
+           header numbers only describe servers that actually report. */
+        if(s.players_current === null || s.players_current === undefined) return;
         t.slots   += (s.players_max|0);
         t.players += (s.players_current|0);
         if((s.players_current|0) > 0) t.pop++;
       }
     });
     return t;
+  }
+
+  /* Game keys the fixed zones above already render; everything else in
+     status.json's "servers" is an "other" game and gets a zone of its own. */
+  var FIXED_GAMES = { ark:1, palworld:1, once_human:1 };
+
+  function prettyGameLabel(key, g){
+    if(g && g.label) return g.label;
+    return String(key).replace(/_/g, ' ').replace(/\b\w/g, function(c){ return c.toUpperCase(); });
+  }
+
+  function renderExtraZones(g){
+    var host = el('extra-zones');
+    if(!host) return [];
+    var tallies = [];
+    var html = '';
+    Object.keys(g).sort().forEach(function(key){
+      if(FIXED_GAMES[key]) return;
+      var list = byActivity((g[key] && g[key].servers) || []);
+      if(!list.length) return;
+      var t = tally(list);
+      tallies.push(t);
+      html += '<section class="zone">'
+        + '<div class="zone-head"><h2>' + esc(prettyGameLabel(key, g[key])) + '</h2>'
+        + '<div class="meta"><b>' + t.up + '</b>/' + t.total + '</div></div>'
+        + '<div class="grid">' + list.map(function(s){ return plate(s, false); }).join('') + '</div>'
+        + '</section>';
+    });
+    host.innerHTML = html;
+    return tallies;
   }
 
   /* Populated servers surface first within each grid -- the wall's whole
@@ -660,6 +703,7 @@ section.zone{
     el('oh-grid').innerHTML  = oh.map(function(s){ return plate(s, false); }).join('');
 
     var ta = tally(ark), tp = tally(pal), to = tally(oh);
+    var extra = renderExtraZones(g);
 
     el('ark-up').textContent     = ta.up;
     el('ark-total').textContent  = ta.total;
@@ -674,6 +718,9 @@ section.zone{
     var total   = ta.total + tp.total + to.total;
     var slots   = ta.slots + tp.slots + to.slots;
     var pop     = ta.pop + tp.pop + to.pop;
+    extra.forEach(function(t){
+      players += t.players; up += t.up; total += t.total; slots += t.slots; pop += t.pop;
+    });
 
     el('s-players').textContent = players;
     el('s-up').innerHTML        = up + '<span class="of">/' + total + '</span>';

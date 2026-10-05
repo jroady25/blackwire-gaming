@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:21:14Z",
+  "generated_at": "2026-10-05T03:26:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -161,7 +161,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "drinks f30"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.15)",
@@ -202,9 +204,12 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "arty8r",
+            "athena8r"
+          ],
           "map": null
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:56:20Z",
+  "generated_at": "2026-10-05T04:01:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,12 +37,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "John Wivk",
-            "legendx12x"
+            "John Wivk"
           ]
         },
         {
@@ -51,7 +50,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire Test Server - (v94.15)",
@@ -205,10 +206,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "arty8r"
+            "arty8r",
+            "Athena"
           ],
           "map": null
         }

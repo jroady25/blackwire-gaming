@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T23:16:08Z",
+  "generated_at": "2026-10-05T23:21:44Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -37,11 +37,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.15)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "legendx12x",
             "KAKASHIxHATAKE97"
           ]
         },
@@ -141,7 +140,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.15)",
@@ -170,13 +171,14 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.15)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "v12-Kira-v12",
             "drinks f30",
-            "Reilig"
+            "Reilig",
+            "MattyRoth83"
           ]
         },
         {

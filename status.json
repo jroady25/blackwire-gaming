@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:01:12Z",
+  "generated_at": "2026-10-05T00:06:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,7 +24,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.15)",
@@ -79,7 +80,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 26,
-          "map": "Genesis_WP"
+          "map": "Genesis_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.15)",
@@ -222,6 +224,19 @@
           "online": true,
           "players_current": 0,
           "players_max": 20
+        }
+      ]
+    },
+    "dragonwilds": {
+      "label": "Runescape: Dragonwilds",
+      "servers": [
+        {
+          "service_id": "19957897",
+          "name": "Runescape: Dragonwilds",
+          "online": true,
+          "players_current": null,
+          "players_max": 6,
+          "map": null
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T23:06:40Z",
+  "generated_at": "2026-10-05T23:11:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -56,7 +56,7 @@
         {
           "name": "BlackWire Test Server - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
         },
@@ -170,12 +170,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.15)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "v12-Kira-v12",
-            "drinks f30"
+            "drinks f30",
+            "Reilig"
           ]
         },
         {
@@ -189,7 +190,7 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []
@@ -200,9 +201,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "Reilig"
-          ]
+          "players": []
         }
       ]
     },

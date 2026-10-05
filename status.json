@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:11:12Z",
+  "generated_at": "2026-10-05T18:16:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -26,7 +26,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "UEBERFLIEGER"
+            "UEBERFLIEGER",
+            "D4iTo"
           ]
         },
         {

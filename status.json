@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:21:18Z",
+  "generated_at": "2026-10-05T18:26:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,12 +22,11 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.15)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "UEBERFLIEGER",
-            "D4iTo"
+            "UEBERFLIEGER"
           ]
         },
         {
@@ -43,7 +42,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.15)",

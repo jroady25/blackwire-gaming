@@ -646,27 +646,63 @@ def dragonwilds_online_names(st):
     return [p["name"] for p in sorted((st.get("online") or {}).values(), key=lambda p: p.get("since") or "")]
 
 
-def nitrado_file_size(service_id, token, path):
-    """Size in bytes of one file on the service's Nitrado file server, or
-    None if it can't be listed (wrong path, API error)."""
-    d = urllib.parse.quote(path.rsplit("/", 1)[0])
-    url = f"{NITRADO_API_BASE}/services/{service_id}/gameservers/file_server/list?dir={d}"
+def nitrado_file_list(service_id, token, directory):
+    """Entries of one directory on the service's Nitrado file server
+    ([{name, path, type, size, ...}]), or None on API error."""
+    url = (f"{NITRADO_API_BASE}/services/{service_id}/gameservers/file_server/list"
+           f"?dir={urllib.parse.quote(directory)}")
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
-            entries = json.loads(resp.read().decode("utf-8"))["data"]["entries"]
+            return json.loads(resp.read().decode("utf-8"))["data"]["entries"]
     except (urllib.error.URLError, TimeoutError, ValueError, KeyError, TypeError) as exc:
-        log(f"Dragonwilds: couldn't list {path.rsplit('/', 1)[0]}: {exc}")
+        log(f"Dragonwilds: couldn't list {directory}: {exc}")
         return None
-    name = path.rsplit("/", 1)[1]
+
+
+def nitrado_file_size(service_id, token, path):
+    """Size in bytes of one file on the service's Nitrado file server, or
+    None if it isn't there / can't be listed."""
+    directory, name = path.rsplit("/", 1)
+    entries = nitrado_file_list(service_id, token, directory)
+    if entries is None:
+        return None
     for e in entries:
         if e.get("name") == name or e.get("path") == path:
             try:
                 return int(e.get("size") or 0)
             except (TypeError, ValueError):
                 return None
-    log(f"Dragonwilds: {name} not found in {path.rsplit('/', 1)[0]} "
-        f"(entries: {[e.get('name') for e in entries][:20]})")
+    return None
+
+
+def dragonwilds_locate_log(service_id, token, username, state):
+    """Finds the full file-server path of the Dragonwilds log. Over FTP the
+    game folder sits at the FTP root ("/dragonwilds/..."), but Nitrado's
+    file-server API addresses files by their absolute path under
+    /games/<username>/, and which subfolder the FTP root maps to differs
+    between games/hosts (noftp vs ftproot vs none). So: try the usual
+    candidates, remember the one that works in the state file, and if none
+    works, log what IS under /games/<username> so the next fix is a
+    one-liner instead of a guess."""
+    cached = state.get("log_path")
+    if cached and nitrado_file_size(service_id, token, cached) is not None:
+        return cached
+    base = f"/games/{username}"
+    for root in (f"{base}/noftp", f"{base}/ftproot", base, f"{base}/ftproot/noftp"):
+        candidate = f"{root}/{DRAGONWILDS_LOG_RELPATH}"
+        if nitrado_file_size(service_id, token, candidate) is not None:
+            if candidate != cached:
+                log(f"Dragonwilds: log located at {candidate}")
+            state["log_path"] = candidate
+            return candidate
+    # Nothing matched -- show the real layout so this can be corrected.
+    for directory in (base, f"{base}/noftp", f"{base}/ftproot"):
+        entries = nitrado_file_list(service_id, token, directory)
+        if entries:
+            log(f"Dragonwilds: {directory} contains "
+                f"{[(e.get('name'), e.get('type')) for e in entries][:25]}")
+    log("Dragonwilds: couldn't locate RSDragonwilds.log on the file server this run")
     return None
 
 
@@ -714,7 +750,9 @@ def dragonwilds_presence(service_id, gs, token, state):
     if not username:
         log("Dragonwilds: gameserver payload has no username, can't locate its log")
         return None
-    path = f"/games/{username}/noftp/{DRAGONWILDS_LOG_RELPATH}"
+    path = dragonwilds_locate_log(service_id, token, username, state)
+    if not path:
+        return None
     size = nitrado_file_size(service_id, token, path)
     if size is None:
         return None

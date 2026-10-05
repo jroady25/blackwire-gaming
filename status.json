@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:56:45Z",
+  "generated_at": "2026-10-05T23:01:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,8 +41,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KAKASHIxHATAKE97",
-            "legendx12x"
+            "legendx12x",
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -188,11 +188,10 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
-            "MattyRoth83",
             "Reilig"
           ]
         },

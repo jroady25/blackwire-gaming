@@ -102,13 +102,16 @@ droplet.
 """
  
 import argparse
+import hashlib
 import json
 import os
+import re
 import socket
 import struct
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
  
 NITRADO_API_BASE = "https://api.nitrado.net"
@@ -511,21 +514,231 @@ def discover_blackwire_ark_services(token, name_filter="blackwire", exclude_ids=
     return found, unreachable_ids, account_ids, probed_gs
 
 
+def _load_state_file(path):
+    """known_ark_services.json started life as a bare list of ARK
+    {"service_id", "name"} entries; since 2026-10-05 it is a dict so the
+    Dragonwilds log position can live in the same committed file (the
+    workflow only commits this file and status.json). A legacy list is
+    read as {"ark_servers": [...]}."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return {}
+    if isinstance(data, list):
+        return {"ark_servers": data}
+    return data if isinstance(data, dict) else {}
+
+
+def _save_state_file(path, state):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2)
+
+
 def load_ark_cache(path):
     """Reads the last-known-good {"service_id", "name"} list this same
     poller wrote out on a past run -- see the big comment in main()
     about why this exists (surviving a transient Nitrado API blip
     during discovery without servers vanishing off the site)."""
-    try:
-        with open(path, encoding="utf-8") as f:
-            return json.load(f)
-    except (OSError, ValueError):
-        return []
+    return _load_state_file(path).get("ark_servers", [])
 
 
 def save_ark_cache(path, entries):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(entries, f, indent=2)
+    state = _load_state_file(path)
+    state["ark_servers"] = entries
+    _save_state_file(path, state)
+
+
+# ---------------------------------------------------------------------------
+# RuneScape: Dragonwilds -- who's online, from the server's own log
+# ---------------------------------------------------------------------------
+# Dragonwilds has no query protocol, no RCON and no console (checked on the
+# game's dedicated-server docs and probed directly against the live server on
+# 2026-10-05: UDP A2S on the game port got no reply, TCP on the panel's "Rcon
+# Port" was refused). Nitrado's query block for it is always empty. What the
+# game DOES do is write a very clear line to its own log every time a player
+# enters or leaves, and Nitrado's API can download that log. Verified against
+# the live log on 2026-10-05; the exact lines are:
+#
+#   [2026.10.04-20.08.15:489][831]LogNet: Join request: ...?Name=Skorpion Kin?SplitscreenCount=1
+#   [2026.10.04-20.08.19:645][955]LogDominionPlayerControllerBase: PlayerChar entered world
+#        [Account[XP:0002c9e2...] Character Name[Lumierre] Guid[DCG:...] Type[0]]
+#   ...
+#   [2026.10.04-20.25.14:329][998]LogDominionPlayerController: ClientRequestDisconnect : DisconnectMe :
+#        PlayerStateSave result[true] - state saved for Account[XP:0002c9e2...] Character Name[Lumierre] ...
+#   [2026.10.04-20.25.14:597][  6]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 1.2.3.4:50758, ...
+#
+# A clean quit logs the "state saved for Account[...]" line; a dropped
+# connection (game crash, alt-F4, network) only logs "Connection TIMED OUT"
+# followed by the same UNetConnection::Close line. So the tracker keys each
+# online player by the connection address it joined on (the
+# "NotifyAcceptingConnection accepted from: addr" line a few seconds before
+# "entered world") and treats ANY close of that address as a leave -- that
+# covers both cases. Addresses are player IPs, so only a hash of each one is
+# ever kept, and nothing about them reaches status.json.
+#
+# The log grows ~6 MB/day between restarts, so this doesn't re-read it every
+# 5 minutes: the byte offset already processed (plus the current online set)
+# is kept in the same state file as the ARK cache, and each run asks Nitrado
+# for just the bytes after that offset (HTTP Range). A restart truncates the
+# log (a new "Log file open" header), which resets everything -- correct,
+# since a restart also disconnects everyone.
+
+DRAGONWILDS_LOG_RELPATH = "dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
+_DW_TS = re.compile(r"^\[(\d{4})\.(\d{2})\.(\d{2})-(\d{2})\.(\d{2})\.(\d{2}):\d+\]")
+_DW_ACCEPT = re.compile(r"NotifyAcceptingConnection accepted from: (\S+)")
+_DW_JOIN = re.compile(r"LogNet: Join request: .*?[?&]Name=([^?]*)")
+_DW_ENTER = re.compile(r"PlayerChar entered world \[Account\[([^\]]+)\] Character Name\[([^\]]*)\]")
+_DW_LEAVE = re.compile(r"state saved for Account\[([^\]]+)\]")
+_DW_CLOSE = re.compile(r"UNetConnection::Close: \[UNetConnection\] RemoteAddr: ([^,\s]+)")
+
+
+def _dw_addr_key(addr):
+    return hashlib.sha1(("bw-dw:" + str(addr)).encode("utf-8")).hexdigest()[:16] if addr else None
+
+
+def _dw_line_ts(line):
+    m = _DW_TS.match(line)
+    return f"{m.group(1)}-{m.group(2)}-{m.group(3)}T{m.group(4)}:{m.group(5)}:{m.group(6)}Z" if m else None
+
+
+def dragonwilds_new_state():
+    return {"offset": 0, "online": {}, "last_accept": None, "pending_name": None, "log_size": 0}
+
+
+def dragonwilds_apply_log(text, st):
+    """Feeds newly-read log text through the join/leave tracker. st is
+    mutated in place; returns it. Pure function of the text -- no I/O."""
+    online = st.setdefault("online", {})
+    for line in text.splitlines():
+        if line.startswith("Log file open"):
+            # server restarted -> fresh log, everyone's gone
+            online.clear(); st["last_accept"] = None; st["pending_name"] = None
+            continue
+        m = _DW_ACCEPT.search(line)
+        if m:
+            st["last_accept"] = _dw_addr_key(m.group(1)); continue
+        m = _DW_JOIN.search(line)
+        if m:
+            st["pending_name"] = m.group(1).strip() or None; continue
+        m = _DW_ENTER.search(line)
+        if m:
+            acct, char = m.group(1), m.group(2).strip()
+            online[acct] = {
+                "name": char or st.get("pending_name") or "Player",
+                "addr": st.get("last_accept"),
+                "since": _dw_line_ts(line),
+            }
+            st["pending_name"] = None
+            continue
+        m = _DW_LEAVE.search(line)
+        if m:
+            online.pop(m.group(1), None); continue
+        m = _DW_CLOSE.search(line)
+        if m:
+            key = _dw_addr_key(m.group(1))
+            for acct in [a for a, p in online.items() if p.get("addr") == key]:
+                online.pop(acct, None)
+    return st
+
+
+def dragonwilds_online_names(st):
+    return [p["name"] for p in sorted((st.get("online") or {}).values(), key=lambda p: p.get("since") or "")]
+
+
+def nitrado_file_size(service_id, token, path):
+    """Size in bytes of one file on the service's Nitrado file server, or
+    None if it can't be listed (wrong path, API error)."""
+    d = urllib.parse.quote(path.rsplit("/", 1)[0])
+    url = f"{NITRADO_API_BASE}/services/{service_id}/gameservers/file_server/list?dir={d}"
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            entries = json.loads(resp.read().decode("utf-8"))["data"]["entries"]
+    except (urllib.error.URLError, TimeoutError, ValueError, KeyError, TypeError) as exc:
+        log(f"Dragonwilds: couldn't list {path.rsplit('/', 1)[0]}: {exc}")
+        return None
+    name = path.rsplit("/", 1)[1]
+    for e in entries:
+        if e.get("name") == name or e.get("path") == path:
+            try:
+                return int(e.get("size") or 0)
+            except (TypeError, ValueError):
+                return None
+    log(f"Dragonwilds: {name} not found in {path.rsplit('/', 1)[0]} "
+        f"(entries: {[e.get('name') for e in entries][:20]})")
+    return None
+
+
+def nitrado_file_read(service_id, token, path, offset=0):
+    """Returns the bytes of `path` from `offset` onward, via Nitrado's
+    file-server download token. Uses an HTTP Range request so the
+    5-minute poll only pulls what the server has logged since last time;
+    falls back to slicing a full download if the file host ignores Range.
+    Returns None on failure."""
+    url = (f"{NITRADO_API_BASE}/services/{service_id}/gameservers/file_server/download"
+           f"?file={urllib.parse.quote(path)}")
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            tok = json.loads(resp.read().decode("utf-8"))["data"]["token"]
+    except (urllib.error.URLError, TimeoutError, ValueError, KeyError, TypeError) as exc:
+        log(f"Dragonwilds: download token request failed for {path}: {exc}")
+        return None
+    dl_url = tok.get("url") or ""
+    if tok.get("token") and "token=" not in dl_url:
+        dl_url += ("&" if "?" in dl_url else "?") + "token=" + urllib.parse.quote(tok["token"])
+    headers = {"Range": f"bytes={offset}-"} if offset else {}
+    try:
+        with urllib.request.urlopen(urllib.request.Request(dl_url, headers=headers), timeout=60) as resp:
+            body = resp.read()
+            if offset and resp.status != 206:
+                body = body[offset:]  # host ignored Range; slice locally
+            return body
+    except urllib.error.HTTPError as exc:
+        if exc.code == 416:
+            return b""  # nothing new since offset
+        log(f"Dragonwilds: log download failed: HTTP {exc.code}")
+        return None
+    except (urllib.error.URLError, TimeoutError) as exc:
+        log(f"Dragonwilds: log download failed: {exc}")
+        return None
+
+
+def dragonwilds_presence(service_id, gs, token, state):
+    """Updates `state` (the persisted dragonwilds tracker) from whatever the
+    server has logged since the last run and returns the list of player
+    names currently in-world, or None if the log couldn't be read this run
+    (callers then show the server with an unknown count, not a wrong 0)."""
+    username = gs.get("username")
+    if not username:
+        log("Dragonwilds: gameserver payload has no username, can't locate its log")
+        return None
+    path = f"/games/{username}/noftp/{DRAGONWILDS_LOG_RELPATH}"
+    size = nitrado_file_size(service_id, token, path)
+    if size is None:
+        return None
+    offset = int(state.get("offset") or 0)
+    if size < offset:
+        # log truncated/rotated (server restart) -> start over, nobody is on
+        log(f"Dragonwilds: log shrank from {offset} to {size} bytes -- server restarted, resetting tracker")
+        state.update(dragonwilds_new_state())
+        offset = 0
+    if size > offset:
+        chunk = nitrado_file_read(service_id, token, path, offset)
+        if chunk is None:
+            return None
+        # only consume whole lines; a half-written last line waits for next run
+        cut = chunk.rfind(b"\n")
+        if cut < 0:
+            chunk, consumed = b"", 0
+        else:
+            chunk, consumed = chunk[:cut + 1], cut + 1
+        dragonwilds_apply_log(chunk.decode("utf-8", "replace"), state)
+        state["offset"] = offset + consumed
+        log(f"Dragonwilds: read {consumed} new log bytes (offset {offset} -> {state['offset']} of {size})")
+    state["log_size"] = size
+    return dragonwilds_online_names(state)
  
  
 # ---------------------------------------------------------------------
@@ -962,6 +1175,22 @@ def main():
             known_palworld_ids=[p.get("service_id") for p in cfg.get("palworld_servers", [])],
         )
         for slug, bucket in others.items():
+            if slug == "dragonwilds":
+                # the one game whose count/names come from its own log --
+                # see dragonwilds_presence(). State rides in the same
+                # committed file as the ARK cache.
+                state_all = _load_state_file(ark_cache_path)
+                dw_state = state_all.get("dragonwilds") or dragonwilds_new_state()
+                for row in bucket["servers"]:
+                    if not row.get("online"):
+                        continue
+                    names = dragonwilds_presence(row["service_id"], probed_gs[row["service_id"]],
+                                                 cfg["nitrado_token"], dw_state)
+                    if names is not None:
+                        row["players_current"] = len(names)
+                        row["players"] = names
+                state_all["dragonwilds"] = dw_state
+                _save_state_file(ark_cache_path, state_all)
             if slug in status["servers"]:
                 slug = f"other_{slug}"
             status["servers"][slug] = bucket

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:51:21Z",
+  "generated_at": "2026-10-05T18:56:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -60,6 +60,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
+        },
+        {
+          "name": "BlackWire - Saiyan Legacy - PVP - (v94.15)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.15)",

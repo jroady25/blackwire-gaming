@@ -29,6 +29,10 @@
       "name": "BlackWire Test Server - (v94.15)"
     },
     {
+      "service_id": "18293911",
+      "name": "BlackWire - Saiyan Legacy - PVP - (v94.15)"
+    },
+    {
       "service_id": "18667313",
       "name": "Blackwire - Astraeos - Primal Chaos - (v94.15)"
     },
@@ -94,11 +98,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 12751946,
+    "offset": 12755293,
     "online": {},
     "last_accept": "9fe805f3c13d8e55",
     "pending_name": null,
-    "log_size": 12751946,
+    "log_size": 12755293,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

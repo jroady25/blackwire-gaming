@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T04:41:04Z",
+  "generated_at": "2026-10-05T04:46:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,7 +17,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.15)",
@@ -40,17 +42,17 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Test Server - (v94.15)",
@@ -134,12 +136,10 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)",

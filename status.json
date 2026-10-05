@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T16:31:15Z",
+  "generated_at": "2026-10-05T16:36:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.15)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "MattyRoth83",
-            "DireMeek"
+            "DireMeek",
+            "John Wivk"
           ]
         },
         {
@@ -43,9 +44,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.15)",

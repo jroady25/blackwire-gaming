@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T02:41:38Z",
+  "generated_at": "2026-10-06T02:46:44Z",
   "servers": {
     "ark": {
       "servers": [
@@ -170,8 +170,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "drinks f30",
-            "Squidward6945"
+            "drinks f30"
           ]
         },
         {

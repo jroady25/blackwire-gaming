@@ -25,9 +25,15 @@
  *   "servers": {
  *     "ark":         { "servers": [ {"name","online","players_current","players_max","map","players"?}, ... ] },
  *     "palworld":    { "servers": [ {"name","online","players_current","players_max","players"?}, ... ] },
- *     "once_human":  { "servers": [ ... ] }
+ *     "once_human":  { "servers": [ ... ] },
+ *     "dragonwilds": { "label", "servers": [ {"name","online","players_current","players_max","players"?}, ... ] }
  *   }
  * }
+ *
+ * "dragonwilds" (RuneScape: Dragonwilds) is filled in by the poller from
+ * the server's own log -- the game has no query/RCON -- so players_current
+ * can be null on a run where the log couldn't be read. Null means "unknown",
+ * not zero, and renders as a dash.
  *
  * "players" (an array of real in-game names) is optional per server —
  * present for ARK only where that server's RCON credentials are set in
@@ -94,10 +100,11 @@
       return (b.players_current || 0) - (a.players_current || 0);
     });
     var rows = sorted.map(function(s){
-      var pct = capPct(s.players_current, s.players_max);
+      var unknown = (s.players_current === null || s.players_current === undefined);
+      var pct = unknown ? 0 : capPct(s.players_current, s.players_max);
       var dotClass = (s.online === false) ? 'live-dot offline' : 'live-dot';
       return '<tr><td><span class="' + dotClass + '"></span>' + escapeHtml(s.name) + '</td>' +
-             '<td><span class="srv-count">' + s.players_current + '/' + s.players_max + '</span>' +
+             '<td><span class="srv-count">' + (unknown ? '\u2014' : s.players_current) + '/' + s.players_max + '</span>' +
              '<span class="cap-bar" aria-hidden="true"><span style="width:' + pct + '%"></span></span>' +
              namesLine(s.players) + '</td></tr>';
     });
@@ -226,6 +233,11 @@
       renderCapacityOnly(data.servers.once_human, 'oncehuman-total-servers', 'oncehuman-total-slots');
       renderGamePageStat('palworld-live-dd', 'palworld-pending-callout', data.servers.palworld, 'palworld-page-total-servers', 'palworld-page-total-slots');
       renderCapacityOnly(data.servers.once_human, 'oncehuman-page-total-servers', 'oncehuman-page-total-slots');
+      // RuneScape: Dragonwilds -- same treatment as Palworld (homepage
+      // card + feed table, and the games/runescape.html spec row).
+      renderServerFeed(data.servers.dragonwilds, 'runescape-feed-body');
+      renderPlate(data.servers.dragonwilds, 'runescape-plate', 'runescape-sync-state', 'runescape-total-servers', 'runescape-total-slots');
+      renderGamePageStat('runescape-live-dd', 'runescape-pending-callout', data.servers.dragonwilds, 'runescape-page-total-servers', 'runescape-page-total-slots');
     })
     .catch(function(){
       // status.json isn't up yet (or this is the Cowork preview) —

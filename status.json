@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:02:03Z",
+  "generated_at": "2026-10-06T22:06:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -166,13 +166,15 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.15)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Lady Sharp",
             "Squidward6945",
-            "captianmilk6864"
+            "captianmilk6864",
+            "saithbh095",
+            "drinks f30"
           ]
         },
         {
@@ -194,7 +196,7 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T01:56:42Z",
+  "generated_at": "2026-10-06T02:01:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,12 +45,10 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "Reilig"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Test Server - (v94.15)",
@@ -70,12 +68,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.15)",
@@ -172,9 +168,9 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "v12-Kira-v12",
             "drinks f30",
-            "Squidward6945"
+            "Squidward6945",
+            "Reilig"
           ]
         },
         {

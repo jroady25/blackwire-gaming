@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-10-06T23:51:52Z",
+  "generated_at": "2026-10-06T23:56:45Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Squidward6945"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.15)",
@@ -173,7 +171,8 @@
           "map": "TheIsland_WP",
           "players": [
             "Reilig",
-            "drinks f30"
+            "drinks f30",
+            "Squidward6945"
           ]
         },
         {

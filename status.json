@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-06T23:41:49Z",
+  "generated_at": "2026-10-06T23:46:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -168,12 +168,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.15)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Reilig",
-            "drinks f30"
+            "drinks f30",
+            "saithbh095"
           ]
         },
         {

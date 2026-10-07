@@ -98,7 +98,7 @@
     }
   ],
   "dragonwilds": {
-    "offset": 17400562,
+    "offset": 17711886,
     "online": {
       "XP:0002c9e25ae740de996591cbdf4b6ae0": {
         "name": "Lumierre",
@@ -108,7 +108,7 @@
     },
     "last_accept": "b6e184338ce0ce0a",
     "pending_name": null,
-    "log_size": 17400562,
+    "log_size": 17711685,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

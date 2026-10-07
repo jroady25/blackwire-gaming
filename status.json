@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:01:50Z",
+  "generated_at": "2026-10-07T15:21:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.22)",
@@ -70,10 +68,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.22)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "IcoN-C_o"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.22)",
@@ -158,7 +158,7 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": []
@@ -202,9 +202,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Salem"
+          ],
           "map": null
         },
         {

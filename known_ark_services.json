@@ -45,6 +45,10 @@
       "name": "BlackWire - The Fractured Seas - Rp - (v94.15)"
     },
     {
+      "service_id": "19826461",
+      "name": "BlackWire - Decended - PVE - (v94.15)"
+    },
+    {
       "service_id": "18357526",
       "name": "BlackWire (JKRZ) - Event Map - (v94.15)"
     },
@@ -91,14 +95,10 @@
     {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)"
-    },
-    {
-      "service_id": "19826461",
-      "name": "BlackWire - Decended - PVE - (v94.15)"
     }
   ],
   "dragonwilds": {
-    "offset": 16279180,
+    "offset": 16285700,
     "online": {
       "XP:000213e7735b4d9fb3cecce65528fab4": {
         "name": "AllenDWoodz",
@@ -108,7 +108,7 @@
     },
     "last_accept": "57044f73eb04e33f",
     "pending_name": null,
-    "log_size": 16279180,
+    "log_size": 16285548,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

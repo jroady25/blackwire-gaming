@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:21:34Z",
+  "generated_at": "2026-10-07T00:26:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.15)",
@@ -126,7 +124,7 @@
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
           "players": []

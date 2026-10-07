@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:21:44Z",
+  "generated_at": "2026-10-07T18:26:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -65,7 +65,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "WIX8_Sh3ban"
+          ]
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.22)",

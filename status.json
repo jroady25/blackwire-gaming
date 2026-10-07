@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T21:41:19Z",
+  "generated_at": "2026-10-07T21:46:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,9 +40,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.22)",
@@ -157,7 +155,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.22)",

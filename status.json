@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:26:36Z",
+  "generated_at": "2026-10-07T00:31:45Z",
   "servers": {
     "ark": {
       "servers": [
@@ -127,7 +127,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.15)",
@@ -148,10 +150,12 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "sashasapphire"
+          ]
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.15)",

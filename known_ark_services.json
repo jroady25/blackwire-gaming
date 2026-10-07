@@ -33,6 +33,10 @@
       "name": "BlackWire - Saiyan Legacy - PVP - (v94.22)"
     },
     {
+      "service_id": "18497059",
+      "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.22)"
+    },
+    {
       "service_id": "18667313",
       "name": "Blackwire - Astraeos - Primal Chaos - (v94.22)"
     },
@@ -98,7 +102,7 @@
     }
   ],
   "dragonwilds": {
-    "offset": 18027409,
+    "offset": 18061430,
     "online": {
       "XP:000213e7735b4d9fb3cecce65528fab4": {
         "name": "AllenDWoodz",
@@ -108,7 +112,7 @@
     },
     "last_accept": "2cfb41448e263a7d",
     "pending_name": null,
-    "log_size": 18027409,
+    "log_size": 18061430,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

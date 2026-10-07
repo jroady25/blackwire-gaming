@@ -9,6 +9,10 @@
       "name": "BlackWire - Valguero - PVE - (v94.22)"
     },
     {
+      "service_id": "18012721",
+      "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.22)"
+    },
+    {
       "service_id": "18111097",
       "name": "BlackWire - Draconic Acension - PVE - - (v94.22)"
     },
@@ -91,14 +95,10 @@
     {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.22)"
-    },
-    {
-      "service_id": "18012721",
-      "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.22)"
     }
   ],
   "dragonwilds": {
-    "offset": 17299239,
+    "offset": 17308228,
     "online": {
       "XP:000213e7735b4d9fb3cecce65528fab4": {
         "name": "AllenDWoodz",
@@ -108,7 +108,7 @@
     },
     "last_accept": "3c45c8dde6d89e7e",
     "pending_name": null,
-    "log_size": 17299239,
+    "log_size": 17308228,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

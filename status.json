@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:36:31Z",
+  "generated_at": "2026-10-07T19:41:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,15 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
+        },
+        {
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.22)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.22)",
@@ -187,14 +193,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.22)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

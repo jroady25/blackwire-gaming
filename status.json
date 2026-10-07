@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T21:46:17Z",
+  "generated_at": "2026-10-07T21:51:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,7 +37,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -152,7 +152,7 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.22)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
@@ -244,10 +244,12 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 6,
           "map": null,
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         }
       ]
     }

@@ -102,7 +102,7 @@
     }
   ],
   "dragonwilds": {
-    "offset": 18142716,
+    "offset": 18215551,
     "online": {
       "XP:000213e7735b4d9fb3cecce65528fab4": {
         "name": "AllenDWoodz",
@@ -110,9 +110,9 @@
         "since": "2026-10-07T21:51:16Z"
       }
     },
-    "last_accept": "2cfb41448e263a7d",
+    "last_accept": "f788f7c040a2a6c2",
     "pending_name": null,
-    "log_size": 18142716,
+    "log_size": 18215551,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

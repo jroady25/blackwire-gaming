@@ -14,7 +14,7 @@
     },
     {
       "service_id": "18111097",
-      "name": "BlackWire - Draconic Acension - PVE - - (v94.15)"
+      "name": "BlackWire - Draconic Acension - PVE - - (v94.22)"
     },
     {
       "service_id": "18111130",
@@ -22,7 +22,7 @@
     },
     {
       "service_id": "18111154",
-      "name": "BlackWire - Extinction - PVE - (v94.15)"
+      "name": "BlackWire - Extinction - PVE - (v94.22)"
     },
     {
       "service_id": "18271504",
@@ -42,7 +42,7 @@
     },
     {
       "service_id": "19380386",
-      "name": "BlackWire - The Fractured Seas - Rp - (v94.15)"
+      "name": "BlackWire - The Fractured Seas - Rp - (v94.22)"
     },
     {
       "service_id": "19826461",
@@ -58,7 +58,7 @@
     },
     {
       "service_id": "18610040",
-      "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.15)"
+      "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.22)"
     },
     {
       "service_id": "18859910",
@@ -98,7 +98,7 @@
     }
   ],
   "dragonwilds": {
-    "offset": 16294112,
+    "offset": 16303716,
     "online": {
       "XP:000213e7735b4d9fb3cecce65528fab4": {
         "name": "AllenDWoodz",
@@ -108,7 +108,7 @@
     },
     "last_accept": "57044f73eb04e33f",
     "pending_name": null,
-    "log_size": 16294112,
+    "log_size": 16303716,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

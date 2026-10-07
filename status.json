@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:16:23Z",
+  "generated_at": "2026-10-07T22:21:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,10 +37,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.22)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.22)",
@@ -70,7 +72,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Valguero_WP"
+          "map": "Valguero_WP",
+          "players": []
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.22)",
@@ -157,12 +160,10 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.22)",
@@ -180,7 +181,8 @@
           "map": "TheIsland_WP",
           "players": [
             "Coffee Slayer",
-            "v12-Kira-v12"
+            "v12-Kira-v12",
+            "drinks f30"
           ]
         },
         {

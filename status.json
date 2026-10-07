@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:31:45Z",
+  "generated_at": "2026-10-07T01:36:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.15)",
@@ -121,12 +119,10 @@
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.15)",
@@ -189,10 +185,12 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)",

@@ -2,7 +2,7 @@
   "ark_servers": [
     {
       "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v94.15)"
+      "name": "BlackWire - Ragnarok - PVE - (v94.22)"
     },
     {
       "service_id": "17801131",
@@ -26,11 +26,11 @@
     },
     {
       "service_id": "18271504",
-      "name": "BlackWire Test Server - (v94.15)"
+      "name": "BlackWire Test Server - (v94.22)"
     },
     {
       "service_id": "18293911",
-      "name": "BlackWire - Saiyan Legacy - PVP - (v94.15)"
+      "name": "BlackWire - Saiyan Legacy - PVP - (v94.22)"
     },
     {
       "service_id": "18667313",
@@ -54,7 +54,7 @@
     },
     {
       "service_id": "18357580",
-      "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.15)"
+      "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.22)"
     },
     {
       "service_id": "18610040",
@@ -62,11 +62,11 @@
     },
     {
       "service_id": "18859910",
-      "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.15)"
+      "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.22)"
     },
     {
       "service_id": "18860204",
-      "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.15)"
+      "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.22)"
     },
     {
       "service_id": "18863102",
@@ -74,7 +74,7 @@
     },
     {
       "service_id": "19072757",
-      "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)"
+      "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.22)"
     },
     {
       "service_id": "19368770",
@@ -94,11 +94,11 @@
     },
     {
       "service_id": "19466842",
-      "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.15)"
+      "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.22)"
     }
   ],
   "dragonwilds": {
-    "offset": 16303716,
+    "offset": 16308214,
     "online": {
       "XP:000213e7735b4d9fb3cecce65528fab4": {
         "name": "AllenDWoodz",
@@ -108,7 +108,7 @@
     },
     "last_accept": "57044f73eb04e33f",
     "pending_name": null,
-    "log_size": 16303716,
+    "log_size": 16308214,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

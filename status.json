@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-07T22:51:22Z",
+  "generated_at": "2026-10-07T22:56:24Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "I-Clxmp_u-"
+            "I-Clxmp_u-",
+            "osma_kirkladen"
           ]
         },
         {

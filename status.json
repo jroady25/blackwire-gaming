@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T00:41:34Z",
+  "generated_at": "2026-10-07T00:46:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,7 +48,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Coffee Slayer"
+          ]
         },
         {
           "name": "BlackWire Test Server - (v94.15)",
@@ -92,10 +94,12 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.15)",

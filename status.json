@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T10:06:50Z",
+  "generated_at": "2026-10-07T10:11:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -92,7 +92,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Decended - PVE - (v94.15)",
+          "name": "BlackWire - Decended - PVE - (v94.22)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -240,12 +240,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 6,
           "map": null,
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         }
       ]
     }

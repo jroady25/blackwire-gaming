@@ -65,10 +65,6 @@
       "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.22)"
     },
     {
-      "service_id": "18860204",
-      "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.22)"
-    },
-    {
       "service_id": "18863102",
       "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.22)"
     },
@@ -95,14 +91,18 @@
     {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.22)"
+    },
+    {
+      "service_id": "18860204",
+      "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.22)"
     }
   ],
   "dragonwilds": {
-    "offset": 16570120,
+    "offset": 16598164,
     "online": {},
     "last_accept": "57044f73eb04e33f",
     "pending_name": null,
-    "log_size": 16570120,
+    "log_size": 16598164,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T04:22:02Z",
+  "generated_at": "2026-10-07T04:26:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -148,12 +148,10 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.15)",
@@ -207,11 +205,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Salem"
-          ],
+          "players": [],
           "map": null
         },
         {

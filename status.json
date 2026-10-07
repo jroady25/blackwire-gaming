@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:21:45Z",
+  "generated_at": "2026-10-07T01:26:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,7 +37,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -45,11 +45,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "drinks f30"
+            "drinks f30",
+            "Squidward6945"
           ]
         },
         {
@@ -126,7 +127,7 @@
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.15)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar_WP",
           "players": []
@@ -158,20 +159,20 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.15)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "AllenDWoodz"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.15)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
-            "Squidward6945",
             "Coffee Slayer"
           ]
         },

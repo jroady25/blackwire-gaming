@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-10-08T05:06:25Z",
+  "generated_at": "2026-10-08T05:11:27Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.22)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "drinks f30",
-            "captianmilk6864"
+            "drinks f30"
           ]
         },
         {
@@ -40,12 +39,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.22)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KAKASHIxHATAKE97",
-            "John Wivk"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -156,10 +154,12 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.22)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.22)",
@@ -180,10 +180,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.22)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "captianmilk6864"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.22)",

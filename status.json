@@ -1,18 +1,15 @@
 {
-  "generated_at": "2026-10-08T03:51:28Z",
+  "generated_at": "2026-10-08T03:56:24Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "x603Rico",
-            "drinks f30"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.22)",
@@ -181,11 +178,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.22)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "captianmilk6864"
+            "captianmilk6864",
+            "drinks f30",
+            "x603Rico"
           ]
         },
         {
@@ -257,13 +256,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 6,
           "map": null,
-          "players": [
-            "Dame Duchess",
-            "AllenDWoodz"
-          ]
+          "players": []
         }
       ]
     }

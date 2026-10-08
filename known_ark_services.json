@@ -102,22 +102,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 19171936,
-    "online": {
-      "XP:00021832d0844d5ebbbefd2a48687fbb": {
-        "name": "Dame Duchess",
-        "addr": "e8a076707f1dea5c",
-        "since": "2026-10-08T03:36:35Z"
-      },
-      "XP:000213e7735b4d9fb3cecce65528fab4": {
-        "name": "AllenDWoodz",
-        "addr": "3095ce1d82097b2d",
-        "since": "2026-10-08T03:37:21Z"
-      }
-    },
+    "offset": 19213379,
+    "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 19171834,
+    "log_size": 19213379,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

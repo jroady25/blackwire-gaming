@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:11:40Z",
+  "generated_at": "2026-10-08T09:16:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,7 +24,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.22)",
@@ -181,7 +182,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheCenter_WP"
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.22)",

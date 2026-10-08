@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T03:46:32Z",
+  "generated_at": "2026-10-08T03:51:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "x603Rico"
+            "x603Rico",
+            "drinks f30"
           ]
         },
         {
@@ -184,7 +185,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "drinks f30",
             "captianmilk6864"
           ]
         },

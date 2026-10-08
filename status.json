@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T02:26:17Z",
+  "generated_at": "2026-10-08T02:31:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -170,12 +170,10 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "Lyulf_kaldez"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.22)",
@@ -190,10 +188,12 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.22)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Lyulf_kaldez"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.22)",

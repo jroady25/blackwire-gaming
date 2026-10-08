@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T06:21:30Z",
+  "generated_at": "2026-10-08T06:26:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,7 +40,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "John Wivk"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.22)",
@@ -150,12 +152,10 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.22)",

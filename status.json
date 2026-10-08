@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-08T03:26:30Z",
+  "generated_at": "2026-10-08T03:31:31Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "captianmilk6864"
+            "captianmilk6864",
+            "drinks f30"
           ]
         },
         {
@@ -183,9 +184,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "drinks f30"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.22)",
@@ -225,9 +224,10 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         }
       ]

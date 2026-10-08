@@ -102,7 +102,7 @@
     }
   ],
   "dragonwilds": {
-    "offset": 18858790,
+    "offset": 18952188,
     "online": {
       "XP:00021832d0844d5ebbbefd2a48687fbb": {
         "name": "Dame Duchess",
@@ -117,7 +117,7 @@
     },
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 18858790,
+    "log_size": 18951449,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

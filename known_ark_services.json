@@ -61,10 +61,6 @@
       "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.22)"
     },
     {
-      "service_id": "18610040",
-      "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.22)"
-    },
-    {
       "service_id": "18859910",
       "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.22)"
     },
@@ -99,14 +95,18 @@
     {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.22)"
+    },
+    {
+      "service_id": "18610040",
+      "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.22)"
     }
   ],
   "dragonwilds": {
-    "offset": 20299753,
+    "offset": 20303100,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 20299558,
+    "log_size": 20303100,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

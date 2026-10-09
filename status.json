@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:46:25Z",
+  "generated_at": "2026-10-09T18:51:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -89,9 +89,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Vince-Meat83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.22)",

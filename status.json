@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:06:37Z",
+  "generated_at": "2026-10-09T03:11:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -199,8 +199,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
-            "utu_doughboy420",
-            "ISO7826"
+            "utu_doughboy420"
           ]
         },
         {

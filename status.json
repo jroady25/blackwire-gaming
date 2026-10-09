@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T22:01:23Z",
+  "generated_at": "2026-10-09T22:06:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Squidward6945"
+            "Squidward6945",
+            "Arigatu1"
           ]
         },
         {
@@ -182,9 +183,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Coffee Slayer",
-            "Reilig",
-            "runcrawlslither"
+            "Coffee Slayer"
           ]
         },
         {

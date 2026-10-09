@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:31:31Z",
+  "generated_at": "2026-10-09T03:36:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -78,7 +78,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.22)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -194,7 +194,7 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.22)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []

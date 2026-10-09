@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T01:26:25Z",
+  "generated_at": "2026-10-09T01:30:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "CowboyCapone691"
+            "CowboyCapone691",
+            "StrayFern2532"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:46:31Z",
+  "generated_at": "2026-10-09T00:51:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,9 +17,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "Squidward6945"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.22)",
@@ -185,7 +183,8 @@
             "Coffee Slayer",
             "Rowena",
             "captianmilk6864",
-            "drinks f30"
+            "drinks f30",
+            "Squidward6945"
           ]
         },
         {

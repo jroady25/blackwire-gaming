@@ -10,7 +10,7 @@
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.22)"
+      "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)"
     },
     {
       "service_id": "18111097",
@@ -90,7 +90,7 @@
     },
     {
       "service_id": "19377800",
-      "name": "BlackWire (JKRZ) - The Center - PVE - (v94.22)"
+      "name": "BlackWire (JKRZ) - The Center - PVE - (v94.25)"
     },
     {
       "service_id": "19426823",
@@ -102,11 +102,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 21359779,
+    "offset": 21363320,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 21359779,
+    "log_size": 21363320,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

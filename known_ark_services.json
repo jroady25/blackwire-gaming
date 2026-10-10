@@ -14,7 +14,7 @@
     },
     {
       "service_id": "18111097",
-      "name": "BlackWire - Draconic Acension - PVE - - (v94.22)"
+      "name": "BlackWire - Draconic Acension - PVE - - (v94.25)"
     },
     {
       "service_id": "18111130",
@@ -26,7 +26,7 @@
     },
     {
       "service_id": "18271504",
-      "name": "BlackWire Test Server - (v94.22)"
+      "name": "BlackWire Test Server - (v94.25)"
     },
     {
       "service_id": "18293911",
@@ -46,7 +46,7 @@
     },
     {
       "service_id": "19380386",
-      "name": "BlackWire - The Fractured Seas - Rp - (v94.22)"
+      "name": "BlackWire - The Fractured Seas - Rp - (v94.25)"
     },
     {
       "service_id": "19826461",
@@ -66,11 +66,11 @@
     },
     {
       "service_id": "18859910",
-      "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.22)"
+      "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.25)"
     },
     {
       "service_id": "18860204",
-      "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.22)"
+      "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.25)"
     },
     {
       "service_id": "18863102",
@@ -98,15 +98,15 @@
     },
     {
       "service_id": "19466842",
-      "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.22)"
+      "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.25)"
     }
   ],
   "dragonwilds": {
-    "offset": 21350292,
+    "offset": 21354679,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 21350292,
+    "log_size": 21354679,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

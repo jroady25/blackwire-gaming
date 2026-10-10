@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:11:30Z",
+  "generated_at": "2026-10-10T01:16:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,7 +9,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.22)",

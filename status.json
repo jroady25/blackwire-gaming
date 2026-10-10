@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T19:36:26Z",
+  "generated_at": "2026-10-10T19:41:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -78,7 +78,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -106,7 +106,7 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -228,11 +228,9 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Gura"
-          ],
+          "players": [],
           "map": null
         }
       ]

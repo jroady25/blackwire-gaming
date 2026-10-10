@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T04:51:17Z",
+  "generated_at": "2026-10-10T04:56:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -256,9 +256,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

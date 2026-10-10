@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:51:32Z",
+  "generated_at": "2026-10-10T16:56:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -26,7 +26,7 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -41,7 +41,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
@@ -86,8 +86,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "IcoN-C_o",
-            "santos_g3"
+            "santos_g3",
+            "IcoN-C_o"
           ]
         },
         {
@@ -173,7 +173,7 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:01:19Z",
+  "generated_at": "2026-10-10T20:06:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -160,7 +160,7 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": []
@@ -188,9 +188,9 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
             "Rowena",
-            "Coffee Slayer"
+            "Coffee Slayer",
+            "Reilig"
           ]
         },
         {

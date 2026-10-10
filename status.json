@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T02:11:23Z",
+  "generated_at": "2026-10-10T02:16:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -184,8 +184,7 @@
           "map": "TheIsland_WP",
           "players": [
             "Coffee Slayer",
-            "Rowena",
-            "Squidward6945"
+            "Rowena"
           ]
         },
         {

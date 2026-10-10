@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T19:31:25Z",
+  "generated_at": "2026-10-10T19:36:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -82,8 +82,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "IcoN-C_o",
-            "xXJammyDonutsXx"
+            "IcoN-C_o"
           ]
         },
         {
@@ -110,7 +109,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "xXJammyDonutsXx"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.25)",
@@ -227,9 +228,11 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Gura"
+          ],
           "map": null
         }
       ]

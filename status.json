@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T03:46:27Z",
+  "generated_at": "2026-10-10T03:52:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -67,8 +67,7 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Extinction_WP",
-          "players": []
+          "map": "Extinction_WP"
         },
         {
           "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.22)",
@@ -133,8 +132,7 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Svartalfheim_WP",
-          "players": []
+          "map": "Svartalfheim_WP"
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.22)",

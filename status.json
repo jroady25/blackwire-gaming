@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T03:52:07Z",
+  "generated_at": "2026-10-10T03:56:33Z",
   "servers": {
     "ark": {
       "servers": [
@@ -67,7 +67,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Extinction_WP"
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.22)",
@@ -132,7 +133,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Svartalfheim_WP"
+          "map": "Svartalfheim_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.22)",
@@ -177,15 +179,15 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.22)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Coffee Slayer",
             "Rowena",
             "KAKASHIxHATAKE97",
-            "drinks f30",
-            "Reilig"
+            "Reilig",
+            "drinks f30"
           ]
         },
         {

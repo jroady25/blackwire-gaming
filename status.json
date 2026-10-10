@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-10T15:26:19Z",
+  "generated_at": "2026-10-10T15:31:27Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:26:24Z",
+  "generated_at": "2026-10-10T13:31:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -180,7 +180,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "runcrawlslither"
+            "runcrawlslither",
+            "Coffee Slayer"
           ]
         },
         {

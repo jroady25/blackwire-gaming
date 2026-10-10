@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:46:32Z",
+  "generated_at": "2026-10-10T16:51:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,9 +44,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "IBOR"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
@@ -178,7 +176,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": []
+          "players": [
+            "IBOR"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",

@@ -2,11 +2,11 @@
   "ark_servers": [
     {
       "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v94.22)"
+      "name": "BlackWire - Ragnarok - PVE - (v94.25)"
     },
     {
       "service_id": "17801131",
-      "name": "BlackWire - Valguero - PVE - (v94.22)"
+      "name": "BlackWire - Valguero - PVE - (v94.25)"
     },
     {
       "service_id": "18012721",
@@ -18,7 +18,7 @@
     },
     {
       "service_id": "18111130",
-      "name": "BlackWire - Astraeos - PVE - (v94.22)"
+      "name": "BlackWire - Astraeos - PVE - (v94.25)"
     },
     {
       "service_id": "18111154",
@@ -34,15 +34,15 @@
     },
     {
       "service_id": "18497059",
-      "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.22)"
+      "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)"
     },
     {
       "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - (v94.22)"
+      "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)"
     },
     {
       "service_id": "18863471",
-      "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.22)"
+      "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)"
     },
     {
       "service_id": "19380386",
@@ -74,7 +74,7 @@
     },
     {
       "service_id": "18863102",
-      "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.22)"
+      "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)"
     },
     {
       "service_id": "19072757",
@@ -82,11 +82,11 @@
     },
     {
       "service_id": "19368770",
-      "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.22)"
+      "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.25)"
     },
     {
       "service_id": "19368830",
-      "name": "BlackWire (JKRZ) - The Island - PVE - (v94.22)"
+      "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)"
     },
     {
       "service_id": "19377800",
@@ -94,7 +94,7 @@
     },
     {
       "service_id": "19426823",
-      "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.22)"
+      "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.25)"
     },
     {
       "service_id": "19466842",
@@ -102,11 +102,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 21357180,
+    "offset": 21359779,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 21357180,
+    "log_size": 21359779,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

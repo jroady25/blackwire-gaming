@@ -50,7 +50,7 @@
     },
     {
       "service_id": "19826461",
-      "name": "BlackWire - Decended - PVE - (v94.22)"
+      "name": "BlackWire - Decended - PVE - (v94.25)"
     },
     {
       "service_id": "18357526",
@@ -102,11 +102,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 21393208,
+    "offset": 21396749,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 21393208,
+    "log_size": 21396749,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

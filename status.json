@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:31:18Z",
+  "generated_at": "2026-10-11T21:36:29Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,10 +51,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire Test Server - (v94.25)",
@@ -182,7 +184,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -190,7 +192,8 @@
             "Rowena",
             "Reilig",
             "MattyRoth83",
-            "Coffee Slayer"
+            "Coffee Slayer",
+            "Squidward6945"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T03:36:32Z",
+  "generated_at": "2026-10-11T03:41:33Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,9 +42,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "KAKASHIxHATAKE97"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
@@ -144,11 +142,27 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
+        },
+        {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
           "players": []
         },
         {
@@ -162,10 +176,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "KAKASHIxHATAKE97"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.25)",
@@ -189,22 +205,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

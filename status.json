@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:36:22Z",
+  "generated_at": "2026-10-11T07:41:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,12 +37,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "John Wivk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
@@ -113,6 +111,14 @@
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.25)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -199,14 +205,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:21:33Z",
+  "generated_at": "2026-10-11T13:26:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -127,9 +127,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Svartalfheim_WP",
-          "players": [
-            "RenatinhaRJ1533"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.25)",

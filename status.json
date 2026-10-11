@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:36:21Z",
+  "generated_at": "2026-10-11T20:41:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -148,10 +148,13 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Harru",
+            "Reilig"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)",
@@ -184,7 +187,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
             "runcrawlslither",
             "Rowena",
             "MattyRoth83"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:36:25Z",
+  "generated_at": "2026-10-11T15:41:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -65,14 +65,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Valguero_WP",
           "players": []
         },
         {
@@ -204,6 +196,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
           "players": []
         }
       ]

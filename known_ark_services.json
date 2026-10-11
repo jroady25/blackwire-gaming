@@ -33,10 +33,6 @@
       "name": "BlackWire - Saiyan Legacy - PVP - (v94.25)"
     },
     {
-      "service_id": "18497059",
-      "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)"
-    },
-    {
       "service_id": "18667313",
       "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)"
     },
@@ -99,14 +95,18 @@
     {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.25)"
+    },
+    {
+      "service_id": "18497059",
+      "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)"
     }
   ],
   "dragonwilds": {
-    "offset": 22578669,
+    "offset": 22582500,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 22578669,
+    "log_size": 22582500,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T19:41:19Z",
+  "generated_at": "2026-10-11T19:46:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,12 +47,10 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Test Server - (v94.25)",

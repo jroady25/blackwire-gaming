@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:41:23Z",
+  "generated_at": "2026-10-11T06:46:18Z",
   "servers": {
     "ark": {
       "servers": [
@@ -81,7 +81,8 @@
           "map": "Astraeos_WP",
           "players": [
             "DireMeek",
-            "ISO7826"
+            "ISO7826",
+            "santos_g3"
           ]
         },
         {

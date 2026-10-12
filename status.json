@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:36:36Z",
+  "generated_at": "2026-10-12T14:41:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)",
@@ -129,14 +127,6 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.25)",
           "online": true,
           "players_current": 0,
@@ -150,14 +140,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Aberration_WP",
           "players": []
         },
         {
@@ -206,6 +188,22 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
           "players": []
         }
       ]

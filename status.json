@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:12:13Z",
+  "generated_at": "2026-10-12T13:16:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -8,21 +8,26 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP"
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
           "players_current": 1,
           "players_max": 20,
-          "map": "Valguero_WP"
+          "map": "Valguero_WP",
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.25)",
@@ -36,14 +41,16 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Extinction_WP"
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "BlackWire Test Server - (v94.25)",
@@ -57,7 +64,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Extinction_WP"
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)",

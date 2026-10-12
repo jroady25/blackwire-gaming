@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-10-12T00:16:23Z",
+  "generated_at": "2026-10-12T00:21:43Z",
   "servers": {
     "ark": {
       "servers": [
-        {
-          "name": "BlackWire - Ragnarok - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
-        },
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
@@ -84,7 +76,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -210,6 +202,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
           "players": []
         }
       ]

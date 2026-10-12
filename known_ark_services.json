@@ -1,10 +1,6 @@
 {
   "ark_servers": [
     {
-      "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v94.25)"
-    },
-    {
       "service_id": "17801131",
       "name": "BlackWire - Valguero - PVE - (v94.25)"
     },
@@ -99,14 +95,18 @@
     {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.25)"
+    },
+    {
+      "service_id": "17681860",
+      "name": "BlackWire - Ragnarok - PVE - (v94.25)"
     }
   ],
   "dragonwilds": {
-    "offset": 22926672,
+    "offset": 22930408,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 22926672,
+    "log_size": 22930408,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

@@ -37,20 +37,12 @@
       "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)"
     },
     {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)"
-    },
-    {
       "service_id": "18863471",
       "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)"
     },
     {
       "service_id": "19380386",
       "name": "BlackWire - The Fractured Seas - Rp - (v94.25)"
-    },
-    {
-      "service_id": "19826461",
-      "name": "BlackWire - Decended - PVE - (v94.25)"
     },
     {
       "service_id": "18357526",
@@ -99,14 +91,22 @@
     {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.25)"
+    },
+    {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)"
+    },
+    {
+      "service_id": "19826461",
+      "name": "BlackWire - Decended - PVE - (v94.25)"
     }
   ],
   "dragonwilds": {
-    "offset": 23371865,
+    "offset": 23375408,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 23371865,
+    "log_size": 23375408,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

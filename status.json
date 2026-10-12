@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T17:41:19Z",
+  "generated_at": "2026-10-12T17:46:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -85,16 +85,19 @@
           "map": "Astraeos_WP",
           "players": [
             "IcoN-C_o",
-            "DireMeek"
+            "DireMeek",
+            "ISO7826"
           ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "KC RAlD"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.25)",

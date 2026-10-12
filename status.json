@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T03:06:40Z",
+  "generated_at": "2026-10-12T03:11:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,10 +14,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)",
@@ -86,12 +88,10 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "KC RAlD"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.25)",
@@ -123,6 +123,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Svartalfheim_WP",
           "players": []
         },
         {
@@ -168,13 +176,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Coffee Slayer",
-            "runcrawlslither",
-            "I-Be-Stroganoff"
+            "I-Be-Stroganoff",
+            "Derangedjoka"
           ]
         },
         {
@@ -199,14 +207,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
           "players": []
         }
       ]

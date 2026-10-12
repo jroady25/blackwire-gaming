@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-12T00:21:43Z",
+  "generated_at": "2026-10-12T00:26:19Z",
   "servers": {
     "ark": {
       "servers": [
+        {
+          "name": "BlackWire - Ragnarok - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
@@ -202,14 +210,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
           "players": []
         }
       ]

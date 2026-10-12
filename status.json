@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T03:01:21Z",
+  "generated_at": "2026-10-12T03:06:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -90,8 +90,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "KC RAlD",
-            "Dude104weird"
+            "KC RAlD"
           ]
         },
         {
@@ -124,14 +123,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.25)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
           "players": []
         },
         {
@@ -183,7 +174,6 @@
           "players": [
             "Coffee Slayer",
             "runcrawlslither",
-            "Derangedjoka",
             "I-Be-Stroganoff"
           ]
         },
@@ -209,6 +199,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.25)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Svartalfheim_WP",
           "players": []
         }
       ]

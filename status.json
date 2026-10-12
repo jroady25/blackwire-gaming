@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:06:15Z",
+  "generated_at": "2026-10-12T20:11:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -25,9 +25,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "D4iTo"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.25)",
@@ -73,18 +71,22 @@
         {
           "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "ISO7826"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)",
@@ -179,7 +181,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -187,8 +189,8 @@
             "Reilig",
             "Coffee Slayer",
             "Rowena",
-            "captianmilk6864",
-            "I-Be-Stroganoff"
+            "I-Be-Stroganoff",
+            "captianmilk6864"
           ]
         },
         {

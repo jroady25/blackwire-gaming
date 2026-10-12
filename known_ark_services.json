@@ -34,7 +34,7 @@
     },
     {
       "service_id": "18497059",
-      "name": "BlackWire Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)"
+      "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)"
     },
     {
       "service_id": "18667313",
@@ -102,11 +102,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 23750260,
+    "offset": 23753609,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 23750260,
+    "log_size": 23753609,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T04:36:26Z",
+  "generated_at": "2026-10-13T04:41:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
@@ -150,7 +148,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)",
@@ -184,7 +184,8 @@
           "map": "TheIsland_WP",
           "players": [
             "I-Be-Stroganoff",
-            "Derangedjoka"
+            "Derangedjoka",
+            "dalfrit623"
           ]
         },
         {

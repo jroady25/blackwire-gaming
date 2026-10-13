@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:46:19Z",
+  "generated_at": "2026-10-13T21:51:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -67,11 +67,10 @@
         },
         {
           "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Valguero_WP",
-          "players": []
+          "map": "Valguero_WP"
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)",
@@ -174,7 +173,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

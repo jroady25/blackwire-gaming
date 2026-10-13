@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T03:26:31Z",
+  "generated_at": "2026-10-13T03:31:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -180,11 +180,11 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Derangedjoka",
             "I-Be-Stroganoff",
             "drinks f30",
             "SpoggDarr",
-            "captianmilk6864"
+            "captianmilk6864",
+            "Derangedjoka"
           ]
         },
         {
@@ -227,9 +227,10 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         }
       ]

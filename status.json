@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-13T04:41:26Z",
+  "generated_at": "2026-10-13T04:46:24Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -145,7 +145,7 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": [

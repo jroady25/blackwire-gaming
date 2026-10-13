@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T19:21:28Z",
+  "generated_at": "2026-10-13T19:26:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
@@ -29,9 +27,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Sunilovich_06"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.25)",

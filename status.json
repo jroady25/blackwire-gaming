@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:21:26Z",
+  "generated_at": "2026-10-13T23:26:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -87,7 +87,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "KC RAlD"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.25)",
@@ -172,7 +174,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 9,
+          "players_current": 8,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -181,8 +183,6 @@
             "Derangedjoka",
             "drinks f30",
             "SpoggDarr",
-            "Thor602",
-            "Squidward6945",
             "Slingshot",
             "SVT Jon"
           ]

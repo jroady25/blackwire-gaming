@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T03:46:28Z",
+  "generated_at": "2026-10-13T03:51:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -68,10 +68,12 @@
         {
           "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)",

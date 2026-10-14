@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:01:38Z",
+  "generated_at": "2026-10-14T01:06:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,10 +14,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)",
@@ -37,12 +39,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.25)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "legendx12x",
-            "DriftNalg"
+            "legendx12x"
           ]
         },
         {
@@ -187,7 +188,6 @@
             "SpoggDarr",
             "Slingshot",
             "Thor602",
-            "Joker",
             "SVT Jon",
             "drinks f30",
             "Reilig"

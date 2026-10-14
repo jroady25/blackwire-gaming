@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:56:44Z",
+  "generated_at": "2026-10-14T09:02:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -76,11 +76,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
             "ISO7826"
           ]
         },
@@ -94,11 +93,10 @@
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.25)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 26,
-          "map": "Genesis_WP",
-          "players": []
+          "map": "Genesis_WP"
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.25)",
@@ -134,11 +132,10 @@
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.25)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar_WP",
-          "players": []
+          "map": "Forglar_WP"
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.25)",
@@ -158,11 +155,10 @@
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.25)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "map": "LostColony_WP"
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.25)",
@@ -200,11 +196,10 @@
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.25)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "players": []
+          "map": "Bjarnheim_WP"
         }
       ]
     },

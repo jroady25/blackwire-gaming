@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T00:01:22Z",
+  "generated_at": "2026-10-14T00:06:18Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -14,7 +14,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -190,7 +190,8 @@
             "Slingshot",
             "SVT Jon",
             "Thor602",
-            "Joker"
+            "Joker",
+            "Squidward6945"
           ]
         },
         {

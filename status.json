@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:16:17Z",
+  "generated_at": "2026-10-14T00:21:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)",
@@ -39,10 +37,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
@@ -78,12 +78,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)",
@@ -185,13 +183,12 @@
             "I-Be-Stroganoff",
             "Rowena",
             "Derangedjoka",
-            "drinks f30",
             "SpoggDarr",
             "Slingshot",
-            "SVT Jon",
             "Thor602",
             "Joker",
-            "Squidward6945"
+            "Squidward6945",
+            "SVT Jon"
           ]
         },
         {

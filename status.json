@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:56:39Z",
+  "generated_at": "2026-10-14T05:01:45Z",
   "servers": {
     "ark": {
       "servers": [
@@ -81,9 +81,9 @@
           "map": "Astraeos_WP",
           "players": [
             "DireMeek",
-            "sporty-cider53",
             "Harru",
-            "Zay2x2431"
+            "Zay2x2431",
+            "sporty-cider53"
           ]
         },
         {
@@ -157,7 +157,7 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": []

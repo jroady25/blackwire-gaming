@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T20:36:51Z",
+  "generated_at": "2026-10-14T20:41:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -86,12 +86,13 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.25)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "KC RAlD",
-            "Vince-Meat83"
+            "Vince-Meat83",
+            "Xaaadri"
           ]
         },
         {
@@ -179,7 +180,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

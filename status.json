@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:41:42Z",
+  "generated_at": "2026-10-14T03:46:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,7 +52,6 @@
           "map": "Extinction_WP",
           "players": [
             "drinks f30",
-            "SpoggDarr",
             "captianmilk6864"
           ]
         },
@@ -108,7 +107,7 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -191,7 +190,8 @@
             "I-Be-Stroganoff",
             "Thor602",
             "SVT Jon",
-            "deathbyvin"
+            "deathbyvin",
+            "SpoggDarr"
           ]
         },
         {

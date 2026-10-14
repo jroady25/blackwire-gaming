@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:31:44Z",
+  "generated_at": "2026-10-14T11:36:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,12 +22,10 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.25)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "D4iTo"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.25)",
@@ -176,10 +174,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.25)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Joker"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.25)",

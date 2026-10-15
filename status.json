@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:06:42Z",
+  "generated_at": "2026-10-15T00:11:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,7 +45,7 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.25)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
@@ -184,7 +184,6 @@
             "I-Be-Stroganoff",
             "Thor602",
             "Derangedjoka",
-            "Slingshot",
             "Rowena",
             "Reilig"
           ]

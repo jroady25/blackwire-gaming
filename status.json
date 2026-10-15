@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:45:21Z",
+  "generated_at": "2026-10-15T19:24:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -78,11 +78,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "EXDaydreamer"
+            "Harru",
+            "ISO7826"
           ]
         },
         {
@@ -104,10 +105,12 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Allstar11isaiah"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.29)",
@@ -176,10 +179,16 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Derangedjoka",
+            "SpoggDarr",
+            "I-Be-Stroganoff",
+            "runcrawlslither",
+            "Slingshot"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.29)",

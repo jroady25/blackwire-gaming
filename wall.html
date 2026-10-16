@@ -178,6 +178,20 @@ body::after{
 .clock .sync.stale{ color:var(--pending); }
 .clock .sync.stale b{ color:var(--pending); }
 
+/* Way back to the main site - the wall used to be a dead end when opened
+   in its own tab/window (no browser history to go back through). */
+.clock .back{
+  display:inline-block; margin-top:.6em;
+  font-size:clamp(8px,.6vw,14px);
+  letter-spacing:.2em; text-transform:uppercase;
+  color:var(--text-dim); text-decoration:none;
+  border-bottom:1px solid var(--line);
+  white-space:nowrap;
+}
+.clock .back:hover, .clock .back:focus-visible{
+  color:var(--blood); border-color:var(--blood); outline:none;
+}
+
 /* ---------------- top stat strip ---------------- */
 
 .strip{
@@ -480,6 +494,7 @@ section.zone{
     <div class="clock">
       <div class="time" id="clock">--:--</div>
       <div class="sync" id="sync">Sync <b>—</b></div>
+      <a class="back" href="/">&larr; Back to blackwiregaming.com</a>
     </div>
   </header>
 

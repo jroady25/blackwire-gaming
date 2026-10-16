@@ -35,7 +35,10 @@ SETUP
      - ark_rcon_password (optional): set this AND each ark_servers
        entry's "host" + "rcon_port" to also pull the real list of
        connected player names via RCON, on top of the counts Nitrado's
-       API already provides. Leave ark_rcon_password unset (or an
+       API already provides. May be several passwords separated by
+       commas ("shared,other") when some servers use a different admin
+       password - each is tried in turn, most-common one first.
+       Leave ark_rcon_password unset (or an
        entry's host/rcon_port blank) and that server just keeps showing
        counts only, same as before — this is purely additive. See the
        big comment above query_ark_rcon_players() for what this needs
@@ -216,6 +219,11 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
             data = nitrado_get_gameserver(service_id, token)
 
         password = entry.get("rcon_password") or rcon_password
+        # ARK_RCON_PASSWORD may hold several passwords separated by commas
+        # (added 2026-10-16: Draconic Acension uses a different admin
+        # password from the rest of the cluster). Each is tried in turn,
+        # so one secret still covers the whole cluster.
+        passwords = _rcon_password_list(password)
 
         # RCON connection details: config.json's hand-typed host/rcon_port
         # win if present, otherwise fall back to what Nitrado itself just
@@ -242,8 +250,8 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
             # evidence the server is actually up, so use it for online
             # status and the live player count too, not just names.
             rcon_data = None
-            if rcon_host and rcon_port and password:
-                rcon_data = query_ark_rcon_players(rcon_host, rcon_port, password)
+            if rcon_host and rcon_port and passwords:
+                rcon_data = query_ark_rcon_players_any(rcon_host, rcon_port, passwords)
             if rcon_data is not None:
                 results.append({
                     "name": entry["name"],
@@ -278,8 +286,8 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
         # on top of the count Nitrado's API already gave us above. Only
         # attempted when this entry has enough to try, and failure here
         # never affects the count/online status already established.
-        if rcon_host and rcon_port and password:
-            rcon_data = query_ark_rcon_players(rcon_host, rcon_port, password)
+        if rcon_host and rcon_port and passwords:
+            rcon_data = query_ark_rcon_players_any(rcon_host, rcon_port, passwords)
             if rcon_data is not None:
                 row["players"] = rcon_data["players"]
  
@@ -833,7 +841,41 @@ def _rcon_read_packet(sock):
     return pkt_id, pkt_type, body
  
  
-def query_ark_rcon_players(host, port, password, timeout=6):
+def _rcon_password_list(value):
+    """Accepts a single password, a comma/newline-separated string of
+    several, or a list; returns a de-duplicated list in the given order.
+    Lets the one ARK_RCON_PASSWORD secret cover servers whose admin
+    password differs from the rest of the cluster - put the password most
+    servers use first so they succeed on the first try."""
+    if not value:
+        return []
+    if isinstance(value, (list, tuple)):
+        items = [str(v) for v in value]
+    else:
+        items = re.split(r"[,\n]", str(value))
+    out = []
+    for item in items:
+        item = item.strip()
+        if item and item not in out:
+            out.append(item)
+    return out
+
+
+def query_ark_rcon_players_any(host, port, passwords, timeout=6):
+    """Tries each password in turn; returns the first successful
+    listplayers result, or None if every one fails. Only the LAST attempt
+    logs an auth failure, so a server that simply uses the second
+    password doesn't spam the log every poll."""
+    passwords = _rcon_password_list(passwords)
+    for i, password in enumerate(passwords):
+        last = i == len(passwords) - 1
+        result = query_ark_rcon_players(host, port, password, timeout=timeout, quiet_auth=not last)
+        if result is not None:
+            return result
+    return None
+
+
+def query_ark_rcon_players(host, port, password, timeout=6, quiet_auth=False):
     """Returns {"players": [name, ...]} or None on any failure (wrong
     password, RCON not reachable/enabled, connection refused, etc.)."""
     sock = None
@@ -852,7 +894,8 @@ def query_ark_rcon_players(host, port, password, timeout=6):
                 auth_ok = (pkt_id != -1)
                 break
         if not auth_ok:
-            log(f"ARK RCON auth failed ({host}:{port}) — check the RCON password.")
+            if not quiet_auth:
+                log(f"ARK RCON auth failed ({host}:{port}) - check the RCON password.")
             return None
  
         sock.sendall(_rcon_pack(2, _RCON_EXEC_COMMAND, "listplayers"))

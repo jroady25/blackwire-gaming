@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T22:58:32Z",
+  "generated_at": "2026-10-17T01:03:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,10 +37,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.29)",
@@ -76,12 +78,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Zay2x2431"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.29)",
@@ -96,22 +96,18 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "xXJammyDonutsXx"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.29)",
@@ -180,16 +176,15 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "SpoggDarr",
             "Rowena",
-            "do_gotcha",
-            "drinks f30",
             "Derangedjoka",
-            "Harru"
+            "I-Be-Stroganoff",
+            "Ben-Doverson",
+            "Slingshot"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:01:08Z",
+  "generated_at": "2026-10-18T17:06:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,14 +10,13 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "dean3564",
-            "nb_gotcha"
+            "dean3564"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": []
@@ -151,7 +150,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "nb_gotcha"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.29)",
@@ -180,14 +181,15 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
             "Joker",
             "Thor602",
-            "SpoggDarr"
+            "SpoggDarr",
+            "Rowena"
           ]
         },
         {
@@ -196,9 +198,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.29)",

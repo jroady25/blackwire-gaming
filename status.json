@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T23:35:59Z",
+  "generated_at": "2026-10-18T23:40:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -181,8 +181,7 @@
           "map": "TheIsland_WP",
           "players": [
             "SpoggDarr",
-            "Derangedjoka",
-            "runcrawlslither"
+            "Derangedjoka"
           ]
         },
         {

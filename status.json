@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:25:59Z",
+  "generated_at": "2026-10-18T16:31:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -43,7 +43,9 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "nb_gotcha",
+            "do_gotcha"
           ]
         },
         {
@@ -92,8 +94,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Vince-Meat83",
-            "KC RAlD"
+            "Vince-Meat83"
           ]
         },
         {

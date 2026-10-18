@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:21:00Z",
+  "generated_at": "2026-10-18T20:25:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.29)",
@@ -45,7 +43,6 @@
           "players": [
             "do_gotcha",
             "Reilig",
-            "ACE17924724",
             "EXDaydreamer"
           ]
         },

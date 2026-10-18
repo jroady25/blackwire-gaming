@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:40:57Z",
+  "generated_at": "2026-10-18T18:45:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "dean3564"
+            "Arigatu1"
           ]
         },
         {
@@ -82,12 +82,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "ISO7826",
-            "boogiebrody"
+            "boogiebrody",
+            "MattyRoth83"
           ]
         },
         {
@@ -214,12 +215,10 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         }
       ]
     },

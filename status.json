@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:45:58Z",
+  "generated_at": "2026-10-18T18:50:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1"
+            "SpoggDarr"
           ]
         },
         {
@@ -185,12 +185,11 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "SpoggDarr",
             "Lady Sharp",
             "Reilig",
             "I-Be-Stroganoff"
@@ -215,10 +214,12 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         }
       ]
     },

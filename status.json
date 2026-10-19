@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T17:36:10Z",
+  "generated_at": "2026-10-19T17:41:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -97,10 +97,12 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "ashleylolokay3"
+          ]
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
@@ -217,11 +219,10 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "Salem",
-            "StankGoose "
+            "Salem"
           ],
           "map": null
         },

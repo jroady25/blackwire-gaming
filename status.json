@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:45:59Z",
+  "generated_at": "2026-10-19T21:50:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -46,8 +46,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "CosmicMint59932",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "CosmicMint59932"
           ]
         },
         {
@@ -111,7 +111,7 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []

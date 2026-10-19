@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:00:56Z",
+  "generated_at": "2026-10-19T21:05:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -118,10 +118,12 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Angels-Of-Hope"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.29)",
@@ -206,9 +208,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "EXDaydreamer"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.29)",

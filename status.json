@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:31:18Z",
+  "generated_at": "2026-10-19T12:36:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,7 +42,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "EXDaydreamer"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.29)",
@@ -107,7 +109,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP"
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.29)",

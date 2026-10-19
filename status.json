@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:16:08Z",
+  "generated_at": "2026-10-19T20:21:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,11 +44,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "EXDaydreamer",
             "Bretty Wat",
             "MattyRoth83",
             "CosmicMint59932",
@@ -160,12 +159,10 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Slingshot"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.29)",
@@ -184,32 +181,27 @@
           "players": []
         },
         {
-          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.29)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar2_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
             "I-Be-Stroganoff",
-            "SpoggDarr"
+            "SpoggDarr",
+            "Slingshot"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "EXDaydreamer"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.29)",
@@ -225,6 +217,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.29)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Forglar2_WP",
           "players": []
         }
       ]

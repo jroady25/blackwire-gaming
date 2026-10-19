@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:21:17Z",
+  "generated_at": "2026-10-19T20:26:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,12 +34,10 @@
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
@@ -88,10 +86,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.29)",
@@ -181,6 +181,14 @@
           "players": []
         },
         {
+          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.29)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Forglar2_WP",
+          "players": []
+        },
+        {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
           "players_current": 4,
@@ -217,14 +225,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.29)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar2_WP",
           "players": []
         }
       ]

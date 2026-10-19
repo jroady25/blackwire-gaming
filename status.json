@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:25:58Z",
+  "generated_at": "2026-10-19T15:30:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,13 +37,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "EXDaydreamer",
-            "MattyRoth83",
-            "DriftNalg"
+            "EXDaydreamer"
           ]
         },
         {

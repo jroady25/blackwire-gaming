@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T16:21:02Z",
+  "generated_at": "2026-10-19T16:26:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,7 +41,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -91,7 +91,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []

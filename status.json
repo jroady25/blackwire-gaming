@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:36:03Z",
+  "generated_at": "2026-10-19T19:41:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,7 +44,8 @@
           "map": "Astraeos_WP",
           "players": [
             "EXDaydreamer",
-            "Bretty Wat"
+            "Bretty Wat",
+            "Harru"
           ]
         },
         {
@@ -93,7 +94,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Vince-Meat83"
+            "Vince-Meat83",
+            "Angels-Of-Hope"
           ]
         },
         {
@@ -183,6 +185,19 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
+          "online": true,
+          "players_current": 4,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": [
+            "runcrawlslither",
+            "I-Be-Stroganoff",
+            "SpoggDarr",
+            "Thor602"
+          ]
+        },
+        {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.29)",
           "online": true,
           "players_current": 0,
@@ -205,20 +220,6 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
-          "online": true,
-          "players_current": 4,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": [
-            "runcrawlslither",
-            "I-Be-Stroganoff",
-            "Harru",
-            "SpoggDarr",
-            "Thor602"
-          ]
         }
       ]
     },

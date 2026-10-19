@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:11:01Z",
+  "generated_at": "2026-10-19T19:16:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -39,11 +39,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "Bretty Wat"
           ]
         },
         {
@@ -88,7 +89,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -98,10 +99,12 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "ashleylolokay3"
+          ]
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
@@ -180,7 +183,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -188,7 +191,6 @@
             "I-Be-Stroganoff",
             "SpoggDarr",
             "Harru",
-            "Bretty Wat",
             "Slingshot"
           ]
         },

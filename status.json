@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T00:55:58Z",
+  "generated_at": "2026-10-19T01:01:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -96,8 +96,7 @@
           "players_max": 26,
           "map": "Genesis_WP",
           "players": [
-            "ashleylolokay3",
-            "MattyRoth83"
+            "ashleylolokay3"
           ]
         },
         {

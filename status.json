@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:01:11Z",
+  "generated_at": "2026-10-19T01:02:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -92,7 +92,7 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 26,
           "map": "Genesis_WP",
           "players": [

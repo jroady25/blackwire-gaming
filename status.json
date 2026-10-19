@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T02:56:03Z",
+  "generated_at": "2026-10-19T03:01:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,11 +14,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Arigatu1",
             "DriftNalg"
           ]
         },
@@ -205,10 +204,12 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         }
       ]
     },

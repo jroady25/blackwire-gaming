@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T23:15:58Z",
+  "generated_at": "2026-10-19T23:21:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -161,10 +161,13 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "Thor602",
+            "Slingshot"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.29)",
@@ -193,7 +196,7 @@
             "runcrawlslither",
             "SpoggDarr",
             "Derangedjoka",
-            "Slingshot"
+            "Reilig"
           ]
         },
         {

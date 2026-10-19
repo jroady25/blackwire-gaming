@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-10-19T16:31:06Z",
+  "generated_at": "2026-10-19T16:35:59Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
@@ -186,7 +184,8 @@
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "SpoggDarr"
+            "SpoggDarr",
+            "I-Be-Stroganoff"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:41:02Z",
+  "generated_at": "2026-10-19T21:45:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -103,7 +103,7 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
           "players": []
@@ -114,9 +114,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Angels-Of-Hope"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.29)",

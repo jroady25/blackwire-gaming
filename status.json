@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T03:56:03Z",
+  "generated_at": "2026-10-19T04:01:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -94,12 +94,10 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": [
-            "ashleylolokay3"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",

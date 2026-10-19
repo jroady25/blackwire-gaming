@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:45:59Z",
+  "generated_at": "2026-10-19T19:51:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,10 +14,11 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
+            "Sniffy7990",
             "Itz finnnnnn"
           ]
         },
@@ -45,7 +46,6 @@
           "players": [
             "EXDaydreamer",
             "Bretty Wat",
-            "Harru",
             "MattyRoth83",
             "CosmicMint59932"
           ]
@@ -113,7 +113,7 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [

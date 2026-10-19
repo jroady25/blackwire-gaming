@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:41:04Z",
+  "generated_at": "2026-10-19T19:45:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -39,13 +39,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "EXDaydreamer",
             "Bretty Wat",
-            "Harru"
+            "Harru",
+            "MattyRoth83",
+            "CosmicMint59932"
           ]
         },
         {
@@ -114,7 +116,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Allstar11isaiah"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.29)",
@@ -143,12 +147,10 @@
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": [
-            "Jadean"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.29)",

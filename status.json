@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:45:54Z",
+  "generated_at": "2026-10-20T18:51:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -157,7 +157,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "Slingshot"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.29)",
@@ -185,7 +187,7 @@
             "SpoggDarr",
             "I-Be-Stroganoff",
             "Derangedjoka",
-            "Slingshot"
+            "MattyRoth83"
           ]
         },
         {

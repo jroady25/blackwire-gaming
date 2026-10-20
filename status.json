@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:00:57Z",
+  "generated_at": "2026-10-20T05:05:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -79,13 +79,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.29)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "ISO7826",
             "sporty-cider53",
-            "jana_mew"
+            "jana_mew",
+            "ISO7826"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:15:12Z",
+  "generated_at": "2026-10-20T01:20:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -61,7 +61,7 @@
         {
           "name": "BlackWire - Saiyan Legacy - PVP - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": []

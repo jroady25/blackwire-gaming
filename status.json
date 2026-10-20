@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:51:13Z",
+  "generated_at": "2026-10-20T15:56:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,12 +41,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "KP Gaming"
+            "KP Gaming",
+            "EXDaydreamer"
           ]
         },
         {
@@ -83,7 +84,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []

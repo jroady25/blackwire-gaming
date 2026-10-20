@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-20T03:11:03Z",
+  "generated_at": "2026-10-20T03:16:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "dean3564"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
@@ -92,12 +94,10 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "KC RAlD"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",

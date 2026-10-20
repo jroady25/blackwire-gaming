@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-20T23:11:03Z",
+  "generated_at": "2026-10-20T23:16:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "dean3564"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
@@ -194,12 +196,10 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "dean3564"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.29)",

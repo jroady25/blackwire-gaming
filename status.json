@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:05:55Z",
+  "generated_at": "2026-10-20T22:10:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "EXDaydreamer"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
@@ -47,7 +45,8 @@
           "map": "Astraeos_WP",
           "players": [
             "Harru",
-            "Bretty Wat"
+            "Bretty Wat",
+            "EXDaydreamer"
           ]
         },
         {

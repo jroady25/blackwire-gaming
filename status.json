@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:51:04Z",
+  "generated_at": "2026-10-20T18:55:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -87,11 +87,10 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Vince-Meat83",
             "Gulasz"
           ]
         },
@@ -154,7 +153,7 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
@@ -180,14 +179,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "SpoggDarr",
             "I-Be-Stroganoff",
-            "Derangedjoka",
-            "MattyRoth83"
+            "Derangedjoka"
           ]
         },
         {

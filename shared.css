@@ -392,6 +392,21 @@ footer{border-top:1px solid var(--line); padding-block:26px; display:flex; align
 .foot-links a{font-size:0.78rem; color:var(--text-faint); text-decoration:none;}
 .foot-links a:hover{color:var(--text-dim);}
 .foot-brand{font-family:var(--font-mono); font-size:0.72rem; color:var(--text-faint);}
+.foot-partner{font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.06em; text-transform:uppercase; color:var(--blood-text); text-decoration:none; border:1px solid var(--blood-deep); padding:5px 10px;}
+.foot-partner:hover{color:var(--text); border-color:var(--blood);}
+
+/* ---------- Nitrado partner ---------- */
+.partner-band{max-width:900px; margin-inline:auto; display:grid; grid-template-columns:auto 1fr auto; gap:clamp(20px,4vw,40px); align-items:center; padding:clamp(22px,3vw,34px); background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--blood);}
+.partner-badge{display:flex; flex-direction:column; align-items:center; justify-content:center; width:96px; height:96px; border:2px solid var(--blood); box-shadow:0 0 22px -6px rgba(226,35,26,0.55); text-transform:uppercase; text-align:center; line-height:1;}
+.partner-badge span{font-family:var(--font-mono); font-size:0.62rem; letter-spacing:0.14em; color:var(--text-faint);}
+.partner-badge b{font-family:var(--font-display); font-weight:800; font-size:1.35rem; color:var(--text); margin-top:6px;}
+.partner-title{font-family:var(--font-display); font-weight:800; font-size:clamp(1.4rem,2.6vw,2rem); text-transform:uppercase; line-height:1.08; text-wrap:balance;}
+.partner-title em{font-style:normal; color:var(--blood-text);}
+.partner-copy p{color:var(--text-dim); margin-top:10px; font-size:0.95rem; max-width:52ch;}
+.partner-cta{white-space:nowrap;}
+@media (max-width:760px){ .partner-band{grid-template-columns:1fr; text-align:left;} .partner-badge{width:76px; height:76px;} .partner-cta{justify-self:start;} }
+.partner-inline{color:var(--blood-text); text-decoration:none; border-bottom:1px solid var(--blood-deep);}
+.partner-inline:hover{color:var(--text); border-color:var(--blood);}
 
 /* =========================================================
    SUBPAGE ADDITIONS — breadcrumb, compact page hero, prose,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:21:01Z",
+  "generated_at": "2026-10-20T05:26:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -90,12 +90,10 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "oz_jared"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
@@ -228,11 +226,9 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Gura"
-          ],
+          "players": [],
           "map": null
         }
       ]

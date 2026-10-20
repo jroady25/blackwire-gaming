@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T02:51:00Z",
+  "generated_at": "2026-10-20T02:56:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -85,7 +85,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Zay2x2431",
             "ISO7826"
           ]
         },
@@ -188,8 +187,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Derangedjoka",
-            "crusader4j"
+            "crusader4j",
+            "Derangedjoka"
           ]
         },
         {

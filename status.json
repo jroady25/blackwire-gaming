@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T23:51:46Z",
+  "generated_at": "2026-10-21T23:56:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,12 +41,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -84,7 +82,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -104,12 +102,10 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
@@ -215,7 +211,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "AzureCloud"
+          ]
         }
       ]
     },

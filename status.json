@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-21T04:41:03Z",
+  "generated_at": "2026-10-21T04:45:53Z",
   "servers": {
     "ark": {
       "servers": [
+        {
+          "name": "BlackWire - Ragnarok - PVE - (v94.29)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
         {
           "name": "BlackWire - Valguero - PVE - (v94.29)",
           "online": true,
@@ -121,6 +129,14 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.29)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Svartalfheim_WP",
+          "players": []
+        },
+        {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.29)",
           "online": true,
           "players_current": 0,
@@ -163,14 +179,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "SpoggDarr",
             "I-Be-Stroganoff",
-            "KAKASHIxHATAKE97",
-            "doodlebac49"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -195,22 +210,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVE - (v94.29)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.29)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

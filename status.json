@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:51:13Z",
+  "generated_at": "2026-10-21T20:56:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -211,8 +211,7 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
-            "Arigatu1",
-            "AzureCloud"
+            "Arigatu1"
           ]
         }
       ]

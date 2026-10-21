@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:16:14Z",
+  "generated_at": "2026-10-21T16:21:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -171,7 +171,7 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [
@@ -191,7 +191,7 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []

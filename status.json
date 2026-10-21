@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:01:13Z",
+  "generated_at": "2026-10-21T16:06:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -80,7 +80,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -170,7 +170,7 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T02:40:52Z",
+  "generated_at": "2026-10-21T02:45:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -180,13 +180,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "SpoggDarr",
-            "I-Be-Stroganoff",
-            "Derangedjoka"
+            "I-Be-Stroganoff"
           ]
         },
         {
@@ -195,7 +194,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "dean3564"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.29)",

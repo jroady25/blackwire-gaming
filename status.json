@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T09:16:03Z",
+  "generated_at": "2026-10-21T09:21:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,12 +20,14 @@
           "players": []
         },
         {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.29)",
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
           "online": true,
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Sunilovich_06"
+          ]
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
@@ -33,6 +35,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
           "players": []
         },
         {
@@ -165,10 +175,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Derangedjoka"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
@@ -192,14 +204,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v94.29)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

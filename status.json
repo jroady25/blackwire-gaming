@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:06:11Z",
+  "generated_at": "2026-10-21T16:11:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -84,7 +84,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "MattyRoth83"
+            "MattyRoth83",
+            "Drelo4LF"
           ]
         },
         {
@@ -170,20 +171,20 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "Lyulf_kaldez"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "SpoggDarr"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",

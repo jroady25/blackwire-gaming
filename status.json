@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:00:58Z",
+  "generated_at": "2026-10-21T20:06:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,7 +19,6 @@
           "map": "Valguero_WP",
           "players": [
             "Itz finnnnnn",
-            "hzrow",
             "Zackattack28060",
             "Dat_Boi_Mike_70"
           ]
@@ -186,11 +185,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "crusader4j"
+            "crusader4j",
+            "Derangedjoka"
           ]
         },
         {

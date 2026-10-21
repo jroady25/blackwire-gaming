@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:41:05Z",
+  "generated_at": "2026-10-21T01:46:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -123,7 +123,7 @@
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.29)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -181,12 +181,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "I-Be-Stroganoff",
-            "SpoggDarr"
+            "SpoggDarr",
+            "Derangedjoka"
           ]
         },
         {

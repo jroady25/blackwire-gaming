@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T02:15:59Z",
+  "generated_at": "2026-10-21T02:20:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -101,12 +101,10 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.29)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": [
-            "ashleylolokay3"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.29)",
@@ -183,12 +181,11 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.29)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "SpoggDarr",
-            "Derangedjoka"
+            "SpoggDarr"
           ]
         },
         {

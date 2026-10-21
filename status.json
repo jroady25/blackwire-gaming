@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T22:15:59Z",
+  "generated_at": "2026-10-21T22:20:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,9 +45,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "EXDaydreamer"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -55,7 +53,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "EXDaydreamer"
+          ]
         },
         {
           "name": "BlackWire Test Server - (v94.35)",
@@ -188,7 +188,7 @@
           "map": "TheIsland_WP",
           "players": [
             "SpoggDarr",
-            "doodlebac49"
+            "Derangedjoka"
           ]
         },
         {

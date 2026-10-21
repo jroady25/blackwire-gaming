@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:26:08Z",
+  "generated_at": "2026-10-21T20:31:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -184,7 +184,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -210,11 +210,12 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
-            "Arigatu1"
+            "Arigatu1",
+            "AzureCloud"
           ]
         }
       ]

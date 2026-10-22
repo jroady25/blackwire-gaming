@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T16:31:40Z",
+  "generated_at": "2026-10-22T16:36:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -184,7 +184,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Pizza_Monster08"
+            "Pizza_Monster08",
+            "serious_booth4"
           ]
         },
         {

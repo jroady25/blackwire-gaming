@@ -1028,23 +1028,33 @@ def poll_palworld_group(entries, probed_gs=None):
         gs = probed_gs.get(sid) or {}
         slots = entry.get("players_max") or gs.get("slots") or 0
 
+        # Nitrado's live address first (authoritative - on 2026-10-22 the
+        # config had the two servers' IPs swapped), config as a fallback.
         candidates = []
-        if entry.get("host"):
-            candidates.append((entry["host"], int(entry.get("rest_api_port", 8212))))
         if gs.get("ip") and gs.get("port"):
             try:
-                live = (gs["ip"], int(gs["port"]) + 3)
-                if live not in candidates:
-                    candidates.append(live)
+                candidates.append((gs["ip"], int(gs["port"]) + 3))
             except (TypeError, ValueError):
                 pass
+        # Config address ONLY when Nitrado gave none - falling back to a
+        # stale config address can reach the OTHER server and show its
+        # players twice.
+        if not candidates and entry.get("host"):
+            candidates.append((entry["host"], int(entry.get("rest_api_port", 8212))))
+
+        # Try this entry's own password first, then the other Palworld
+        # passwords - so a secret mapped to the wrong server still works.
+        passwords = [entry.get("password")] + [e.get("password") for e in entries]
+        passwords = [pw for i, pw in enumerate(passwords) if pw and pw not in passwords[:i]]
 
         data = None
-        if entry.get("password"):
-            for host, port in candidates:
-                data = query_palworld_rest_api(host, port, entry.get("username", "admin"), entry["password"])
+        for host, port in candidates:
+            for pw in passwords:
+                data = query_palworld_rest_api(host, port, entry.get("username", "admin"), pw)
                 if data is not None:
                     break
+            if data is not None:
+                break
 
         if data is not None:
             data["map"] = None

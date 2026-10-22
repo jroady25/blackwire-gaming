@@ -28,8 +28,8 @@
   ],
 
   "palworld_servers": [
-    {"service_id": "17667688", "name": "Palworld Server 1", "host": "170.23.78.90", "rest_api_port": 17103, "username": "admin", "players_max": 16},
-    {"service_id": "19733590", "name": "Palworld Server 2", "host": "95.156.213.85", "rest_api_port": 17093, "username": "admin", "players_max": 16}
+    {"service_id": "17667688", "name": "Palworld Server 1", "host": "95.156.213.85", "rest_api_port": 17093, "username": "admin", "players_max": 16},
+    {"service_id": "19733590", "name": "Palworld Server 2", "host": "170.23.78.90", "rest_api_port": 17103, "username": "admin", "players_max": 16}
   ],
 
     "once_human_servers": [

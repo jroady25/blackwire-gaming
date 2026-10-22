@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:31:50Z",
+  "generated_at": "2026-10-22T10:36:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,16 +45,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v94.35)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Extinction_WP",
-          "players": [
-            "AridTheFox"
-          ]
         },
         {
           "name": "BlackWire Test Server - (v94.35)",
@@ -210,6 +200,13 @@
           "players": [
             "AzureCloud"
           ]
+        },
+        {
+          "name": "BlackWire - Extinction - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:21:50Z",
+  "generated_at": "2026-10-22T14:26:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,7 +20,8 @@
           "players": [
             "DriftNalg",
             "Itz finnnnnn",
-            "Sniffy7990"
+            "Sniffy7990",
+            "runcrawlslither"
           ]
         },
         {
@@ -42,7 +43,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -84,12 +85,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",

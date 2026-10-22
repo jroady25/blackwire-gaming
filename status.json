@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:36:54Z",
+  "generated_at": "2026-10-22T12:41:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,7 +42,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -111,9 +111,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "TTV_Furry_LvZ"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",

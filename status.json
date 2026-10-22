@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:51:47Z",
+  "generated_at": "2026-10-22T06:56:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,8 +18,8 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "crusader4j",
-            "runcrawlslither"
+            "runcrawlslither",
+            "crusader4j"
           ]
         },
         {
@@ -46,7 +46,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -88,7 +90,8 @@
           "players": [
             "TAk0_LOVER-",
             "Harru",
-            "Saladbar82"
+            "Saladbar82",
+            "ISO7826"
           ]
         },
         {
@@ -184,12 +187,11 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "serious_booth4",
-            "DireMeek"
+            "serious_booth4"
           ]
         },
         {
@@ -201,19 +203,19 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Genesis_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
           "players": []
         }
       ]

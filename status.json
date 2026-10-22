@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T00:41:54Z",
+  "generated_at": "2026-10-22T00:46:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,7 +45,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KP Gaming"
+            "KP Gaming",
+            "EXDaydreamer"
           ]
         },
         {
@@ -54,9 +55,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "EXDaydreamer"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Test Server - (v94.35)",

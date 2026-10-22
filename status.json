@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:06:51Z",
+  "generated_at": "2026-10-22T05:11:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -120,12 +120,10 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "TAk0_LOVER-"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
@@ -194,11 +192,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "doodlebac49"
+            "doodlebac49",
+            "SublimeEvil"
           ]
         },
         {

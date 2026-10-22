@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T04:51:50Z",
+  "generated_at": "2026-10-22T04:57:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,9 +19,9 @@
           "map": "Valguero_WP",
           "players": [
             "Zackattack28060",
-            "runcrawlslither",
             "crusader4j",
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "runcrawlslither"
           ]
         },
         {
@@ -117,10 +117,12 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "TAk0_LOVER-"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
@@ -215,12 +217,10 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:16:42Z",
+  "generated_at": "2026-10-22T22:21:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -49,8 +49,7 @@
           "map": "Astraeos_WP",
           "players": [
             "B_rad585",
-            "Bretty Wat",
-            "EXDaydreamer"
+            "Bretty Wat"
           ]
         },
         {
@@ -188,10 +187,10 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Slingshot",
             "Raider FH5115",
             "Leather Nuts",
-            "KodasBetter"
+            "KodasBetter",
+            "EXDaydreamer"
           ]
         },
         {
@@ -213,7 +212,7 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [

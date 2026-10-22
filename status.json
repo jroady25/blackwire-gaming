@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:02:25Z",
+  "generated_at": "2026-10-22T11:07:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -84,7 +84,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "jana_mew"
+            "jana_mew",
+            "Harru"
           ]
         },
         {
@@ -127,6 +128,13 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Svartalfheim_WP"
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
@@ -203,13 +211,6 @@
           "players": [
             "AzureCloud"
           ]
-        },
-        {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
         }
       ]
     },

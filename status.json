@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:32:04Z",
+  "generated_at": "2026-10-22T08:36:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,7 +17,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "crusader4j"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
@@ -80,7 +82,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -189,8 +191,7 @@
           "map": "TheIsland_WP",
           "players": [
             "serious_booth4",
-            "runcrawlslither",
-            "crusader4j"
+            "runcrawlslither"
           ]
         },
         {

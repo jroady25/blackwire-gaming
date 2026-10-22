@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:51:50Z",
+  "generated_at": "2026-10-22T02:56:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "Dat_Boi_Mike_70",
             "Zackattack28060",
             "DriftNalg",
-            "runcrawlslither"
+            "runcrawlslither",
+            "crusader4j"
           ]
         },
         {
@@ -186,13 +187,10 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "crusader4j",
-            "DaddyWormy"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",

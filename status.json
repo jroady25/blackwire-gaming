@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:42:11Z",
+  "generated_at": "2026-10-22T06:46:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -25,10 +25,12 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "MRTICKLECLOWN10"
+          ]
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
@@ -44,7 +46,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -80,11 +84,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "DireMeek",
             "TAk0_LOVER-",
             "ISO7826",
             "Harru"
@@ -109,7 +112,7 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -175,12 +178,10 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "Lyulf_kaldez"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
@@ -189,8 +190,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "serious_booth4",
-            "Raider FH5115"
+            "serious_booth4"
           ]
         },
         {

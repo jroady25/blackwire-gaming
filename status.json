@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:56:38Z",
+  "generated_at": "2026-10-22T16:01:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,14 +9,12 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Santa_Clause01"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -138,10 +136,12 @@
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "Jadean"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
@@ -183,7 +183,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Santa_Clause01"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",

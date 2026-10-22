@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:06:44Z",
+  "generated_at": "2026-10-22T22:11:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,12 +16,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "Zackattack28060",
-            "Sniffy7990"
+            "Sniffy7990",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -49,7 +50,6 @@
           "players": [
             "B_rad585",
             "Bretty Wat",
-            "KodasBetter",
             "EXDaydreamer"
           ]
         },
@@ -86,12 +86,11 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
-            "Saladbar82"
+            "Harru"
           ]
         },
         {
@@ -185,14 +184,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Slingshot",
             "Raider FH5115",
-            "Leather Nuts",
-            "I-Be-Stroganoff"
+            "Leather Nuts"
           ]
         },
         {

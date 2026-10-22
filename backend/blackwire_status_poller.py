@@ -1006,35 +1006,74 @@ def query_palworld_rest_api(host, port, username, password, timeout=5):
         return None
  
  
-def poll_palworld_group(entries):
-    """entries: list of {name, host, rest_api_port, username, password,
-    [players_max]} — see config.example.json. Falls back to a visibly
-    offline row (same pattern as poll_nitrado_group) if host/password
-    aren't filled in yet, or the call fails."""
+def poll_palworld_group(entries, probed_gs=None):
+    """entries: list of {name, service_id, host, rest_api_port, username,
+    password, [players_max]} - see config.example.json.
+
+    Added 2026-10-22: the REST API is no longer the only source of truth.
+    One Palworld server's REST API stopped answering (timed out) while
+    the server itself was up, so the site showed it offline. Now:
+      1. Try the configured host/port, then Nitrado's own live IP with
+         game port + 3 (the REST API convention), in case the server
+         moved or the config is stale.
+      2. If the REST API can't be reached but Nitrado says the server is
+         "started", show it ONLINE with the player count unknown (shown as
+         a dash) instead of wrongly showing it offline.
+      3. Only show offline when Nitrado itself says it isn't running (or
+         there's no Nitrado data and the REST API failed)."""
+    probed_gs = probed_gs or {}
     results = []
     for entry in entries:
+        sid = str(entry.get("service_id") or "")
+        gs = probed_gs.get(sid) or {}
+        slots = entry.get("players_max") or gs.get("slots") or 0
+
+        candidates = []
+        if entry.get("host"):
+            candidates.append((entry["host"], int(entry.get("rest_api_port", 8212))))
+        if gs.get("ip") and gs.get("port"):
+            try:
+                live = (gs["ip"], int(gs["port"]) + 3)
+                if live not in candidates:
+                    candidates.append(live)
+            except (TypeError, ValueError):
+                pass
+
         data = None
-        if entry.get("host") and entry.get("password"):
-            data = query_palworld_rest_api(
-                entry["host"],
-                entry.get("rest_api_port", 8212),
-                entry.get("username", "admin"),
-                entry["password"],
-            )
-        if data is None:
+        if entry.get("password"):
+            for host, port in candidates:
+                data = query_palworld_rest_api(host, port, entry.get("username", "admin"), entry["password"])
+                if data is not None:
+                    break
+
+        if data is not None:
+            data["map"] = None
+            results.append({"name": entry["name"], **data})
+            continue
+
+        nitrado_status = gs.get("status")
+        if gs:
+            log(f"Palworld {entry['name']} (service {sid}): REST API unreachable; "
+                f"Nitrado reports status={nitrado_status!r} ip={gs.get('ip')} port={gs.get('port')}")
+        if nitrado_status == "started":
+            results.append({
+                "name": entry["name"],
+                "online": True,
+                "players_current": None,
+                "players_max": slots,
+                "map": None,
+            })
+        else:
             results.append({
                 "name": entry["name"],
                 "online": False,
                 "players_current": 0,
-                "players_max": entry.get("players_max", 0),
+                "players_max": slots,
                 "map": None,
             })
-        else:
-            data["map"] = None
-            results.append({"name": entry["name"], **data})
     return results
- 
- 
+
+
 # ---------------------------------------------------------------------
 # Once Human — CONFIRMED UNAVAILABLE.
 #
@@ -1232,7 +1271,7 @@ def main():
         ark_entries = ark_entries_config
  
     ark = poll_nitrado_group(ark_entries, cfg["nitrado_token"], cfg.get("ark_rcon_password"), probed_gs=probed_gs)
-    palworld = poll_palworld_group(cfg.get("palworld_servers", []))
+    palworld = poll_palworld_group(cfg.get("palworld_servers", []), probed_gs=probed_gs)
     once_human = poll_once_human_group(cfg.get("once_human_servers", []))
  
     status = {

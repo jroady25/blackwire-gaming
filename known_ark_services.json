@@ -41,6 +41,10 @@
       "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)"
     },
     {
+      "service_id": "18863471",
+      "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)"
+    },
+    {
       "service_id": "19380386",
       "name": "BlackWire - The Fractured Seas - Rp - (v94.35)"
     },
@@ -55,10 +59,6 @@
     {
       "service_id": "18357580",
       "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)"
-    },
-    {
-      "service_id": "18610040",
-      "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)"
     },
     {
       "service_id": "18859910",
@@ -97,16 +97,16 @@
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
-      "service_id": "18863471",
-      "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)"
+      "service_id": "18610040",
+      "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 33026828,
+    "offset": 33030467,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 33026828,
+    "log_size": 33030467,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

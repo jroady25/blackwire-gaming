@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:52:05Z",
+  "generated_at": "2026-10-22T10:57:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -27,7 +27,8 @@
           "map": "Astraeos_WP",
           "players": [
             "Sunilovich_06",
-            "DireMeek"
+            "DireMeek",
+            "MRTICKLECLOWN10"
           ]
         },
         {
@@ -88,6 +89,13 @@
           ]
         },
         {
+          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP"
+        },
+        {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
           "online": true,
           "players_current": 0,
@@ -119,14 +127,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP",
           "players": []
         },
         {
@@ -172,7 +172,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -206,7 +206,7 @@
           ]
         },
         {
-          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

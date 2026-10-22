@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:26:57Z",
+  "generated_at": "2026-10-22T10:31:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -62,6 +62,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
+        },
+        {
+          "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
@@ -202,13 +210,6 @@
           "players": [
             "AzureCloud"
           ]
-        },
-        {
-          "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
         }
       ]
     },

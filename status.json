@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:51:58Z",
+  "generated_at": "2026-10-22T05:57:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,11 +16,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Zackattack28060",
             "crusader4j",
             "runcrawlslither"
           ]
@@ -48,7 +47,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bretty Wat",
             "EXDaydreamer"
           ]
         },
@@ -86,12 +84,11 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "DireMeek",
-            "sporty-cider53",
             "Harru",
             "TAk0_LOVER-",
             "ISO7826",

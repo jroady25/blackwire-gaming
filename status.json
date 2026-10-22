@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-10-22T06:17:05Z",
+  "generated_at": "2026-10-22T06:22:11Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Lyulf_kaldez"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
@@ -43,11 +41,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bretty Wat",
             "EXDaydreamer"
           ]
         },
@@ -175,7 +172,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "Lyulf_kaldez"
+          ]
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",

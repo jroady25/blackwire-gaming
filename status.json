@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:17:02Z",
+  "generated_at": "2026-10-22T05:21:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,13 +14,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "Zackattack28060",
             "crusader4j",
-            "Dat_Boi_Mike_70",
             "runcrawlslither"
           ]
         },
@@ -43,13 +42,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "EXDaydreamer",
             "Naykdtime",
-            "KAKASHIxHATAKE97",
             "Bretty Wat"
           ]
         },
@@ -101,13 +99,11 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "KC RAlD",
-            "Lyulf_kaldez",
-            "Moisty-Jesus"
+            "Lyulf_kaldez"
           ]
         },
         {
@@ -197,8 +193,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "doodlebac49",
-            "SublimeEvil"
+            "SublimeEvil",
+            "KAKASHIxHATAKE97"
           ]
         },
         {

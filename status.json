@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:17:18Z",
+  "generated_at": "2026-10-23T12:22:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,14 +14,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "Sniffy7990",
             "Itz finnnnnn",
-            "runcrawlslither",
-            "Bretty Wat"
+            "runcrawlslither"
           ]
         },
         {
@@ -43,7 +42,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -86,9 +85,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "jana_mew"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -150,7 +147,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",

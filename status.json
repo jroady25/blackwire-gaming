@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:02:19Z",
+  "generated_at": "2026-10-23T10:07:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "serious_booth4"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
@@ -108,12 +106,9 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": [
-            "Allstar11isaiah"
-          ]
+          "map": "Ragnarok_WP"
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
@@ -181,11 +176,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Derangedjoka"
+            "Derangedjoka",
+            "serious_booth4"
           ]
         },
         {

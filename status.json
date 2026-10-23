@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-10-23T08:21:52Z",
+  "generated_at": "2026-10-23T08:26:51Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "serious_booth4",
+            "crusader4j",
+            "runcrawlslither"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
@@ -78,7 +82,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -96,12 +100,10 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": [
-            "ashleylolokay3"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
@@ -177,14 +179,10 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "serious_booth4",
-            "crusader4j",
-            "runcrawlslither"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",

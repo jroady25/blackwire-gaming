@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-10-23T07:36:45Z",
+  "generated_at": "2026-10-23T07:41:46Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "crusader4j"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
@@ -20,7 +18,8 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Zackattack28060"
+            "Zackattack28060",
+            "crusader4j"
           ]
         },
         {

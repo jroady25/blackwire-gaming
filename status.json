@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:32:07Z",
+  "generated_at": "2026-10-23T16:37:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,7 +18,6 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg",
             "runcrawlslither"
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:47:08Z",
+  "generated_at": "2026-10-23T18:52:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,16 +14,17 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "runcrawlslither",
             "Itz finnnnnn",
-            "Slingshot",
             "Sniffy7990",
             "Zackattack28060",
-            "hzrow"
+            "hzrow",
+            "Slingshot",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -94,7 +95,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP"
         },

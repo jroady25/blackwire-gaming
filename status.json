@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T08:36:40Z",
+  "generated_at": "2026-10-23T08:41:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -65,12 +65,10 @@
         {
           "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "scarlletfire91"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
@@ -94,7 +92,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP"
         },
@@ -109,7 +107,7 @@
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [

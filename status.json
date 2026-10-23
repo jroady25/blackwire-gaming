@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:32:12Z",
+  "generated_at": "2026-10-23T23:37:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
@@ -146,7 +144,7 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": [
@@ -180,7 +178,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

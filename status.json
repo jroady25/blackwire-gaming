@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:52:10Z",
+  "generated_at": "2026-10-23T19:57:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,8 +22,7 @@
             "Sniffy7990",
             "Zackattack28060",
             "hzrow",
-            "Dat_Boi_Mike_70",
-            "Slingshot"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -186,7 +185,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "KodasBetter"
+            "KodasBetter",
+            "Slingshot"
           ]
         },
         {

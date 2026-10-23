@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:27:14Z",
+  "generated_at": "2026-10-23T23:32:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,8 +47,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KP Gaming",
-            "DriftNalg"
+            "DriftNalg",
+            "EXDaydreamer"
           ]
         },
         {
@@ -149,7 +149,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "KP Gaming"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
@@ -178,24 +180,21 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Slingshot",
-            "DaddyWormy",
             "Reilig"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "EXDaydreamer"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",

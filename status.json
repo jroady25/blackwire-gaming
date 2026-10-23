@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:56:34Z",
+  "generated_at": "2026-10-23T02:01:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,12 +47,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -138,12 +140,10 @@
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": [
-            "Jadean"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
@@ -193,12 +193,10 @@
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
@@ -261,9 +259,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

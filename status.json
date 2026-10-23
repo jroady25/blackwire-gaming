@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-23T01:46:36Z",
+  "generated_at": "2026-10-23T01:51:41Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Pizza_Monster08",
-            "GreenOatis"
+            "Santa_Clause01"
           ]
         },
         {
@@ -180,26 +180,26 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Raider FH5115",
             "KodasBetter",
-            "Santa_Clause01",
-            "Joker",
             "Reilig",
-            "Bretty Wat",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "Joker",
+            "Raider FH5115"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
@@ -212,12 +212,10 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "AzureCloud"
-          ]
+          "players": []
         }
       ]
     },

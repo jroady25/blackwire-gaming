@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T04:36:34Z",
+  "generated_at": "2026-10-23T04:41:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -184,7 +184,8 @@
           "map": "TheIsland_WP",
           "players": [
             "Raider FH5115",
-            "crusader4j"
+            "crusader4j",
+            "serious_booth4"
           ]
         },
         {

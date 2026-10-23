@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:36:35Z",
+  "generated_at": "2026-10-23T01:41:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,9 +47,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "EXDaydreamer"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -140,10 +138,12 @@
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Forglar_WP",
-          "players": []
+          "players": [
+            "Jadean"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
@@ -180,7 +180,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 7,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -189,7 +189,8 @@
             "Santa_Clause01",
             "Joker",
             "Reilig",
-            "Bretty Wat"
+            "Bretty Wat",
+            "EXDaydreamer"
           ]
         },
         {

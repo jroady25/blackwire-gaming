@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:17:14Z",
+  "generated_at": "2026-10-23T09:22:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,6 +33,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
           "players": []
         },
         {
@@ -72,7 +80,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "jana_mew"
+            "jana_mew",
+            "Dominikaner"
           ]
         },
         {
@@ -195,14 +204,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

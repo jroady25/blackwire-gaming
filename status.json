@@ -1,18 +1,16 @@
 {
-  "generated_at": "2026-10-23T08:26:51Z",
+  "generated_at": "2026-10-23T08:31:51Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "serious_booth4",
-            "crusader4j",
-            "runcrawlslither"
+            "serious_booth4"
           ]
         },
         {
@@ -66,10 +64,12 @@
         {
           "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "scarlletfire91"
+          ]
         },
         {
           "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
@@ -182,7 +182,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "crusader4j"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",

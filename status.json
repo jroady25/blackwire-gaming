@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-23T02:36:49Z",
+  "generated_at": "2026-10-23T02:41:49Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Pizza_Monster08"
+            "Pizza_Monster08",
+            "Santa_Clause01"
           ]
         },
         {
@@ -43,7 +44,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -54,7 +55,7 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -99,7 +100,7 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 26,
           "map": "Genesis_WP",
           "players": [
@@ -186,7 +187,6 @@
           "players": [
             "KodasBetter",
             "Joker",
-            "Raider FH5115",
             "crusader4j"
           ]
         },

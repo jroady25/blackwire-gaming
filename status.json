@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:31:37Z",
+  "generated_at": "2026-10-23T01:36:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,13 +17,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "Zackattack28060",
-            "Dat_Boi_Mike_70",
-            "Bretty Wat"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -48,12 +47,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "EXDaydreamer"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -93,7 +94,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP"
         },
@@ -187,7 +188,8 @@
             "KodasBetter",
             "Santa_Clause01",
             "Joker",
-            "Reilig"
+            "Reilig",
+            "Bretty Wat"
           ]
         },
         {

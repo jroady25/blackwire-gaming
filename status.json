@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:22:02Z",
+  "generated_at": "2026-10-23T21:27:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -194,7 +194,6 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [
-            "Slingshot",
             "EXDaydreamer"
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:02:17Z",
+  "generated_at": "2026-10-23T23:07:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,7 +14,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -68,12 +68,10 @@
         {
           "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "Deleter of World..."
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
@@ -180,13 +178,14 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Slingshot",
             "serious_booth4",
-            "DaddyWormy"
+            "DaddyWormy",
+            "Reilig"
           ]
         },
         {

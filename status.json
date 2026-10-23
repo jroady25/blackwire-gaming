@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T03:31:33Z",
+  "generated_at": "2026-10-23T03:36:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -185,8 +185,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Raider FH5115",
-            "Saladbar82"
+            "Raider FH5115"
           ]
         },
         {

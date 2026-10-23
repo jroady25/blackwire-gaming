@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-23T01:51:41Z",
+  "generated_at": "2026-10-23T01:56:34Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -186,7 +186,6 @@
           "players": [
             "KodasBetter",
             "Reilig",
-            "EXDaydreamer",
             "Joker",
             "Raider FH5115"
           ]
@@ -262,10 +261,9 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": 0,
+          "players_current": null,
           "players_max": 6,
-          "map": null,
-          "players": []
+          "map": null
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T01:21:41Z",
+  "generated_at": "2026-10-23T01:26:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Pizza_Monster08"
+            "Pizza_Monster08",
+            "GreenOatis"
           ]
         },
         {

@@ -1,20 +1,22 @@
 {
-  "generated_at": "2026-10-23T19:22:09Z",
+  "generated_at": "2026-10-23T19:27:03Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 8,
+          "players_current": 7,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -24,8 +26,7 @@
             "Zackattack28060",
             "hzrow",
             "Slingshot",
-            "Dat_Boi_Mike_70",
-            "Bretty Wat"
+            "Dat_Boi_Mike_70"
           ]
         },
         {

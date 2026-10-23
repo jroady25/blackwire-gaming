@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:17:14Z",
+  "generated_at": "2026-10-23T23:22:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,7 +20,6 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg",
             "Zackattack28060",
             "runcrawlslither"
           ]
@@ -36,7 +35,7 @@
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []
@@ -44,10 +43,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "KP Gaming",
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -121,7 +123,7 @@
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []

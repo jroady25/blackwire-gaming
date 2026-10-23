@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T04:26:41Z",
+  "generated_at": "2026-10-23T04:31:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,12 +41,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "crusader4j"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -185,7 +183,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Raider FH5115"
+            "Raider FH5115",
+            "crusader4j"
           ]
         },
         {

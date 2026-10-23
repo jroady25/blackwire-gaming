@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:12:04Z",
+  "generated_at": "2026-10-23T22:17:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,11 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Zackattack28060",
-            "Dat_Boi_Mike_70"
+            "Zackattack28060"
           ]
         },
         {
@@ -122,7 +121,7 @@
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []

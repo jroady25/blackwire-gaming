@@ -1,24 +1,23 @@
 {
-  "generated_at": "2026-10-24T03:02:02Z",
+  "generated_at": "2026-10-24T03:07:00Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Reilig",
-            "do_gotcha",
-            "Bretty Wat"
+            "do_gotcha"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -47,11 +46,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "nb_gotcha"
+            "nb_gotcha",
+            "Bretty Wat"
           ]
         },
         {

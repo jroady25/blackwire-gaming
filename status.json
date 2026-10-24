@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:12:03Z",
+  "generated_at": "2026-10-24T08:17:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -80,13 +80,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
             "jana_mew",
-            "KittyLovesArk"
+            "KittyLovesArk",
+            "OCE PLAYER01"
           ]
         },
         {
@@ -181,9 +182,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Raider FH5115"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",

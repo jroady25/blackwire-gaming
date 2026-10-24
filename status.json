@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T03:12:01Z",
+  "generated_at": "2026-10-24T03:17:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -130,12 +130,10 @@
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Freehugs5518"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
@@ -194,7 +192,6 @@
             "Leather Nuts",
             "KodasBetter",
             "serious_booth4",
-            "Slingshot",
             "runcrawlslither"
           ]
         },

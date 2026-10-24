@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:37:11Z",
+  "generated_at": "2026-10-24T15:42:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,7 +16,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -30,7 +30,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Serpentine1991"
+            "Serpentine1991",
+            "MRTICKLECLOWN10"
           ]
         },
         {
@@ -179,9 +180,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "SpoggDarr"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",

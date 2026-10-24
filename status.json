@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-10-24T02:57:02Z",
+  "generated_at": "2026-10-24T03:02:02Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Reilig",
-            "do_gotcha"
+            "do_gotcha",
+            "Bretty Wat"
           ]
         },
         {
@@ -23,7 +24,8 @@
           "players": [
             "DriftNalg",
             "Zackattack28060",
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "Twizzop1"
           ]
         },
         {
@@ -62,7 +64,7 @@
         {
           "name": "BlackWire Test Server - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
         },

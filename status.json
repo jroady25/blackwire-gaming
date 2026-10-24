@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T23:57:06Z",
+  "generated_at": "2026-10-24T00:02:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,7 +17,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
@@ -43,8 +45,8 @@
           "map": "Astraeos_WP",
           "players": [
             "EXDaydreamer",
-            "DriftNalg",
-            "JeepinAK"
+            "JeepinAK",
+            "Bretty Wat"
           ]
         },
         {
@@ -147,9 +149,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "KP Gaming"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
@@ -178,19 +178,20 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Slingshot",
             "Reilig",
-            "Derangedjoka"
+            "Derangedjoka",
+            "Leather Nuts"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []

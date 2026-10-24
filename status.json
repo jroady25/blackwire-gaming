@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:17:14Z",
+  "generated_at": "2026-10-24T21:22:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -11,7 +11,6 @@
           "map": "Ragnarok_WP",
           "players": [
             "Santa_Clause01",
-            "Arigatu1",
             "Th30nlyDeL",
             "Dino_duno"
           ]
@@ -19,7 +18,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -27,7 +26,8 @@
             "hzrow",
             "Itz finnnnnn",
             "Sniffy7990",
-            "Zackattack28060"
+            "Zackattack28060",
+            "DriftNalg"
           ]
         },
         {
@@ -94,8 +94,8 @@
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
-            "TAk0_LOVER-",
-            "Slingshot"
+            "Slingshot",
+            "TAk0_LOVER-"
           ]
         },
         {
@@ -187,7 +187,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -228,11 +228,10 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "wraiyth",
-            "Harru"
+            "wraiyth"
           ],
           "map": null
         },

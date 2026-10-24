@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T18:46:58Z",
+  "generated_at": "2026-10-24T18:51:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -196,7 +196,6 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [
-            "Reilig",
             "do_gotcha"
           ]
         },

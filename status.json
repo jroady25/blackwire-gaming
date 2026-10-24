@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:06:57Z",
+  "generated_at": "2026-10-24T22:12:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,7 +16,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -86,12 +86,11 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Saladbar82",
-            "TAk0_LOVER-"
+            "Saladbar82"
           ]
         },
         {
@@ -190,8 +189,9 @@
             "Killhead49",
             "VLAD86",
             "Raider FH5115",
+            "Derangedjoka",
             "SpoggDarr",
-            "Derangedjoka"
+            "KodasBetter"
           ]
         },
         {
@@ -208,7 +208,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "XHaidenSmithX @R..."
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",

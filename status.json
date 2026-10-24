@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T03:27:17Z",
+  "generated_at": "2026-10-24T03:32:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,12 +45,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "nb_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -215,7 +213,7 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
@@ -228,9 +226,10 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         },
         {

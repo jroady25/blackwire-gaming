@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:57:04Z",
+  "generated_at": "2026-10-24T16:02:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,8 +18,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Sniffy7990",
-            "Itz finnnnnn"
+            "Sniffy7990"
           ]
         },
         {

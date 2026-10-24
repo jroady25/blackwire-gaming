@@ -1,29 +1,28 @@
 {
-  "generated_at": "2026-10-24T06:57:12Z",
+  "generated_at": "2026-10-24T07:02:20Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "XHaidenSmithX @R...",
-            "Zackattack28060",
-            "GreenOatis"
+            "XHaidenSmithX @R..."
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "Dat_Boi_Mike_70",
-            "speezy5ive9ina"
+            "speezy5ive9ina",
+            "Zackattack28060"
           ]
         },
         {
@@ -188,11 +187,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Slingshot"
+            "Slingshot",
+            "GreenOatis",
+            "Raider FH5115"
           ]
         },
         {

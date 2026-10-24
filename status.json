@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T19:17:08Z",
+  "generated_at": "2026-10-24T19:22:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -166,7 +166,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
@@ -185,7 +187,6 @@
           "players": [
             "Raider FH5115",
             "Killhead49",
-            "legendx12x",
             "own-loch4",
             "Slingshot"
           ]

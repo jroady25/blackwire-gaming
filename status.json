@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:57:00Z",
+  "generated_at": "2026-10-24T11:02:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,9 +29,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "MRTICKLECLOWN10"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:57:07Z",
+  "generated_at": "2026-10-24T09:02:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,11 +34,10 @@
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "ScorchedEarth_WP",
-          "players": []
+          "map": "ScorchedEarth_WP"
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
@@ -99,11 +98,10 @@
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 26,
-          "map": "Genesis_WP",
-          "players": []
+          "map": "Genesis_WP"
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
@@ -138,11 +136,10 @@
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Forglar_WP",
-          "players": []
+          "map": "Forglar_WP"
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
@@ -162,11 +159,10 @@
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP",
-          "players": []
+          "map": "LostColony_WP"
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
@@ -204,11 +200,10 @@
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "players": []
+          "map": "Bjarnheim_WP"
         }
       ]
     },

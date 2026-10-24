@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T04:22:10Z",
+  "generated_at": "2026-10-24T04:27:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -86,14 +86,15 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
             "DireMeek",
             "ISO7826",
-            "Harru"
+            "Harru",
+            "JaseDakota14"
           ]
         },
         {
@@ -169,10 +170,12 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "Raider FH5115"
+          ]
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
@@ -190,9 +193,9 @@
           "map": "TheIsland_WP",
           "players": [
             "Leather Nuts",
-            "Raider FH5115",
             "specialseahorse9...",
-            "GreenOatis"
+            "GreenOatis",
+            "speezy5ive9ina"
           ]
         },
         {
@@ -209,14 +212,12 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "XHaidenSmithX @R..."
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [

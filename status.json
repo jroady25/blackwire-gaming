@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-10-24T01:32:17Z",
+  "generated_at": "2026-10-24T01:37:13Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Santa_Clause01",
-            "Reilig"
+            "Reilig",
+            "do_gotcha"
           ]
         },
         {
@@ -43,13 +44,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "KP Gaming",
-            "Bretty Wat",
-            "EXDaydreamer"
+            "Bretty Wat"
           ]
         },
         {
@@ -181,13 +181,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Slingshot",
-            "Leather Nuts",
-            "Coffee Slayer"
+            "Leather Nuts"
           ]
         },
         {
@@ -197,7 +196,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [
-            "do_gotcha"
+            "EXDaydreamer"
           ]
         },
         {

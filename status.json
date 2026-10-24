@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T21:12:09Z",
+  "generated_at": "2026-10-24T21:17:14Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -187,14 +187,14 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Killhead49",
             "own-loch4",
-            "Raider FH5115",
-            "VLAD86"
+            "VLAD86",
+            "Raider FH5115"
           ]
         },
         {
@@ -228,10 +228,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "wraiyth"
+            "wraiyth",
+            "Harru"
           ],
           "map": null
         },

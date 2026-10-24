@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T03:37:10Z",
+  "generated_at": "2026-10-24T03:42:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -11,7 +11,8 @@
           "map": "Ragnarok_WP",
           "players": [
             "Reilig",
-            "do_gotcha"
+            "do_gotcha",
+            "Santa_Clause01"
           ]
         },
         {
@@ -45,10 +46,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "nb_gotcha"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -187,9 +190,9 @@
           "map": "TheIsland_WP",
           "players": [
             "Leather Nuts",
-            "KodasBetter",
             "serious_booth4",
-            "runcrawlslither"
+            "runcrawlslither",
+            "Raider FH5115"
           ]
         },
         {

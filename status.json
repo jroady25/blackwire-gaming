@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:32:01Z",
+  "generated_at": "2026-10-24T13:37:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -205,12 +205,10 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "SansaRonas"
-          ]
+          "players": []
         }
       ]
     },

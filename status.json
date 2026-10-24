@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T19:06:59Z",
+  "generated_at": "2026-10-24T19:12:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -179,7 +179,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -187,7 +187,8 @@
             "Raider FH5115",
             "Killhead49",
             "legendx12x",
-            "own-loch4"
+            "own-loch4",
+            "Slingshot"
           ]
         },
         {

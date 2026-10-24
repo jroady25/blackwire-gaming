@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-10-24T20:07:04Z",
+  "generated_at": "2026-10-24T20:12:08Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Santa_Clause01",
-            "Arigatu1"
+            "Arigatu1",
+            "Th30nlyDeL"
           ]
         },
         {
@@ -91,12 +92,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
-            "TAk0_LOVER-"
+            "TAk0_LOVER-",
+            "Slingshot"
           ]
         },
         {
@@ -188,7 +190,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -196,18 +198,16 @@
             "Killhead49",
             "own-loch4",
             "VLAD86",
-            "Dino_duno",
-            "Th30nlyDeL"
+            "Dino_duno"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [
-            "Reilig",
             "do_gotcha"
           ]
         },

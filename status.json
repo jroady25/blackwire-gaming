@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T06:52:09Z",
+  "generated_at": "2026-10-24T06:57:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,11 +18,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "speezy5ive9ina"
           ]
         },
         {
@@ -92,8 +93,8 @@
             "DireMeek",
             "ISO7826",
             "JaseDakota14",
-            "Harru",
-            "jana_mew"
+            "jana_mew",
+            "Harru"
           ]
         },
         {
@@ -171,12 +172,10 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "Raider FH5115"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
@@ -189,7 +188,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

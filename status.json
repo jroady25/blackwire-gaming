@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-24T00:57:08Z",
+  "generated_at": "2026-10-24T01:02:13Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Santa_Clause01"
+            "Santa_Clause01",
+            "do_gotcha"
           ]
         },
         {
@@ -52,7 +53,7 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Extinction_WP"
         },

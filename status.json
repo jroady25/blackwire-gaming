@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T23:07:11Z",
+  "generated_at": "2026-10-24T23:12:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -43,9 +43,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",

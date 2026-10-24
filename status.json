@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T03:22:08Z",
+  "generated_at": "2026-10-24T03:27:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -219,7 +219,6 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
-            "Arigatu1",
             "Slingshot"
           ]
         }
@@ -229,10 +228,9 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
           "map": null
         },
         {

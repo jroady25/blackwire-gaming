@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-10-24T21:27:05Z",
+  "generated_at": "2026-10-24T21:32:14Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Santa_Clause01",
-            "Th30nlyDeL",
-            "Dino_duno"
+            "Th30nlyDeL"
           ]
         },
         {
@@ -26,7 +25,8 @@
             "Itz finnnnnn",
             "Sniffy7990",
             "Zackattack28060",
-            "DriftNalg"
+            "DriftNalg",
+            "hzrow"
           ]
         },
         {
@@ -93,7 +93,6 @@
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
-            "Slingshot",
             "TAk0_LOVER-"
           ]
         },

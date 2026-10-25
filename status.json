@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:46:35Z",
+  "generated_at": "2026-10-25T19:51:38Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,7 +48,7 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -99,7 +99,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "do_gotcha"
+          ]
         },
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",

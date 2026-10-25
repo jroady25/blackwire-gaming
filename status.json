@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:12:41Z",
+  "generated_at": "2026-10-25T10:17:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,16 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Valguero_WP"
+          "map": "Valguero_WP",
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
-          "online": false,
+          "online": true,
           "players_current": 2,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
@@ -36,9 +38,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -69,7 +72,10 @@
           "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "KittyLovesArk",
+            "Harru"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -170,7 +176,8 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheCenter_WP"
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",

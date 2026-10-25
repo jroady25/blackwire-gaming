@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:27:18Z",
+  "generated_at": "2026-10-25T16:32:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -26,7 +26,7 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -42,7 +42,9 @@
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "KP Gaming"
+            "KP Gaming",
+            "MattyRoth83",
+            "Luckyybear14"
           ]
         },
         {
@@ -66,9 +68,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -159,7 +159,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -179,6 +179,14 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Genesis_WP",
+          "players": []
+        },
+        {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
@@ -188,21 +196,6 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
-          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

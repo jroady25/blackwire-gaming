@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:25:31Z",
+  "generated_at": "2026-10-25T18:31:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,12 +40,12 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Luckyybear14",
             "Bretty Wat",
             "KP Gaming",
             "jandles13",
             "JeepinAK",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "Luckyybear14"
           ]
         },
         {
@@ -166,7 +166,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "KodasBetter",
             "chill_Lyrics14",
             "VLAD86",
             "Killhead49",
@@ -201,14 +200,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

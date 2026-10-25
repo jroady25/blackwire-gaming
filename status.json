@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T18:01:44Z",
+  "generated_at": "2026-10-25T18:06:36Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -36,11 +36,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Luckyybear14"
+            "Luckyybear14",
+            "Bretty Wat",
+            "KP Gaming",
+            "jandles13"
           ]
         },
         {
@@ -61,7 +64,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -138,10 +141,7 @@
           "players_current": 2,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "KP Gaming",
-            "jandles13"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
@@ -162,7 +162,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [

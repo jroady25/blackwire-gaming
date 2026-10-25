@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:32:18Z",
+  "generated_at": "2026-10-25T09:37:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,9 +19,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "Zackattack28060"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
@@ -45,7 +43,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Naykdtime"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",

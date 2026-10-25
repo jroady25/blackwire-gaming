@@ -81,10 +81,6 @@
       "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)"
     },
     {
-      "service_id": "19368830",
-      "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)"
-    },
-    {
       "service_id": "19377800",
       "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)"
     },
@@ -101,16 +97,20 @@
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
     {
+      "service_id": "19368830",
+      "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)"
+    },
+    {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 36329893,
+    "offset": 36333242,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 36329893,
+    "log_size": 36333242,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

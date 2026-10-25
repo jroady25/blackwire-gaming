@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T00:17:11Z",
+  "generated_at": "2026-10-25T00:21:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -183,7 +183,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 8,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -194,13 +194,14 @@
             "Coffee Slayer",
             "Slingshot",
             "Killhead49",
-            "MattyRoth83"
+            "MattyRoth83",
+            "do_gotcha"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []

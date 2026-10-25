@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:07:27Z",
+  "generated_at": "2026-10-25T16:12:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,7 +21,7 @@
           "map": "Valguero_WP",
           "players": [
             "hzrow",
-            "Sniffy7990"
+            "Itz finnnnnn"
           ]
         },
         {
@@ -159,13 +159,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Killhead49",
             "KodasBetter",
-            "Rowena",
             "chill_Lyrics14"
           ]
         },
@@ -194,6 +193,13 @@
           "players": []
         },
         {
+          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
           "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -202,13 +208,6 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
-          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

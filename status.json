@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:36:31Z",
+  "generated_at": "2026-10-25T22:41:33Z",
   "servers": {
     "ark": {
       "servers": [
@@ -118,7 +118,7 @@
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP"
         },
@@ -175,10 +175,8 @@
             "Reilig",
             "LeadSpoon2264",
             "Ben-Doverson",
-            "SpoggDarr",
             "Derangedjoka",
-            "serious_booth4",
-            "Leather Nuts"
+            "serious_booth4"
           ]
         },
         {
@@ -192,7 +190,7 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []

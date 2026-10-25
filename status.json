@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:56:18Z",
+  "generated_at": "2026-10-25T12:02:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -166,12 +166,11 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Derangedjoka",
-            "doodlebac49",
             "Joker"
           ]
         },
@@ -200,14 +199,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:37:25Z",
+  "generated_at": "2026-10-25T16:42:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,9 +42,9 @@
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "KP Gaming",
             "MattyRoth83",
-            "Luckyybear14"
+            "Luckyybear14",
+            "KP Gaming"
           ]
         },
         {

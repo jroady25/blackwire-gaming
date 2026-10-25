@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:56:29Z",
+  "generated_at": "2026-10-25T18:01:44Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
@@ -21,8 +19,8 @@
           "map": "Valguero_WP",
           "players": [
             "hzrow",
-            "Itz finnnnnn",
-            "Sniffy7990"
+            "Sniffy7990",
+            "Itz finnnnnn"
           ]
         },
         {
@@ -63,7 +61,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -172,7 +170,8 @@
             "chill_Lyrics14",
             "VLAD86",
             "own-loch4",
-            "Killhead49"
+            "Killhead49",
+            "Dino_duno"
           ]
         },
         {

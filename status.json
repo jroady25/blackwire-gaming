@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:06:38Z",
+  "generated_at": "2026-10-25T20:11:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,13 +14,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "hzrow",
+            "Sniffy7990",
             "Itz finnnnnn",
-            "Sniffy7990"
+            "DriftNalg"
           ]
         },
         {
@@ -36,7 +37,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 6,
+          "players_current": 9,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -44,15 +45,17 @@
             "JeepinAK",
             "SummerLoven0719",
             "EXDaydreamer",
-            "VLAD86",
             "KodasBetter",
-            "Luckyybear14"
+            "Luckyybear14",
+            "Reilig",
+            "jandles13",
+            "do_gotcha"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -114,7 +117,7 @@
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Svartalfheim_WP"
         },

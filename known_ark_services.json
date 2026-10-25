@@ -81,32 +81,32 @@
       "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)"
     },
     {
-      "service_id": "19426823",
-      "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)"
-    },
-    {
       "service_id": "19466842",
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v94.35)"
+      "service_id": "18638510",
+      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
+    },
+    {
+      "service_id": "19426823",
+      "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)"
     },
     {
       "service_id": "18497059",
       "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)"
     },
     {
-      "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 36413556,
+    "offset": 36416904,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 36413556,
+    "log_size": 36416904,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

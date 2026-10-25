@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T04:42:19Z",
+  "generated_at": "2026-10-25T04:47:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,11 +41,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bretty Wat"
+            "Bretty Wat",
+            "Naykdtime"
           ]
         },
         {
@@ -73,10 +74,11 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP"
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
@@ -162,12 +164,11 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "legendx12x",
-            "KAKASHIxHATAKE97"
+            "legendx12x"
           ]
         },
         {
@@ -181,13 +182,14 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Ben-Doverson",
             "Luckyybear14",
-            "jandles13"
+            "jandles13",
+            "KAKASHIxHATAKE97"
           ]
         },
         {

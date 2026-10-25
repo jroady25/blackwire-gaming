@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:02:29Z",
+  "generated_at": "2026-10-25T16:07:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -63,10 +63,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "santos_g3"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -192,20 +194,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
-          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
           "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -214,6 +202,13 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

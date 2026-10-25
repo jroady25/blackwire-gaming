@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T04:47:15Z",
+  "generated_at": "2026-10-25T04:52:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,6 +57,13 @@
           "map": "Extinction_WP"
         },
         {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP"
+        },
+        {
           "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
           "online": true,
           "players_current": 0,
@@ -83,12 +90,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
-            "KittyLovesArk"
+            "KittyLovesArk",
+            "DireMeek"
           ]
         },
         {
@@ -215,13 +223,6 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire Test Server - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
         }
       ]
     },

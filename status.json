@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:01:42Z",
+  "generated_at": "2026-10-25T17:06:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,8 +19,7 @@
           "map": "Valguero_WP",
           "players": [
             "hzrow",
-            "Itz finnnnnn",
-            "DriftNalg"
+            "Itz finnnnnn"
           ]
         },
         {
@@ -29,7 +28,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "sporty-cider53"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
@@ -65,9 +66,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",

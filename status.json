@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:01:32Z",
+  "generated_at": "2026-10-25T22:06:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,7 +14,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -41,14 +41,11 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "JeepinAK",
             "SummerLoven0719",
             "Luckyybear14",
             "jandles13",
-            "VLAD86",
             "chill_Lyrics14",
-            "KodasBetter",
-            "Bretty Wat"
+            "KodasBetter"
           ]
         },
         {
@@ -173,9 +170,9 @@
             "I-Be-Stroganoff",
             "doodlebac49",
             "Rowena",
-            "Ben-Doverson",
             "Reilig",
-            "LeadSpoon2264"
+            "LeadSpoon2264",
+            "Ben-Doverson"
           ]
         },
         {
@@ -189,12 +186,10 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",

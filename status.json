@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:57:31Z",
+  "generated_at": "2026-10-25T16:02:29Z",
   "servers": {
     "ark": {
       "servers": [
@@ -192,14 +192,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
+          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -213,7 +213,7 @@
           "map": null
         },
         {
-          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -236,11 +236,9 @@
         {
           "name": "Palworld Server 2",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Salem"
-          ],
+          "players": [],
           "map": null
         }
       ]

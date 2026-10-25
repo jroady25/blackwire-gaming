@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T21:01:43Z",
+  "generated_at": "2026-10-25T21:06:38Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -16,13 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 5,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "hzrow",
             "Sniffy7990",
-            "Itz finnnnnn"
+            "Itz finnnnnn",
+            "Dat_Boi_Mike_70",
+            "Ben-Doverson"
           ]
         },
         {
@@ -118,7 +120,7 @@
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Svartalfheim_WP"
         },
@@ -165,19 +167,18 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 10,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Raider FH5115",
             "KodasBetter",
             "chill_Lyrics14",
-            "ThatGuy",
             "I-Be-Stroganoff",
-            "Ben-Doverson",
             "doodlebac49",
             "Leather Nuts",
-            "Bretty Wat"
+            "Bretty Wat",
+            "ThatGuy"
           ]
         },
         {
@@ -191,7 +192,7 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []

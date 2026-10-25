@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T04:27:25Z",
+  "generated_at": "2026-10-25T04:32:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -69,6 +69,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
           "players": []
         },
         {
@@ -219,9 +227,10 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         },
         {

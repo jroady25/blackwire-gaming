@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T21:31:34Z",
+  "generated_at": "2026-10-25T21:36:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,7 +14,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -22,7 +22,8 @@
             "Sniffy7990",
             "Itz finnnnnn",
             "Dat_Boi_Mike_70",
-            "DriftNalg"
+            "DriftNalg",
+            "Bretty Wat"
           ]
         },
         {
@@ -38,7 +39,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 9,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -48,8 +49,7 @@
             "jandles13",
             "VLAD86",
             "chill_Lyrics14",
-            "KodasBetter",
-            "do_gotcha"
+            "KodasBetter"
           ]
         },
         {
@@ -90,7 +90,9 @@
           "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "ashleylolokay3"
+          ]
         },
         {
           "name": "BlackWire - Decended - PVE - (v94.35)",
@@ -134,12 +136,10 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
@@ -199,11 +199,10 @@
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
-            "ThatGuy",
             "Jimmyzday"
           ]
         },
@@ -211,7 +210,7 @@
           "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
-          "players_max": 20,
+          "players_max": 0,
           "map": null
         },
         {

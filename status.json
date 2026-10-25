@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:37:22Z",
+  "generated_at": "2026-10-25T15:42:25Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,14 +33,6 @@
           "players": [
             "Sunilovich_06"
           ]
-        },
-        {
-          "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "ScorchedEarth_WP",
-          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
@@ -198,14 +190,21 @@
           "players": []
         },
         {
-          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

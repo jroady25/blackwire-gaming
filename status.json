@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:17:29Z",
+  "generated_at": "2026-10-25T16:22:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,14 +9,12 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -67,7 +65,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "santos_g3"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -192,13 +192,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
           "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -207,6 +200,13 @@
         },
         {
           "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

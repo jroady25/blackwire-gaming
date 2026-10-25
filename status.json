@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:41:46Z",
+  "generated_at": "2026-10-25T20:46:37Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,7 +37,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 11,
+          "players_current": 9,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -47,8 +47,6 @@
             "Reilig",
             "jandles13",
             "VLAD86",
-            "KodasBetter",
-            "chill_Lyrics14",
             "EXDaydreamer",
             "Bretty Wat",
             "do_gotcha"
@@ -75,7 +73,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "POSEIDON"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -173,10 +173,11 @@
             "Ben-Doverson",
             "I-Be-Stroganoff",
             "Raider FH5115",
-            "serious_booth4",
             "Dino_duno",
             "KP Gaming",
-            "Twizzop1"
+            "Twizzop1",
+            "KodasBetter",
+            "chill_Lyrics14"
           ]
         },
         {
@@ -201,9 +202,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "YangOverYin"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",

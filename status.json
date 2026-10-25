@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T21:26:30Z",
+  "generated_at": "2026-10-25T21:31:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,14 +14,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "hzrow",
             "Sniffy7990",
             "Itz finnnnnn",
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "DriftNalg"
           ]
         },
         {
@@ -44,11 +45,11 @@
             "JeepinAK",
             "SummerLoven0719",
             "Luckyybear14",
-            "Reilig",
             "jandles13",
             "VLAD86",
             "chill_Lyrics14",
-            "KodasBetter"
+            "KodasBetter",
+            "do_gotcha"
           ]
         },
         {
@@ -133,7 +134,7 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": [
@@ -175,13 +176,14 @@
             "I-Be-Stroganoff",
             "doodlebac49",
             "Rowena",
-            "Ben-Doverson"
+            "Ben-Doverson",
+            "Reilig"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []
@@ -201,7 +203,8 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
-            "ThatGuy"
+            "ThatGuy",
+            "Jimmyzday"
           ]
         },
         {

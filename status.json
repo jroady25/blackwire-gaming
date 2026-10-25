@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:56:27Z",
+  "generated_at": "2026-10-25T19:01:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,13 +36,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "jandles13",
             "JeepinAK",
-            "Luckyybear14",
             "KodasBetter",
             "Bretty Wat"
           ]
@@ -137,11 +136,12 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Aberration_WP",
           "players": [
-            "KP Gaming"
+            "KP Gaming",
+            "EXDaydreamer"
           ]
         },
         {
@@ -168,7 +168,6 @@
           "map": "TheIsland_WP",
           "players": [
             "chill_Lyrics14",
-            "VLAD86",
             "Killhead49",
             "Ben-Doverson",
             "I-Be-Stroganoff",
@@ -201,14 +200,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:21:41Z",
+  "generated_at": "2026-10-25T17:26:45Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,17 +19,19 @@
           "map": "Valguero_WP",
           "players": [
             "hzrow",
-            "Itz finnnnnn"
+            "Itz finnnnnn",
+            "Sniffy7990"
           ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "sporty-cider53"
+            "sporty-cider53",
+            "MattyRoth83"
           ]
         },
         {
@@ -39,7 +41,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "MattyRoth83",
             "Luckyybear14",
             "KP Gaming",
             "Bretty Wat",
@@ -128,7 +129,7 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []
@@ -160,14 +161,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Killhead49",
             "KodasBetter",
             "chill_Lyrics14",
-            "own-loch4",
             "VLAD86"
           ]
         },

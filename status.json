@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T04:12:06Z",
+  "generated_at": "2026-10-25T04:17:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -58,13 +58,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP"
-        },
-        {
-          "name": "BlackWire Test Server - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP"
         },
         {
           "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
@@ -184,7 +177,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -214,6 +207,13 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire Test Server - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
         }
       ]
     },

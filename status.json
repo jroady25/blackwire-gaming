@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-25T23:36:37Z",
+  "generated_at": "2026-10-25T23:41:42Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Santa_Clause01"
+            "Santa_Clause01",
+            "GreenOatis"
           ]
         },
         {
@@ -41,8 +42,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Luckyybear14",
-            "jandles13",
             "chill_Lyrics14",
             "KodasBetter",
             "KP Gaming"
@@ -66,12 +65,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "POSEIDON"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -164,7 +161,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 8,
+          "players_current": 7,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -188,12 +185,11 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
-            "XHaidenSmithX @R...",
-            "JeepinAK"
+            "XHaidenSmithX @R..."
           ]
         },
         {

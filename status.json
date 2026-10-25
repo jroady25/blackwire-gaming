@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T03:26:58Z",
+  "generated_at": "2026-10-25T03:32:00Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
@@ -18,7 +18,8 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "Zackattack28060"
           ]
         },
         {
@@ -47,7 +48,8 @@
             "Bretty Wat",
             "Luckyybear14",
             "SummerLoven0719",
-            "jandles13"
+            "jandles13",
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -182,14 +184,12 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Ben-Doverson",
             "SpoggDarr",
-            "KAKASHIxHATAKE97",
-            "Killhead49",
             "Leather Nuts"
           ]
         },

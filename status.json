@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:56:36Z",
+  "generated_at": "2026-10-25T20:01:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,13 +36,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
             "JeepinAK",
-            "SummerLoven0719"
+            "SummerLoven0719",
+            "do_gotcha",
+            "EXDaydreamer"
           ]
         },
         {
@@ -63,12 +65,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "ISO7826"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -96,12 +96,10 @@
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
@@ -161,7 +159,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 10,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -172,9 +170,9 @@
             "VLAD86",
             "Dino_duno",
             "own-loch4",
-            "KP Gaming",
-            "EXDaydreamer",
-            "KodasBetter"
+            "KodasBetter",
+            "serious_booth4",
+            "KP Gaming"
           ]
         },
         {
@@ -202,14 +200,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

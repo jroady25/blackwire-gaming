@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:12:28Z",
+  "generated_at": "2026-10-25T16:17:29Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,7 +21,8 @@
           "map": "Valguero_WP",
           "players": [
             "hzrow",
-            "Itz finnnnnn"
+            "Itz finnnnnn",
+            "DriftNalg"
           ]
         },
         {
@@ -66,9 +67,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "santos_g3"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -193,7 +192,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -207,7 +206,7 @@
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Man vs Beast - PVE/PVP 5pm-11pm EST - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

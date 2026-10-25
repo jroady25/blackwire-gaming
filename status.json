@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T01:42:02Z",
+  "generated_at": "2026-10-25T01:47:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "ABC"
+            "ABC",
+            "Bretty Wat"
           ]
         },
         {
@@ -49,7 +50,6 @@
           "players": [
             "KP Gaming",
             "JeepinAK",
-            "Bretty Wat",
             "Naykdtime",
             "EXDaydreamer"
           ]
@@ -185,7 +185,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 10,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -197,7 +197,6 @@
             "Ben-Doverson",
             "kris_d07",
             "SpoggDarr",
-            "I-Be-Stroganoff",
             "chill_Lyrics14"
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:31:42Z",
+  "generated_at": "2026-10-25T20:36:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -37,11 +37,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 11,
+          "players_current": 10,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bretty Wat",
             "JeepinAK",
             "SummerLoven0719",
             "Luckyybear14",
@@ -119,7 +118,7 @@
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Svartalfheim_WP"
         },
@@ -174,8 +173,7 @@
             "I-Be-Stroganoff",
             "Raider FH5115",
             "serious_booth4",
-            "KP Gaming",
-            "own-loch4"
+            "Dino_duno"
           ]
         },
         {
@@ -189,7 +187,7 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []
@@ -203,14 +201,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

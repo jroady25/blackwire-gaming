@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-10-25T23:11:45Z",
+  "generated_at": "2026-10-25T23:16:43Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Santa_Clause01",
-            "GreenOatis"
+            "Santa_Clause01"
           ]
         },
         {
@@ -164,7 +163,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 8,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -174,7 +173,9 @@
             "Ben-Doverson",
             "Derangedjoka",
             "LeadSpoon2264",
-            "Leather Nuts"
+            "Leather Nuts",
+            "GreenOatis",
+            "BatteryEater56"
           ]
         },
         {

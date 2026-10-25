@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:22:26Z",
+  "generated_at": "2026-10-25T11:27:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -25,9 +25,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Sunilovich_06"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Draconic Acension - PVE - - (v94.35)",
@@ -82,7 +80,7 @@
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP"
         },
@@ -202,14 +200,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

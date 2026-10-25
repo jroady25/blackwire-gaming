@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:46:38Z",
+  "generated_at": "2026-10-25T16:51:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -26,18 +26,17 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Sunilovich_06",
-            "MRTICKLECLOWN10"
+            "Sunilovich_06"
           ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -131,7 +130,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
@@ -167,9 +168,8 @@
             "Killhead49",
             "KodasBetter",
             "chill_Lyrics14",
-            "SpoggDarr",
             "own-loch4",
-            "Bretty Wat"
+            "VLAD86"
           ]
         },
         {

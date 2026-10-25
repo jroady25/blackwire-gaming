@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:26:32Z",
+  "generated_at": "2026-10-25T19:31:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,14 +14,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "hzrow",
             "Itz finnnnnn",
-            "Sniffy7990",
-            "DriftNalg"
+            "Sniffy7990"
           ]
         },
         {
@@ -43,8 +42,7 @@
           "players": [
             "KodasBetter",
             "Bretty Wat",
-            "EXDaydreamer",
-            "KP Gaming"
+            "EXDaydreamer"
           ]
         },
         {
@@ -159,7 +157,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 6,
+          "players_current": 10,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -168,7 +166,11 @@
             "Ben-Doverson",
             "I-Be-Stroganoff",
             "Raider FH5115",
-            "SpoggDarr"
+            "SpoggDarr",
+            "VLAD86",
+            "Dino_duno",
+            "own-loch4",
+            "KP Gaming"
           ]
         },
         {
@@ -198,14 +200,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:12:19Z",
+  "generated_at": "2026-10-25T15:14:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,7 +22,8 @@
           "players": [
             "hzrow",
             "DriftNalg",
-            "Dino_duno"
+            "Dino_duno",
+            "Sniffy7990"
           ]
         },
         {
@@ -193,12 +194,10 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "XHaidenSmithX @R..."
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
@@ -209,14 +208,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

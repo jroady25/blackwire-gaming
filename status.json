@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:11:41Z",
+  "generated_at": "2026-10-25T17:16:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -49,7 +49,7 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -160,7 +160,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -168,7 +168,8 @@
             "KodasBetter",
             "chill_Lyrics14",
             "own-loch4",
-            "VLAD86"
+            "VLAD86",
+            "Dino_duno"
           ]
         },
         {

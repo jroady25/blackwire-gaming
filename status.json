@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T23:56:27Z",
+  "generated_at": "2026-10-26T00:01:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,7 +44,6 @@
           "players": [
             "chill_Lyrics14",
             "KodasBetter",
-            "VLAD86",
             "JeepinAK",
             "KP Gaming"
           ]
@@ -137,12 +136,10 @@
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "serious_booth4"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
@@ -173,7 +170,8 @@
             "Ben-Doverson",
             "Derangedjoka",
             "LeadSpoon2264",
-            "BatteryEater56"
+            "BatteryEater56",
+            "serious_booth4"
           ]
         },
         {
@@ -203,14 +201,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

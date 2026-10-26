@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-26T01:26:39Z",
+  "generated_at": "2026-10-26T01:31:40Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1",
-            "Santa_Clause01"
+            "Santa_Clause01",
+            "Slingshot"
           ]
         },
         {
@@ -165,7 +165,8 @@
             "Bretty Wat",
             "KP Gaming",
             "GreenOatis",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "drama1406"
           ]
         },
         {

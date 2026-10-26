@@ -88,6 +88,24 @@
     return (s.players_current > 0) ? '<div class="who-on">Names hidden on PvP</div>' : '';
   }
 
+  // Same trimming as the wall: drop the brand prefix, owner tag (JKRZ),
+  // mode and version, so players see the name they know the server by.
+  // The full name stays on hover.
+  function shortName(name){
+    var full = String(name || '').trim();
+    var s = full.replace(/\s*-?\s*\(v[\d.]+\)\s*$/i, '').replace(/\s*-\s*pv[ep]\s*$/i, '');
+    var m = s.match(/^black\s*wire\b\s*(?:limited)?\s*(?:\([^)]*\))?\s*-?\s*/i);
+    if(m && m[0].length < s.length) s = s.slice(m[0].length);
+    s = s.replace(/^-\s*/, '').trim();
+    return s || full;
+  }
+
+  function groupRow(label, list){
+    var on = list.reduce(function(t, s){ return t + (s.online && s.players_current > 0 ? s.players_current : 0); }, 0);
+    return '<tr class="feed-group"><td colspan="2">' + label +
+           '<span>' + list.length + ' servers &middot; ' + on + ' playing</span></td></tr>';
+  }
+
   function namesLine(players){
     if(!Array.isArray(players) || !players.length) return '';
     var shown = players.slice(0, NAMES_SHOWN).map(escapeHtml);
@@ -108,15 +126,26 @@
     var sorted = game.servers.slice().sort(function(a, b){
       return (b.players_current || 0) - (a.players_current || 0);
     });
-    var rows = sorted.map(function(s){
+    function row(s){
       var unknown = (s.players_current === null || s.players_current === undefined);
       var pct = unknown ? 0 : capPct(s.players_current, s.players_max);
       var dotClass = (s.online === false) ? 'live-dot offline' : 'live-dot';
-      return '<tr><td><span class="' + dotClass + '"></span>' + escapeHtml(s.name) + '</td>' +
+      return '<tr><td><span class="' + dotClass + '"></span><span title="' + escapeHtml(s.name) + '">' + escapeHtml(shortName(s.name)) + '</span></td>' +
              '<td><span class="srv-count">' + (unknown ? '\u2014' : s.players_current) + '/' + s.players_max + '</span>' +
              '<span class="cap-bar" aria-hidden="true"><span style="width:' + pct + '%"></span></span>' +
              (isPvp(s) ? pvpLine(s) : namesLine(s.players)) + '</td></tr>';
-    });
+    }
+    // PvE and PvP under their own headings whenever a game has both
+    var rows;
+    var pvp = sorted.filter(isPvp);
+    if(pvp.length){
+      var pve = sorted.filter(function(s){ return !isPvp(s); });
+      rows = [];
+      if(pve.length) rows = rows.concat([groupRow('PvE', pve)], pve.map(row));
+      rows = rows.concat([groupRow('PvP', pvp)], pvp.map(row));
+    } else {
+      rows = sorted.map(row);
+    }
     body.innerHTML = rows.join('');
   }
 

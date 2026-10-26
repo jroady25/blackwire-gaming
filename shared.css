@@ -326,7 +326,17 @@ h2.section-title{font-family:var(--font-display); font-weight:800; font-size:cla
 .feed-table td{padding:13px 22px; border-bottom:1px solid var(--line); font-size:0.88rem; color:var(--text); transition:background .2s ease;}
 .feed-table tbody tr:hover td{background:rgba(226,35,26,0.06);}
 .feed-table tr:last-child td{border-bottom:none;}
-.feed-table td:first-child{display:flex; align-items:center; gap:10px;}
+.feed-table td{vertical-align:middle;}
+/* the name cell stays a real table cell, so its bottom line runs the full
+   row even when the players cell is taller (a flex cell stopped short) */
+.feed-table td:first-child .live-dot{margin-right:10px; vertical-align:middle;}
+.feed-table tr.feed-group td{
+  text-align:left; padding:10px 22px 8px;
+  font-size:0.68rem; letter-spacing:0.16em; text-transform:uppercase;
+  color:var(--blood-text); background:rgba(226,35,26,0.05);
+}
+.feed-table tr.feed-group td span{float:right; color:var(--text-faint); letter-spacing:0.08em;}
+.feed-table tbody tr.feed-group:hover td{background:rgba(226,35,26,0.05);}
 .feed-table td:last-child{text-align:right;}
 .srv-count{color:var(--live); font-weight:600; font-variant-numeric:tabular-nums;}
 .cap-bar{display:inline-block; width:46px; height:4px; background:var(--line); border-radius:2px; overflow:hidden; vertical-align:middle; margin-left:10px;}

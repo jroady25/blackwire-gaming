@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:21:26Z",
+  "generated_at": "2026-10-26T14:26:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,12 +14,11 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "TUBBS TADL",
-            "Sniffy7990"
+            "TUBBS TADL"
           ]
         },
         {

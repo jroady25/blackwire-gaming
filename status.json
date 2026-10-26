@@ -1,23 +1,22 @@
 {
-  "generated_at": "2026-10-26T03:16:27Z",
+  "generated_at": "2026-10-26T03:21:35Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Santa_Clause01",
-            "Slingshot"
+            "Santa_Clause01"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -42,7 +41,8 @@
             "Bretty Wat",
             "EXDaydreamer",
             "Luckyybear14",
-            "jandles13"
+            "jandles13",
+            "VLAD86"
           ]
         },
         {
@@ -160,7 +160,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -196,14 +196,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -216,11 +216,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

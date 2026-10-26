@@ -1117,14 +1117,18 @@ html.tv .board::after{
      the widget is turned on in Discord (Server Settings > Widget). */
   var DISCORD_WIDGET = 'https://discord.com/api/guilds/1436115702904783098/widget.json';
   function pullDiscord(){
-    fetch(DISCORD_WIDGET, { cache:'no-store' })
+    /* a unique URL each time: Discord keeps serving an old answer (e.g.
+       'Widget Disabled') for minutes to a repeated identical request */
+    fetch(DISCORD_WIDGET + '?t=' + Date.now(), { cache:'no-store' })
       .then(function(r){ if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function(d){
         if(!d || typeof d.presence_count !== 'number') throw new Error('no count');
         el('discord-stat').hidden = false;
         tween(el('s-discord'), d.presence_count);
       })
-      .catch(function(){ el('discord-stat').hidden = true; });
+      /* one failed check keeps the last count on screen; the box only
+         stays hidden if it has never loaded */
+      .catch(function(){});
   }
   pullDiscord();
   setInterval(pullDiscord, 5 * 60000);

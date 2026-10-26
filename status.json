@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-26T02:21:42Z",
+  "generated_at": "2026-10-26T02:26:40Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -17,12 +17,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
@@ -41,7 +39,9 @@
           "players": [
             "?",
             "chill_Lyrics14",
-            "Bretty Wat"
+            "Bretty Wat",
+            "EXDaydreamer",
+            "drama1406"
           ]
         },
         {
@@ -159,16 +159,15 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "Rowena",
             "Reilig",
             "Ben-Doverson",
-            "EXDaydreamer",
-            "drama1406",
-            "SpoggDarr"
+            "SpoggDarr",
+            "Slingshot"
           ]
         },
         {
@@ -196,14 +195,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

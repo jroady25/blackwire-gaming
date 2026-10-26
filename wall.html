@@ -1221,13 +1221,11 @@ section.zone{
    walking the ridge, a small herd running in the distance, pterosaurs
    gliding, palms and ferns swaying up front, embers, rare lightning
    inside the clouds, and a fine film grain over everything.
-   PREVIEW: only runs with ?scene in the URL until approved.
    ============================================================ */
 (function(){
   'use strict';
   var cv = document.getElementById('scene');
   if(!cv || !cv.getContext) return;
-  if(!/[?&]scene\b/.test(location.search)){ cv.parentNode.removeChild(cv); return; }
   document.documentElement.classList.add('has-scene');
 
   var ctx = cv.getContext('2d');

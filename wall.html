@@ -1215,29 +1215,28 @@ section.zone{
 </script>
 <script>
 /* ============================================================
-   SCENE -- a slow, living backdrop behind the board: a red dusk sky,
-   a smoking volcano, jungle ridges in drifting fog, a sauropod (now and
-   then with a calf) plodding along the far ridge, pterosaurs gliding
-   high up, embers rising. Everything is dark and slow so the numbers
-   stay the loudest thing on screen, and the picture is never still
-   (which also helps against burn-in).
+   SCENE -- a slow, living backdrop behind the board. Painted in code:
+   noise-generated clouds and fog, layered ridges with haze and sun-lit
+   edges, a smoking volcano with lava, a sauropod (sometimes with a calf)
+   walking the ridge, a small herd running in the distance, pterosaurs
+   gliding, palms and ferns swaying up front, embers, rare lightning
+   inside the clouds, and a fine film grain over everything.
+   PREVIEW: only runs with ?scene in the URL until approved.
    ============================================================ */
 (function(){
   'use strict';
   var cv = document.getElementById('scene');
   if(!cv || !cv.getContext) return;
-  /* PREVIEW: only with ?scene in the URL until it's approved */
   if(!/[?&]scene\b/.test(location.search)){ cv.parentNode.removeChild(cv); return; }
   document.documentElement.classList.add('has-scene');
+
   var ctx = cv.getContext('2d');
   var REDUCED = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
   var WIDE = window.matchMedia ? matchMedia('(min-aspect-ratio: 1001/1000) and (min-width: 901px)') : { matches:true };
-  var TAU = Math.PI * 2, PAD = 160;
-  var W = 0, H = 0, LW = 0;
-  var L = null;           /* prebuilt layers */
-  var S = null;           /* moving things */
+  var TAU = Math.PI * 2, PAD = 140;
+  var W = 0, H = 0, LW = 0, L = null, S = null;
 
-  /* small seeded random so the landscape is the same every load */
+  /* ---------------- tools ---------------- */
   function rng(seed){
     return function(){
       seed = (seed + 0x6D2B79F5) | 0;
@@ -1247,366 +1246,540 @@ section.zone{
     };
   }
   function rnd(a, b){ return a + Math.random() * (b - a); }
+  function smooth(e0, e1, x){ var t = Math.max(0, Math.min(1, (x - e0) / (e1 - e0))); return t * t * (3 - 2 * t); }
+  function canvas(w, h){ var c = document.createElement('canvas'); c.width = Math.max(1, Math.round(w)); c.height = Math.max(1, Math.round(h)); return c; }
 
-  function ridge(r, base, amp){
-    var w = [];
-    for(var i = 0; i < 7; i++){
-      w.push({ f:(i + 1) * (0.7 + r() * 0.9) * TAU / LW, a:amp / (i * 0.8 + 1) * (0.45 + r()), p:r() * TAU });
-    }
-    return function(x){
-      var y = base;
-      for(var i = 0; i < w.length; i++) y -= w[i].a * Math.sin(x * w[i].f + w[i].p);
-      return y;
+  /* value noise that wraps horizontally (period px), so textures can scroll forever */
+  function noise(r, px, py){
+    var g = new Float32Array(px * py);
+    for(var i = 0; i < g.length; i++) g[i] = r();
+    return function(x, y){
+      var xi = Math.floor(x), yi = Math.floor(y), xf = x - xi, yf = y - yi;
+      var x0 = ((xi % px) + px) % px, x1 = (x0 + 1) % px, y0 = ((yi % py) + py) % py, y1 = (y0 + 1) % py;
+      var u = xf * xf * (3 - 2 * xf), v = yf * yf * (3 - 2 * yf);
+      var a = g[y0 * px + x0], b = g[y0 * px + x1], c = g[y1 * px + x0], d = g[y1 * px + x1];
+      return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v;
     };
   }
+  function fbm(n, x, y, oct){
+    var s = 0, amp = .5, f = 1, norm = 0;
+    for(var i = 0; i < oct; i++){ s += amp * n(x * f, y * f); norm += amp; amp *= .5; f *= 2; }
+    return s / norm;
+  }
 
-  function layerCanvas(){
-    var c = document.createElement('canvas');
-    c.width = LW; c.height = H;
+  /* ---------------- painted once ---------------- */
+  function cloudTexture(r, tw, th, sunX, opts){
+    var n = noise(r, 16, 16), c = canvas(tw, th), g = c.getContext('2d');
+    var img = g.createImageData(tw, th), d = img.data;
+    for(var y = 0; y < th; y++){
+      var vy = y / th;
+      var band = smooth(0, .25, vy) * (1 - smooth(.7, 1, vy));
+      for(var x = 0; x < tw; x++){
+        var v = fbm(n, x / tw * 16, vy * opts.sy + opts.oy, 6);
+        var dens = smooth(opts.lo, opts.hi, v) * band;
+        if(dens <= 0) continue;
+        /* clouds are lit from below and from the sun's side */
+        var dx = Math.min(Math.abs(x / tw - sunX), 1 - Math.abs(x / tw - sunX));
+        var lit = Math.exp(-dx * dx * 18) * .8 + .2;
+        var under = smooth(.3, 1, vy);
+        var i = (y * tw + x) * 4;
+        d[i]     = 22 + 150 * lit * under + 18 * (1 - dens);
+        d[i + 1] = 6 + 38 * lit * under;
+        d[i + 2] = 5 + 26 * lit * under;
+        d[i + 3] = Math.min(255, dens * opts.alpha * 255);
+      }
+    }
+    g.putImageData(img, 0, 0);
     return c;
   }
 
-  function fillRidge(c, f, color, rim){
-    c.beginPath();
-    c.moveTo(0, H);
-    for(var x = 0; x <= LW; x += 4) c.lineTo(x, f(x));
-    c.lineTo(LW, H); c.closePath();
-    c.fillStyle = color; c.fill();
-    if(rim){
-      c.beginPath();
-      for(var x2 = 0; x2 <= LW; x2 += 4) (x2 ? c.lineTo(x2, f(x2)) : c.moveTo(x2, f(x2)));
-      c.strokeStyle = rim; c.lineWidth = 1.5; c.stroke();
+  function fogTexture(r, tw, th){
+    var n = noise(r, 12, 12), c = canvas(tw, th), g = c.getContext('2d');
+    var img = g.createImageData(tw, th), d = img.data;
+    for(var y = 0; y < th; y++){
+      var vy = y / th, fall = Math.sin(vy * Math.PI);
+      for(var x = 0; x < tw; x++){
+        var v = fbm(n, x / tw * 12, vy * 3, 5);
+        var a = smooth(.38, .78, v) * fall * fall;
+        var i = (y * tw + x) * 4;
+        d[i] = 120; d[i + 1] = 44; d[i + 2] = 34; d[i + 3] = a * 120;
+      }
     }
+    g.putImageData(img, 0, 0);
+    return c;
   }
 
-  /* one palm frond: a drooping spine with leaflets hanging off both sides */
-  function frond(c, x, y, ang, len, w){
-    var ex = x + Math.cos(ang) * len, ey = y + Math.sin(ang) * len * .55 + len * .42;
-    var cx = x + Math.cos(ang) * len * .55, cy = y + Math.sin(ang) * len * .55 - len * .18;
-    c.lineWidth = Math.max(1, w * .7);
-    c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(cx, cy, ex, ey); c.stroke();
-    c.lineWidth = Math.max(.8, w * .45);
-    for(var i = 2; i < 12; i++){
-      var k = i / 12, u = 1 - k;
+  function grainTexture(){
+    var c = canvas(256, 256), g = c.getContext('2d'), img = g.createImageData(256, 256), d = img.data;
+    for(var i = 0; i < d.length; i += 4){ var v = Math.random() * 255; d[i] = d[i + 1] = d[i + 2] = v; d[i + 3] = 255; }
+    g.putImageData(img, 0, 0);
+    return c;
+  }
+
+  function sprite(size, inner, outer){
+    var c = canvas(size, size), g = c.getContext('2d');
+    var gr = g.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2);
+    gr.addColorStop(0, inner); gr.addColorStop(1, outer);
+    g.fillStyle = gr; g.fillRect(0, 0, size, size);
+    return c;
+  }
+
+  /* jagged ridgeline from noise, sampled every 2px */
+  function ridgeLine(r, base, amp, scale, oct, volcano){
+    var n = noise(r, 64, 4), pts = new Float32Array(Math.ceil(LW / 2) + 2);
+    for(var i = 0; i < pts.length; i++){
+      var x = i * 2, y = base - (fbm(n, x / LW * scale, .5, oct) - .5) * amp * 2;
+      if(volcano){
+        var dd = Math.abs(x - volcano.x), cone = dd < volcano.w ? volcano.h * Math.pow(1 - dd / volcano.w, 1.35) : 0;
+        y -= Math.min(cone, volcano.h * .86);
+      }
+      pts[i] = y;
+    }
+    return { pts:pts, at:function(x){ var i = Math.max(0, Math.min(pts.length - 2, x / 2)), k = Math.floor(i), f = i - k; return pts[k] * (1 - f) + pts[k + 1] * f; } };
+  }
+
+  function paintRidge(rl, top, bottom, rim, sunX){
+    var c = canvas(LW, H), g = c.getContext('2d');
+    var minY = H; for(var i = 0; i < rl.pts.length; i++) minY = Math.min(minY, rl.pts[i]);
+    var gr = g.createLinearGradient(0, minY, 0, H);
+    gr.addColorStop(0, top); gr.addColorStop(1, bottom);
+    g.beginPath(); g.moveTo(0, H);
+    for(var j = 0; j < rl.pts.length; j++) g.lineTo(j * 2, rl.pts[j]);
+    g.lineTo(LW, H); g.closePath();
+    g.fillStyle = gr; g.fill();
+    if(rim){
+      /* edges catch the sunset: brightest near the sun */
+      g.globalCompositeOperation = 'lighter';
+      g.lineWidth = 1.4; g.shadowBlur = 6; g.shadowColor = 'rgba(255,90,50,.6)';
+      for(var k = 0; k < rl.pts.length - 6; k += 6){
+        var sx = k * 2 - PAD, dx = (sx - sunX) / W;
+        var a = rim * (Math.exp(-dx * dx * 6) * .85 + .15);
+        g.strokeStyle = 'rgba(255,110,60,' + a.toFixed(3) + ')';
+        g.beginPath(); g.moveTo(k * 2, rl.pts[k] + .5); g.lineTo((k + 6) * 2, rl.pts[k + 6] + .5); g.stroke();
+      }
+      g.globalCompositeOperation = 'source-over'; g.shadowBlur = 0;
+    }
+    return c;
+  }
+
+  /* palm frond with real leaflets: tapered blades hanging off a curved spine */
+  function frond(g, x, y, ang, len, w){
+    var ex = x + Math.cos(ang) * len, ey = y + Math.sin(ang) * len * .5 + len * .45;
+    var cx = x + Math.cos(ang) * len * .55, cy = y + Math.sin(ang) * len * .6 - len * .2;
+    g.lineWidth = w; g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(cx, cy, ex, ey); g.stroke();
+    for(var i = 1; i < 16; i++){
+      var k = i / 16, u = 1 - k;
       var px = u * u * x + 2 * u * k * cx + k * k * ex, py = u * u * y + 2 * u * k * cy + k * k * ey;
       var tx = 2 * u * (cx - x) + 2 * k * (ex - cx), ty = 2 * u * (cy - y) + 2 * k * (ey - cy);
-      var ta = Math.atan2(ty, tx), ll = len * .26 * (1 - k * .6);
+      var ta = Math.atan2(ty, tx), ll = len * .3 * Math.sin(Math.PI * Math.min(1, k * 1.15)) + len * .04;
       for(var sd = -1; sd <= 1; sd += 2){
-        var la = ta + sd * 1.0 + .5;          /* leaflets angle out and hang down */
-        c.beginPath(); c.moveTo(px, py);
-        c.lineTo(px + Math.cos(la) * ll, py + Math.abs(Math.sin(la)) * ll * .9 + ll * .25);
-        c.stroke();
+        var la = ta + sd * .9 + .45, bx = px + Math.cos(la) * ll, by = py + Math.abs(Math.sin(la)) * ll * .8 + ll * .35;
+        var nx = -Math.sin(la) * w * 1.3, ny = Math.cos(la) * w * 1.3;
+        g.beginPath(); g.moveTo(px + nx, py + ny); g.lineTo(bx, by); g.lineTo(px - nx, py - ny); g.closePath(); g.fill();
       }
     }
   }
-  function palm(c, x, y, h, lean, color){
-    c.strokeStyle = color; c.fillStyle = color; c.lineCap = 'round';
-    var tx = x + lean * h * .35, ty = y - h;
-    /* trunk, thicker at the base */
-    c.beginPath();
-    c.moveTo(x - h * .035, y); c.quadraticCurveTo(x + lean * h * .05, y - h * .6, tx - h * .015, ty);
-    c.lineTo(tx + h * .015, ty); c.quadraticCurveTo(x + lean * h * .05 + h * .04, y - h * .6, x + h * .035, y);
-    c.closePath(); c.fill();
-    var n = 7 + Math.floor(Math.random() * 3);
+  function palm(g, x, y, h, lean){
+    var tx = x + lean * h * .3, ty = y - h, w = Math.max(.8, h * .012);
+    g.beginPath();
+    g.moveTo(x - h * .035, y);
+    g.quadraticCurveTo(x + lean * h * .1 - h * .01, y - h * .55, tx - h * .012, ty);
+    g.lineTo(tx + h * .012, ty);
+    g.quadraticCurveTo(x + lean * h * .1 + h * .03, y - h * .55, x + h * .035, y);
+    g.closePath(); g.fill();
+    /* trunk rings */
+    for(var k = .15; k < .95; k += .08){
+      var ry = y - h * k, rx = x + (tx - x) * k * k;
+      g.fillRect(rx - h * .03, ry, h * .06, Math.max(1, h * .006));
+    }
+    var n = 9;
     for(var i = 0; i < n; i++){
-      var ang = -Math.PI + (i + .5) / n * Math.PI + (Math.random() - .5) * .35;
-      frond(c, tx, ty, ang, h * (.45 + Math.random() * .2), Math.max(1.2, h * .02));
+      var ang = -Math.PI + (i + .5) / n * Math.PI + (Math.random() - .5) * .25;
+      frond(g, tx, ty, ang, h * (.42 + Math.random() * .16), w);
     }
   }
-  function conifer(c, x, y, h, color){
-    c.fillStyle = color;
-    c.beginPath(); c.moveTo(x, y - h);
-    for(var k = 0; k <= 4; k++){
-      var yy = y - h + (k / 4) * h * .9, ww = h * (.12 + k * .07);
-      c.lineTo(x + ww, yy + h * .08); c.lineTo(x + ww * .45, yy + h * .06);
+  function fern(g, x, y, h){
+    var n = 7;
+    for(var i = 0; i < n; i++){
+      var ang = -Math.PI * .92 + (i / (n - 1)) * Math.PI * .84;
+      frond(g, x, y, ang, h * (.7 + Math.random() * .3), Math.max(.8, h * .012));
     }
-    c.lineTo(x + h * .05, y); c.lineTo(x - h * .05, y);
-    for(var k2 = 4; k2 >= 0; k2--){
-      var yy2 = y - h + (k2 / 4) * h * .9, ww2 = h * (.12 + k2 * .07);
-      c.lineTo(x - ww2 * .45, yy2 + h * .06); c.lineTo(x - ww2, yy2 + h * .08);
-    }
-    c.closePath(); c.fill();
+  }
+  function conifer(g, x, y, h){
+    g.beginPath(); g.moveTo(x, y - h);
+    for(var k = 0; k <= 6; k++){ var yy = y - h + (k / 6) * h * .92, ww = h * (.06 + k * .045); g.lineTo(x + ww, yy + h * .07); g.lineTo(x + ww * .4, yy + h * .05); }
+    g.lineTo(x + h * .03, y); g.lineTo(x - h * .03, y);
+    for(var k2 = 6; k2 >= 0; k2--){ var y2 = y - h + (k2 / 6) * h * .92, w2 = h * (.06 + k2 * .045); g.lineTo(x - w2 * .4, y2 + h * .05); g.lineTo(x - w2, y2 + h * .07); }
+    g.closePath(); g.fill();
+  }
+
+  function plantSprite(kind, h){
+    var c = canvas(h * 1.7, h * 1.25), g = c.getContext('2d');
+    g.fillStyle = g.strokeStyle = '#050101'; g.lineCap = 'round'; g.lineJoin = 'round';
+    if(kind === 'palm') palm(g, c.width / 2, c.height - 2, h, (Math.random() - .5) * .6);
+    else fern(g, c.width / 2, c.height - 2, h * .55);
+    return c;
   }
 
   function build(){
     W = innerWidth; H = innerHeight; LW = W + PAD * 2;
     cv.width = W; cv.height = H;
     var r = rng(1436);
-    L = {};
+    var sunX = W * .8, sunY = H * .6, sunR = H * .085;
+    L = { sunX:sunX, sunY:sunY, sunR:sunR };
 
-    /* sky: near-black overhead, burning red at the horizon */
-    var sky = document.createElement('canvas'); sky.width = W; sky.height = H;
-    var c = sky.getContext('2d');
-    var g = c.createLinearGradient(0, 0, 0, H);
-    g.addColorStop(0, '#050202'); g.addColorStop(.3, '#0b0303');
-    g.addColorStop(.55, '#250705'); g.addColorStop(.68, '#3a0b07'); g.addColorStop(1, '#160403');
-    c.fillStyle = g; c.fillRect(0, 0, W, H);
-    /* low red sun with a wide glow, cut by thin cloud bands */
-    var sx = W * .7, sy = H * .55, sr = H * .1;
-    g = c.createRadialGradient(sx, sy, sr * .5, sx, sy, sr * 4.5);
-    g.addColorStop(0, 'rgba(255,80,45,.22)'); g.addColorStop(1, 'rgba(255,80,45,0)');
-    c.fillStyle = g; c.fillRect(0, 0, W, H);
-    g = c.createRadialGradient(sx, sy - sr * .2, sr * .1, sx, sy, sr);
-    g.addColorStop(0, 'rgba(160,40,20,.75)'); g.addColorStop(1, 'rgba(110,22,12,.6)');
-    c.fillStyle = g; c.beginPath(); c.arc(sx, sy, sr, 0, TAU); c.fill();
-    c.filter = 'blur(4px)';
-    c.fillStyle = 'rgba(10,3,3,.45)';
-    for(var b = 0; b < 5; b++){
-      c.beginPath();
-      c.ellipse(sx + (r() - .5) * sr * 3, sy - sr * .6 + b * sr * .32, sr * (1.6 + r() * 2), sr * (.03 + r() * .03), 0, 0, TAU);
-      c.fill();
+    /* sky, sun and bloom */
+    var sky = canvas(W, H), g = sky.getContext('2d');
+    var gr = g.createLinearGradient(0, 0, 0, H);
+    gr.addColorStop(0, '#040202'); gr.addColorStop(.28, '#0c0303'); gr.addColorStop(.5, '#2a0806');
+    gr.addColorStop(.64, '#5a160b'); gr.addColorStop(.75, '#2c0906'); gr.addColorStop(1, '#0d0303');
+    g.fillStyle = gr; g.fillRect(0, 0, W, H);
+    for(var s = 0; s < 160; s++){
+      var sy = Math.pow(r(), 1.6) * H * .4;
+      g.fillStyle = 'rgba(255,225,210,' + ((1 - sy / (H * .4)) * (.08 + r() * .25)).toFixed(3) + ')';
+      g.fillRect(r() * W, sy, r() < .1 ? 1.5 : 1, r() < .1 ? 1.5 : 1);
     }
-    c.filter = 'none';
-    /* warm haze sitting on the horizon */
-    g = c.createLinearGradient(0, H * .45, 0, H * .75);
-    g.addColorStop(0, 'rgba(255,70,40,0)'); g.addColorStop(.6, 'rgba(255,70,40,.07)'); g.addColorStop(1, 'rgba(255,70,40,0)');
-    c.fillStyle = g; c.fillRect(0, H * .45, W, H * .3);
-    /* faint stars overhead */
-    for(var s = 0; s < 120; s++){
-      c.fillStyle = 'rgba(255,220,200,' + (0.05 + r() * 0.18).toFixed(3) + ')';
-      c.fillRect(r() * W, r() * H * .38, 1, 1);
-    }
+    g.globalCompositeOperation = 'lighter';
+    gr = g.createRadialGradient(sunX, sunY, 0, sunX, sunY, H * .75);
+    gr.addColorStop(0, 'rgba(255,90,40,.28)'); gr.addColorStop(.3, 'rgba(200,50,25,.12)'); gr.addColorStop(1, 'rgba(120,20,10,0)');
+    g.fillStyle = gr; g.fillRect(0, 0, W, H);
+    g.globalCompositeOperation = 'source-over';
+    gr = g.createRadialGradient(sunX - sunR * .25, sunY - sunR * .3, sunR * .1, sunX, sunY, sunR);
+    gr.addColorStop(0, '#ffb07a'); gr.addColorStop(.45, '#ff6a3a'); gr.addColorStop(1, '#c6301a');
+    g.fillStyle = gr; g.beginPath(); g.arc(sunX, sunY, sunR, 0, TAU); g.fill();
     L.sky = sky;
 
-    /* far range with the volcano */
-    var far = layerCanvas(); c = far.getContext('2d');
-    var vx = LW * .26, vh = H * .2, vw = W * .16;
-    var farBase = ridge(r, H * .62, H * .06);
-    var farF = function(x){
-      var d = Math.abs(x - vx), cone = d < vw ? vh * (1 - d / vw) : 0;
-      return farBase(x) - Math.min(cone, vh * .9);
-    };
-    c.filter = 'blur(1.2px)';
-    fillRidge(c, farF, '#2b0a07', 'rgba(255,90,55,.22)');
-    c.filter = 'none';
-    L.far = far; L.vx = vx; L.vy = farF(vx);
-
-    /* mid ridge with a tree line -- the sauropod walks along this one */
-    var mid = layerCanvas(); c = mid.getContext('2d');
-    var midF = ridge(r, H * .72, H * .045);
-    fillRidge(c, midF, '#110303', 'rgba(255,70,40,.12)');
-    for(var x = 0; x < LW; x += 14 + r() * 50){
-      var y = midF(x) + 2, h = H * (.025 + r() * .045);
-      if(r() < .6) palm(c, x, y, h, r() - .5, '#110303'); else conifer(c, x, y, h, '#110303');
+    /* sun rays, painted once and blurred so they read as light, not stripes */
+    var rs = Math.round(H * 2.2), rays = canvas(rs, rs), rg = rays.getContext('2d');
+    rg.filter = 'blur(' + Math.round(H * .012) + 'px)';
+    rg.globalCompositeOperation = 'lighter';
+    for(var ri = 0; ri < 16; ri++){
+      var ang = -Math.PI + (ri + r() * .6) / 16 * Math.PI, spread = .012 + r() * .03, len = rs / 2;
+      var rgr = rg.createLinearGradient(rs / 2, rs / 2, rs / 2 + Math.cos(ang) * len, rs / 2 + Math.sin(ang) * len);
+      var ra = .05 + r() * .06;
+      rgr.addColorStop(0, 'rgba(255,120,70,' + ra.toFixed(3) + ')'); rgr.addColorStop(.6, 'rgba(255,100,60,' + (ra * .35).toFixed(3) + ')'); rgr.addColorStop(1, 'rgba(255,90,50,0)');
+      rg.fillStyle = rgr; rg.beginPath(); rg.moveTo(rs / 2, rs / 2);
+      rg.lineTo(rs / 2 + Math.cos(ang - spread) * len, rs / 2 + Math.sin(ang - spread) * len);
+      rg.lineTo(rs / 2 + Math.cos(ang + spread) * len, rs / 2 + Math.sin(ang + spread) * len);
+      rg.closePath(); rg.fill();
     }
-    L.mid = mid; L.midF = midF;
+    L.rays = rays;
 
-    /* near ridge, big palms at the edges */
-    var near = layerCanvas(); c = near.getContext('2d');
-    var nearF = ridge(r, H * .86, H * .035);
-    fillRidge(c, nearF, '#060101', null);
-    for(var x3 = 0; x3 < LW; x3 += 60 + r() * 160){
-      var edge = Math.min(x3, LW - x3) / LW;            /* taller toward the sides */
-      palm(c, x3, nearF(x3) + 4, H * (.08 + (.5 - edge) * .22 + r() * .05), r() - .5, '#060101');
+    /* clouds: two decks, the high one thin and fast, the low one heavy */
+    L.cloudHi = cloudTexture(r, 640, 160, .8, { sy:5, oy:2, lo:.5, hi:.78, alpha:.55 });
+    L.cloudLo = cloudTexture(r, 640, 200, .8, { sy:4, oy:9, lo:.45, hi:.72, alpha:.85 });
+    L.fog = fogTexture(r, 640, 90);
+    L.grain = grainTexture();
+    L.puff = sprite(64, 'rgba(70,24,18,.55)', 'rgba(70,24,18,0)');
+    L.ember = sprite(16, 'rgba(255,170,90,1)', 'rgba(255,60,20,0)');
+    L.glow = sprite(128, 'rgba(255,110,40,.9)', 'rgba(255,60,20,0)');
+
+    /* ridges, far to near */
+    var vx = LW * .22;
+    L.r1 = ridgeLine(r, H * .6, H * .05, 5, 6, null);
+    L.l1 = paintRidge(L.r1, 'rgb(96,26,16)', 'rgb(40,10,8)', 0, sunX);
+    L.r2 = ridgeLine(r, H * .64, H * .07, 4, 7, { x:vx, w:W * .17, h:H * .22 });
+    L.l2 = paintRidge(L.r2, 'rgb(58,15,10)', 'rgb(22,6,5)', .28, sunX);
+    L.vx = vx; L.vy = L.r2.at(vx);
+    L.r3 = ridgeLine(r, H * .73, H * .05, 6, 6, null);
+    L.l3 = paintRidge(L.r3, 'rgb(30,8,6)', 'rgb(12,3,3)', .08, sunX);
+    /* tree line along the walking ridge, drawn into that layer */
+    g = L.l3.getContext('2d'); g.fillStyle = g.strokeStyle = 'rgb(26,7,5)'; g.lineCap = 'round';
+    for(var x = 0; x < LW; x += 10 + r() * 38){
+      var y = L.r3.at(x) + 3, h = H * (.025 + r() * .05);
+      if(r() < .65) palm(g, x, y, h, r() - .5); else conifer(g, x, y, h);
     }
-    L.near = near;
+    L.r4 = ridgeLine(r, H * .88, H * .04, 5, 5, null);
+    L.l4 = paintRidge(L.r4, 'rgb(14,4,3)', 'rgb(5,1,1)', 0, sunX);
+
+    /* foreground plants, cached and swayed each frame */
+    L.plants = [];
+    for(var px = -40; px < W + 40; px += 90 + r() * 170){
+      var edge = Math.min(px, W - px) / W;
+      var big = H * (.12 + Math.max(0, .35 - edge) * .55 + r() * .06);
+      L.plants.push({ x:px, img:plantSprite(r() < .55 ? 'palm' : 'fern', big), ph:r() * TAU, sp:rnd(.25, .45) });
+    }
+
+    /* edge vignette */
+    var vg = canvas(W, H); g = vg.getContext('2d');
+    gr = g.createRadialGradient(W / 2, H * .55, H * .35, W / 2, H * .55, W * .75);
+    gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(0,0,0,.55)');
+    g.fillStyle = gr; g.fillRect(0, 0, W, H);
+    L.vignette = vg;
 
     seed();
   }
 
   /* ---------------- moving things ---------------- */
   function seed(){
-    S = { smoke:[], embers:[], fog:[], pteros:[], walkers:[], flash:0, nextFlash:rnd(40, 110) };
-    for(var i = 0; i < 44; i++) S.smoke.push(newSmoke(true));
-    for(var j = 0; j < 46; j++) S.embers.push(newEmber(true));
-    for(var k = 0; k < 4; k++) S.fog.push({ x:Math.random() * W, y:H * (.6 + k * .08), w:W * (.5 + Math.random() * .4), h:H * (.05 + Math.random() * .04), v:rnd(4, 10) * (k % 2 ? 1 : -1) });
-    spawnWalkers(true);
-    spawnPteros(true);
+    S = { smoke:[], embers:[], pteros:[], walkers:[], herd:[], lightning:0, nextBolt:rnd(35, 90), bolt:null };
+    for(var i = 0; i < 36; i++) S.smoke.push(newSmoke(true));
+    for(var j = 0; j < 55; j++) S.embers.push(newEmber(true));
+    spawnWalkers(true); spawnPteros(true);
+    S.nextHerd = rnd(20, 60);
   }
-
   function newSmoke(spread){
-    return { x:L.vx + rnd(-8, 8), y:L.vy, r:rnd(10, 20), a:0, age:spread ? rnd(0, 40) : 0, life:rnd(30, 45), vx:rnd(3, 9), vy:rnd(-7, -4) };
+    return { x:rnd(-6, 6), age:spread ? rnd(0, 50) : 0, life:rnd(40, 60), vx:rnd(4, 9), vy:rnd(-8, -5), r:rnd(14, 24), rot:rnd(0, TAU) };
   }
   function newEmber(spread){
-    return { x:Math.random() * W, y:spread ? Math.random() * H : H + 10, vy:rnd(-22, -8), sw:rnd(0, TAU), sz:rnd(.8, 2.2), life:rnd(.4, 1) };
+    return { x:Math.random() * W, y:spread ? H * (.35 + Math.random() * .65) : H + 8, vy:rnd(-24, -9), sw:rnd(0, TAU), sz:rnd(3, 7), life:1 };
   }
-
   function spawnWalkers(first){
-    var dir = Math.random() < .5 ? 1 : -1, s = H * rnd(.11, .13);
-    var x0 = first ? rnd(.2, .8) * LW : (dir > 0 ? -s * 1.6 : LW + s * 1.6);
-    S.walkers = [{ x:x0, s:s, dir:dir, ph:rnd(0, TAU), v:s * .09 }];
-    if(Math.random() < .5){   /* a calf trotting behind, a bit quicker on its little legs */
-      S.walkers.push({ x:x0 - dir * s * 2.1, s:s * .45, dir:dir, ph:rnd(0, TAU), v:s * .09, calf:true });
-    }
+    var dir = Math.random() < .5 ? 1 : -1, s = H * rnd(.12, .14);
+    var x0 = first ? rnd(.55, .9) * LW : (dir > 0 ? -s * 1.6 : LW + s * 1.6);
+    S.walkers = [{ x:x0, s:s, dir:dir, ph:rnd(0, TAU), v:s * .085 }];
+    if(Math.random() < .55) S.walkers.push({ x:x0 - dir * s * 2.2, s:s * .42, dir:dir, ph:rnd(0, TAU), v:s * .085, calf:true });
   }
   function spawnPteros(first){
     var n = Math.random() < .5 ? 1 : 2;
     for(var i = 0; i < n; i++){
-      var dir = Math.random() < .5 ? 1 : -1, s = H * rnd(.045, .065);
-      S.pteros.push({ x:first ? rnd(.1, .9) * W : (dir > 0 ? -s * 2 - i * s * 3 : W + s * 2 + i * s * 3),
-        y:H * rnd(.1, .38), s:s, dir:dir, v:W / rnd(70, 110), ph:rnd(0, TAU), flap:0, wob:rnd(0, TAU) });
+      var dir = Math.random() < .5 ? 1 : -1, s = H * rnd(.035, .05);
+      S.pteros.push({ x:first ? rnd(.15, .85) * W : (dir > 0 ? -s * 2 - i * s * 4 : W + s * 2 + i * s * 4),
+        y:H * rnd(.12, .34), s:s, dir:dir, v:W / rnd(75, 110), ph:rnd(0, TAU), flap:0, wob:rnd(0, TAU) });
+    }
+  }
+  function spawnHerd(){
+    var dir = Math.random() < .5 ? 1 : -1, n = Math.round(rnd(4, 7)), s = H * rnd(.022, .028);
+    for(var i = 0; i < n; i++){
+      S.herd.push({ x:dir > 0 ? -s * 3 - i * s * rnd(2, 3.5) : LW + s * 3 + i * s * rnd(2, 3.5), s:s * rnd(.85, 1.1), dir:dir, v:LW / rnd(16, 22), ph:rnd(0, TAU) });
     }
   }
 
-  function sauropod(c, a){
-    var ph = a.ph, bob = Math.sin(ph * 2) * .012, hb = Math.sin(ph * 2 + 1) * .025;
-    c.save(); c.translate(a.sx, a.sy); c.scale(a.dir * a.s, a.s);
-    c.fillStyle = '#080101';
-    function leg(lx, p){
-      var sw = Math.sin(p) * .1, lift = Math.max(0, Math.cos(p)) * .04;
-      c.beginPath();
-      c.moveTo(lx - .06, -.55 + bob); c.lineTo(lx + .06, -.55 + bob);
-      c.lineTo(lx + sw + .055, -lift); c.lineTo(lx + sw - .065, -lift);
-      c.closePath(); c.fill();
+  /* a sauropod drawn as one continuous outline, legs with knees */
+  function sauropod(g, a){
+    var ph = a.ph, bob = Math.sin(ph * 2) * .012, hb = Math.sin(ph * 2 + 1) * .03;
+    var ts = Math.sin(ph) * .03;
+    g.save(); g.translate(a.ox, a.oy); g.scale(a.dir * a.s, a.s);
+    g.fillStyle = g.strokeStyle = '#090101'; g.lineCap = 'round'; g.lineJoin = 'round';
+    function leg(lx, p, thick){
+      var sw = Math.sin(p) * .11, lift = Math.max(0, Math.cos(p)) * .05;
+      var hx = lx, hy = -.48 + bob, fx = lx + sw, fy = -lift - .01;
+      var kx = (hx + fx) / 2 + .03, ky = (hy + fy) / 2 + .02;
+      g.lineWidth = .15 * thick; g.beginPath(); g.moveTo(hx, hy); g.lineTo(kx, ky); g.stroke();
+      g.lineWidth = .11 * thick; g.beginPath(); g.moveTo(kx, ky); g.lineTo(fx, fy); g.stroke();
+      g.beginPath(); g.ellipse(fx + .02, fy + .005, .075 * thick, .028, 0, 0, TAU); g.fill();
     }
-    leg(-.28, ph + Math.PI); leg(.3, ph);                       /* far legs */
-    c.beginPath(); c.moveTo(-.36, -.74 + bob);                  /* tail */
-    c.quadraticCurveTo(-.82, -.66 + Math.sin(ph) * .02, -1.3, -.36 + Math.sin(ph + 1) * .03);
-    c.quadraticCurveTo(-.8, -.52, -.32, -.5 + bob); c.closePath(); c.fill();
-    c.beginPath(); c.ellipse(0, -.64 + bob, .44, .21, -.04, 0, TAU); c.fill();   /* body */
-    c.beginPath(); c.moveTo(.2, -.8 + bob);                      /* neck */
-    c.quadraticCurveTo(.56, -1.0, .87, -1.52 + hb); c.lineTo(.95, -1.48 + hb);
-    c.quadraticCurveTo(.68, -.92, .42, -.52 + bob); c.closePath(); c.fill();
-    c.beginPath(); c.ellipse(.96, -1.52 + hb, .085, .04, -.25, 0, TAU); c.fill(); /* head */
-    leg(-.22, ph); leg(.36, ph + Math.PI);                      /* near legs */
-    c.restore();
+    leg(-.3, ph + Math.PI, .9); leg(.3, ph, .9);
+    g.beginPath();
+    g.moveTo(-1.38, -.43 + ts * 2);
+    g.quadraticCurveTo(-.92, -.62 + ts, -.46, -.75 + bob);
+    g.bezierCurveTo(-.25, -.86 + bob, .1, -.88 + bob, .33, -.78 + bob);
+    g.bezierCurveTo(.5, -.84, .72, -1.26 + hb, .86, -1.52 + hb);
+    g.quadraticCurveTo(.9, -1.585 + hb, .97, -1.565 + hb);
+    g.quadraticCurveTo(1.03, -1.54 + hb, 1.05, -1.5 + hb);
+    g.quadraticCurveTo(1.0, -1.47 + hb, .93, -1.47 + hb);
+    g.bezierCurveTo(.8, -1.3 + hb, .64, -.88, .5, -.62 + bob);
+    g.bezierCurveTo(.4, -.42 + bob, .02, -.36 + bob, -.32, -.44 + bob);
+    g.quadraticCurveTo(-.85, -.5 + ts, -1.38, -.43 + ts * 2);
+    g.closePath(); g.fill();
+    leg(-.22, ph, 1); leg(.38, ph + Math.PI, 1);
+    g.restore();
   }
 
-  /* draw a sauropod into its own canvas, then stamp it once with a soft red
-     glow, so the rim light hugs the outline instead of every body part */
-  function rimmed(a){
-    var pad = 8, w = Math.ceil(a.s * 2.6) + pad * 2, h = Math.ceil(a.s * 1.7) + pad * 2;
-    var oc = a.oc || (a.oc = document.createElement('canvas'));
-    if(oc.width !== w || oc.height !== h){ oc.width = w; oc.height = h; }
-    var c = oc.getContext('2d');
-    c.setTransform(1, 0, 0, 1, 0, 0); c.clearRect(0, 0, w, h);
-    var ox = a.dir > 0 ? a.s * 1.35 + pad : a.s * 1.25 + pad, oy = a.s * 1.6 + pad;
-    var keep = { sx:a.sx, sy:a.sy };
-    a.sx = ox; a.sy = oy;
-    sauropod(c, a);
-    a.sx = keep.sx; a.sy = keep.sy;
-    ctx.drawImage(oc, a.sx - ox, a.sy - oy);
+  function runner(g, a){
+    /* small, fast, long-necked: a distant ornithomimid */
+    var ph = a.ph, b = -Math.abs(Math.sin(ph)) * .06;
+    g.save(); g.translate(a.sx, a.sy); g.scale(a.dir * a.s, a.s);
+    g.fillStyle = g.strokeStyle = 'rgb(26,7,5)'; g.lineCap = 'round';
+    g.beginPath(); g.ellipse(0, -1 + b, .45, .2, -.1, 0, TAU); g.fill();
+    g.lineWidth = .14; g.beginPath(); g.moveTo(.3, -1.05 + b); g.quadraticCurveTo(.55, -1.4 + b, .62, -1.7 + b); g.stroke();
+    g.beginPath(); g.ellipse(.72, -1.72 + b, .14, .07, .2, 0, TAU); g.fill();
+    g.lineWidth = .1; g.beginPath(); g.moveTo(-.4, -1.02 + b); g.quadraticCurveTo(-.9, -1.1 + b, -1.3, -1.25 + b); g.stroke();
+    g.lineWidth = .1;
+    for(var k = 0; k < 2; k++){
+      var p = ph + k * Math.PI, fx = Math.cos(p) * .38, fy = -Math.max(0, Math.sin(p)) * .25;
+      g.beginPath(); g.moveTo(0, -.95 + b); g.lineTo((fx) * .5 + .1, -.5 + fy * .5); g.lineTo(fx, fy); g.stroke();
+    }
+    g.restore();
   }
 
-  function ptero(c, a){
-    var up = a.flap > 0 ? Math.cos(a.ph) : .25;        /* gliding: wings held a touch high */
-    var tipUp = a.flap > 0 ? Math.cos(a.ph - .8) : .1;
-    c.save(); c.translate(a.x, a.y + Math.sin(a.wob) * a.s * .3); c.scale(a.dir * a.s, a.s);
-    c.fillStyle = '#090202';
+  function ptero(g, a){
+    var up = a.flap > 0 ? Math.cos(a.ph) : .3, tip = a.flap > 0 ? Math.cos(a.ph - .8) : .15;
+    g.save(); g.translate(a.x, a.y + Math.sin(a.wob) * a.s * .35); g.scale(a.dir * a.s, a.s);
+    g.fillStyle = 'rgb(10,3,3)';
     function wing(sd){
-      var wx = sd * .38, wy = -.1 - up * .3, tx = sd * .95, ty = .02 - tipUp * .45;
-      c.beginPath();
-      c.moveTo(sd * .05, -.04);
-      c.lineTo(wx, wy);                    /* arm to the wrist */
-      c.lineTo(tx, ty);                    /* the long fourth finger */
-      c.quadraticCurveTo(sd * .5, ty * .3 + .12, sd * .06, .08);   /* membrane */
-      c.closePath(); c.fill();
+      var wx = sd * .42, wy = -.12 - up * .32, tx = sd * 1.15, ty = .05 - tip * .5;
+      g.beginPath(); g.moveTo(sd * .06, -.05);
+      g.quadraticCurveTo(sd * .22, wy - .06, wx, wy);
+      g.quadraticCurveTo(sd * .8, (wy + ty) / 2 - .08, tx, ty);
+      g.quadraticCurveTo(sd * .7, ty * .25 + .16, sd * .08, .1);
+      g.closePath(); g.fill();
     }
     wing(-1); wing(1);
-    c.beginPath(); c.ellipse(0, .01, .16, .05, 0, 0, TAU); c.fill();        /* body */
-    c.beginPath(); c.moveTo(.12, -.03); c.lineTo(.5, .02); c.lineTo(.12, .03); c.closePath(); c.fill(); /* beak */
-    c.beginPath(); c.moveTo(.14, -.02); c.lineTo(-.06, -.17); c.lineTo(.1, -.04); c.closePath(); c.fill(); /* crest */
-    c.restore();
+    g.beginPath(); g.ellipse(0, .02, .17, .06, 0, 0, TAU); g.fill();
+    g.beginPath(); g.moveTo(.1, -.05); g.lineTo(.56, .03); g.lineTo(.1, .05); g.closePath(); g.fill();
+    g.beginPath(); g.moveTo(.13, -.03); g.lineTo(-.12, -.2); g.lineTo(.06, -.05); g.closePath(); g.fill();
+    g.restore();
+  }
+
+  /* draw a creature to its own canvas, then stamp it with one soft red
+     rim of sunset light around the whole silhouette */
+  function rimStamp(a, w, h, ox, oy, fn, glow){
+    var oc = a.oc || (a.oc = canvas(w, h));
+    if(oc.width !== Math.round(w) || oc.height !== Math.round(h)){ oc.width = Math.round(w); oc.height = Math.round(h); }
+    var g = oc.getContext('2d'); g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, oc.width, oc.height);
+    a.ox = ox; a.oy = oy; fn(g, a);
+    ctx.save(); ctx.shadowColor = glow; ctx.shadowBlur = 8;
+    ctx.drawImage(oc, a.sx - ox, a.sy - oy);
+    ctx.restore();
   }
 
   /* ---------------- frame ---------------- */
-  var last = 0, acc = 0;
+  var running = false, last = 0, acc = 0;
   function frame(now){
     if(!running) return;
     requestAnimationFrame(frame);
-    var dt = Math.min(.1, (now - last) / 1000 || 0);
-    if(now - last < 32) return;          /* ~30 fps is plenty for slow things */
-    last = now;
-    acc += dt;
+    if(now - last < 32) return;
+    var dt = Math.min(.1, (now - last) / 1000); last = now; acc += dt;
     draw(acc, dt);
   }
 
-  function draw(t, dt){
-    var pan = function(k){ return -PAD + Math.sin(t / 240 * TAU) * PAD * .9 * k; };
+  function tile(img, x, y, w, h, alpha){
+    var xx = ((x % w) + w) % w - w;
+    ctx.globalAlpha = alpha;
+    for(; xx < W; xx += w) ctx.drawImage(img, xx, y, w, h);
     ctx.globalAlpha = 1;
+  }
+
+  function draw(t, dt){
+    var pan = function(k){ return -PAD + Math.sin(t / 260 * TAU) * PAD * .9 * k; };
+    ctx.globalCompositeOperation = 'source-over';
     ctx.drawImage(L.sky, 0, 0);
 
-    /* distant lightning, now and then: a soft double flicker in the sky */
-    S.nextFlash -= dt;
-    if(S.nextFlash <= 0){ S.flash = .45; S.nextFlash = rnd(50, 140); }
-    if(S.flash > 0){
-      S.flash -= dt;
-      var f = (S.flash > .3 || (S.flash < .2 && S.flash > .12)) ? .07 : 0;
-      if(f){ ctx.fillStyle = 'rgba(255,140,110,' + f + ')'; ctx.fillRect(0, 0, W, H * .65); }
+    /* soft sun rays through the haze, turning very slowly */
+    ctx.save();
+    ctx.globalCompositeOperation = 'lighter';
+    ctx.globalAlpha = .75 + Math.sin(t * .15) * .2;
+    ctx.translate(L.sunX, L.sunY); ctx.rotate(Math.sin(t * .02) * .05);
+    ctx.drawImage(L.rays, -L.rays.width / 2, -L.rays.height / 2);
+    ctx.restore();
+
+    /* clouds drifting; lightning lights them from inside */
+    var cw = W * 1.6;
+    tile(L.cloudHi, -t * 6, H * .02, cw, H * .3, 1);
+    tile(L.cloudLo, -t * 11, H * .2, cw, H * .38, 1);
+    S.nextBolt -= dt;
+    if(S.nextBolt <= 0){ S.lightning = .55; S.nextBolt = rnd(45, 120); S.bolt = { x:rnd(.1, .6) * W, y:H * rnd(.2, .4) }; }
+    if(S.lightning > 0){
+      S.lightning -= dt;
+      var on = S.lightning > .42 || (S.lightning < .3 && S.lightning > .18);
+      if(on){
+        ctx.globalCompositeOperation = 'lighter';
+        ctx.globalAlpha = .55;
+        ctx.drawImage(L.glow, S.bolt.x - H * .35, S.bolt.y - H * .2, H * .7, H * .4);
+        ctx.globalAlpha = 1;
+        ctx.globalCompositeOperation = 'source-over';
+      }
     }
 
     /* pterosaurs, high up */
     S.pteros.forEach(function(p){
-      p.x += p.dir * p.v * dt; p.wob += dt * .6;
-      if(p.flap > 0){ p.flap -= dt; p.ph += dt * 4.2; }
-      else if(Math.random() < dt * .12){ p.flap = rnd(1.4, 2.6); }
+      p.x += p.dir * p.v * dt; p.wob += dt * .5;
+      if(p.flap > 0){ p.flap -= dt; p.ph += dt * 4; } else if(Math.random() < dt * .12) p.flap = rnd(1.4, 2.6);
       ptero(ctx, p);
     });
     S.pteros = S.pteros.filter(function(p){ return p.dir > 0 ? p.x < W + p.s * 3 : p.x > -p.s * 3; });
-    if(!S.pteros.length && Math.random() < dt * .05) spawnPteros(false);
+    if(!S.pteros.length && Math.random() < dt * .04) spawnPteros(false);
 
-    var ofar = pan(.25);
-    ctx.drawImage(L.far, ofar, 0);
+    var o1 = pan(.15), o2 = pan(.3), o3 = pan(.55), o4 = pan(.85);
+    ctx.drawImage(L.l1, o1, 0);
+    tile(L.fog, t * 4, H * .54, W * 1.4, H * .12, .8);
 
-    /* volcano: breathing glow and a slow plume */
-    var cx = L.vx + ofar, cy = L.vy;
-    var glow = .28 + Math.sin(t * .7) * .06 + Math.sin(t * 2.3) * .03;
-    var g = ctx.createRadialGradient(cx, cy, 2, cx, cy, H * .09);
-    g.addColorStop(0, 'rgba(255,90,40,' + glow + ')'); g.addColorStop(1, 'rgba(255,90,40,0)');
-    ctx.fillStyle = g; ctx.fillRect(cx - H * .1, cy - H * .1, H * .2, H * .2);
+    /* the herd runs along the far ridge */
+    S.nextHerd -= dt;
+    if(S.nextHerd <= 0 && !S.herd.length){ spawnHerd(); S.nextHerd = rnd(60, 140); }
+    S.herd.forEach(function(a){
+      a.x += a.dir * a.v * dt; a.ph += dt * 9;
+      a.sx = a.x + o1; a.sy = L.r1.at(Math.max(0, Math.min(LW, a.x))) + 2;
+      runner(ctx, a);
+    });
+    S.herd = S.herd.filter(function(a){ return a.dir > 0 ? a.x < LW + a.s * 4 : a.x > -a.s * 4; });
+
+    ctx.drawImage(L.l2, o2, 0);
+
+    /* volcano: crater glow, lava down the flank, and the plume */
+    var cx = L.vx + o2, cy = L.vy;
+    var pulse = .75 + Math.sin(t * .8) * .15 + Math.sin(t * 2.7) * .08;
+    ctx.globalCompositeOperation = 'lighter';
+    ctx.globalAlpha = pulse * .8;
+    ctx.drawImage(L.glow, cx - H * .07, cy - H * .06, H * .14, H * .12);
+    ctx.globalAlpha = 1;
+    ctx.strokeStyle = 'rgba(255,120,50,' + (.35 * pulse).toFixed(3) + ')';
+    ctx.lineWidth = 1.6; ctx.shadowColor = 'rgba(255,80,30,.9)'; ctx.shadowBlur = 8;
+    for(var lv = -1; lv <= 1; lv += 2){
+      ctx.beginPath(); ctx.moveTo(cx + lv * 4, cy + 2);
+      for(var k = 1; k <= 10; k++){
+        var lx = cx + lv * (4 + k * W * .008) + Math.sin(k * 1.7 + lv) * 4;
+        ctx.lineTo(lx, L.r2.at(lx - o2) + 3);
+      }
+      ctx.stroke();
+    }
+    ctx.shadowBlur = 0;
+    ctx.globalCompositeOperation = 'source-over';
     S.smoke.forEach(function(p, i){
       p.age += dt;
       if(p.age > p.life){ S.smoke[i] = p = newSmoke(false); }
       var k = p.age / p.life;
-      var px = p.x + ofar + p.vx * p.age + Math.sin(p.age * .3 + i) * 6, py = p.y + p.vy * p.age;
-      var pr = p.r + p.age * 2.2, al = Math.sin(k * Math.PI) * .22;
-      var sg = ctx.createRadialGradient(px, py, 0, px, py, pr);
-      sg.addColorStop(0, 'rgba(58,20,16,' + (al * .9).toFixed(3) + ')');
-      sg.addColorStop(1, 'rgba(58,20,16,0)');
-      ctx.fillStyle = sg; ctx.beginPath(); ctx.arc(px, py, pr, 0, TAU); ctx.fill();
+      var px = cx + p.x + p.vx * p.age + Math.sin(p.age * .25 + i) * 8, py = cy + p.vy * p.age;
+      var pr = (p.r + p.age * 2.6) * 2;
+      ctx.globalAlpha = Math.sin(k * Math.PI) * .7;
+      ctx.drawImage(L.puff, px - pr / 2, py - pr / 2, pr, pr);
     });
+    ctx.globalAlpha = 1;
 
-    /* fog drifting between the ridges */
-    function fog(fb){
-      fb.x += fb.v * dt;
-      if(fb.x - fb.w > W) fb.x = -fb.w; if(fb.x + fb.w < 0) fb.x = W + fb.w;
-      var fg = ctx.createRadialGradient(fb.x, fb.y, 0, fb.x, fb.y, fb.w);
-      fg.addColorStop(0, 'rgba(120,45,35,.09)'); fg.addColorStop(1, 'rgba(120,45,35,0)');
-      ctx.save(); ctx.translate(fb.x, fb.y); ctx.scale(1, fb.h / fb.w); ctx.translate(-fb.x, -fb.y);
-      ctx.fillStyle = fg; ctx.beginPath(); ctx.arc(fb.x, fb.y, fb.w, 0, TAU); ctx.fill(); ctx.restore();
-    }
-    fog(S.fog[0]); fog(S.fog[1]);
+    tile(L.fog, -t * 7, H * .63, W * 1.3, H * .11, .9);
+    ctx.drawImage(L.l3, o3, 0);
 
-    /* the mid ridge and whoever is walking it */
-    var omid = pan(.5);
-    ctx.drawImage(L.mid, omid, 0);
+    /* the sauropod and calf walk in front of the tree line */
     S.walkers.forEach(function(a){
-      a.x += a.dir * a.v * dt;
-      a.ph += dt * (a.calf ? 2.4 : 1.15);
-      a.sx = a.x + omid; a.sy = L.midF(Math.max(0, Math.min(LW, a.x))) + 3;
-      ctx.save();
-      ctx.shadowColor = 'rgba(255,80,45,.45)'; ctx.shadowBlur = 7;
-      rimmed(a);
-      ctx.restore();
+      a.x += a.dir * a.v * dt; a.ph += dt * (a.calf ? 2.3 : 1.1);
+      a.sx = a.x + o3; a.sy = L.r3.at(Math.max(0, Math.min(LW, a.x))) + 4;
+      var w = a.s * 2.9, h = a.s * 1.85;
+      rimStamp(a, w, h, a.dir > 0 ? a.s * 1.48 : a.s * 1.42, a.s * 1.7, sauropod, 'rgba(255,90,45,.55)');
     });
     if(S.walkers.every(function(a){ return a.dir > 0 ? a.x > LW + a.s * 1.6 : a.x < -a.s * 1.6; })){
       if(Math.random() < dt * .03) spawnWalkers(false);
     }
 
-    fog(S.fog[2]); fog(S.fog[3]);
-    ctx.drawImage(L.near, pan(.9), 0);
+    tile(L.fog, t * 10, H * .74, W * 1.2, H * .12, .7);
+    ctx.drawImage(L.l4, o4, 0);
 
-    /* embers rising */
-    S.embers.forEach(function(e, i){
-      e.y += e.vy * dt; e.sw += dt; e.life -= dt * .05;
-      if(e.y < H * .25 || e.life <= 0){ S.embers[i] = e = newEmber(false); }
-      var flick = .35 + Math.sin(e.sw * 7 + i) * .25;
-      ctx.fillStyle = 'rgba(255,' + (90 + (i % 3) * 30) + ',50,' + (flick * e.life).toFixed(3) + ')';
-      ctx.fillRect(e.x + Math.sin(e.sw * 1.3 + i) * 6, e.y, e.sz, e.sz);
+    /* palms and ferns up front, swaying a little */
+    L.plants.forEach(function(pl){
+      var img = pl.img, a = Math.sin(t * pl.sp + pl.ph) * .025;
+      var bx = pl.x + o4 * .2, by = H + 6;
+      ctx.save(); ctx.translate(bx, by); ctx.rotate(a);
+      ctx.drawImage(img, -img.width / 2, -img.height);
+      ctx.restore();
     });
+
+    /* embers */
+    ctx.globalCompositeOperation = 'lighter';
+    S.embers.forEach(function(e, i){
+      e.y += e.vy * dt; e.sw += dt; e.life -= dt * .04;
+      if(e.y < H * .3 || e.life <= 0){ S.embers[i] = e = newEmber(false); }
+      ctx.globalAlpha = (.35 + Math.sin(e.sw * 6 + i) * .25) * Math.min(1, e.life * 1.5);
+      ctx.drawImage(L.ember, e.x + Math.sin(e.sw * 1.2 + i) * 8, e.y, e.sz, e.sz);
+    });
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = 'source-over';
+
+    /* vignette and film grain: no flat color anywhere */
+    ctx.drawImage(L.vignette, 0, 0);
+    ctx.globalCompositeOperation = 'overlay';
+    ctx.globalAlpha = .07;
+    var gx = -Math.random() * 256, gy = -Math.random() * 256;
+    for(var yy = gy; yy < H; yy += 256) for(var xx = gx; xx < W; xx += 256) ctx.drawImage(L.grain, xx, yy);
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = 'source-over';
   }
 
-  var running = false;
   function start(){
     /* a tab opened in the background can report a 0x0 window; wait for a
        real size (the resize/visibility handlers call start again) */
     if(!innerWidth || !innerHeight) return;
     build();
-    if(REDUCED || !WIDE.matches){
-      running = false;
-      draw(0, 0);                 /* one still frame: the scene without the motion */
-      return;
-    }
+    if(REDUCED || !WIDE.matches){ running = false; draw(0, 0); return; }
     if(!running){ running = true; last = performance.now(); requestAnimationFrame(frame); }
   }
   var rt = null;

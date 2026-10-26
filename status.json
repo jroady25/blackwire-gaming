@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:21:35Z",
+  "generated_at": "2026-10-26T23:26:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -49,7 +49,6 @@
           "players": [
             "jandles13",
             "Luckyybear14",
-            "SpoggDarr",
             "Bretty Wat",
             "DriftNalg"
           ]
@@ -64,11 +63,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "UnspokenMello"
+            "UnspokenMello",
+            "VONSGOAT17323"
           ]
         },
         {
@@ -173,7 +173,8 @@
             "chri1058",
             "GreenOatis",
             "nasty_magician2",
-            "LeadSpoon2264"
+            "LeadSpoon2264",
+            "SpoggDarr"
           ]
         },
         {
@@ -201,7 +202,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -210,7 +211,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

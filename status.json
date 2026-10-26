@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:57:02Z",
+  "generated_at": "2026-10-26T09:02:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -145,7 +145,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
+          "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -166,14 +166,7 @@
           "map": null
         },
         {
-          "name": "BlackWire - Extinction - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -188,6 +181,13 @@
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

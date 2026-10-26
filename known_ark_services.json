@@ -69,8 +69,8 @@
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
-      "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v94.35)"
+      "service_id": "18111154",
+      "name": "BlackWire - Extinction - PVE - (v94.35)"
     },
     {
       "service_id": "18357526",
@@ -81,12 +81,8 @@
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
     {
-      "service_id": "18111154",
-      "name": "BlackWire - Extinction - PVE - (v94.35)"
-    },
-    {
-      "service_id": "19826461",
-      "name": "BlackWire - Decended - PVE - (v94.35)"
+      "service_id": "17681860",
+      "name": "BlackWire - Ragnarok - PVE - (v94.35)"
     },
     {
       "service_id": "18271504",
@@ -95,14 +91,18 @@
     {
       "service_id": "18111130",
       "name": "BlackWire - Astraeos - PVE - (v94.35)"
+    },
+    {
+      "service_id": "19826461",
+      "name": "BlackWire - Decended - PVE - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 37079797,
+    "offset": 37083146,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 37079797,
+    "log_size": 37083146,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

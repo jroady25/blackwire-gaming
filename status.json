@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:21:40Z",
+  "generated_at": "2026-10-26T04:26:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,8 +40,8 @@
           "players": [
             "Luckyybear14",
             "jandles13",
-            "EXDaydreamer",
-            "VLAD86"
+            "VLAD86",
+            "EXDaydreamer"
           ]
         },
         {
@@ -165,7 +165,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "SpoggDarr",
             "Slingshot",
             "KAKASHIxHATAKE97"
           ]
@@ -217,10 +216,9 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
           "map": null
         },
         {

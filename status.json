@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:46:23Z",
+  "generated_at": "2026-10-26T16:51:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -157,8 +157,7 @@
           "map": "TheIsland_WP",
           "players": [
             "nasty_magician2",
-            "own-loch4",
-            "runcrawlslither"
+            "own-loch4"
           ]
         },
         {

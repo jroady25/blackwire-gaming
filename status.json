@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:11:29Z",
+  "generated_at": "2026-10-26T20:16:32Z",
   "servers": {
     "ark": {
       "servers": [
@@ -35,7 +35,7 @@
           "players": []
         },
         {
-          "name": "Blackwire - Island - Primal Chaos - PVE - (v94.35)",
+          "name": "Blackwire - The Island - Primal Chaos - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -64,13 +64,15 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 5,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "EXDaydreamer",
             "I-Be-Stroganoff",
-            "Xx0BxX"
+            "Xx0BxX",
+            "UnspokenMello",
+            "VONSGOAT17323"
           ]
         },
         {
@@ -80,7 +82,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "baby-peak35"
+            "baby-peak35",
+            "santos_g3"
           ]
         },
         {
@@ -207,6 +210,15 @@
           "players": []
         },
         {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -222,15 +234,6 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T17:51:42Z",
           "names_hidden": true
         }
       ]

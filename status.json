@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:31:26Z",
+  "generated_at": "2026-10-26T19:36:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,7 +42,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -60,13 +60,13 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "EXDaydreamer",
             "own-loch4",
-            "VLAD86"
+            "I-Be-Stroganoff"
           ]
         },
         {
@@ -76,8 +76,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "baby-peak35",
-            "santos_g3"
+            "baby-peak35"
           ]
         },
         {
@@ -196,20 +195,21 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T17:11:24Z"
-        },
-        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         },
         {
@@ -222,13 +222,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
+          "offline_since": "2026-10-26T17:11:24Z"
         }
       ]
     },

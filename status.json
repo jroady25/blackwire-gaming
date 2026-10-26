@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:56:39Z",
+  "generated_at": "2026-10-26T18:01:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,7 +14,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -40,11 +40,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KodasBetter",
             "SpoggDarr",
             "Luckyybear14",
             "VLAD86"
@@ -161,7 +160,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "KodasBetter"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
@@ -188,7 +189,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -197,12 +198,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
+          "offline_since": "2026-10-26T17:51:42Z",
           "names_hidden": true
         },
         {
@@ -214,12 +215,12 @@
           "offline_since": "2026-10-26T17:11:24Z"
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-26T17:51:42Z",
+          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         }
       ]

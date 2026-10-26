@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-10-26T22:41:25Z",
+  "generated_at": "2026-10-26T22:46:33Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "runcrawlslither",
-            "Arigatu1"
+            "Arigatu1",
+            "Slingshot"
           ]
         },
         {
@@ -47,15 +48,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "jandles13",
             "SpoggDarr",
-            "Luckyybear14",
             "?",
-            "Harru"
+            "Harru",
+            "Luckyybear14"
           ]
         },
         {
@@ -68,17 +69,18 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "droc2887"
+            "droc2887",
+            "UnspokenMello"
           ]
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -172,7 +174,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -180,9 +182,7 @@
             "GreenOatis",
             "Derangedjoka",
             "nasty_magician2",
-            "doodlebac49",
-            "LeadSpoon2264",
-            "Slingshot"
+            "LeadSpoon2264"
           ]
         },
         {
@@ -210,12 +210,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-26T17:51:42Z",
+          "offline_since": "2026-10-26T20:21:37Z",
           "names_hidden": true
         },
         {
@@ -228,21 +228,21 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T20:21:37Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T15:41:37Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T17:51:42Z",
           "names_hidden": true
         }
       ]

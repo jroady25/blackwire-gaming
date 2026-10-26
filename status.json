@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:26:42Z",
+  "generated_at": "2026-10-26T12:31:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -174,14 +174,14 @@
           "players": []
         },
         {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

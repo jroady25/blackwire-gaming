@@ -1,17 +1,14 @@
 {
-  "generated_at": "2026-10-26T08:41:35Z",
+  "generated_at": "2026-10-26T08:47:04Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 1,
           "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": [
-            "GreenOatis"
-          ]
+          "map": "Ragnarok_WP"
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
@@ -27,23 +24,18 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "MRTICKLECLOWN10"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 1,
           "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": [
-            "Naykdtime"
-          ]
+          "map": "Astraeos_WP"
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP"
@@ -83,20 +75,11 @@
           "players": []
         },
         {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "map": "TheIsland_WP"
         },
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
@@ -198,6 +181,13 @@
           "map": null
         },
         {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -210,10 +200,9 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
           "map": null
         },
         {

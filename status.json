@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T01:01:37Z",
+  "generated_at": "2026-10-26T01:06:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,8 +40,8 @@
           "map": "Astraeos_WP",
           "players": [
             "JeepinAK",
-            "KodasBetter",
-            "VLAD86"
+            "VLAD86",
+            "KodasBetter"
           ]
         },
         {
@@ -62,10 +62,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Saladbar82"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
@@ -144,7 +146,6 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "Quigley",
             "doodlebac49"
           ]
         },
@@ -159,7 +160,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 9,
+          "players_current": 8,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -167,11 +168,11 @@
             "Rowena",
             "Reilig",
             "Ben-Doverson",
-            "serious_booth4",
             "?",
             "EXDaydreamer",
             "Bretty Wat",
-            "KP Gaming"
+            "KP Gaming",
+            "Quigley"
           ]
         },
         {

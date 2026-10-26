@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T19:56:30Z",
+  "generated_at": "2026-10-26T20:01:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,7 +16,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
@@ -49,7 +49,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "SpoggDarr"
+            "SpoggDarr",
+            "Bretty Wat"
           ]
         },
         {
@@ -62,24 +63,24 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "EXDaydreamer",
             "I-Be-Stroganoff",
-            "Bretty Wat",
             "Xx0BxX"
           ]
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "baby-peak35"
+            "baby-peak35",
+            "santos_g3"
           ]
         },
         {
@@ -207,21 +208,21 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         },
         {

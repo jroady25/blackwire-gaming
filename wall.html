@@ -1204,5 +1204,211 @@ section.zone{
   setInterval(function(){ if(last) stampSync(last.generated_at, false); }, 30000);
 })();
 </script>
+<script>
+/* ============================================================
+   CRITTERS -- now and then a flock of crows flies across the wall, or a
+   raptor (sometimes a small pack) sprints along the bottom. Dark
+   silhouettes with a red rim and red eyes, drawn on a canvas above the
+   board; nothing to click, nothing blocked for more than a moment.
+   PREVIEW: runs only when the URL has ?critters in it.
+   ============================================================ */
+(function(){
+  'use strict';
+  if(!/[?&]critters\b/.test(location.search)) return;
+  if(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var wide = window.matchMedia('(min-aspect-ratio: 1001/1000) and (min-width: 901px)');
+
+  var cv = document.createElement('canvas');
+  cv.setAttribute('aria-hidden', 'true');
+  cv.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:5';
+  document.body.appendChild(cv);
+  var ctx = cv.getContext('2d'), W = 0, H = 0, DPR = 1;
+  function fit(){
+    DPR = Math.min(2, window.devicePixelRatio || 1);
+    W = innerWidth; H = innerHeight;
+    cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
+  }
+  fit();
+  addEventListener('resize', fit);
+
+  var BODY = '#070303', EYE = '#ff4433', RIM = 'rgba(226,35,26,.8)';
+  var TAU = Math.PI * 2;
+  function rnd(a, b){ return a + Math.random() * (b - a); }
+
+  /* each shape is drawn in its own units (1 = about one body length),
+     inside this box, then scaled to the critter's size */
+  var BOX = {
+    crow:   { x0:-.68, x1:.68, y0:-.58, y1:.52 },
+    raptor: { x0:-1.06, x1:.86, y0:-.56, y1:.82 }
+  };
+
+  /* ---------- crow: the classic spread-wing "M" silhouette ----------
+     The elbow leads and the wingtip follows a beat behind, which is what
+     makes a flap read as a flap instead of a hinge. */
+  function wing(c, s, ph){
+    var e = Math.cos(ph), tp = Math.cos(ph - .7);
+    var ex = s * .27, ey = -.06 - e * .2, tx = s * .62, ty = -.04 - tp * .42;
+    c.beginPath();
+    c.moveTo(s * .04, -.07);
+    c.quadraticCurveTo(s * .15, ey - .06, ex, ey - .02);              /* leading edge */
+    c.quadraticCurveTo(s * .45, (ey + ty) / 2 - .06, tx, ty);
+    c.lineTo(s * .53, ty + .06); c.lineTo(s * .55, ty + .1);          /* ragged primaries */
+    c.lineTo(s * .46, ty * .5 + ey * .5 + .1); c.lineTo(s * .47, ty * .4 + ey * .6 + .13);
+    c.lineTo(s * .38, ey + .1);
+    c.quadraticCurveTo(s * .2, ey + .12, s * .05, .05);              /* trailing edge */
+    c.closePath(); c.fill();
+  }
+  function drawCrow(c, a){
+    var ph = a.gl > 0 ? 1.15 : a.ph;            /* gliding: wings held just above level */
+    c.fillStyle = BODY;
+    wing(c, -1, ph); wing(c, 1, ph);
+    c.beginPath(); c.ellipse(0, .02, .075, .12, 0, 0, TAU); c.fill();  /* body */
+    c.beginPath(); c.arc(0, -.1, .065, 0, TAU); c.fill();              /* head */
+    c.beginPath(); c.moveTo(-.055, .1); c.lineTo(-.03, .25);          /* tail */
+    c.lineTo(.03, .25); c.lineTo(.055, .1); c.closePath(); c.fill();
+    c.fillStyle = EYE;
+    c.beginPath(); c.arc(0, -.105, .022, 0, TAU); c.fill();
+  }
+
+  /* ---------- raptor, side view, running ---------- */
+  function leg(c, t, alpha){
+    /* the foot traces an oval: planted while it slides back, lifted as it
+       swings forward; a two-bone reach puts the knee forward and the
+       ankle back, the way a bird's leg folds */
+    var fx = .05 + .27 * Math.cos(t), fy = .66 - Math.max(0, Math.sin(t)) * .15;
+    var hx = .02, hy = .03, ax = fx - .07, ay = fy - .15, L = .3;
+    var dx = ax - hx, dy = ay - hy, d = Math.min(2 * L - .001, Math.hypot(dx, dy));
+    var ang = Math.atan2(dy, dx), bend = Math.acos(d / (2 * L));
+    var kx = hx + L * Math.cos(ang - bend), ky = hy + L * Math.sin(ang - bend);
+    c.globalAlpha = alpha;
+    c.lineWidth = .12; c.beginPath(); c.moveTo(hx, hy); c.lineTo(kx, ky); c.stroke();
+    c.lineWidth = .065; c.beginPath(); c.moveTo(kx, ky); c.lineTo(ax, ay); c.lineTo(fx, fy);
+    c.lineTo(fx + .11, fy + .005); c.stroke();
+    c.globalAlpha = 1;
+  }
+  function drawRaptor(c, a){
+    var t = a.ph;
+    c.fillStyle = BODY; c.strokeStyle = BODY;
+    c.lineCap = 'round'; c.lineJoin = 'round';
+    leg(c, t + Math.PI, .85);                               /* far leg */
+    c.save();
+    c.translate(0, -Math.abs(Math.sin(t)) * .035);          /* bob with the stride */
+    var wag = Math.sin(t * .5) * .035;
+    c.beginPath();                                          /* tail */
+    c.moveTo(-.04, -.13);
+    c.quadraticCurveTo(-.5, -.21 + wag, -1.02, -.17 + wag * 2);
+    c.quadraticCurveTo(-.5, -.05 + wag, -.02, .08);
+    c.closePath(); c.fill();
+    c.beginPath(); c.ellipse(.12, -.03, .31, .135, -.12, 0, TAU); c.fill();   /* body */
+    c.beginPath();                                          /* neck */
+    c.moveTo(.29, -.13); c.quadraticCurveTo(.42, -.23, .5, -.37);
+    c.lineTo(.61, -.34); c.quadraticCurveTo(.5, -.16, .43, .03);
+    c.closePath(); c.fill();
+    var jaw = .015 + Math.max(0, Math.sin(t)) * .03;
+    c.beginPath();                                          /* head and jaw */
+    c.moveTo(.47, -.43); c.quadraticCurveTo(.56, -.5, .67, -.46);
+    c.lineTo(.84, -.41); c.lineTo(.84, -.375); c.lineTo(.63, -.355);
+    c.lineTo(.8, -.335 + jaw); c.lineTo(.6, -.295);
+    c.quadraticCurveTo(.5, -.29, .46, -.36);
+    c.closePath(); c.fill();
+    c.lineWidth = .04;                                      /* arm and claws */
+    c.beginPath(); c.moveTo(.37, -.02); c.lineTo(.44, .08); c.lineTo(.53, .1); c.stroke();
+    c.fillStyle = EYE;
+    c.beginPath(); c.arc(.61, -.425, .016, 0, TAU); c.fill();
+    c.restore();
+    leg(c, t, 1);                                           /* near leg */
+  }
+
+  /* ---------- the cast ---------- */
+  var actors = [], running = false, last = 0;
+
+  function startX(dir, s, i, gap){
+    return dir > 0 ? -s * 1.2 - i * gap : W + s * 1.2 + i * gap;
+  }
+
+  function flock(){
+    var dir = Math.random() < .5 ? 1 : -1;
+    var n = Math.round(rnd(3, 6)), baseY = rnd(.14, .6) * H, base = Math.min(W, H) * rnd(.05, .065);
+    var v = W / rnd(10, 14);
+    for(var i = 0; i < n; i++){
+      var s = base * rnd(.72, 1.15);
+      actors.push({ kind:'crow', s:s, dir:dir, v:v * rnd(.92, 1.08),
+        x:startX(dir, s, i, rnd(.6, 1.6) * base), y:0, y0:baseY + rnd(-1, 1) * H * .07,
+        ph:rnd(0, TAU), f:rnd(2.1, 2.7), seed:rnd(0, TAU), gl:0 });
+    }
+  }
+  function pack(){
+    var dir = Math.random() < .5 ? 1 : -1;
+    var n = Math.random() < .55 ? 1 : Math.round(rnd(2, 3));
+    var ground = H * .965, v = W / rnd(5.5, 7.5);
+    for(var i = 0; i < n; i++){
+      var s = H * rnd(.085, .115);
+      actors.push({ kind:'raptor', s:s, dir:dir, v:v * rnd(.95, 1.05),
+        x:startX(dir, s, i, s * rnd(1.7, 2.6)), y:ground - .66 * s,
+        ph:rnd(0, TAU) });
+    }
+  }
+
+  function step(a, dt){
+    a.x += a.dir * a.v * dt;
+    if(a.kind === 'crow'){
+      if(a.gl > 0) a.gl -= dt;
+      else {
+        var before = a.ph % TAU;
+        a.ph += dt * a.f * TAU;
+        /* now and then a crow stops flapping and glides for a moment */
+        if(a.ph % TAU < before && Math.random() < .22) a.gl = rnd(.4, .9);
+      }
+      a.y = a.y0 + Math.sin(a.x * .004 + a.seed) * a.s * .35 + (a.gl > 0 ? 0 : Math.sin(a.ph) * a.s * .05);
+    } else {
+      a.ph += dt * a.v / (1.15 * a.s) * TAU;
+    }
+  }
+
+  function draw(a){
+    var b = BOX[a.kind], k = a.s * DPR;
+    var w = Math.ceil((b.x1 - b.x0) * k) + 4, h = Math.ceil((b.y1 - b.y0) * k) + 4;
+    var oc = a.oc || (a.oc = document.createElement('canvas'));
+    if(oc.width !== w || oc.height !== h){ oc.width = w; oc.height = h; }
+    var c = oc.getContext('2d');
+    c.setTransform(1, 0, 0, 1, 0, 0);
+    c.clearRect(0, 0, w, h);
+    /* facing the way it travels */
+    c.setTransform(a.dir * k, 0, 0, k, (a.dir > 0 ? -b.x0 : b.x1) * k + 2, -b.y0 * k + 2);
+    if(a.kind === 'crow') drawCrow(c, a); else drawRaptor(c, a);
+    var left = a.dir > 0 ? a.x + b.x0 * a.s : a.x - b.x1 * a.s;
+    /* one red glow around the whole silhouette */
+    ctx.shadowColor = RIM;
+    ctx.shadowBlur = 9 * DPR;
+    ctx.drawImage(oc, left * DPR - 2, (a.y + b.y0 * a.s) * DPR - 2);
+    ctx.shadowBlur = 0;
+  }
+
+  function frame(now){
+    var dt = Math.min(.05, Math.max(0, (now - last) / 1000)); last = now;
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, cv.width, cv.height);
+    actors.forEach(function(a){ step(a, dt); });
+    actors = actors.filter(function(a){
+      var m = a.s * 1.4;
+      return a.dir > 0 ? (a.x - m < W || a.x < 0) : (a.x + m > 0 || a.x > W);
+    });
+    actors.forEach(draw);
+    if(actors.length) requestAnimationFrame(frame);
+    else { running = false; ctx.clearRect(0, 0, cv.width, cv.height); }
+  }
+
+  function go(kind){
+    if(!wide.matches || document.hidden) return;
+    (kind || (Math.random() < .55 ? flock : pack))();
+    if(!running){ running = true; last = performance.now(); requestAnimationFrame(frame); }
+  }
+
+  /* preview: crows after 3s, a raptor run after 14s, then every 1-2.5 minutes */
+  setTimeout(function(){ go(flock); }, 3000);
+  setTimeout(function(){ go(pack); }, 14000);
+  (function later(){ setTimeout(function(){ go(); later(); }, rnd(60, 150) * 1000); })();
+})();
+</script>
 </body>
 </html>

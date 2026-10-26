@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T10:12:35Z",
+  "generated_at": "2026-10-26T10:17:37Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,7 +17,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "NOA"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
@@ -32,14 +34,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP"
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
@@ -82,14 +76,22 @@
           "players": []
         },
         {
-          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
+          "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "players": []
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
+          "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -111,7 +113,7 @@
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -125,42 +127,6 @@
           "map": null
         },
         {
-          "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
-          "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 26,
-          "map": null
-        },
-        {
-          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
-          "name": "BlackWire - Valguero - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -168,7 +134,14 @@
           "map": null
         },
         {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -179,6 +152,35 @@
           "online": false,
           "players_current": 0,
           "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 26,
           "map": null
         }
       ]

@@ -89,20 +89,20 @@
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v94.35)"
-    },
-    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 36801867,
+    "offset": 36805410,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 36801867,
+    "log_size": 36805215,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

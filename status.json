@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:51:33Z",
+  "generated_at": "2026-10-26T22:55:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,15 +17,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Itz finnnnnn",
             "hzrow",
             "Dat_Boi_Mike_70",
-            "DriftNalg",
-            "Sniffy7990"
+            "DriftNalg"
           ]
         },
         {
@@ -47,14 +45,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "jandles13",
             "SpoggDarr",
             "?",
-            "Harru",
             "Luckyybear14"
           ]
         },
@@ -79,11 +76,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "POSEIDON",
             "baby-peak35"
           ]
         },
@@ -182,7 +178,6 @@
             "Derangedjoka",
             "nasty_magician2",
             "LeadSpoon2264",
-            "Slingshot",
             "XxDarkDragonnxX"
           ]
         },
@@ -211,15 +206,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -244,6 +230,15 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         }
       ]

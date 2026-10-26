@@ -1160,15 +1160,41 @@ def poll_once_human_group(entries):
         if entry.get("host"):
             result = query_once_human_a2s(entry["host"], entry.get("query_port", 27016))
         if result is None:
+            # players_current None = "online, but no count exists" -- the
+            # wall and site show a dash instead of a made-up 0.
             results.append({
                 "name": name, "online": True,
-                "players_current": 0, "players_max": entry.get("players_max", 20),
+                "players_current": None, "players_max": entry.get("players_max", 20),
             })
         else:
             results.append({"name": name, "online": True, **result})
     return results
  
  
+_PVP_NAME = re.compile(r"\bpvp\b", re.IGNORECASE)
+
+
+def is_pvp_name(name):
+    return bool(_PVP_NAME.search(name or ""))
+
+
+def hide_pvp_rosters(status):
+    """PvP servers keep their head count but never publish who is on.
+    status.json is public (the wall, the homepage feed, and anyone who
+    opens the file), and on PvP a list of who's online tells an enemy
+    tribe when a base is empty. Any server with PvP in its name, in any
+    game, has its "players" list dropped and is flagged names_hidden.
+    Staff still see live rosters through the admin panel's own RCON."""
+    hidden = 0
+    for bucket in (status.get("servers") or {}).values():
+        for row in (bucket or {}).get("servers") or []:
+            if is_pvp_name(row.get("name")):
+                row["names_hidden"] = True
+                if row.pop("players", None) is not None:
+                    hidden += 1
+    return hidden
+
+
 def main():
     parser = argparse.ArgumentParser(description="Poll BlackWire's game servers and write status.json")
     parser.add_argument("--config", default="config.json")
@@ -1325,6 +1351,10 @@ def main():
                 slug = f"other_{slug}"
             status["servers"][slug] = bucket
  
+    hidden = hide_pvp_rosters(status)
+    if hidden:
+        log(f"PvP: player names withheld for {hidden} server(s).")
+
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(status, f, indent=2)
     log(f"Wrote {args.out}")

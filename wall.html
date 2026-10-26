@@ -292,7 +292,22 @@ section.zone{
   align-content:stretch;
   grid-auto-rows:minmax(0, 1fr);
 }
-#ark-grid{ grid-template-columns:repeat(auto-fill, minmax(clamp(150px,13.5vw,300px), 1fr)); }
+#ark-grid, #pvp-grid{ grid-template-columns:repeat(auto-fill, minmax(clamp(150px,13.5vw,300px), 1fr)); }
+
+/* ARK is split by mode: PvE gets the big board, PvP sits under it.
+   render() sets the two row heights from the plate counts so a plate is
+   the same size in both zones. */
+.col.main{ grid-template-rows:minmax(0,1fr) auto; }
+.zone.pvp .zone-head h2{ border-left-color:var(--live); }
+.zone-head .chip{
+  align-self:center;
+  font-size:clamp(7px,.5vw,12px);
+  letter-spacing:.2em; text-transform:uppercase;
+  color:var(--text-dim);
+  border:1px solid var(--line);
+  padding:.25em .6em;
+  white-space:nowrap;
+}
 
 /* Palworld/Once Human only ever hold 1-3 servers. Stretching two plates to
    fill an entire half-column of a 1080-tall board leaves them mostly empty
@@ -450,6 +465,17 @@ section.zone{
 }
 .roster:empty::before{ content:'—'; color:var(--line); }
 
+/* group tag (JKRZ etc.) kept beside the short server name */
+.srv .name .tag{
+  flex:0 0 auto;
+  font-family:var(--font-mono); font-weight:500;
+  font-size:.62em; letter-spacing:.12em;
+  color:var(--text-faint);
+  border:1px solid var(--line);
+  padding:.1em .4em;
+}
+.roster.hidden{ color:var(--text-faint); font-style:italic; letter-spacing:.08em; }
+
 /* ---------------- footer ---------------- */
 
 .foot{
@@ -480,7 +506,8 @@ section.zone{
   .grid{ grid-auto-rows:auto; align-content:start; }
   .srv{ align-content:start; gap:clamp(3px,1vw,8px); }
   .srv .count{ font-size:clamp(20px,7vw,40px); }
-  #ark-grid{ grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); }
+  #ark-grid, #pvp-grid{ grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); }
+  .col.main{ grid-template-rows:auto auto !important; }
 }
 </style>
 </head>
@@ -523,13 +550,22 @@ section.zone{
   </div>
 
   <div class="board">
-    <div class="col">
+    <div class="col main" id="ark-col">
       <section class="zone">
         <div class="zone-head">
-          <h2>ARK — Survival Ascended</h2>
-          <div class="meta"><b id="ark-up">0</b>/<span id="ark-total">0</span> online · <b id="ark-players">0</b> players</div>
+          <h2>ARK &mdash; PvE</h2>
+          <div class="meta"><b id="ark-up">0</b>/<span id="ark-total">0</span> online &middot; <b id="ark-players">0</b> players</div>
         </div>
         <div class="grid" id="ark-grid"></div>
+      </section>
+
+      <section class="zone pvp" id="pvp-zone">
+        <div class="zone-head">
+          <h2>ARK &mdash; PvP</h2>
+          <span class="chip">Names hidden</span>
+          <div class="meta"><b id="pvp-up">0</b>/<span id="pvp-total">0</span> online &middot; <b id="pvp-players">0</b> players</div>
+        </div>
+        <div class="grid" id="pvp-grid"></div>
       </section>
     </div>
 
@@ -561,6 +597,7 @@ section.zone{
     <div class="marks">
       <span class="key"><i class="live"></i> Online</span>
       <span class="key"><i class="dark"></i> Offline</span>
+      <span class="key" id="ark-ver"></span>
     </div>
     <div class="err" id="err"></div>
     <div id="stamp">blackwiregaming.com</div>
@@ -582,7 +619,7 @@ section.zone{
   /* Last known payload, so a single failed fetch doesn't blank the wall.
      Seeded with a snapshot to keep the board populated on first paint
      and in any preview where the fetch can't reach the live file. */
-  var SNAPSHOT = {"generated_at":null,"servers":{"ark":{"servers":[{"name":"Event Map — Club Ark","online":false,"players_current":0,"players_max":0,"map":null},{"name":"Ragnarok — PVE","online":true,"players_current":1,"players_max":20,"map":"Ragnarok_WP","players":["Arigatu1"]}]},"palworld":{"servers":[{"name":"Palworld Server 1","online":true,"players_current":1,"players_max":16,"players":["StankGoose"],"map":null},{"name":"Palworld Server 2","online":true,"players_current":0,"players_max":16,"players":[],"map":null}]},"once_human":{"servers":[{"name":"Once Human — PVE","online":false,"players_current":0,"players_max":20},{"name":"Once Human — PVP","online":false,"players_current":0,"players_max":20}]}}};
+  var SNAPSHOT = {"generated_at":null,"servers":{"ark":{"servers":[{"name":"BlackWire - Ragnarok - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Ragnarok_WP","players":[]},{"name":"BlackWire - Valguero - PVE - (v94.35)","online":true,"players_current":1,"players_max":20,"map":"Valguero_WP","players":["TUBBS TADL"]},{"name":"BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Astraeos_WP","players":[]},{"name":"BlackWire - Astraeos - PVE - (v94.35)","online":true,"players_current":1,"players_max":20,"map":"Astraeos_WP","players":["Bretty Wat"]},{"name":"BlackWire - Extinction - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Extinction_WP"},{"name":"BlackWire - Saiyan Legacy - PVP - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Extinction_WP","names_hidden":true},{"name":"Blackwire - Astraeos - Primal Chaos - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Astraeos_WP","players":[]},{"name":"Blackwire - Ragnarok - Jurassic Awakening - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Ragnarok_WP"},{"name":"BlackWire - The Fractured Seas - Rp - (v94.35)","online":true,"players_current":0,"players_max":26,"map":"Genesis_WP","players":[]},{"name":"BlackWire - Decended - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Ragnarok_WP","players":[]},{"name":"BlackWire (JKRZ) - Event Map - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"TheIsland_WP","players":[]},{"name":"BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"TheIsland_WP","names_hidden":true},{"name":"BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Svartalfheim_WP"},{"name":"BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Forglar_WP","players":[]},{"name":"BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"ScorchedEarth_WP","players":[]},{"name":"BlackWire (JKRZ) - Abberation - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Aberration_WP","players":[]},{"name":"BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"LostColony_WP","players":[]},{"name":"Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Forglar2_WP","players":[]},{"name":"BlackWire (JKRZ) - The Island - PVE - (v94.35)","online":true,"players_current":1,"players_max":20,"map":"TheIsland_WP","players":["nasty_magician2"]},{"name":"BlackWire (JKRZ) - The Center - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"TheCenter_WP","players":[]},{"name":"BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Genesis_WP","players":[]},{"name":"BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)","online":true,"players_current":0,"players_max":20,"map":"Bjarnheim_WP","players":[]},{"name":"BlackWire - Ragnarok - PVP - (v94.35)","online":false,"players_current":0,"players_max":20,"map":null,"names_hidden":true},{"name":"BlackWire - The Island - PVP - (v94.35)","online":false,"players_current":0,"players_max":20,"map":null,"names_hidden":true}]},"palworld":{"servers":[{"name":"Palworld Server 1","online":true,"players_current":0,"players_max":16,"players":[],"map":null},{"name":"Palworld Server 2","online":true,"players_current":0,"players_max":16,"players":[],"map":null}]},"once_human":{"servers":[{"name":"Manibus","online":true,"players_current":null,"players_max":20},{"name":"Endless Dreams","online":true,"players_current":null,"players_max":20},{"name":"Isles of the Abyss","online":true,"players_current":null,"players_max":20}]},"dragonwilds":{"label":"Runescape: Dragonwilds","servers":[{"service_id":"19957897","name":"Runescape: Dragonwilds","online":true,"players_current":0,"players_max":6,"map":null,"players":[]}]}}};
 
   var el = function(id){ return document.getElementById(id); };
 
@@ -618,6 +655,42 @@ section.zone{
     });
   }
 
+  /* PvP servers never show who's on. The poller already drops the names
+     before status.json is written; this is the second lock so an older
+     cached file or the snapshot can't show them either. */
+  function isPvp(srv){
+    return !!(srv && (srv.names_hidden || /\bpvp\b/i.test(srv.name || '')));
+  }
+
+  /* Plate titles: the full Nitrado name ("BlackWire (JKRZ) - The Island -
+     PVE - (v94.35)") is mostly noise on a board that is already
+     BlackWire's, already split by mode, and shows the ARK version once in
+     the footer. Keep the name players know the server by, plus any group
+     tag. The full name stays in the hover title. */
+  function splitName(name){
+    var full = String(name || '').trim();
+    var s = full.replace(/\s*-?\s*\(v[\d.]+\)\s*$/i, '');
+    s = s.replace(/\s*-\s*pv[ep]\s*$/i, '');
+    var tag = '';
+    var m = s.match(/^black\s*wire\b\s*(limited)?\s*(?:\(([^)]*)\))?\s*-?\s*/i);
+    if(m && m[0].length < s.length){
+      tag = [m[1], m[2]].filter(Boolean).join(' ');
+      s = s.slice(m[0].length);
+    }
+    s = s.replace(/^-\s*/, '').trim();
+    return { title: s || full, tag: tag };
+  }
+
+  function arkVersion(list){
+    var v = null, same = true;
+    list.forEach(function(s){
+      var m = String(s.name || '').match(/\(v([\d.]+)\)\s*$/i);
+      if(!m) return;
+      if(v === null) v = m[1]; else if(v !== m[1]) same = false;
+    });
+    return (v && same) ? v : '';
+  }
+
   function plate(srv, hero){
     var on   = !!srv.online;
     /* players_current === null means "online, but this game exposes no
@@ -628,7 +701,9 @@ section.zone{
     var max  = srv.players_max|0;
     var pct  = (on && !unknown && max>0) ? Math.min(100, Math.round(cur/max*100)) : 0;
     var pop  = on && !unknown && cur>0;
-    var list = Array.isArray(srv.players)
+    var pvp  = isPvp(srv);
+    var nm   = splitName(srv.name);
+    var list = (!pvp && Array.isArray(srv.players))
       ? srv.players.map(function(p){ return String(p).trim(); }).filter(Boolean)
       : [];
 
@@ -636,7 +711,8 @@ section.zone{
     var ml  = mapLine(srv);
 
     return '<div class="' + cls + '">'
-      + '<div class="name"><i class="dot"></i><span>' + esc(srv.name) + '</span></div>'
+      + '<div class="name"><i class="dot"></i><span title="' + esc(srv.name) + '">' + esc(nm.title) + '</span>'
+        + (nm.tag ? '<b class="tag">' + esc(nm.tag) + '</b>' : '') + '</div>'
       + '<div class="row">'
         + '<div class="map">' + (on ? (ml || 'Online') : 'Offline') + '</div>'
         + '<div class="count">' + (on && !unknown ? cur : '—')
@@ -644,7 +720,9 @@ section.zone{
         + '</div>'
       + '</div>'
       + '<div class="bar"><i style="width:' + pct + '%"></i></div>'
-      + '<div class="roster">' + esc(list.join(', ')) + '</div>'
+      + (pvp
+          ? '<div class="roster hidden">' + (pop ? 'Names hidden' : '') + '</div>'
+          : '<div class="roster">' + esc(list.join(', ')) + '</div>')
       + '</div>';
   }
 
@@ -708,9 +786,29 @@ section.zone{
     }).map(function(pair){ return pair[0]; });
   }
 
+  /* Give each ARK zone rows in proportion to how many plates it holds,
+     so a plate is the same size in PvE and PvP instead of PvP being
+     squashed (or PvE stretched) to fill the column. */
+  function sizeArk(){
+    var col = el('ark-col'), pve = el('ark-grid'), pvp = el('pvp-grid');
+    if(!col || !pve || !pvp) return;
+    if(!pvp.children.length){ col.style.gridTemplateRows = ''; return; }
+    var cols = getComputedStyle(pve).gridTemplateColumns.split(' ').filter(Boolean).length || 1;
+    function cells(g){
+      var n = 0;
+      Array.prototype.forEach.call(g.children, function(c){ n += c.classList.contains('hero') ? 4 : 1; });
+      return n;
+    }
+    var a = Math.max(1, Math.ceil(cells(pve) / cols));
+    var b = Math.max(1, Math.ceil(cells(pvp) / cols));
+    col.style.gridTemplateRows = 'minmax(0,' + (a + .4) + 'fr) minmax(0,' + (b + .4) + 'fr)';
+  }
+
   function render(data){
     var g   = (data && data.servers) || {};
-    var ark = byActivity((g.ark && g.ark.servers) || []);
+    var arkAll = (g.ark && g.ark.servers) || [];
+    var ark = byActivity(arkAll.filter(function(s){ return !isPvp(s); }));
+    var pvp = byActivity(arkAll.filter(isPvp));
     var pal = byActivity((g.palworld && g.palworld.servers) || []);
     var oh  = byActivity((g.once_human && g.once_human.servers) || []);
 
@@ -719,25 +817,32 @@ section.zone{
     el('ark-grid').innerHTML = ark.map(function(s, i){
       return plate(s, i === 0 && (s.players_current|0) > 0);
     }).join('');
+    el('pvp-grid').innerHTML = pvp.map(function(s){ return plate(s, false); }).join('');
+    el('pvp-zone').style.display = pvp.length ? '' : 'none';
     el('pal-grid').innerHTML = pal.map(function(s){ return plate(s, false); }).join('');
     el('oh-grid').innerHTML  = oh.map(function(s){ return plate(s, false); }).join('');
 
-    var ta = tally(ark), tp = tally(pal), to = tally(oh);
+    var ta = tally(ark), tv = tally(pvp), tp = tally(pal), to = tally(oh);
     var extra = renderExtraZones(g);
 
     el('ark-up').textContent     = ta.up;
     el('ark-total').textContent  = ta.total;
     el('ark-players').textContent= ta.players;
+    el('pvp-up').textContent     = tv.up;
+    el('pvp-total').textContent  = tv.total;
+    el('pvp-players').textContent= tv.players;
+    var ver = arkVersion(arkAll);
+    el('ark-ver').textContent    = ver ? 'ARK v' + ver : '';
     el('pal-up').textContent     = tp.up;
     el('pal-total').textContent  = tp.total;
     el('oh-up').textContent      = to.up;
     el('oh-total').textContent   = to.total;
 
-    var players = ta.players + tp.players + to.players;
-    var up      = ta.up + tp.up + to.up;
-    var total   = ta.total + tp.total + to.total;
-    var slots   = ta.slots + tp.slots + to.slots;
-    var pop     = ta.pop + tp.pop + to.pop;
+    var players = ta.players + tv.players + tp.players + to.players;
+    var up      = ta.up + tv.up + tp.up + to.up;
+    var total   = ta.total + tv.total + tp.total + to.total;
+    var slots   = ta.slots + tv.slots + tp.slots + to.slots;
+    var pop     = ta.pop + tv.pop + tp.pop + to.pop;
     extra.forEach(function(t){
       players += t.players; up += t.up; total += t.total; slots += t.slots; pop += t.pop;
     });
@@ -746,6 +851,7 @@ section.zone{
     el('s-up').innerHTML        = up + '<span class="of">/' + total + '</span>';
     el('s-cap').innerHTML       = (slots ? Math.round(players/slots*100) : 0) + '<span class="of">%</span>';
     el('s-pop').textContent     = pop;
+    sizeArk();
   }
 
   function stampSync(iso, failed){
@@ -792,6 +898,7 @@ section.zone{
   pull();
   setInterval(clock, 10000);
   setInterval(pull, REFRESH_MS);
+  window.addEventListener('resize', sizeArk);
   /* re-age the "Xm ago" label between pulls so it never looks frozen */
   setInterval(function(){ if(last) stampSync(last.generated_at, false); }, 30000);
 })();

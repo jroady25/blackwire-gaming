@@ -33,7 +33,8 @@
   ],
 
     "once_human_servers": [
-    {"name": "Once Human — PVE", "host": "", "query_port": 27016, "players_max": 20},
-    {"name": "Once Human — PVP", "host": "", "query_port": 27016, "players_max": 20}
+    {"name": "Manibus", "host": "", "query_port": 27016, "players_max": 20},
+    {"name": "Endless Dreams", "host": "", "query_port": 27016, "players_max": 20},
+    {"name": "Isles of the Abyss", "host": "", "query_port": 27016, "players_max": 20}
     ]
 }

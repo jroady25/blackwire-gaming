@@ -79,6 +79,15 @@
   // when the poller actually got real names for that server (ARK
   // servers without RCON creds, or any server with nobody on, simply
   // don't get one — no fabricated names, ever).
+  // PvP servers never list who's on (the poller already drops the
+  // names; this is the second lock for an older cached status.json).
+  function isPvp(s){
+    return !!(s && (s.names_hidden || /\bpvp\b/i.test(s.name || '')));
+  }
+  function pvpLine(s){
+    return (s.players_current > 0) ? '<div class="who-on">Names hidden on PvP</div>' : '';
+  }
+
   function namesLine(players){
     if(!Array.isArray(players) || !players.length) return '';
     var shown = players.slice(0, NAMES_SHOWN).map(escapeHtml);
@@ -106,7 +115,7 @@
       return '<tr><td><span class="' + dotClass + '"></span>' + escapeHtml(s.name) + '</td>' +
              '<td><span class="srv-count">' + (unknown ? '\u2014' : s.players_current) + '/' + s.players_max + '</span>' +
              '<span class="cap-bar" aria-hidden="true"><span style="width:' + pct + '%"></span></span>' +
-             namesLine(s.players) + '</td></tr>';
+             (isPvp(s) ? pvpLine(s) : namesLine(s.players)) + '</td></tr>';
     });
     body.innerHTML = rows.join('');
   }

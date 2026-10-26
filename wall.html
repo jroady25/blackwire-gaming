@@ -493,6 +493,13 @@ section.zone{
 .foot .key i.live{ background:var(--blood); }
 .foot .key i.dark{ background:var(--text-faint); }
 .foot .err{ color:var(--pending); letter-spacing:.14em; }
+.foot{ flex-wrap:wrap; }
+/* Once Human has no live data, so it gets one honest line here instead
+   of plates that never change. */
+.foot .oh{ color:var(--text-faint); letter-spacing:.14em; }
+.foot .oh b{ color:var(--text-dim); font-weight:600; }
+.foot .oh a{ color:var(--blood-text); text-decoration:none; }
+.foot .oh a:hover, .foot .oh a:focus-visible{ text-decoration:underline; outline:none; }
 
 /* ---------------- narrow / portrait fallback ---------------- */
 
@@ -591,6 +598,7 @@ section.zone{
       <span class="key"><i class="dark"></i> Offline</span>
       <span class="key" id="ark-ver"></span>
     </div>
+    <div class="oh" id="oh-note"></div>
     <div class="err" id="err"></div>
     <div id="stamp">blackwiregaming.com</div>
   </footer>
@@ -842,6 +850,13 @@ section.zone{
     el('s-up').innerHTML        = up + '<span class="of">/' + total + '</span>';
     el('s-cap').innerHTML       = (slots ? Math.round(players/slots*100) : 0) + '<span class="of">%</span>';
     el('s-pop').textContent     = pop;
+
+    var oh = ((g.once_human && g.once_human.servers) || [])
+      .map(function(s){ return s.name; }).filter(Boolean);
+    el('oh-note').innerHTML = oh.length
+      ? '<b>Once Human</b> &middot; ' + oh.map(esc).join(' &middot; ')
+        + ' &middot; no live feed, see <a href="https://discord.gg/blackwire" target="_blank" rel="noopener">Discord</a>'
+      : '';
     sizeArk();
   }
 

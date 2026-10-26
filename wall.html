@@ -578,14 +578,6 @@ section.zone{
         <div class="grid" id="pal-grid"></div>
       </section>
 
-      <section class="zone">
-        <div class="zone-head">
-          <h2>Once Human</h2>
-          <div class="meta"><b id="oh-up">0</b>/<span id="oh-total">0</span></div>
-        </div>
-        <div class="grid" id="oh-grid"></div>
-      </section>
-
       <!-- Any other game the poller finds on Nitrado (e.g. RuneScape:
            Dragonwilds) gets its own zone here, built from status.json at
            render time -- no edit to this page needed when one is added. -->
@@ -745,6 +737,9 @@ section.zone{
 
   /* Game keys the fixed zones above already render; everything else in
      status.json's "servers" is an "other" game and gets a zone of its own. */
+  /* once_human is listed here so it never gets a zone: the game gives no
+     live data at all (no count, no real up/down), so it lives on the
+     site's Once Human page instead of on a live board. */
   var FIXED_GAMES = { ark:1, palworld:1, once_human:1 };
 
   function prettyGameLabel(key, g){
@@ -810,7 +805,6 @@ section.zone{
     var ark = byActivity(arkAll.filter(function(s){ return !isPvp(s); }));
     var pvp = byActivity(arkAll.filter(isPvp));
     var pal = byActivity((g.palworld && g.palworld.servers) || []);
-    var oh  = byActivity((g.once_human && g.once_human.servers) || []);
 
     /* Only the ARK board is big enough for a hero plate to make sense, and
        only when someone's actually online to earn the "MOST ACTIVE" tag. */
@@ -820,9 +814,8 @@ section.zone{
     el('pvp-grid').innerHTML = pvp.map(function(s){ return plate(s, false); }).join('');
     el('pvp-zone').style.display = pvp.length ? '' : 'none';
     el('pal-grid').innerHTML = pal.map(function(s){ return plate(s, false); }).join('');
-    el('oh-grid').innerHTML  = oh.map(function(s){ return plate(s, false); }).join('');
 
-    var ta = tally(ark), tv = tally(pvp), tp = tally(pal), to = tally(oh);
+    var ta = tally(ark), tv = tally(pvp), tp = tally(pal);
     var extra = renderExtraZones(g);
 
     el('ark-up').textContent     = ta.up;
@@ -835,14 +828,12 @@ section.zone{
     el('ark-ver').textContent    = ver ? 'ARK v' + ver : '';
     el('pal-up').textContent     = tp.up;
     el('pal-total').textContent  = tp.total;
-    el('oh-up').textContent      = to.up;
-    el('oh-total').textContent   = to.total;
 
-    var players = ta.players + tv.players + tp.players + to.players;
-    var up      = ta.up + tv.up + tp.up + to.up;
-    var total   = ta.total + tv.total + tp.total + to.total;
-    var slots   = ta.slots + tv.slots + tp.slots + to.slots;
-    var pop     = ta.pop + tv.pop + tp.pop + to.pop;
+    var players = ta.players + tv.players + tp.players;
+    var up      = ta.up + tv.up + tp.up;
+    var total   = ta.total + tv.total + tp.total;
+    var slots   = ta.slots + tv.slots + tp.slots;
+    var pop     = ta.pop + tv.pop + tp.pop;
     extra.forEach(function(t){
       players += t.players; up += t.up; total += t.total; slots += t.slots; pop += t.pop;
     });

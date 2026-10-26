@@ -1171,6 +1171,25 @@ def poll_once_human_group(entries):
     return results
  
  
+def stamp_offline_since(status, state, now_iso):
+    """Remembers when each server was first seen offline, so the wall can
+    say "Offline 2h" instead of just "Offline". Kept in the same committed
+    state file as the ARK cache; a server that comes back drops out. The
+    time is when this poller first saw it down, so it's accurate to about
+    one poll (5 minutes)."""
+    seen = state.get("offline_since") or {}
+    kept = {}
+    for game, bucket in (status.get("servers") or {}).items():
+        for row in (bucket or {}).get("servers") or []:
+            if row.get("online"):
+                continue
+            key = f"{game}:{row.get('service_id') or row.get('name')}"
+            since = seen.get(key) or now_iso
+            kept[key] = since
+            row["offline_since"] = since
+    state["offline_since"] = kept
+
+
 _PVP_NAME = re.compile(r"\bpvp\b", re.IGNORECASE)
 
 
@@ -1351,6 +1370,10 @@ def main():
                 slug = f"other_{slug}"
             status["servers"][slug] = bucket
  
+    state_all = _load_state_file(ark_cache_path)
+    stamp_offline_since(status, state_all, status["generated_at"])
+    _save_state_file(ark_cache_path, state_all)
+
     hidden = hide_pvp_rosters(status)
     if hidden:
         log(f"PvP: player names withheld for {hidden} server(s).")

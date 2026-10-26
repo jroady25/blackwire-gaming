@@ -197,11 +197,50 @@ body::after{
   box-shadow:0 0 18px rgba(226,35,26,.6);
 }
 
+[hidden]{ display:none !important; }
+
+.clock .tools{
+  display:flex; gap:.5em; justify-content:flex-end;
+  margin-top:.55em;
+  transition:opacity .4s;
+}
+.clock .tools .back{ margin-top:0; cursor:pointer; line-height:normal; }
+
+/* TV mode = the browser's fullscreen. The cursor and buttons get out of
+   the way after 3 seconds without the mouse moving. */
+html.tv.idle, html.tv.idle *{ cursor:none !important; }
+html.tv.idle .clock .tools{ opacity:0; pointer-events:none; }
+
+/* ---------------- live activity feed ----------------
+   Lives in the header's empty middle. Built from what changed between
+   two status updates, so every line is something that actually happened. */
+.feed{
+  flex:1 1 auto; min-width:0; align-self:stretch;
+  display:flex; flex-direction:column; justify-content:flex-end; gap:.3em;
+  padding:0 clamp(12px,2vw,48px);
+  font-size:clamp(9px,.68vw,16px);
+  letter-spacing:.06em;
+  color:var(--text-dim);
+  overflow:hidden;
+}
+.feed-label{
+  font-size:.78em; letter-spacing:.32em; text-transform:uppercase;
+  color:var(--blood-text);
+}
+.feed .ev{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.feed .ev time{ color:var(--text-faint); margin-right:.9em; font-variant-numeric:tabular-nums; }
+.feed .ev b{ color:var(--blood); font-weight:600; }
+.feed-label + .ev{ color:var(--text); }
+.feed .ev:nth-child(3){ opacity:.7; }
+.feed .ev:nth-child(4){ opacity:.45; }
+.feed .ev.fresh{ animation:evIn .7s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes evIn{ from{ opacity:0; transform:translateY(.6em); } to{ opacity:1; transform:none; } }
+
 /* ---------------- top stat strip ---------------- */
 
 .strip{
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-auto-flow:column; grid-auto-columns:minmax(0,1fr);
   gap:var(--gap);
 }
 
@@ -240,6 +279,7 @@ body::after{
 /* ---------------- body grid ---------------- */
 
 .board{
+  position:relative;
   display:grid;
   grid-template-columns:1fr clamp(190px, 21vw, 460px);
   gap:var(--gap);
@@ -468,6 +508,43 @@ section.zone{
 
 .roster.hidden{ color:var(--text-faint); font-style:italic; letter-spacing:.08em; }
 
+/* ARK server still on an older version than the rest */
+.srv .name .flag{
+  flex:0 0 auto;
+  font-family:var(--font-mono); font-weight:600;
+  font-size:.6em; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--void); background:var(--pending);
+  padding:.12em .45em;
+}
+
+/* a plate whose count just changed flashes once: red ring for up,
+   pale ring for down */
+.srv.bump{ animation:bump 2.6s ease-out 1; }
+.srv.dip{ animation:dip 2.6s ease-out 1; }
+@keyframes bump{
+  0%  { box-shadow:inset 0 0 0 2px var(--live), inset 0 0 44px rgba(255,68,51,.45); }
+  100%{ box-shadow:inset 0 0 0 2px rgba(255,68,51,0), inset 0 0 44px rgba(255,68,51,0); }
+}
+@keyframes dip{
+  0%  { box-shadow:inset 0 0 0 2px rgba(236,231,226,.5); }
+  100%{ box-shadow:inset 0 0 0 2px rgba(236,231,226,0); }
+}
+
+/* fullscreen only: a slow band of light crosses the board every 16s, so
+   the screen reads as live from across the room */
+html.tv .board::after{
+  content:''; position:absolute; inset:0; pointer-events:none; z-index:2;
+  background:linear-gradient(100deg, transparent 42%, rgba(226,35,26,.07) 50%, transparent 58%);
+  background-size:250% 100%;
+  animation:sweep 16s linear infinite;
+}
+@keyframes sweep{ from{ background-position:100% 0; } to{ background-position:0% 0; } }
+
+@media (prefers-reduced-motion: reduce){
+  .feed .ev.fresh, .srv.bump, .srv.dip{ animation:none !important; }
+  html.tv .board::after{ display:none; }
+}
+
 /* ---------------- footer ---------------- */
 
 .foot{
@@ -498,15 +575,32 @@ section.zone{
 @media (max-aspect-ratio: 1/1), (max-width: 900px){
   html,body{ overflow:auto; }
   #wall{ height:auto; min-height:100%; animation:none; }
-  .board{ grid-template-columns:1fr; column-gap:var(--gap); }
+  #wall{ grid-template-columns:minmax(0,1fr); }
+  .board{ grid-template-columns:minmax(0,1fr); column-gap:var(--gap); }
+  .col, section.zone, .stat{ min-width:0; }
+  .zone-head{ flex-wrap:wrap; row-gap:.2em; }
+  .zone-head .meta{ white-space:normal; }
+  .clock .tools #fs{ display:none !important; }
+  /* On a scrolling page the plates wrap as a flex row: grid rows here
+     came out shorter than a plate with a roster and clipped the names. */
+  .grid{ display:flex; flex-wrap:wrap; }
+  .grid > .srv{ flex:1 1 150px; }
+  .grid > .srv.hero, .col.side .grid > .srv{ flex-basis:100%; max-width:none; }
   .col.side{ grid-template-rows:auto auto; }
-  .strip{ grid-template-columns:repeat(3,1fr); }
+  .strip{ grid-auto-flow:column; grid-auto-columns:minmax(0,1fr); }
+  .head{ flex-wrap:wrap; }
+  .feed{ order:3; flex-basis:100%; padding:0; }
   /* stop stretching rows once the page scrolls — plates size to content */
   .grid{ grid-auto-rows:auto; align-content:start; }
   .srv{ align-content:start; gap:clamp(3px,1vw,8px); }
   .srv .count{ font-size:clamp(20px,7vw,40px); }
   #ark-grid, #pvp-grid{ grid-template-columns:repeat(auto-fill, minmax(150px,1fr)); }
   .col.main{ grid-template-rows:auto auto !important; }
+}
+@media (max-width: 600px){
+  /* phones: two plates a row, an odd last plate stays half width */
+  #ark-grid > .srv, #pvp-grid > .srv{ max-width:calc(50% - var(--gap) / 2); }
+  #ark-grid > .srv.hero{ max-width:none; }
 }
 </style>
 </head>
@@ -522,10 +616,14 @@ section.zone{
         <div class="sub">Network Status</div>
       </div>
     </div>
+    <div class="feed" id="feed" aria-live="polite"></div>
     <div class="clock">
       <div class="time" id="clock">--:--</div>
       <div class="sync" id="sync">Sync <b>—</b></div>
-      <a class="back" href="/">&larr; Back to Site</a>
+      <div class="tools">
+        <button class="back" id="fs" type="button" hidden>Fullscreen</button>
+        <a class="back" href="/">&larr; Back to Site</a>
+      </div>
     </div>
   </header>
 
@@ -541,6 +639,10 @@ section.zone{
     <div class="stat">
       <span class="label">Populated</span>
       <span class="value" id="s-pop">0</span>
+    </div>
+    <div class="stat" id="discord-stat" hidden>
+      <span class="label">On Discord</span>
+      <span class="value" id="s-discord">0</span>
     </div>
   </div>
 
@@ -670,14 +772,128 @@ section.zone{
     return { title: s || full, tag: tag };
   }
 
+  /* ---------- ARK versions: flag servers behind the newest ---------- */
+  var ARKV = { latest:null, behind:0 };
+  function verOf(name){
+    var m = String(name || '').match(/\(v([\d.]+)\)\s*$/i);
+    return m ? m[1] : null;
+  }
+  function cmpVer(a, b){
+    var x = a.split('.'), y = b.split('.');
+    for(var i = 0; i < Math.max(x.length, y.length); i++){
+      var d = (parseInt(x[i], 10) || 0) - (parseInt(y[i], 10) || 0);
+      if(d) return d;
+    }
+    return 0;
+  }
   function arkVersion(list){
-    var v = null, same = true;
-    list.forEach(function(s){
-      var m = String(s.name || '').match(/\(v([\d.]+)\)\s*$/i);
-      if(!m) return;
-      if(v === null) v = m[1]; else if(v !== m[1]) same = false;
+    var latest = null, behind = 0;
+    list.forEach(function(s){ var v = verOf(s.name); if(v && (!latest || cmpVer(v, latest) > 0)) latest = v; });
+    list.forEach(function(s){ var v = verOf(s.name); if(v && latest && cmpVer(v, latest) < 0) behind++; });
+    return { latest:latest, behind:behind };
+  }
+  function isBehind(srv){
+    var v = verOf(srv.name);
+    return !!(v && ARKV.latest && cmpVer(v, ARKV.latest) < 0);
+  }
+
+  /* "Offline 2h" -- offline_since is when the poller first saw it down */
+  function offlineText(srv){
+    if(!srv.offline_since) return 'Offline';
+    var mins = Math.floor((Date.now() - new Date(srv.offline_since).getTime()) / 60000);
+    if(!(mins >= 5)) return 'Offline';
+    var t = mins < 60 ? mins + 'm' : mins < 2880 ? Math.floor(mins / 60) + 'h' : Math.floor(mins / 1440) + 'd';
+    return 'Offline ' + t;
+  }
+
+  var REDUCED = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+
+  /* numbers roll to their new value instead of jumping */
+  function tween(node, to){
+    if(!node) return;
+    var from = parseInt(node.textContent, 10) || 0;
+    if(from === to || REDUCED){ node.textContent = to; return; }
+    var t0 = performance.now(), dur = 900;
+    (function step(t){
+      var k = Math.max(0, Math.min(1, (t - t0) / dur)), e = 1 - Math.pow(1 - k, 3);
+      node.textContent = Math.round(from + (to - from) * e);
+      if(k < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+
+  /* ---------- live activity: what changed since the last update ---------- */
+  var PREV = null, PREV_AT = null, CHANGED = {}, FEED = [];
+
+  function allServers(data){
+    var out = {}, g = (data && data.servers) || {};
+    Object.keys(g).forEach(function(k){
+      if(k === 'once_human') return;
+      ((g[k] && g[k].servers) || []).forEach(function(s){ if(s && s.name) out[s.name] = s; });
     });
-    return (v && same) ? v : '';
+    return out;
+  }
+  function hhmm(d){ return String(d.getHours()).padStart(2,'0') + ':' + String(d.getMinutes()).padStart(2,'0'); }
+  function feedTitle(name, s){ return splitName(name).title + (isPvp(s) ? ' (PvP)' : ''); }
+
+  function noteChanges(data){
+    /* same data as last time: nothing new to flash */
+    if(!data || !data.generated_at || data.generated_at === PREV_AT){ CHANGED = {}; return; }
+    var cur = allServers(data), events = [];
+    CHANGED = {};
+    if(PREV){
+      Object.keys(cur).forEach(function(name){
+        var a = PREV[name], b = cur[name];
+        if(!a) return;
+        var title = feedTitle(name, b);
+        if(a.online && !b.online){ events.push(title + ' went offline'); CHANGED[name] = 'dip'; return; }
+        if(!a.online && b.online){ events.push(title + ' is back online'); CHANGED[name] = 'bump'; return; }
+        if(!b.online) return;
+        var pa = a.players_current, pb = b.players_current;
+        if(pa == null || pb == null || pa === pb) return;
+        CHANGED[name] = pb > pa ? 'bump' : 'dip';
+        /* PvP never names anyone, here either */
+        var la = (!isPvp(a) && Array.isArray(a.players)) ? a.players : null;
+        var lb = (!isPvp(b) && Array.isArray(b.players)) ? b.players : null;
+        if(la && lb){
+          var joined = lb.filter(function(p){ return la.indexOf(p) === -1; });
+          var left   = la.filter(function(p){ return lb.indexOf(p) === -1; });
+          if(joined.length) events.push((joined.length > 2 ? joined.length + ' players' : joined.join(' & ')) + ' joined ' + title);
+          if(left.length)   events.push((left.length > 2 ? left.length + ' players' : left.join(' & ')) + ' left ' + title);
+          if(joined.length || left.length) return;
+        }
+        var d = pb - pa;
+        events.push((d > 0 ? '+' + d : '\u2212' + (-d)) + ' on ' + title);
+      });
+    }
+    var when = hhmm(new Date(data.generated_at));
+    events.slice(0, 4).forEach(function(text){ FEED.unshift({ at:when, text:text, fresh:true }); });
+    FEED = FEED.slice(0, 3);
+    PREV = cur; PREV_AT = data.generated_at;
+    renderFeed(data);
+  }
+
+  function renderFeed(data){
+    var box = el('feed');
+    if(!box) return;
+    var html;
+    if(FEED.length){
+      html = FEED.map(function(e){
+        return '<div class="ev' + (e.fresh ? ' fresh' : '') + '"><time>' + esc(e.at) + '</time>' + esc(e.text) + '</div>';
+      }).join('');
+      FEED.forEach(function(e){ e.fresh = false; });
+    } else {
+      /* nothing has changed since the page opened: say who's on now */
+      var all = allServers(data), on = [];
+      Object.keys(all).forEach(function(n){
+        var s = all[n];
+        if(s.online && (s.players_current|0) > 0) on.push([feedTitle(n, s), s.players_current|0]);
+      });
+      on.sort(function(a, b){ return b[1] - a[1]; });
+      html = '<div class="ev"><time>Now</time>' + (on.length
+        ? on.slice(0, 4).map(function(x){ return esc(x[0]) + ' <b>' + x[1] + '</b>'; }).join(' &middot; ')
+        : 'Nobody on right now') + '</div>';
+    }
+    box.innerHTML = '<div class="feed-label">Live activity</div>' + html;
   }
 
   function plate(srv, hero){
@@ -696,14 +912,15 @@ section.zone{
       ? srv.players.map(function(p){ return String(p).trim(); }).filter(Boolean)
       : [];
 
-    var cls = 'srv ' + (on ? 'on' : 'off') + (pop ? ' pop' : '') + (hero ? ' hero' : '');
+    var cls = 'srv ' + (on ? 'on' : 'off') + (pop ? ' pop' : '') + (hero ? ' hero' : '')
+      + (CHANGED[srv.name] ? ' ' + CHANGED[srv.name] : '');
     var ml  = mapLine(srv);
 
     return '<div class="' + cls + '">'
       + '<div class="name"><i class="dot"></i><span title="' + esc(srv.name) + '">' + esc(nm.title) + '</span>'
-        + '</div>'
+        + (isBehind(srv) ? '<b class="flag">Update</b>' : '') + '</div>'
       + '<div class="row">'
-        + '<div class="map">' + (on ? ml : 'Offline') + '</div>'
+        + '<div class="map">' + (on ? ml : offlineText(srv)) + '</div>'
         + '<div class="count">' + (on && !unknown ? cur : '—')
           + (on && max ? '<span class="of">/' + max + '</span>' : '')
         + '</div>'
@@ -799,6 +1016,8 @@ section.zone{
   function render(data){
     var g   = (data && data.servers) || {};
     var arkAll = (g.ark && g.ark.servers) || [];
+    ARKV = arkVersion(arkAll);
+    noteChanges(data);
     var ark = byActivity(arkAll.filter(function(s){ return !isPvp(s); }));
     var pvp = byActivity(arkAll.filter(isPvp));
     var pal = byActivity((g.palworld && g.palworld.servers) || []);
@@ -821,8 +1040,9 @@ section.zone{
     el('pvp-up').textContent     = tv.up;
     el('pvp-total').textContent  = tv.total;
     el('pvp-players').textContent= tv.players;
-    var ver = arkVersion(arkAll);
-    el('ark-ver').textContent    = ver ? 'ARK v' + ver : '';
+    el('ark-ver').textContent    = ARKV.latest
+      ? 'ARK v' + ARKV.latest + (ARKV.behind ? ' \u00b7 ' + ARKV.behind + ' need update' : '')
+      : '';
     el('pal-up').textContent     = tp.up;
     el('pal-total').textContent  = tp.total;
 
@@ -835,7 +1055,7 @@ section.zone{
       players += t.players; up += t.up; total += t.total; slots += t.slots; pop += t.pop;
     });
 
-    el('s-players').textContent = players;
+    tween(el('s-players'), players);
     el('s-up').innerHTML        = up + '<span class="of">/' + total + '</span>';
     el('s-pop').textContent     = pop;
 
@@ -892,6 +1112,52 @@ section.zone{
   pull();
   setInterval(clock, 10000);
   setInterval(pull, REFRESH_MS);
+
+  /* Discord online count from the server's public widget. Shows only when
+     the widget is turned on in Discord (Server Settings > Widget). */
+  var DISCORD_WIDGET = 'https://discord.com/api/guilds/1436115702904783098/widget.json';
+  function pullDiscord(){
+    fetch(DISCORD_WIDGET, { cache:'no-store' })
+      .then(function(r){ if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(d){
+        if(!d || typeof d.presence_count !== 'number') throw new Error('no count');
+        el('discord-stat').hidden = false;
+        tween(el('s-discord'), d.presence_count);
+      })
+      .catch(function(){ el('discord-stat').hidden = true; });
+  }
+  pullDiscord();
+  setInterval(pullDiscord, 5 * 60000);
+
+  /* Fullscreen = TV mode */
+  (function(){
+    var btn = el('fs'), root = document.documentElement, timer = null;
+    var req = root.requestFullscreen || root.webkitRequestFullscreen;
+    if(!btn || !req) return;
+    btn.hidden = false;
+    function isFull(){ return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+    btn.addEventListener('click', function(){
+      if(isFull()) (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+      else req.call(root);
+    });
+    function wake(){
+      root.classList.remove('idle');
+      clearTimeout(timer);
+      if(root.classList.contains('tv')) timer = setTimeout(function(){ root.classList.add('idle'); }, 3000);
+    }
+    function sync(){
+      var on = isFull();
+      root.classList.toggle('tv', on);
+      btn.textContent = on ? 'Exit Fullscreen' : 'Fullscreen';
+      wake();
+      setTimeout(sizeArk, 60);
+    }
+    document.addEventListener('fullscreenchange', sync);
+    document.addEventListener('webkitfullscreenchange', sync);
+    ['mousemove', 'mousedown', 'keydown', 'touchstart'].forEach(function(e){
+      document.addEventListener(e, wake, { passive:true });
+    });
+  })();
   window.addEventListener('resize', sizeArk);
   /* re-age the "Xm ago" label between pulls so it never looks frozen */
   setInterval(function(){ if(last) stampSync(last.generated_at, false); }, 30000);

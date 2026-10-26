@@ -1489,6 +1489,30 @@ section.zone{
       var y = L.r3.at(x) + 3, h = H * (.025 + r() * .05);
       if(r() < .65) palm(g, x, y, h, r() - .5); else conifer(g, x, y, h);
     }
+    /* low brush along the walking ridge: drawn after the walkers, so their
+       feet sit in it instead of on a hard line */
+    var sc = canvas(LW, H), sg = sc.getContext('2d');
+    sg.fillStyle = 'rgb(24,6,5)';
+    /* grass and fern tufts: thin blades fanning up from the ground line */
+    for(var bx = 0; bx < LW; bx += 2 + r() * 4){
+      var by = L.r3.at(bx) + 7, bh = H * (.008 + r() * .014), blades = 4 + Math.floor(r() * 6);
+      for(var bl = 0; bl < blades; bl++){
+        var lean = (bl / (blades - 1 || 1) - .5) * 1.4 + (r() - .5) * .4;
+        var hh = bh * (.55 + r() * .6), tipx = bx + lean * hh * .9, tipy = by - hh;
+        var wb = Math.max(.7, hh * .07);
+        sg.beginPath(); sg.moveTo(bx - wb, by);
+        sg.quadraticCurveTo(bx + lean * hh * .2, by - hh * .6, tipx, tipy);
+        sg.quadraticCurveTo(bx + lean * hh * .25 + wb, by - hh * .55, bx + wb, by);
+        sg.closePath(); sg.fill();
+      }
+    }
+    /* fill below the brush so the ridge reads as solid ground */
+    sg.beginPath(); sg.moveTo(0, H);
+    for(var gx = 0; gx <= LW; gx += 4) sg.lineTo(gx, L.r3.at(gx) + 6);
+    sg.lineTo(LW, H); sg.closePath(); sg.fill();
+    L.scrub = sc;
+    L.shadow = sprite(64, 'rgba(0,0,0,.75)', 'rgba(0,0,0,0)');
+
     L.r4 = ridgeLine(r, H * .88, H * .04, 5, 5, null);
     L.l4 = paintRidge(L.r4, 'rgb(14,4,3)', 'rgb(5,1,1)', 0, sunX);
 
@@ -1733,7 +1757,11 @@ section.zone{
     /* the sauropod and calf walk in front of the tree line */
     S.walkers.forEach(function(a){
       a.x += a.dir * a.v * dt; a.ph += dt * (a.calf ? 2.3 : 1.1);
-      a.sx = a.x + o3; a.sy = L.r3.at(Math.max(0, Math.min(LW, a.x))) + 4;
+      a.sx = a.x + o3; a.sy = L.r3.at(Math.max(0, Math.min(LW, a.x))) + 9;
+      var shw = a.s * 1.5, shh = a.s * .14;
+      ctx.globalAlpha = .9;
+      ctx.drawImage(L.shadow, a.sx - shw / 2 + a.dir * a.s * .05, a.sy - shh * .6, shw, shh);
+      ctx.globalAlpha = 1;
       var w = a.s * 2.9, h = a.s * 1.85;
       rimStamp(a, w, h, a.dir > 0 ? a.s * 1.48 : a.s * 1.42, a.s * 1.7, sauropod, 'rgba(255,90,45,.55)');
     });
@@ -1741,7 +1769,8 @@ section.zone{
       if(Math.random() < dt * .03) spawnWalkers(false);
     }
 
-    tile(L.fog, t * 10, H * .74, W * 1.2, H * .12, .7);
+    ctx.drawImage(L.scrub, o3, 0);
+    tile(L.fog, t * 10, H * .8, W * 1.2, H * .1, .55);
     ctx.drawImage(L.l4, o4, 0);
 
     /* palms and ferns up front, swaying a little */

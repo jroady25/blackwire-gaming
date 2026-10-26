@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T01:16:38Z",
+  "generated_at": "2026-10-26T01:21:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,9 +21,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
@@ -125,12 +123,10 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Slingshot"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
@@ -173,7 +169,8 @@
             "?",
             "EXDaydreamer",
             "Bretty Wat",
-            "KP Gaming"
+            "KP Gaming",
+            "Slingshot"
           ]
         },
         {
@@ -187,7 +184,7 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": []

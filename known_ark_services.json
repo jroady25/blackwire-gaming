@@ -85,24 +85,24 @@
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
+      "service_id": "18012721",
+      "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)"
+    },
+    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
     {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v94.35)"
-    },
-    {
-      "service_id": "18012721",
-      "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 37233893,
+    "offset": 37237242,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 37233698,
+    "log_size": 37237047,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

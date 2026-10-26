@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T03:56:41Z",
+  "generated_at": "2026-10-26T04:01:33Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,15 +34,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Luckyybear14",
             "jandles13",
-            "EXDaydreamer",
             "VLAD86",
-            "legendx12x"
+            "legendx12x",
+            "EXDaydreamer"
           ]
         },
         {
@@ -63,13 +63,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
-            "KittyLovesArk",
-            "KAKASHIxHATAKE97"
+            "KittyLovesArk"
           ]
         },
         {
@@ -129,7 +128,7 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []
@@ -161,13 +160,13 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "SpoggDarr",
             "Slingshot",
-            "Bretty Wat"
+            "KAKASHIxHATAKE97"
           ]
         },
         {

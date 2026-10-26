@@ -1,24 +1,23 @@
 {
-  "generated_at": "2026-10-26T01:21:34Z",
+  "generated_at": "2026-10-26T01:26:39Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Arigatu1",
-            "GreenOatis",
             "Santa_Clause01"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": []
@@ -34,11 +33,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "KodasBetter"
+            "KodasBetter",
+            "?"
           ]
         },
         {
@@ -139,13 +139,10 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "doodlebac49",
-            "Quigley"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
@@ -162,15 +159,13 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "I-Be-Stroganoff",
             "Rowena",
             "Reilig",
             "Ben-Doverson",
-            "?",
-            "EXDaydreamer",
             "Bretty Wat",
             "KP Gaming",
-            "Slingshot"
+            "GreenOatis",
+            "EXDaydreamer"
           ]
         },
         {
@@ -198,14 +193,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

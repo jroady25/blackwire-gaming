@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:01:33Z",
+  "generated_at": "2026-10-26T04:06:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,7 +34,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -128,7 +128,7 @@
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": []

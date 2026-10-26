@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-26T00:56:31Z",
+  "generated_at": "2026-10-26T01:01:37Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Arigatu1"
+            "Arigatu1",
+            "GreenOatis"
           ]
         },
         {
@@ -39,7 +40,8 @@
           "map": "Astraeos_WP",
           "players": [
             "JeepinAK",
-            "KodasBetter"
+            "KodasBetter",
+            "VLAD86"
           ]
         },
         {
@@ -138,10 +140,13 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "Quigley",
+            "doodlebac49"
+          ]
         },
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
@@ -154,7 +159,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 12,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -163,9 +168,6 @@
             "Reilig",
             "Ben-Doverson",
             "serious_booth4",
-            "GreenOatis",
-            "doodlebac49",
-            "Quigley",
             "?",
             "EXDaydreamer",
             "Bretty Wat",

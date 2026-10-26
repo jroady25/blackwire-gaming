@@ -201,7 +201,7 @@ body::after{
 
 .strip{
   display:grid;
-  grid-template-columns:repeat(4, 1fr);
+  grid-template-columns:repeat(3, 1fr);
   gap:var(--gap);
 }
 
@@ -248,7 +248,8 @@ body::after{
 }
 
 .col{ display:grid; gap:var(--gap); min-height:0; }
-.col.side{ grid-template-rows:1fr 1fr; }
+.col.side{ grid-template-rows:none; grid-auto-rows:auto; align-content:start; row-gap:calc(var(--gap) * 2.4); }
+#extra-zones{ display:grid; gap:calc(var(--gap) * 2.4); }
 
 section.zone{
   display:grid;
@@ -437,7 +438,7 @@ section.zone{
   white-space:nowrap;
   flex:0 0 auto;
 }
-.srv.on .count{ color:var(--text); }
+.srv.on .count{ color:var(--text-faint); }
 .srv.on.pop .count{ color:var(--blood); }
 .srv .count .of{ color:var(--text-faint); font-size:.5em; font-weight:400; }
 
@@ -465,15 +466,6 @@ section.zone{
 }
 .roster:empty::before{ content:'—'; color:var(--line); }
 
-/* group tag (JKRZ etc.) kept beside the short server name */
-.srv .name .tag{
-  flex:0 0 auto;
-  font-family:var(--font-mono); font-weight:500;
-  font-size:.62em; letter-spacing:.12em;
-  color:var(--text-faint);
-  border:1px solid var(--line);
-  padding:.1em .4em;
-}
 .roster.hidden{ color:var(--text-faint); font-style:italic; letter-spacing:.08em; }
 
 /* ---------------- footer ---------------- */
@@ -508,7 +500,7 @@ section.zone{
   #wall{ height:auto; min-height:100%; animation:none; }
   .board{ grid-template-columns:1fr; column-gap:var(--gap); }
   .col.side{ grid-template-rows:auto auto; }
-  .strip{ grid-template-columns:repeat(2,1fr); }
+  .strip{ grid-template-columns:repeat(3,1fr); }
   /* stop stretching rows once the page scrolls — plates size to content */
   .grid{ grid-auto-rows:auto; align-content:start; }
   .srv{ align-content:start; gap:clamp(3px,1vw,8px); }
@@ -545,10 +537,6 @@ section.zone{
     <div class="stat">
       <span class="label">Servers Up</span>
       <span class="value" id="s-up">0<span class="of">/0</span></span>
-    </div>
-    <div class="stat">
-      <span class="label">Capacity</span>
-      <span class="value" id="s-cap">0<span class="of">%</span></span>
     </div>
     <div class="stat">
       <span class="label">Populated</span>
@@ -644,8 +632,9 @@ section.zone{
   function mapLine(srv){
     var m = prettyMap(srv.map);
     if(!m) return '';
-    var n = (srv.name||'').toLowerCase();
-    if(n.indexOf(m.toLowerCase()) !== -1) return '';
+    /* compare without spaces so "Forglar2" matches "Forglar 2" */
+    var n = (srv.name||'').toLowerCase().replace(/\s+/g, '');
+    if(n.indexOf(m.toLowerCase().replace(/\s+/g, '')) !== -1) return '';
     return m;
   }
 
@@ -665,8 +654,8 @@ section.zone{
   /* Plate titles: the full Nitrado name ("BlackWire (JKRZ) - The Island -
      PVE - (v94.35)") is mostly noise on a board that is already
      BlackWire's, already split by mode, and shows the ARK version once in
-     the footer. Keep the name players know the server by, plus any group
-     tag. The full name stays in the hover title. */
+     the footer. Keep the name players know the server by; owner tags
+     (JKRZ etc.) are for staff, not players, so they're dropped. The full name stays in the hover title. */
   function splitName(name){
     var full = String(name || '').trim();
     var s = full.replace(/\s*-?\s*\(v[\d.]+\)\s*$/i, '');
@@ -712,17 +701,17 @@ section.zone{
 
     return '<div class="' + cls + '">'
       + '<div class="name"><i class="dot"></i><span title="' + esc(srv.name) + '">' + esc(nm.title) + '</span>'
-        + (nm.tag ? '<b class="tag">' + esc(nm.tag) + '</b>' : '') + '</div>'
+        + '</div>'
       + '<div class="row">'
-        + '<div class="map">' + (on ? (ml || 'Online') : 'Offline') + '</div>'
+        + '<div class="map">' + (on ? ml : 'Offline') + '</div>'
         + '<div class="count">' + (on && !unknown ? cur : '—')
           + (on && max ? '<span class="of">/' + max + '</span>' : '')
         + '</div>'
       + '</div>'
       + '<div class="bar"><i style="width:' + pct + '%"></i></div>'
       + (pvp
-          ? '<div class="roster hidden">' + (pop ? 'Names hidden' : '') + '</div>'
-          : '<div class="roster">' + esc(list.join(', ')) + '</div>')
+          ? (pop ? '<div class="roster hidden">Names hidden</div>' : '')
+          : (list.length ? '<div class="roster">' + esc(list.join(', ')) + '</div>' : ''))
       + '</div>';
   }
 
@@ -848,7 +837,6 @@ section.zone{
 
     el('s-players').textContent = players;
     el('s-up').innerHTML        = up + '<span class="of">/' + total + '</span>';
-    el('s-cap').innerHTML       = (slots ? Math.round(players/slots*100) : 0) + '<span class="of">%</span>';
     el('s-pop').textContent     = pop;
 
     var oh = ((g.once_human && g.once_human.servers) || [])

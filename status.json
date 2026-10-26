@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T04:26:50Z",
+  "generated_at": "2026-10-26T04:31:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,7 +41,8 @@
             "Luckyybear14",
             "jandles13",
             "VLAD86",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "kris_d07"
           ]
         },
         {
@@ -161,7 +162,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -180,12 +181,11 @@
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
-            "XHaidenSmithX @R...",
-            "CJ_prince12"
+            "XHaidenSmithX @R..."
           ]
         },
         {
@@ -216,9 +216,10 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         },
         {

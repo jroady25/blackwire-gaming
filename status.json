@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:16:32Z",
+  "generated_at": "2026-10-26T20:21:37Z",
   "servers": {
     "ark": {
       "servers": [
@@ -126,14 +126,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
@@ -216,6 +208,15 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T20:21:37Z",
           "names_hidden": true
         },
         {

@@ -53,10 +53,6 @@
       "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)"
     },
     {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v94.35)"
-    },
-    {
       "service_id": "18859910",
       "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)"
     },
@@ -97,6 +93,10 @@
       "name": "BlackWire - Aberration - PVP - (v94.35)"
     },
     {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v94.35)"
+    },
+    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
@@ -106,15 +106,16 @@
     }
   ],
   "dragonwilds": {
-    "offset": 37535800,
+    "offset": 37538788,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 37535800,
+    "log_size": 37538788,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
     "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-26T17:51:42Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-26T20:21:37Z",
     "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-26T15:41:37Z",
     "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-26T15:41:37Z"
   }

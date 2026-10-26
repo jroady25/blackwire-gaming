@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:01:36Z",
+  "generated_at": "2026-10-26T15:06:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,7 +40,7 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -50,7 +50,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "names_hidden": true
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
@@ -97,7 +97,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "names_hidden": true
         },
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
@@ -185,14 +185,16 @@
           "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": null
+          "map": null,
+          "names_hidden": true
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": null
+          "map": null,
+          "names_hidden": true
         }
       ]
     },
@@ -219,15 +221,21 @@
     "once_human": {
       "servers": [
         {
-          "name": "Once Human \u2014 PVE",
+          "name": "Manibus",
           "online": true,
-          "players_current": 0,
+          "players_current": null,
           "players_max": 20
         },
         {
-          "name": "Once Human \u2014 PVP",
+          "name": "Endless Dreams",
           "online": true,
-          "players_current": 0,
+          "players_current": null,
+          "players_max": 20
+        },
+        {
+          "name": "Isles of the Abyss",
+          "online": true,
+          "players_current": null,
           "players_max": 20
         }
       ]

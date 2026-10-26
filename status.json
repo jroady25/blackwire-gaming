@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:51:30Z",
+  "generated_at": "2026-10-26T06:56:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -187,14 +187,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

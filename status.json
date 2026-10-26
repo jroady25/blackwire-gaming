@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:51:29Z",
+  "generated_at": "2026-10-26T13:56:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -23,6 +23,14 @@
             "TUBBS TADL",
             "Sniffy7990"
           ]
+        },
+        {
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
@@ -192,14 +200,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": null
-        },
-        {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
         }
       ]
     },

@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-10-26T08:52:07Z",
+  "generated_at": "2026-10-26T08:57:02Z",
   "servers": {
     "ark": {
       "servers": [
-        {
-          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
-          "online": false,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Ragnarok_WP"
-        },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
@@ -25,20 +18,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v94.35)",
-          "online": false,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Astraeos_WP"
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP"
         },
         {
           "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
@@ -73,20 +52,6 @@
           "players_max": 26,
           "map": "Genesis_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP"
-        },
-        {
-          "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP"
         },
         {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
@@ -146,7 +111,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
@@ -180,7 +145,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -188,6 +160,34 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Extinction - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

@@ -139,6 +139,14 @@ body::after{
   html.flip .foot{ flex-direction:row-reverse; }
 }
 
+/* the living backdrop (see the SCENE script at the bottom) */
+#scene{
+  position:fixed; inset:0; width:100%; height:100%;
+  z-index:0; pointer-events:none; display:block;
+}
+/* the scene replaces the dim hawk watermark */
+html.has-scene body::after{ display:none; }
+
 /* ---------------- header ---------------- */
 
 .head{
@@ -272,7 +280,7 @@ html.tv.idle .clock .tools{ opacity:0; pointer-events:none; }
   overflow:hidden;
   background:
     repeating-linear-gradient(-55deg, rgba(226,35,26,.05) 0 2px, transparent 2px 22px),
-    linear-gradient(160deg, var(--panel-2), var(--panel));
+    linear-gradient(160deg, rgba(29,18,16,.82), rgba(22,13,12,.84));
   border-left:3px solid var(--blood-deep);
   clip-path:var(--plate-clip);
   padding:clamp(8px,.8vw,18px) clamp(9px,.85vw,22px) clamp(6px,.6vw,14px);
@@ -391,7 +399,7 @@ section.zone{
 
 .srv{
   position:relative;
-  background:linear-gradient(158deg, var(--panel-2) 0%, var(--panel) 70%);
+  background:linear-gradient(158deg, rgba(29,18,16,.84) 0%, rgba(22,13,12,.86) 70%);
   clip-path:var(--plate-clip);
   padding:clamp(5px,.5vw,13px) clamp(7px,.68vw,17px) clamp(6px,.55vw,14px);
   display:grid;
@@ -418,7 +426,7 @@ section.zone{
 
 .srv.pop{
   border-left-color:var(--blood);
-  background:linear-gradient(158deg, #2a1210 0%, var(--panel) 70%);
+  background:linear-gradient(158deg, rgba(42,18,16,.9) 0%, rgba(22,13,12,.88) 70%);
 }
 .srv.pop .name{ color:var(--text); }
 .srv.pop::after{
@@ -630,6 +638,7 @@ section.zone{
 </style>
 </head>
 <body>
+<canvas id="scene" aria-hidden="true"></canvas>
 
 <div id="wall">
 
@@ -1202,6 +1211,408 @@ section.zone{
   window.addEventListener('resize', sizeArk);
   /* re-age the "Xm ago" label between pulls so it never looks frozen */
   setInterval(function(){ if(last) stampSync(last.generated_at, false); }, 30000);
+})();
+</script>
+<script>
+/* ============================================================
+   SCENE -- a slow, living backdrop behind the board: a red dusk sky,
+   a smoking volcano, jungle ridges in drifting fog, a sauropod (now and
+   then with a calf) plodding along the far ridge, pterosaurs gliding
+   high up, embers rising. Everything is dark and slow so the numbers
+   stay the loudest thing on screen, and the picture is never still
+   (which also helps against burn-in).
+   ============================================================ */
+(function(){
+  'use strict';
+  var cv = document.getElementById('scene');
+  if(!cv || !cv.getContext) return;
+  /* PREVIEW: only with ?scene in the URL until it's approved */
+  if(!/[?&]scene\b/.test(location.search)){ cv.parentNode.removeChild(cv); return; }
+  document.documentElement.classList.add('has-scene');
+  var ctx = cv.getContext('2d');
+  var REDUCED = !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var WIDE = window.matchMedia ? matchMedia('(min-aspect-ratio: 1001/1000) and (min-width: 901px)') : { matches:true };
+  var TAU = Math.PI * 2, PAD = 160;
+  var W = 0, H = 0, LW = 0;
+  var L = null;           /* prebuilt layers */
+  var S = null;           /* moving things */
+
+  /* small seeded random so the landscape is the same every load */
+  function rng(seed){
+    return function(){
+      seed = (seed + 0x6D2B79F5) | 0;
+      var t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function rnd(a, b){ return a + Math.random() * (b - a); }
+
+  function ridge(r, base, amp){
+    var w = [];
+    for(var i = 0; i < 7; i++){
+      w.push({ f:(i + 1) * (0.7 + r() * 0.9) * TAU / LW, a:amp / (i * 0.8 + 1) * (0.45 + r()), p:r() * TAU });
+    }
+    return function(x){
+      var y = base;
+      for(var i = 0; i < w.length; i++) y -= w[i].a * Math.sin(x * w[i].f + w[i].p);
+      return y;
+    };
+  }
+
+  function layerCanvas(){
+    var c = document.createElement('canvas');
+    c.width = LW; c.height = H;
+    return c;
+  }
+
+  function fillRidge(c, f, color, rim){
+    c.beginPath();
+    c.moveTo(0, H);
+    for(var x = 0; x <= LW; x += 4) c.lineTo(x, f(x));
+    c.lineTo(LW, H); c.closePath();
+    c.fillStyle = color; c.fill();
+    if(rim){
+      c.beginPath();
+      for(var x2 = 0; x2 <= LW; x2 += 4) (x2 ? c.lineTo(x2, f(x2)) : c.moveTo(x2, f(x2)));
+      c.strokeStyle = rim; c.lineWidth = 1.5; c.stroke();
+    }
+  }
+
+  /* one palm frond: a drooping spine with leaflets hanging off both sides */
+  function frond(c, x, y, ang, len, w){
+    var ex = x + Math.cos(ang) * len, ey = y + Math.sin(ang) * len * .55 + len * .42;
+    var cx = x + Math.cos(ang) * len * .55, cy = y + Math.sin(ang) * len * .55 - len * .18;
+    c.lineWidth = Math.max(1, w * .7);
+    c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(cx, cy, ex, ey); c.stroke();
+    c.lineWidth = Math.max(.8, w * .45);
+    for(var i = 2; i < 12; i++){
+      var k = i / 12, u = 1 - k;
+      var px = u * u * x + 2 * u * k * cx + k * k * ex, py = u * u * y + 2 * u * k * cy + k * k * ey;
+      var tx = 2 * u * (cx - x) + 2 * k * (ex - cx), ty = 2 * u * (cy - y) + 2 * k * (ey - cy);
+      var ta = Math.atan2(ty, tx), ll = len * .26 * (1 - k * .6);
+      for(var sd = -1; sd <= 1; sd += 2){
+        var la = ta + sd * 1.0 + .5;          /* leaflets angle out and hang down */
+        c.beginPath(); c.moveTo(px, py);
+        c.lineTo(px + Math.cos(la) * ll, py + Math.abs(Math.sin(la)) * ll * .9 + ll * .25);
+        c.stroke();
+      }
+    }
+  }
+  function palm(c, x, y, h, lean, color){
+    c.strokeStyle = color; c.fillStyle = color; c.lineCap = 'round';
+    var tx = x + lean * h * .35, ty = y - h;
+    /* trunk, thicker at the base */
+    c.beginPath();
+    c.moveTo(x - h * .035, y); c.quadraticCurveTo(x + lean * h * .05, y - h * .6, tx - h * .015, ty);
+    c.lineTo(tx + h * .015, ty); c.quadraticCurveTo(x + lean * h * .05 + h * .04, y - h * .6, x + h * .035, y);
+    c.closePath(); c.fill();
+    var n = 7 + Math.floor(Math.random() * 3);
+    for(var i = 0; i < n; i++){
+      var ang = -Math.PI + (i + .5) / n * Math.PI + (Math.random() - .5) * .35;
+      frond(c, tx, ty, ang, h * (.45 + Math.random() * .2), Math.max(1.2, h * .02));
+    }
+  }
+  function conifer(c, x, y, h, color){
+    c.fillStyle = color;
+    c.beginPath(); c.moveTo(x, y - h);
+    for(var k = 0; k <= 4; k++){
+      var yy = y - h + (k / 4) * h * .9, ww = h * (.12 + k * .07);
+      c.lineTo(x + ww, yy + h * .08); c.lineTo(x + ww * .45, yy + h * .06);
+    }
+    c.lineTo(x + h * .05, y); c.lineTo(x - h * .05, y);
+    for(var k2 = 4; k2 >= 0; k2--){
+      var yy2 = y - h + (k2 / 4) * h * .9, ww2 = h * (.12 + k2 * .07);
+      c.lineTo(x - ww2 * .45, yy2 + h * .06); c.lineTo(x - ww2, yy2 + h * .08);
+    }
+    c.closePath(); c.fill();
+  }
+
+  function build(){
+    W = innerWidth; H = innerHeight; LW = W + PAD * 2;
+    cv.width = W; cv.height = H;
+    var r = rng(1436);
+    L = {};
+
+    /* sky: near-black overhead, burning red at the horizon */
+    var sky = document.createElement('canvas'); sky.width = W; sky.height = H;
+    var c = sky.getContext('2d');
+    var g = c.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, '#050202'); g.addColorStop(.3, '#0b0303');
+    g.addColorStop(.55, '#250705'); g.addColorStop(.68, '#3a0b07'); g.addColorStop(1, '#160403');
+    c.fillStyle = g; c.fillRect(0, 0, W, H);
+    /* low red sun with a wide glow, cut by thin cloud bands */
+    var sx = W * .7, sy = H * .55, sr = H * .1;
+    g = c.createRadialGradient(sx, sy, sr * .5, sx, sy, sr * 4.5);
+    g.addColorStop(0, 'rgba(255,80,45,.22)'); g.addColorStop(1, 'rgba(255,80,45,0)');
+    c.fillStyle = g; c.fillRect(0, 0, W, H);
+    g = c.createRadialGradient(sx, sy - sr * .2, sr * .1, sx, sy, sr);
+    g.addColorStop(0, 'rgba(160,40,20,.75)'); g.addColorStop(1, 'rgba(110,22,12,.6)');
+    c.fillStyle = g; c.beginPath(); c.arc(sx, sy, sr, 0, TAU); c.fill();
+    c.filter = 'blur(4px)';
+    c.fillStyle = 'rgba(10,3,3,.45)';
+    for(var b = 0; b < 5; b++){
+      c.beginPath();
+      c.ellipse(sx + (r() - .5) * sr * 3, sy - sr * .6 + b * sr * .32, sr * (1.6 + r() * 2), sr * (.03 + r() * .03), 0, 0, TAU);
+      c.fill();
+    }
+    c.filter = 'none';
+    /* warm haze sitting on the horizon */
+    g = c.createLinearGradient(0, H * .45, 0, H * .75);
+    g.addColorStop(0, 'rgba(255,70,40,0)'); g.addColorStop(.6, 'rgba(255,70,40,.07)'); g.addColorStop(1, 'rgba(255,70,40,0)');
+    c.fillStyle = g; c.fillRect(0, H * .45, W, H * .3);
+    /* faint stars overhead */
+    for(var s = 0; s < 120; s++){
+      c.fillStyle = 'rgba(255,220,200,' + (0.05 + r() * 0.18).toFixed(3) + ')';
+      c.fillRect(r() * W, r() * H * .38, 1, 1);
+    }
+    L.sky = sky;
+
+    /* far range with the volcano */
+    var far = layerCanvas(); c = far.getContext('2d');
+    var vx = LW * .26, vh = H * .2, vw = W * .16;
+    var farBase = ridge(r, H * .62, H * .06);
+    var farF = function(x){
+      var d = Math.abs(x - vx), cone = d < vw ? vh * (1 - d / vw) : 0;
+      return farBase(x) - Math.min(cone, vh * .9);
+    };
+    c.filter = 'blur(1.2px)';
+    fillRidge(c, farF, '#2b0a07', 'rgba(255,90,55,.22)');
+    c.filter = 'none';
+    L.far = far; L.vx = vx; L.vy = farF(vx);
+
+    /* mid ridge with a tree line -- the sauropod walks along this one */
+    var mid = layerCanvas(); c = mid.getContext('2d');
+    var midF = ridge(r, H * .72, H * .045);
+    fillRidge(c, midF, '#110303', 'rgba(255,70,40,.12)');
+    for(var x = 0; x < LW; x += 14 + r() * 50){
+      var y = midF(x) + 2, h = H * (.025 + r() * .045);
+      if(r() < .6) palm(c, x, y, h, r() - .5, '#110303'); else conifer(c, x, y, h, '#110303');
+    }
+    L.mid = mid; L.midF = midF;
+
+    /* near ridge, big palms at the edges */
+    var near = layerCanvas(); c = near.getContext('2d');
+    var nearF = ridge(r, H * .86, H * .035);
+    fillRidge(c, nearF, '#060101', null);
+    for(var x3 = 0; x3 < LW; x3 += 60 + r() * 160){
+      var edge = Math.min(x3, LW - x3) / LW;            /* taller toward the sides */
+      palm(c, x3, nearF(x3) + 4, H * (.08 + (.5 - edge) * .22 + r() * .05), r() - .5, '#060101');
+    }
+    L.near = near;
+
+    seed();
+  }
+
+  /* ---------------- moving things ---------------- */
+  function seed(){
+    S = { smoke:[], embers:[], fog:[], pteros:[], walkers:[], flash:0, nextFlash:rnd(40, 110) };
+    for(var i = 0; i < 44; i++) S.smoke.push(newSmoke(true));
+    for(var j = 0; j < 46; j++) S.embers.push(newEmber(true));
+    for(var k = 0; k < 4; k++) S.fog.push({ x:Math.random() * W, y:H * (.6 + k * .08), w:W * (.5 + Math.random() * .4), h:H * (.05 + Math.random() * .04), v:rnd(4, 10) * (k % 2 ? 1 : -1) });
+    spawnWalkers(true);
+    spawnPteros(true);
+  }
+
+  function newSmoke(spread){
+    return { x:L.vx + rnd(-8, 8), y:L.vy, r:rnd(10, 20), a:0, age:spread ? rnd(0, 40) : 0, life:rnd(30, 45), vx:rnd(3, 9), vy:rnd(-7, -4) };
+  }
+  function newEmber(spread){
+    return { x:Math.random() * W, y:spread ? Math.random() * H : H + 10, vy:rnd(-22, -8), sw:rnd(0, TAU), sz:rnd(.8, 2.2), life:rnd(.4, 1) };
+  }
+
+  function spawnWalkers(first){
+    var dir = Math.random() < .5 ? 1 : -1, s = H * rnd(.11, .13);
+    var x0 = first ? rnd(.2, .8) * LW : (dir > 0 ? -s * 1.6 : LW + s * 1.6);
+    S.walkers = [{ x:x0, s:s, dir:dir, ph:rnd(0, TAU), v:s * .09 }];
+    if(Math.random() < .5){   /* a calf trotting behind, a bit quicker on its little legs */
+      S.walkers.push({ x:x0 - dir * s * 2.1, s:s * .45, dir:dir, ph:rnd(0, TAU), v:s * .09, calf:true });
+    }
+  }
+  function spawnPteros(first){
+    var n = Math.random() < .5 ? 1 : 2;
+    for(var i = 0; i < n; i++){
+      var dir = Math.random() < .5 ? 1 : -1, s = H * rnd(.045, .065);
+      S.pteros.push({ x:first ? rnd(.1, .9) * W : (dir > 0 ? -s * 2 - i * s * 3 : W + s * 2 + i * s * 3),
+        y:H * rnd(.1, .38), s:s, dir:dir, v:W / rnd(70, 110), ph:rnd(0, TAU), flap:0, wob:rnd(0, TAU) });
+    }
+  }
+
+  function sauropod(c, a){
+    var ph = a.ph, bob = Math.sin(ph * 2) * .012, hb = Math.sin(ph * 2 + 1) * .025;
+    c.save(); c.translate(a.sx, a.sy); c.scale(a.dir * a.s, a.s);
+    c.fillStyle = '#080101';
+    function leg(lx, p){
+      var sw = Math.sin(p) * .1, lift = Math.max(0, Math.cos(p)) * .04;
+      c.beginPath();
+      c.moveTo(lx - .06, -.55 + bob); c.lineTo(lx + .06, -.55 + bob);
+      c.lineTo(lx + sw + .055, -lift); c.lineTo(lx + sw - .065, -lift);
+      c.closePath(); c.fill();
+    }
+    leg(-.28, ph + Math.PI); leg(.3, ph);                       /* far legs */
+    c.beginPath(); c.moveTo(-.36, -.74 + bob);                  /* tail */
+    c.quadraticCurveTo(-.82, -.66 + Math.sin(ph) * .02, -1.3, -.36 + Math.sin(ph + 1) * .03);
+    c.quadraticCurveTo(-.8, -.52, -.32, -.5 + bob); c.closePath(); c.fill();
+    c.beginPath(); c.ellipse(0, -.64 + bob, .44, .21, -.04, 0, TAU); c.fill();   /* body */
+    c.beginPath(); c.moveTo(.2, -.8 + bob);                      /* neck */
+    c.quadraticCurveTo(.56, -1.0, .87, -1.52 + hb); c.lineTo(.95, -1.48 + hb);
+    c.quadraticCurveTo(.68, -.92, .42, -.52 + bob); c.closePath(); c.fill();
+    c.beginPath(); c.ellipse(.96, -1.52 + hb, .085, .04, -.25, 0, TAU); c.fill(); /* head */
+    leg(-.22, ph); leg(.36, ph + Math.PI);                      /* near legs */
+    c.restore();
+  }
+
+  /* draw a sauropod into its own canvas, then stamp it once with a soft red
+     glow, so the rim light hugs the outline instead of every body part */
+  function rimmed(a){
+    var pad = 8, w = Math.ceil(a.s * 2.6) + pad * 2, h = Math.ceil(a.s * 1.7) + pad * 2;
+    var oc = a.oc || (a.oc = document.createElement('canvas'));
+    if(oc.width !== w || oc.height !== h){ oc.width = w; oc.height = h; }
+    var c = oc.getContext('2d');
+    c.setTransform(1, 0, 0, 1, 0, 0); c.clearRect(0, 0, w, h);
+    var ox = a.dir > 0 ? a.s * 1.35 + pad : a.s * 1.25 + pad, oy = a.s * 1.6 + pad;
+    var keep = { sx:a.sx, sy:a.sy };
+    a.sx = ox; a.sy = oy;
+    sauropod(c, a);
+    a.sx = keep.sx; a.sy = keep.sy;
+    ctx.drawImage(oc, a.sx - ox, a.sy - oy);
+  }
+
+  function ptero(c, a){
+    var up = a.flap > 0 ? Math.cos(a.ph) : .25;        /* gliding: wings held a touch high */
+    var tipUp = a.flap > 0 ? Math.cos(a.ph - .8) : .1;
+    c.save(); c.translate(a.x, a.y + Math.sin(a.wob) * a.s * .3); c.scale(a.dir * a.s, a.s);
+    c.fillStyle = '#090202';
+    function wing(sd){
+      var wx = sd * .38, wy = -.1 - up * .3, tx = sd * .95, ty = .02 - tipUp * .45;
+      c.beginPath();
+      c.moveTo(sd * .05, -.04);
+      c.lineTo(wx, wy);                    /* arm to the wrist */
+      c.lineTo(tx, ty);                    /* the long fourth finger */
+      c.quadraticCurveTo(sd * .5, ty * .3 + .12, sd * .06, .08);   /* membrane */
+      c.closePath(); c.fill();
+    }
+    wing(-1); wing(1);
+    c.beginPath(); c.ellipse(0, .01, .16, .05, 0, 0, TAU); c.fill();        /* body */
+    c.beginPath(); c.moveTo(.12, -.03); c.lineTo(.5, .02); c.lineTo(.12, .03); c.closePath(); c.fill(); /* beak */
+    c.beginPath(); c.moveTo(.14, -.02); c.lineTo(-.06, -.17); c.lineTo(.1, -.04); c.closePath(); c.fill(); /* crest */
+    c.restore();
+  }
+
+  /* ---------------- frame ---------------- */
+  var last = 0, acc = 0;
+  function frame(now){
+    if(!running) return;
+    requestAnimationFrame(frame);
+    var dt = Math.min(.1, (now - last) / 1000 || 0);
+    if(now - last < 32) return;          /* ~30 fps is plenty for slow things */
+    last = now;
+    acc += dt;
+    draw(acc, dt);
+  }
+
+  function draw(t, dt){
+    var pan = function(k){ return -PAD + Math.sin(t / 240 * TAU) * PAD * .9 * k; };
+    ctx.globalAlpha = 1;
+    ctx.drawImage(L.sky, 0, 0);
+
+    /* distant lightning, now and then: a soft double flicker in the sky */
+    S.nextFlash -= dt;
+    if(S.nextFlash <= 0){ S.flash = .45; S.nextFlash = rnd(50, 140); }
+    if(S.flash > 0){
+      S.flash -= dt;
+      var f = (S.flash > .3 || (S.flash < .2 && S.flash > .12)) ? .07 : 0;
+      if(f){ ctx.fillStyle = 'rgba(255,140,110,' + f + ')'; ctx.fillRect(0, 0, W, H * .65); }
+    }
+
+    /* pterosaurs, high up */
+    S.pteros.forEach(function(p){
+      p.x += p.dir * p.v * dt; p.wob += dt * .6;
+      if(p.flap > 0){ p.flap -= dt; p.ph += dt * 4.2; }
+      else if(Math.random() < dt * .12){ p.flap = rnd(1.4, 2.6); }
+      ptero(ctx, p);
+    });
+    S.pteros = S.pteros.filter(function(p){ return p.dir > 0 ? p.x < W + p.s * 3 : p.x > -p.s * 3; });
+    if(!S.pteros.length && Math.random() < dt * .05) spawnPteros(false);
+
+    var ofar = pan(.25);
+    ctx.drawImage(L.far, ofar, 0);
+
+    /* volcano: breathing glow and a slow plume */
+    var cx = L.vx + ofar, cy = L.vy;
+    var glow = .28 + Math.sin(t * .7) * .06 + Math.sin(t * 2.3) * .03;
+    var g = ctx.createRadialGradient(cx, cy, 2, cx, cy, H * .09);
+    g.addColorStop(0, 'rgba(255,90,40,' + glow + ')'); g.addColorStop(1, 'rgba(255,90,40,0)');
+    ctx.fillStyle = g; ctx.fillRect(cx - H * .1, cy - H * .1, H * .2, H * .2);
+    S.smoke.forEach(function(p, i){
+      p.age += dt;
+      if(p.age > p.life){ S.smoke[i] = p = newSmoke(false); }
+      var k = p.age / p.life;
+      var px = p.x + ofar + p.vx * p.age + Math.sin(p.age * .3 + i) * 6, py = p.y + p.vy * p.age;
+      var pr = p.r + p.age * 2.2, al = Math.sin(k * Math.PI) * .22;
+      var sg = ctx.createRadialGradient(px, py, 0, px, py, pr);
+      sg.addColorStop(0, 'rgba(58,20,16,' + (al * .9).toFixed(3) + ')');
+      sg.addColorStop(1, 'rgba(58,20,16,0)');
+      ctx.fillStyle = sg; ctx.beginPath(); ctx.arc(px, py, pr, 0, TAU); ctx.fill();
+    });
+
+    /* fog drifting between the ridges */
+    function fog(fb){
+      fb.x += fb.v * dt;
+      if(fb.x - fb.w > W) fb.x = -fb.w; if(fb.x + fb.w < 0) fb.x = W + fb.w;
+      var fg = ctx.createRadialGradient(fb.x, fb.y, 0, fb.x, fb.y, fb.w);
+      fg.addColorStop(0, 'rgba(120,45,35,.09)'); fg.addColorStop(1, 'rgba(120,45,35,0)');
+      ctx.save(); ctx.translate(fb.x, fb.y); ctx.scale(1, fb.h / fb.w); ctx.translate(-fb.x, -fb.y);
+      ctx.fillStyle = fg; ctx.beginPath(); ctx.arc(fb.x, fb.y, fb.w, 0, TAU); ctx.fill(); ctx.restore();
+    }
+    fog(S.fog[0]); fog(S.fog[1]);
+
+    /* the mid ridge and whoever is walking it */
+    var omid = pan(.5);
+    ctx.drawImage(L.mid, omid, 0);
+    S.walkers.forEach(function(a){
+      a.x += a.dir * a.v * dt;
+      a.ph += dt * (a.calf ? 2.4 : 1.15);
+      a.sx = a.x + omid; a.sy = L.midF(Math.max(0, Math.min(LW, a.x))) + 3;
+      ctx.save();
+      ctx.shadowColor = 'rgba(255,80,45,.45)'; ctx.shadowBlur = 7;
+      rimmed(a);
+      ctx.restore();
+    });
+    if(S.walkers.every(function(a){ return a.dir > 0 ? a.x > LW + a.s * 1.6 : a.x < -a.s * 1.6; })){
+      if(Math.random() < dt * .03) spawnWalkers(false);
+    }
+
+    fog(S.fog[2]); fog(S.fog[3]);
+    ctx.drawImage(L.near, pan(.9), 0);
+
+    /* embers rising */
+    S.embers.forEach(function(e, i){
+      e.y += e.vy * dt; e.sw += dt; e.life -= dt * .05;
+      if(e.y < H * .25 || e.life <= 0){ S.embers[i] = e = newEmber(false); }
+      var flick = .35 + Math.sin(e.sw * 7 + i) * .25;
+      ctx.fillStyle = 'rgba(255,' + (90 + (i % 3) * 30) + ',50,' + (flick * e.life).toFixed(3) + ')';
+      ctx.fillRect(e.x + Math.sin(e.sw * 1.3 + i) * 6, e.y, e.sz, e.sz);
+    });
+  }
+
+  var running = false;
+  function start(){
+    build();
+    if(REDUCED || !WIDE.matches){
+      running = false;
+      draw(0, 0);                 /* one still frame: the scene without the motion */
+      return;
+    }
+    if(!running){ running = true; last = performance.now(); requestAnimationFrame(frame); }
+  }
+  var rt = null;
+  addEventListener('resize', function(){ clearTimeout(rt); rt = setTimeout(start, 250); });
+  document.addEventListener('visibilitychange', function(){
+    if(document.hidden){ running = false; }
+    else if(!REDUCED && WIDE.matches && !running){ running = true; last = performance.now(); requestAnimationFrame(frame); }
+  });
+  start();
 })();
 </script>
 </body>

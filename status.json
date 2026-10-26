@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T09:58:00Z",
+  "generated_at": "2026-10-26T10:02:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,6 +10,13 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire - Valguero - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Valguero_WP"
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
@@ -27,11 +34,11 @@
           "map": "Extinction_WP"
         },
         {
-          "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
+          "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": false,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
-          "map": "Extinction_WP"
+          "map": "Astraeos_WP"
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
@@ -55,20 +62,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []
-        },
-        {
-          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP"
-        },
-        {
-          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Svartalfheim_WP"
         },
         {
           "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
@@ -100,11 +93,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Valguero - PVE - (v94.35)",
-          "online": false,
+          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": null
+          "map": null,
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
@@ -122,6 +116,13 @@
           "players": []
         },
         {
+          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null
+        },
+        {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -136,14 +137,22 @@
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
+          "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -157,22 +166,14 @@
           "map": null
         },
         {
-          "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
+          "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -192,9 +193,10 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
+          "players": [],
           "map": null
         }
       ]

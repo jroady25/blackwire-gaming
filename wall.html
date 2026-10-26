@@ -1598,6 +1598,9 @@ section.zone{
 
   var running = false;
   function start(){
+    /* a tab opened in the background can report a 0x0 window; wait for a
+       real size (the resize/visibility handlers call start again) */
+    if(!innerWidth || !innerHeight) return;
     build();
     if(REDUCED || !WIDE.matches){
       running = false;
@@ -1610,6 +1613,7 @@ section.zone{
   addEventListener('resize', function(){ clearTimeout(rt); rt = setTimeout(start, 250); });
   document.addEventListener('visibilitychange', function(){
     if(document.hidden){ running = false; }
+    else if(!L || W !== innerWidth || H !== innerHeight){ start(); }
     else if(!REDUCED && WIDE.matches && !running){ running = true; last = performance.now(); requestAnimationFrame(frame); }
   });
   start();

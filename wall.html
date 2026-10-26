@@ -93,15 +93,20 @@ body::after{
   mix-blend-mode:screen;
 }
 
-/* Burn-in mitigation: the whole board drifts a few pixels over ~11
-   minutes. Imperceptible while you're looking at it, but it stops a
-   static plate edge etching itself into an OLED left on all day. */
+/* Burn-in protection, part 1: the whole board wanders up to ~10px in
+   every direction over 15 minutes. Too slow to notice while watching, but
+   no edge or letter sits on the same pixels for long. Part 2 (the layout
+   swapping sides every 20 minutes) is in the script at the bottom. */
 @keyframes drift{
-  0%   { transform:translate(0,0); }
-  25%  { transform:translate(3px,2px); }
-  50%  { transform:translate(0,4px); }
-  75%  { transform:translate(-3px,1px); }
-  100% { transform:translate(0,0); }
+  0%    { transform:translate(0,0); }
+  12.5% { transform:translate(9px,-4px); }
+  25%   { transform:translate(6px,7px); }
+  37.5% { transform:translate(-3px,9px); }
+  50%   { transform:translate(-9px,3px); }
+  62.5% { transform:translate(-7px,-6px); }
+  75%   { transform:translate(1px,-9px); }
+  87.5% { transform:translate(8px,-2px); }
+  100%  { transform:translate(0,0); }
 }
 
 #wall{
@@ -113,7 +118,25 @@ body::after{
   display:grid;
   grid-template-rows:auto auto 1fr auto;
   gap:var(--gap);
-  animation:drift 660s ease-in-out infinite;
+  animation:drift 900s linear infinite;
+  transition:opacity .8s ease;
+}
+#wall.swapping{ opacity:0; }
+
+/* Burn-in protection, part 2: every 20 minutes the board fades out and
+   back in mirrored -- logo and clock trade sides, the side column moves to
+   the other edge, the stat tiles and footer reverse. Every big static
+   shape ends up somewhere else. Wide screens only. */
+@media (min-aspect-ratio: 1001/1000) and (min-width: 901px){
+  html.flip .head{ flex-direction:row-reverse; }
+  html.flip .clock{ text-align:left; }
+  html.flip .clock .tools{ justify-content:flex-start; }
+  html.flip .board{ grid-template-columns:clamp(190px, 21vw, 460px) 1fr; }
+  html.flip .col.main{ grid-column:2; grid-row:1; }
+  html.flip .col.side{ grid-column:1; grid-row:1; }
+  html.flip .strip{ direction:rtl; }
+  html.flip .strip > *{ direction:ltr; }
+  html.flip .foot{ flex-direction:row-reverse; }
 }
 
 /* ---------------- header ---------------- */
@@ -543,6 +566,7 @@ section.zone{
 @media (prefers-reduced-motion: reduce){
   .feed .ev.fresh, .srv.bump, .srv.dip{ animation:none !important; }
   .board::after{ display:none; }
+  #wall{ transition:none; }
 }
 
 /* ---------------- footer ---------------- */
@@ -1133,6 +1157,18 @@ section.zone{
   }
   pullDiscord();
   setInterval(pullDiscord, 5 * 60000);
+
+  /* Burn-in protection, part 2: mirror the layout every 20 minutes */
+  setInterval(function(){
+    var wall = el('wall'), root = document.documentElement;
+    if(REDUCED){ root.classList.toggle('flip'); sizeArk(); return; }
+    wall.classList.add('swapping');
+    setTimeout(function(){
+      root.classList.toggle('flip');
+      sizeArk();
+      wall.classList.remove('swapping');
+    }, 850);
+  }, 20 * 60000);
 
   /* Fullscreen = TV mode */
   (function(){

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:06:36Z",
+  "generated_at": "2026-10-26T17:11:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,11 +41,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "NOA"
+            "NOA",
+            "KodasBetter"
           ]
         },
         {
@@ -112,10 +113,11 @@
         },
         {
           "name": "BlackWire (JKRZ) - Svartalfheim - PVE - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Svartalfheim_WP"
+          "map": "Svartalfheim_WP",
+          "offline_since": "2026-10-26T17:11:24Z"
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
@@ -196,15 +198,6 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T17:01:46Z",
           "names_hidden": true
         },
         {

@@ -13,6 +13,10 @@
       "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)"
     },
     {
+      "service_id": "18111154",
+      "name": "BlackWire - Extinction - PVE - (v94.35)"
+    },
+    {
       "service_id": "18293911",
       "name": "BlackWire - Saiyan Legacy - PVP - (v94.35)"
     },
@@ -77,8 +81,8 @@
       "name": "BlackWire - Decended - PVE - (v94.35)"
     },
     {
-      "service_id": "18111154",
-      "name": "BlackWire - Extinction - PVE - (v94.35)"
+      "service_id": "18638510",
+      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
     {
       "service_id": "18111130",
@@ -91,18 +95,14 @@
     {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v94.35)"
-    },
-    {
-      "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 37093026,
+    "offset": 37096375,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 37093026,
+    "log_size": 37096375,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:31:36Z",
+  "generated_at": "2026-10-26T23:36:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -199,12 +199,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-26T17:51:42Z",
+          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         },
         {
@@ -226,12 +226,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
+          "offline_since": "2026-10-26T17:51:42Z",
           "names_hidden": true
         }
       ]

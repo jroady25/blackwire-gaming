@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:16:36Z",
+  "generated_at": "2026-10-26T07:21:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -132,7 +132,9 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "serious_booth4"
+          ]
         },
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
@@ -186,14 +188,14 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

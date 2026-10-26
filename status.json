@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T10:46:48Z",
+  "generated_at": "2026-10-26T10:51:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -107,6 +107,14 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
+        },
+        {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
@@ -163,13 +171,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null
-        },
-        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -177,15 +178,14 @@
           "map": null
         },
         {
-          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
-          "online": true,
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": null,
-          "players": []
+          "map": null
         },
         {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

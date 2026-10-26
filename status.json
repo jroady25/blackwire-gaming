@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:16:24Z",
+  "generated_at": "2026-10-26T22:21:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,11 +21,11 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Sniffy7990",
             "Itz finnnnnn",
             "hzrow",
             "Dat_Boi_Mike_70",
-            "DriftNalg"
+            "DriftNalg",
+            "Sniffy7990"
           ]
         },
         {
@@ -52,7 +52,6 @@
           "map": "Astraeos_WP",
           "players": [
             "Luckyybear14",
-            "SpoggDarr",
             "jandles13",
             "Bretty Wat",
             "VLAD86",
@@ -169,13 +168,14 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "chri1058",
             "GreenOatis",
-            "LeadSpoon2264"
+            "LeadSpoon2264",
+            "Derangedjoka"
           ]
         },
         {
@@ -221,21 +221,21 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T20:21:37Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T20:21:37Z",
           "names_hidden": true
         }
       ]

@@ -97,34 +97,28 @@
       "name": "BlackWire - The Island - PVP - (v94.35)"
     },
     {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v94.35)"
-    },
-    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 38051878,
+    "offset": 38055032,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 38051878,
+    "log_size": 38055032,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Ragnarok - PVE - (v94.35)": "2026-10-27T09:07:22Z",
-    "ark:BlackWire - Astraeos - PVE - (v94.35)": "2026-10-27T09:07:22Z",
-    "ark:Blackwire - Astraeos - Primal Chaos - (v94.35)": "2026-10-27T09:07:22Z",
-    "ark:BlackWire (JKRZ) - Event Map - (v94.35)": "2026-10-27T09:07:22Z",
-    "ark:BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)": "2026-10-27T09:07:22Z",
-    "ark:Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)": "2026-10-27T09:07:22Z",
-    "ark:BlackWire (JKRZ) - The Island - PVE - (v94.35)": "2026-10-27T09:07:22Z",
-    "ark:BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)": "2026-10-27T09:07:22Z",
+    "ark:BlackWire - Valguero - PVE - (v94.35)": "2026-10-27T09:12:07Z",
+    "ark:BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)": "2026-10-27T09:12:07Z",
     "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-26T17:51:42Z",
     "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-26T15:41:37Z",
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-26T20:21:37Z",
-    "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-26T15:41:37Z"
+    "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-26T15:41:37Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-26T20:21:37Z"
   }
 }

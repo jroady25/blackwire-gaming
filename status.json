@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T10:46:24Z",
+  "generated_at": "2026-10-27T10:51:26Z",
   "servers": {
     "ark": {
       "servers": [
         {
-          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
+          "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
+          "map": "Valguero_WP",
           "players": []
         },
         {
@@ -78,22 +78,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
           "online": true,
           "players_current": 0,
@@ -110,19 +94,19 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "players": []
+        },
+        {
           "name": "BlackWire (JKRZ) - Abberation - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
           "players": []
         },
         {
@@ -144,14 +128,6 @@
           ]
         },
         {
-          "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
           "online": true,
           "players_current": 1,
@@ -170,6 +146,39 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -179,7 +188,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -197,15 +206,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire (JKRZ) -Scorched Earth - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "ScorchedEarth_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Valguero - PVE - (v94.35)",
+          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
           "players_max": 0,
@@ -213,13 +214,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
+          "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
+          "map": "TheCenter_WP",
+          "players": []
         }
       ]
     },
@@ -262,20 +262,6 @@
           "online": true,
           "players_current": null,
           "players_max": 20
-        }
-      ]
-    },
-    "dragonwilds": {
-      "label": "Runescape: Dragonwilds",
-      "servers": [
-        {
-          "service_id": "19957897",
-          "name": "Runescape: Dragonwilds",
-          "online": true,
-          "players_current": 0,
-          "players_max": 6,
-          "map": null,
-          "players": []
         }
       ]
     }

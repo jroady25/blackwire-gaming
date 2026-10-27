@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-10-27T03:46:30Z",
+  "generated_at": "2026-10-27T03:51:31Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "xXKeefKhalifXx",
-            "Pizza_Monster08"
+            "xXKeefKhalifXx"
           ]
         },
         {
@@ -45,12 +44,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "legendx12x",
             "EXDaydreamer",
             "VLAD86"
           ]
@@ -80,13 +78,13 @@
           "map": "Astraeos_WP",
           "players": [
             "Phamton1973",
-            "DireMeek",
             "santos_g3",
             "baby-peak35",
             "roiuki",
             "seeyuh!",
-            "sporty-cider53",
-            "Get_2ftd_kid"
+            "Get_2ftd_kid",
+            "DireMeek",
+            "sporty-cider53"
           ]
         },
         {
@@ -163,7 +161,7 @@
         {
           "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Forglar2_WP",
           "players": []
@@ -177,13 +175,14 @@
           "players": [
             "Santa_Clause01",
             "SpoggDarr",
-            "master_jrock"
+            "master_jrock",
+            "Dame Duchess"
           ]
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": []
@@ -216,21 +215,21 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T17:51:42Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T15:41:37Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T17:51:42Z",
           "names_hidden": true
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:11:23Z",
+  "generated_at": "2026-10-27T06:16:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -49,7 +49,8 @@
           "players": [
             "Luckyybear14",
             "jandles13",
-            "VLAD86"
+            "VLAD86",
+            "Bretty Wat"
           ]
         },
         {
@@ -166,7 +167,7 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": []
@@ -207,6 +208,15 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T15:41:37Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -222,15 +232,6 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T20:21:37Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         }
       ]

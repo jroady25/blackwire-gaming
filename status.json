@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:41:28Z",
+  "generated_at": "2026-10-27T03:46:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -166,9 +166,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Forglar2_WP",
-          "players": [
-            "Dame Duchess"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
@@ -188,10 +186,7 @@
           "players_current": 2,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "nasty_magician2",
-            "chri1058"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
@@ -212,15 +207,6 @@
           ]
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -236,6 +222,15 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         },
         {

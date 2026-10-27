@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:06:35Z",
+  "generated_at": "2026-10-27T15:11:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,8 +45,8 @@
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "SpoggDarr",
-            "B_rad585"
+            "B_rad585",
+            "SpoggDarr"
           ]
         },
         {
@@ -74,10 +74,11 @@
         },
         {
           "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP"
+          "map": "Ragnarok_WP",
+          "offline_since": "2026-10-27T15:11:28Z"
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
@@ -176,7 +177,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -194,6 +195,14 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T14:56:39Z"
+        },
+        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -203,21 +212,13 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
           "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T14:56:39Z"
         }
       ]
     },

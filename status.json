@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:16:35Z",
+  "generated_at": "2026-10-27T19:21:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,8 +22,7 @@
           "players": [
             "own-loch4",
             "Sniffy7990",
-            "Itz finnnnnn",
-            "DriftNalg"
+            "Itz finnnnnn"
           ]
         },
         {
@@ -180,12 +179,21 @@
           "players": []
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T17:01:42Z",
           "names_hidden": true
         },
         {
@@ -207,7 +215,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -222,15 +230,6 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T17:01:42Z",
           "names_hidden": true
         }
       ]

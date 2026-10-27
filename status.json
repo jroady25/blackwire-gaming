@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:56:24Z",
+  "generated_at": "2026-10-27T04:01:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,8 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "xXKeefKhalifXx"
+            "xXKeefKhalifXx",
+            "Pizza_Monster08"
           ]
         },
         {
@@ -50,7 +51,8 @@
           "players": [
             "Bretty Wat",
             "EXDaydreamer",
-            "VLAD86"
+            "VLAD86",
+            "legendx12x"
           ]
         },
         {
@@ -73,18 +75,15 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)",
           "online": true,
-          "players_current": 8,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Phamton1973",
             "santos_g3",
             "baby-peak35",
-            "roiuki",
             "Get_2ftd_kid",
-            "DireMeek",
-            "sporty-cider53",
-            "seeyuh!"
+            "DireMeek"
           ]
         },
         {
@@ -153,7 +152,7 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": []

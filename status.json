@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T02:26:38Z",
+  "generated_at": "2026-10-27T02:31:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -74,7 +74,8 @@
           "players": [
             "baby-peak35",
             "Phamton1973",
-            "BLACK PIRATE"
+            "BLACK PIRATE",
+            "DireMeek"
           ]
         },
         {
@@ -195,21 +196,21 @@
           "players": []
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T20:21:37Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T20:21:37Z",
           "names_hidden": true
         },
         {

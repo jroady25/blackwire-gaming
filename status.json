@@ -1,41 +1,33 @@
 {
-  "generated_at": "2026-10-27T10:11:27Z",
+  "generated_at": "2026-10-27T10:16:04Z",
   "servers": {
     "ark": {
       "servers": [
         {
-          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
+          "name": "Event Map \u2014 Club Ark",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "offline_since": "2026-10-27T10:16:04Z"
+        },
+        {
+          "name": "Ragnarok \u2014 PVE",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
+          "players_max": 0,
+          "map": null,
           "players": []
         },
         {
-          "name": "BlackWire - Valguero - PVE - (v94.35)",
+          "name": "Valguero \u2014 PVE",
           "online": true,
           "players_current": 1,
-          "players_max": 20,
-          "map": "Valguero_WP",
+          "players_max": 0,
+          "map": null,
           "players": [
             "Zackattack28060"
           ]
-        },
-        {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
-        },
-        {
-          "name": "Blackwire - The Island - Primal Chaos - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
@@ -53,62 +45,61 @@
           "map": "Extinction_WP"
         },
         {
-          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
+          "name": "Astraeos \u2014 Primal Chaos",
           "online": true,
           "players_current": 1,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": [
-            "ALDBARANT974"
-          ]
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Astraeos_WP",
+          "players_max": 0,
+          "map": null,
           "players": [
             "KittyLovesArk"
           ]
         },
         {
-          "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)",
-          "online": true,
+          "name": "Ragnarok \u2014 Jurassic Awakening",
+          "online": false,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP"
+          "players_max": 0,
+          "map": null,
+          "offline_since": "2026-10-27T10:16:04Z"
         },
         {
-          "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
+          "name": "Decended \u2014 PVE",
           "online": true,
           "players_current": 0,
-          "players_max": 26,
-          "map": "Genesis_WP",
+          "players_max": 0,
+          "map": null,
           "players": []
         },
         {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "name": "Event Map (JKRZ)",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
+          "players_max": 0,
+          "map": null,
           "players": []
         },
         {
-          "name": "BlackWire Limited(JKRZ) - Island SOTF - PVP - (v94.35)",
+          "name": "Island SOTF \u2014 PVP (Limited/JKRZ)",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
+          "players_max": 0,
+          "map": null,
           "names_hidden": true
         },
         {
-          "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
+          "name": "Svartalfheim \u2014 PVE (JKRZ)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 0,
+          "map": null,
+          "offline_since": "2026-10-27T10:16:04Z"
+        },
+        {
+          "name": "Forglar 1 \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar_WP",
+          "players_max": 0,
+          "map": null,
           "players": []
         },
         {
@@ -128,11 +119,11 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
+          "name": "Lost Colony \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
+          "players_max": 0,
+          "map": null,
           "players": []
         },
         {
@@ -154,72 +145,28 @@
           ]
         },
         {
-          "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
+          "name": "The Center \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
+          "players_max": 0,
+          "map": null,
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
+          "name": "Genesis 1 \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 1,
-          "players_max": 20,
-          "map": "Genesis_WP",
+          "players_max": 0,
+          "map": null,
           "players": [
             "XHaidenSmithX @R..."
           ]
         },
         {
-          "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)",
+          "name": "Bjarnheim \u2014 PVE (JKRZ)",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T17:51:42Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T20:21:37Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
+          "players_max": 0,
           "map": null,
           "players": []
         }
@@ -237,11 +184,11 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
-          "map": null
+          "map": null,
+          "offline_since": "2026-10-27T10:16:04Z"
         }
       ]
     },
@@ -264,20 +211,6 @@
           "online": true,
           "players_current": null,
           "players_max": 20
-        }
-      ]
-    },
-    "dragonwilds": {
-      "label": "Runescape: Dragonwilds",
-      "servers": [
-        {
-          "service_id": "19957897",
-          "name": "Runescape: Dragonwilds",
-          "online": true,
-          "players_current": 0,
-          "players_max": 6,
-          "map": null,
-          "players": []
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T06:50:26Z",
+  "generated_at": "2026-10-27T06:56:24Z",
   "servers": {
     "ark": {
       "servers": [
@@ -77,10 +77,10 @@
           "map": "Astraeos_WP",
           "players": [
             "Phamton1973",
-            "jana_mew",
             "Harru",
             "arty8r",
-            "KittyLovesArk"
+            "KittyLovesArk",
+            "jana_mew"
           ]
         },
         {
@@ -197,15 +197,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -215,7 +206,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -230,6 +221,15 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-26T20:21:37Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T15:41:37Z",
           "names_hidden": true
         }
       ]

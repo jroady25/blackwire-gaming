@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:31:44Z",
+  "generated_at": "2026-10-27T16:36:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,16 +9,19 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg"
+            "DriftNalg",
+            "own-loch4"
           ]
         },
         {
@@ -44,7 +47,6 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Bretty Wat",
             "B_rad585"
           ]
         },
@@ -180,7 +182,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -189,12 +191,13 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-27T14:56:39Z"
+          "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
@@ -215,13 +218,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
+          "offline_since": "2026-10-27T14:56:39Z"
         }
       ]
     },

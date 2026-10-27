@@ -17,20 +17,12 @@
       "name": "Blackwire - The Island - Primal Chaos - PVE - (v94.35)"
     },
     {
-      "service_id": "18111130",
-      "name": "BlackWire - Astraeos - PVE - (v94.35)"
-    },
-    {
       "service_id": "18111154",
       "name": "BlackWire - Extinction - PVE - (v94.35)"
     },
     {
       "service_id": "18497059",
       "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)"
-    },
-    {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)"
     },
     {
       "service_id": "18863471",
@@ -89,36 +81,42 @@
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
-      "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v94.35)"
-    },
-    {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v94.35)"
-    },
-    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
     {
       "service_id": "18610040",
       "name": "BlackWire - Astraeos - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18293911",
+      "name": "BlackWire - Aberration - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - (v94.35)"
+    },
+    {
+      "service_id": "18111130",
+      "name": "BlackWire - Astraeos - PVE - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 38055032,
+    "offset": 38058186,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 38055032,
+    "log_size": 38058186,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Valguero - PVE - (v94.35)": "2026-10-27T09:12:07Z",
-    "ark:BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)": "2026-10-27T09:12:07Z",
-    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-26T17:51:42Z",
-    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-26T15:41:37Z",
     "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-26T15:41:37Z",
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-26T20:21:37Z"
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-26T20:21:37Z",
+    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-26T15:41:37Z",
+    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-26T17:51:42Z"
   }
 }

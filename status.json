@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T10:56:27Z",
+  "generated_at": "2026-10-27T11:01:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,6 +17,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
           "players": []
         },
         {
@@ -43,9 +51,19 @@
           "map": "Extinction_WP"
         },
         {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
+          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
           "online": true,
           "players_current": 1,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": [
+            "ALDBARANT974"
+          ]
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -65,14 +83,6 @@
           "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
           "players": []
         },
         {
@@ -124,14 +134,20 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
+          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": [
-            "Joker"
-          ]
+          "map": "Forglar2_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Genesis 1 - PVE - (v94.35)",
@@ -152,12 +168,13 @@
           "players": []
         },
         {
-          "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
-          "online": true,
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": []
+          "map": null,
+          "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
         },
         {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
@@ -167,6 +184,16 @@
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
           "names_hidden": true
+        },
+        {
+          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": [
+            "Joker"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
@@ -187,34 +214,11 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
-        },
-        {
-          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Ragnarok_WP"
-        },
-        {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "name": "BlackWire - Decended - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP"
-        },
-        {
-          "name": "Blackwire (JKRZ) - Forglar 2 - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Forglar2_WP",
+          "map": "Ragnarok_WP",
           "players": []
         }
       ]
@@ -268,9 +272,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

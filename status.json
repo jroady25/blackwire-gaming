@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:36:47Z",
+  "generated_at": "2026-10-27T18:41:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,12 +17,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
             "own-loch4",
-            "DriftNalg"
+            "DriftNalg",
+            "Sniffy7990"
           ]
         },
         {
@@ -87,7 +88,7 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
+          "map": "Genesis_WP",
           "players": []
         },
         {
@@ -174,6 +175,23 @@
           "players": []
         },
         {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T14:56:39Z"
+        },
+        {
           "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -184,15 +202,6 @@
         },
         {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -217,14 +226,6 @@
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
           "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T14:56:39Z"
         }
       ]
     },

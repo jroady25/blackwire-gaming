@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:01:27Z",
+  "generated_at": "2026-10-27T11:06:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,14 +17,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
-        },
-        {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
           "players": []
         },
         {
@@ -63,7 +55,7 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -83,6 +75,14 @@
           "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
           "players": []
         },
         {
@@ -142,6 +142,16 @@
           "players": []
         },
         {
+          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": [
+            "Joker"
+          ]
+        },
+        {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
@@ -186,16 +196,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": [
-            "Joker"
-          ]
-        },
-        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -205,6 +205,13 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP"
+        },
+        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -212,14 +219,6 @@
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
           "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
         }
       ]
     },

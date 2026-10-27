@@ -106,6 +106,23 @@
   foot.appendChild(a);
 })();
 
+/* Discord + Facebook links - the two places the community lives, added to
+   every page's footer from here (same pattern as Donate and Staff). */
+(function(){
+  var foot = document.querySelector('.foot-links');
+  if(!foot || foot.querySelector('a[data-social]')) return;
+  /* inserted at the front one by one, so listed last-first: Discord ends up first */
+  [['Facebook', 'https://www.facebook.com/blackwiregaming'], ['Discord', 'https://discord.gg/blackwire']].forEach(function(l){
+    var a = document.createElement('a');
+    a.href = l[1];
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.setAttribute('data-social', l[0].toLowerCase());
+    a.textContent = l[0];
+    foot.insertBefore(a, foot.firstChild);
+  });
+})();
+
 /* Staff link - drops the admin panel into the footer of every page, so it
    lives in one place instead of being pasted into nine HTML files. */
 (function(){

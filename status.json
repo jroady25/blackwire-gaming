@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T04:21:29Z",
+  "generated_at": "2026-10-27T04:26:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,7 +51,6 @@
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "Luckyybear14",
             "jandles13",
             "EXDaydreamer",
             "VLAD86"
@@ -84,7 +83,6 @@
             "Phamton1973",
             "santos_g3",
             "baby-peak35",
-            "Get_2ftd_kid",
             "DireMeek"
           ]
         },
@@ -207,7 +205,16 @@
           ]
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T17:51:42Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -225,16 +232,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T17:51:42Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -248,11 +246,11 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
-          "map": null
+          "map": null,
+          "offline_since": "2026-10-27T04:26:41Z"
         },
         {
           "name": "Palworld Server 2",

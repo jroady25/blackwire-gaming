@@ -85,10 +85,6 @@
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v94.35)"
-    },
-    {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v94.35)"
     },
@@ -101,23 +97,27 @@
       "name": "BlackWire - Decended - PVE - (v94.35)"
     },
     {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v94.35)"
+    },
+    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 38359681,
+    "offset": 38363224,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 38359681,
+    "log_size": 38363224,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-27T10:36:29Z",
     "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-27T10:36:29Z",
     "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-27T10:36:29Z",
     "ark:BlackWire - Decended - PVE - (v94.35)": "2026-10-27T14:56:39Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-27T10:36:29Z",
     "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-27T10:36:29Z"
   }
 }

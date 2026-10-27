@@ -1362,12 +1362,18 @@ section.zone{
       /* edges catch the sunset: brightest near the sun */
       g.globalCompositeOperation = 'lighter';
       g.lineWidth = 1.4; g.shadowBlur = 6; g.shadowColor = 'rgba(255,90,50,.6)';
+      var buckets = {};
       for(var k = 0; k < rl.pts.length - 6; k += 6){
         var sx = k * 2 - PAD, dx = (sx - sunX) / W;
-        var a = rim * (Math.exp(-dx * dx * 6) * .85 + .15);
-        g.strokeStyle = 'rgba(255,110,60,' + a.toFixed(3) + ')';
-        g.beginPath(); g.moveTo(k * 2, rl.pts[k] + .5); g.lineTo((k + 6) * 2, rl.pts[k + 6] + .5); g.stroke();
+        var a = (Math.round(rim * (Math.exp(-dx * dx * 6) * .85 + .15) * 100) / 100).toFixed(2);
+        (buckets[a] || (buckets[a] = [])).push(k);
       }
+      Object.keys(buckets).forEach(function(a){
+        g.strokeStyle = 'rgba(255,110,60,' + a + ')';
+        g.beginPath();
+        buckets[a].forEach(function(k){ g.moveTo(k * 2, rl.pts[k] + .5); g.lineTo((k + 6) * 2, rl.pts[k + 6] + .5); });
+        g.stroke();
+      });
       g.globalCompositeOperation = 'source-over'; g.shadowBlur = 0;
     }
     return c;
@@ -1378,6 +1384,7 @@ section.zone{
     var ex = x + Math.cos(ang) * len, ey = y + Math.sin(ang) * len * .5 + len * .45;
     var cx = x + Math.cos(ang) * len * .55, cy = y + Math.sin(ang) * len * .6 - len * .2;
     g.lineWidth = w; g.beginPath(); g.moveTo(x, y); g.quadraticCurveTo(cx, cy, ex, ey); g.stroke();
+    g.beginPath();
     for(var i = 1; i < 16; i++){
       var k = i / 16, u = 1 - k;
       var px = u * u * x + 2 * u * k * cx + k * k * ex, py = u * u * y + 2 * u * k * cy + k * k * ey;
@@ -1386,9 +1393,13 @@ section.zone{
       for(var sd = -1; sd <= 1; sd += 2){
         var la = ta + sd * .9 + .45, bx = px + Math.cos(la) * ll, by = py + Math.abs(Math.sin(la)) * ll * .8 + ll * .35;
         var nx = -Math.sin(la) * w * 1.3, ny = Math.cos(la) * w * 1.3;
-        g.beginPath(); g.moveTo(px + nx, py + ny); g.lineTo(bx, by); g.lineTo(px - nx, py - ny); g.closePath(); g.fill();
+        /* same winding for every leaflet so one nonzero fill unions them */
+        var ax = px + nx, ay = py + ny, cx2 = px - nx, cy2 = py - ny;
+        if((bx - ax) * (cy2 - ay) - (by - ay) * (cx2 - ax) < 0){ var tx2 = ax, ty2 = ay; ax = cx2; ay = cy2; cx2 = tx2; cy2 = ty2; }
+        g.moveTo(ax, ay); g.lineTo(bx, by); g.lineTo(cx2, cy2); g.closePath();
       }
     }
+    g.fill();
   }
   function palm(g, x, y, h, lean){
     var tx = x + lean * h * .3, ty = y - h, w = Math.max(.8, h * .012);
@@ -1462,7 +1473,6 @@ section.zone{
 
     /* sun rays, painted once and blurred so they read as light, not stripes */
     var rs = Math.round(H * 2.2), rays = canvas(rs, rs), rg = rays.getContext('2d');
-    rg.filter = 'blur(' + Math.round(H * .012) + 'px)';
     rg.globalCompositeOperation = 'lighter';
     for(var ri = 0; ri < 16; ri++){
       var ang = -Math.PI + (ri + r() * .6) / 16 * Math.PI, spread = .012 + r() * .03, len = rs / 2;
@@ -1474,7 +1484,10 @@ section.zone{
       rg.lineTo(rs / 2 + Math.cos(ang + spread) * len, rs / 2 + Math.sin(ang + spread) * len);
       rg.closePath(); rg.fill();
     }
-    L.rays = rays;
+    var rb = canvas(rs, rs), rbg = rb.getContext('2d');
+    rbg.filter = 'blur(' + Math.round(H * .012) + 'px)';
+    rbg.drawImage(rays, 0, 0);
+    L.rays = rb;
 
     /* clouds: two decks, the high one thin and fast, the low one heavy */
     L.cloudHi = cloudTexture(r, 640, 160, .8, { sy:5, oy:2, lo:.5, hi:.78, alpha:.55 });
@@ -1505,18 +1518,20 @@ section.zone{
     var sc = canvas(LW, H), sg = sc.getContext('2d');
     sg.fillStyle = 'rgb(24,6,5)';
     /* grass and fern tufts: thin blades fanning up from the ground line */
+    sg.beginPath();
     for(var bx = 0; bx < LW; bx += 2 + r() * 4){
       var by = L.r3.at(bx) + 7, bh = H * (.008 + r() * .014), blades = 4 + Math.floor(r() * 6);
       for(var bl = 0; bl < blades; bl++){
         var lean = (bl / (blades - 1 || 1) - .5) * 1.4 + (r() - .5) * .4;
         var hh = bh * (.55 + r() * .6), tipx = bx + lean * hh * .9, tipy = by - hh;
         var wb = Math.max(.7, hh * .07);
-        sg.beginPath(); sg.moveTo(bx - wb, by);
+        sg.moveTo(bx - wb, by);
         sg.quadraticCurveTo(bx + lean * hh * .2, by - hh * .6, tipx, tipy);
         sg.quadraticCurveTo(bx + lean * hh * .25 + wb, by - hh * .55, bx + wb, by);
-        sg.closePath(); sg.fill();
+        sg.closePath();
       }
     }
+    sg.fill();
     /* fill below the brush so the ridge reads as solid ground */
     sg.beginPath(); sg.moveTo(0, H);
     for(var gx = 0; gx <= LW; gx += 4) sg.lineTo(gx, L.r3.at(gx) + 6);
@@ -1808,8 +1823,9 @@ section.zone{
     ctx.drawImage(L.vignette, 0, 0);
     ctx.globalCompositeOperation = 'overlay';
     ctx.globalAlpha = .07;
-    var gx = -Math.random() * 256, gy = -Math.random() * 256;
-    for(var yy = gy; yy < H; yy += 256) for(var xx = gx; xx < W; xx += 256) ctx.drawImage(L.grain, xx, yy);
+    var gx = Math.random() * 256, gy = Math.random() * 256;
+    if(!L.grainPat) L.grainPat = ctx.createPattern(L.grain, 'repeat');
+    ctx.save(); ctx.translate(-gx, -gy); ctx.fillStyle = L.grainPat; ctx.fillRect(0, 0, W + 256, H + 256); ctx.restore();
     ctx.globalAlpha = 1;
     ctx.globalCompositeOperation = 'source-over';
   }

@@ -81,44 +81,44 @@
       "name": "BlackWire (JKRZ) - Bjarnheim - PVE - (v94.35)"
     },
     {
-      "service_id": "18863471",
-      "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)"
+      "service_id": "18638510",
+      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
     {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v94.35)"
+      "service_id": "18863471",
+      "name": "Blackwire - Ragnarok - Jurassic Awakening - (v94.35)"
     },
     {
       "service_id": "18610040",
       "name": "BlackWire - Astraeos - PVP - (v94.35)"
     },
     {
-      "service_id": "19826461",
-      "name": "BlackWire - Decended - PVE - (v94.35)"
-    },
-    {
-      "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v94.35)"
     },
     {
       "service_id": "18293911",
       "name": "BlackWire - Aberration - PVP - (v94.35)"
+    },
+    {
+      "service_id": "19826461",
+      "name": "BlackWire - Decended - PVE - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 38331308,
+    "offset": 38333128,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 38331308,
+    "log_size": 38333128,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:Blackwire - Ragnarok - Jurassic Awakening - (v94.35)": "2026-10-27T15:11:28Z",
-    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-27T10:36:29Z",
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-27T10:36:29Z",
-    "ark:BlackWire - Decended - PVE - (v94.35)": "2026-10-27T14:56:39Z",
     "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-27T10:36:29Z",
-    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-27T10:36:29Z"
+    "ark:Blackwire - Ragnarok - Jurassic Awakening - (v94.35)": "2026-10-27T15:11:28Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-27T10:36:29Z",
+    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-27T10:36:29Z",
+    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-27T10:36:29Z",
+    "ark:BlackWire - Decended - PVE - (v94.35)": "2026-10-27T14:56:39Z"
   }
 }

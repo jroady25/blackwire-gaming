@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T17:46:33Z",
+  "generated_at": "2026-10-27T17:51:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,7 +44,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "SpoggDarr"
+            "SpoggDarr",
+            "B_rad585"
           ]
         },
         {
@@ -169,15 +170,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Decended - PVE - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T14:56:39Z"
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -195,7 +188,15 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Decended - PVE - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T14:56:39Z"
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

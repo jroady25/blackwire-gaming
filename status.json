@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:41:23Z",
+  "generated_at": "2026-10-27T00:46:29Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,7 +50,8 @@
           "players": [
             "jandles13",
             "Luckyybear14",
-            "Bretty Wat"
+            "Bretty Wat",
+            "KodasBetter"
           ]
         },
         {
@@ -148,7 +149,7 @@
         {
           "name": "BlackWire (JKRZ) - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
@@ -172,9 +173,9 @@
           "players": [
             "EXDaydreamer",
             "SpoggDarr",
-            "chri1058",
             "nasty_magician2",
-            "Slingshot"
+            "Slingshot",
+            "chri1058"
           ]
         },
         {
@@ -205,6 +206,15 @@
           "players": []
         },
         {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-26T15:41:37Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -215,15 +225,6 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-26T15:41:37Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -293,9 +294,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

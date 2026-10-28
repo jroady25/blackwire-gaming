@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:11:52Z",
+  "generated_at": "2026-10-28T16:16:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,10 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "own-loch4"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
@@ -140,12 +142,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "SpoggDarr"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v94.35)",
@@ -183,6 +183,15 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T07:01:41Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Genesis - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -211,15 +220,6 @@
         },
         {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T07:01:41Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

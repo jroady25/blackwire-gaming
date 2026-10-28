@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:51:47Z",
+  "generated_at": "2026-10-28T16:56:44Z",
   "servers": {
     "ark": {
       "servers": [
@@ -188,7 +188,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -206,7 +206,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

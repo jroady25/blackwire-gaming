@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T05:06:49Z",
+  "generated_at": "2026-10-28T05:11:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -59,12 +59,10 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "ALDBARANT974"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
@@ -76,8 +74,8 @@
             "santos_g3",
             "chri1058",
             "nasty_magician2",
-            "arty8r",
-            "AllenDWoodz"
+            "AllenDWoodz",
+            "arty8r"
           ]
         },
         {
@@ -180,12 +178,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-27T17:01:42Z",
+          "offline_since": "2026-10-27T10:36:29Z",
           "names_hidden": true
         },
         {
@@ -198,7 +196,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -207,7 +205,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -225,12 +223,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
+          "offline_since": "2026-10-27T17:01:42Z",
           "names_hidden": true
         }
       ]

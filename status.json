@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:21:28Z",
+  "generated_at": "2026-10-28T02:26:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -11,8 +11,8 @@
           "map": "Ragnarok_WP",
           "players": [
             "Santa_Clause01",
-            "Pizza_Monster08",
-            "Geepgeep7998"
+            "Geepgeep7998",
+            "ugeen_dingles"
           ]
         },
         {
@@ -57,7 +57,7 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP"
         },
@@ -147,12 +147,10 @@
         {
           "name": "BlackWire (JKRZ) - The Island - PVE - (v94.35)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "nasty_magician2"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - The Center - PVE - (v94.35)",
@@ -181,7 +179,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -199,12 +197,21 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T19:06:43Z",
           "names_hidden": true
         },
         {
@@ -223,15 +230,6 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T19:06:43Z",
           "names_hidden": true
         }
       ]

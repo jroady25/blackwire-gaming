@@ -235,8 +235,16 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
         # and count via discovery. "slots" is the real max player count,
         # which matters for the no-query fallback rows below.
         gs_now = probed_gs.get(service_id) or {}
-        rcon_host = entry.get("host") or gs_now.get("ip")
-        rcon_port = entry.get("rcon_port") or gs_now.get("rcon_port")
+        # Nitrado's live address wins: when Nitrado moves a server to a new
+        # machine (Extinction, 2026-10-22) the hand-typed host/port goes
+        # dead and names silently vanish. The hand-typed pair is kept as a
+        # second try in case the live one ever fails.
+        rcon_host = gs_now.get("ip") or entry.get("host")
+        rcon_port = gs_now.get("rcon_port") or entry.get("rcon_port")
+        alt_host = entry.get("host")
+        alt_port = entry.get("rcon_port")
+        if (alt_host, alt_port) == (rcon_host, rcon_port):
+            alt_host = alt_port = None
         slots = entry.get("players_max") or gs_now.get("slots") or 0
 
         if data is None:
@@ -252,6 +260,8 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
             rcon_data = None
             if rcon_host and rcon_port and passwords:
                 rcon_data = query_ark_rcon_players_any(rcon_host, rcon_port, passwords)
+            if rcon_data is None and alt_host and alt_port and passwords:
+                rcon_data = query_ark_rcon_players_any(alt_host, alt_port, passwords)
             if rcon_data is not None:
                 results.append({
                     "name": entry["name"],
@@ -288,8 +298,14 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
         # never affects the count/online status already established.
         if rcon_host and rcon_port and passwords:
             rcon_data = query_ark_rcon_players_any(rcon_host, rcon_port, passwords)
+            if rcon_data is None and alt_host and alt_port:
+                rcon_data = query_ark_rcon_players_any(alt_host, alt_port, passwords)
             if rcon_data is not None:
                 row["players"] = rcon_data["players"]
+                # RCON is the live list; Nitrado's count can trail it by a
+                # few minutes (showed "1" with nobody on). Keep them in step.
+                if row.get("online"):
+                    row["players_current"] = len(rcon_data["players"])
  
         results.append(row)
     return results

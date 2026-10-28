@@ -961,7 +961,9 @@ section.zone{
 
     var cls = 'srv ' + (on ? 'on' : 'off') + (pop ? ' pop' : '') + (hero ? ' hero' : '')
       + (CHANGED[srv.name] ? ' ' + CHANGED[srv.name] : '');
-    var ml  = mapLine(srv);
+    /* name + PvE/PvP only; the map line confused people (Paleo Ark showed
+       "Astraeos", Abberation showed "Aberration") */
+    var ml  = '';
 
     return '<div class="' + cls + '">'
       + '<div class="name"><i class="dot"></i><span title="' + esc(srv.name) + '">' + esc(nm.title) + '</span>'

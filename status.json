@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:36:49Z",
+  "generated_at": "2026-10-28T04:41:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -181,12 +181,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-27T17:01:42Z",
+          "offline_since": "2026-10-27T10:36:29Z",
           "names_hidden": true
         },
         {
@@ -196,6 +196,15 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T17:01:42Z",
           "names_hidden": true
         },
         {
@@ -218,15 +227,6 @@
         },
         {
           "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

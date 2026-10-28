@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:36:50Z",
+  "generated_at": "2026-10-28T03:41:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -67,14 +67,16 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "JaseDakota14",
             "santos_g3",
             "ISO7826",
-            "Harru"
+            "Harru",
+            "chri1058",
+            "nasty_magician2"
           ]
         },
         {
@@ -178,7 +180,16 @@
           "players": []
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -196,6 +207,15 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-27T10:36:29Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -205,25 +225,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-27T10:36:29Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

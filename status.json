@@ -1,21 +1,14 @@
 {
-  "generated_at": "2026-10-28T06:56:10Z",
+  "generated_at": "2026-10-28T07:01:41Z",
   "servers": {
     "ark": {
       "servers": [
         {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
-          "online": true,
-          "players_current": 2,
-          "players_max": 20,
-          "map": "Astraeos_WP"
-        },
-        {
-          "name": "Ragnarok \u2014 PVE",
+          "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
           "players": []
         },
         {
@@ -28,6 +21,25 @@
             "Dat_Boi_Mike_70",
             "Zackattack28060"
           ]
+        },
+        {
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": [
+            "DarkClaw6",
+            "Spectre"
+          ]
+        },
+        {
+          "name": "Blackwire - The Island - Primal Chaos - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
@@ -45,34 +57,36 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Extinction_WP"
+          "map": "Extinction_WP",
+          "players": []
+        },
+        {
+          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "santos_g3",
-            "arty8r"
+            "arty8r",
+            "KittyLovesArk"
           ]
         },
         {
-          "name": "Ragnarok \u2014 Jurassic Awakening",
-          "online": false,
+          "name": "BlackWire - The Fractured Seas - Rp - (v94.35)",
+          "online": true,
           "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "offline_since": "2026-10-28T06:56:10Z"
-        },
-        {
-          "name": "Decended \u2014 PVE",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "offline_since": "2026-10-28T06:56:10Z"
+          "players_max": 26,
+          "map": "Genesis_WP",
+          "players": []
         },
         {
           "name": "BlackWire (JKRZ) - Event Map - (v94.35)",
@@ -89,14 +103,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
-        },
-        {
-          "name": "Svartalfheim \u2014 PVE (JKRZ)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 0,
-          "map": null,
-          "offline_since": "2026-10-28T06:56:10Z"
         },
         {
           "name": "BlackWire (JKRZ) - Forglar 1 - PVE - (v94.35)",
@@ -169,6 +175,60 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T07:01:41Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T07:01:41Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T07:01:41Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T07:01:41Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T07:01:41Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T07:01:41Z",
+          "names_hidden": true
         }
       ]
     },
@@ -184,11 +244,11 @@
         },
         {
           "name": "Palworld Server 2",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
-          "map": null,
-          "offline_since": "2026-10-28T06:56:10Z"
+          "players": [],
+          "map": null
         }
       ]
     },
@@ -211,6 +271,20 @@
           "online": true,
           "players_current": null,
           "players_max": 20
+        }
+      ]
+    },
+    "dragonwilds": {
+      "label": "Runescape: Dragonwilds",
+      "servers": [
+        {
+          "service_id": "19957897",
+          "name": "Runescape: Dragonwilds",
+          "online": true,
+          "players_current": 0,
+          "players_max": 6,
+          "map": null,
+          "players": []
         }
       ]
     }

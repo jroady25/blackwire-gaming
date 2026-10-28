@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T21:16:55Z",
+  "generated_at": "2026-10-28T21:21:43Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,23 +47,32 @@
           ]
         },
         {
-          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
+          "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
+          "map": "Extinction_WP",
           "players": []
+        },
+        {
+          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": [
+            "nasty_magician2",
+            "chri1058"
+          ]
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "nasty_magician2",
-            "santos_g3",
-            "chri1058"
+            "santos_g3"
           ]
         },
         {
@@ -172,7 +181,7 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -190,6 +199,15 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -199,23 +217,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Extinction - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP"
-        },
-        {
           "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

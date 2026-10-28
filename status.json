@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-10-28T23:51:47Z",
+  "generated_at": "2026-10-28T23:56:40Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Pizza_Monster08",
             "Santa_Clause01"
           ]
         },
@@ -55,10 +54,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Pizza_Monster08"
+          ]
         },
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v94.35)",
@@ -73,11 +74,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "chri1058",
             "nasty_magician2"
           ]
         },
@@ -198,15 +198,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -234,6 +225,15 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -249,9 +249,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

@@ -77,54 +77,54 @@
       "name": "BlackWire - Mod Test Map - (v96.6)"
     },
     {
-      "service_id": "19368770",
-      "name": "Blackwire - Forglar 2 - PVE - (v96.6)"
-    },
-    {
-      "service_id": "18859910",
-      "name": "BlackWire - Forglar 1 - PVE - (v96.6)"
-    },
-    {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v94.35)"
+      "service_id": "19826461",
+      "name": "BlackWire - Genesis - PVP - (v94.35)"
     },
     {
       "service_id": "18293911",
       "name": "BlackWire - Aberration - PVP - (v94.35)"
     },
     {
-      "service_id": "19826461",
-      "name": "BlackWire - Genesis - PVP - (v94.35)"
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v94.35)"
     },
     {
-      "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v94.35)"
+      "service_id": "18859910",
+      "name": "BlackWire - Forglar 1 - PVE - (v96.6)"
     },
     {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     },
     {
+      "service_id": "18863471",
+      "name": "BlackWire - Lost Colony - PVP - (v94.35)"
+    },
+    {
       "service_id": "18610040",
       "name": "BlackWire - Astraeos - PVP - (v94.35)"
+    },
+    {
+      "service_id": "19368770",
+      "name": "Blackwire - Forglar 2 - PVE - (v96.6)"
     }
   ],
   "dragonwilds": {
-    "offset": 40465061,
+    "offset": 40468410,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 40465061,
+    "log_size": 40468410,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:Blackwire - Forglar 2 - PVE - (v96.6)": "2026-10-29T17:27:29Z",
-    "ark:BlackWire - Forglar 1 - PVE - (v96.6)": "2026-10-29T16:12:14Z",
-    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Genesis - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Lost Colony - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Forglar 1 - PVE - (v96.6)": "2026-10-29T16:12:14Z",
     "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z"
+    "ark:BlackWire - Lost Colony - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:Blackwire - Forglar 2 - PVE - (v96.6)": "2026-10-29T17:27:29Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T04:52:14Z",
+  "generated_at": "2026-10-29T04:57:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -180,7 +180,7 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -207,7 +207,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

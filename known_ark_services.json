@@ -17,10 +17,6 @@
       "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.6)"
     },
     {
-      "service_id": "18111130",
-      "name": "BlackWire - Astraeos - PVE - (v94.35)"
-    },
-    {
       "service_id": "18111154",
       "name": "BlackWire - Extinction - PVE - (v96.6)"
     },
@@ -29,16 +25,12 @@
       "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.6)"
     },
     {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)"
-    },
-    {
       "service_id": "19380386",
       "name": "BlackWire - The Fractured Seas - Rp - (v96.6)"
     },
     {
       "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v94.35)"
+      "name": "BlackWire - Event Map - (v96.6)"
     },
     {
       "service_id": "18357580",
@@ -54,7 +46,7 @@
     },
     {
       "service_id": "18863102",
-      "name": "BlackWire - Abberation - PVE - (v94.35)"
+      "name": "BlackWire - Abberation - PVE - (v96.6)"
     },
     {
       "service_id": "19072757",
@@ -62,11 +54,11 @@
     },
     {
       "service_id": "19368770",
-      "name": "Blackwire - Forglar 2 - PVE - (v94.35)"
+      "name": "Blackwire - Forglar 2 - PVE - (v96.6)"
     },
     {
       "service_id": "19368830",
-      "name": "BlackWire - The Island - PVE - (v94.35)"
+      "name": "BlackWire - The Island - PVE - (v96.6)"
     },
     {
       "service_id": "19377800",
@@ -74,7 +66,7 @@
     },
     {
       "service_id": "19426823",
-      "name": "BlackWire - Genesis 1 - PVE - (v94.35)"
+      "name": "BlackWire - Genesis 1 - PVE - (v96.6)"
     },
     {
       "service_id": "19466842",
@@ -85,16 +77,12 @@
       "name": "BlackWire - Mod Test Map - (v96.6)"
     },
     {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v94.35)"
-    },
-    {
       "service_id": "18863471",
       "name": "BlackWire - Lost Colony - PVP - (v94.35)"
     },
     {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v94.35)"
+      "service_id": "18111130",
+      "name": "BlackWire - Astraeos - PVE - (v94.35)"
     },
     {
       "service_id": "18293911",
@@ -105,25 +93,36 @@
       "name": "BlackWire - Genesis - PVP - (v94.35)"
     },
     {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)"
+    },
+    {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v94.35)"
+    },
+    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 40120076,
+    "offset": 40123424,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 40120076,
+    "log_size": 40123035,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)": "2026-10-29T09:12:49Z",
-    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Lost Colony - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Genesis - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-28T20:36:49Z"
   }
 }

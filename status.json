@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:47:34Z",
+  "generated_at": "2026-10-29T21:52:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,11 +40,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.6)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
             "Bretty Wat",
             "KodasBetter",
             "VLAD86",
@@ -173,12 +172,30 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Valguero - PVP - (v96.6)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-29T18:12:21Z",
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:47:40Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Extinction - PVP - (v96.6)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:17:31Z",
           "names_hidden": true
         },
         {
@@ -209,21 +226,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Valguero - PVP - (v96.6)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-29T18:47:40Z",
+          "offline_since": "2026-10-29T18:12:21Z",
           "names_hidden": true
         },
         {
@@ -233,15 +241,6 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Extinction - PVP - (v96.6)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-29T18:17:31Z",
           "names_hidden": true
         }
       ]

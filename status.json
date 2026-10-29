@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:17:22Z",
+  "generated_at": "2026-10-29T14:22:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -175,7 +175,7 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -202,7 +202,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

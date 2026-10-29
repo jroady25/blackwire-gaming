@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:17:10Z",
+  "generated_at": "2026-10-29T09:22:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,7 +12,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Valguero - PVE - (v94.35)",
+          "name": "BlackWire - Valguero - PVE - (v96.6)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -20,7 +20,7 @@
           "players": []
         },
         {
-          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v94.35)",
+          "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v96.6)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -33,6 +33,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v96.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
           "players": []
         },
         {
@@ -49,6 +57,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
+          "players": []
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
           "players": []
         },
         {
@@ -124,7 +140,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Center - PVE - (v94.35)",
+          "name": "BlackWire - The Center - PVE - (v96.6)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -155,32 +171,6 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v94.35)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Genesis - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -190,12 +180,13 @@
           "names_hidden": true
         },
         {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v94.35)",
-          "online": true,
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "players": []
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
         },
         {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
@@ -207,7 +198,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -217,6 +208,15 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

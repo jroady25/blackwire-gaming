@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:02:37Z",
+  "generated_at": "2026-10-29T15:07:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -138,12 +138,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "SpoggDarr"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.6)",
@@ -156,12 +154,10 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.6)",
@@ -179,7 +175,7 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -188,7 +184,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

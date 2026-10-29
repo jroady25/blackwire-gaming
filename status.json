@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:27:13Z",
+  "generated_at": "2026-10-29T11:32:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -169,14 +169,22 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.6)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "offline_since": "2026-10-29T11:27:13Z"
+          "map": "TheIsland_WP"
         },
         {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -213,15 +221,6 @@
         },
         {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

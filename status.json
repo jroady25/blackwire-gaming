@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:07:00Z",
+  "generated_at": "2026-10-29T18:12:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,12 +17,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "own-loch4"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v96.6)",
@@ -105,14 +103,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Valguero - PVP - (v96.6)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Valguero_WP",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Scorched Earth - PVE - (v96.6)",
           "online": true,
           "players_current": 0,
@@ -135,6 +125,14 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire - Extinction - PVP - (v96.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "names_hidden": true
         },
         {
           "name": "BlackWire - The Island - PVE - (v96.6)",
@@ -179,24 +177,6 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -224,15 +204,34 @@
           "names_hidden": true
         },
         {
-          "name": "Blackwire - Forglar 2 - PVE - (v96.6)",
-          "online": true,
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "players": []
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Valguero - PVP - (v96.6)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:12:21Z",
+          "names_hidden": true
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

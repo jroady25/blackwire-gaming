@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-10-29T03:02:31Z",
+  "generated_at": "2026-10-29T03:07:10Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v94.35)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Santa_Clause01",
-            "Th3originBoS5",
             "master_jrock"
           ]
         },
@@ -132,10 +131,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v94.35)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "XHaidenSmithX @R..."
+          ]
         },
         {
           "name": "Blackwire - Forglar 2 - PVE - (v94.35)",
@@ -196,7 +197,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -223,7 +224,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -232,7 +233,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

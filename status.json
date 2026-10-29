@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:31:33Z",
+  "generated_at": "2026-10-29T02:36:44Z",
   "servers": {
     "ark": {
       "servers": [
@@ -46,13 +46,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v94.35)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
             "EXDaydreamer",
-            "JeepinAK",
             "assclapitus22"
           ]
         },
@@ -202,15 +201,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
@@ -229,7 +219,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -239,6 +229,15 @@
         },
         {
           "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:57:16Z",
+  "generated_at": "2026-10-29T14:02:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -175,7 +175,7 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -193,7 +193,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -211,7 +211,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -279,9 +279,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

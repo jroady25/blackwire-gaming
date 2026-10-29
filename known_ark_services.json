@@ -89,6 +89,14 @@
       "name": "BlackWire - Genesis - PVP - (v94.35)"
     },
     {
+      "service_id": "18863471",
+      "name": "BlackWire - Lost Colony - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v94.35)"
+    },
+    {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v94.35)"
     },
@@ -97,32 +105,24 @@
       "name": "BlackWire - Aberration - PVP - (v94.35)"
     },
     {
-      "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v94.35)"
-    },
-    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v94.35)"
-    },
-    {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 39761637,
+    "offset": 39764985,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 39761637,
+    "log_size": 39764985,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
     "ark:BlackWire - Genesis - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Lost Colony - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Lost Colony - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z"
+    "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-28T20:36:49Z"
   }
 }

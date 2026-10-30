@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T13:37:29Z",
+  "generated_at": "2026-10-30T13:42:33Z",
   "servers": {
     "ark": {
       "servers": [
@@ -170,7 +170,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -185,15 +185,6 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-29T18:17:31Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-29T18:47:40Z",
           "names_hidden": true
         },
         {
@@ -215,6 +206,15 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:47:40Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Valguero - PVP - (v96.6)",
           "online": false,
           "players_current": 0,
@@ -224,7 +224,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

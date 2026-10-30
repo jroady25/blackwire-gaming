@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:02:53Z",
+  "generated_at": "2026-10-30T00:07:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,10 +47,10 @@
           "map": "Astraeos_WP",
           "players": [
             "KodasBetter",
-            "SpoggDarr",
             "KP Gaming",
             "ashleylolokay3",
-            "chill_Lyrics14"
+            "chill_Lyrics14",
+            "JeepinAK"
           ]
         },
         {
@@ -165,12 +165,10 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "Pizza_Monster08"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.6)",
@@ -180,21 +178,21 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Valguero - PVP - (v96.6)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
+          "offline_since": "2026-10-29T18:12:21Z",
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - Extinction - PVP - (v96.6)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
+          "offline_since": "2026-10-29T18:17:31Z",
           "names_hidden": true
         },
         {
@@ -234,21 +232,21 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Valguero - PVP - (v96.6)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-29T18:12:21Z",
+          "offline_since": "2026-10-28T20:36:49Z",
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Extinction - PVP - (v96.6)",
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-29T18:17:31Z",
+          "offline_since": "2026-10-28T20:36:49Z",
           "names_hidden": true
         }
       ]

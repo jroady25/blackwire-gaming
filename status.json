@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:47:33Z",
+  "generated_at": "2026-10-30T18:52:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,12 +32,10 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "arkonix1401"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.6)",
@@ -46,8 +44,8 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
-            "Bretty Wat"
+            "Bretty Wat",
+            "SpoggDarr"
           ]
         },
         {
@@ -61,12 +59,11 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "HarleyDavidson",
-            "ALDBARANT974"
+            "HarleyDavidson"
           ]
         },
         {
@@ -131,12 +128,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "SpoggDarr"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.6)",
@@ -170,33 +165,6 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Extinction - PVP - (v96.6)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-29T18:17:31Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Valguero - PVP - (v96.6)",
           "online": false,
           "players_current": 0,
@@ -212,6 +180,33 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-29T18:47:40Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Extinction - PVP - (v96.6)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:17:31Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
           "names_hidden": true
         },
         {
@@ -233,7 +228,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

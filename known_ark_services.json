@@ -77,12 +77,24 @@
       "name": "BlackWire - Mod Test Map - (v96.6)"
     },
     {
+      "service_id": "19826461",
+      "name": "BlackWire - Genesis - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v94.35)"
+    },
+    {
+      "service_id": "18638510",
+      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
+    },
+    {
       "service_id": "19368770",
       "name": "BlackWire - Extinction - PVP - (v96.6)"
     },
     {
-      "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v94.35)"
+      "service_id": "18863471",
+      "name": "BlackWire - Lost Colony - PVP - (v94.35)"
     },
     {
       "service_id": "18859910",
@@ -93,38 +105,26 @@
       "name": "BlackWire - The Island - PVP - (v94.35)"
     },
     {
-      "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v94.35)"
-    },
-    {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v94.35)"
-    },
-    {
-      "service_id": "19826461",
-      "name": "BlackWire - Genesis - PVP - (v94.35)"
-    },
-    {
-      "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v94.35)"
+      "service_id": "18293911",
+      "name": "BlackWire - Aberration - PVP - (v94.35)"
     }
   ],
   "dragonwilds": {
-    "offset": 41164553,
+    "offset": 41168096,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 41164553,
+    "log_size": 41168096,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
+    "ark:BlackWire - Genesis - PVP - (v94.35)": "2026-10-29T18:47:40Z",
+    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Extinction - PVP - (v96.6)": "2026-10-29T18:17:31Z",
-    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-28T20:36:49Z",
+    "ark:BlackWire - Lost Colony - PVP - (v94.35)": "2026-10-28T20:36:49Z",
     "ark:BlackWire - Valguero - PVP - (v96.6)": "2026-10-29T18:12:21Z",
     "ark:BlackWire - The Island - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Ragnarok - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Astraeos - PVP - (v94.35)": "2026-10-28T20:36:49Z",
-    "ark:BlackWire - Genesis - PVP - (v94.35)": "2026-10-29T18:47:40Z",
-    "ark:BlackWire - Lost Colony - PVP - (v94.35)": "2026-10-28T20:36:49Z"
+    "ark:BlackWire - Aberration - PVP - (v94.35)": "2026-10-28T20:36:49Z"
   }
 }

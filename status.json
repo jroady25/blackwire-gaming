@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T04:37:27Z",
+  "generated_at": "2026-10-31T04:42:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -43,12 +43,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.6)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Luckyybear14",
-            "SummerLoven0719",
             "jandles13",
             "Remix12",
             "Harru",
@@ -224,15 +223,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Extinction - PVP - (v96.6)",
           "online": false,
           "players_current": 0,
@@ -243,6 +233,15 @@
         },
         {
           "name": "BlackWire - The Island - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-28T20:36:49Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

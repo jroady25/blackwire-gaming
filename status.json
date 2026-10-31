@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T00:37:26Z",
+  "generated_at": "2026-10-31T00:42:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -11,16 +11,18 @@
           "map": "Ragnarok_WP",
           "players": [
             "BatteryEater56",
-            "Pizza_Monster08"
+            "Naykdtime"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v96.6)",
@@ -41,13 +43,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.6)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "KP Gaming",
             "ashleylolokay3",
-            "Naykdtime",
             "SpoggDarr",
             "EXDaydreamer",
             "Bretty Wat",
@@ -79,9 +80,9 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "chri1058",
             "nasty_magician2",
-            "santos_g3"
+            "santos_g3",
+            "chri1058"
           ]
         },
         {
@@ -178,7 +179,16 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Valguero - PVP - (v96.6)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:12:21Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -187,7 +197,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -205,7 +215,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - The Island - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -214,21 +224,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v94.35)",
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Valguero - PVP - (v96.6)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-29T18:12:21Z",
           "names_hidden": true
         },
         {
@@ -241,7 +242,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVP - (v94.35)",
+          "name": "BlackWire - Astraeos - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

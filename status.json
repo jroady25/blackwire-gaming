@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:21:42Z",
+  "generated_at": "2026-11-01T22:26:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,11 +17,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Zackattack28060"
+            "Zackattack28060",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -37,13 +38,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "xcalibur62211",
             "Ejdinoman41312",
-            "C50CAL9"
+            "C50CAL9",
+            "FelixDaKat50"
           ]
         },
         {
@@ -107,11 +109,10 @@
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "offline_since": "2026-11-01T22:21:42Z",
           "names_hidden": true
         },
         {
@@ -132,10 +133,11 @@
         },
         {
           "name": "BlackWire - Genesis 1 - PVP - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
+          "offline_since": "2026-11-01T22:26:53Z",
           "names_hidden": true
         },
         {
@@ -207,22 +209,21 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Red_dabs420"
+            "Red_dabs420",
+            "Santa_Clause01"
           ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "Santa_Clause01"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

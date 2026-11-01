@@ -10,7 +10,7 @@
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v96.9)"
+      "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)"
     },
     {
       "service_id": "18111097",
@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 133323,
+    "offset": 136469,
     "online": {},
     "last_accept": null,
     "pending_name": null,
-    "log_size": 133323,
+    "log_size": 136469,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

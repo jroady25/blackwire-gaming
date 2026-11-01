@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-11-01T23:31:36Z",
+  "generated_at": "2026-11-01T23:36:40Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "xXkintzyXx",
             "Kingmivec",
             "Santa_Clause01",
-            "Boom5150",
-            "legendx12x"
+            "Boom5150"
           ]
         },
         {
@@ -51,13 +50,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "SummerLoven0719",
             "Bretty Wat",
-            "Harru"
+            "Harru",
+            "iB_Hisoka",
+            "legendx12x"
           ]
         },
         {
@@ -211,12 +212,13 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
             "Coffee Slayer",
-            "Reilig"
+            "Reilig",
+            "do_gotcha"
           ]
         },
         {

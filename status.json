@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:46:40Z",
+  "generated_at": "2026-11-01T23:51:34Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,12 +17,11 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70",
-            "DriftNalg"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -36,14 +35,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "xcalibur62211",
             "Ejdinoman41312",
-            "EagleZombie225",
-            "XERO_A_CA"
+            "EagleZombie225"
           ]
         },
         {
@@ -61,10 +58,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -193,12 +192,10 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -231,11 +228,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "LeadSpoon2264"
+            "LeadSpoon2264",
+            "botbrandon"
           ]
         },
         {
@@ -245,7 +243,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "players": [
-            "Harru"
+            "legendx12x"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T21:26:44Z",
+  "generated_at": "2026-11-01T21:31:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,10 +29,13 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Bowditch",
+            "RexcisioN"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",

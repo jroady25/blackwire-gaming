@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T21:36:41Z",
+  "generated_at": "2026-11-01T21:41:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -85,12 +85,11 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "GER-Jigsaw-",
-            "HarleyDavidson"
+            "GER-Jigsaw-"
           ]
         },
         {

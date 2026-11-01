@@ -29,6 +29,10 @@
       "name": "BlackWire - Scorched Earth - PVP - (v96.9)"
     },
     {
+      "service_id": "18111211",
+      "name": "BlackWire - The Center - PVP - (v96.9)"
+    },
+    {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v96.9)"
     },
@@ -118,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 43561239,
+    "offset": 43564782,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 43561239,
+    "log_size": 43564782,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

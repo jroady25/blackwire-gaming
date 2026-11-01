@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:02:00Z",
+  "generated_at": "2026-11-01T22:06:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -46,12 +46,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "SummerLoven0719",
-            "Bretty Wat"
+            "SummerLoven0719"
           ]
         },
         {
@@ -153,12 +152,19 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Astraeos - PVP - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Valguero - PVP - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "offline_since": "2026-11-01T22:02:00Z",
           "names_hidden": true
         },
         {
@@ -180,10 +186,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -196,12 +204,11 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Red_dabs420",
-            "BatteryEater56"
+            "Red_dabs420"
           ]
         },
         {
@@ -234,15 +241,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
-        },
-        {
-          "name": "BlackWire - Astraeos - PVP - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-01T22:02:00Z",
-          "names_hidden": true
         }
       ]
     },
@@ -251,13 +249,14 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 16,
           "players": [
             "wraiyth",
             "Megadeth-GTA6",
             "Optimus Prime",
-            "Skelly"
+            "Skelly",
+            "Gura"
           ],
           "map": null
         },

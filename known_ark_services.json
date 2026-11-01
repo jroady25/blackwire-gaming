@@ -69,6 +69,10 @@
       "name": "BlackWire - The Island - SOTF - PVP - (v96.9)"
     },
     {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v96.9)"
+    },
+    {
       "service_id": "18859910",
       "name": "BlackWire - Valguero - PVP - (v96.9)"
     },
@@ -107,22 +111,15 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v96.9)"
-    },
-    {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v96.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 43527988,
+    "offset": 43531337,
     "online": {},
     "last_accept": "3095ce1d82097b2d",
     "pending_name": null,
-    "log_size": 43527988,
+    "log_size": 43531337,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Valguero - PVP - (v96.9)": "2026-11-01T22:02:00Z",
-    "ark:BlackWire - Astraeos - PVP - (v96.9)": "2026-11-01T22:02:00Z"
-  }
+  "offline_since": {}
 }

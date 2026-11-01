@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:51:34Z",
+  "generated_at": "2026-11-01T23:56:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -35,12 +35,11 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Ejdinoman41312",
-            "EagleZombie225"
+            "Ejdinoman41312"
           ]
         },
         {
@@ -62,13 +61,13 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "Harru"
+            "legendx12x"
           ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "names_hidden": true
@@ -208,13 +207,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
             "Coffee Slayer",
             "Reilig",
-            "do_gotcha"
+            "do_gotcha",
+            "Harru"
           ]
         },
         {
@@ -228,23 +228,20 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "LeadSpoon2264",
             "botbrandon"
           ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

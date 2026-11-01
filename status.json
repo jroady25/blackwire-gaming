@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:52:38Z",
+  "generated_at": "2026-11-01T08:57:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -96,10 +96,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -136,12 +138,10 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
@@ -159,30 +159,12 @@
           "map": "TheIsland_WP"
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
+          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Genesis - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-29T18:47:40Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-31T16:02:29Z",
           "names_hidden": true
         },
         {
@@ -195,16 +177,25 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
+          "name": "BlackWire - Extinction - PVP - (v96.6)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
+          "offline_since": "2026-10-29T18:17:31Z",
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v94.35)",
+          "name": "BlackWire - Valguero - PVP - (v96.6)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:12:21Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -222,21 +213,30 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Valguero - PVP - (v96.6)",
+          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-29T18:12:21Z",
+          "offline_since": "2026-10-28T20:36:49Z",
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Extinction - PVP - (v96.6)",
+          "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-10-29T18:17:31Z",
+          "offline_since": "2026-10-31T16:02:29Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Genesis - PVP - (v94.35)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-10-29T18:47:40Z",
           "names_hidden": true
         }
       ]

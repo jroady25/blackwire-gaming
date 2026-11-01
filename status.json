@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-11-01T22:16:55Z",
+  "generated_at": "2026-11-01T22:21:42Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "xXkintzyXx"
+            "xXkintzyXx",
+            "Kingmivec"
           ]
         },
         {
@@ -26,20 +27,23 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "xcalibur62211",
-            "Ejdinoman41312"
+            "Ejdinoman41312",
+            "C50CAL9"
           ]
         },
         {
@@ -50,7 +54,7 @@
           "map": "Astraeos_WP",
           "players": [
             "SummerLoven0719",
-            "legendx12x"
+            "Bretty Wat"
           ]
         },
         {
@@ -103,10 +107,11 @@
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
+          "offline_since": "2026-11-01T22:21:42Z",
           "names_hidden": true
         },
         {
@@ -184,10 +189,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -247,13 +254,14 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 16,
           "players": [
             "wraiyth",
             "Megadeth-GTA6",
             "Skelly",
-            "Gura"
+            "Gura",
+            "Optimus Prime"
           ],
           "map": null
         },

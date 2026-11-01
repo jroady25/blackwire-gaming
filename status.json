@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-11-01T21:01:43Z",
+  "generated_at": "2026-11-01T21:06:45Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "xXkintzyXx",
-            "DragonWolf7676"
+            "DragonWolf7676",
+            "Santa_Clause01"
           ]
         },
         {
@@ -27,10 +28,12 @@
         {
           "name": "BlackWire Dr. Grant's Paleo Ark - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
@@ -46,12 +49,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru",
-            "SpoggDarr"
+            "Harru"
           ]
         },
         {
@@ -104,6 +106,14 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": []
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "names_hidden": true
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
@@ -227,15 +237,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
         }
       ]
     },
@@ -244,13 +245,12 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 16,
           "players": [
             "wraiyth",
             "Skelly",
-            "Megadeth-GTA6",
-            "Optimus Prime"
+            "Megadeth-GTA6"
           ],
           "map": null
         },

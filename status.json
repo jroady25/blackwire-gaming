@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T21:31:47Z",
+  "generated_at": "2026-11-01T21:36:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,11 +18,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg",
             "Zackattack28060"
           ]
         },
@@ -51,11 +50,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru"
+            "Harru",
+            "SummerLoven0719"
           ]
         },
         {
@@ -116,6 +116,14 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "names_hidden": true
+        },
+        {
+          "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",

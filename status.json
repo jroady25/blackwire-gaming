@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:26:53Z",
+  "generated_at": "2026-11-01T22:31:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -133,11 +133,10 @@
         },
         {
           "name": "BlackWire - Genesis 1 - PVP - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "offline_since": "2026-11-01T22:26:53Z",
           "names_hidden": true
         },
         {
@@ -255,13 +254,12 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 16,
           "players": [
             "wraiyth",
             "Megadeth-GTA6",
             "Skelly",
-            "Gura",
             "Optimus Prime"
           ],
           "map": null

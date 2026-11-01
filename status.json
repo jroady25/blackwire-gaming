@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:56:41Z",
+  "generated_at": "2026-11-01T21:01:43Z",
   "servers": {
     "ark": {
       "servers": [
@@ -39,8 +39,8 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Ejdinoman41312",
-            "xcalibur62211"
+            "xcalibur62211",
+            "Ejdinoman41312"
           ]
         },
         {
@@ -68,6 +68,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Aberration_WP",
           "names_hidden": true
         },
         {
@@ -124,7 +132,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 8,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -222,15 +230,6 @@
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v94.35)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-10-28T20:36:49Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v94.35)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

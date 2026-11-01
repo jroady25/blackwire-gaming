@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-11-01T23:36:40Z",
+  "generated_at": "2026-11-01T23:41:39Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "xXkintzyXx",
-            "Kingmivec",
             "Santa_Clause01",
             "Boom5150"
           ]
@@ -50,15 +49,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "SummerLoven0719",
             "Bretty Wat",
             "Harru",
-            "iB_Hisoka",
-            "legendx12x"
+            "iB_Hisoka"
           ]
         },
         {
@@ -196,10 +194,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",

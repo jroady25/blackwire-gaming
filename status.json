@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:41:41Z",
+  "generated_at": "2026-11-02T02:46:37Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,11 +28,12 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "NeyoN_AuX"
+            "NeyoN_AuX",
+            "Spectre"
           ]
         },
         {

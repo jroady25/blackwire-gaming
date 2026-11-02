@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:06:37Z",
+  "generated_at": "2026-11-02T02:11:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -234,12 +234,11 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "players": [
-            "Santa_Clause01",
-            "Pizza_Monster08"
+            "Santa_Clause01"
           ]
         },
         {
@@ -252,13 +251,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": null,
           "players": [
             "do_gotcha",
             "Coffee Slayer",
-            "Reilig"
+            "Reilig",
+            "Harru"
           ]
         }
       ]

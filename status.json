@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T23:32:27Z",
+  "generated_at": "2026-11-02T23:37:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,20 +17,20 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Zackattack28060"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Arigatu1"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
@@ -45,12 +45,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "SpoggDarr",
-            "Spaghetti"
+            "SpoggDarr"
           ]
         },
         {
@@ -134,10 +133,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
@@ -240,10 +241,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",

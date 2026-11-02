@@ -129,5 +129,7 @@
     "log_size": 263287,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "palworld:Palworld Server 2": "2026-11-02T02:26:49Z"
+  }
 }

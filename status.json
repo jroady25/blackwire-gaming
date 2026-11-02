@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-11-02T17:27:23Z",
+  "generated_at": "2026-11-02T17:32:23Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "DragonWolf7676"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -22,12 +24,11 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Get_2ftd_kid",
-            "DragonWolf7676"
+            "Get_2ftd_kid"
           ]
         },
         {
@@ -44,11 +45,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Harru"
+            "Harru",
+            "Spaghetti"
           ]
         },
         {
@@ -94,10 +96,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "own-loch4"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
@@ -158,7 +162,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

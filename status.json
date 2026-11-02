@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T04:42:13Z",
+  "generated_at": "2026-11-02T04:47:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,11 +17,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "DriftNalg"
           ]
         },
         {
@@ -49,12 +50,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Harru",
-            "neutrinopc",
             "SpoggDarr",
             "Luckyybear14",
             "jandles13",
@@ -214,8 +214,8 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "legendx12x",
-            "Bretty Wat"
+            "Bretty Wat",
+            "legendx12x"
           ]
         },
         {

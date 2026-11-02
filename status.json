@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T04:27:18Z",
+  "generated_at": "2026-11-02T04:32:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,10 +41,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "KittyLovesArk"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
@@ -119,12 +121,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "KittyLovesArk"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
@@ -274,11 +274,14 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": false,
-          "players_current": 0,
+          "online": true,
+          "players_current": 2,
           "players_max": 16,
-          "map": null,
-          "offline_since": "2026-11-02T04:27:18Z"
+          "players": [
+            "Skelly",
+            "Megadeth-GTA6"
+          ],
+          "map": null
         },
         {
           "name": "Palworld Server 2",

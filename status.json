@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-11-02T04:32:11Z",
+  "generated_at": "2026-11-02T04:37:15Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "master_jrock",
-            "Santa_Clause01",
-            "xXkintzyXx"
+            "Santa_Clause01"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70",
-            "Zackattack28060"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -275,10 +273,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "Skelly",
             "Megadeth-GTA6"
           ],
           "map": null

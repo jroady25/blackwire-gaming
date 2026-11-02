@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:07:22Z",
+  "generated_at": "2026-11-02T20:12:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -198,10 +198,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "smoothbrain33"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",

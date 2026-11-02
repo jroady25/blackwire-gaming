@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T04:17:11Z",
+  "generated_at": "2026-11-02T04:22:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -13,7 +13,7 @@
             "master_jrock",
             "Santa_Clause01",
             "xXkintzyXx",
-            "Boom5150"
+            "chill_Lyrics14"
           ]
         },
         {
@@ -50,14 +50,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Harru",
             "neutrinopc",
             "SpoggDarr",
-            "Luckyybear14"
+            "Luckyybear14",
+            "jandles13"
           ]
         },
         {
@@ -195,10 +196,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -239,12 +242,10 @@
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

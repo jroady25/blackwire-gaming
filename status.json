@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T01:01:56Z",
+  "generated_at": "2026-11-02T01:06:45Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,8 +52,8 @@
           "players": [
             "SummerLoven0719",
             "Reilig",
-            "do_gotcha",
-            "kris_d07"
+            "kris_d07",
+            "do_gotcha"
           ]
         },
         {
@@ -223,12 +223,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Red_dabs420"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-11-02T01:26:47Z",
+  "generated_at": "2026-11-02T01:31:38Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "master_jrock"
+            "master_jrock",
+            "kris_d07"
           ]
         },
         {
@@ -35,32 +36,35 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "klosyto"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "SummerLoven0719",
             "Reilig",
-            "kris_d07",
             "do_gotcha",
-            "Harru"
+            "Harru",
+            "Coffee Slayer",
+            "legendx12x"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "offline_since": "2026-11-02T01:26:47Z"
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -203,12 +207,10 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "Coffee Slayer"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",

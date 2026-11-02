@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-11-02T01:16:38Z",
+  "generated_at": "2026-11-02T01:21:43Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "xXkintzyXx",
             "master_jrock",
             "Boom5150"
           ]
@@ -45,14 +44,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "SummerLoven0719",
             "Reilig",
             "kris_d07",
-            "do_gotcha"
+            "do_gotcha",
+            "Harru"
           ]
         },
         {

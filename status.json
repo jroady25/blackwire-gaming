@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:56:36Z",
+  "generated_at": "2026-11-02T00:01:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,24 +50,22 @@
           "map": "Astraeos_WP",
           "players": [
             "SummerLoven0719",
-            "Bretty Wat",
-            "iB_Hisoka"
+            "iB_Hisoka",
+            "legendx12x"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "names_hidden": true
@@ -83,7 +81,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -99,12 +97,10 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "HarleyDavidson"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
@@ -232,7 +228,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "botbrandon"
+            "LeadSpoon2264"
           ]
         },
         {

@@ -105,10 +105,6 @@
       "name": "BlackWire - The Island - PVE - (v96.9)"
     },
     {
-      "service_id": "19377800",
-      "name": "BlackWire - The Center - PVE - (v96.9)"
-    },
-    {
       "service_id": "19426823",
       "name": "BlackWire - Genesis 1 - PVE - (v96.9)"
     },
@@ -119,14 +115,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v96.9)"
+    },
+    {
+      "service_id": "19377800",
+      "name": "BlackWire - The Center - PVE - (v96.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 1079886,
+    "offset": 1083425,
     "online": {},
     "last_accept": null,
     "pending_name": null,
-    "log_size": 1079886,
+    "log_size": 1083425,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

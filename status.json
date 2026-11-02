@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-02T04:22:11Z",
+  "generated_at": "2026-11-02T04:27:18Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "master_jrock",
             "Santa_Clause01",
-            "xXkintzyXx",
-            "chill_Lyrics14"
+            "xXkintzyXx"
           ]
         },
         {
@@ -24,7 +23,7 @@
           "map": "Valguero_WP",
           "players": [
             "Dat_Boi_Mike_70",
-            "DriftNalg"
+            "Zackattack28060"
           ]
         },
         {
@@ -196,12 +195,10 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -214,11 +211,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "legendx12x"
+            "legendx12x",
+            "Bretty Wat"
           ]
         },
         {
@@ -276,14 +274,11 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": true,
-          "players_current": 2,
+          "online": false,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Megadeth-GTA6",
-            "Skelly"
-          ],
-          "map": null
+          "map": null,
+          "offline_since": "2026-11-02T04:27:18Z"
         },
         {
           "name": "Palworld Server 2",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:57:04Z",
+  "generated_at": "2026-11-02T03:02:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -11,8 +11,8 @@
           "map": "Ragnarok_WP",
           "players": [
             "master_jrock",
-            "Santa_Clause01",
-            "Pizza_Monster08"
+            "Pizza_Monster08",
+            "Santa_Clause01"
           ]
         },
         {
@@ -28,12 +28,13 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "NeyoN_AuX",
-            "Spectre"
+            "Spectre",
+            "DarkClaw6"
           ]
         },
         {
@@ -47,15 +48,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "do_gotcha",
             "Coffee Slayer",
             "Reilig",
             "Harru",
-            "legendx12x"
+            "legendx12x",
+            "do_gotcha",
+            "neutrinopc"
           ]
         },
         {
@@ -223,12 +225,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "neutrinopc"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

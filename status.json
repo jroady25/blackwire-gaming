@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:22:12Z",
+  "generated_at": "2026-11-02T12:27:22Z",
   "servers": {
     "ark": {
       "servers": [
@@ -245,10 +245,11 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP"
+          "map": "TheIsland_WP",
+          "offline_since": "2026-11-02T12:27:22Z"
         }
       ]
     },
@@ -257,9 +258,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

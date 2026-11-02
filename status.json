@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:02:35Z",
+  "generated_at": "2026-11-02T14:07:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,12 +33,10 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "thorirloki"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
@@ -258,9 +256,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Megadeth-GTA6"
+          ],
           "map": null
         },
         {

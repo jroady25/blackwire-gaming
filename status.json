@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T19:57:18Z",
+  "generated_at": "2026-11-02T20:02:30Z",
   "servers": {
     "ark": {
       "servers": [
@@ -190,12 +190,10 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Pizza_Monster08"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",

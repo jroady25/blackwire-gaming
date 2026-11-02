@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T03:02:15Z",
+  "generated_at": "2026-11-02T03:07:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -11,8 +11,8 @@
           "map": "Ragnarok_WP",
           "players": [
             "master_jrock",
-            "Pizza_Monster08",
-            "Santa_Clause01"
+            "Santa_Clause01",
+            "Pizza_Monster08"
           ]
         },
         {
@@ -48,16 +48,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Coffee Slayer",
-            "Reilig",
             "Harru",
             "legendx12x",
-            "do_gotcha",
-            "neutrinopc"
+            "neutrinopc",
+            "chill_Lyrics14"
           ]
         },
         {

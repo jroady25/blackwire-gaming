@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-11-02T00:36:46Z",
+  "generated_at": "2026-11-02T00:41:47Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "xXkintzyXx",
-            "Boom5150"
+            "Boom5150",
+            "master_jrock"
           ]
         },
         {
@@ -65,7 +66,7 @@
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "names_hidden": true
@@ -163,7 +164,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -187,12 +188,10 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -233,10 +232,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

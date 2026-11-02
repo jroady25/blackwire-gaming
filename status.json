@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:11:45Z",
+  "generated_at": "2026-11-02T00:16:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -73,7 +73,7 @@
         {
           "name": "BlackWire - The Center - PVP - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "names_hidden": true
@@ -105,7 +105,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "names_hidden": true
@@ -121,7 +121,7 @@
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "names_hidden": true

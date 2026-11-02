@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-11-02T02:11:39Z",
+  "generated_at": "2026-11-02T02:16:34Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "master_jrock"
+            "master_jrock",
+            "Pizza_Monster08",
+            "Santa_Clause01"
           ]
         },
         {
@@ -41,6 +43,19 @@
           "players": [
             "klosyto",
             "GaelonchesPG"
+          ]
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v96.9)",
+          "online": true,
+          "players_current": 4,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "players": [
+            "do_gotcha",
+            "Coffee Slayer",
+            "Reilig",
+            "Harru"
           ]
         },
         {
@@ -234,12 +249,10 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "Santa_Clause01"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",
@@ -247,19 +260,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v96.9)",
-          "online": true,
-          "players_current": 4,
-          "players_max": 20,
-          "map": null,
-          "players": [
-            "do_gotcha",
-            "Coffee Slayer",
-            "Reilig",
-            "Harru"
-          ]
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:02:38Z",
+  "generated_at": "2026-11-02T10:10:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -8,16 +8,15 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
+          "map": "Ragnarok_WP"
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "offline_since": "2026-11-02T10:10:07Z"
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -29,23 +28,18 @@
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "offline_since": "2026-11-02T10:02:38Z"
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
           "players_current": 3,
           "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": [
-            "Naykdtime",
-            "Bretty Wat",
-            "Spaghetti"
-          ]
+          "map": "Astraeos_WP"
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
@@ -106,10 +100,9 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": []
+          "map": "Astraeos_WP"
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
@@ -185,18 +178,19 @@
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "offline_since": "2026-11-02T10:10:07Z"
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "LostColony_WP"
+          "map": "LostColony_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -211,31 +205,29 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
+          "map": "TheIsland_WP"
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheCenter_WP",
-          "players": []
+          "map": "TheCenter_WP"
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Genesis_WP",
-          "players": []
+          "map": "Genesis_WP"
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Bjarnheim_WP"
+          "map": "Bjarnheim_WP",
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",

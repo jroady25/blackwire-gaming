@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:27:19Z",
+  "generated_at": "2026-11-02T09:32:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -104,13 +104,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "KittyLovesArk",
-            "Saladbar82"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",

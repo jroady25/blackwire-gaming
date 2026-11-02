@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-11-02T03:42:02Z",
+  "generated_at": "2026-11-02T03:47:11Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "master_jrock",
-            "Santa_Clause01"
+            "Santa_Clause01",
+            "chill_Lyrics14"
           ]
         },
         {
@@ -224,12 +225,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "chill_Lyrics14"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

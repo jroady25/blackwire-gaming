@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 186807,
+    "offset": 190150,
     "online": {},
     "last_accept": null,
     "pending_name": null,
-    "log_size": 186807,
+    "log_size": 190150,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

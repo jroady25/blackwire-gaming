@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:37:05Z",
+  "generated_at": "2026-11-02T08:42:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -227,10 +227,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "XHaidenSmithX @R..."
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",

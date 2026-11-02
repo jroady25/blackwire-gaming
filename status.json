@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-11-02T01:21:43Z",
+  "generated_at": "2026-11-02T01:26:47Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "master_jrock",
-            "Boom5150"
+            "master_jrock"
           ]
         },
         {
@@ -57,11 +56,11 @@
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "offline_since": "2026-11-02T01:26:47Z"
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",

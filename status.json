@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:52:02Z",
+  "generated_at": "2026-11-03T12:57:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,10 +24,12 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": []
+          "players": [
+            "NeyoN_AuX"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",

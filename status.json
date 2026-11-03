@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-11-03T09:12:02Z",
+  "generated_at": "2026-11-03T09:17:03Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "DragonWolf7676",
-            "Zackattack28060"
+            "DragonWolf7676"
           ]
         },
         {
@@ -226,10 +225,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Zackattack28060"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

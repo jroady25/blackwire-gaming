@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:47:05Z",
+  "generated_at": "2026-11-03T22:51:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,21 +52,19 @@
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "Element6641",
             "Remix12",
             "SIDBOSS44777",
-            "Coffee Slayer"
+            "Coffee Slayer",
+            "Element6641"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -172,7 +170,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -254,10 +252,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",

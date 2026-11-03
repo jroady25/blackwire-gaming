@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:57:00Z",
+  "generated_at": "2026-11-03T13:01:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -34,11 +34,10 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "miclebia",
             "runcrawlslither"
           ]
         },
@@ -159,7 +158,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

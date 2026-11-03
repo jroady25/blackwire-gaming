@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:47:10Z",
+  "generated_at": "2026-11-03T03:52:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -25,13 +25,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Spectre",
             "JaseDakota14",
-            "SinisterSuave666"
+            "SinisterSuave666",
+            "DireMeek"
           ]
         },
         {
@@ -45,12 +46,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "neutrinopc",
-            "SpoggDarr"
+            "neutrinopc"
           ]
         },
         {
@@ -130,11 +130,10 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "DireMeek",
             "Dudugaimerzin1"
           ]
         },
@@ -165,7 +164,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

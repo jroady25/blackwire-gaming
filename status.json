@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:27:02Z",
+  "generated_at": "2026-11-03T21:32:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,13 +42,13 @@
           "map": "TheIsland_WP",
           "players": [
             "runcrawlslither",
-            "C50CAL9"
+            "lucas_nba24peace"
           ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -56,7 +56,9 @@
             "SpoggDarr",
             "Harru",
             "Bretty Wat",
-            "sidimaraki100"
+            "sidimaraki100",
+            "neutrinopc",
+            "Element6641"
           ]
         },
         {

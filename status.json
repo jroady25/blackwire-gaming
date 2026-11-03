@@ -1,20 +1,17 @@
 {
-  "generated_at": "2026-11-03T23:12:12Z",
+  "generated_at": "2026-11-03T23:17:11Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "xXkintzyXx",
             "Th3originBoS5",
-            "Boom5150",
-            "Small guy ree",
-            "chill_Lyrics14"
+            "Boom5150"
           ]
         },
         {
@@ -47,7 +44,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 9,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -56,7 +53,10 @@
             "SIDBOSS44777",
             "Coffee Slayer",
             "Element6641",
-            "KodasBetter"
+            "KodasBetter",
+            "Harru",
+            "chill_Lyrics14",
+            "FB_Sapper_Actual"
           ]
         },
         {
@@ -160,12 +160,10 @@
         {
           "name": "BlackWire - Event Map - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
@@ -210,10 +208,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "Small guy ree"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -242,10 +242,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "xXkintzyXx"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
@@ -269,11 +271,12 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 16,
           "players": [
             "wraiyth",
-            "Megadeth-GTA6"
+            "Megadeth-GTA6",
+            "Optimus Prime"
           ],
           "map": null
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:02:04Z",
+  "generated_at": "2026-11-03T22:07:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,12 +19,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -39,12 +37,10 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "runcrawlslither"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
@@ -56,11 +52,11 @@
             "SpoggDarr",
             "Harru",
             "Bretty Wat",
-            "sidimaraki100",
             "Element6641",
             "Remix12",
             "SIDBOSS44777",
-            "Coffee Slayer"
+            "Coffee Slayer",
+            "Spaghetti"
           ]
         },
         {
@@ -198,10 +194,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "DireMeek"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -246,12 +244,10 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": [
-            "Spaghetti"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",

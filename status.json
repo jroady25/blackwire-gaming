@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T00:12:08Z",
+  "generated_at": "2026-11-03T00:17:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,11 +45,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "SpoggDarr"
+            "SpoggDarr",
+            "do_gotcha"
           ]
         },
         {
@@ -195,12 +196,10 @@
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": [
-            "smoothbrain33"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",

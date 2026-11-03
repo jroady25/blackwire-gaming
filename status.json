@@ -1,27 +1,26 @@
 {
-  "generated_at": "2026-11-03T17:37:15Z",
+  "generated_at": "2026-11-03T17:42:10Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Small guy ree"
+            "Small guy ree",
+            "AnarchySouls207"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": [
-            "Sniffy7990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -45,7 +44,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -54,7 +53,8 @@
             "Harru",
             "Spaghetti",
             "Bretty Wat",
-            "SpoggDarr"
+            "SpoggDarr",
+            "own-loch4"
           ]
         },
         {

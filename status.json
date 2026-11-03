@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:37:08Z",
+  "generated_at": "2026-11-03T07:42:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -135,8 +135,8 @@
           "map": "Ragnarok_WP",
           "players": [
             "Spectre",
-            "DireMeek",
-            "John Wivk"
+            "John Wivk",
+            "DireMeek"
           ]
         },
         {

@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-11-03T23:17:11Z",
+  "generated_at": "2026-11-03T23:22:14Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Th3originBoS5",
             "Boom5150"
           ]
         },
@@ -36,10 +35,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "C50CAL9"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
@@ -55,8 +56,8 @@
             "Element6641",
             "KodasBetter",
             "Harru",
-            "chill_Lyrics14",
-            "FB_Sapper_Actual"
+            "FB_Sapper_Actual",
+            "do_gotcha"
           ]
         },
         {
@@ -136,10 +137,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "vmurray93"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
@@ -168,7 +171,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T16:22:04Z",
+  "generated_at": "2026-11-03T16:27:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -35,13 +35,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "miclebia",
-            "C50CAL9",
-            "runcrawlslither"
+            "C50CAL9"
           ]
         },
         {
@@ -234,12 +233,10 @@
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "psycho_Queen2410"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

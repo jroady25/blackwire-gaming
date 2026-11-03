@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-11-03T22:26:59Z",
+  "generated_at": "2026-11-03T22:32:03Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "xXkintzyXx",
             "Th3originBoS5",
-            "Boom5150",
-            "Small guy ree"
+            "Boom5150"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Small guy ree"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -45,7 +46,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -54,8 +55,7 @@
             "Element6641",
             "Remix12",
             "SIDBOSS44777",
-            "Coffee Slayer",
-            "FB_Sapper_Actual"
+            "Coffee Slayer"
           ]
         },
         {
@@ -101,12 +101,11 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "HarleyDavidson",
-            "DireMeek"
+            "HarleyDavidson"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:37:27Z",
+  "generated_at": "2026-11-03T05:42:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,22 +14,21 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "Zackattack28060"
           ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Spectre"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
@@ -42,13 +41,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "kurtzee44",
             "SpoggDarr",
-            "SIDBOSS44777"
+            "SIDBOSS44777",
+            "Harru"
           ]
         },
         {
@@ -128,11 +128,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "DireMeek"
+            "DireMeek",
+            "Spectre"
           ]
         },
         {
@@ -245,12 +246,10 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "KEENER"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",

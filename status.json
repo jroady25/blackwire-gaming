@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:02:24Z",
+  "generated_at": "2026-11-03T05:07:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -244,10 +244,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": []
+          "players": [
+            "KEENER"
+          ]
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",

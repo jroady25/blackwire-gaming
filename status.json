@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:22:03Z",
+  "generated_at": "2026-11-03T22:26:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,10 +10,10 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Small guy ree",
             "xXkintzyXx",
             "Th3originBoS5",
-            "Boom5150"
+            "Boom5150",
+            "Small guy ree"
           ]
         },
         {
@@ -45,11 +45,10 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 8,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "SpoggDarr",
             "Harru",
             "Bretty Wat",
             "Element6641",
@@ -270,9 +269,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

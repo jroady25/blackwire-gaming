@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T04:27:19Z",
+  "generated_at": "2026-11-03T04:32:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -25,13 +25,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Spectre",
             "SinisterSuave666",
-            "DireMeek"
+            "DireMeek",
+            "Get_2ftd_kid"
           ]
         },
         {
@@ -265,11 +266,11 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
-          "map": null,
-          "offline_since": "2026-11-03T04:27:19Z"
+          "players": [],
+          "map": null
         },
         {
           "name": "Palworld Server 2",

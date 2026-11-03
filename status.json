@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-11-03T21:02:12Z",
+  "generated_at": "2026-11-03T21:07:13Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Small guy ree"
+            "Small guy ree",
+            "xXkintzyXx"
           ]
         },
         {
@@ -207,10 +208,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "Sniffy7990"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",

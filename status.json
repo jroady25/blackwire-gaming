@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:42:06Z",
+  "generated_at": "2026-11-03T23:47:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -63,11 +63,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "players": [
-            "xXkintzyXx"
+            "xXkintzyXx",
+            "Boom5150"
           ]
         },
         {
@@ -213,11 +214,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "Small guy ree"
+            "Small guy ree",
+            "Bretty Wat"
           ]
         },
         {

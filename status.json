@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:27:08Z",
+  "generated_at": "2026-11-03T17:32:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,10 +54,10 @@
           "players": [
             "neutrinopc",
             "kurtzee44",
-            "SpoggDarr",
             "Harru",
             "Spaghetti",
-            "Bretty Wat"
+            "Bretty Wat",
+            "SpoggDarr"
           ]
         },
         {

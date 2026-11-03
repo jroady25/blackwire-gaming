@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:27:19Z",
+  "generated_at": "2026-11-03T20:32:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -207,10 +207,10 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "1CantRe4d",
             "Itz finnnnnn",
             "Sniffy7990",
-            "Spaghetti"
+            "Spaghetti",
+            "1CantRe4d"
           ]
         },
         {

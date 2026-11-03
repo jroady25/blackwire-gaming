@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:01:59Z",
+  "generated_at": "2026-11-03T10:08:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -8,8 +8,7 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Ragnarok_WP",
-          "players": []
+          "map": "Ragnarok_WP"
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -22,46 +21,38 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "NeyoN_AuX",
-            "Get_2ftd_kid",
             "DarkClaw6"
           ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
             "miclebia"
-          ],
-          "offline_since": "2026-11-03T10:01:59Z"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
-          "online": true,
-          "players_current": 4,
+          "online": false,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "Element6641",
-            "Naykdtime",
-            "Harru",
-            "Zackattack28060"
-          ]
+          "offline_since": "2026-11-03T10:08:15Z"
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Extinction_WP",
-          "players": []
+          "map": "Extinction_WP"
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -105,10 +96,11 @@
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
+          "offline_since": "2026-11-03T10:08:15Z",
           "names_hidden": true
         },
         {
@@ -116,10 +108,7 @@
           "online": true,
           "players_current": 1,
           "players_max": 20,
-          "map": "Astraeos_WP",
-          "players": [
-            "KittyLovesArk"
-          ]
+          "map": "Astraeos_WP"
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
@@ -158,15 +147,15 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Genesis_WP",
-          "players": []
+          "map": "Genesis_WP"
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
+          "offline_since": "2026-11-03T10:08:15Z",
           "names_hidden": true
         },
         {
@@ -211,19 +200,20 @@
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
+          "offline_since": "2026-11-03T10:08:15Z",
           "names_hidden": true
         },
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "offline_since": "2026-11-03T10:08:15Z"
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
@@ -238,8 +228,7 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Genesis_WP",
-          "players": []
+          "map": "Genesis_WP"
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",

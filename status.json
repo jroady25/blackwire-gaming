@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-03T23:22:14Z",
+  "generated_at": "2026-11-03T23:27:13Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "Boom5150"
+            "DragonWolf7676",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Zackattack28060",
-            "Dat_Boi_Mike_70"
+            "Zackattack28060"
           ]
         },
         {
@@ -45,12 +45,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 9,
+          "players_current": 8,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Bretty Wat",
-            "Remix12",
             "SIDBOSS44777",
             "Coffee Slayer",
             "Element6641",
@@ -171,7 +170,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -274,12 +273,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 16,
           "players": [
             "wraiyth",
-            "Megadeth-GTA6",
-            "Optimus Prime"
+            "Megadeth-GTA6"
           ],
           "map": null
         },

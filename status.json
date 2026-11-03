@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T04:22:13Z",
+  "generated_at": "2026-11-03T04:27:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -203,11 +203,10 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "legendx12x",
             "Bretty Wat"
           ]
         },
@@ -222,10 +221,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "KEENER"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
@@ -264,13 +265,11 @@
       "servers": [
         {
           "name": "Palworld Server 1",
-          "online": true,
-          "players_current": 1,
+          "online": false,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Megadeth-GTA6"
-          ],
-          "map": null
+          "map": null,
+          "offline_since": "2026-11-03T04:27:19Z"
         },
         {
           "name": "Palworld Server 2",

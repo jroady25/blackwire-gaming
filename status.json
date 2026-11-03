@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:52:09Z",
+  "generated_at": "2026-11-03T05:57:35Z",
   "servers": {
     "ark": {
       "servers": [
@@ -25,11 +25,12 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "DireMeek"
+            "DireMeek",
+            "John Wivk"
           ]
         },
         {
@@ -43,14 +44,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "kurtzee44",
             "SpoggDarr",
             "SIDBOSS44777",
-            "Harru"
+            "Harru",
+            "Element6641"
           ]
         },
         {

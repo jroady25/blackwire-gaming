@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:37:07Z",
+  "generated_at": "2026-11-03T20:42:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -165,7 +165,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -205,13 +205,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
             "Itz finnnnnn",
             "Sniffy7990",
-            "Spaghetti",
             "1CantRe4d"
           ]
         },

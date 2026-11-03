@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T17:12:03Z",
+  "generated_at": "2026-11-03T17:17:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -17,10 +17,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Sniffy7990"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -46,14 +48,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "neutrinopc",
             "kurtzee44",
             "SpoggDarr",
-            "own-loch4"
+            "own-loch4",
+            "Harru"
           ]
         },
         {
@@ -167,7 +170,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

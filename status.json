@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:27:07Z",
+  "generated_at": "2026-11-03T11:32:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -196,12 +196,11 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "Bretty Wat",
-            "Sir lister3334"
+            "Bretty Wat"
           ]
         },
         {
@@ -302,9 +301,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:47:01Z",
+  "generated_at": "2026-11-03T09:52:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -218,20 +218,20 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Zackattack28060"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": [
-            "Zackattack28060"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:27:04Z",
+  "generated_at": "2026-11-03T13:32:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -235,10 +235,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "XHaidenSmithX @R..."
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
@@ -262,11 +264,9 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

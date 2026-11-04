@@ -43,6 +43,7 @@ jobs:
           ARK_RCON_PASSWORD: ${{ secrets.ARK_RCON_PASSWORD }}
           PALWORLD_1_PASSWORD: ${{ secrets.PALWORLD_1_PASSWORD }}
           PALWORLD_2_PASSWORD: ${{ secrets.PALWORLD_2_PASSWORD }}
+          PALWORLD_3_PASSWORD: ${{ secrets.PALWORLD_3_PASSWORD }}
         run: python3 build_config.py > config.json
 
       - name: Run the poller

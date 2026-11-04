@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-04T00:11:55Z",
+  "generated_at": "2026-11-04T00:16:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "DragonWolf7676",
-            "Dat_Boi_Mike_70",
             "AnarchySouls207",
-            "Zackattack28060",
             "Small guy ree",
             "Santa_Clause01",
             "XXNeokilla"
@@ -46,27 +44,28 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 8,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "SIDBOSS44777",
             "Coffee Slayer",
             "Element6641",
             "Harru",
-            "MattyRoth83",
             "chill_Lyrics14",
             "SpoggDarr",
-            "KodasBetter"
+            "KodasBetter",
+            "Zackattack28060"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": []
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -171,7 +170,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

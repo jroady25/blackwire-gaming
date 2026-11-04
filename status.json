@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:52:03Z",
+  "generated_at": "2026-11-04T12:56:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -258,10 +258,11 @@
         {
           "name": "Palworld Server 1",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "Megadeth-GTA6"
+            "Megadeth-GTA6",
+            "wraiyth"
           ],
           "map": null
         },

@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-11-04T18:27:07Z",
+  "generated_at": "2026-11-04T18:32:13Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Small guy ree"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -43,7 +41,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 8,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -52,7 +50,9 @@
             "SpoggDarr",
             "Spaghetti",
             "Harru",
-            "Element6641"
+            "Element6641",
+            "sidimaraki100",
+            "neutrinopc"
           ]
         },
         {

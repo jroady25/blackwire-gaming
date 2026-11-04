@@ -1342,7 +1342,28 @@ def main():
         ark_entries = ark_entries_config
  
     ark = poll_nitrado_group(ark_entries, cfg["nitrado_token"], cfg.get("ark_rcon_password"), probed_gs=probed_gs)
-    palworld = poll_palworld_group(cfg.get("palworld_servers", []), probed_gs=probed_gs)
+    palworld_entries = list(cfg.get("palworld_servers", []))
+    # Added 2026-11-04: a third Palworld server was added on Nitrado and never
+    # showed up, because Palworld was only ever hand-listed. Any Palworld
+    # service on the account that isn't hand-listed is now added on its own
+    # (same idea as ARK discovery). It has no password of its own here, so
+    # poll_palworld_group() tries the other Palworld servers' passwords and,
+    # if none work, still shows it online/offline from Nitrado's own status.
+    if probed_gs and cfg.get("auto_discover_palworld", True):
+        known = {str(e.get("service_id")) for e in palworld_entries}
+        skip = {str(x) for x in cfg.get("auto_discover_other_exclude_ids", [])}
+        for sid, gs in sorted(probed_gs.items(), key=lambda kv: str(kv[0])):
+            sid = str(sid)
+            if sid in known or sid in skip:
+                continue
+            if str(gs.get("game") or "").strip().lower() != "palworld":
+                continue
+            name = ((gs.get("query") or {}).get("server_name")
+                    or f"Palworld Server {len(palworld_entries) + 1}")
+            log(f"Palworld: service {sid} is on the account but not in config -- adding it as '{name}'.")
+            palworld_entries.append({"service_id": sid, "name": name, "username": "admin",
+                                     "players_max": gs.get("slots") or 0})
+    palworld = poll_palworld_group(palworld_entries, probed_gs=probed_gs)
     once_human = poll_once_human_group(cfg.get("once_human_servers", []))
  
     status = {
@@ -1363,7 +1384,7 @@ def main():
             probed_gs,
             exclude_ids=cfg.get("auto_discover_other_exclude_ids", []),
             name_overrides=cfg.get("other_nitrado_names", {}),
-            known_palworld_ids=[p.get("service_id") for p in cfg.get("palworld_servers", [])],
+            known_palworld_ids=[p.get("service_id") for p in palworld_entries],
         )
         for slug, bucket in others.items():
             if slug == "dragonwilds":

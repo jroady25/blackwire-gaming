@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:22:19Z",
+  "generated_at": "2026-11-04T17:27:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,10 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -50,8 +52,8 @@
             "KodasBetter",
             "own-loch4",
             "SpoggDarr",
-            "MattyRoth83",
-            "neutrinopc"
+            "neutrinopc",
+            "1CantRe4d"
           ]
         },
         {
@@ -207,12 +209,10 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": [
-            "1CantRe4d"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",

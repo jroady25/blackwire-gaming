@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-11-04T05:27:07Z",
+  "generated_at": "2026-11-04T05:32:15Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "Th3originBoS5"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -111,12 +113,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Saladbar82",
-            "jana_mew"
+            "jana_mew",
+            "arty8r"
           ]
         },
         {

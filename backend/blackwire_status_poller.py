@@ -1074,7 +1074,7 @@ def poll_palworld_group(entries, probed_gs=None):
 
         if data is not None:
             data["map"] = None
-            results.append({"name": entry["name"], **data})
+            results.append({"name": entry["name"], "service_id": sid, **data})
             continue
 
         nitrado_status = gs.get("status")
@@ -1084,6 +1084,7 @@ def poll_palworld_group(entries, probed_gs=None):
         if nitrado_status == "started":
             results.append({
                 "name": entry["name"],
+                "service_id": sid,
                 "online": True,
                 "players_current": None,
                 "players_max": slots,
@@ -1092,6 +1093,7 @@ def poll_palworld_group(entries, probed_gs=None):
         else:
             results.append({
                 "name": entry["name"],
+                "service_id": sid,
                 "online": False,
                 "players_current": 0,
                 "players_max": slots,

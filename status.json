@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:17:15Z",
+  "generated_at": "2026-11-04T20:22:31Z",
   "servers": {
     "ark": {
       "servers": [
@@ -161,7 +161,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -217,20 +217,20 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Small guy ree"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Small guy ree"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

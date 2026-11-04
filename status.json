@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:27:08Z",
+  "generated_at": "2026-11-04T12:32:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,14 +44,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Element6641",
             "1CantRe4d",
             "Harru",
-            "Spaghetti"
+            "Spaghetti",
+            "KodasBetter"
           ]
         },
         {
@@ -250,11 +251,10 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "offline_since": "2026-11-04T12:27:08Z"
+          "map": "TheIsland_WP"
         }
       ]
     },

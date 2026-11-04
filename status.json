@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:02:15Z",
+  "generated_at": "2026-11-04T19:07:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,13 +40,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "KodasBetter",
             "own-loch4",
-            "Spaghetti",
             "sidimaraki100",
             "neutrinopc",
             "1CantRe4d"
@@ -169,7 +168,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

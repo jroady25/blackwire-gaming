@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:07:24Z",
+  "generated_at": "2026-11-04T21:12:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -129,11 +129,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "vmurray93"
+            "vmurray93",
+            "LuvsChooks"
           ]
         },
         {
@@ -224,7 +225,7 @@
           "map": "TheIsland_WP",
           "players": [
             "Derangedjoka",
-            "Small guy ree"
+            "MattyRoth83"
           ]
         },
         {

@@ -43,4 +43,15 @@ for server in cfg.get("palworld_servers", []):
     if password:
         server["password"] = password
 
+# Palworld servers that aren't hand-listed are found on the Nitrado account
+# by the poller itself (added 2026-11-04). Their admin passwords come from
+# PALWORLD_3_PASSWORD, PALWORLD_4_PASSWORD, ... and are tried on them.
+extra = []
+for n in range(3, 10):
+    pw = os.environ.get(f"PALWORLD_{n}_PASSWORD")
+    if pw:
+        extra.append(pw)
+if extra:
+    cfg["palworld_extra_passwords"] = extra
+
 json.dump(cfg, sys.stdout, indent=2)

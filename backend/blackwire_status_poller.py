@@ -1361,8 +1361,11 @@ def main():
             name = ((gs.get("query") or {}).get("server_name")
                     or f"Palworld Server {len(palworld_entries) + 1}")
             log(f"Palworld: service {sid} is on the account but not in config -- adding it as '{name}'.")
+            extra_pw = list(cfg.get("palworld_extra_passwords") or [])
+            n_new = sum(1 for e in palworld_entries if e.get("_discovered"))
             palworld_entries.append({"service_id": sid, "name": name, "username": "admin",
-                                     "players_max": gs.get("slots") or 0})
+                                     "players_max": gs.get("slots") or 0, "_discovered": True,
+                                     "password": extra_pw[n_new] if n_new < len(extra_pw) else None})
     palworld = poll_palworld_group(palworld_entries, probed_gs=probed_gs)
     once_human = poll_once_human_group(cfg.get("once_human_servers", []))
  

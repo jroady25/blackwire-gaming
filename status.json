@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T00:36:57Z",
+  "generated_at": "2026-11-04T00:41:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,11 +19,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "MattyRoth83"
           ]
         },
         {
@@ -37,23 +38,21 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "players": [
-            "Reilig",
-            "runcrawlslither"
+            "Reilig"
           ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Coffee Slayer",
-            "Element6641",
             "chill_Lyrics14",
             "SpoggDarr",
             "KodasBetter",
@@ -199,12 +198,10 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "MattyRoth83"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",

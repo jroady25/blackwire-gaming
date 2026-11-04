@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T02:32:14Z",
+  "generated_at": "2026-11-04T02:37:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,7 +47,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -55,8 +55,6 @@
             "neutrinopc",
             "ashleylolokay3",
             "SpoggDarr",
-            "Reilig",
-            "do_gotcha",
             "KodasBetter"
           ]
         },
@@ -137,11 +135,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "vmurray93"
+            "vmurray93",
+            "Arigatu1"
           ]
         },
         {
@@ -211,10 +210,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -243,10 +244,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",

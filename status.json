@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:17:17Z",
+  "generated_at": "2026-11-04T18:22:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -43,29 +43,25 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 8,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "KodasBetter",
             "own-loch4",
             "SpoggDarr",
-            "neutrinopc",
             "Spaghetti",
             "Harru",
-            "Element6641",
-            "Remix12"
+            "Element6641"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "players": [
-            "bckyrdBOOST818"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -171,7 +167,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

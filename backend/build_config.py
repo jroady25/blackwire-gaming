@@ -36,6 +36,7 @@ if ark_rcon_password:
 palworld_password_env = {
     "17667688": "PALWORLD_1_PASSWORD",
     "19733590": "PALWORLD_2_PASSWORD",
+    "20122510": "PALWORLD_3_PASSWORD",
 }
 for server in cfg.get("palworld_servers", []):
     env_name = palworld_password_env.get(str(server.get("service_id")))

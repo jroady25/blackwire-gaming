@@ -29,7 +29,8 @@
 
   "palworld_servers": [
     {"service_id": "17667688", "name": "Palworld Golden Aces", "host": "95.156.213.85", "rest_api_port": 17093, "username": "admin", "players_max": 16},
-    {"service_id": "19733590", "name": "Palworld Limitless PVP", "host": "170.23.78.90", "rest_api_port": 17103, "username": "admin", "players_max": 16}
+    {"service_id": "19733590", "name": "Palworld Limitless PVP", "host": "170.23.78.90", "rest_api_port": 17103, "username": "admin", "players_max": 16},
+    {"service_id": "20122510", "name": "Palworld Armageddon", "username": "admin", "players_max": 12}
   ],
 
     "once_human_servers": [

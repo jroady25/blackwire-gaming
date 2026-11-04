@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:57:19Z",
+  "generated_at": "2026-11-04T17:02:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,10 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
-          "players": []
+          "players": [
+            "Itz finnnnnn"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -43,7 +45,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
@@ -52,8 +54,7 @@
             "neutrinopc",
             "1CantRe4d",
             "own-loch4",
-            "SpoggDarr",
-            "Spaghetti"
+            "SpoggDarr"
           ]
         },
         {
@@ -133,13 +134,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
             "Arigatu1",
             "zekhenriqueff",
-            "vmurray93"
+            "vmurray93",
+            "LuvsChooks"
           ]
         },
         {
@@ -169,7 +171,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -209,10 +211,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -266,7 +270,8 @@
     "palworld": {
       "servers": [
         {
-          "name": "Palworld Server 1",
+          "name": "Palworld Golden Aces",
+          "service_id": "17667688",
           "online": true,
           "players_current": 0,
           "players_max": 16,
@@ -274,15 +279,17 @@
           "map": null
         },
         {
-          "name": "Palworld Server 2",
+          "name": "Palworld Limitless PVP",
+          "service_id": "19733590",
           "online": true,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
-          "map": null
+          "map": null,
+          "names_hidden": true
         },
         {
           "name": "Palworld Server 3",
+          "service_id": "20122510",
           "online": true,
           "players_current": null,
           "players_max": 12,

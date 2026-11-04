@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:57:04Z",
+  "generated_at": "2026-11-04T00:02:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -209,12 +209,11 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
-            "Bretty Wat",
-            "legendx12x"
+            "Bretty Wat"
           ]
         },
         {

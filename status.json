@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T04:26:54Z",
+  "generated_at": "2026-11-04T04:32:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,8 +22,8 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Harru",
-            "Zackattack28060"
+            "Zackattack28060",
+            "nb_gotcha"
           ]
         },
         {
@@ -113,11 +113,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Arigatu1",
             "Saladbar82",
             "jana_mew"
           ]
@@ -197,10 +196,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
@@ -223,12 +224,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "nb_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

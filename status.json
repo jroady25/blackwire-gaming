@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-11-04T01:02:05Z",
+  "generated_at": "2026-11-04T01:07:03Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "AnarchySouls207",
             "Small guy ree",
             "Santa_Clause01",
             "DragonWolf7676"
@@ -19,12 +18,11 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70",
-            "MattyRoth83"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -46,14 +44,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "chill_Lyrics14",
             "SpoggDarr",
             "KodasBetter",
-            "Bretty Wat",
             "do_gotcha"
           ]
         },
@@ -168,7 +165,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

@@ -122,22 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 2482151,
+    "offset": 2508597,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 2482151,
+    "log_size": 2508597,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:Event Map \u2014 Club Ark": "2026-11-04T10:07:23Z",
-    "ark:Extinction \u2014 PVE": "2026-11-04T10:07:23Z",
-    "ark:Ragnarok \u2014 Jurassic Awakening": "2026-11-04T10:07:23Z",
-    "ark:Decended \u2014 PVE": "2026-11-04T10:07:23Z",
-    "ark:Island SOTF \u2014 PVP (Limited/JKRZ)": "2026-11-04T10:07:23Z",
-    "ark:Svartalfheim \u2014 PVE (JKRZ)": "2026-11-04T10:07:23Z",
-    "ark:Forglar 1 \u2014 PVE (JKRZ)": "2026-11-04T10:07:23Z",
-    "ark:Forglar 2 \u2014 PVE (JKRZ)": "2026-11-04T10:07:23Z",
-    "palworld:Palworld Server 2": "2026-11-04T10:07:23Z"
-  }
+  "offline_since": {}
 }

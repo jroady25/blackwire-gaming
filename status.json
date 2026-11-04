@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T00:02:07Z",
+  "generated_at": "2026-11-04T00:07:10Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
@@ -14,7 +14,8 @@
             "Dat_Boi_Mike_70",
             "AnarchySouls207",
             "Zackattack28060",
-            "Small guy ree"
+            "Small guy ree",
+            "Boom5150"
           ]
         },
         {
@@ -169,7 +170,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

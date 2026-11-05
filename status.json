@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-11-05T19:12:12Z",
+  "generated_at": "2026-11-05T19:17:15Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "DragonWolf7676"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -40,12 +42,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "SpoggDarr",
-            "jandles13"
+            "jandles13",
+            "Spaghetti"
           ]
         },
         {
@@ -184,13 +187,11 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": [
-            "1CantRe4d",
-            "Harru",
-            "Spaghetti"
+            "Harru"
           ]
         },
         {
@@ -204,10 +205,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "players": []
+          "players": [
+            "1CantRe4d"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",

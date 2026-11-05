@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:32:41Z",
+  "generated_at": "2026-11-05T20:37:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,11 +48,11 @@
           "map": "Astraeos_WP",
           "players": [
             "jandles13",
-            "Naykdtime",
             "Harru",
             "Bretty Wat",
             "Spaghetti",
-            "1CantRe4d"
+            "1CantRe4d",
+            "Naykdtime"
           ]
         },
         {
@@ -162,7 +162,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 9,
+          "players_current": 8,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

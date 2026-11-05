@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-11-05T23:47:24Z",
+  "generated_at": "2026-11-05T23:52:24Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "xXkintzyXx",
-            "Kingmivec"
+            "Kingmivec",
+            "Sweetpee2"
           ]
         },
         {
@@ -61,9 +62,9 @@
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "SpoggDarr",
             "Remix12",
-            "jandles13"
+            "jandles13",
+            "JeepinAK"
           ]
         },
         {
@@ -159,13 +160,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "vmurray93"
+            "vmurray93",
+            "Murrami"
           ]
         },
         {

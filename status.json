@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T22:27:21Z",
+  "generated_at": "2026-11-05T22:32:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,14 +18,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Zackattack28060",
-            "DriftNalg"
+            "Zackattack28060"
           ]
         },
         {
@@ -63,7 +62,7 @@
           "players": [
             "Harru",
             "SpoggDarr",
-            "Spaghetti"
+            "Naykdtime"
           ]
         },
         {
@@ -199,11 +198,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 4,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -253,7 +252,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

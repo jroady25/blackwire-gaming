@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:07:11Z",
+  "generated_at": "2026-11-05T00:12:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -228,12 +228,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "Leather Nuts"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
@@ -274,11 +272,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Optimus Prime"
-          ],
+          "players": [],
           "map": null
         },
         {

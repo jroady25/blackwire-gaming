@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-11-05T05:51:53Z",
+  "generated_at": "2026-11-05T05:56:48Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -72,6 +70,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Center - PVP - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
           "names_hidden": true
         },
         {
@@ -225,10 +231,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "players": []
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
@@ -255,15 +263,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
-        },
-        {
-          "name": "BlackWire - The Center - PVP - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-05T05:51:53Z",
-          "names_hidden": true
         }
       ]
     },

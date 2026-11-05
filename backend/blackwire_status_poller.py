@@ -296,6 +296,12 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
         # on top of the count Nitrado's API already gave us above. Only
         # attempted when this entry has enough to try, and failure here
         # never affects the count/online status already established.
+        # Where the count came from, kept on the row so a wrong count can be
+        # traced: "rcon" = the server's own live list, "nitrado" = Nitrado's
+        # query (can trail by minutes). nitrado_count is Nitrado's number
+        # either way, for side-by-side checks.
+        row["count_source"] = "nitrado"
+        row["nitrado_count"] = data.get("players_current")
         if rcon_host and rcon_port and passwords:
             rcon_data = query_ark_rcon_players_any(rcon_host, rcon_port, passwords)
             if rcon_data is None and alt_host and alt_port:
@@ -306,6 +312,10 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
                 # few minutes (showed "1" with nobody on). Keep them in step.
                 if row.get("online"):
                     row["players_current"] = len(rcon_data["players"])
+                    row["count_source"] = "rcon"
+            else:
+                log(f"ARK {row.get('name')}: RCON list unavailable ({rcon_host}:{rcon_port}"
+                    f"{', ' + str(alt_host) + ':' + str(alt_port) if alt_host else ''}) - using Nitrado's count")
  
         results.append(row)
     return results

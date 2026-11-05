@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:47:22Z",
+  "generated_at": "2026-11-05T15:52:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,7 +50,7 @@
           "players": [
             "SpoggDarr",
             "Spaghetti",
-            "do_gotcha"
+            "own-loch4"
           ]
         },
         {
@@ -222,10 +222,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "do_gotcha"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

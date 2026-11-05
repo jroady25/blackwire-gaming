@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T04:56:44Z",
+  "generated_at": "2026-11-05T05:02:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -243,23 +243,22 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
             "Dat_Boi_Mike_70",
-            "Zackattack28060"
+            "Zackattack28060",
+            "AllenDWoodz"
           ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "players": [
-            "AllenDWoodz"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",

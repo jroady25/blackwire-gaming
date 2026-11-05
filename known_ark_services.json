@@ -85,6 +85,10 @@
       "name": "BlackWire - Valguero - PVP - (v96.9)"
     },
     {
+      "service_id": "18860204",
+      "name": "BlackWire - Scorched Earth - PVE - (v96.9)"
+    },
+    {
       "service_id": "18863102",
       "name": "BlackWire - Abberation - PVE - (v96.9)"
     },
@@ -115,18 +119,14 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v96.9)"
-    },
-    {
-      "service_id": "18860204",
-      "name": "BlackWire - Scorched Earth - PVE - (v96.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 3954149,
+    "offset": 3956943,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 3953596,
+    "log_size": 3956943,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

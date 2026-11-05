@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-05T23:37:26Z",
+  "generated_at": "2026-11-05T23:42:21Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "xXkintzyXx"
+            "xXkintzyXx",
+            "Kingmivec"
           ]
         },
         {
@@ -34,11 +35,11 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Sgt-Bilco-",
             "Spectre",
-            "storm2009rider"
+            "storm2009rider",
+            "Sgt-Bilco-"
           ]
         },
         {
@@ -62,9 +63,9 @@
           "players": [
             "SpoggDarr",
             "Remix12",
-            "SpidxrLily",
             "Optimus Prime",
-            "jandles13"
+            "jandles13",
+            "Bretty Wat"
           ]
         },
         {
@@ -160,14 +161,13 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 3,
           "players": [
-            "vmurray93",
-            "zekhenriqueff"
+            "vmurray93"
           ]
         },
         {
@@ -257,7 +257,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

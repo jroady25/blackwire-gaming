@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:57:30Z",
+  "generated_at": "2026-11-05T21:02:27Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,14 +44,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "jandles13",
             "Harru",
             "Spaghetti",
-            "1CantRe4d",
             "SpoggDarr"
           ]
         },
@@ -69,14 +68,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Center - PVP - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
           "names_hidden": true
         },
         {
@@ -98,10 +89,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "HarleyDavidson"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
@@ -162,7 +155,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -255,6 +248,15 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
+        },
+        {
+          "name": "BlackWire - The Center - PVP - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-05T21:02:27Z",
+          "names_hidden": true
         }
       ]
     },

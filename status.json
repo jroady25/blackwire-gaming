@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T04:26:57Z",
+  "generated_at": "2026-11-05T04:31:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -268,11 +268,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Megadeth-GTA6"
-          ],
+          "players": [],
           "map": null
         },
         {

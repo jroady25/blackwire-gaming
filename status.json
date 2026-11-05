@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T00:37:10Z",
+  "generated_at": "2026-11-05T00:42:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,11 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "DriftNalg"
           ]
         },
         {
@@ -167,7 +168,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true

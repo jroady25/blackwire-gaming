@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-11-05T19:52:20Z",
+  "generated_at": "2026-11-05T19:57:21Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "DragonWolf7676"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -168,7 +166,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -222,14 +220,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVE - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "players": []
-        },
-        {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
           "players_current": 0,
@@ -259,6 +249,14 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP"
+        },
+        {
+          "name": "BlackWire - The Island - PVE - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
         }
       ]
     },
@@ -268,9 +266,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Optimus Prime"
+          ],
           "map": null
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T05:21:42Z",
+  "generated_at": "2026-11-05T05:26:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -47,13 +47,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Element6641",
             "SIDBOSS44777",
-            "FB_Sapper_Actual"
+            "FB_Sapper_Actual",
+            "AllenDWoodz"
           ]
         },
         {
@@ -243,11 +244,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
-            "Zackattack28060"
+            "Zackattack28060",
+            "Dat_Boi_Mike_70"
           ]
         },
         {

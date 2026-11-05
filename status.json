@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:12:22Z",
+  "generated_at": "2026-11-05T23:17:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -58,7 +58,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Harru",
             "SpoggDarr",
@@ -303,7 +303,7 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -323,10 +323,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "wraiyth"
+            "wraiyth",
+            "Optimus Prime"
           ],
           "map": null
         },

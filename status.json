@@ -1,18 +1,15 @@
 {
-  "generated_at": "2026-11-05T02:51:28Z",
+  "generated_at": "2026-11-05T02:56:44Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "Boom5150",
-            "Dat_Boi_Mike_70"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -47,13 +44,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Element6641",
-            "do_gotcha",
-            "Reilig"
+            "do_gotcha"
           ]
         },
         {
@@ -195,20 +191,20 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": [
-            "xXkintzyXx"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
-          "players": []
+          "players": [
+            "xXkintzyXx"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
@@ -232,10 +228,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": []
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

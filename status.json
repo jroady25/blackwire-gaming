@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T19:07:20Z",
+  "generated_at": "2026-11-05T19:12:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,11 +14,10 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "DriftNalg",
             "Zackattack28060"
           ]
         },
@@ -185,14 +184,13 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "players": [
-            "Spaghetti",
             "1CantRe4d",
             "Harru",
-            "Bretty Wat"
+            "Spaghetti"
           ]
         },
         {

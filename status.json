@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-05T23:52:24Z",
+  "generated_at": "2026-11-05T23:57:36Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "xXkintzyXx",
-            "Kingmivec",
             "Sweetpee2"
           ]
         },
@@ -64,18 +63,20 @@
           "players": [
             "Remix12",
             "jandles13",
-            "JeepinAK"
+            "KP Gaming"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Kingmivec"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -203,11 +204,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -253,13 +254,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Bretty Wat"
+            "Bretty Wat",
+            "JeepinAK"
           ]
         },
         {
@@ -331,20 +333,22 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "wraiyth"
+            "wraiyth",
+            "Optimus Prime"
           ],
           "map": null
         },
         {
           "name": "Palworld Limitless PVP",
           "service_id": "19733590",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
           "map": null,
+          "offline_since": "2026-11-05T23:57:36Z",
           "names_hidden": true
         },
         {

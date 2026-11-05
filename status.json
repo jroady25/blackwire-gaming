@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-11-05T18:07:23Z",
+  "generated_at": "2026-11-05T18:12:25Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": []
+          "players": [
+            "DragonWolf7676"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -24,12 +26,10 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "DragonWolf7676"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
@@ -129,12 +129,11 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "players": [
-            "vmurray93",
-            "LuvsChooks"
+            "vmurray93"
           ]
         },
         {
@@ -164,7 +163,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -204,12 +203,11 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "players": [
             "Bretty Wat",
-            "1CantRe4d",
             "Lyulf_kaldez"
           ]
         },
@@ -224,12 +222,10 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "players": [
-            "I-Be-Stroganoff"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T04:46:59Z",
+  "generated_at": "2026-11-05T04:51:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,7 +18,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "players": [
-            "Zackattack28060"
+            "king44"
           ]
         },
         {
@@ -46,13 +46,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Element6641",
             "SIDBOSS44777",
-            "FB_Sapper_Actual"
+            "FB_Sapper_Actual",
+            "Bretty Wat"
           ]
         },
         {
@@ -166,7 +167,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "names_hidden": true
@@ -242,11 +243,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "Zackattack28060"
           ]
         },
         {

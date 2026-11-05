@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T10:16:51Z",
+  "generated_at": "2026-11-05T10:21:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,11 +22,12 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "DireMeek"
+            "DireMeek",
+            "Sgt-Bilco-"
           ]
         },
         {
@@ -254,9 +255,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Megadeth-GTA6"
+          ],
           "map": null
         },
         {

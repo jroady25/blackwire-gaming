@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:26:49Z",
+  "generated_at": "2026-11-05T12:31:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,12 +41,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
-            "Element6641",
-            "Spaghetti"
+            "Element6641"
           ]
         },
         {
@@ -184,10 +183,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "players": []
+          "players": [
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -247,11 +248,10 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "offline_since": "2026-11-05T12:26:49Z"
+          "map": "TheIsland_WP"
         }
       ]
     },
@@ -261,9 +261,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

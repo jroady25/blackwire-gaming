@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:46:57Z",
+  "generated_at": "2026-11-05T07:51:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,13 +22,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "players": [
             "Get_2ftd_kid",
             "Sgt-Bilco-",
-            "storm2009rider"
+            "storm2009rider",
+            "DireMeek"
           ]
         },
         {
@@ -109,12 +110,10 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "players": [
-            "ALDBARANT974"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
@@ -127,12 +126,10 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",

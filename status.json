@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:42:24Z",
+  "generated_at": "2026-11-06T20:47:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,7 +30,7 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -39,7 +39,8 @@
             "Sgt-Bilco-",
             "own-loch4",
             "EXDaydreamer",
-            "Get_2ftd_kid"
+            "Get_2ftd_kid",
+            "Spectre"
           ]
         },
         {
@@ -143,7 +144,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "KittyLovesArk"
           ]
@@ -231,12 +232,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Bretty Wat"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",

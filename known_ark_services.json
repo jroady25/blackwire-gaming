@@ -25,10 +25,6 @@
       "name": "BlackWire - Extinction - PVE - (v96.9)"
     },
     {
-      "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v96.9)"
-    },
-    {
       "service_id": "18111211",
       "name": "BlackWire - The Center - PVP - (v96.9)"
     },
@@ -119,15 +115,21 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v96.9)"
+    },
+    {
+      "service_id": "18111202",
+      "name": "BlackWire - Scorched Earth - PVP - (v96.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 4710679,
+    "offset": 4714415,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 4710679,
+    "log_size": 4714415,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:BlackWire - Scorched Earth - PVP - (v96.9)": "2026-11-06T17:12:28Z"
+  }
 }

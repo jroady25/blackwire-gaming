@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:07:20Z",
+  "generated_at": "2026-11-06T17:12:28Z",
   "servers": {
     "ark": {
       "servers": [
@@ -68,16 +68,6 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
-        },
-        {
-          "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "ScorchedEarth_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "names_hidden": true
         },
         {
           "name": "BlackWire - The Center - PVP - (v96.9)",
@@ -313,6 +303,15 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-06T17:12:28Z",
+          "names_hidden": true
         }
       ]
     },

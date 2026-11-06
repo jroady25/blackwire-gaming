@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T23:57:36Z",
+  "generated_at": "2026-11-06T00:02:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,10 +10,10 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "xXkintzyXx",
-            "Sweetpee2"
+            "Small guy ree"
           ]
         },
         {
@@ -55,15 +55,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Remix12",
             "jandles13",
-            "KP Gaming"
+            "KP Gaming",
+            "Harru",
+            "JeepinAK"
           ]
         },
         {
@@ -254,15 +256,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
-          "players": [
-            "Bretty Wat",
-            "JeepinAK"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -277,12 +276,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Sweetpee2"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
@@ -297,14 +298,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Harru"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
@@ -344,11 +343,10 @@
         {
           "name": "Palworld Limitless PVP",
           "service_id": "19733590",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
           "map": null,
-          "offline_since": "2026-11-05T23:57:36Z",
           "names_hidden": true
         },
         {

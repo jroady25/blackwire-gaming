@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:02:16Z",
+  "generated_at": "2026-11-06T05:07:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "DriftNalg",
-            "Zackattack28060"
+            "DriftNalg"
           ]
         },
         {
@@ -56,13 +55,13 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "players": [
             "SIDBOSS44777",
             "jandles13",
             "Element6641",
             "ibraim26279990",
-            "Zaacattack990"
+            "Zackattack28060"
           ]
         },
         {
@@ -72,7 +71,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Harru"
           ]
@@ -144,7 +143,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -270,14 +269,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "legendx12x",
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "Zaacattack990"
           ]
         },
         {

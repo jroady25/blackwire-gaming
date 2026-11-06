@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-11-06T00:42:07Z",
+  "generated_at": "2026-11-06T00:47:22Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Sweetpee2",
             "Small guy ree",
-            "Boom5150"
+            "Boom5150",
+            "xXkintzyXx"
           ]
         },
         {
@@ -56,15 +57,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 2,
           "players": [
-            "Remix12",
             "jandles13",
-            "Harru",
             "KP Gaming"
           ]
         },
@@ -75,7 +74,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -254,13 +253,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "JeepinAK"
+            "JeepinAK",
+            "Bretty Wat"
           ]
         },
         {

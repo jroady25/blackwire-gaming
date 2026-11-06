@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:07:10Z",
+  "generated_at": "2026-11-06T13:12:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,14 +28,13 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Sgt-Bilco-",
-            "Get_2ftd_kid"
+            "Sgt-Bilco-"
           ]
         },
         {
@@ -51,12 +50,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
@@ -131,14 +132,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "BERSERK"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
@@ -265,14 +264,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",

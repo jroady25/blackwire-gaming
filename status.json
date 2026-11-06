@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T04:52:15Z",
+  "generated_at": "2026-11-06T04:57:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,13 +28,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Sgt-Bilco-"
+            "Sgt-Bilco-",
+            "DireMeek"
           ]
         },
         {
@@ -54,7 +55,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 5,
           "players": [
             "SIDBOSS44777",
             "jandles13",
@@ -136,14 +137,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Saladbar82",
-            "Dame Duchess"
+            "Saladbar82"
           ]
         },
         {
@@ -253,7 +253,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Harru"
           ]

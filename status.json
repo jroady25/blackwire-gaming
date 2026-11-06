@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-06T23:52:16Z",
+  "generated_at": "2026-11-06T23:57:21Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Kingmivec",
-            "Small guy ree",
             "Sweetpee2"
           ]
         },
@@ -59,8 +58,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "ibraim26279990",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "KP Gaming"
           ]
         },
         {
@@ -292,13 +291,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "KP Gaming",
             "Bretty Wat"
           ]
         },

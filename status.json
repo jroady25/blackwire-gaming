@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:02:14Z",
+  "generated_at": "2026-11-06T23:07:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -23,7 +23,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -54,13 +54,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "EXDaydreamer",
             "ibraim26279990"
           ]
         },
@@ -269,14 +268,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Small guy ree"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
@@ -291,15 +288,16 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Harru",
             "KP Gaming",
-            "Bretty Wat"
+            "Bretty Wat",
+            "Small guy ree"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:12:18Z",
+  "generated_at": "2026-11-06T23:17:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -200,11 +200,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

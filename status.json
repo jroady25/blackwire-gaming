@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T14:52:18Z",
+  "generated_at": "2026-11-06T14:57:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -65,14 +65,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -235,18 +233,20 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Zaacattack990"
+            "Harru"
           ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
@@ -277,7 +277,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

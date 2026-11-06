@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:42:07Z",
+  "generated_at": "2026-11-06T06:47:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,18 +12,20 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "xXkintzyXx"
+            "DudeDidYouFart"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "xXkintzyXx"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -52,14 +54,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 3,
           "players": [
             "jandles13",
-            "Luckyybear14",
             "Harru",
             "Zaacattack990"
           ]
@@ -71,7 +72,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -157,14 +158,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "SubToAT0MIC"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
@@ -253,7 +252,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Bretty Wat"
           ]
@@ -271,15 +270,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "DudeDidYouFart",
-            "Dat_Boi_Mike_70"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
@@ -294,12 +290,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",

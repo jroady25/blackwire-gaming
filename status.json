@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T10:52:10Z",
+  "generated_at": "2026-11-06T10:57:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -64,12 +64,14 @@
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "bckyrdBOOST818"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -318,9 +320,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Megadeth-GTA6"
+          ],
           "map": null
         },
         {

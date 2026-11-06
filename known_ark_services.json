@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 4567086,
+    "offset": 4569685,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 4567086,
+    "log_size": 4569685,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - The Island - SOTF - PVP - (v96.9)": "2026-11-06T13:32:12Z"
-  }
+  "offline_since": {}
 }

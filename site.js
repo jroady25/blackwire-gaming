@@ -111,6 +111,25 @@
     var donate = document.querySelector('header nav .nav-donate:not(.nav-merch)');
     signin.parentNode.insertBefore(a, donate || signin);
   }
+  /* On phones the header only has room for Donate + Sign In, so the header
+     button hides and a Merch entry shows inside the menu instead. */
+  var links = document.getElementById('navLinks');
+  if(links && !links.querySelector('.merch-menu-link')){
+    var m = document.createElement('a');
+    m.href = SHOP;
+    m.target = '_blank';
+    m.rel = 'noopener';
+    m.className = 'merch-menu-link';
+    m.textContent = 'Merch';
+    links.appendChild(m);
+  }
+  if(!document.getElementById('merch-style')){
+    var st = document.createElement('style');
+    st.id = 'merch-style';
+    st.textContent = '@media (max-width:560px){header nav .nav-merch{display:none !important;}}' +
+                     '@media (min-width:561px){.nav-links a.merch-menu-link{display:none !important;}}';
+    document.head.appendChild(st);
+  }
   var foot = document.querySelector('.foot-links');
   if(foot && !foot.querySelector('a[data-merch]')){
     var f = document.createElement('a');

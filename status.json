@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T01:02:15Z",
+  "generated_at": "2026-11-06T01:07:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,14 +55,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "jandles13",
-            "KP Gaming"
+            "jandles13"
           ]
         },
         {
@@ -118,12 +117,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "HarleyDavidson"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
@@ -328,10 +329,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "wraiyth"
+            "wraiyth",
+            "Megadeth-GTA6"
           ],
           "map": null
         },

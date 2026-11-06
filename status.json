@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T08:12:19Z",
+  "generated_at": "2026-11-06T08:17:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,15 +28,16 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Sgt-Bilco-",
             "DireMeek",
-            "viking434"
+            "viking434",
+            "Get_2ftd_kid"
           ]
         },
         {

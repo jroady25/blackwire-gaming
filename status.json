@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T01:27:14Z",
+  "generated_at": "2026-11-06T01:32:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -142,7 +142,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -158,14 +158,13 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "vmurray93",
-            "Murrami"
+            "vmurray93"
           ]
         },
         {

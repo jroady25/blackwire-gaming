@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:42:19Z",
+  "generated_at": "2026-11-06T15:47:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,14 +18,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "DriftNalg"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -52,16 +50,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "sidimaraki100",
             "Zaacattack990",
-            "neutrinopc",
-            "Spaghetti"
+            "neutrinopc"
           ]
         },
         {
@@ -307,11 +304,11 @@
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-06T15:32:25Z"
+          "players": []
         }
       ]
     },

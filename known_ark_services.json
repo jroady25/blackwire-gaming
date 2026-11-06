@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 4654055,
+    "offset": 4656849,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 4654055,
+    "log_size": 4656849,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)": "2026-11-06T15:32:25Z"
-  }
+  "offline_since": {}
 }

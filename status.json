@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T00:27:16Z",
+  "generated_at": "2026-11-06T00:32:23Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,22 +10,23 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "Sweetpee2",
-            "Boom5150"
+            "Small guy ree"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Zackattack28060"
+            "Zackattack28060",
+            "Boom5150"
           ]
         },
         {
@@ -299,14 +300,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Small guy ree"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v96.9)",

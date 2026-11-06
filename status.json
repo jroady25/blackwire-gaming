@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:07:17Z",
+  "generated_at": "2026-11-06T23:12:18Z",
   "servers": {
     "ark": {
       "servers": [
@@ -23,7 +23,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -54,13 +54,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
-            "ibraim26279990"
+            "ibraim26279990",
+            "EXDaydreamer",
+            "Small guy ree"
           ]
         },
         {
@@ -198,11 +200,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -248,12 +250,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",
@@ -288,16 +292,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Harru",
             "KP Gaming",
-            "Bretty Wat",
-            "Small guy ree"
+            "Bretty Wat"
           ]
         },
         {

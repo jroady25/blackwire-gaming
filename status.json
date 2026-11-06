@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T07:02:10Z",
+  "generated_at": "2026-11-06T07:07:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,22 +24,23 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Zaacattack990",
-            "xXkintzyXx"
+            "xXkintzyXx",
+            "Zaacattack990"
           ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Get_2ftd_kid",
             "Sgt-Bilco-",
-            "DireMeek"
+            "DireMeek",
+            "SubToAT0MIC"
           ]
         },
         {
@@ -55,14 +56,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "jandles13"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
@@ -71,7 +70,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -279,14 +278,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Harru"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",

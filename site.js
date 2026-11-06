@@ -95,6 +95,34 @@
   signin.parentNode.insertBefore(a, signin);
 })();
 
+/* Merch button - the Fourthwall store at shop.blackwiregaming.com, added to
+   the header beside Donate (same outlined style) and to every footer.
+   Opens in a new tab so people don't lose their place on the site. */
+(function(){
+  var SHOP = 'https://shop.blackwiregaming.com';
+  var signin = document.querySelector('header nav .signin');
+  if(signin && !document.querySelector('.nav-merch')){
+    var a = document.createElement('a');
+    a.href = SHOP;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    a.className = 'nav-donate nav-merch';
+    a.textContent = 'Merch';
+    var donate = document.querySelector('header nav .nav-donate:not(.nav-merch)');
+    signin.parentNode.insertBefore(a, donate || signin);
+  }
+  var foot = document.querySelector('.foot-links');
+  if(foot && !foot.querySelector('a[data-merch]')){
+    var f = document.createElement('a');
+    f.href = SHOP;
+    f.target = '_blank';
+    f.rel = 'noopener';
+    f.setAttribute('data-merch', '');
+    f.textContent = 'Merch';
+    foot.appendChild(f);
+  }
+})();
+
 /* Donate link - same idea as the Staff link below: injected into every
    page's footer from here instead of pasted into every HTML file. */
 (function(){

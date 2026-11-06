@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T04:27:21Z",
+  "generated_at": "2026-11-06T04:32:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,23 +18,26 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Sgt-Bilco-"
+            "Sgt-Bilco-",
+            "Zaacattack990"
           ]
         },
         {
@@ -54,7 +57,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "SIDBOSS44777",
             "Luckyybear14",
@@ -325,11 +328,11 @@
         {
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
-          "map": null,
-          "offline_since": "2026-11-06T04:27:21Z"
+          "players": [],
+          "map": null
         },
         {
           "name": "Palworld Limitless PVP",

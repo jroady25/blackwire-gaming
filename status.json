@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-06T05:42:22Z",
+  "generated_at": "2026-11-06T05:47:20Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -20,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -70,14 +72,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
@@ -202,11 +202,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -232,14 +232,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "legendx12x"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -254,12 +252,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v96.9)",

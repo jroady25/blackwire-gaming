@@ -1,41 +1,42 @@
 {
-  "generated_at": "2026-11-06T06:02:32Z",
+  "generated_at": "2026-11-06T06:07:19Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
+          "count_source": "rcon",
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
+        },
+        {
+          "name": "BlackWire - Valguero - PVE - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
         },
         {
-          "name": "BlackWire - Valguero - PVE - (v96.9)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Valguero_WP",
-          "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
-        },
-        {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "Get_2ftd_kid",
-            "Sgt-Bilco-"
+            "Sgt-Bilco-",
+            "DireMeek"
           ]
         },
         {
@@ -51,19 +52,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 8,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 6,
           "players": [
             "jandles13",
-            "Element6641",
             "ibraim26279990",
             "Harru",
             "Luckyybear14",
-            "SIDBOSS44777",
-            "Zaacattack990",
             "Bretty Wat"
           ]
         },
@@ -140,14 +138,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "JaseDakota14"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
@@ -162,14 +158,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "DireMeek"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
@@ -234,12 +228,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
@@ -280,7 +276,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

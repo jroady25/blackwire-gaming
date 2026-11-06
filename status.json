@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T07:07:14Z",
+  "generated_at": "2026-11-06T07:12:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,20 +18,17 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "xXkintzyXx",
-            "Zaacattack990"
-          ]
+          "nitrado_count": 1,
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -39,8 +36,7 @@
           "players": [
             "Get_2ftd_kid",
             "Sgt-Bilco-",
-            "DireMeek",
-            "SubToAT0MIC"
+            "DireMeek"
           ]
         },
         {
@@ -56,22 +52,27 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Zaacattack990",
+            "xXkintzyXx"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v96.9)",

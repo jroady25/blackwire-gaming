@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:47:06Z",
+  "generated_at": "2026-11-06T15:52:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,14 +50,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "sidimaraki100",
-            "Zaacattack990",
             "neutrinopc"
           ]
         },
@@ -132,6 +131,16 @@
           "names_hidden": true
         },
         {
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
           "name": "BlackWire - Lost Colony - PVP - (v96.9)",
           "online": true,
           "players_current": 0,
@@ -144,12 +153,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "vmurray93"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
@@ -301,14 +312,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
         }
       ]
     },

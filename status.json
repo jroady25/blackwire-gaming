@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T22:27:16Z",
+  "generated_at": "2026-11-06T22:32:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,7 +36,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Sgt-Bilco-"
           ]
@@ -58,11 +58,11 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Bretty Wat",
-            "EXDaydreamer",
-            "SpoggDarr"
+            "SpoggDarr",
+            "EXDaydreamer"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T13:27:16Z",
+  "generated_at": "2026-11-06T13:32:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -193,12 +193,13 @@
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-06T13:32:12Z",
           "names_hidden": true
         },
         {
@@ -318,11 +319,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

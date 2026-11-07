@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:56:40Z",
+  "generated_at": "2026-11-07T14:01:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,14 +32,13 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "DragonWolf7676",
-            "Sgt-Bilco-"
+            "DragonWolf7676"
           ]
         },
         {
@@ -49,7 +48,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -69,14 +68,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Spaghetti"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.5)",
@@ -163,12 +160,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Sgt-Bilco-"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.5)",

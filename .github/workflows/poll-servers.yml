@@ -41,6 +41,7 @@ jobs:
         env:
           NITRADO_TOKEN: ${{ secrets.NITRADO_TOKEN }}
           ARK_RCON_PASSWORD: ${{ secrets.ARK_RCON_PASSWORD }}
+          ARK_RCON_PASSWORD_PVP: ${{ secrets.ARK_RCON_PASSWORD_PVP }}
           PALWORLD_1_PASSWORD: ${{ secrets.PALWORLD_1_PASSWORD }}
           PALWORLD_2_PASSWORD: ${{ secrets.PALWORLD_2_PASSWORD }}
           PALWORLD_3_PASSWORD: ${{ secrets.PALWORLD_3_PASSWORD }}

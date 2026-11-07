@@ -130,7 +130,38 @@ function withTimeout(promise, ms, label) {
  * Throws on connect/auth failure; callers report that per server rather
  * than letting one dead server fail a whole broadcast.
  */
-export async function rconExec(endpoint, password, commands, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
+/**
+ * The admin passwords to try, in order: ARK_RCON_PASSWORD (PvE cluster)
+ * then ARK_RCON_PASSWORD_PVP (the PvP servers). Either may itself hold
+ * several, comma-separated.
+ */
+export function rconPasswords(env) {
+  const out = [];
+  for (const value of [env.ARK_RCON_PASSWORD, env.ARK_RCON_PASSWORD_PVP]) {
+    for (const item of String(value || "").split(/[,\n]/)) {
+      const pw = item.trim();
+      if (pw && !out.includes(pw)) out.push(pw);
+    }
+  }
+  return out;
+}
+
+/** Runs the commands with the first password the server accepts. */
+export async function rconExec(endpoint, passwords, commands, opts = {}) {
+  const list = Array.isArray(passwords) ? passwords : [passwords];
+  let lastErr = new Error("No RCON password configured.");
+  for (const password of list) {
+    try {
+      return await rconExecOnce(endpoint, password, commands, opts);
+    } catch (err) {
+      lastErr = err;
+      if (!/auth rejected/i.test(err.message)) throw err;
+    }
+  }
+  throw lastErr;
+}
+
+async function rconExecOnce(endpoint, password, commands, { timeoutMs = DEFAULT_TIMEOUT_MS } = {}) {
   const socket = connect({ hostname: endpoint.host, port: endpoint.port });
 
   // A refused or unroutable host rejects socket.opened. Nothing else
@@ -220,5 +251,5 @@ export function sanitizePlayerId(id) {
 }
 
 export function rconConfigured(env) {
-  return Boolean(env.ARK_RCON_PASSWORD);
+  return rconPasswords(env).length > 0;
 }

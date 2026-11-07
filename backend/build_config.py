@@ -26,7 +26,13 @@ nitrado_token = os.environ.get("NITRADO_TOKEN")
 if nitrado_token:
     cfg["nitrado_token"] = nitrado_token
 
-ark_rcon_password = os.environ.get("ARK_RCON_PASSWORD")
+# ARK_RCON_PASSWORD is the PvE cluster's admin password; the PvP servers
+# use a different one, kept in its own ARK_RCON_PASSWORD_PVP secret. Both
+# go into one comma-separated list - the poller tries each in turn
+# (_rcon_password_list / query_ark_rcon_players_any).
+ark_rcon_password = ",".join(
+    p for p in (os.environ.get("ARK_RCON_PASSWORD"), os.environ.get("ARK_RCON_PASSWORD_PVP")) if p
+)
 if ark_rcon_password:
     cfg["ark_rcon_password"] = ark_rcon_password
 

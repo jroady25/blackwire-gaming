@@ -33,6 +33,7 @@ import {
   rconConfigured,
   rconEndpoints,
   rconExec,
+  rconPasswords,
   sanitizeMessage,
   sanitizePlayerId,
 } from "./rcon.js";
@@ -153,7 +154,7 @@ async function runRcon(env, { serviceIds, commands, actor, action, message }) {
         continue;
       }
       try {
-        const bodies = await rconExec(endpoint, env.ARK_RCON_PASSWORD, commands);
+        const bodies = await rconExec(endpoint, rconPasswords(env), commands);
         results[index] = { serviceId, ok: true, body: (bodies[bodies.length - 1] || "").trim() };
       } catch (err) {
         results[index] = { serviceId, ok: false, error: err.message };
@@ -233,7 +234,7 @@ async function handleApi(request, env, url, session) {
     const endpoint = (await rconEndpoints()).get(serviceId);
     if (!endpoint) return json({ error: "No RCON endpoint configured for that server." }, 404);
     try {
-      const [body] = await rconExec(endpoint, env.ARK_RCON_PASSWORD, ["listplayers"]);
+      const [body] = await rconExec(endpoint, rconPasswords(env), ["listplayers"]);
       return json({ serviceId, players: parsePlayers(body) });
     } catch (err) {
       return json({ error: err.message }, 502);

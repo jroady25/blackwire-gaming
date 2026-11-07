@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T03:07:32Z",
+  "generated_at": "2026-11-07T03:12:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -152,15 +152,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "Sgt-Bilco-",
-            "storm2009rider"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
@@ -181,16 +178,6 @@
           "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Event Map - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Genesis_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
@@ -293,13 +280,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Mod Test Map - (v96.9)",
-          "online": true,
+          "name": "BlackWire - Event Map - (v96.9)",
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "map": null,
+          "offline_since": "2026-11-07T03:12:41Z"
         },
         {
           "name": "BlackWire - Valguero - PVP - (v96.9)",
@@ -309,6 +295,14 @@
           "map": null,
           "offline_since": "2026-11-07T03:02:18Z",
           "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Mod Test Map - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:12:41Z"
         }
       ]
     },

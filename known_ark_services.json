@@ -69,10 +69,6 @@
       "name": "BlackWire - Genesis 1 - PVP - (v96.9)"
     },
     {
-      "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v96.9)"
-    },
-    {
       "service_id": "18357580",
       "name": "BlackWire - The Island - SOTF - PVP - (v96.9)"
     },
@@ -113,23 +109,29 @@
       "name": "BlackWire - Bjarnheim - PVE - (v96.9)"
     },
     {
-      "service_id": "20100016",
-      "name": "BlackWire - Mod Test Map - (v96.9)"
+      "service_id": "18357526",
+      "name": "BlackWire - Event Map - (v96.9)"
     },
     {
       "service_id": "18859910",
       "name": "BlackWire - Valguero - PVP - (v96.9)"
+    },
+    {
+      "service_id": "20100016",
+      "name": "BlackWire - Mod Test Map - (v96.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 5112611,
+    "offset": 5115958,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5112611,
+    "log_size": 5115958,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Valguero - PVP - (v96.9)": "2026-11-07T03:02:18Z"
+    "ark:BlackWire - Event Map - (v96.9)": "2026-11-07T03:12:41Z",
+    "ark:BlackWire - Valguero - PVP - (v96.9)": "2026-11-07T03:02:18Z",
+    "ark:BlackWire - Mod Test Map - (v96.9)": "2026-11-07T03:12:41Z"
   }
 }

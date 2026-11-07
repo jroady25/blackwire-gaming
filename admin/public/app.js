@@ -531,17 +531,32 @@ $('password-form').onsubmit = async (event) => {
 };
 
 // Countdown ticker — updates the numbers without re-rendering the grid.
+// Nov 2026: a job that is past due waits for the next cron run (up to 5 min), so
+// reload at most once every 20 s while it waits — not every second.
+let lastOverdueReload = 0;
 setInterval(() => {
+  let overdue = false;
   document.querySelectorAll('[data-countdown]').forEach((el) => {
     const remaining = Number(el.dataset.fire) - serverNow();
     const strong = el.querySelector('strong');
     if (strong) strong.textContent = clock(remaining);
-    if (remaining <= -3000) loadServers({ silent: true });
+    if (remaining <= -3000) overdue = true;
   });
+  if (overdue && !document.hidden && Date.now() - lastOverdueReload > 20000) {
+    lastOverdueReload = Date.now();
+    loadServers({ silent: true });
+  }
 }, 1000);
 
+// Nov 2026: stop checking while the tab is hidden (a panel left open in the
+// background was using up the free KV allowance), and catch up when it is shown.
 document.addEventListener('visibilitychange', () => {
-  if (!document.hidden && state.me?.authed) loadServers({ silent: true });
+  if (!state.me?.authed) return;
+  if (document.hidden) stopPolling();
+  else {
+    loadServers({ silent: true });
+    startPolling();
+  }
 });
 
 /* ---------------------------------------------------------------- */

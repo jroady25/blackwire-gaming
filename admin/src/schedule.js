@@ -11,10 +11,43 @@ function newId() {
   return crypto.randomUUID().slice(0, 8);
 }
 
+// Nov 2026: every scheduled job now lives in ONE key (sched:all) instead of one
+// key per job. Reading it is a KV get, not a KV list. Cloudflare's free plan
+// allows only 1,000 list operations a day but 100,000 reads, and the panel
+// checks the schedule every 30 seconds while it is open, so list() ran out
+// (the Worker's KV was blocked on 2026-11-07). The only list() left is a
+// one-time move of any jobs saved the old way, the first time this runs.
+const SCHED_KEY = `${SCHED_PREFIX}all`;
+const SLACK_MS = 3600 * 1000; // keep a job an hour past fireAt so a late cron still finds it
+
+async function loadJobs(env) {
+  const saved = await env.STORE.get(SCHED_KEY, "json");
+  if (Array.isArray(saved)) return saved;
+  // First run after the change: move jobs saved one-per-key into the single key.
+  let list;
+  try {
+    list = await env.STORE.list({ prefix: SCHED_PREFIX });
+  } catch (err) {
+    // The daily list allowance is used up - treat it as no old jobs and try the move again later.
+    console.log(`Schedule move skipped: ${err.message}`);
+    return [];
+  }
+  const legacy = list.keys.filter((key) => key.name !== SCHED_KEY);
+  const jobs = (await Promise.all(legacy.map((key) => env.STORE.get(key.name, "json")))).filter(Boolean);
+  await saveJobs(env, jobs);
+  await Promise.all(legacy.map((key) => env.STORE.delete(key.name)));
+  return jobs;
+}
+
+async function saveJobs(env, jobs) {
+  const now = Date.now();
+  await env.STORE.put(SCHED_KEY, JSON.stringify(jobs.filter((job) => job.fireAt + SLACK_MS > now)));
+}
+
 export async function listSchedules(env) {
-  const list = await env.STORE.list({ prefix: SCHED_PREFIX });
-  const jobs = await Promise.all(list.keys.map((key) => env.STORE.get(key.name, "json")));
-  return jobs.filter(Boolean).sort((a, b) => a.fireAt - b.fireAt);
+  const now = Date.now();
+  const jobs = await loadJobs(env);
+  return jobs.filter((job) => job && job.fireAt + SLACK_MS > now).sort((a, b) => a.fireAt - b.fireAt);
 }
 
 export async function createSchedule(env, job) {
@@ -29,18 +62,17 @@ export async function createSchedule(env, job) {
     createdBy: job.createdBy,
     createdAt: Date.now(),
   };
-  await env.STORE.put(`${SCHED_PREFIX}${record.id}`, JSON.stringify(record), {
-    // A little slack past fireAt so a late-firing cron still finds the job.
-    expirationTtl: Math.ceil(delay * 60) + 3600,
-  });
+  const jobs = await loadJobs(env);
+  jobs.push(record);
+  await saveJobs(env, jobs);
   return record;
 }
 
 export async function cancelSchedule(env, id) {
-  const key = `${SCHED_PREFIX}${id}`;
-  const existing = await env.STORE.get(key, "json");
+  const jobs = await loadJobs(env);
+  const existing = jobs.find((job) => job && job.id === id);
   if (!existing) return null;
-  await env.STORE.delete(key);
+  await saveJobs(env, jobs.filter((job) => job && job.id !== id));
   return existing;
 }
 

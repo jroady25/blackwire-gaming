@@ -81,20 +81,8 @@
       "name": "BlackWire - Astraeos - PVP - (v97.5)"
     },
     {
-      "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v97.5)"
-    },
-    {
-      "service_id": "18860204",
-      "name": "BlackWire - Scorched Earth - PVE - (v97.5)"
-    },
-    {
       "service_id": "18863102",
       "name": "BlackWire - Abberation - PVE - (v97.5)"
-    },
-    {
-      "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v97.5)"
     },
     {
       "service_id": "19368770",
@@ -119,14 +107,26 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.5)"
+    },
+    {
+      "service_id": "18860204",
+      "name": "BlackWire - Scorched Earth - PVE - (v97.5)"
+    },
+    {
+      "service_id": "18859910",
+      "name": "BlackWire - Valguero - PVP - (v97.5)"
+    },
+    {
+      "service_id": "19072757",
+      "name": "BlackWire - Lost Colony - PVE - (v97.5)"
     }
   ],
   "dragonwilds": {
-    "offset": 5504083,
+    "offset": 5506877,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5504083,
+    "log_size": 5506877,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

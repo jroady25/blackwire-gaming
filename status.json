@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T22:51:41Z",
+  "generated_at": "2026-11-07T22:56:37Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,26 +30,22 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "DragonWolf7676"
-          ]
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "legendx12x"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
@@ -140,15 +136,17 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.5)",
           "online": true,
-          "players_current": 3,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 5,
           "players": [
             "Saladbar82",
             "Dame Duchess",
-            "Kishiyasha"
+            "Kishiyasha",
+            "legendx12x",
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -234,12 +232,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Itz finnnnnn"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.5)",
@@ -274,14 +274,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Itz finnnnnn"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.5)",

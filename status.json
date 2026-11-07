@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-07T10:01:46Z",
+  "generated_at": "2026-11-07T10:06:55Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.5)",
-          "online": true,
+          "online": false,
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 1,
-          "players": [
-            "DudeDidYouFart"
-          ]
+          "offline_since": "2026-11-07T10:06:55Z"
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.5)",
@@ -42,25 +40,23 @@
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.5)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-07T10:01:46Z"
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
-          "online": true,
+          "online": false,
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 1,
-          "players": [
-            "Harru"
-          ]
+          "offline_since": "2026-11-07T10:06:55Z"
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.5)",
@@ -68,12 +64,8 @@
           "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
-          "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "bckyrdBOOST818",
-            "Spaghetti"
-          ]
+          "count_source": "nitrado",
+          "nitrado_count": 2
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.5)",
@@ -141,9 +133,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.5)",
@@ -248,12 +239,11 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
-          "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 1
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.5)",
@@ -267,13 +257,13 @@
         },
         {
           "name": "BlackWire - The Island - PVE - (v97.5)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-07T10:06:55Z"
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.5)",
@@ -287,13 +277,13 @@
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.5)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-07T10:06:55Z"
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.5)",

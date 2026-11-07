@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T19:46:46Z",
+  "generated_at": "2026-11-07T19:51:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,7 +48,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -254,13 +254,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "legendx12x"
+            "legendx12x",
+            "Coffee Slayer"
           ]
         },
         {

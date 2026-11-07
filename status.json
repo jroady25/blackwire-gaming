@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:16:49Z",
+  "generated_at": "2026-11-07T13:21:45Z",
   "servers": {
     "ark": {
       "servers": [
@@ -199,11 +199,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -249,14 +249,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Spaghetti"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.5)",
@@ -291,12 +289,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.5)",

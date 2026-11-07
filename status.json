@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:16:39Z",
+  "generated_at": "2026-11-07T15:21:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -70,12 +70,14 @@
         {
           "name": "BlackWire - Extinction - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.5)",
@@ -216,7 +218,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -304,14 +306,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Spaghetti"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.5)",

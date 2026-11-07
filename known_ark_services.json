@@ -1,12 +1,8 @@
 {
   "ark_servers": [
     {
-      "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v97.5)"
-    },
-    {
       "service_id": "17801131",
-      "name": "BlackWire - Valguero - PVE - (v97.5)"
+      "name": "BlackWire - Valguero - PVE - (v97.16)"
     },
     {
       "service_id": "18012721",
@@ -15,10 +11,6 @@
     {
       "service_id": "18111097",
       "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.16)"
-    },
-    {
-      "service_id": "18111130",
-      "name": "BlackWire - Astraeos - PVE - (v97.5)"
     },
     {
       "service_id": "18111154",
@@ -47,10 +39,6 @@
     {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v97.16)"
-    },
-    {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.5)"
     },
     {
       "service_id": "18863471",
@@ -119,14 +107,26 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.16)"
+    },
+    {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.5)"
+    },
+    {
+      "service_id": "18111130",
+      "name": "BlackWire - Astraeos - PVE - (v97.5)"
+    },
+    {
+      "service_id": "17681860",
+      "name": "BlackWire - Ragnarok - PVE - (v97.5)"
     }
   ],
   "dragonwilds": {
-    "offset": 5926027,
+    "offset": 5928821,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5926027,
+    "log_size": 5928821,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

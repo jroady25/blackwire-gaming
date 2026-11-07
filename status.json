@@ -1,28 +1,19 @@
 {
-  "generated_at": "2026-11-07T23:21:51Z",
+  "generated_at": "2026-11-07T23:26:34Z",
   "servers": {
     "ark": {
       "servers": [
         {
-          "name": "BlackWire - Ragnarok - PVE - (v97.5)",
+          "name": "BlackWire - Valguero - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Valguero - PVE - (v97.5)",
-          "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Sniffy7990"
+            "Sniffy7990",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -48,23 +39,17 @@
           "players": []
         },
         {
-          "name": "BlackWire - Astraeos - PVE - (v97.5)",
+          "name": "BlackWire - Extinction - PVE - (v97.16)",
           "online": true,
           "players_current": 2,
           "players_max": 20,
-          "map": "Astraeos_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 2
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v97.16)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 2,
+          "players": [
+            "bckyrdBOOST818",
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.16)",
@@ -125,16 +110,6 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.5)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "count_source": "rcon",
-          "nitrado_count": 3,
-          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.16)",
@@ -219,14 +194,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Itz finnnnnn"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.16)",
@@ -261,13 +234,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "legendx12x"
           ]
         },
         {
@@ -308,6 +282,32 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.5)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v97.5)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": null,
+          "players": [
+            "neutrinopc"
+          ]
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVE - (v97.5)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
         }
       ]
     },

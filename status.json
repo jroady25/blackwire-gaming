@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:41:45Z",
+  "generated_at": "2026-11-07T16:46:43Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,15 +55,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Spaghetti",
-            "StankGooose"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.5)",
@@ -90,11 +87,11 @@
         {
           "name": "BlackWire - The Center - PVP - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -280,7 +277,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "TheLostSoul2415",
             "I-Be-Stroganoff"
@@ -289,12 +286,14 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.5)",

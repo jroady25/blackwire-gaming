@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T01:52:10Z",
+  "generated_at": "2026-11-07T01:55:14Z",
   "servers": {
     "ark": {
       "servers": [
@@ -67,7 +67,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "xXkintzyXx",
             "Boom5150"
@@ -116,12 +116,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "FB_Sapper_Actual"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
@@ -252,7 +254,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -288,14 +290,13 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Dat_Boi_Mike_70",
-            "FB_Sapper_Actual"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -305,7 +306,7 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "AllenDWoodz"
           ]

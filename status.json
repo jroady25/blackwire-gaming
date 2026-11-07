@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T18:26:40Z",
+  "generated_at": "2026-11-07T18:31:45Z",
   "servers": {
     "ark": {
       "servers": [
@@ -60,7 +60,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "1CantRe4d",
             "neutrinopc",
@@ -90,7 +90,7 @@
         {
           "name": "BlackWire - The Center - PVP - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
@@ -258,8 +258,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Itz finnnnnn",
-            "legendx12x"
+            "legendx12x",
+            "Itz finnnnnn"
           ]
         },
         {

@@ -759,9 +759,10 @@ header {
   }
   .topbar-actions {
     width: 100%;
+    flex-wrap: wrap;
   }
   .topbar-actions .btn {
-    flex: 1;
+    flex: 1 1 30%;
   }
   .bulkbar {
     flex-direction: column;

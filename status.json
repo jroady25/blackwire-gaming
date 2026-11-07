@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:27:20Z",
+  "generated_at": "2026-11-07T02:32:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -116,12 +116,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "pedrovicente.mar..."
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v96.9)",
@@ -168,14 +170,12 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "FB_Sapper_Actual"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVP - (v96.9)",
@@ -343,11 +343,11 @@
         {
           "name": "Palworld Armageddon",
           "service_id": "20122510",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 12,
-          "map": null,
-          "offline_since": "2026-11-07T02:27:20Z"
+          "players": [],
+          "map": null
         }
       ]
     },

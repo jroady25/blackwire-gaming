@@ -17,10 +17,6 @@
       "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)"
     },
     {
-      "service_id": "18111130",
-      "name": "BlackWire - Astraeos - PVE - (v96.9)"
-    },
-    {
       "service_id": "18111154",
       "name": "BlackWire - Extinction - PVE - (v96.9)"
     },
@@ -119,15 +115,21 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v96.9)"
+    },
+    {
+      "service_id": "18111130",
+      "name": "BlackWire - Astraeos - PVE - (v96.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 5018628,
+    "offset": 5022459,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5018628,
+    "log_size": 5022459,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:BlackWire - Astraeos - PVE - (v96.9)": "2026-11-07T00:52:16Z"
+  }
 }

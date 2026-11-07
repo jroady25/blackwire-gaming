@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-07T03:02:18Z",
+  "generated_at": "2026-11-07T03:07:32Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "DudeDidYouFart"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
@@ -102,11 +100,11 @@
         {
           "name": "BlackWire - Aberration - PVP - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

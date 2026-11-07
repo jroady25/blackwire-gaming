@@ -116,6 +116,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
  
 NITRADO_API_BASE = "https://api.nitrado.net"
  
@@ -210,8 +211,28 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
     nitrado_get_gameserver() call for anything not in probed_gs (e.g.
     auto_discover_ark is off, so there was no discovery pass at all)."""
     probed_gs = probed_gs or {}
+    # Each server is checked on its own thread (added 2026-11-07): one at a
+    # time, a night when most of the cluster is down for an ARK update had
+    # every dead server sit out its RCON timeout in turn, a poll took 7-11
+    # minutes instead of ~2, runs piled up and the wall stopped updating.
+    # map() keeps the original order, so the site's list doesn't reshuffle.
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        rows = list(pool.map(lambda e: _poll_one_ark(e, token, rcon_password, probed_gs), entries))
+    return [r for r in rows if r is not None]
+
+
+# Nitrado statuses where the game process can't be answering RCON yet, so
+# there's no point waiting out a connection timeout against it.
+_ARK_DOWN_STATUSES = {"stopped", "stopping", "restarting", "updating", "installing",
+                      "backup_restore", "backup_creation", "chunkfix", "suspended",
+                      "guardian_locked", "gs_installation"}
+
+
+def _poll_one_ark(entry, token, rcon_password, probed_gs):
+    """One ARK server's row for poll_nitrado_group() (same logic the loop
+    there used to run inline)."""
     results = []
-    for entry in entries:
+    for entry in [entry]:
         service_id = entry["service_id"]
         if service_id in probed_gs:
             data = _parse_gameserver_status(service_id, probed_gs[service_id])
@@ -246,6 +267,9 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
         if (alt_host, alt_port) == (rcon_host, rcon_port):
             alt_host = alt_port = None
         slots = entry.get("players_max") or gs_now.get("slots") or 0
+        if gs_now.get("status") in _ARK_DOWN_STATUSES:
+            # Down or mid-restart/update on Nitrado's side: skip RCON.
+            rcon_host = rcon_port = alt_host = alt_port = None
 
         if data is None:
             # Nitrado's own query data is missing this run (empty/no query
@@ -318,7 +342,7 @@ def poll_nitrado_group(entries, token, rcon_password=None, probed_gs=None):
                     f"{', ' + str(alt_host) + ':' + str(alt_port) if alt_host else ''}) - using Nitrado's count")
  
         results.append(row)
-    return results
+    return results[0] if results else None
 
 
 # ---------------------------------------------------------------------------
@@ -895,15 +919,25 @@ def query_ark_rcon_players_any(host, port, passwords, timeout=6):
     passwords = _rcon_password_list(passwords)
     for i, password in enumerate(passwords):
         last = i == len(passwords) - 1
-        result = query_ark_rcon_players(host, port, password, timeout=timeout, quiet_auth=not last)
+        outcome = {}
+        result = query_ark_rcon_players(host, port, password, timeout=timeout,
+                                        quiet_auth=not last, outcome=outcome)
         if result is not None:
             return result
+        if outcome.get("failure") != "auth":
+            # Couldn't reach the server at all - another password won't
+            # change that, it would only wait out the timeout again.
+            return None
     return None
 
 
-def query_ark_rcon_players(host, port, password, timeout=6, quiet_auth=False):
+def query_ark_rcon_players(host, port, password, timeout=6, quiet_auth=False, outcome=None):
     """Returns {"players": [name, ...]} or None on any failure (wrong
-    password, RCON not reachable/enabled, connection refused, etc.)."""
+    password, RCON not reachable/enabled, connection refused, etc.).
+    If an outcome dict is passed, a failure sets outcome["failure"] to
+    "auth" (server answered, password refused) or "network"."""
+    if outcome is None:
+        outcome = {}
     sock = None
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -920,6 +954,7 @@ def query_ark_rcon_players(host, port, password, timeout=6, quiet_auth=False):
                 auth_ok = (pkt_id != -1)
                 break
         if not auth_ok:
+            outcome["failure"] = "auth"
             if not quiet_auth:
                 log(f"ARK RCON auth failed ({host}:{port}) - check the RCON password.")
             return None
@@ -942,6 +977,7 @@ def query_ark_rcon_players(host, port, password, timeout=6, quiet_auth=False):
                 names.append(name)
         return {"players": names}
     except (OSError, ConnectionError, struct.error) as exc:
+        outcome["failure"] = "network"
         log(f"ARK RCON query failed ({host}:{port}): {exc}")
         return None
     finally:

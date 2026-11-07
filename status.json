@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T13:21:45Z",
+  "generated_at": "2026-11-07T13:26:42Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,13 +32,12 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Sgt-Bilco-",
             "DragonWolf7676"
           ]
         },
@@ -139,12 +138,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "ALDBARANT974"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.5)",
@@ -159,12 +160,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Sgt-Bilco-"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.5)",
@@ -199,11 +202,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

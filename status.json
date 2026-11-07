@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T03:18:38Z",
+  "generated_at": "2026-11-07T03:23:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
@@ -66,16 +64,6 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Aberration_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "names_hidden": true
         },
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
@@ -199,15 +187,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Mod Test Map - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:12:41Z"
-        },
-        {
-          "name": "BlackWire - Extinction - PVP - (v96.9)",
+          "name": "BlackWire - Ragnarok - PVP - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -233,6 +213,15 @@
           "offline_since": "2026-11-07T03:18:38Z"
         },
         {
+          "name": "BlackWire - Extinction - PVP - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:18:38Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Genesis 1 - PVP - (v96.9)",
           "online": false,
           "players_current": 0,
@@ -240,6 +229,31 @@
           "map": null,
           "offline_since": "2026-11-07T03:18:38Z",
           "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Center - PVP - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:18:38Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Mod Test Map - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:12:41Z"
+        },
+        {
+          "name": "BlackWire - Event Map - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:12:41Z"
         },
         {
           "name": "BlackWire - Valguero - PVP - (v96.9)",
@@ -251,24 +265,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Event Map - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:12:41Z"
-        },
-        {
           "name": "BlackWire - The Island - PVP - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:18:38Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVP - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -286,12 +283,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Center - PVP - (v96.9)",
+          "name": "BlackWire - Aberration - PVP - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-07T03:18:38Z",
+          "offline_since": "2026-11-07T03:23:39Z",
           "names_hidden": true
         }
       ]

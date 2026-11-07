@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:56:56Z",
+  "generated_at": "2026-11-07T13:01:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,13 +55,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "utu_doughboy420"
+            "utu_doughboy420",
+            "neutrinopc"
           ]
         },
         {
@@ -215,11 +216,41 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Valguero - PVP - (v97.5)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Valguero_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Scorched Earth - PVE - (v97.5)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
           "name": "BlackWire - Abberation - PVE - (v97.5)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVE - (v97.5)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
@@ -282,30 +313,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Scorched Earth - PVE - (v97.5)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Valguero - PVP - (v97.5)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVE - (v97.5)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
         }
       ]
     },
@@ -315,9 +322,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:12:18Z",
+  "generated_at": "2026-11-07T00:17:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,15 +29,16 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Sgt-Bilco-",
             "Spectre",
-            "Get_2ftd_kid"
+            "Get_2ftd_kid",
+            "storm2009rider"
           ]
         },
         {
@@ -57,7 +58,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "EXDaydreamer",
             "KP Gaming",
@@ -254,7 +255,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

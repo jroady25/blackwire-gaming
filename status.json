@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T11:41:41Z",
+  "generated_at": "2026-11-07T11:46:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,23 +52,24 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Spaghetti"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Spaghetti",
             "Kingmivec"
           ]
         },

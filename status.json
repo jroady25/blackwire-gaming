@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T08:41:39Z",
+  "generated_at": "2026-11-07T08:46:37Z",
   "servers": {
     "ark": {
       "servers": [
@@ -43,12 +43,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "miclebia"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
@@ -297,14 +299,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "krakragotthatAk4"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.5)",

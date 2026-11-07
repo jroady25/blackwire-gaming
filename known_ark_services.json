@@ -10,11 +10,11 @@
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.5)"
+      "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.16)"
     },
     {
       "service_id": "18111097",
-      "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.5)"
+      "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.16)"
     },
     {
       "service_id": "18111130",
@@ -22,31 +22,31 @@
     },
     {
       "service_id": "18111154",
-      "name": "BlackWire - Extinction - PVE - (v97.5)"
+      "name": "BlackWire - Extinction - PVE - (v97.16)"
     },
     {
       "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v97.5)"
+      "name": "BlackWire - Scorched Earth - PVP - (v97.16)"
     },
     {
       "service_id": "18111211",
-      "name": "BlackWire - The Center - PVP - (v97.5)"
+      "name": "BlackWire - The Center - PVP - (v97.16)"
     },
     {
       "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v97.5)"
+      "name": "BlackWire - The Island - PVP - (v97.16)"
     },
     {
       "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v97.5)"
+      "name": "BlackWire - Aberration - PVP - (v97.16)"
     },
     {
       "service_id": "18497059",
-      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.5)"
+      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.16)"
     },
     {
       "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v97.5)"
+      "name": "BlackWire - Ragnarok - PVP - (v97.16)"
     },
     {
       "service_id": "18667313",
@@ -54,67 +54,67 @@
     },
     {
       "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v97.5)"
+      "name": "BlackWire - Lost Colony - PVP - (v97.16)"
     },
     {
       "service_id": "18921197",
-      "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.5)"
+      "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.16)"
     },
     {
       "service_id": "19380386",
-      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.5)"
+      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.16)"
     },
     {
       "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v97.5)"
+      "name": "BlackWire - Genesis 1 - PVP - (v97.16)"
     },
     {
       "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v97.5)"
+      "name": "BlackWire - Event Map - (v97.16)"
     },
     {
       "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v97.5)"
+      "name": "BlackWire - The Island - SOTF - PVP - (v97.16)"
     },
     {
       "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v97.5)"
+      "name": "BlackWire - Astraeos - PVP - (v97.16)"
     },
     {
       "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v97.5)"
+      "name": "BlackWire - Valguero - PVP - (v97.16)"
     },
     {
       "service_id": "18860204",
-      "name": "BlackWire - Scorched Earth - PVE - (v97.5)"
+      "name": "BlackWire - Scorched Earth - PVE - (v97.16)"
     },
     {
       "service_id": "18863102",
-      "name": "BlackWire - Abberation - PVE - (v97.5)"
+      "name": "BlackWire - Abberation - PVE - (v97.16)"
     },
     {
       "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v97.5)"
+      "name": "BlackWire - Lost Colony - PVE - (v97.16)"
     },
     {
       "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v97.5)"
+      "name": "BlackWire - Extinction - PVP - (v97.16)"
     },
     {
       "service_id": "19368830",
-      "name": "BlackWire - The Island - PVE - (v97.5)"
+      "name": "BlackWire - The Island - PVE - (v97.16)"
     },
     {
       "service_id": "19377800",
-      "name": "BlackWire - The Center - PVE - (v97.5)"
+      "name": "BlackWire - The Center - PVE - (v97.16)"
     },
     {
       "service_id": "19426823",
-      "name": "BlackWire - Genesis 1 - PVE - (v97.5)"
+      "name": "BlackWire - Genesis 1 - PVE - (v97.16)"
     },
     {
       "service_id": "19466842",
-      "name": "BlackWire - Bjarnheim - PVE - (v97.5)"
+      "name": "BlackWire - Bjarnheim - PVE - (v97.16)"
     },
     {
       "service_id": "20100016",
@@ -122,16 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 5922486,
+    "offset": 5926027,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5922486,
+    "log_size": 5926027,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Astraeos - PVE - (v97.5)": "2026-11-07T23:12:03Z",
-    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v97.5)": "2026-11-07T23:12:03Z",
-    "ark:BlackWire - Genesis 1 - PVP - (v97.5)": "2026-11-07T23:12:03Z"
-  }
+  "offline_since": {}
 }

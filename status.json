@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T10:31:39Z",
+  "generated_at": "2026-11-07T10:36:36Z",
   "servers": {
     "ark": {
       "servers": [
@@ -65,10 +65,10 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Spaghetti",
-            "bckyrdBOOST818"
+            "bckyrdBOOST818",
+            "Spaghetti"
           ]
         },
         {

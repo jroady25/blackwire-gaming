@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T20:41:41Z",
+  "generated_at": "2026-11-07T20:46:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -118,14 +118,13 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Petr",
-            "Von Helsing"
+            "Petr"
           ]
         },
         {
@@ -204,7 +203,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -274,14 +273,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "I-Be-Stroganoff"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.5)",
@@ -333,11 +330,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Optimus Prime"
-          ],
+          "players": [],
           "map": null
         },
         {

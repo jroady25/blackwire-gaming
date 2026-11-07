@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-07T15:56:48Z",
+  "generated_at": "2026-11-07T16:01:48Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "bckyrdBOOST818",
             "Sweetpee2"
           ]
         },
@@ -57,26 +56,27 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "neutrinopc",
-            "nb_gotcha",
-            "sidimaraki100"
+            "nb_gotcha"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "bckyrdBOOST818"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.5)",
@@ -215,11 +215,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

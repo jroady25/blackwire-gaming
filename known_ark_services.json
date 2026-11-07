@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 5028794,
+    "offset": 5032141,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5028794,
+    "log_size": 5032141,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Astraeos - PVE - (v96.9)": "2026-11-07T00:52:16Z"
-  }
+  "offline_since": {}
 }

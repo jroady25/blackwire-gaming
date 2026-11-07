@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-11-07T01:02:24Z",
+  "generated_at": "2026-11-07T01:07:06Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Sweetpee2",
             "xXkintzyXx",
-            "Boom5150"
+            "Boom5150",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -26,20 +27,21 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Dat_Boi_Mike_70"
+            "xTyler 2Ux"
           ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "storm2009rider",
-            "Sgt-Bilco-"
+            "Sgt-Bilco-",
+            "Get_2ftd_kid"
           ]
         },
         {
@@ -305,11 +307,11 @@
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-07T00:52:16Z"
+          "players": []
         }
       ]
     },

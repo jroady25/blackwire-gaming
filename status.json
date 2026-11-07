@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-11-07T04:07:19Z",
+  "generated_at": "2026-11-07T04:19:23Z",
   "servers": {
     "ark": {
       "servers": [
+        {
+          "name": "BlackWire - Ragnarok - PVP - (v97.5)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v97.5)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
         {
           "name": "BlackWire - Genesis 1 - PVP - (v97.5)",
           "online": true,
@@ -26,11 +46,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -50,52 +70,11 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:18:38Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Mod Test Map - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:12:41Z"
-        },
-        {
-          "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 26,
-          "map": null,
-          "offline_since": "2026-11-07T03:18:38Z"
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:35:30Z"
-        },
-        {
-          "name": "BlackWire - Abberation - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:29:27Z"
-        },
-        {
-          "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
+          "name": "BlackWire - The Center - PVE - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -112,55 +91,6 @@
           "names_hidden": true
         },
         {
-          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:35:30Z"
-        },
-        {
-          "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:29:27Z"
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Valguero - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:35:30Z"
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVP - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:29:27Z",
-          "names_hidden": true
-        },
-        {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v96.9)",
           "online": false,
           "players_current": 0,
@@ -169,7 +99,7 @@
           "offline_since": "2026-11-07T03:35:30Z"
         },
         {
-          "name": "BlackWire - Astraeos - PVE - (v96.9)",
+          "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -177,56 +107,7 @@
           "offline_since": "2026-11-07T03:35:30Z"
         },
         {
-          "name": "BlackWire - Lost Colony - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:29:27Z"
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVP - (v96.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:29:27Z"
-        },
-        {
-          "name": "BlackWire - The Center - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:29:27Z"
-        },
-        {
-          "name": "BlackWire - The Center - PVP - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:18:38Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-07T03:35:30Z"
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
+          "name": "BlackWire - Extinction - PVE - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -242,12 +123,134 @@
           "offline_since": "2026-11-07T03:29:27Z"
         },
         {
+          "name": "BlackWire - Lost Colony - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:29:27Z"
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:35:30Z"
+        },
+        {
+          "name": "BlackWire - The Center - PVP - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:18:38Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Genesis 1 - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:29:27Z"
+        },
+        {
+          "name": "BlackWire - Scorched Earth - PVP - (v96.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
           "offline_since": "2026-11-07T04:07:19Z"
+        },
+        {
+          "name": "BlackWire - Valguero - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:35:30Z"
+        },
+        {
+          "name": "BlackWire Paleo Ark - Astraeos - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:35:30Z"
+        },
+        {
+          "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 26,
+          "map": null,
+          "offline_since": "2026-11-07T03:18:38Z"
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:35:30Z"
+        },
+        {
+          "name": "BlackWire - Abberation - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:29:27Z"
+        },
+        {
+          "name": "BlackWire - The Island - SOTF - PVP - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:29:27Z",
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - The Island - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:29:27Z"
+        },
+        {
+          "name": "BlackWire - Bjarnheim - PVE - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:29:27Z"
+        },
+        {
+          "name": "BlackWire - Mod Test Map - (v96.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-07T03:12:41Z"
         },
         {
           "name": "BlackWire - Ragnarok - PVE - (v96.9)",

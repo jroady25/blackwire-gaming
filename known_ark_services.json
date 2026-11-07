@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 5487029,
+    "offset": 5490307,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5487029,
+    "log_size": 5490307,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Mod Test Map - (v97.5)": "2026-11-07T12:26:43Z"
-  }
+  "offline_since": {}
 }

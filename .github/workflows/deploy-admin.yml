@@ -8,7 +8,7 @@ name: Deploy BlackWire admin panel
 on:
   push:
     branches: [main]
-    paths: ['admin/**']
+    paths: ['admin/**', '.github/workflows/deploy-admin.yml']
   workflow_dispatch: {}
 
 jobs:
@@ -27,3 +27,10 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: admin
+          # Copies the PvP admin password from this repo's GitHub secret onto
+          # the Worker, so the panel's Broadcast / Who's on / kick work on the
+          # PvP servers. The value never touches a file in the repo.
+          secrets: |
+            ARK_RCON_PASSWORD_PVP
+        env:
+          ARK_RCON_PASSWORD_PVP: ${{ secrets.ARK_RCON_PASSWORD_PVP }}

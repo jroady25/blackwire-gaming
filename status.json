@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:31:39Z",
+  "generated_at": "2026-11-07T17:36:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -59,7 +59,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "nb_gotcha"
           ]

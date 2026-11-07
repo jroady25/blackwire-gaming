@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-07T11:31:37Z",
+  "generated_at": "2026-11-07T11:36:40Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.5)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "bckyrdBOOST818",
-            "Kingmivec"
+            "bckyrdBOOST818"
           ]
         },
         {
@@ -67,7 +66,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "Spaghetti"
           ]

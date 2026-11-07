@@ -25,18 +25,6 @@
       "name": "BlackWire - Extinction - PVE - (v96.9)"
     },
     {
-      "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v96.9)"
-    },
-    {
-      "service_id": "18111211",
-      "name": "BlackWire - The Center - PVP - (v96.9)"
-    },
-    {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v96.9)"
-    },
-    {
       "service_id": "18293911",
       "name": "BlackWire - Aberration - PVP - (v96.9)"
     },
@@ -45,36 +33,16 @@
       "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v96.9)"
     },
     {
-      "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v96.9)"
-    },
-    {
       "service_id": "18667313",
       "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v96.9)"
-    },
-    {
-      "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v96.9)"
     },
     {
       "service_id": "18921197",
       "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v96.9)"
     },
     {
-      "service_id": "19380386",
-      "name": "BlackWire - The Fractured Seas - Rp - (v96.9)"
-    },
-    {
-      "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v96.9)"
-    },
-    {
       "service_id": "18357580",
       "name": "BlackWire - The Island - SOTF - PVP - (v96.9)"
-    },
-    {
-      "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v96.9)"
     },
     {
       "service_id": "18860204",
@@ -87,10 +55,6 @@
     {
       "service_id": "19072757",
       "name": "BlackWire - Lost Colony - PVE - (v96.9)"
-    },
-    {
-      "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v96.9)"
     },
     {
       "service_id": "19368830",
@@ -109,29 +73,74 @@
       "name": "BlackWire - Bjarnheim - PVE - (v96.9)"
     },
     {
-      "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v96.9)"
+      "service_id": "18111202",
+      "name": "BlackWire - Scorched Earth - PVP - (v96.9)"
+    },
+    {
+      "service_id": "20100016",
+      "name": "BlackWire - Mod Test Map - (v96.9)"
+    },
+    {
+      "service_id": "19368770",
+      "name": "BlackWire - Extinction - PVP - (v96.9)"
+    },
+    {
+      "service_id": "18610040",
+      "name": "BlackWire - Astraeos - PVP - (v96.9)"
+    },
+    {
+      "service_id": "19380386",
+      "name": "BlackWire - The Fractured Seas - Rp - (v96.9)"
+    },
+    {
+      "service_id": "19826461",
+      "name": "BlackWire - Genesis 1 - PVP - (v96.9)"
     },
     {
       "service_id": "18859910",
       "name": "BlackWire - Valguero - PVP - (v96.9)"
     },
     {
-      "service_id": "20100016",
-      "name": "BlackWire - Mod Test Map - (v96.9)"
+      "service_id": "18357526",
+      "name": "BlackWire - Event Map - (v96.9)"
+    },
+    {
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v96.9)"
+    },
+    {
+      "service_id": "18638510",
+      "name": "BlackWire - Ragnarok - PVP - (v96.9)"
+    },
+    {
+      "service_id": "18863471",
+      "name": "BlackWire - Lost Colony - PVP - (v96.9)"
+    },
+    {
+      "service_id": "18111211",
+      "name": "BlackWire - The Center - PVP - (v96.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 5115958,
+    "offset": 5119889,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 5115958,
+    "log_size": 5119889,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Event Map - (v96.9)": "2026-11-07T03:12:41Z",
+    "ark:BlackWire - Scorched Earth - PVP - (v96.9)": "2026-11-07T03:18:38Z",
+    "ark:BlackWire - Mod Test Map - (v96.9)": "2026-11-07T03:12:41Z",
+    "ark:BlackWire - Extinction - PVP - (v96.9)": "2026-11-07T03:18:38Z",
+    "ark:BlackWire - Astraeos - PVP - (v96.9)": "2026-11-07T03:18:38Z",
+    "ark:BlackWire - The Fractured Seas - Rp - (v96.9)": "2026-11-07T03:18:38Z",
+    "ark:BlackWire - Genesis 1 - PVP - (v96.9)": "2026-11-07T03:18:38Z",
     "ark:BlackWire - Valguero - PVP - (v96.9)": "2026-11-07T03:02:18Z",
-    "ark:BlackWire - Mod Test Map - (v96.9)": "2026-11-07T03:12:41Z"
+    "ark:BlackWire - Event Map - (v96.9)": "2026-11-07T03:12:41Z",
+    "ark:BlackWire - The Island - PVP - (v96.9)": "2026-11-07T03:18:38Z",
+    "ark:BlackWire - Ragnarok - PVP - (v96.9)": "2026-11-07T03:18:38Z",
+    "ark:BlackWire - Lost Colony - PVP - (v96.9)": "2026-11-07T03:18:38Z",
+    "ark:BlackWire - The Center - PVP - (v96.9)": "2026-11-07T03:18:38Z"
   }
 }

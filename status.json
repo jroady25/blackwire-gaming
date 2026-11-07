@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T19:11:43Z",
+  "generated_at": "2026-11-07T19:16:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,15 +18,16 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.5)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "ThatMcHaggis",
             "Sniffy7990",
-            "Itz finnnnnn"
+            "Itz finnnnnn",
+            "Zackattack28060"
           ]
         },
         {
@@ -55,16 +56,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "Spaghetti",
-            "1CantRe4d",
-            "JeepinAK",
-            "own-loch4"
+            "JeepinAK"
           ]
         },
         {
@@ -202,11 +201,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {
@@ -328,9 +327,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Optimus Prime"
+          ],
           "map": null
         },
         {

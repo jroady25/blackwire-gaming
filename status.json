@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T10:11:53Z",
+  "generated_at": "2026-11-07T10:16:40Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,27 +10,30 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 1
+          "count_source": "rcon",
+          "nitrado_count": 1,
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.5)",
-          "online": false,
-          "players_current": 2,
+          "online": true,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 2,
-          "offline_since": "2026-11-07T10:11:53Z"
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": [
+            "Sgt-Bilco-"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.5)",
@@ -45,22 +48,24 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 1
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.5)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Spaghetti"
+            "Spaghetti",
+            "bckyrdBOOST818"
           ]
         },
         {
@@ -145,13 +150,13 @@
         },
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.5)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-07T10:11:53Z"
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.5)",
@@ -269,8 +274,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.5)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T18:41:47Z",
+  "generated_at": "2026-11-07T18:46:41Z",
   "servers": {
     "ark": {
       "servers": [
@@ -61,7 +61,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Spaghetti"
           ]
@@ -159,12 +159,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Arigatu1"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.5)",
@@ -293,12 +295,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.5)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "1CantRe4d"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.5)",
@@ -327,9 +331,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Optimus Prime"
+          ],
           "map": null
         },
         {

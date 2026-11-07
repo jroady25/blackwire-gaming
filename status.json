@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:22:10Z",
+  "generated_at": "2026-11-07T02:27:20Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,13 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "DriftNalg"
+            "DriftNalg",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -53,14 +54,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v96.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "JeepinAK",
-            "neutrinopc"
+            "JeepinAK"
           ]
         },
         {
@@ -168,12 +168,14 @@
         {
           "name": "BlackWire - The Fractured Seas - Rp - (v96.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 26,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "FB_Sapper_Actual"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVP - (v96.9)",
@@ -238,14 +240,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v96.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v96.9)",
@@ -343,10 +343,11 @@
         {
           "name": "Palworld Armageddon",
           "service_id": "20122510",
-          "online": true,
-          "players_current": null,
+          "online": false,
+          "players_current": 0,
           "players_max": 12,
-          "map": null
+          "map": null,
+          "offline_since": "2026-11-07T02:27:20Z"
         }
       ]
     },

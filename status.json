@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:36:51Z",
+  "generated_at": "2026-11-08T06:41:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,15 +48,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.16)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "Luckyybear14",
-            "Zaacattack990",
-            "Harru"
+            "Zaacattack990"
           ]
         },
         {
@@ -204,7 +203,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.16)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:07:03Z",
+  "generated_at": "2026-11-08T19:09:26Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,12 +41,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Haitheat"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
@@ -201,7 +203,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -211,7 +213,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T10:46:59Z",
+  "generated_at": "2026-11-08T10:52:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -259,7 +259,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

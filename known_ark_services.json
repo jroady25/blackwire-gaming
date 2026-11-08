@@ -26,19 +26,19 @@
     },
     {
       "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v97.16)"
+      "name": "BlackWire - Scorched Earth - PVP - (v97.17)"
     },
     {
       "service_id": "18111211",
-      "name": "BlackWire - The Center - PVP - (v97.16)"
+      "name": "BlackWire - The Center - PVP - (v97.17)"
     },
     {
       "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v97.16)"
+      "name": "BlackWire - The Island - PVP - (v97.17)"
     },
     {
       "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v97.16)"
+      "name": "BlackWire - Aberration - PVP - (v97.17)"
     },
     {
       "service_id": "18497059",
@@ -54,7 +54,7 @@
     },
     {
       "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v97.16)"
+      "name": "BlackWire - Lost Colony - PVP - (v97.17)"
     },
     {
       "service_id": "18921197",
@@ -66,7 +66,7 @@
     },
     {
       "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v97.16)"
+      "name": "BlackWire - Genesis 1 - PVP - (v97.17)"
     },
     {
       "service_id": "18357526",
@@ -74,15 +74,15 @@
     },
     {
       "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v97.16)"
+      "name": "BlackWire - The Island - SOTF - PVP - (v97.17)"
     },
     {
       "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v97.16)"
+      "name": "BlackWire - Astraeos - PVP - (v97.17)"
     },
     {
       "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v97.16)"
+      "name": "BlackWire - Valguero - PVP - (v97.17)"
     },
     {
       "service_id": "18860204",
@@ -98,7 +98,7 @@
     },
     {
       "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v97.16)"
+      "name": "BlackWire - Extinction - PVP - (v97.17)"
     },
     {
       "service_id": "19368830",
@@ -122,25 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 6548287,
+    "offset": 6551634,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 6548287,
+    "log_size": 6551634,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Scorched Earth - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - The Center - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - The Island - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - Aberration - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - Ragnarok - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - Lost Colony - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - The Fractured Seas - Rp - PVP - (v97.17)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - Genesis 1 - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - The Island - SOTF - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - Astraeos - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - Valguero - PVP - (v97.16)": "2026-11-08T14:51:49Z",
-    "ark:BlackWire - Extinction - PVP - (v97.16)": "2026-11-08T14:51:49Z"
-  }
+  "offline_since": {}
 }

@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-08T15:11:45Z",
+  "generated_at": "2026-11-08T15:16:48Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
-          "players": [
-            "utu_doughboy420"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
@@ -59,11 +57,11 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "own-loch4",
-            "Bretty Wat",
-            "neutrinopc"
+            "neutrinopc",
+            "sidimaraki100"
           ]
         },
         {
@@ -139,14 +137,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "chri1058",
-            "nasty_magician2"
+            "chri1058"
           ]
         },
         {
@@ -311,13 +308,12 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.17)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-08T15:11:45Z"
+          "nitrado_count": 0
         }
       ]
     },

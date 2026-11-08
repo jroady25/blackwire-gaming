@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:31:55Z",
+  "generated_at": "2026-11-08T01:36:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,22 +10,21 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
-            "Small guy ree",
-            "xXkintzyXx"
+            "xXkintzyXx",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.16)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Dat_Boi_Mike_70",
             "ThatMcHaggis"
           ]
         },
@@ -55,28 +54,29 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.16)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
             "SpoggDarr",
             "Luckyybear14",
             "SummerLoven0719",
-            "jandles13",
-            "neutrinopc"
+            "jandles13"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Small guy ree"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.16)",
@@ -213,7 +213,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.16)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -237,7 +237,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

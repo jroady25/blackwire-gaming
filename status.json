@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:41:50Z",
+  "generated_at": "2026-11-08T23:46:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,7 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "ThatMcHaggis",
             "Zackattack28060",
@@ -206,7 +206,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -226,14 +226,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Itz finnnnnn"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.17)",
@@ -248,12 +246,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Coffee Addict"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.17)",
@@ -268,13 +268,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Coffee Addict",
             "Bretty Wat"
           ]
         },

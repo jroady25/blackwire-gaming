@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:06:59Z",
+  "generated_at": "2026-11-08T22:11:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,16 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "Sniffy7990",
             "ThatMcHaggis",
-            "Freddyhale",
-            "DriftNalg"
+            "Freddyhale"
           ]
         },
         {
@@ -60,9 +59,9 @@
           "nitrado_count": 6,
           "players": [
             "Harru",
-            "Luckyybear14",
             "jandles13",
-            "JeepinAK"
+            "JeepinAK",
+            "DriftNalg"
           ]
         },
         {
@@ -72,7 +71,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -218,7 +217,7 @@
         {
           "name": "BlackWire - Valguero - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
@@ -250,15 +249,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "legendx12x",
-            "Naykdtime",
-            "Spaghetti"
+            "Naykdtime"
           ]
         },
         {

@@ -2,11 +2,11 @@
   "ark_servers": [
     {
       "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v97.16)"
+      "name": "BlackWire - Ragnarok - PVE - (v97.17)"
     },
     {
       "service_id": "17801131",
-      "name": "BlackWire - Valguero - PVE - (v97.16)"
+      "name": "BlackWire - Valguero - PVE - (v97.17)"
     },
     {
       "service_id": "18012721",
@@ -50,7 +50,7 @@
     },
     {
       "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.16)"
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.17)"
     },
     {
       "service_id": "18863471",
@@ -58,7 +58,7 @@
     },
     {
       "service_id": "18921197",
-      "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.16)"
+      "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.17)"
     },
     {
       "service_id": "19380386",
@@ -70,7 +70,7 @@
     },
     {
       "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v97.16)"
+      "name": "BlackWire - Event Map - (v97.17)"
     },
     {
       "service_id": "18357580",
@@ -110,7 +110,7 @@
     },
     {
       "service_id": "19426823",
-      "name": "BlackWire - Genesis 1 - PVE - (v97.16)"
+      "name": "BlackWire - Genesis 1 - PVE - (v97.17)"
     },
     {
       "service_id": "19466842",
@@ -122,15 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 6360836,
+    "offset": 6363988,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 6360836,
+    "log_size": 6363988,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire Paleo Ark - Astraeos - PVE - (v97.16)": "2026-11-08T10:12:09Z",
-    "ark:BlackWire Paleo Ark - Ragnarok - PVE - (v97.16)": "2026-11-08T10:12:09Z"
-  }
+  "offline_since": {}
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T09:46:56Z",
+  "generated_at": "2026-11-08T09:51:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,14 +18,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.16)",
@@ -40,12 +38,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "miclebia"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.16)",
@@ -92,11 +92,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -132,13 +132,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "chri1058"
+            "chri1058",
+            "Dame Duchess"
           ]
         },
         {
@@ -338,9 +339,11 @@
           "name": "Palworld Armageddon",
           "service_id": "20122510",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 12,
-          "players": [],
+          "players": [
+            "StankGoose"
+          ],
           "map": null
         }
       ]

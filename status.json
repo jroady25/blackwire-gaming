@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:52:09Z",
+  "generated_at": "2026-11-08T19:57:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,7 +19,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
@@ -27,7 +27,6 @@
           "players": [
             "ThatMcHaggis",
             "Sniffy7990",
-            "Itz finnnnnn",
             "DriftNalg"
           ]
         },
@@ -56,19 +55,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 8,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 6,
           "players": [
             "SummerLoven0719",
             "Harru",
             "Luckyybear14",
             "jandles13",
             "sidimaraki100",
-            "EXDaydreamer",
-            "Bretty Wat",
             "own-loch4"
           ]
         },
@@ -165,14 +162,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "rataconthinner77"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.17)",
@@ -227,11 +222,11 @@
         {
           "name": "BlackWire - Valguero - PVP - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -333,11 +328,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

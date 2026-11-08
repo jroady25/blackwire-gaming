@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:36:48Z",
+  "generated_at": "2026-11-08T14:41:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -58,7 +58,7 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "own-loch4"
+            "neutrinopc"
           ]
         },
         {

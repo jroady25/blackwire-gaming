@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:26:58Z",
+  "generated_at": "2026-11-08T01:31:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "Small guy ree",
             "xXkintzyXx"
@@ -61,11 +61,11 @@
           "count_source": "rcon",
           "nitrado_count": 5,
           "players": [
-            "neutrinopc",
             "SpoggDarr",
             "Luckyybear14",
             "SummerLoven0719",
-            "jandles13"
+            "jandles13",
+            "neutrinopc"
           ]
         },
         {
@@ -145,7 +145,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "KittyLovesArk"
           ]
@@ -233,14 +233,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": [
-            "Red_dabs420"
-          ]
+          "nitrado_count": 1,
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.16)",

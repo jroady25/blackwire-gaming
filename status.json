@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T08:01:45Z",
+  "generated_at": "2026-11-08T08:06:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -68,7 +68,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -264,15 +264,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.16)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Dat_Boi_Mike_70",
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.16)",
@@ -287,12 +284,15 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 2,
+          "players": [
+            "Zaacattack990",
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.16)",

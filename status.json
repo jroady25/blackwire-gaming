@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T02:12:02Z",
+  "generated_at": "2026-11-08T02:17:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -29,14 +29,13 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.16)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Sgt-Bilco-",
-            "Spectre"
+            "Sgt-Bilco-"
           ]
         },
         {
@@ -52,7 +51,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.16)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -60,18 +59,21 @@
           "players": [
             "SpoggDarr",
             "Luckyybear14",
-            "jandles13"
+            "jandles13",
+            "nb_gotcha"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.16)",
@@ -96,11 +98,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -178,11 +180,11 @@
         {
           "name": "BlackWire - Genesis 1 - PVP - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -274,7 +276,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "KAKASHIxHATAKE97"
           ]
@@ -282,14 +284,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.16)",

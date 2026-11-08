@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:42:01Z",
+  "generated_at": "2026-11-08T01:46:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,7 +57,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "SpoggDarr",
             "Luckyybear14",
@@ -215,7 +215,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -253,14 +253,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "legendx12x"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.16)",
@@ -275,13 +273,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "legendx12x"
           ]
         },
         {
@@ -331,9 +330,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "Megadeth-GTA6"
+          ],
           "map": null
         },
         {

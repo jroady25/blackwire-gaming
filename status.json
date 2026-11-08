@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-11-08T16:22:02Z",
+  "generated_at": "2026-11-08T16:26:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Dwarslaesie88",
-            "Crackedtunic"
+            "Crackedtunic",
+            "EXDaydreamer"
           ]
         },
         {
@@ -43,12 +44,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "miclebia"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
@@ -60,8 +63,8 @@
           "nitrado_count": 3,
           "players": [
             "Bretty Wat",
-            "EXDaydreamer",
-            "own-loch4"
+            "own-loch4",
+            "Spaghetti"
           ]
         },
         {
@@ -219,11 +222,11 @@
         {
           "name": "BlackWire - Valguero - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -259,11 +262,11 @@
         {
           "name": "BlackWire - Extinction - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

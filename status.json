@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-08T01:22:01Z",
+  "generated_at": "2026-11-08T01:26:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Small guy ree"
+            "Small guy ree",
+            "xXkintzyXx"
           ]
         },
         {
@@ -100,7 +101,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -140,13 +141,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.16)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "TAk0_LOVER-",
             "KittyLovesArk"
           ]
         },
@@ -233,12 +233,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Red_dabs420"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.16)",

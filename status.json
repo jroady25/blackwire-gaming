@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-08T07:26:59Z",
+  "generated_at": "2026-11-08T07:31:59Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Harru"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.16)",
@@ -22,7 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -53,15 +51,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.16)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Luckyybear14",
             "Zaacattack990",
-            "jandles13"
+            "jandles13",
+            "Harru"
           ]
         },
         {
@@ -207,11 +206,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

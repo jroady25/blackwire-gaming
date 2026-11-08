@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T21:16:54Z",
+  "generated_at": "2026-11-08T21:22:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,7 +54,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 5,
           "players": [
             "Harru",
             "Luckyybear14",
@@ -120,7 +120,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T17:36:48Z",
+  "generated_at": "2026-11-08T17:41:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -61,8 +61,8 @@
           "nitrado_count": 3,
           "players": [
             "SummerLoven0719",
-            "EXDaydreamer",
-            "own-loch4"
+            "own-loch4",
+            "EXDaydreamer"
           ]
         },
         {
@@ -140,13 +140,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "nasty_magician2"
+            "nasty_magician2",
+            "Dame Duchess"
           ]
         },
         {

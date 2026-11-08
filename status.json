@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T20:41:49Z",
+  "generated_at": "2026-11-08T20:46:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "ThatMcHaggis",
-            "Sniffy7990"
+            "Sniffy7990",
+            "Itz finnnnnn"
           ]
         },
         {
@@ -39,20 +40,19 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Haitheat",
-            "Ragnar420"
+            "Haitheat"
           ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 6,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -63,7 +63,8 @@
             "jandles13",
             "sidimaraki100",
             "own-loch4",
-            "Bretty Wat"
+            "Bretty Wat",
+            "SpoggDarr"
           ]
         },
         {
@@ -205,7 +206,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -255,7 +256,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Sweetpee2"
           ]

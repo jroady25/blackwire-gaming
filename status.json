@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T08:11:47Z",
+  "generated_at": "2026-11-08T08:16:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,7 +53,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "Luckyybear14",
             "Harru",
@@ -233,12 +233,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.16)",
@@ -283,13 +285,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.16)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Zaacattack990",
             "Dat_Boi_Mike_70"
           ]
         },

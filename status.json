@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:27:06Z",
+  "generated_at": "2026-11-08T19:32:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Crackedtunic",
             "Dwarslaesie88"
@@ -23,7 +23,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "ThatMcHaggis",
             "Sniffy7990"
@@ -46,7 +46,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -56,17 +56,17 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 9,
+          "nitrado_count": 8,
           "players": [
             "SummerLoven0719",
             "Harru",
-            "neutrinopc",
             "own-loch4",
             "Luckyybear14",
             "jandles13",
             "sidimaraki100",
             "legendx12x",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "Bretty Wat"
           ]
         },
         {

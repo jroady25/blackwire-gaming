@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:46:57Z",
+  "generated_at": "2026-11-08T18:51:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -23,7 +23,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "ThatMcHaggis",
             "Sniffy7990"
@@ -60,10 +60,10 @@
           "players": [
             "SummerLoven0719",
             "Harru",
-            "EXDaydreamer",
             "neutrinopc",
             "own-loch4",
-            "Luckyybear14"
+            "Luckyybear14",
+            "EXDaydreamer"
           ]
         },
         {
@@ -99,7 +99,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -209,21 +209,21 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
           "name": "BlackWire - Valguero - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -249,20 +249,19 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "legendx12x",
-            "Itz finnnnnn"
+            "legendx12x"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",

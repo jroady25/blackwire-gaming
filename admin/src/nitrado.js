@@ -213,6 +213,10 @@ export async function buildSnapshot(token, filter = {}) {
         game: gs.game || base.game,
         gameHuman: gs.game_human || base.gameHuman,
         address: gs.ip && gs.port ? `${gs.ip}:${gs.port}` : base.address,
+        // Nitrado reports the live RCON host/port here (same fields the
+        // status poller uses). When a server moves to a new IP this stays
+        // right on its own, unlike a hand-typed config entry.
+        rcon: gs.ip && gs.rcon_port ? { host: String(gs.ip), port: Number(gs.rcon_port) } : null,
         slots: gs.slots ?? null,
         players: {
           current: gs.query?.player_current ?? null,

@@ -115,9 +115,29 @@ async function runAction(env, { action, serviceIds, message, actor }) {
   return results;
 }
 
+/**
+ * RCON endpoints for every ARK server: the live host/port Nitrado reports
+ * (from the snapshot) wins, the hand-kept config file only fills gaps.
+ * The config went stale when servers moved IPs, which is how warnings
+ * ended up hitting the wrong box or none at all.
+ */
+async function liveRconEndpoints(env) {
+  const map = new Map(await rconEndpoints());
+  try {
+    const snapshot = await getSnapshot(env);
+    for (const server of snapshot.servers || []) {
+      if (server.game !== "arksa" || !server.rcon?.host || !server.rcon?.port) continue;
+      map.set(String(server.serviceId), { host: server.rcon.host, port: server.rcon.port, name: server.name });
+    }
+  } catch {
+    // Nitrado down: fall back to the config file alone.
+  }
+  return map;
+}
+
 /** ARK servers that have an RCON endpoint, named from the live snapshot. */
 async function rconTargetList(env) {
-  const endpoints = await rconEndpoints();
+  const endpoints = await liveRconEndpoints(env);
   const names = new Map();
   try {
     const snapshot = await getSnapshot(env);
@@ -139,7 +159,7 @@ async function rconTargetList(env) {
  * server reports itself and never fails the rest of the broadcast.
  */
 async function runRcon(env, { serviceIds, commands, actor, action, message }) {
-  const endpoints = await rconEndpoints();
+  const endpoints = await liveRconEndpoints(env);
   const results = new Array(serviceIds.length);
   const LIMIT = 6;
 
@@ -231,7 +251,7 @@ async function handleApi(request, env, url, session) {
   if (path === "/api/rcon/players") {
     if (!rconConfigured(env)) return json({ error: "ARK_RCON_PASSWORD is not set on the Worker." }, 400);
     const serviceId = String(url.searchParams.get("serviceId") || "");
-    const endpoint = (await rconEndpoints()).get(serviceId);
+    const endpoint = (await liveRconEndpoints(env)).get(serviceId);
     if (!endpoint) return json({ error: "No RCON endpoint configured for that server." }, 404);
     try {
       const [body] = await rconExec(endpoint, rconPasswords(env), ["listplayers"]);

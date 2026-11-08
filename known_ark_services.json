@@ -46,7 +46,7 @@
     },
     {
       "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v97.16)"
+      "name": "BlackWire - Ragnarok - PVP - (v97.17)"
     },
     {
       "service_id": "18667313",
@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 6551634,
+    "offset": 6555175,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 6551634,
+    "log_size": 6555175,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

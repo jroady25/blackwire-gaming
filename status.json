@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:16:52Z",
+  "generated_at": "2026-11-08T14:21:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,14 +28,15 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "NeyoN_AuX",
-            "DragonWolf7676"
+            "DragonWolf7676",
+            "Spectre"
           ]
         },
         {
@@ -209,7 +210,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

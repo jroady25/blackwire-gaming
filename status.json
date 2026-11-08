@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:36:49Z",
+  "generated_at": "2026-11-08T23:41:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,15 +30,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "Spectre",
-            "NeyoN_AuX",
-            "Weasel"
+            "NeyoN_AuX"
           ]
         },
         {
@@ -211,7 +210,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -227,14 +226,13 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Itz finnnnnn",
-            "Bretty Wat"
+            "Itz finnnnnn"
           ]
         },
         {
@@ -270,13 +268,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
-            "Coffee Addict"
+            "Coffee Addict",
+            "Bretty Wat"
           ]
         },
         {

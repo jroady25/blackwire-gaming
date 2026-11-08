@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:11:47Z",
+  "generated_at": "2026-11-08T23:16:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,13 +53,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Harru",
             "JeepinAK",
             "Bretty Wat"
           ]
@@ -127,7 +126,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -249,12 +248,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Coffee Addict"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.17)",
@@ -269,14 +270,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Coffee Addict"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.17)",
@@ -313,11 +312,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         }
       ]
     },

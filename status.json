@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T21:06:50Z",
+  "generated_at": "2026-11-08T21:11:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Sniffy7990",
-            "ThatMcHaggis"
+            "ThatMcHaggis",
+            "DriftNalg"
           ]
         },
         {
@@ -43,7 +44,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -178,11 +179,11 @@
         {
           "name": "BlackWire - Genesis 1 - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

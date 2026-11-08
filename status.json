@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:46:49Z",
+  "generated_at": "2026-11-08T22:50:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 1,
           "players": [
             "Naykdtime"
           ]
@@ -18,15 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "Sniffy7990",
-            "ThatMcHaggis",
-            "Zackattack28060"
+            "ThatMcHaggis"
           ]
         },
         {
@@ -73,7 +72,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Coffee Addict"
           ]
@@ -131,7 +130,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -221,7 +220,7 @@
         {
           "name": "BlackWire - Valguero - PVP - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",

@@ -21,6 +21,7 @@ import {
 } from "./auth.js";
 import { cancelSchedule, createSchedule, dueSchedules, listSchedules, readAudit, writeAudit } from "./schedule.js";
 import { readActivity, recordPresence } from "./presence.js";
+import { checkModUpdates } from "./modwatch.js";
 import {
   handleBridgeEvent,
   handleBridgeEvents,
@@ -354,6 +355,15 @@ async function handleApi(request, env, url, session) {
     return json({ ok: true });
   }
 
+  // Mod-update posts for the BlackWire Mods Discord. POST with
+  // {"force":[projectId,...]} re-posts those mods' newest release.
+  if (path === "/api/modwatch/run" && request.method === "POST") {
+    if (!csrfOk(request)) return json({ error: "Bad request." }, 400);
+    const body = await request.json().catch(() => ({}));
+    const force = (body.force || []).map(Number).filter(Boolean);
+    return json({ result: await checkModUpdates(env, { force }) });
+  }
+
   if (path === "/api/audit") {
     return json({ entries: await readAudit(env, 60) });
   }
@@ -494,5 +504,12 @@ export default {
     // Fold the roster the poller published into the presence history.
     const presence = await recordPresence(env);
     if (presence && presence.skipped) console.log(`Presence skipped: ${presence.skipped}`);
+
+    // New mod versions on CurseForge -> #mod-updates on the mods Discord.
+    try {
+      console.log(await checkModUpdates(env));
+    } catch (err) {
+      console.log(`modwatch error: ${err.message}`);
+    }
   },
 };

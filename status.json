@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-11-08T19:57:07Z",
+  "generated_at": "2026-11-08T20:02:02Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Crackedtunic",
-            "Dwarslaesie88"
+            "Dwarslaesie88",
+            "Sweetpee2"
           ]
         },
         {
@@ -23,7 +24,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "ThatMcHaggis",
             "Sniffy7990",
@@ -55,18 +56,19 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 6,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 7,
           "players": [
             "SummerLoven0719",
             "Harru",
             "Luckyybear14",
             "jandles13",
             "sidimaraki100",
-            "own-loch4"
+            "own-loch4",
+            "Bretty Wat"
           ]
         },
         {

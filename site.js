@@ -158,8 +158,10 @@
 (function(){
   var foot = document.querySelector('.foot-links');
   if(!foot || foot.querySelector('a[data-social]')) return;
-  /* inserted at the front one by one, so listed last-first: Discord ends up first */
-  [['Facebook', 'https://www.facebook.com/blackwiregaming'], ['Discord', 'https://discord.gg/blackwire']].forEach(function(l){
+  /* inserted at the front one by one, so listed last-first: Discord ends up first.
+     Nov 2026: added the YouTube channel and the BlackWire Mods Discord. */
+  [['YouTube', 'https://www.youtube.com/@OfficialBlackWireGaming'], ['Facebook', 'https://www.facebook.com/blackwiregaming'],
+   ['Mods Discord', 'https://discord.gg/FNnNEa8A6S'], ['Discord', 'https://discord.gg/blackwire']].forEach(function(l){
     var a = document.createElement('a');
     a.href = l[1];
     a.target = '_blank';

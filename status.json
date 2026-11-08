@@ -1,57 +1,54 @@
 {
-  "generated_at": "2026-11-08T15:41:57Z",
+  "generated_at": "2026-11-08T15:47:08Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
-          "online": false,
+          "online": true,
           "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1,
-          "offline_since": "2026-11-08T15:41:57Z"
+          "nitrado_count": 1
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-08T15:41:57Z"
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",
-          "online": false,
+          "online": true,
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1,
-          "offline_since": "2026-11-08T15:41:57Z"
+          "nitrado_count": 1
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.17)",
-          "online": false,
-          "players_current": 1,
+          "online": true,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 1,
-          "offline_since": "2026-11-08T15:41:57Z"
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
-          "online": false,
+          "online": true,
           "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1,
-          "offline_since": "2026-11-08T15:41:57Z"
+          "nitrado_count": 1
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.17)",
@@ -242,7 +239,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -262,7 +259,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "I-Be-Stroganoff"
           ]

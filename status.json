@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:21:52Z",
+  "generated_at": "2026-11-08T14:26:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -214,7 +214,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -266,7 +266,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -282,12 +282,14 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "ClippedbyMB69"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.17)",

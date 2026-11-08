@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T16:57:01Z",
+  "generated_at": "2026-11-08T17:01:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,13 +19,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "DriftNalg",
             "ThatMcHaggis"
           ]
         },
@@ -205,11 +204,11 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -219,17 +218,17 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
           "name": "BlackWire - Valguero - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

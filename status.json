@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T08:16:46Z",
+  "generated_at": "2026-11-08T08:21:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,12 +16,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.16)",
@@ -207,7 +209,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -285,14 +287,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.16)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.16)",

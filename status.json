@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-11-08T19:42:05Z",
+  "generated_at": "2026-11-08T19:47:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Crackedtunic",
-            "Dwarslaesie88",
-            "EXDaydreamer"
+            "Dwarslaesie88"
           ]
         },
         {
@@ -49,7 +48,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Haitheat"
           ]
@@ -57,18 +56,20 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 6,
+          "players_current": 8,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 6,
           "players": [
             "SummerLoven0719",
             "Harru",
             "own-loch4",
             "Luckyybear14",
             "jandles13",
-            "sidimaraki100"
+            "sidimaraki100",
+            "EXDaydreamer",
+            "Bretty Wat"
           ]
         },
         {
@@ -144,14 +145,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Jessica32"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.17)",
@@ -258,17 +257,19 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",

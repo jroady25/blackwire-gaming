@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-08T09:31:51Z",
+  "generated_at": "2026-11-08T09:37:05Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.16)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "DragonWolf7676"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.16)",
@@ -54,20 +56,10 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Naykdtime"
-          ]
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v97.16)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP",
-          "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.16)",
@@ -307,6 +299,15 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - Extinction - PVE - (v97.16)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
         }

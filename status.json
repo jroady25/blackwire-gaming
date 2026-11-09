@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:17:03Z",
+  "generated_at": "2026-11-09T03:22:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -71,7 +71,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "bckyrdBOOST818",
             "Firefang0810",
@@ -101,7 +101,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",

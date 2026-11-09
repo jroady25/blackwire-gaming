@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-09T08:16:48Z",
+  "generated_at": "2026-11-09T08:21:50Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "utu_doughboy420"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
@@ -20,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -225,13 +227,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Zackattack28060",
             "Zaacattack990"
           ]
         },

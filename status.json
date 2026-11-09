@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-09T02:11:48Z",
+  "generated_at": "2026-11-09T02:16:51Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Naykdtime"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
@@ -55,12 +57,12 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "jandles13",
             "Luckyybear14",
-            "Naykdtime",
-            "Bretty Wat"
+            "Bretty Wat",
+            "JeepinAK"
           ]
         },
         {

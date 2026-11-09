@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-09T20:56:56Z",
+  "generated_at": "2026-11-09T21:02:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "utu_doughboy420"
+            "utu_doughboy420",
+            "Bretty Wat"
           ]
         },
         {
@@ -22,7 +23,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Sniffy7990",
             "Itz finnnnnn",
@@ -52,17 +53,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 8,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 6,
           "players": [
             "nashie069",
             "SummerLoven0719",
             "Whiteninja090",
-            "lethalcomp",
-            "Bretty Wat",
             "SpoggDarr",
             "Harru",
             "EXDaydreamer"
@@ -121,13 +120,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "HotPolarBear550"
+            "HotPolarBear550",
+            "Slick"
           ]
         },
         {
@@ -137,7 +137,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -283,12 +283,14 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "NukeDog1016970"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.18)",

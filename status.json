@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-09T05:01:52Z",
+  "generated_at": "2026-11-09T05:06:48Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Bretty Wat"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
@@ -26,7 +24,7 @@
           "players": [
             "Dat_Boi_Mike_70",
             "DriftNalg",
-            "Zackattack28060"
+            "Bretty Wat"
           ]
         },
         {
@@ -229,12 +227,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 2,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.17)",
@@ -249,14 +249,13 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "legendx12x",
-            "Zaacattack990"
+            "legendx12x"
           ]
         },
         {
@@ -315,11 +314,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2
+          "nitrado_count": 1
         }
       ]
     },

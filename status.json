@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-11-09T21:37:00Z",
+  "generated_at": "2026-11-09T21:42:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "utu_doughboy420",
-            "Bretty Wat"
+            "Bretty Wat",
+            "Sweetpee2"
           ]
         },
         {
@@ -23,11 +24,11 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Sniffy7990",
             "Itz finnnnnn",
-            "DriftNalg"
+            "DriftNalg",
+            "Sniffy7990"
           ]
         },
         {
@@ -53,16 +54,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 5,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
-            "nashie069",
             "SummerLoven0719",
             "Whiteninja090",
-            "SpoggDarr",
             "Harru"
           ]
         },
@@ -119,14 +118,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "HotPolarBear550"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.18)",
@@ -314,11 +311,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         }
       ]
     },

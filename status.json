@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:16:49Z",
+  "generated_at": "2026-11-09T19:21:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,13 +19,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Sniffy7990"
+            "Sniffy7990",
+            "DriftNalg"
           ]
         },
         {
@@ -315,11 +316,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 2
         }
       ]
     },

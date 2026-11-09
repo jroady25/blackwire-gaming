@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:22:11Z",
+  "generated_at": "2026-11-09T18:27:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,17 +51,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "SpoggDarr",
             "jandles13",
             "Spaghetti",
-            "own-loch4",
-            "EXDaydreamer"
+            "own-loch4"
           ]
         },
         {
@@ -121,7 +120,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "HotPolarBear550"
           ]
@@ -145,7 +144,7 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "santos_g3"
+            "lethalcomp"
           ]
         },
         {
@@ -273,22 +272,26 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "I-Be-Stroganoff"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "EXDaydreamer"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.18)",

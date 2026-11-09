@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T00:27:00Z",
+  "generated_at": "2026-11-09T00:31:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -59,15 +59,15 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 6,
           "players": [
             "JeepinAK",
             "Bretty Wat",
             "Naykdtime",
             "SpoggDarr",
-            "Luckyybear14",
+            "jandles13",
             "legendx12x",
-            "jandles13"
+            "Luckyybear14"
           ]
         },
         {

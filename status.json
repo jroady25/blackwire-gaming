@@ -1,31 +1,30 @@
 {
-  "generated_at": "2026-11-09T23:01:53Z",
+  "generated_at": "2026-11-09T23:06:50Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Sweetpee2"
+            "Sweetpee2",
+            "Billy517"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Sniffy7990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.18)",
@@ -34,7 +33,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "SinisterSuave666"
           ]
@@ -96,11 +95,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -211,11 +210,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 6,
           "names_hidden": true
         },
         {

@@ -14,7 +14,7 @@
     },
     {
       "service_id": "18111097",
-      "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.17)"
+      "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)"
     },
     {
       "service_id": "18111130",
@@ -46,7 +46,7 @@
     },
     {
       "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v97.17)"
+      "name": "BlackWire - Ragnarok - PVP - (v97.18)"
     },
     {
       "service_id": "18667313",
@@ -62,7 +62,7 @@
     },
     {
       "service_id": "19380386",
-      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.17)"
+      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.18)"
     },
     {
       "service_id": "19826461",
@@ -98,7 +98,7 @@
     },
     {
       "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v97.17)"
+      "name": "BlackWire - Extinction - PVP - (v97.18)"
     },
     {
       "service_id": "19368830",
@@ -122,17 +122,17 @@
     }
   ],
   "dragonwilds": {
-    "offset": 7317750,
+    "offset": 7321291,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 7317750,
+    "log_size": 7321291,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:Blackwire - The Island - Primal Chaos - PVE - (v97.17)": "2026-11-09T10:01:55Z",
-    "ark:BlackWire - Ragnarok - PVP - (v97.17)": "2026-11-09T10:01:55Z",
-    "ark:BlackWire - Extinction - PVP - (v97.17)": "2026-11-09T10:01:55Z",
-    "ark:BlackWire - Bjarnheim - PVE - (v97.17)": "2026-11-09T10:01:55Z"
+    "ark:BlackWire - Astraeos - PVE - (v97.17)": "2026-11-09T10:06:55Z",
+    "ark:BlackWire - Aberration - PVP - (v97.17)": "2026-11-09T10:06:55Z",
+    "ark:BlackWire - The Island - PVE - (v97.17)": "2026-11-09T10:06:55Z",
+    "ark:BlackWire - Genesis 1 - PVE - (v97.17)": "2026-11-09T10:06:55Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T08:21:50Z",
+  "generated_at": "2026-11-09T08:26:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,12 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Zackattack28060"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",

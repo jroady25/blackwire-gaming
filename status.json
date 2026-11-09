@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:38:10Z",
+  "generated_at": "2026-11-09T09:41:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,7 +30,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Curista"
           ]
@@ -150,16 +150,17 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "Dudugaimerzin1",
             "splatterpaint53",
             "xMrFudNutzx",
-            "Sgt-Bilco-"
+            "Sgt-Bilco-",
+            "DireMeek"
           ]
         },
         {
@@ -235,12 +236,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
@@ -279,14 +282,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Harru"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.17)",

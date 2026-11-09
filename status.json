@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:41:58Z",
+  "generated_at": "2026-11-09T03:47:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "bckyrdBOOST818"
           ]
@@ -18,7 +18,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
@@ -26,8 +26,7 @@
           "players": [
             "ThatMcHaggis",
             "Zackattack28060",
-            "Dat_Boi_Mike_70",
-            "legendx12x"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -56,18 +55,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 5,
           "players": [
             "jandles13",
             "Bretty Wat",
             "SummerLoven0719",
             "SpoggDarr",
-            "Luckyybear14",
-            "Naykdtime"
+            "Luckyybear14"
           ]
         },
         {
@@ -253,12 +251,15 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 2,
+          "players": [
+            "legendx12x",
+            "Naykdtime"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.17)",

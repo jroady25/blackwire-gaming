@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T19:11:58Z",
+  "generated_at": "2026-11-09T19:16:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -142,7 +142,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "santos_g3"
           ]
@@ -254,7 +254,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "Bretty Wat",
             "Itz finnnnnn"

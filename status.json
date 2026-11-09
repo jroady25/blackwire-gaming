@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:26:55Z",
+  "generated_at": "2026-11-09T05:31:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -242,14 +242,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",
@@ -280,7 +278,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Firefang0810",
             "Player17854"
@@ -299,12 +297,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.17)",
@@ -319,11 +319,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T02:46:54Z",
+  "generated_at": "2026-11-09T02:51:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,31 +52,31 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "jandles13",
             "Luckyybear14",
             "Bretty Wat",
-            "SummerLoven0719"
+            "SummerLoven0719",
+            "SpoggDarr"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.17)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "Firefang0810",
             "Player17854",
-            "bckyrdBOOST818",
-            "Dat_Boi_Mike_70"
+            "bckyrdBOOST818"
           ]
         },
         {
@@ -162,12 +162,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Spectre"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.17)",
@@ -242,12 +244,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.17)",

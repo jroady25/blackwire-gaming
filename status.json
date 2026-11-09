@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-09T21:42:01Z",
+  "generated_at": "2026-11-09T21:47:09Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "utu_doughboy420",
             "Bretty Wat",
             "Sweetpee2"
           ]
@@ -20,15 +19,16 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 4,
           "players": [
             "Itz finnnnnn",
             "DriftNalg",
-            "Sniffy7990"
+            "Sniffy7990",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -54,14 +54,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 2,
           "players": [
             "SummerLoven0719",
-            "Whiteninja090",
             "Harru"
           ]
         },
@@ -122,7 +121,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -211,11 +210,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "names_hidden": true
         },
         {
@@ -271,12 +270,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Firefang0810"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:27:13Z",
+  "generated_at": "2026-11-09T18:32:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,12 +19,8 @@
           "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "Sniffy7990",
-            "Itz finnnnnn"
-          ]
+          "count_source": "nitrado",
+          "nitrado_count": 2
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.18)",
@@ -51,14 +47,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
-            "SpoggDarr",
-            "jandles13",
             "Spaghetti",
             "own-loch4"
           ]
@@ -214,7 +208,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -288,7 +282,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "EXDaydreamer"
           ]
@@ -316,11 +310,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 1
         }
       ]
     },

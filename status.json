@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:36:55Z",
+  "generated_at": "2026-11-09T03:41:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 2,
           "players": [
             "bckyrdBOOST818"
           ]
@@ -18,7 +18,7 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
@@ -26,19 +26,21 @@
           "players": [
             "ThatMcHaggis",
             "Zackattack28060",
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "legendx12x"
           ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "NeyoN_AuX"
+            "NeyoN_AuX",
+            "Spectre"
           ]
         },
         {
@@ -54,7 +56,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -65,8 +67,7 @@
             "SummerLoven0719",
             "SpoggDarr",
             "Luckyybear14",
-            "Naykdtime",
-            "legendx12x"
+            "Naykdtime"
           ]
         },
         {
@@ -102,11 +103,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -122,14 +123,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Lima Stall"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.17)",

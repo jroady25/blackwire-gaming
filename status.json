@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:12:01Z",
+  "generated_at": "2026-11-09T09:16:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -56,7 +56,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "own-loch4"
           ]
@@ -252,7 +252,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Naykdtime"
           ]

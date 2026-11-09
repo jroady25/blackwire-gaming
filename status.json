@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:57:03Z",
+  "generated_at": "2026-11-09T22:02:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,13 +19,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
-            "Itz finnnnnn",
             "DriftNalg",
             "Sniffy7990",
             "Dat_Boi_Mike_70"
@@ -54,15 +53,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "SummerLoven0719",
             "Harru",
-            "Bretty Wat"
+            "Bretty Wat",
+            "Spectre_Bravo_6"
           ]
         },
         {
@@ -275,14 +275,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "InfernoDuckling"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:41:56Z",
+  "generated_at": "2026-11-09T06:47:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -23,7 +23,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -69,7 +69,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Zackattack28060"
           ]
@@ -264,7 +264,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

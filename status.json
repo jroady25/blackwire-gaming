@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:36:55Z",
+  "generated_at": "2026-11-09T05:41:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,14 +45,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "miclebia"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
@@ -274,14 +272,13 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.17)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Firefang0810",
-            "Player17854"
+            "Firefang0810"
           ]
         },
         {
@@ -297,14 +294,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.17)",

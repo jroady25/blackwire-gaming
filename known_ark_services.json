@@ -10,7 +10,7 @@
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)"
+      "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.18)"
     },
     {
       "service_id": "18111097",
@@ -58,7 +58,7 @@
     },
     {
       "service_id": "18921197",
-      "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.17)"
+      "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.18)"
     },
     {
       "service_id": "19380386",
@@ -66,7 +66,7 @@
     },
     {
       "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v97.17)"
+      "name": "BlackWire - Genesis 1 - PVP - (v97.18)"
     },
     {
       "service_id": "18357526",
@@ -106,7 +106,7 @@
     },
     {
       "service_id": "19377800",
-      "name": "BlackWire - The Center - PVE - (v97.17)"
+      "name": "BlackWire - The Center - PVE - (v97.18)"
     },
     {
       "service_id": "19426823",
@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 7327626,
+    "offset": 7331263,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 7327626,
+    "log_size": 7331263,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

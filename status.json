@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-09T23:21:59Z",
+  "generated_at": "2026-11-09T23:26:55Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Sweetpee2",
             "Bretty Wat"
           ]
         },
@@ -115,13 +114,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "HotPolarBear550",
             "Th30nlyDeL"
           ]
         },
@@ -214,7 +212,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "names_hidden": true
         },
         {

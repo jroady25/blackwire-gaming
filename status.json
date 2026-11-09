@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:21:51Z",
+  "generated_at": "2026-11-09T20:26:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,14 +19,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Sniffy7990",
-            "Bretty Wat",
             "Itz finnnnnn"
           ]
         },
@@ -53,18 +52,19 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 6,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 7,
           "players": [
             "Harru",
             "SpoggDarr",
             "nashie069",
             "SummerLoven0719",
             "Whiteninja090",
-            "lethalcomp"
+            "lethalcomp",
+            "Bretty Wat"
           ]
         },
         {
@@ -132,11 +132,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -216,7 +216,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "names_hidden": true
         },
         {
@@ -285,15 +285,14 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "EXDaydreamer",
-            "NukeDog1016970",
-            "own-loch4"
+            "NukeDog1016970"
           ]
         },
         {
@@ -319,11 +318,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2
+          "nitrado_count": 1
         }
       ]
     },

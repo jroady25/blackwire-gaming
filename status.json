@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-09T05:56:55Z",
+  "generated_at": "2026-11-09T06:01:57Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "utu_doughboy420"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
@@ -33,13 +35,13 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "Spectre",
             "DarkClaw6",
             "DireMeek",
             "storm2009rider",
-            "Sgt-Bilco-"
+            "Rogue01 AaG"
           ]
         },
         {
@@ -55,15 +57,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "jandles13",
             "SummerLoven0719",
-            "Luckyybear14"
+            "Luckyybear14",
+            "Zaacattack990"
           ]
         },
         {
@@ -291,14 +294,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.17)",

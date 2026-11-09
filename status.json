@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T07:16:52Z",
+  "generated_at": "2026-11-09T07:21:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,12 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zackattack28060"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",
@@ -50,14 +52,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "jandles13"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.17)",
@@ -152,7 +152,7 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -161,7 +161,8 @@
             "Dudugaimerzin1",
             "Sgt-Bilco-",
             "DireMeek",
-            "splatterpaint53"
+            "splatterpaint53",
+            "Curista"
           ]
         },
         {
@@ -287,14 +288,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zackattack28060"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.17)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T12:36:56Z",
+  "generated_at": "2026-11-09T12:41:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,13 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Sniffy7990"
+            "Sniffy7990",
+            "ThatMcHaggis"
           ]
         },
         {
@@ -322,10 +323,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "Megadeth-GTA6"
+            "Megadeth-GTA6",
+            "wraiyth"
           ],
           "map": null
         },

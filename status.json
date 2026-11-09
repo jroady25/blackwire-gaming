@@ -1,40 +1,41 @@
 {
-  "generated_at": "2026-11-09T09:46:53Z",
+  "generated_at": "2026-11-09T09:51:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": [
-            "Harru"
-          ]
-        },
-        {
-          "name": "BlackWire - Valguero - PVE - (v97.17)",
-          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "Valguero_WP",
+          "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
         },
         {
-          "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",
+          "name": "BlackWire - Valguero - PVE - (v97.17)",
           "online": true,
           "players_current": 1,
           "players_max": 20,
-          "map": "Astraeos_WP",
+          "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Curista"
+            "Harru"
+          ]
+        },
+        {
+          "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.17)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "count_source": "rcon",
+          "nitrado_count": 2,
+          "players": [
+            "Curista",
+            "Sgt-Bilco-"
           ]
         },
         {
@@ -152,16 +153,15 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.17)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
             "Dudugaimerzin1",
             "splatterpaint53",
             "xMrFudNutzx",
-            "Sgt-Bilco-",
             "DireMeek"
           ]
         },

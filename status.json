@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T05:17:00Z",
+  "generated_at": "2026-11-10T05:22:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,27 +16,27 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Zackattack28060",
             "Dat_Boi_Mike_70"
           ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "NeyoN_AuX",
-            "DireMeek"
+            "DireMeek",
+            "Sgt-Bilco-"
           ]
         },
         {
@@ -212,11 +212,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -252,13 +252,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "legendx12x"
+            "legendx12x",
+            "Zackattack28060"
           ]
         },
         {

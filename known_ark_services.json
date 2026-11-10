@@ -25,10 +25,6 @@
       "name": "BlackWire - Extinction - PVE - (v97.18)"
     },
     {
-      "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v97.18)"
-    },
-    {
       "service_id": "18111211",
       "name": "BlackWire - The Center - PVP - (v97.18)"
     },
@@ -47,10 +43,6 @@
     {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v97.18)"
-    },
-    {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)"
     },
     {
       "service_id": "18863471",
@@ -119,28 +111,23 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.18)"
+    },
+    {
+      "service_id": "18111202",
+      "name": "BlackWire - Scorched Earth - PVP - (v97.18)"
+    },
+    {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)"
     }
   ],
   "dragonwilds": {
-    "offset": 8363418,
+    "offset": 8373294,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8363418,
+    "log_size": 8373294,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:Event Map \u2014 Club Ark": "2026-11-10T12:07:07Z",
-    "ark:Astraeos \u2014 PVE": "2026-11-10T12:07:07Z",
-    "ark:Extinction \u2014 PVE": "2026-11-10T12:07:07Z",
-    "ark:Astraeos \u2014 Primal Chaos": "2026-11-10T12:07:07Z",
-    "ark:Ragnarok \u2014 Jurassic Awakening": "2026-11-10T12:07:07Z",
-    "ark:Decended \u2014 PVE": "2026-11-10T12:07:07Z",
-    "ark:Island SOTF \u2014 PVP (Limited/JKRZ)": "2026-11-10T12:07:07Z",
-    "ark:Svartalfheim \u2014 PVE (JKRZ)": "2026-11-10T12:07:07Z",
-    "ark:Forglar 1 \u2014 PVE (JKRZ)": "2026-11-10T12:07:07Z",
-    "ark:Forglar 2 \u2014 PVE (JKRZ)": "2026-11-10T12:07:07Z",
-    "palworld:19733590": "2026-11-10T12:07:07Z",
-    "palworld:20122510": "2026-11-10T12:07:07Z"
-  }
+  "offline_since": {}
 }

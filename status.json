@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:11:54Z",
+  "generated_at": "2026-11-10T19:16:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -102,7 +102,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -262,11 +262,11 @@
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -284,15 +284,16 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "EXDaydreamer",
             "I-Be-Stroganoff",
-            "Vip_person"
+            "Vip_person",
+            "Bretty Wat"
           ]
         },
         {

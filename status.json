@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:06:55Z",
+  "generated_at": "2026-11-10T19:11:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -98,7 +98,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -122,7 +122,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -272,13 +272,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "the chosen one.",
             "Javidlalala7"
           ]
         },

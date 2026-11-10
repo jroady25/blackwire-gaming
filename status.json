@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-10T08:47:04Z",
+  "generated_at": "2026-11-10T08:52:04Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Naykdtime"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
@@ -34,22 +36,31 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
+          "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
           "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "SinisterSuave666",
             "Zaacattack990",
-            "YOURxDREAMxGIRL",
-            "Naykdtime"
+            "YOURxDREAMxGIRL"
           ]
         },
         {
@@ -89,16 +100,6 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v97.18)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Aberration_WP",
-          "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -306,12 +307,12 @@
           "nitrado_count": 0
         },
         {
-          "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)",
-          "online": false,
+          "name": "BlackWire - Aberration - PVP - (v97.18)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-10T08:47:04Z"
+          "names_hidden": true
         }
       ]
     },

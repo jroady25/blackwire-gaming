@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 8503569,
+    "offset": 8507400,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8503569,
+    "log_size": 8507400,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Lost Colony - PVP - (v97.18)": "2026-11-10T15:31:47Z"
-  }
+  "offline_since": {}
 }

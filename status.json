@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T06:07:00Z",
+  "generated_at": "2026-11-10T06:11:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,18 +54,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 5,
           "players": [
             "Luckyybear14",
             "jandles13",
             "Bretty Wat",
             "SinisterSuave666",
-            "YOURxDREAMxGIRL",
-            "KAKASHIxHATAKE97"
+            "YOURxDREAMxGIRL"
           ]
         },
         {
@@ -101,11 +100,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -282,7 +281,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

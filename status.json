@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-10T20:21:55Z",
+  "generated_at": "2026-11-10T20:26:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "jbaker7756"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
@@ -55,12 +57,12 @@
           "nitrado_count": 7,
           "players": [
             "own-loch4",
-            "jbaker7756",
             "nashie069",
             "Bretty Wat",
             "MattyRoth83",
             "EXDaydreamer",
-            "Vip_person"
+            "Vip_person",
+            "Whiteninja090"
           ]
         },
         {
@@ -136,12 +138,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "santos_g3"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.18)",

@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-10T04:56:55Z",
+  "generated_at": "2026-11-10T05:01:52Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
@@ -54,17 +52,18 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "players": [
             "Luckyybear14",
             "jandles13",
             "Bretty Wat",
-            "YOURxDREAMxGIRL",
-            "SinisterSuave666"
+            "SinisterSuave666",
+            "Zaacattack990",
+            "YOURxDREAMxGIRL"
           ]
         },
         {
@@ -210,11 +209,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 5,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "names_hidden": true
         },
         {
@@ -272,14 +271,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "KAKASHIxHATAKE97",
-            "Firefang0810"
+            "Firefang0810",
+            "Player17854"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:41:50Z",
+  "generated_at": "2026-11-10T07:46:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
-            "Dat_Boi_Mike_70",
-            "Zackattack28060"
+            "Zackattack28060",
+            "ThatMcHaggis",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -62,8 +63,8 @@
             "jandles13",
             "SinisterSuave666",
             "YOURxDREAMxGIRL",
-            "Zaacattack990",
-            "Bretty Wat"
+            "Bretty Wat",
+            "Zaacattack990"
           ]
         },
         {
@@ -159,13 +160,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Dudugaimerzin1"
+            "Dudugaimerzin1",
+            "xMrFudNutzx"
           ]
         },
         {

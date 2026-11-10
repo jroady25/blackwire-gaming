@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T15:06:49Z",
+  "generated_at": "2026-11-10T15:11:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -84,7 +84,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
         },

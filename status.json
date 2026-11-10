@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-11-10T19:36:54Z",
+  "generated_at": "2026-11-10T19:41:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Crackedtunic",
-            "Dwarslaesie88"
+            "Dwarslaesie88",
+            "Haitheat"
           ]
         },
         {
@@ -25,8 +26,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Sniffy7990",
-            "Itz finnnnnn"
+            "Itz finnnnnn",
+            "Sniffy7990"
           ]
         },
         {
@@ -54,14 +55,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 4,
           "players": [
             "own-loch4",
-            "jbaker7756"
+            "jbaker7756",
+            "Bretty Wat",
+            "nashie069",
+            "FB_Sapper_Actual"
           ]
         },
         {
@@ -211,7 +215,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -271,28 +275,25 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Javidlalala7"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "EXDaydreamer",
             "I-Be-Stroganoff",
-            "Vip_person",
-            "Bretty Wat"
+            "Vip_person"
           ]
         },
         {

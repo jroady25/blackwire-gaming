@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-10T22:16:55Z",
+  "generated_at": "2026-11-10T22:21:52Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "Sweetpee2",
-            "xXkintzyXx",
-            "Fyth Shadow"
+            "xXkintzyXx"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Zackattack28060"
+            "Zackattack28060",
+            "Sniffy7990"
           ]
         },
         {
@@ -68,12 +68,15 @@
         {
           "name": "BlackWire - Extinction - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Dclx00",
+            "zolla619"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.18)",
@@ -208,11 +211,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -248,13 +251,15 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
-            "Coffee Addict"
+            "Coffee Addict",
+            "Reilig",
+            "Itz finnnnnn"
           ]
         },
         {
@@ -280,12 +285,14 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Fyth Shadow"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.18)",

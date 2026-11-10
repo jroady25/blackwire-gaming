@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T09:52:00Z",
+  "generated_at": "2026-11-10T09:56:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -246,17 +246,17 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:38:20Z",
+  "generated_at": "2026-11-10T02:41:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -26,12 +26,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Spectre"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)",
@@ -50,7 +52,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "neutrinopc",
             "Reilig"
@@ -125,7 +127,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -208,7 +210,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 8,
           "names_hidden": true
         },
         {
@@ -246,12 +248,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
@@ -339,11 +343,11 @@
         {
           "name": "Palworld Armageddon",
           "service_id": "20122510",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 12,
-          "map": null,
-          "offline_since": "2026-11-10T02:38:20Z"
+          "players": [],
+          "map": null
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T15:37:03Z",
+  "generated_at": "2026-11-10T15:42:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -27,13 +27,13 @@
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-10T15:42:01Z"
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)",
@@ -48,14 +48,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "neutrinopc",
-            "sidimaraki100"
+            "sidimaraki100",
+            "Remix12"
           ]
         },
         {
@@ -166,7 +167,7 @@
           "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -176,7 +177,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
         },

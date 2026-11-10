@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:26:59Z",
+  "generated_at": "2026-11-10T02:32:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -152,13 +152,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "xMrFudNutzx"
+            "xMrFudNutzx",
+            "CoachTooka"
           ]
         },
         {
@@ -204,11 +205,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 8,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 6,
           "names_hidden": true
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T04:41:53Z",
+  "generated_at": "2026-11-10T04:46:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,27 +18,27 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Zackattack28060",
-            "DriftNalg",
-            "Dat_Boi_Mike_70"
+            "DriftNalg"
           ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "NeyoN_AuX"
+            "NeyoN_AuX",
+            "DireMeek"
           ]
         },
         {
@@ -54,7 +54,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -62,7 +62,8 @@
           "players": [
             "Luckyybear14",
             "SinisterSuave666",
-            "YOURxDREAMxGIRL"
+            "YOURxDREAMxGIRL",
+            "Bretty Wat"
           ]
         },
         {
@@ -270,14 +271,13 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "KAKASHIxHATAKE97",
-            "Bretty Wat"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -287,18 +287,20 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.18)",

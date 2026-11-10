@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:31:54Z",
+  "generated_at": "2026-11-10T19:36:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,13 +19,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Sniffy7990"
+            "Sniffy7990",
+            "Itz finnnnnn"
           ]
         },
         {
@@ -250,14 +251,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Itz finnnnnn"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
@@ -288,7 +287,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "EXDaydreamer",
             "I-Be-Stroganoff",

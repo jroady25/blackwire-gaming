@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:37:03Z",
+  "generated_at": "2026-11-10T13:41:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,7 +50,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "SpoggDarr",
             "neutrinopc",
@@ -80,12 +80,13 @@
         },
         {
           "name": "BlackWire - The Center - PVP - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-10T13:41:52Z",
           "names_hidden": true
         },
         {
@@ -100,13 +101,12 @@
         },
         {
           "name": "BlackWire - Aberration - PVP - (v97.18)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-10T13:37:03Z",
           "names_hidden": true
         },
         {
@@ -125,7 +125,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -206,11 +206,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -322,11 +322,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "arty-shrug00"
-          ],
+          "players": [],
           "map": null
         },
         {

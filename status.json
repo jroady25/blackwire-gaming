@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-10T20:17:03Z",
+  "generated_at": "2026-11-10T20:21:55Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Haitheat"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
@@ -50,16 +48,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 8,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 7,
           "players": [
             "own-loch4",
             "jbaker7756",
             "nashie069",
-            "neutrinopc",
             "Bretty Wat",
             "MattyRoth83",
             "EXDaydreamer",
@@ -139,14 +136,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "santos_g3"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.18)",
@@ -327,11 +322,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "arty-shrug00"
-          ],
+          "players": [],
           "map": null
         },
         {

@@ -122,14 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 8386517,
+    "offset": 8390154,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8386517,
+    "log_size": 8390154,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Valguero - PVP - (v97.18)": "2026-11-10T12:37:01Z"
+    "ark:BlackWire - Extinction - PVP - (v97.18)": "2026-11-10T12:41:49Z"
   }
 }

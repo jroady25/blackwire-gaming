@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:41:49Z",
+  "generated_at": "2026-11-10T12:46:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -97,12 +97,13 @@
         },
         {
           "name": "BlackWire - Aberration - PVP - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-10T12:46:55Z",
           "names_hidden": true
         },
         {
@@ -242,20 +243,19 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Bretty Wat"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
-          "online": false,
-          "players_current": 1,
+          "online": true,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 1,
-          "offline_since": "2026-11-10T12:41:49Z",
+          "count_source": "rcon",
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

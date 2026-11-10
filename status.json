@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:01:57Z",
+  "generated_at": "2026-11-10T18:06:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,7 +57,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "own-loch4",
             "Spaghetti",
@@ -121,7 +121,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": [
             "HotPolarBear550"
           ]
@@ -288,7 +288,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "EXDaydreamer"
           ]

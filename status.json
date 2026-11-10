@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:26:56Z",
+  "generated_at": "2026-11-10T20:32:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,15 +50,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 8,
           "players": [
             "own-loch4",
             "nashie069",
-            "Bretty Wat",
             "MattyRoth83",
             "EXDaydreamer",
             "Vip_person",
@@ -138,14 +137,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "santos_g3"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.18)",
@@ -272,12 +269,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "I-Be-Stroganoff"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",

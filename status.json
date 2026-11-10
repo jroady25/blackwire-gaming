@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-10T02:41:56Z",
+  "generated_at": "2026-11-10T02:47:00Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
@@ -123,11 +125,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -206,11 +208,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 8,
+          "players_current": 9,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 9,
           "names_hidden": true
         },
         {
@@ -236,14 +238,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
@@ -252,7 +252,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "legendx12x"
           ]
@@ -327,7 +327,7 @@
           "players_current": 1,
           "players_max": 16,
           "players": [
-            "Megadeth-GTA6"
+            "arty-shrug00"
           ],
           "map": null
         },

@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-11-10T23:36:50Z",
+  "generated_at": "2026-11-10T23:41:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 2,
           "players": [
             "xXkintzyXx",
-            "Fyth Shadow",
-            "Coffee Addict"
+            "Fyth Shadow"
           ]
         },
         {
@@ -53,14 +52,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "GrizzMode",
-            "HotPolarBear550"
+            "HotPolarBear550",
+            "Coffee Addict"
           ]
         },
         {

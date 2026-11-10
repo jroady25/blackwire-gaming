@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-10T02:52:00Z",
+  "generated_at": "2026-11-10T02:57:00Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
@@ -212,7 +210,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 9,
+          "nitrado_count": 8,
           "names_hidden": true
         },
         {
@@ -238,12 +236,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",

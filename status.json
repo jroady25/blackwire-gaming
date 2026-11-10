@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:16:59Z",
+  "generated_at": "2026-11-10T23:21:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -269,13 +269,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 2,
           "players": [
-            "Dclx00",
             "Firefang0810",
             "Player17854"
           ]

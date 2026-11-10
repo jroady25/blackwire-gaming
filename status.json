@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:01:53Z",
+  "generated_at": "2026-11-10T10:07:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -9,9 +9,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
@@ -22,8 +21,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Zackattack28060",
-            "ThatMcHaggis"
+            "ThatMcHaggis",
+            "Zackattack28060"
           ]
         },
         {
@@ -38,26 +37,23 @@
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-10T10:01:53Z"
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 2,
-          "players": [
-            "SinisterSuave666",
-            "YOURxDREAMxGIRL"
-          ]
+          "offline_since": "2026-11-10T10:07:00Z"
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.18)",
@@ -135,9 +131,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.18)",
@@ -185,9 +180,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.18)",
@@ -245,9 +239,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
@@ -261,13 +254,13 @@
         },
         {
           "name": "BlackWire - The Island - PVE - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-10T10:07:00Z"
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
@@ -285,9 +278,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.18)",
@@ -295,9 +287,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.18)",

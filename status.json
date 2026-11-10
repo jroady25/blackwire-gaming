@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:11:49Z",
+  "generated_at": "2026-11-10T21:16:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,7 +53,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 6,
           "players": [
             "nashie069",
             "Vip_person",
@@ -246,13 +246,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 2,
           "players": [
-            "Itz finnnnnn"
+            "Itz finnnnnn",
+            "Coffee Addict"
           ]
         },
         {
@@ -264,16 +265,6 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "names_hidden": true
-        },
-        {
-          "name": "BlackWire - The Island - PVE - (v97.18)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
@@ -313,6 +304,16 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - The Island - PVE - (v97.18)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         }
       ]
     },

@@ -29,10 +29,6 @@
       "name": "BlackWire - Scorched Earth - PVP - (v97.18)"
     },
     {
-      "service_id": "18111211",
-      "name": "BlackWire - The Center - PVP - (v97.18)"
-    },
-    {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v97.18)"
     },
@@ -119,17 +115,22 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.18)"
+    },
+    {
+      "service_id": "18111211",
+      "name": "BlackWire - The Center - PVP - (v97.18)"
     }
   ],
   "dragonwilds": {
-    "offset": 8429918,
+    "offset": 8433654,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8429918,
+    "log_size": 8433459,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - The Center - PVP - (v97.18)": "2026-11-10T13:41:52Z"
+    "ark:BlackWire - Astraeos - PVP - (v97.18)": "2026-11-10T13:47:07Z",
+    "ark:BlackWire - Valguero - PVP - (v97.18)": "2026-11-10T13:47:07Z"
   }
 }

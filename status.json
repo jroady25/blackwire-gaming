@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:41:52Z",
+  "generated_at": "2026-11-10T13:47:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -79,24 +79,13 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Center - PVP - (v97.18)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheCenter_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-10T13:41:52Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - The Island - PVP - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -112,12 +101,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "HotPolarBear550"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.18)",
@@ -205,22 +196,24 @@
         },
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-10T13:47:07Z",
           "names_hidden": true
         },
         {
           "name": "BlackWire - Valguero - PVP - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-10T13:47:07Z",
           "names_hidden": true
         },
         {
@@ -313,6 +306,16 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - The Center - PVP - (v97.18)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0,
+          "names_hidden": true
         }
       ]
     },

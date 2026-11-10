@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T12:16:51Z",
+  "generated_at": "2026-11-10T12:21:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -66,6 +66,16 @@
           "players": []
         },
         {
+          "name": "BlackWire - Scorched Earth - PVP - (v97.18)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - The Center - PVP - (v97.18)",
           "online": true,
           "players_current": 0,
@@ -114,6 +124,16 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.18)",
@@ -283,22 +303,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Scorched Earth - PVP - (v97.18)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
         }
       ]
     },

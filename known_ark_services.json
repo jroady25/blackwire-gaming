@@ -101,6 +101,10 @@
       "name": "BlackWire - Extinction - PVP - (v97.18)"
     },
     {
+      "service_id": "19368830",
+      "name": "BlackWire - The Island - PVE - (v97.18)"
+    },
+    {
       "service_id": "19377800",
       "name": "BlackWire - The Center - PVE - (v97.18)"
     },
@@ -115,19 +119,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.18)"
-    },
-    {
-      "service_id": "19368830",
-      "name": "BlackWire - The Island - PVE - (v97.18)"
     }
   ],
   "dragonwilds": {
-    "offset": 8419946,
+    "offset": 8423293,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8419946,
+    "log_size": 8423293,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:BlackWire - Lost Colony - PVP - (v97.18)": "2026-11-10T13:31:56Z",
+    "ark:BlackWire - Genesis 1 - PVP - (v97.18)": "2026-11-10T13:31:56Z"
+  }
 }

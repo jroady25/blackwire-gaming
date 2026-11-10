@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-11-10T01:31:51Z",
+  "generated_at": "2026-11-10T01:36:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "SoullessNitemare",
-            "Sweetpee2",
-            "Zaacattack990"
+            "Sweetpee2"
           ]
         },
         {
@@ -52,14 +51,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "SummerLoven0719",
-            "neutrinopc"
+            "neutrinopc",
+            "Zaacattack990"
           ]
         },
         {
@@ -115,14 +115,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "HotPolarBear550"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.18)",
@@ -161,7 +159,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "splatterpaint53",
             "cerberus",
@@ -215,7 +213,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 8,
           "names_hidden": true
         },
         {

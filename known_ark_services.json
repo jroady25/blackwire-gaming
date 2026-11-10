@@ -122,12 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 8517082,
+    "offset": 8520623,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8516887,
+    "log_size": 8520623,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)": "2026-11-10T15:57:00Z"
+  }
 }

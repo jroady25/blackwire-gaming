@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:06:53Z",
+  "generated_at": "2026-11-10T21:11:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -49,18 +49,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 8,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 7,
           "players": [
             "nashie069",
             "Vip_person",
             "Whiteninja090",
             "HotPolarBear550",
-            "Reilig",
-            "Coffee Addict",
             "GrizzMode",
             "EXDaydreamer"
           ]
@@ -252,7 +250,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": [
             "Itz finnnnnn"
           ]

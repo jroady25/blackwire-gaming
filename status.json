@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:57:07Z",
+  "generated_at": "2026-11-10T09:02:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,14 +51,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "SinisterSuave666",
-            "Zaacattack990",
             "YOURxDREAMxGIRL"
           ]
         },
@@ -98,6 +97,16 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v97.18)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
@@ -187,16 +196,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - SOTF - PVP - (v97.18)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
           "players_current": 0,
@@ -241,12 +240,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
@@ -308,11 +309,12 @@
           "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v97.18)",
-          "online": true,
+          "name": "BlackWire - The Island - SOTF - PVP - (v97.18)",
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
+          "offline_since": "2026-11-10T09:02:12Z",
           "names_hidden": true
         }
       ]

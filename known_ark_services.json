@@ -37,6 +37,10 @@
       "name": "BlackWire - The Island - PVP - (v97.18)"
     },
     {
+      "service_id": "18293911",
+      "name": "BlackWire - Aberration - PVP - (v97.18)"
+    },
+    {
       "service_id": "18497059",
       "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)"
     },
@@ -67,10 +71,6 @@
     {
       "service_id": "18357526",
       "name": "BlackWire - Event Map - (v97.18)"
-    },
-    {
-      "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v97.18)"
     },
     {
       "service_id": "18610040",
@@ -117,17 +117,19 @@
       "name": "BlackWire - Mod Test Map - (v97.18)"
     },
     {
-      "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v97.18)"
+      "service_id": "18357580",
+      "name": "BlackWire - The Island - SOTF - PVP - (v97.18)"
     }
   ],
   "dragonwilds": {
-    "offset": 8239673,
+    "offset": 8242661,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8239673,
+    "log_size": 8242661,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:BlackWire - The Island - SOTF - PVP - (v97.18)": "2026-11-10T09:02:12Z"
+  }
 }

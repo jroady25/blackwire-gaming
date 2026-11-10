@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T05:42:05Z",
+  "generated_at": "2026-11-10T05:47:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,13 +16,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Zackattack28060"
+            "Zackattack28060",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -69,14 +70,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.18)",
@@ -216,11 +215,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T18:56:53Z",
+  "generated_at": "2026-11-10T19:01:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,12 +10,12 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "utu_doughboy420",
             "Crackedtunic",
             "Dwarslaesie88",
-            "own-loch4"
+            "jbaker7756"
           ]
         },
         {
@@ -25,9 +25,9 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Itz finnnnnn"
+            "Sniffy7990"
           ]
         },
         {
@@ -63,7 +63,7 @@
           "players": [
             "neutrinopc",
             "Bretty Wat",
-            "Vip_person"
+            "own-loch4"
           ]
         },
         {
@@ -253,12 +253,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Itz finnnnnn"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.18)",
@@ -290,7 +292,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "EXDaydreamer",
             "I-Be-Stroganoff"

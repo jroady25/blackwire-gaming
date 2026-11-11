@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T21:16:51Z",
+  "generated_at": "2026-11-11T21:21:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,15 +53,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 6,
           "players": [
             "nashie069",
             "Vip_person",
-            "HotPolarBear550",
             "sidimaraki100",
             "neutrinopc",
             "Whiteninja090"
@@ -286,14 +285,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Bretty Wat"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",

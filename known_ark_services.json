@@ -122,12 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 8929054,
+    "offset": 8932401,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8929054,
+    "log_size": 8932401,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:BlackWire - The Center - PVE - (v97.18)": "2026-11-11T02:12:09Z"
+  }
 }

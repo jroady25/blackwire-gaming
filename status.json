@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-11T02:06:57Z",
+  "generated_at": "2026-11-11T02:12:09Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
-            "Coffee Addict",
             "Th3originBoS5",
             "Sweetpee2",
             "DBOreoFriz"
@@ -56,13 +55,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "HotPolarBear550"
+            "HotPolarBear550",
+            "KAKASHIxHATAKE97",
+            "neutrinopc"
           ]
         },
         {
@@ -212,7 +213,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -225,7 +226,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -272,24 +273,22 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "KAKASHIxHATAKE97"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-11T02:12:09Z"
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",

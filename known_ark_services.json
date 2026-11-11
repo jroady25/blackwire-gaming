@@ -53,10 +53,6 @@
       "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)"
     },
     {
-      "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v97.21)"
-    },
-    {
       "service_id": "18921197",
       "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)"
     },
@@ -119,6 +115,10 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.21)"
+    },
+    {
+      "service_id": "18863471",
+      "name": "BlackWire - Lost Colony - PVP - (v97.21)"
     }
   ],
   "dragonwilds": {
@@ -129,5 +129,7 @@
     "log_size": 9113159,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "palworld:19733590": "2026-11-11T06:47:10Z"
+  }
 }

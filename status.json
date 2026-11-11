@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-11T04:56:56Z",
+  "generated_at": "2026-11-11T05:02:02Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Th3originBoS5",
             "Fyth Shadow"
           ]
         },
@@ -54,16 +53,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "HotPolarBear550",
-            "Bretty Wat",
             "Luckyybear14",
-            "Zaacattack990"
+            "HotPolarBear550"
           ]
         },
         {
@@ -272,25 +269,28 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "joeygaming63",
-            "Player17854"
+            "Player17854",
+            "Firefang0810"
           ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",

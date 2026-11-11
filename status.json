@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-11-11T21:31:54Z",
+  "generated_at": "2026-11-11T21:36:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Profesor",
-            "Small guy ree",
-            "HotPolarBear550"
+            "HotPolarBear550",
+            "Haitheat"
           ]
         },
         {
@@ -52,26 +51,26 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 1,
           "players": [
-            "Vip_person",
-            "sidimaraki100",
-            "neutrinopc"
+            "Vip_person"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Profesor"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.21)",
@@ -198,7 +197,7 @@
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -268,14 +267,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "zolla619",
-            "Dclx00"
+            "Dclx00",
+            "Small guy ree"
           ]
         },
         {
@@ -310,13 +310,12 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.21)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-11T21:31:54Z"
+          "nitrado_count": 0
         }
       ]
     },

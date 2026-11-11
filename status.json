@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-11T21:26:50Z",
+  "generated_at": "2026-11-11T21:31:54Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 3,
           "players": [
             "Profesor",
-            "Small guy ree"
+            "Small guy ree",
+            "HotPolarBear550"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Dat_Boi_Mike_70",
             "DriftNalg"
           ]
         },
@@ -52,16 +52,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 3,
           "players": [
             "Vip_person",
             "sidimaraki100",
-            "neutrinopc",
-            "Whiteninja090"
+            "neutrinopc"
           ]
         },
         {
@@ -311,12 +310,13 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.21)",
-          "online": true,
-          "players_current": 1,
+          "online": false,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0,
+          "offline_since": "2026-11-11T21:31:54Z"
         }
       ]
     },

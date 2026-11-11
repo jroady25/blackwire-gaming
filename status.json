@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:57:02Z",
+  "generated_at": "2026-11-11T00:01:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -81,7 +81,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -161,7 +161,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "cerberus"
           ]

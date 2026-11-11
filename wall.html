@@ -1842,6 +1842,15 @@ section.zone{
   }
   var rt = null;
   addEventListener('resize', function(){ clearTimeout(rt); rt = setTimeout(start, 250); });
+
+  /* Self-repair. The scene is built from big offscreen canvases. When the
+     PC's graphics card runs short (a game open on another monitor), the
+     browser can throw those away, and the backdrop turns into smeared
+     orange bands across the board. Rebuild when the browser says the
+     canvas was lost, and also every 20 minutes in case it never says. */
+  cv.addEventListener('contextlost', function(){ running = false; });
+  cv.addEventListener('contextrestored', function(){ start(); });
+  setInterval(function(){ if(!document.hidden) start(); }, 20 * 60000);
   document.addEventListener('visibilitychange', function(){
     if(document.hidden){ running = false; }
     else if(!L || W !== innerWidth || H !== innerHeight){ start(); }

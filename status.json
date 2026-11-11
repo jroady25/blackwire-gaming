@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T05:46:57Z",
+  "generated_at": "2026-11-11T05:51:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,10 +55,10 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
-            "Zaacattack990",
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "Bretty Wat"
           ]
         },
         {
@@ -124,11 +124,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -244,14 +244,13 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "legendx12x",
-            "Bretty Wat"
+            "legendx12x"
           ]
         },
         {
@@ -267,17 +266,18 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "players": [
             "joeygaming63",
             "Player17854",
             "Firefang0810",
             "Luckyybear14",
-            "jandles13"
+            "jandles13",
+            "I-Be-Stroganoff"
           ]
         },
         {
@@ -293,12 +293,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.21)",

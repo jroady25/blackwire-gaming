@@ -36,6 +36,8 @@ export const WATCHED = [
   { project: 1699363, name: "BlackWire PauseMenu", slug: "blackwire-community-mod", emoji: "🧭", group: "Server & Admin", channel: "1559267087711473785", banner: "mod-community" },
   { project: 1708126, name: "BlackWire Onboarding & Starter Kit", slug: "blackwire-onboarding-starter-kit", emoji: "🎒", group: "Server & Admin", channel: "1559267095244709888", banner: "mod-onboarding" },
   { project: 1727486, name: "BlackWire Shop/Trade", slug: "blackwire-shop-trade", emoji: "🪙", group: "Server & Admin", channel: "1559267089905094797", banner: "mod-shop" },
+  // announceFirst: post its first release as soon as it goes public (it wasn't public yet when added).
+  { project: 1797724, name: "BlackWire Spyglass", slug: null, emoji: "🔭", group: "Gear & HUD", channel: "1559267096301412403", banner: "mod-spyglass", announceFirst: true },
 ];
 
 async function cf(path) {
@@ -153,7 +155,8 @@ async function discord(env, path, body) {
 }
 
 export function buildPost(mod, release, notesHtml, { firstRelease = false } = {}) {
-  const url = `${CF}/ark-survival-ascended/mods/${mod.slug}`;
+  // /projects/<id> redirects to the mod's page, so it works before we know the slug.
+  const url = mod.slug ? `${CF}/ark-survival-ascended/mods/${mod.slug}` : `${CF}/projects/${mod.project}`;
   const parsed = parseChangelog(notesHtml);
   let description = renderNotes(parsed, url);
   if (!description) description = firstRelease ? "First release is out now!" : "A new version is out now.";
@@ -208,7 +211,7 @@ export async function checkModUpdates(env, { force = [] } = {}) {
       const seen = state[mod.project];
       const forced = force.includes(mod.project);
 
-      if (!seen && !forced) {
+      if (!seen && !forced && !mod.announceFirst) {
         // First look at this mod: remember what's there, post nothing.
         state[mod.project] = { keys: releases.map((r) => r.key).slice(0, 30) };
         changed = true;

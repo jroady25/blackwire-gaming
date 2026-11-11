@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-11-11T00:56:55Z",
+  "generated_at": "2026-11-11T01:01:52Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "xXkintzyXx",
-            "Th3originBoS5",
-            "Fyth Shadow"
+            "Th3originBoS5"
           ]
         },
         {
@@ -44,25 +43,26 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "miclebia"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "HotPolarBear550",
-            "SummerLoven0719",
-            "MattyRoth83"
+            "SummerLoven0719"
           ]
         },
         {
@@ -230,12 +230,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.18)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Fyth Shadow"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.18)",

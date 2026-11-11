@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-11T14:07:02Z",
+  "generated_at": "2026-11-11T14:11:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Profesor"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
@@ -48,12 +50,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "sidimaraki100",
+            "neutrinopc"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.21)",
@@ -62,7 +67,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

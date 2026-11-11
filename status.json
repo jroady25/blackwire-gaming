@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:22:06Z",
+  "generated_at": "2026-11-11T02:26:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,13 +20,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Dat_Boi_Mike_70"
+            "Dat_Boi_Mike_70",
+            "Zackattack28060"
           ]
         },
         {
@@ -148,12 +149,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v97.18)",
+          "name": "BlackWire - Lost Colony - PVP - (v97.21)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -212,7 +213,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -280,6 +281,16 @@
           "players": []
         },
         {
+          "name": "BlackWire - The Center - PVE - (v97.21)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",
           "online": true,
           "players_current": 0,
@@ -307,14 +318,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - The Center - PVE - (v97.18)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
         }
       ]
     },

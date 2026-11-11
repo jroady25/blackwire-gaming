@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T04:11:56Z",
+  "generated_at": "2026-11-11T04:16:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Th3originBoS5",
             "Fyth Shadow",
@@ -20,15 +20,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Zackattack28060",
-            "Dat_Boi_Mike_70",
-            "Bretty Wat"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -57,14 +56,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "HotPolarBear550",
-            "nb_gotcha"
+            "nb_gotcha",
+            "Luckyybear14"
           ]
         },
         {
@@ -140,12 +140,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "TAk0_LOVER-"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.21)",
@@ -274,13 +276,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 4,
           "players": [
-            "Player17854",
             "Firefang0810",
             "KAKASHIxHATAKE97",
             "joeygaming63"

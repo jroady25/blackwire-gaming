@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:36:44Z",
+  "generated_at": "2026-11-11T00:41:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -56,12 +56,12 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
-            "GrizzMode",
             "HotPolarBear550",
             "Fyth Shadow",
-            "SummerLoven0719"
+            "SummerLoven0719",
+            "KodasBetter"
           ]
         },
         {

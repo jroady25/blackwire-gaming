@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:41:48Z",
+  "generated_at": "2026-11-11T00:46:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -56,7 +56,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "HotPolarBear550",
             "Fyth Shadow",
@@ -127,7 +127,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -192,9 +192,8 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.18)",
@@ -314,12 +313,13 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.18)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 0,
+          "offline_since": "2026-11-11T00:46:58Z"
         }
       ]
     },

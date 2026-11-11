@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T05:12:00Z",
+  "generated_at": "2026-11-11T05:17:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,28 +41,31 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "miclebia",
-            "miclebiaso"
+            "miclebiaso",
+            "klosyto",
+            "GaelonchesPG"
           ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Luckyybear14",
             "HotPolarBear550",
-            "Bretty Wat"
+            "Bretty Wat",
+            "Zaacattack990"
           ]
         },
         {
@@ -212,7 +215,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -248,15 +251,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "legendx12x",
-            "KAKASHIxHATAKE97",
-            "Zaacattack990"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -272,14 +274,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "joeygaming63",
-            "Player17854"
+            "Player17854",
+            "Firefang0810"
           ]
         },
         {

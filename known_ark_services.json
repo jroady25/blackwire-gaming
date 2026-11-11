@@ -14,7 +14,7 @@
     },
     {
       "service_id": "18111097",
-      "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.18)"
+      "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)"
     },
     {
       "service_id": "18111130",
@@ -26,7 +26,7 @@
     },
     {
       "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v97.18)"
+      "name": "BlackWire - Scorched Earth - PVP - (v97.21)"
     },
     {
       "service_id": "18111211",
@@ -34,15 +34,15 @@
     },
     {
       "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v97.18)"
+      "name": "BlackWire - The Island - PVP - (v97.21)"
     },
     {
       "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v97.18)"
+      "name": "BlackWire - Aberration - PVP - (v97.21)"
     },
     {
       "service_id": "18497059",
-      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)"
+      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.21)"
     },
     {
       "service_id": "18638510",
@@ -62,11 +62,11 @@
     },
     {
       "service_id": "19380386",
-      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.18)"
+      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.21)"
     },
     {
       "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v97.18)"
+      "name": "BlackWire - Genesis 1 - PVP - (v97.21)"
     },
     {
       "service_id": "18357526",
@@ -74,7 +74,7 @@
     },
     {
       "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v97.18)"
+      "name": "BlackWire - The Island - SOTF - PVP - (v97.21)"
     },
     {
       "service_id": "18610040",
@@ -86,7 +86,7 @@
     },
     {
       "service_id": "18860204",
-      "name": "BlackWire - Scorched Earth - PVE - (v97.18)"
+      "name": "BlackWire - Scorched Earth - PVE - (v97.21)"
     },
     {
       "service_id": "18863102",
@@ -122,37 +122,17 @@
     }
   ],
   "dragonwilds": {
-    "offset": 8899067,
+    "offset": 8902803,
     "online": {},
     "last_accept": "8005476c6c5bb530",
     "pending_name": null,
-    "log_size": 8899067,
+    "log_size": 8902608,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
     "ark:BlackWire - Ragnarok - PVE - (v97.18)": "2026-11-11T01:21:51Z",
     "ark:BlackWire Paleo Ark - Astraeos - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:Blackwire - The Island - Primal Chaos - PVE - (v97.18)": "2026-11-11T01:21:51Z",
     "ark:BlackWire - Astraeos - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Extinction - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Scorched Earth - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - The Island - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Aberration - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:Blackwire - Ragnarok - Primal Chaos - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Ragnarok - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire Paleo Ark - Ragnarok - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - The Fractured Seas - Rp - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Genesis 1 - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - The Island - SOTF - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Astraeos - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Scorched Earth - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Abberation - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Lost Colony - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Extinction - PVP - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - The Island - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Genesis 1 - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Bjarnheim - PVE - (v97.18)": "2026-11-11T01:21:51Z",
-    "ark:BlackWire - Mod Test Map - (v97.21)": "2026-11-11T01:21:51Z"
+    "ark:BlackWire - The Island - PVE - (v97.18)": "2026-11-11T01:21:51Z"
   }
 }

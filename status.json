@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-11-11T03:01:55Z",
+  "generated_at": "2026-11-11T03:06:47Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Th3originBoS5",
-            "DBOreoFriz"
+            "DBOreoFriz",
+            "Fyth Shadow"
           ]
         },
         {
@@ -208,11 +209,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "names_hidden": true
         },
         {
@@ -228,14 +229,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Fyth Shadow"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.21)",

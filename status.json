@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T05:27:03Z",
+  "generated_at": "2026-11-11T05:32:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,15 +41,13 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 1,
           "players": [
-            "miclebiaso",
-            "GaelonchesPG",
-            "klosyto"
+            "miclebiaso"
           ]
         },
         {
@@ -62,7 +60,7 @@
           "nitrado_count": 3,
           "players": [
             "Zaacattack990",
-            "jandles13"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -248,14 +246,13 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "legendx12x",
-            "KAKASHIxHATAKE97",
             "Bretty Wat"
           ]
         },
@@ -272,15 +269,17 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "joeygaming63",
             "Player17854",
-            "Firefang0810"
+            "Firefang0810",
+            "Luckyybear14",
+            "jandles13"
           ]
         },
         {

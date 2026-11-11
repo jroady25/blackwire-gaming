@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T05:32:02Z",
+  "generated_at": "2026-11-11T05:37:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,7 +57,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Zaacattack990",
             "KAKASHIxHATAKE97"
@@ -273,7 +273,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "joeygaming63",
             "Player17854",

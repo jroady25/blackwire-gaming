@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:47:10Z",
+  "generated_at": "2026-11-11T06:51:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -139,6 +139,16 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v97.21)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
         },
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)",
@@ -301,16 +311,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVP - (v97.21)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "names_hidden": true
         }
       ]
     },
@@ -328,11 +328,10 @@
         {
           "name": "Palworld Limitless PVP",
           "service_id": "19733590",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
           "map": null,
-          "offline_since": "2026-11-11T06:47:10Z",
           "names_hidden": true
         },
         {
@@ -375,9 +374,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

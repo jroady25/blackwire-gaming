@@ -1,32 +1,30 @@
 {
-  "generated_at": "2026-11-11T04:41:56Z",
+  "generated_at": "2026-11-11T04:46:59Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Th3originBoS5",
-            "Fyth Shadow",
-            "Sweetpee2"
+            "Fyth Shadow"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.18)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Zackattack28060",
             "Dat_Boi_Mike_70"
           ]
         },

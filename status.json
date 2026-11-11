@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T12:26:52Z",
+  "generated_at": "2026-11-11T12:31:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -301,11 +301,12 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.21)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-11T12:21:49Z"
+          "map": "TheIsland_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0
         }
       ]
     },

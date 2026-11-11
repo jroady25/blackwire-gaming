@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-11T20:11:48Z",
+  "generated_at": "2026-11-11T20:17:06Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Crackedtunic",
             "Dwarslaesie88",
-            "Bretty Wat"
+            "Bretty Wat",
+            "DriftNalg"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "DriftNalg",
             "Dat_Boi_Mike_70"
           ]
         },
@@ -57,7 +57,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 7,
           "players": [
             "nashie069",
             "Vip_person",
@@ -131,11 +131,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {

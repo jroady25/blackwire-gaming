@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-11T00:46:58Z",
+  "generated_at": "2026-11-11T00:51:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.18)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "xXkintzyXx"
+            "xXkintzyXx",
+            "Th3originBoS5"
           ]
         },
         {
@@ -52,7 +53,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.18)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -61,7 +62,8 @@
             "HotPolarBear550",
             "Fyth Shadow",
             "SummerLoven0719",
-            "KodasBetter"
+            "KodasBetter",
+            "MattyRoth83"
           ]
         },
         {
@@ -131,7 +133,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -187,13 +189,14 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Event Map - (v97.18)",
+          "name": "BlackWire - Event Map - (v97.21)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v97.18)",
@@ -208,11 +211,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.18)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "names_hidden": true
         },
         {
@@ -312,14 +315,13 @@
           "players": []
         },
         {
-          "name": "BlackWire - Mod Test Map - (v97.18)",
-          "online": false,
+          "name": "BlackWire - Mod Test Map - (v97.21)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-11T00:46:58Z"
+          "nitrado_count": 0
         }
       ]
     },

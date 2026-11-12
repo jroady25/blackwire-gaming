@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-11-12T15:42:04Z",
+  "generated_at": "2026-11-12T15:46:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "Reilig",
             "bckyrdBOOST818",
             "Pok3",
-            "Haitheat"
+            "Haitheat",
+            "the chosen one."
           ]
         },
         {
@@ -266,14 +267,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "the chosen one."
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",

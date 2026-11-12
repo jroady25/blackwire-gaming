@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:36:58Z",
+  "generated_at": "2026-11-12T23:41:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -153,14 +153,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "xMrFudNutzx"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.21)",
@@ -265,13 +263,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "Derangedjoka",
             "zolla619",
             "Dclx00"
           ]

@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-11-12T19:12:06Z",
+  "generated_at": "2026-11-12T19:16:49Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Crackedtunic",
-            "Dwarslaesie88"
+            "Dwarslaesie88",
+            "Profesor"
           ]
         },
         {
@@ -288,12 +289,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "EXDaydreamer"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.21)",

@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-12T20:31:54Z",
+  "generated_at": "2026-11-12T20:36:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Profesor",
-            "Bretty Wat"
+            "Profesor"
           ]
         },
         {
@@ -55,12 +54,12 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "nashie069",
             "Whiteninja090",
-            "HotPolarBear550",
-            "lethalcomp"
+            "lethalcomp",
+            "Bretty Wat"
           ]
         },
         {
@@ -126,7 +125,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -156,15 +155,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Barmaley",
-            "cerberus",
-            "Slick"
+            "cerberus"
           ]
         },
         {

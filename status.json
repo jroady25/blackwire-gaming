@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:41:50Z",
+  "generated_at": "2026-11-12T07:46:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,12 +28,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "NeyoN_AuX"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
@@ -48,24 +50,24 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v97.21)",
-          "online": true,
           "players_current": 1,
           "players_max": 20,
-          "map": "Extinction_WP",
+          "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
             "Zaacattack990"
           ]
+        },
+        {
+          "name": "BlackWire - Extinction - PVE - (v97.21)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.21)",

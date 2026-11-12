@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:42:00Z",
+  "generated_at": "2026-11-12T21:46:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,24 +52,25 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "BLAZEDRIPPER825"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 2,
+          "players": [
+            "Javidlalala7",
+            "the chosen one."
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.21)",
@@ -267,15 +268,13 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 1,
           "players": [
-            "123",
-            "the chosen one.",
-            "Javidlalala7"
+            "123"
           ]
         },
         {
@@ -298,7 +297,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "EXDaydreamer",
             "CoachTooka",

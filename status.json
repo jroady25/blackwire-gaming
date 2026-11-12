@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T11:56:52Z",
+  "generated_at": "2026-11-12T12:01:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -100,7 +100,7 @@
         {
           "name": "BlackWire - Aberration - PVP - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",

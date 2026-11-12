@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-12T15:52:03Z",
+  "generated_at": "2026-11-12T15:56:49Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "bckyrdBOOST818",
-            "Pok3",
             "Haitheat",
             "the chosen one."
           ]
@@ -57,7 +56,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "HotPolarBear550"
           ]

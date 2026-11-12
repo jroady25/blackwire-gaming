@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:02:00Z",
+  "generated_at": "2026-11-12T01:07:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,13 +51,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Bretty Wat"
+            "Bretty Wat",
+            "SpoggDarr"
           ]
         },
         {
@@ -299,12 +300,14 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "MattyRoth83"
+          ]
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.21)",

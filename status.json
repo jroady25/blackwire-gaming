@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:11:57Z",
+  "generated_at": "2026-11-12T23:16:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "DriftNalg"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)",
@@ -38,15 +36,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "twitch.tv/LilBit...",
-            "Zlockwalking",
-            "Rrfds32631"
+            "Zlockwalking"
           ]
         },
         {
@@ -267,7 +264,7 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -275,7 +272,8 @@
           "players": [
             "Derangedjoka",
             "zolla619",
-            "Dclx00"
+            "Dclx00",
+            "Player17854"
           ]
         },
         {

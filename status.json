@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:26:54Z",
+  "generated_at": "2026-11-12T13:31:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -60,12 +60,14 @@
         {
           "name": "BlackWire - Extinction - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "bckyrdBOOST818"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.21)",
@@ -94,7 +96,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -260,12 +262,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Firefang0810"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",
@@ -314,11 +318,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

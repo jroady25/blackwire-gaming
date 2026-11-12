@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-12T23:21:53Z",
+  "generated_at": "2026-11-12T23:26:54Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "DragonWolf7676"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
@@ -28,12 +26,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "DragonWolf7676"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
@@ -51,14 +51,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "HotPolarBear550",
-            "Firefang0810"
+            "Firefang0810",
+            "Player17854"
           ]
         },
         {
@@ -266,16 +267,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "Derangedjoka",
             "zolla619",
-            "Dclx00",
-            "Player17854"
+            "Dclx00"
           ]
         },
         {

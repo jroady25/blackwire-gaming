@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-12T22:21:53Z",
+  "generated_at": "2026-11-12T22:26:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Profesor",
             "the chosen one.",
             "Javidlalala7"
           ]
@@ -271,25 +270,27 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Derangedjoka"
+            "Derangedjoka",
+            "Firefang0810"
           ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Tata_Voyage"
+            "Tata_Voyage",
+            "Profesor"
           ]
         },
         {

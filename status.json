@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T10:16:58Z",
+  "generated_at": "2026-11-12T10:21:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -232,7 +232,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Dat_Boi_Mike_70"
           ]

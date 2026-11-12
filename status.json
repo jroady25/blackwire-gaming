@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-12T10:12:08Z",
+  "generated_at": "2026-11-12T10:16:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Profesor"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
@@ -19,8 +21,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)",
@@ -28,8 +31,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
@@ -143,13 +147,13 @@
         },
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-12T10:12:08Z"
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v97.21)",
@@ -224,12 +228,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": []
+          "nitrado_count": 0,
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
@@ -269,8 +275,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",

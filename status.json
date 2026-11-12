@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T00:37:00Z",
+  "generated_at": "2026-11-12T00:41:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,7 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -53,7 +53,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -225,7 +225,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Bretty Wat"
           ]

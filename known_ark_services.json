@@ -122,14 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 9912838,
+    "offset": 9916381,
     "online": {},
     "last_accept": "af5fb2afbc3395e2",
     "pending_name": null,
-    "log_size": 9912838,
+    "log_size": 9916381,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - The Center - PVP - (v97.21)": "2026-11-12T02:31:55Z"
+    "ark:BlackWire - Genesis 1 - PVP - (v97.21)": "2026-11-12T02:36:46Z"
   }
 }

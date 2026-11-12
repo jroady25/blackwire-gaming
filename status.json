@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:02:00Z",
+  "generated_at": "2026-11-12T16:06:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,9 +12,9 @@
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "bckyrdBOOST818",
             "Haitheat",
-            "the chosen one."
+            "the chosen one.",
+            "Pok3"
           ]
         },
         {

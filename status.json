@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-12T00:16:58Z",
+  "generated_at": "2026-11-12T00:22:08Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Th3originBoS5",
-            "HotPolarBear550"
+            "Th3originBoS5"
           ]
         },
         {
@@ -23,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Bretty Wat"
           ]
@@ -54,12 +53,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "HotPolarBear550"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v97.21)",
@@ -266,7 +267,7 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -274,7 +275,8 @@
           "players": [
             "Dclx00",
             "Derangedjoka",
-            "zolla619"
+            "zolla619",
+            "Firefang0810"
           ]
         },
         {

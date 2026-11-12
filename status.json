@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:06:49Z",
+  "generated_at": "2026-11-12T19:12:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -123,7 +123,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -272,7 +272,7 @@
           "nitrado_count": 2,
           "players": [
             "Tata_Voyage",
-            "Profesor"
+            "Derangedjoka"
           ]
         },
         {
@@ -292,7 +292,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

@@ -33,10 +33,6 @@
       "name": "BlackWire - The Center - PVP - (v97.21)"
     },
     {
-      "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v97.21)"
-    },
-    {
       "service_id": "18293911",
       "name": "BlackWire - Aberration - PVP - (v97.21)"
     },
@@ -119,14 +115,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.21)"
+    },
+    {
+      "service_id": "18271504",
+      "name": "BlackWire - The Island - PVP - (v97.21)"
     }
   ],
   "dragonwilds": {
-    "offset": 10201104,
+    "offset": 10204092,
     "online": {},
     "last_accept": "af5fb2afbc3395e2",
     "pending_name": null,
-    "log_size": 10201104,
+    "log_size": 10204092,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

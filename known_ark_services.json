@@ -29,10 +29,6 @@
       "name": "BlackWire - Scorched Earth - PVP - (v97.21)"
     },
     {
-      "service_id": "18111211",
-      "name": "BlackWire - The Center - PVP - (v97.21)"
-    },
-    {
       "service_id": "18271504",
       "name": "BlackWire - The Island - PVP - (v97.21)"
     },
@@ -93,10 +89,6 @@
       "name": "BlackWire - Abberation - PVE - (v97.21)"
     },
     {
-      "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v97.21)"
-    },
-    {
       "service_id": "19368770",
       "name": "BlackWire - Extinction - PVP - (v97.21)"
     },
@@ -119,14 +111,22 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v97.21)"
+    },
+    {
+      "service_id": "18111211",
+      "name": "BlackWire - The Center - PVP - (v97.21)"
+    },
+    {
+      "service_id": "19072757",
+      "name": "BlackWire - Lost Colony - PVE - (v97.21)"
     }
   ],
   "dragonwilds": {
-    "offset": 10070672,
+    "offset": 10073466,
     "online": {},
     "last_accept": "af5fb2afbc3395e2",
     "pending_name": null,
-    "log_size": 10070672,
+    "log_size": 10073466,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

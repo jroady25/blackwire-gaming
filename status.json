@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T04:31:53Z",
+  "generated_at": "2026-11-12T04:36:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,13 +55,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "Bretty Wat",
             "KAKASHIxHATAKE97",
             "SummerLoven0719"
           ]
@@ -249,12 +248,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v97.21)",

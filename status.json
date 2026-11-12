@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:06:49Z",
+  "generated_at": "2026-11-12T23:11:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,13 +52,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "HotPolarBear550"
+            "HotPolarBear550",
+            "Firefang0810"
           ]
         },
         {
@@ -154,13 +155,12 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Barmaley",
             "xMrFudNutzx"
           ]
         },
@@ -267,7 +267,7 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -275,8 +275,7 @@
           "players": [
             "Derangedjoka",
             "zolla619",
-            "Dclx00",
-            "Firefang0810"
+            "Dclx00"
           ]
         },
         {
@@ -298,7 +297,7 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "EXDaydreamer"
+            "sneakyalex63"
           ]
         },
         {

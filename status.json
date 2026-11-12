@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-12T22:46:53Z",
+  "generated_at": "2026-11-12T22:51:52Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Tata_Voyage"
+            "Tata_Voyage",
+            "Profesor"
           ]
         },
         {
@@ -160,7 +161,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "Barmaley",
             "xMrFudNutzx"
@@ -269,16 +270,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 5,
           "players": [
             "Derangedjoka",
             "Firefang0810",
-            "123",
-            "Javidlalala7",
             "zolla619",
             "Player17854",
             "Dclx00"
@@ -297,16 +296,15 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "EXDaydreamer",
             "Vip_person",
-            "MattyRoth83",
-            "Profesor"
+            "MattyRoth83"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:11:59Z",
+  "generated_at": "2026-11-12T21:17:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,13 +40,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "twitch.tv/LilBit..."
+            "twitch.tv/LilBit...",
+            "Zlockwalking"
           ]
         },
         {
@@ -258,11 +259,11 @@
         {
           "name": "BlackWire - Extinction - PVP - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -299,7 +300,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "EXDaydreamer",
             "CoachTooka"

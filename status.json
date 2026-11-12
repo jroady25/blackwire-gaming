@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T04:21:57Z",
+  "generated_at": "2026-11-12T04:27:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -129,7 +129,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -209,7 +209,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -325,11 +325,11 @@
         {
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
-          "map": null
+          "map": null,
+          "offline_since": "2026-11-12T04:27:02Z"
         },
         {
           "name": "Palworld Limitless PVP",

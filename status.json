@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:02:00Z",
+  "generated_at": "2026-11-12T21:06:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,12 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)",
@@ -236,14 +238,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
@@ -268,14 +268,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "123",
-            "the chosen one."
+            "the chosen one.",
+            "Javidlalala7"
           ]
         },
         {

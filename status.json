@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T12:06:56Z",
+  "generated_at": "2026-11-12T12:11:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -102,11 +102,11 @@
         {
           "name": "BlackWire - Aberration - PVP - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -122,11 +122,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

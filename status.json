@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-12T22:41:51Z",
+  "generated_at": "2026-11-12T22:46:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Tata_Voyage",
-            "Profesor"
+            "Tata_Voyage"
           ]
         },
         {
@@ -157,13 +156,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Barmaley"
+            "Barmaley",
+            "xMrFudNutzx"
           ]
         },
         {
@@ -280,8 +280,8 @@
             "123",
             "Javidlalala7",
             "zolla619",
-            "the chosen one.",
-            "Player17854"
+            "Player17854",
+            "Dclx00"
           ]
         },
         {
@@ -297,7 +297,7 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
@@ -305,7 +305,8 @@
           "players": [
             "EXDaydreamer",
             "Vip_person",
-            "MattyRoth83"
+            "MattyRoth83",
+            "Profesor"
           ]
         },
         {

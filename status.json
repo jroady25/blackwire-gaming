@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T00:22:08Z",
+  "generated_at": "2026-11-12T00:26:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -211,7 +211,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "names_hidden": true
         },
         {
@@ -271,12 +271,12 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 5,
           "players": [
             "Dclx00",
             "Derangedjoka",
-            "zolla619",
-            "Firefang0810"
+            "Firefang0810",
+            "Player17854"
           ]
         },
         {

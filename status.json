@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T05:01:49Z",
+  "generated_at": "2026-11-12T05:06:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,14 +18,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Dat_Boi_Mike_70",
-            "Bretty Wat"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -127,11 +126,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

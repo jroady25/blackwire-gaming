@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T22:56:49Z",
+  "generated_at": "2026-11-12T23:01:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,13 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Dat_Boi_Mike_70",
             "DriftNalg"
           ]
         },
@@ -297,7 +296,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "EXDaydreamer"
           ]

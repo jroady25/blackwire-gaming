@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-12T10:32:01Z",
+  "generated_at": "2026-11-12T10:36:49Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Profesor"
+            "Profesor",
+            "Zaacattack990"
           ]
         },
         {
@@ -50,14 +51,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Naykdtime",
-            "Zaacattack990"
+            "Naykdtime"
           ]
         },
         {
@@ -240,7 +240,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

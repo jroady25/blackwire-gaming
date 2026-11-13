@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-11-13T20:12:40Z",
+  "generated_at": "2026-11-13T20:16:51Z",
   "servers": {
     "ark": {
       "servers": [
+        {
+          "name": "BlackWire - Ragnarok - PVE - (v98.2)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
           "online": true,
@@ -26,12 +36,27 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "AndyB8541"
+          ]
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v98.2)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "count_source": "rcon",
+          "nitrado_count": 2,
+          "players": [
+            "Whiteninja090",
+            "neutrinopc"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.2)",
@@ -86,12 +111,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Scarbrain69"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
@@ -206,14 +233,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Florii004"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",
@@ -283,22 +308,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVE - (v97.21)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v97.21)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
         }
       ]
     },

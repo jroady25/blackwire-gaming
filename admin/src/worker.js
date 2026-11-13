@@ -56,10 +56,20 @@ function csrfOk(request) {
   return request.headers.get("X-BW-Request") === "1";
 }
 
-async function getSnapshot(env, { force = false } = {}) {
+/**
+ * maxAgeMs lets callers that only need RCON host/port (which barely ever
+ * change) reuse an older snapshot instead of rebuilding it. A rebuild is
+ * ~35 Nitrado calls and Cloudflare caps one request at 50 outbound calls,
+ * so rebuilding inside a broadcast is what made big sends fail.
+ */
+async function getSnapshot(env, { force = false, maxAgeMs = null } = {}) {
   const cached = await env.STORE.get(SNAPSHOT_KEY, "json");
   const age = cached ? Date.now() - cached.fetchedAt : Infinity;
-  if (cached && age < (force ? 15000 : SNAPSHOT_FRESH_MS)) return { ...cached, cached: true };
+  const limit = maxAgeMs ?? (force ? 15000 : SNAPSHOT_FRESH_MS);
+  // "invalidated" = an action just ran: the board should refresh, but the
+  // copy stays as a fallback in case Nitrado is slow to answer.
+  const usable = cached && (maxAgeMs != null || !cached.invalidated);
+  if (usable && age < limit) return { ...cached, cached: true };
 
   try {
     const snapshot = await buildSnapshot(env.NITRADO_TOKEN, {
@@ -67,7 +77,12 @@ async function getSnapshot(env, { force = false } = {}) {
       nameExclude: env.NAME_EXCLUDE,
       clusters: env.CLUSTERS,
     });
-    await env.STORE.put(SNAPSHOT_KEY, JSON.stringify(snapshot), { expirationTtl: 300 });
+    // Nitrado can answer with an empty service list mid-update. Never let
+    // that replace a good board with "No game servers found".
+    if (!snapshot.servers.length && cached?.servers?.length) {
+      return { ...cached, cached: true, staleError: "Nitrado returned no servers - showing the last good list." };
+    }
+    await env.STORE.put(SNAPSHOT_KEY, JSON.stringify(snapshot), { expirationTtl: 900 });
     return { ...snapshot, cached: false };
   } catch (err) {
     // Nitrado hiccupped — better to show a slightly stale board than none.
@@ -112,9 +127,17 @@ async function runAction(env, { action, serviceIds, message, actor }) {
     failed: results.filter((result) => !result.ok).length,
   });
 
-  await env.STORE.delete(SNAPSHOT_KEY);
+  // Mark stale instead of deleting, so a slow Nitrado answer right after
+  // a mass restart still has a board to fall back on.
+  const cached = await env.STORE.get(SNAPSHOT_KEY, "json");
+  if (cached) {
+    await env.STORE.put(SNAPSHOT_KEY, JSON.stringify({ ...cached, invalidated: true }), { expirationTtl: 900 });
+  }
   return results;
 }
+
+// RCON only needs host/port, which don't change between restarts.
+const RCON_SNAPSHOT_MAX_AGE_MS = 15 * 60 * 1000;
 
 /**
  * RCON endpoints for every ARK server: the live host/port Nitrado reports
@@ -125,7 +148,7 @@ async function runAction(env, { action, serviceIds, message, actor }) {
 async function liveRconEndpoints(env) {
   const map = new Map(await rconEndpoints());
   try {
-    const snapshot = await getSnapshot(env);
+    const snapshot = await getSnapshot(env, { maxAgeMs: RCON_SNAPSHOT_MAX_AGE_MS });
     for (const server of snapshot.servers || []) {
       if (server.game !== "arksa" || !server.rcon?.host || !server.rcon?.port) continue;
       map.set(String(server.serviceId), { host: server.rcon.host, port: server.rcon.port, name: server.name });
@@ -141,7 +164,7 @@ async function rconTargetList(env) {
   const endpoints = await liveRconEndpoints(env);
   const names = new Map();
   try {
-    const snapshot = await getSnapshot(env);
+    const snapshot = await getSnapshot(env, { maxAgeMs: RCON_SNAPSHOT_MAX_AGE_MS });
     for (const server of snapshot.servers || []) names.set(String(server.serviceId), server.name);
   } catch {
     // Names are cosmetic; the config's own name is a fine fallback.

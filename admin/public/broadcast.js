@@ -86,8 +86,32 @@
     $('send-note').className = 'note';
     $('send-note').textContent = 'Sending to ' + ids.length + ' server' + (ids.length > 1 ? 's' : '') + '…';
 
-    api('api/rcon/say', { method: 'POST', body: { serviceIds: ids, message: message, mode: mode } })
-      .then(function (data) {
+    // Cloudflare caps how many outside connections one request may open,
+    // so a big send goes out in small groups, one after another, and the
+    // results are stitched back together in the original order.
+    var BATCH = 5;
+    var groups = [];
+    for (var g = 0; g < ids.length; g += BATCH) groups.push(ids.slice(g, g + BATCH));
+    var all = [];
+
+    groups.reduce(function (chain, group, n) {
+      return chain.then(function () {
+        if (groups.length > 1) {
+          $('send-note').textContent = 'Sending to ' + ids.length + ' servers… (' + Math.min((n + 1) * BATCH, ids.length) + '/' + ids.length + ')';
+        }
+        return api('api/rcon/say', { method: 'POST', body: { serviceIds: group, message: message, mode: mode } })
+          .then(function (data) {
+            all = all.concat(data.results || []);
+            renderResults(all);
+          }, function (err) {
+            if (err.message === 'unauthorized') throw err;
+            all = all.concat(group.map(function (id) { return { serviceId: id, ok: false, error: err.message }; }));
+            renderResults(all);
+          });
+      });
+    }, Promise.resolve())
+      .then(function () {
+        var data = { results: all };
         renderResults(data.results || []);
         var ok = (data.results || []).filter(function (r) { return r.ok; }).length;
         var failed = (data.results || []).length - ok;

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:51:57Z",
+  "generated_at": "2026-11-13T17:56:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "Haitheat",
             "123",
@@ -22,12 +22,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Sniffy7990",
+            "Itz finnnnnn"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v97.21)",
@@ -58,7 +61,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "Zaacattack990",
             "Vip_person",

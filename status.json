@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:26:57Z",
+  "generated_at": "2026-11-13T07:31:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,12 +28,14 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "SinisterSuave666"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
@@ -115,7 +117,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "DireMeek",
             "Sgt-Bilco-"
@@ -160,7 +162,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Barmaley"
           ]
@@ -170,6 +172,16 @@
           "online": true,
           "players_current": 0,
           "players_max": 26,
+          "map": "Genesis_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Genesis 1 - PVP - (v97.21)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
@@ -306,14 +318,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Genesis 1 - PVP - (v97.21)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
         }
       ]
     },

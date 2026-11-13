@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:21:50Z",
+  "generated_at": "2026-11-13T14:26:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -221,7 +221,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -261,7 +261,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

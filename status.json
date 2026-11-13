@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T00:41:59Z",
+  "generated_at": "2026-11-13T00:46:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 3,
           "players": [
             "xXkintzyXx",
             "Fyth Shadow",
@@ -20,15 +20,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "KAKASHIxHATAKE97",
-            "DriftNalg",
-            "Dat_Boi_Mike_70"
+            "DriftNalg"
           ]
         },
         {
@@ -57,14 +56,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "HotPolarBear550",
-            "Reilig"
+            "Reilig",
+            "do_gotcha"
           ]
         },
         {
@@ -242,12 +242,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
@@ -276,7 +278,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "zolla619",
             "Dclx00",

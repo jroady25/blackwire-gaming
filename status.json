@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:17:02Z",
+  "generated_at": "2026-11-13T02:21:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -43,21 +43,20 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "twitch.tv/LilBit...",
-            "jana_mew",
             "Zlockwalking"
           ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -65,7 +64,8 @@
           "players": [
             "HotPolarBear550",
             "KAKASHIxHATAKE97",
-            "Naykdtime"
+            "Naykdtime",
+            "Coffee Addict"
           ]
         },
         {
@@ -121,12 +121,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "jana_mew"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
@@ -213,7 +215,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.21)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

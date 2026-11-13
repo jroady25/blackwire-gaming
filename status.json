@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:26:52Z",
+  "generated_at": "2026-11-13T05:31:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,14 +32,12 @@
         {
           "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "SinisterSuave666"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)",
@@ -62,8 +60,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "HotPolarBear550",
-            "Firefang0810"
+            "Firefang0810",
+            "HotPolarBear550"
           ]
         },
         {

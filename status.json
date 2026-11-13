@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:51:51Z",
+  "generated_at": "2026-11-13T13:56:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -124,11 +124,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -257,7 +257,7 @@
         {
           "name": "BlackWire - Extinction - PVP - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
@@ -267,7 +267,7 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -275,7 +275,8 @@
           "players": [
             "zolla619",
             "Dclx00",
-            "123"
+            "123",
+            "joeygaming63"
           ]
         },
         {

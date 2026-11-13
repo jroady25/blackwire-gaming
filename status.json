@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T05:02:09Z",
+  "generated_at": "2026-11-13T05:06:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,7 +24,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -178,6 +178,16 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Genesis 1 - PVP - (v97.21)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Genesis_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Event Map - (v97.21)",
           "online": true,
           "players_current": 0,
@@ -309,16 +319,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Genesis 1 - PVP - (v97.21)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Genesis_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "names_hidden": true
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T01:56:51Z",
+  "generated_at": "2026-11-13T02:01:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,8 +51,8 @@
           "nitrado_count": 3,
           "players": [
             "twitch.tv/LilBit...",
-            "Zlockwalking",
-            "jana_mew"
+            "jana_mew",
+            "Zlockwalking"
           ]
         },
         {
@@ -131,11 +131,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -213,11 +213,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "names_hidden": true
         },
         {
@@ -299,7 +299,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

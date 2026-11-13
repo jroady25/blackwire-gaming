@@ -122,12 +122,43 @@
     }
   ],
   "dragonwilds": {
-    "offset": 11577712,
+    "offset": 11581061,
     "online": {},
     "last_accept": "1eed41c5e4109c8e",
     "pending_name": null,
-    "log_size": 11577712,
+    "log_size": 11581061,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:BlackWire - Ragnarok - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Valguero - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Astraeos - Paleo Ark - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:Blackwire - The Island - Primal Chaos - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Astraeos - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Extinction - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Scorched Earth - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - The Center - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - The Island - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Aberration - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:Blackwire - Ragnarok - Primal Chaos - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Ragnarok - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Lost Colony - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Ragnarok - Paleo Ark - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - The Fractured Seas - Rp - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Genesis 1 - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Event Map - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - The Island - SOTF - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Astraeos - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Valguero - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Scorched Earth - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Abberation - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Lost Colony - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Extinction - PVP - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - The Island - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - The Center - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Genesis 1 - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Bjarnheim - PVE - (v97.21)": "2026-11-13T19:56:48Z",
+    "ark:BlackWire - Mod Test Map - (v98.2)": "2026-11-13T19:56:48Z"
+  }
 }

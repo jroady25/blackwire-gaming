@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-13T18:32:00Z",
+  "generated_at": "2026-11-13T18:36:59Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
-            "123",
             "utu_doughboy420",
             "Profesor",
             "Haitheat",
@@ -57,7 +56,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 6,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -67,8 +66,9 @@
             "Vip_person",
             "EXDaydreamer",
             "nashie069",
-            "HotPolarBear550",
-            "Whiteninja090"
+            "Whiteninja090",
+            "jandles13",
+            "HotPolarBear550"
           ]
         },
         {
@@ -274,13 +274,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Javidlalala7"
+            "Javidlalala7",
+            "123"
           ]
         },
         {

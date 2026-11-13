@@ -1,21 +1,19 @@
 {
-  "generated_at": "2026-11-13T02:21:53Z",
+  "generated_at": "2026-11-13T02:26:54Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 2,
           "players": [
             "Fyth Shadow",
-            "Aphrodite",
-            "Reilig",
-            "do_gotcha"
+            "Aphrodite"
           ]
         },
         {
@@ -47,7 +45,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "twitch.tv/LilBit...",
             "Zlockwalking"
@@ -60,12 +58,12 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "HotPolarBear550",
             "KAKASHIxHATAKE97",
             "Naykdtime",
-            "Coffee Addict"
+            "neutrinopc"
           ]
         },
         {
@@ -125,7 +123,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "jana_mew"
           ]
@@ -219,7 +217,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "names_hidden": true
         },
         {
@@ -287,22 +285,28 @@
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 3,
+          "players": [
+            "Coffee Addict",
+            "Reilig",
+            "do_gotcha"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "CoachTooka"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.21)",

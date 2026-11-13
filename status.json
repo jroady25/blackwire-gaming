@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:21:51Z",
+  "generated_at": "2026-11-13T04:27:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,15 +52,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "HotPolarBear550",
-            "KAKASHIxHATAKE97",
-            "GrizzMode"
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -140,14 +139,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "jana_mew"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.21)",
@@ -329,11 +326,11 @@
         {
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
-          "players": [],
-          "map": null
+          "map": null,
+          "offline_since": "2026-11-13T04:27:01Z"
         },
         {
           "name": "Palworld Limitless PVP",

@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-11-13T01:01:47Z",
+  "generated_at": "2026-11-13T01:06:50Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "xXkintzyXx",
             "Fyth Shadow",
-            "Aphrodite"
+            "Aphrodite",
+            "Bretty Wat"
           ]
         },
         {
@@ -27,8 +28,8 @@
           "nitrado_count": 3,
           "players": [
             "KAKASHIxHATAKE97",
-            "DriftNalg",
-            "ThatMcHaggis"
+            "ThatMcHaggis",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -65,7 +66,7 @@
           "players": [
             "HotPolarBear550",
             "Reilig",
-            "Bretty Wat"
+            "do_gotcha"
           ]
         },
         {
@@ -245,14 +246,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
@@ -277,15 +276,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "zolla619",
-            "Dclx00",
-            "Leather Nuts"
+            "Dclx00"
           ]
         },
         {

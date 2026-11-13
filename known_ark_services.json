@@ -10,7 +10,7 @@
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire Paleo Ark - Astraeos - PVE - (v97.21)"
+      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v97.21)"
     },
     {
       "service_id": "18111097",
@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 11430313,
+    "offset": 11433301,
     "online": {},
     "last_accept": "1eed41c5e4109c8e",
     "pending_name": null,
-    "log_size": 11430313,
+    "log_size": 11433301,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire Paleo Ark - Astraeos - PVE - (v97.21)": "2026-11-13T16:11:49Z"
-  }
+  "offline_since": {}
 }

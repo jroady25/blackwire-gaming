@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:16:51Z",
+  "generated_at": "2026-11-13T23:21:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,12 +57,12 @@
           "nitrado_count": 7,
           "players": [
             "Whiteninja090",
-            "lethalcomp",
             "Zaacattack990",
             "EXDaydreamer",
             "Vip_person",
             "HotPolarBear550",
-            "nashie069"
+            "nashie069",
+            "jandles13"
           ]
         },
         {
@@ -134,7 +134,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -214,7 +214,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {
@@ -274,13 +274,13 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
             "Rowena",
             "zolla619",
-            "jandles13",
             "123",
-            "the chosen one."
+            "the chosen one.",
+            "Dclx00"
           ]
         },
         {

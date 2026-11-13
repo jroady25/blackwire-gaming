@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-11-13T18:07:00Z",
+  "generated_at": "2026-11-13T18:11:55Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
-            "Haitheat",
             "123",
             "Pok3",
             "utu_doughboy420",
@@ -61,7 +60,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 7,
           "players": [
             "Zaacattack990",
             "Vip_person",

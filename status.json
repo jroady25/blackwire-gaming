@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T16:51:52Z",
+  "generated_at": "2026-11-13T16:56:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -235,7 +235,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -245,7 +245,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Zaacattack990"
           ]
@@ -263,12 +263,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Javidlalala7"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",

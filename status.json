@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:17:00Z",
+  "generated_at": "2026-11-13T08:21:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,13 +50,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "joeygaming63"
+            "joeygaming63",
+            "Zaacattack990"
           ]
         },
         {
@@ -112,14 +113,15 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "DireMeek",
-            "Sgt-Bilco-"
+            "Sgt-Bilco-",
+            "Dudugaimerzin1"
           ]
         },
         {
@@ -135,14 +137,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "jana_mew"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v97.21)",

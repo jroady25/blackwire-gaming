@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T17:06:47Z",
+  "generated_at": "2026-11-13T17:11:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -174,7 +174,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -256,7 +256,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -285,12 +285,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Vip_person"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v97.21)",

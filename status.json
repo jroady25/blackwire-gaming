@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T23:41:59Z",
+  "generated_at": "2026-11-13T23:46:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,14 +50,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 8,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 8,
           "players": [
             "Whiteninja090",
-            "EXDaydreamer",
             "Vip_person",
             "nashie069",
             "jandles13",
@@ -69,12 +68,14 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "the chosen one."
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.2)",
@@ -211,11 +212,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -263,27 +264,25 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
           "name": "BlackWire - The Island - PVE - (v98.2)",
           "online": true,
-          "players_current": 5,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
             "Rowena",
-            "zolla619",
-            "123",
-            "the chosen one.",
-            "Dclx00"
+            "Dclx00",
+            "Lexx"
           ]
         },
         {

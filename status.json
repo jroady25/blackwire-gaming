@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-13T13:36:52Z",
+  "generated_at": "2026-11-13T13:41:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Profesor"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
@@ -60,14 +62,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Profesor"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v97.21)",
@@ -112,15 +112,13 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Sgt-Bilco-",
-            "Ric R. Mortis",
-            "Zaacattack990"
+            "Ric R. Mortis"
           ]
         },
         {
@@ -130,7 +128,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -156,13 +154,14 @@
         {
           "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Barmaley"
+            "Barmaley",
+            "Weasel"
           ]
         },
         {

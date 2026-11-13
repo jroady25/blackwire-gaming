@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T03:21:58Z",
+  "generated_at": "2026-11-13T03:27:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,14 +50,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 4,
           "players": [
             "HotPolarBear550",
-            "KAKASHIxHATAKE97"
+            "KAKASHIxHATAKE97",
+            "do_gotcha",
+            "Coffee Addict"
           ]
         },
         {
@@ -207,11 +209,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v97.21)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {
@@ -227,16 +229,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v97.21)",
           "online": true,
-          "players_current": 3,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
-          "players": [
-            "Reilig",
-            "do_gotcha",
-            "Coffee Addict"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v97.21)",
@@ -277,7 +275,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

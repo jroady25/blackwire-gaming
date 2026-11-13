@@ -122,12 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 11426770,
+    "offset": 11430313,
     "online": {},
     "last_accept": "1eed41c5e4109c8e",
     "pending_name": null,
-    "log_size": 11426770,
+    "log_size": 11430313,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:BlackWire Paleo Ark - Astraeos - PVE - (v97.21)": "2026-11-13T16:11:49Z"
+  }
 }

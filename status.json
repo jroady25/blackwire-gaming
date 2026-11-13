@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:01:59Z",
+  "generated_at": "2026-11-13T02:06:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -263,7 +263,7 @@
         {
           "name": "BlackWire - Extinction - PVP - (v97.21)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",

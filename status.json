@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:56:58Z",
+  "generated_at": "2026-11-13T19:01:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -21,13 +21,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Sniffy7990",
             "Itz finnnnnn"
           ]
         },
@@ -56,19 +55,18 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v97.21)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 8,
           "players": [
-            "Zaacattack990",
             "Vip_person",
             "nashie069",
             "Whiteninja090",
             "jandles13",
             "HotPolarBear550",
-            "EXDaydreamer"
+            "lethalcomp"
           ]
         },
         {
@@ -274,25 +272,28 @@
         {
           "name": "BlackWire - The Island - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Javidlalala7",
-            "Lexx"
+            "Lexx",
+            "Rowena"
           ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "EXDaydreamer"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v97.21)",

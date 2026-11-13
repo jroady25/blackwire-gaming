@@ -41,6 +41,10 @@
       "name": "BlackWire - Ragnarok - PVP - (v98.2)"
     },
     {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.2)"
+    },
+    {
       "service_id": "18863471",
       "name": "BlackWire - Lost Colony - PVP - (v98.2)"
     },
@@ -115,21 +119,15 @@
     {
       "service_id": "18111130",
       "name": "BlackWire - Astraeos - PVE - (v97.21)"
-    },
-    {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)"
     }
   ],
   "dragonwilds": {
-    "offset": 11587592,
+    "offset": 11591136,
     "online": {},
     "last_accept": "1eed41c5e4109c8e",
     "pending_name": null,
-    "log_size": 11587592,
+    "log_size": 11591136,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)": "2026-11-13T19:56:48Z"
-  }
+  "offline_since": {}
 }

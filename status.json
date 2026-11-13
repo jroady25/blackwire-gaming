@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T04:56:49Z",
+  "generated_at": "2026-11-13T05:02:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,7 +24,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -36,7 +36,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "SinisterSuave666"
           ]
@@ -138,14 +138,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "jana_mew",
-            "DireMeek"
+            "jana_mew"
           ]
         },
         {
@@ -173,16 +172,6 @@
           "online": true,
           "players_current": 0,
           "players_max": 26,
-          "map": "Genesis_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Genesis 1 - PVP - (v97.21)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
@@ -251,13 +240,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v97.21)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "legendx12x",
             "KAKASHIxHATAKE97"
           ]
         },
@@ -321,6 +309,16 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - Genesis 1 - PVP - (v97.21)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Genesis_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0,
+          "names_hidden": true
         }
       ]
     },

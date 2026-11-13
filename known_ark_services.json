@@ -1,24 +1,16 @@
 {
   "ark_servers": [
     {
-      "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v97.21)"
-    },
-    {
       "service_id": "17801131",
       "name": "BlackWire - Valguero - PVE - (v98.2)"
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v97.21)"
+      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.2)"
     },
     {
       "service_id": "18111097",
-      "name": "Blackwire - The Island - Primal Chaos - PVE - (v97.21)"
-    },
-    {
-      "service_id": "18111130",
-      "name": "BlackWire - Astraeos - PVE - (v97.21)"
+      "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)"
     },
     {
       "service_id": "18111154",
@@ -26,7 +18,7 @@
     },
     {
       "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v97.21)"
+      "name": "BlackWire - Scorched Earth - PVP - (v98.2)"
     },
     {
       "service_id": "18111211",
@@ -46,11 +38,7 @@
     },
     {
       "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v97.21)"
-    },
-    {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)"
+      "name": "BlackWire - Ragnarok - PVP - (v98.2)"
     },
     {
       "service_id": "18863471",
@@ -58,7 +46,7 @@
     },
     {
       "service_id": "18921197",
-      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v97.21)"
+      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)"
     },
     {
       "service_id": "19380386",
@@ -70,7 +58,7 @@
     },
     {
       "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v97.21)"
+      "name": "BlackWire - Event Map - (v98.2)"
     },
     {
       "service_id": "18357580",
@@ -78,11 +66,11 @@
     },
     {
       "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v97.21)"
+      "name": "BlackWire - Astraeos - PVP - (v98.2)"
     },
     {
       "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v97.21)"
+      "name": "BlackWire - Valguero - PVP - (v98.2)"
     },
     {
       "service_id": "18860204",
@@ -90,27 +78,27 @@
     },
     {
       "service_id": "18863102",
-      "name": "BlackWire - Abberation - PVE - (v97.21)"
+      "name": "BlackWire - Abberation - PVE - (v98.2)"
     },
     {
       "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v97.21)"
+      "name": "BlackWire - Lost Colony - PVE - (v98.2)"
     },
     {
       "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v97.21)"
+      "name": "BlackWire - Extinction - PVP - (v98.2)"
     },
     {
       "service_id": "19368830",
-      "name": "BlackWire - The Island - PVE - (v97.21)"
+      "name": "BlackWire - The Island - PVE - (v98.2)"
     },
     {
       "service_id": "19377800",
-      "name": "BlackWire - The Center - PVE - (v97.21)"
+      "name": "BlackWire - The Center - PVE - (v98.2)"
     },
     {
       "service_id": "19426823",
-      "name": "BlackWire - Genesis 1 - PVE - (v97.21)"
+      "name": "BlackWire - Genesis 1 - PVE - (v98.2)"
     },
     {
       "service_id": "19466842",
@@ -119,22 +107,29 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.2)"
+    },
+    {
+      "service_id": "17681860",
+      "name": "BlackWire - Ragnarok - PVE - (v97.21)"
+    },
+    {
+      "service_id": "18111130",
+      "name": "BlackWire - Astraeos - PVE - (v97.21)"
+    },
+    {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)"
     }
   ],
   "dragonwilds": {
-    "offset": 11584604,
+    "offset": 11587592,
     "online": {},
     "last_accept": "1eed41c5e4109c8e",
     "pending_name": null,
-    "log_size": 11584604,
+    "log_size": 11587592,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Ragnarok - PVE - (v97.21)": "2026-11-13T19:56:48Z",
-    "ark:BlackWire - Astraeos - PVE - (v97.21)": "2026-11-13T19:56:48Z",
-    "ark:BlackWire - Scorched Earth - PVP - (v97.21)": "2026-11-13T19:56:48Z",
-    "ark:BlackWire - Ragnarok - PVP - (v97.21)": "2026-11-13T19:56:48Z",
-    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)": "2026-11-13T19:56:48Z",
-    "ark:BlackWire - The Island - PVE - (v97.21)": "2026-11-13T19:56:48Z"
+    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v97.21)": "2026-11-13T19:56:48Z"
   }
 }

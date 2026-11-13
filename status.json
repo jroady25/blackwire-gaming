@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:02:04Z",
+  "generated_at": "2026-11-13T22:07:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,15 +50,15 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 7,
           "players": [
             "Whiteninja090",
             "nashie069",
             "lethalcomp",
             "jandles13",
             "NorthFatal fury",
-            "SpoggDarr",
-            "bonjo9664"
+            "bonjo9664",
+            "Zaacattack990"
           ]
         },
         {
@@ -124,7 +124,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -204,11 +204,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {
@@ -248,17 +248,17 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

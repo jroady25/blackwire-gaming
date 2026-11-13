@@ -58,7 +58,7 @@
     },
     {
       "service_id": "18921197",
-      "name": "BlackWire Paleo Ark - Ragnarok - PVE - (v97.21)"
+      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v97.21)"
     },
     {
       "service_id": "19380386",
@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 11433301,
+    "offset": 11436650,
     "online": {},
     "last_accept": "1eed41c5e4109c8e",
     "pending_name": null,
-    "log_size": 11433301,
+    "log_size": 11436650,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

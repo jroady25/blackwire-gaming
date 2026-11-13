@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:22:00Z",
+  "generated_at": "2026-11-13T12:26:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -123,11 +123,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v97.21)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -308,12 +308,13 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v97.21)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 0,
+          "offline_since": "2026-11-13T12:26:56Z"
         }
       ]
     },
@@ -323,9 +324,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

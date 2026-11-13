@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:12:02Z",
+  "generated_at": "2026-11-13T21:16:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,8 +19,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.2)",
@@ -49,24 +50,22 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "Whiteninja090",
             "nashie069",
-            "EXDaydreamer"
+            "Zaacattack990"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.2)",
@@ -123,7 +122,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -285,14 +284,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "CoachTooka"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.2)",

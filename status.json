@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:01:55Z",
+  "generated_at": "2026-11-14T19:07:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,10 +55,9 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 11,
+          "nitrado_count": 10,
           "players": [
             "Coffee Addict",
-            "own-loch4",
             "EXDaydreamer",
             "HotPolarBear550",
             "vikings10932",
@@ -67,7 +66,8 @@
             "mystic_gengar1",
             "Vip_person",
             "I-Be-Stroganoff",
-            "Bretty Wat"
+            "Bretty Wat",
+            "Luckyybear14"
           ]
         },
         {
@@ -133,7 +133,7 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
@@ -219,7 +219,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {

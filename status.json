@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:26:49Z",
+  "generated_at": "2026-11-14T05:31:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Aphrodite"
           ]
@@ -38,13 +38,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Singlepringl847"
+            "Singlepringl847",
+            "miclebia"
           ]
         },
         {
@@ -161,14 +162,12 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Weasel"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.2)",
@@ -243,12 +242,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Fyth Shadow"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:46:56Z",
+  "generated_at": "2026-11-14T16:52:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,13 +19,8 @@
           "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "rcon",
-          "nitrado_count": 3,
-          "players": [
-            "ThatMcHaggis",
-            "DriftNalg",
-            "Haitheat"
-          ]
+          "count_source": "nitrado",
+          "nitrado_count": 3
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.2)",
@@ -52,17 +47,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 14,
+          "players_current": 13,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 14,
+          "nitrado_count": 13,
           "players": [
             "Vip_person",
             "Coffee Addict",
             "sidimaraki100",
             "nashie069",
-            "EXDaydreamer",
             "neutrinopc",
             "Zaacattack990",
             "own-loch4",
@@ -70,8 +64,8 @@
             "lethalcomp",
             "Bretty Wat",
             "do_gotcha",
-            "nb_gotcha",
-            "Reilig"
+            "Reilig",
+            "EXDaydreamer"
           ]
         },
         {
@@ -137,11 +131,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -217,11 +211,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

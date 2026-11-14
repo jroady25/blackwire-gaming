@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T23:21:47Z",
+  "generated_at": "2026-11-14T23:26:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,13 +30,12 @@
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.2)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
-            "mc308201",
             "sadismTM",
             "itssjussskes",
             "lRocky21"
@@ -55,24 +54,22 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 12,
+          "players_current": 10,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 12,
+          "nitrado_count": 11,
           "players": [
             "nashie069",
             "mystic_gengar1",
-            "nb_gotcha",
             "Whiteninja090",
             "HotPolarBear550",
-            "Vip_person",
             "Bretty Wat",
             "Luckyybear14",
-            "EXDaydreamer",
             "SummerLoven0719",
             "Zaacattack990",
-            "I-Be-Stroganoff"
+            "I-Be-Stroganoff",
+            "Vip_person"
           ]
         },
         {
@@ -128,15 +125,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "ZV1006187",
-            "MonsterM",
-            "Zion-_-Miller"
+            "MonsterM"
           ]
         },
         {

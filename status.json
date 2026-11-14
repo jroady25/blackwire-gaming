@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-14T22:36:59Z",
+  "generated_at": "2026-11-14T22:42:06Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Th30nlyDeL"
+            "Th30nlyDeL",
+            "DragonWolf7676"
           ]
         },
         {
@@ -60,11 +61,11 @@
           "count_source": "rcon",
           "nitrado_count": 5,
           "players": [
-            "Whiteninja090",
             "nashie069",
             "mystic_gengar1",
             "Naykdtime",
-            "nb_gotcha"
+            "nb_gotcha",
+            "Whiteninja090"
           ]
         },
         {
@@ -124,7 +125,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "ZV1006187",
             "MonsterM"
@@ -215,11 +216,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -287,21 +288,20 @@
         {
           "name": "BlackWire - The Center - PVE - (v98.2)",
           "online": true,
-          "players_current": 9,
+          "players_current": 8,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 9,
+          "nitrado_count": 8,
           "players": [
             "I-Be-Stroganoff",
             "Vip_person",
-            "SummerLoven0719",
             "Luckyybear14",
-            "Bretty Wat",
             "EXDaydreamer",
             "HotPolarBear550",
             "Zaacattack990",
-            "jandles13"
+            "jandles13",
+            "Bretty Wat"
           ]
         },
         {

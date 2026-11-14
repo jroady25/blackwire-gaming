@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:16:57Z",
+  "generated_at": "2026-11-14T16:21:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Tata_Voyage"
           ]
@@ -41,23 +41,24 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "miclebia"
+            "miclebia",
+            "AndyB8541"
           ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 12,
+          "players_current": 13,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 12,
+          "nitrado_count": 13,
           "players": [
             "Vip_person",
             "Coffee Addict",
@@ -70,7 +71,8 @@
             "Whiteninja090",
             "lethalcomp",
             "do_gotcha",
-            "Lexx"
+            "Lexx",
+            "Bretty Wat"
           ]
         },
         {
@@ -126,14 +128,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Haitheat"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
@@ -222,7 +222,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

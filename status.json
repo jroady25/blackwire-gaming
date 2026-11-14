@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:51:52Z",
+  "generated_at": "2026-11-14T05:56:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,13 +41,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Singlepringl847",
             "miclebia"
           ]
         },
@@ -97,11 +96,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -121,7 +120,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "MonsterM",
             "Sgt-Bilco-",
@@ -213,11 +212,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -253,13 +252,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
-            "Harru",
             "KAKASHIxHATAKE97"
           ]
         },
@@ -280,18 +278,20 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.2)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:57:02Z",
+  "generated_at": "2026-11-14T10:02:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -35,15 +35,13 @@
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
-          "online": true,
+          "online": false,
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 1,
-          "players": [
-            "miclebia"
-          ]
+          "offline_since": "2026-11-14T10:02:02Z"
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
@@ -110,13 +108,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "MonsterM"
+            "MonsterM",
+            "Sgt-Bilco-"
           ]
         },
         {
@@ -222,14 +221,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Florii004"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",
@@ -243,13 +240,13 @@
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-14T10:02:02Z"
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.2)",
@@ -295,13 +292,13 @@
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.2)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-14T10:02:02Z"
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.2)",

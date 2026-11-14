@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T03:11:52Z",
+  "generated_at": "2026-11-14T03:16:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,16 +50,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 5,
           "players": [
             "Harru",
             "Naykdtime",
             "NorthFatal fury",
-            "Reilig"
+            "Reilig",
+            "do_gotcha"
           ]
         },
         {
@@ -139,12 +140,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "jana_mew"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.2)",
@@ -193,7 +196,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-14T22:17:02Z",
+  "generated_at": "2026-11-14T22:22:02Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Th30nlyDeL"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
@@ -32,7 +34,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "itssjussskes",
             "mc308201",
@@ -52,17 +54,18 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 6,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "players": [
             "Whiteninja090",
             "nashie069",
             "own-loch4",
             "mystic_gengar1",
             "Naykdtime",
+            "nb_gotcha",
             "HotPolarBear550"
           ]
         },
@@ -141,14 +144,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "PlainW1GHTtrash"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.2)",
@@ -297,10 +298,10 @@
             "I-Be-Stroganoff",
             "jandles13",
             "Vip_person",
-            "Bretty Wat",
             "EXDaydreamer",
             "SummerLoven0719",
-            "Luckyybear14"
+            "Luckyybear14",
+            "Bretty Wat"
           ]
         },
         {

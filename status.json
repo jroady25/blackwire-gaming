@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:51:46Z",
+  "generated_at": "2026-11-14T11:57:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -300,7 +300,7 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

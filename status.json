@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:07:04Z",
+  "generated_at": "2026-11-14T01:12:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -67,7 +67,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Zaacattack990"
           ]
@@ -277,8 +277,8 @@
             "Dclx00",
             "zolla619",
             "Lexx",
-            "Firefang0810",
-            "Player17854"
+            "Player17854",
+            "123"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T21:16:49Z",
+  "generated_at": "2026-11-14T21:21:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "DriftNalg",
             "ThatMcHaggis"
@@ -61,7 +61,6 @@
           "count_source": "rcon",
           "nitrado_count": 12,
           "players": [
-            "HotPolarBear550",
             "Zaacattack990",
             "mystic_gengar1",
             "Luckyybear14",
@@ -72,7 +71,8 @@
             "Bretty Wat",
             "EXDaydreamer",
             "Whiteninja090",
-            "Vip_person"
+            "Vip_person",
+            "HotPolarBear550"
           ]
         },
         {

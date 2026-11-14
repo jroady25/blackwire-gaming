@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:07:03Z",
+  "generated_at": "2026-11-14T19:11:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,11 +51,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 11,
+          "players_current": 12,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 10,
+          "nitrado_count": 12,
           "players": [
             "Coffee Addict",
             "EXDaydreamer",
@@ -67,7 +67,8 @@
             "Vip_person",
             "I-Be-Stroganoff",
             "Bretty Wat",
-            "Luckyybear14"
+            "Luckyybear14",
+            "own-loch4"
           ]
         },
         {
@@ -137,18 +138,20 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "PlainW1GHTtrash"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.2)",
@@ -215,11 +218,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "names_hidden": true
         },
         {
@@ -316,12 +319,11 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.2)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "map": null,
+          "offline_since": "2026-11-14T19:11:56Z"
         }
       ]
     },

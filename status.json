@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T07:07:00Z",
+  "generated_at": "2026-11-14T07:12:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,10 +57,10 @@
           "nitrado_count": 5,
           "players": [
             "vikings10932",
-            "Zaacattack990",
             "Luckyybear14",
             "jandles13",
-            "Harru"
+            "Harru",
+            "Zaacattack990"
           ]
         },
         {
@@ -120,7 +120,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "MonsterM",
             "Sgt-Bilco-"

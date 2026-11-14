@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T15:11:50Z",
+  "generated_at": "2026-11-14T15:16:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,11 +51,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 8,
+          "players_current": 9,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 9,
           "players": [
             "Vip_person",
             "Coffee Addict",
@@ -64,7 +64,8 @@
             "EXDaydreamer",
             "neutrinopc",
             "Zaacattack990",
-            "own-loch4"
+            "own-loch4",
+            "nb_gotcha"
           ]
         },
         {
@@ -124,7 +125,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Haitheat"
           ]

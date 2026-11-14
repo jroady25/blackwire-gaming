@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:41:48Z",
+  "generated_at": "2026-11-14T04:46:45Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Aphrodite"
           ]
@@ -52,7 +52,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -61,7 +61,6 @@
             "Harru",
             "vikings10932",
             "NorthFatal fury",
-            "nb_gotcha",
             "do_gotcha"
           ]
         },
@@ -214,7 +213,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -288,7 +287,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Fyth Shadow"
           ]

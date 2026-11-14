@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:07:01Z",
+  "generated_at": "2026-11-14T18:11:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,23 +52,20 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 14,
+          "players_current": 11,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 14,
+          "nitrado_count": 11,
           "players": [
             "Vip_person",
             "Coffee Addict",
-            "nashie069",
             "own-loch4",
-            "lethalcomp",
             "Bretty Wat",
             "Reilig",
             "EXDaydreamer",
             "HotPolarBear550",
             "vikings10932",
-            "Whiteninja090",
             "nb_gotcha",
             "do_gotcha",
             "Zaacattack990"
@@ -137,11 +134,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -219,11 +216,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -269,7 +266,7 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
@@ -283,7 +280,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "CindyLou1723",
             "Deviousanjel"

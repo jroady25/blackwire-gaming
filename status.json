@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:21:54Z",
+  "generated_at": "2026-11-14T01:26:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -241,7 +241,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-14T16:32:01Z",
+  "generated_at": "2026-11-14T16:36:57Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Tata_Voyage",
-            "Haitheat"
+            "Tata_Voyage"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "ThatMcHaggis",
-            "DriftNalg"
+            "DriftNalg",
+            "Haitheat"
           ]
         },
         {
@@ -70,9 +70,9 @@
             "own-loch4",
             "Whiteninja090",
             "lethalcomp",
-            "Lexx",
             "Bretty Wat",
-            "do_gotcha"
+            "do_gotcha",
+            "nb_gotcha"
           ]
         },
         {

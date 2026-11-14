@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:16:51Z",
+  "generated_at": "2026-11-14T08:21:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -130,11 +130,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {
@@ -214,7 +214,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -230,12 +230,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Florii004"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",

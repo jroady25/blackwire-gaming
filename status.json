@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T21:11:53Z",
+  "generated_at": "2026-11-14T21:16:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,13 +18,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "Dat_Boi_Mike_70",
             "DriftNalg",
             "ThatMcHaggis"
           ]
@@ -56,18 +55,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 14,
+          "players_current": 12,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 14,
+          "nitrado_count": 12,
           "players": [
             "HotPolarBear550",
             "Zaacattack990",
             "mystic_gengar1",
             "Luckyybear14",
-            "own-loch4",
-            "MattyRoth83",
             "jandles13",
             "nashie069",
             "vikings10932",
@@ -131,12 +128,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "MonsterM"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",

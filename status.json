@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:06:56Z",
+  "generated_at": "2026-11-14T16:11:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -12,8 +12,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Th30nlyDeL",
-            "Tata_Voyage"
+            "Tata_Voyage",
+            "Bretty Wat"
           ]
         },
         {
@@ -238,12 +238,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Th30nlyDeL"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",
@@ -282,7 +284,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Lexx"
           ]

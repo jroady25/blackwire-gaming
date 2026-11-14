@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:26:53Z",
+  "generated_at": "2026-11-14T17:31:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,13 +18,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 1,
           "players": [
-            "ThatMcHaggis",
             "DriftNalg"
           ]
         },
@@ -53,7 +52,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 15,
+          "players_current": 14,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -72,8 +71,7 @@
             "HotPolarBear550",
             "vikings10932",
             "Zaacattack990",
-            "Whiteninja090",
-            "Tata_Voyage"
+            "Whiteninja090"
           ]
         },
         {
@@ -243,12 +241,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Tata_Voyage"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:51:54Z",
+  "generated_at": "2026-11-14T17:56:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,7 +55,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 14,
+          "nitrado_count": 15,
           "players": [
             "Vip_person",
             "Coffee Addict",
@@ -65,12 +65,12 @@
             "Bretty Wat",
             "Reilig",
             "EXDaydreamer",
-            "do_gotcha",
             "HotPolarBear550",
             "vikings10932",
-            "Zaacattack990",
             "Whiteninja090",
-            "nb_gotcha"
+            "nb_gotcha",
+            "itssjussskes",
+            "do_gotcha"
           ]
         },
         {
@@ -305,7 +305,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

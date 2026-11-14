@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:46:49Z",
+  "generated_at": "2026-11-14T14:51:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,12 +57,12 @@
           "nitrado_count": 7,
           "players": [
             "Vip_person",
-            "nb_gotcha",
             "Coffee Addict",
             "neutrinopc",
             "sidimaraki100",
             "nashie069",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "nb_gotcha"
           ]
         },
         {
@@ -138,14 +138,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "PlainW1GHTtrash"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.2)",
@@ -270,26 +268,22 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "joeygaming63"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Haitheat"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.2)",

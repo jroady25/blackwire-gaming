@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-14T06:16:58Z",
+  "generated_at": "2026-11-14T06:21:55Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Harru"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
@@ -59,7 +57,7 @@
           "nitrado_count": 2,
           "players": [
             "vikings10932",
-            "NorthFatal fury"
+            "Luckyybear14"
           ]
         },
         {
@@ -239,12 +237,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",

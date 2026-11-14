@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T00:47:01Z",
+  "generated_at": "2026-11-14T00:51:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,7 +53,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 3,
           "players": [
             "Reilig",
             "SummerLoven0719",
@@ -217,7 +217,7 @@
         {
           "name": "BlackWire - Valguero - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
@@ -257,7 +257,7 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",

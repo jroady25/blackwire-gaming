@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:21:50Z",
+  "generated_at": "2026-11-14T18:26:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -38,14 +38,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "miclebia"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
@@ -54,7 +52,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 11,
+          "nitrado_count": 12,
           "players": [
             "Vip_person",
             "Coffee Addict",
@@ -133,11 +131,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -189,7 +187,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -245,12 +243,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Tata_Voyage"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",

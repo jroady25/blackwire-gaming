@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-14T16:21:57Z",
+  "generated_at": "2026-11-14T16:27:00Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Tata_Voyage"
+            "Tata_Voyage",
+            "Haitheat"
           ]
         },
         {
@@ -41,14 +42,13 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "miclebia",
-            "AndyB8541"
+            "miclebia"
           ]
         },
         {
@@ -70,9 +70,9 @@
             "own-loch4",
             "Whiteninja090",
             "lethalcomp",
-            "do_gotcha",
             "Lexx",
-            "Bretty Wat"
+            "Bretty Wat",
+            "do_gotcha"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:46:52Z",
+  "generated_at": "2026-11-14T18:51:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,7 +57,6 @@
           "count_source": "rcon",
           "nitrado_count": 12,
           "players": [
-            "Vip_person",
             "Coffee Addict",
             "own-loch4",
             "Bretty Wat",
@@ -65,10 +64,11 @@
             "EXDaydreamer",
             "HotPolarBear550",
             "vikings10932",
-            "nb_gotcha",
             "Zaacattack990",
             "SummerLoven0719",
-            "do_gotcha"
+            "do_gotcha",
+            "mystic_gengar1",
+            "nb_gotcha"
           ]
         },
         {
@@ -226,7 +226,7 @@
         {
           "name": "BlackWire - Valguero - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
@@ -266,7 +266,7 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
@@ -276,14 +276,13 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Lexx",
-            "I-Be-Stroganoff"
+            "Lexx"
           ]
         },
         {

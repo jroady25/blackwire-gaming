@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T18:01:52Z",
+  "generated_at": "2026-11-14T18:07:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Th30nlyDeL"
           ]
@@ -22,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "DriftNalg"
           ]
@@ -52,11 +52,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 15,
+          "players_current": 14,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 15,
+          "nitrado_count": 14,
           "players": [
             "Vip_person",
             "Coffee Addict",
@@ -70,7 +70,6 @@
             "vikings10932",
             "Whiteninja090",
             "nb_gotcha",
-            "itssjussskes",
             "do_gotcha",
             "Zaacattack990"
           ]
@@ -220,11 +219,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

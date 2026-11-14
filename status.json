@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:27:03Z",
+  "generated_at": "2026-11-14T22:32:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,19 +54,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 5,
           "players": [
             "Whiteninja090",
             "nashie069",
-            "own-loch4",
             "mystic_gengar1",
             "Naykdtime",
-            "nb_gotcha",
-            "HotPolarBear550"
+            "nb_gotcha"
           ]
         },
         {
@@ -289,20 +287,21 @@
         {
           "name": "BlackWire - The Center - PVE - (v98.2)",
           "online": true,
-          "players_current": 8,
+          "players_current": 9,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 9,
           "players": [
-            "Zaacattack990",
             "I-Be-Stroganoff",
             "jandles13",
             "Vip_person",
             "SummerLoven0719",
             "Luckyybear14",
             "Bretty Wat",
-            "EXDaydreamer"
+            "EXDaydreamer",
+            "HotPolarBear550",
+            "Zaacattack990"
           ]
         },
         {

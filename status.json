@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:11:45Z",
+  "generated_at": "2026-11-14T05:16:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -99,7 +99,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -214,7 +214,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

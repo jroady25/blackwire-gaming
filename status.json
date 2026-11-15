@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T15:46:46Z",
+  "generated_at": "2026-11-15T15:52:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -76,12 +76,13 @@
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.2)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-15T15:52:00Z",
           "names_hidden": true
         },
         {
@@ -150,7 +151,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -180,7 +181,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -195,36 +196,33 @@
           "players": []
         },
         {
-          "name": "BlackWire - The Island - SOTF - PVP - (v98.2)",
-          "online": false,
+          "name": "BlackWire - The Island - SOTF - PVP - (v98.6)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-15T15:46:46Z",
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v98.2)",
-          "online": false,
+          "name": "BlackWire - Astraeos - PVP - (v98.6)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-15T15:46:46Z",
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Valguero - PVP - (v98.2)",
-          "online": false,
+          "name": "BlackWire - Valguero - PVP - (v98.6)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-15T15:46:46Z",
           "names_hidden": true
         },
         {
@@ -258,14 +256,13 @@
           "players": []
         },
         {
-          "name": "BlackWire - Extinction - PVP - (v98.2)",
-          "online": false,
+          "name": "BlackWire - Extinction - PVP - (v98.6)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-15T15:46:46Z",
           "names_hidden": true
         },
         {

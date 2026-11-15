@@ -74,15 +74,15 @@
     },
     {
       "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v98.2)"
+      "name": "BlackWire - The Island - SOTF - PVP - (v98.6)"
     },
     {
       "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v98.2)"
+      "name": "BlackWire - Astraeos - PVP - (v98.6)"
     },
     {
       "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v98.2)"
+      "name": "BlackWire - Valguero - PVP - (v98.6)"
     },
     {
       "service_id": "18860204",
@@ -98,7 +98,7 @@
     },
     {
       "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v98.2)"
+      "name": "BlackWire - Extinction - PVP - (v98.6)"
     },
     {
       "service_id": "19368830",
@@ -122,17 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 13342891,
+    "offset": 13346629,
     "online": {},
     "last_accept": "86169d352a2abffa",
     "pending_name": null,
-    "log_size": 13342891,
+    "log_size": 13346629,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - The Island - SOTF - PVP - (v98.2)": "2026-11-15T15:46:46Z",
-    "ark:BlackWire - Astraeos - PVP - (v98.2)": "2026-11-15T15:46:46Z",
-    "ark:BlackWire - Valguero - PVP - (v98.2)": "2026-11-15T15:46:46Z",
-    "ark:BlackWire - Extinction - PVP - (v98.2)": "2026-11-15T15:46:46Z"
+    "ark:BlackWire - Scorched Earth - PVP - (v98.2)": "2026-11-15T15:52:00Z"
   }
 }

@@ -118,18 +118,16 @@
     },
     {
       "service_id": "20100016",
-      "name": "BlackWire - Mod Test Map - (v98.2)"
+      "name": "BlackWire - Mod Test Map - (v98.6)"
     }
   ],
   "dragonwilds": {
-    "offset": 13209471,
+    "offset": 13212459,
     "online": {},
     "last_accept": "86169d352a2abffa",
     "pending_name": null,
-    "log_size": 13209471,
+    "log_size": 13212459,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Mod Test Map - (v98.2)": "2026-11-15T12:26:49Z"
-  }
+  "offline_since": {}
 }

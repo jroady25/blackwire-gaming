@@ -30,15 +30,15 @@
     },
     {
       "service_id": "18111211",
-      "name": "BlackWire - The Center - PVP - (v98.2)"
+      "name": "BlackWire - The Center - PVP - (v98.6)"
     },
     {
       "service_id": "18271504",
-      "name": "BlackWire - The Island - PVP - (v98.2)"
+      "name": "BlackWire - The Island - PVP - (v98.6)"
     },
     {
       "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v98.2)"
+      "name": "BlackWire - Aberration - PVP - (v98.6)"
     },
     {
       "service_id": "18497059",
@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 13349783,
+    "offset": 13353326,
     "online": {},
     "last_accept": "86169d352a2abffa",
     "pending_name": null,
-    "log_size": 13349783,
+    "log_size": 13353326,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - The Island - PVP - (v98.2)": "2026-11-15T15:56:49Z"
-  }
+  "offline_since": {}
 }

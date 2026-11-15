@@ -38,6 +38,21 @@ export const WATCHED = [
   { project: 1727486, name: "BlackWire Shop/Trade", slug: "blackwire-shop-trade", emoji: "🪙", group: "Server & Admin", channel: "1559267089905094797", banner: "mod-shop" },
   // announceFirst: post its first release as soon as it goes public (it wasn't public yet when added).
   { project: 1797724, name: "BlackWire Spyglass", slug: null, emoji: "🔭", group: "Gear & HUD", channel: "1559267096301412403", banner: "mod-spyglass", announceFirst: true },
+  // 13 Nov 2026: first releases approved on CurseForge 12-13 Nov. (Re-added 15 Nov: these four were lost when the 13 Nov 3:16 PM deploy went out without them.)
+  { project: 1799961, name: "BlackWire Base Defense", slug: "blackwire-base-defense", emoji: "🛡️", group: "Building & Bases", channel: "1564114154376138929", banner: "mod-base-defense", announceFirst: true },
+  { project: 1801261, name: "BlackWire Raid Command", slug: "blackwire-raid-command", emoji: "⚔️", group: "Events & PvP", channel: "1563260288915079188", banner: "mod-raid-command", announceFirst: true },
+  { project: 1801275, name: "BlackWire Teleporter", slug: "blackwire-teleporter", emoji: "🌀", group: "Building & Bases", channel: "1559267100718006325", banner: "mod-teleporter", announceFirst: true },
+  { project: 1801830, name: "BlackWire Rewards", slug: "blackwire-rewards", emoji: "🎁", group: "Server & Admin", channel: "1566210710340501538", banner: "mod-rewards", announceFirst: true },
+  // 15 Nov 2026: published on CurseForge 14-15 Nov.
+  { project: 1804064, name: "Survivor Board", slug: "survivor-board", emoji: "📌", group: "Events & PvP", channel: "1566886800453017641", banner: "mod-survivor-board", announceFirst: true },
+  { project: 1806534, name: "BlackWire Base Shrink", slug: "blackwire-base-shrink", emoji: "🤏", group: "Building & Bases", channel: "1560348161057497159", banner: "mod-base-shrink", announceFirst: true },
+  { project: 1806559, name: "BlackWire Combat Feed", slug: "blackwire-combat-feed", emoji: "🎯", group: "Events & PvP", channel: "1567670035583869008", banner: "mod-combat-feed", announceFirst: true },
+  { project: 1806545, name: "BlackWire Dino Storage", slug: "blackwire-dino-storage", emoji: "🧊", group: "Creatures & NPCs", channel: "1559267088873427035", banner: "mod-dino-storage", announceFirst: true },
+  { project: 1806556, name: "BlackWire Hall of Records", slug: "blackwire-hall-of-records", emoji: "🏆", group: "Events & PvP", channel: "1566886787446480996", banner: "mod-hall-of-records", announceFirst: true },
+  { project: 1806564, name: "BlackWire Lifts", slug: "blackwire-lifts", emoji: "🛗", group: "Building & Bases", channel: "1563260280467759154", banner: "mod-lifts", announceFirst: true },
+  { project: 1806548, name: "BlackWire Paint Roller", slug: "blackwire-paint-roller", emoji: "🖌️", group: "Building & Bases", channel: "1570197797385273528", banner: null, announceFirst: true },
+  { project: 1806551, name: "BlackWire Spawn Manager", slug: "blackwire-spawn-manager", emoji: "🦖", group: "Creatures & NPCs", channel: "1559267091255787573", banner: "mod-spawn-manager", announceFirst: true },
+  { project: 1806561, name: "BlackWire Squad HUD", slug: "blackwire-squad-hud", emoji: "🩺", group: "Gear & HUD", channel: "1567670083453460481", banner: "mod-squad-hud", announceFirst: true },
 ];
 
 async function cf(path) {

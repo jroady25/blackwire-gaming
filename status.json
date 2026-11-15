@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-15T01:11:51Z",
+  "generated_at": "2026-11-15T01:16:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Th30nlyDeL"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
@@ -62,10 +60,10 @@
             "mystic_gengar1",
             "Whiteninja090",
             "vikings10932",
-            "EXDaydreamer",
             "SummerLoven0719",
             "Zaacattack990",
-            "HotPolarBear550"
+            "HotPolarBear550",
+            "EXDaydreamer"
           ]
         },
         {

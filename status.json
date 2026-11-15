@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:21:46Z",
+  "generated_at": "2026-11-15T00:26:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -65,21 +65,22 @@
             "Bretty Wat",
             "Vip_person",
             "HotPolarBear550",
-            "EXDaydreamer",
             "SummerLoven0719",
-            "Reilig"
+            "Reilig",
+            "Coffee Addict"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Zaacattack990"
+            "Zaacattack990",
+            "EXDaydreamer"
           ]
         },
         {
@@ -167,13 +168,12 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Weasel",
             "ronj15095"
           ]
         },

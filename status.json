@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:51:52Z",
+  "generated_at": "2026-11-15T00:56:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -63,24 +63,22 @@
           "players": [
             "mystic_gengar1",
             "Whiteninja090",
-            "HotPolarBear550",
             "vikings10932",
             "Vip_person",
             "EXDaydreamer",
-            "do_gotcha"
+            "SummerLoven0719",
+            "Zaacattack990"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.2)",
@@ -129,7 +127,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Sgt-Bilco-"
           ]
@@ -217,7 +215,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -257,14 +255,15 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Coffee Addict",
-            "Reilig"
+            "Reilig",
+            "do_gotcha"
           ]
         },
         {

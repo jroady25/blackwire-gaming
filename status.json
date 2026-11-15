@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T03:46:54Z",
+  "generated_at": "2026-11-15T03:51:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -69,14 +69,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "joeygaming63"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.2)",
@@ -165,12 +163,14 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Weasel"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.2)",
@@ -275,14 +275,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "Rowena",
-            "Lexx"
+            "Lexx",
+            "joeygaming63"
           ]
         },
         {

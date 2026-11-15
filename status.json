@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-15T17:11:58Z",
+  "generated_at": "2026-11-15T17:17:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Haitheat"
+            "Haitheat",
+            "Th30nlyDeL"
           ]
         },
         {
@@ -22,7 +23,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -266,14 +267,13 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "123",
-            "the chosen one."
+            "123"
           ]
         },
         {
@@ -289,12 +289,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",

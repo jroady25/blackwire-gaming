@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:56:53Z",
+  "generated_at": "2026-11-15T19:01:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,19 +10,20 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 0,
           "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 2,
           "players": [
-            "Reilig"
+            "Reilig",
+            "do_gotcha"
           ]
         },
         {
@@ -265,14 +266,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "123",
-            "Lexx"
+            "Lexx",
+            "the chosen one."
           ]
         },
         {

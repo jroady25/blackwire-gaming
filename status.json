@@ -1,43 +1,61 @@
 {
-  "generated_at": "2026-11-15T17:22:00Z",
+  "generated_at": "2026-11-15T17:26:57Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "Haitheat"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
+          "online": true,
+          "players_current": 3,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "count_source": "rcon",
+          "nitrado_count": 3,
           "players": [
-            "Th30nlyDeL"
+            "itssjussskes",
+            "sadismTM",
+            "mc308201"
           ]
+        },
+        {
+          "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Vip_person"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
@@ -208,12 +226,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Th30nlyDeL"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.6)",
@@ -295,26 +315,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 1
-        },
-        {
-          "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
-          "online": true,
-          "players_current": 3,
-          "players_max": 20,
-          "map": null,
-          "players": [
-            "itssjussskes",
-            "sadismTM",
-            "mc308201"
-          ]
         }
       ]
     },

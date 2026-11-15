@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:51:59Z",
+  "generated_at": "2026-11-15T16:56:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,14 +20,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "ThatMcHaggis"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
@@ -56,13 +54,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "own-loch4"
+            "own-loch4",
+            "Zaacattack990"
           ]
         },
         {
@@ -118,12 +117,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "temp-75930359"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
@@ -312,11 +313,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 1
         }
       ]
     },
@@ -380,9 +381,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

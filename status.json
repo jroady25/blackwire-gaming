@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:56:46Z",
+  "generated_at": "2026-11-15T03:01:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,34 +10,34 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Aphrodite"
+            "Fyth Shadow"
           ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "ThatMcHaggis",
             "DriftNalg"
           ]
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "sadismTM"
+            "sadismTM",
+            "mc308201"
           ]
         },
         {
@@ -330,10 +330,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 16,
           "players": [
-            "Optimus Prime",
             "Megadeth-GTA6"
           ],
           "map": null

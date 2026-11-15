@@ -122,12 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 13110010,
+    "offset": 13112579,
     "online": {},
     "last_accept": "86169d352a2abffa",
     "pending_name": null,
-    "log_size": 13110010,
+    "log_size": 13112579,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:Blackwire - The Island - Primal Chaos - PVE - (v98.2)": "2026-11-15T10:01:53Z"
+  }
 }

@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-11-15T18:51:51Z",
+  "generated_at": "2026-11-15T18:56:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
-          "players": [
-            "Reilig",
-            "do_gotcha"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Reilig"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
@@ -49,6 +48,19 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v98.6)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": "Astraeos_WP",
+          "count_source": "rcon",
+          "nitrado_count": 2,
+          "players": [
+            "own-loch4",
+            "vikings10932"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
@@ -197,7 +209,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -264,6 +276,26 @@
           ]
         },
         {
+          "name": "BlackWire - The Center - PVE - (v98.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheCenter_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Genesis_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",
           "online": true,
           "players_current": 0,
@@ -281,33 +313,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - The Center - PVE - (v98.6)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - PVE - (v98.6)",
-          "online": true,
-          "players_current": 2,
-          "players_max": 20,
-          "map": null,
-          "players": [
-            "own-loch4",
-            "vikings10932"
-          ]
         }
       ]
     },

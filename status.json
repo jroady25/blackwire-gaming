@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-15T02:36:53Z",
+  "generated_at": "2026-11-15T02:41:50Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 1,
           "players": [
-            "Aphrodite",
-            "do_gotcha"
+            "Aphrodite"
           ]
         },
         {
@@ -54,15 +53,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 4,
           "players": [
             "vikings10932",
             "SummerLoven0719",
-            "Reilig"
+            "Reilig",
+            "do_gotcha"
           ]
         },
         {
@@ -273,15 +273,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.2)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Rowena",
-            "Lexx",
-            "joeygaming63"
+            "Lexx"
           ]
         },
         {
@@ -297,16 +296,15 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.2)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
             "EXDaydreamer",
             "Vip_person",
             "MattyRoth83",
-            "CoachTooka",
             "mystic_gengar1"
           ]
         },
@@ -337,10 +335,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 16,
           "players": [
-            "Optimus Prime"
+            "Optimus Prime",
+            "Megadeth-GTA6"
           ],
           "map": null
         },

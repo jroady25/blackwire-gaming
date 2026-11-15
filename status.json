@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T05:41:50Z",
+  "generated_at": "2026-11-15T05:46:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -158,12 +158,14 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Weasel"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.2)",
@@ -290,12 +292,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.2)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "joeygaming63"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.2)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:26:48Z",
+  "generated_at": "2026-11-15T02:31:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -24,7 +24,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "ThatMcHaggis",
             "DriftNalg"
@@ -59,7 +59,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "vikings10932",
             "SummerLoven0719"
@@ -68,14 +68,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "joeygaming63"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.2)",
@@ -275,14 +273,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "Rowena",
-            "Lexx"
+            "Lexx",
+            "joeygaming63"
           ]
         },
         {
@@ -298,15 +297,16 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.2)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "EXDaydreamer",
             "Vip_person",
-            "MattyRoth83"
+            "MattyRoth83",
+            "CoachTooka"
           ]
         },
         {

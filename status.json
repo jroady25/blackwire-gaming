@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T20:26:59Z",
+  "generated_at": "2026-11-15T20:32:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,11 +54,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 8,
+          "players_current": 9,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 9,
           "players": [
             "vikings10932",
             "Reilig",
@@ -67,7 +67,8 @@
             "do_gotcha",
             "nashie069",
             "Whiteninja090",
-            "lethalcomp"
+            "lethalcomp",
+            "HotPolarBear550"
           ]
         },
         {
@@ -213,7 +214,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -257,7 +258,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Coffee Addict"
           ]

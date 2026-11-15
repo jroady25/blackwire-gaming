@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:41:56Z",
+  "generated_at": "2026-11-15T16:46:55Z",
   "servers": {
     "ark": {
       "servers": [
@@ -74,6 +74,16 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "ScorchedEarth_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
         },
         {
           "name": "BlackWire - The Center - PVP - (v98.6)",
@@ -240,14 +250,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "neutrinopc"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.6)",
@@ -309,14 +317,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
         }
       ]
     },

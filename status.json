@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:36:51Z",
+  "generated_at": "2026-11-15T06:41:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -38,15 +38,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "miclebia",
-            "DaddyDejo_11",
-            "temp-75930359"
+            "DaddyDejo_11"
           ]
         },
         {
@@ -114,13 +113,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "MonsterM"
+            "MonsterM",
+            "temp-75930359"
           ]
         },
         {
@@ -208,7 +208,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.2)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

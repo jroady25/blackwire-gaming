@@ -6,11 +6,11 @@
     },
     {
       "service_id": "17801131",
-      "name": "BlackWire - Valguero - PVE - (v98.2)"
+      "name": "BlackWire - Valguero - PVE - (v98.6)"
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.2)"
+      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)"
     },
     {
       "service_id": "18111097",
@@ -58,7 +58,7 @@
     },
     {
       "service_id": "18921197",
-      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)"
+      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)"
     },
     {
       "service_id": "19380386",
@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 13122265,
+    "offset": 13125808,
     "online": {},
     "last_accept": "86169d352a2abffa",
     "pending_name": null,
-    "log_size": 13122265,
+    "log_size": 13125808,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

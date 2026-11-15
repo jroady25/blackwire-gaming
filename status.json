@@ -1,34 +1,33 @@
 {
-  "generated_at": "2026-11-15T10:16:56Z",
+  "generated_at": "2026-11-15T10:21:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Profesor"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
-          "name": "BlackWire - Valguero - PVE - (v98.2)",
+          "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Zackattack28060"
+            "Zackattack28060",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
-          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.2)",
+          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -152,7 +151,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)",
+          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -224,12 +223,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Florii004"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.6)",
@@ -264,12 +265,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Profesor"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.6)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:31:48Z",
+  "generated_at": "2026-11-15T00:36:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,11 +53,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 7,
+          "players_current": 8,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 9,
+          "nitrado_count": 8,
           "players": [
             "nashie069",
             "mystic_gengar1",
@@ -65,7 +65,8 @@
             "Bretty Wat",
             "HotPolarBear550",
             "SummerLoven0719",
-            "vikings10932"
+            "vikings10932",
+            "Vip_person"
           ]
         },
         {
@@ -124,14 +125,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "MonsterM"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.2)",
@@ -166,14 +165,12 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "ronj15095"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.2)",
@@ -260,13 +257,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 2,
           "players": [
-            "Coffee Addict"
+            "Coffee Addict",
+            "Reilig"
           ]
         },
         {

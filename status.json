@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:57:02Z",
+  "generated_at": "2026-11-15T18:01:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -231,7 +231,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -300,12 +300,14 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Th30nlyDeL"
+          ]
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.6)",

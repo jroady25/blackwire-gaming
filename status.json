@@ -1,20 +1,18 @@
 {
-  "generated_at": "2026-11-15T17:06:59Z",
+  "generated_at": "2026-11-15T17:11:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 3,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "DragonWolf7676",
-            "Haitheat",
-            "Zaacattack990"
+            "Haitheat"
           ]
         },
         {
@@ -54,14 +52,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "own-loch4"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
@@ -154,6 +150,18 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
+          "online": true,
+          "players_current": 1,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "count_source": "rcon",
+          "nitrado_count": 1,
+          "players": [
+            "Weasel"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.6)",
@@ -306,16 +314,6 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
-        },
-        {
-          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
-          "online": true,
-          "players_current": 1,
-          "players_max": 20,
-          "map": null,
-          "players": [
-            "Weasel"
-          ]
         }
       ]
     },
@@ -379,9 +377,10 @@
           "service_id": "19957897",
           "name": "Runescape: Dragonwilds",
           "online": true,
-          "players_current": null,
+          "players_current": 0,
           "players_max": 6,
-          "map": null
+          "map": null,
+          "players": []
         }
       ]
     }

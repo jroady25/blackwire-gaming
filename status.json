@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-15T14:11:58Z",
+  "generated_at": "2026-11-15T14:17:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "utu_doughboy420"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
@@ -26,12 +28,14 @@
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "itssjussskes"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",

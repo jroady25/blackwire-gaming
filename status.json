@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:06:51Z",
+  "generated_at": "2026-11-15T00:11:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,13 +16,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.2)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "ThatMcHaggis"
+            "ThatMcHaggis",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -52,11 +53,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.2)",
           "online": true,
-          "players_current": 8,
+          "players_current": 9,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 8,
+          "nitrado_count": 9,
           "players": [
             "nashie069",
             "mystic_gengar1",
@@ -65,7 +66,8 @@
             "Vip_person",
             "HotPolarBear550",
             "EXDaydreamer",
-            "SummerLoven0719"
+            "SummerLoven0719",
+            "Reilig"
           ]
         },
         {
@@ -334,11 +336,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

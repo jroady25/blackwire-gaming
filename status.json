@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-15T11:26:57Z",
+  "generated_at": "2026-11-15T11:31:59Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Th30nlyDeL",
-            "Tata_Voyage"
+            "Th30nlyDeL"
           ]
         },
         {
@@ -55,14 +54,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "own-loch4",
-            "Profesor"
+            "Profesor",
+            "Tata_Voyage"
           ]
         },
         {

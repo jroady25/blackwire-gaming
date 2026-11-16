@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T05:02:04Z",
+  "generated_at": "2026-11-16T05:07:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -110,12 +110,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "temp-75930359"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
@@ -335,11 +337,11 @@
         {
           "name": "Palworld Armageddon",
           "service_id": "20122510",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 12,
-          "players": [],
-          "map": null
+          "map": null,
+          "offline_since": "2026-11-16T05:07:05Z"
         }
       ]
     },

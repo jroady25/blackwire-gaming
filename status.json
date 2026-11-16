@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-16T23:37:01Z",
+  "generated_at": "2026-11-16T23:42:03Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Th30nlyDeL"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
@@ -66,12 +64,14 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Th30nlyDeL"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
@@ -116,12 +116,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "temp-75930359"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
@@ -259,7 +261,7 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",

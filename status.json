@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T00:56:47Z",
+  "generated_at": "2026-11-16T01:01:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -291,13 +291,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Th30nlyDeL"
+            "Th30nlyDeL",
+            "mystic_gengar1"
           ]
         },
         {

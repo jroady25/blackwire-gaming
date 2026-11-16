@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:07:12Z",
+  "generated_at": "2026-11-16T15:12:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -205,7 +205,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

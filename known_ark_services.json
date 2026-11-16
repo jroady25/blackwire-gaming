@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 13681279,
+    "offset": 13684918,
     "online": {},
     "last_accept": "86169d352a2abffa",
     "pending_name": null,
-    "log_size": 13681279,
+    "log_size": 13684918,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Extinction - PVE - (v98.6)": "2026-11-16T00:11:57Z"
-  }
+  "offline_since": {}
 }

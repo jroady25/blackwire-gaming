@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T02:11:58Z",
+  "generated_at": "2026-11-16T02:16:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,14 +48,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "vikings10932",
-            "SummerLoven0719"
+            "vikings10932"
           ]
         },
         {
@@ -121,11 +120,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

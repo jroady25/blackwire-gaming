@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T22:41:57Z",
+  "generated_at": "2026-11-16T22:47:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -156,12 +156,14 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "President JFK's ..."
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.6)",
@@ -246,12 +248,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.6)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:47:21Z",
+  "generated_at": "2026-11-16T12:52:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,7 +50,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "neutrinopc",
             "sidimaraki100"

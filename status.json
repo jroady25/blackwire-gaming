@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:27:06Z",
+  "generated_at": "2026-11-17T12:32:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -298,13 +298,12 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.6)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-17T12:27:06Z"
+          "nitrado_count": 0
         }
       ]
     },
@@ -314,9 +313,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

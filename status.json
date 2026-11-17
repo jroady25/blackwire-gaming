@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:32:01Z",
+  "generated_at": "2026-11-17T20:37:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -56,7 +56,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 7,
           "players": [
             "neutrinopc",
             "sidimaraki100",
@@ -272,13 +272,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Rowena"
+            "Rowena",
+            "Lexx"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:06:57Z",
+  "generated_at": "2026-11-17T11:11:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -55,7 +55,7 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Zaacattack990"
+            "Whiteninja090"
           ]
         },
         {
@@ -281,12 +281,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",

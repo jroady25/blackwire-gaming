@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:57:10Z",
+  "generated_at": "2026-11-17T22:02:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,7 +54,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "chill_Lyrics14",
             "lethalcomp",
@@ -242,7 +242,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Haitheat"
           ]

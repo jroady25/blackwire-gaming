@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:12:26Z",
+  "generated_at": "2026-11-17T22:17:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,17 +48,18 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 6,
           "players": [
             "chill_Lyrics14",
             "lethalcomp",
             "Whiteninja090",
             "nashie069",
-            "KP Gaming"
+            "KP Gaming",
+            "SummerLoven0719"
           ]
         },
         {
@@ -174,7 +175,7 @@
         {
           "name": "BlackWire - Genesis 1 - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
@@ -234,14 +235,13 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Haitheat",
-            "Zaacattack990"
+            "Haitheat"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T09:12:14Z",
+  "generated_at": "2026-11-17T09:22:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,27 +51,22 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "T5OFFLINE",
-            "Beto2k FD"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
@@ -116,13 +111,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "MonsterM"
+            "MonsterM",
+            "Zaacattack990"
           ]
         },
         {
@@ -309,12 +305,11 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.6)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "map": null,
+          "offline_since": "2026-11-17T09:22:02Z"
         }
       ]
     },

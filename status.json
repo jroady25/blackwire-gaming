@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:22:06Z",
+  "generated_at": "2026-11-17T13:27:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -240,7 +240,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Zaacattack990"
           ]

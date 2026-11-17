@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:07:01Z",
+  "generated_at": "2026-11-17T18:12:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,26 +54,28 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 4,
           "players": [
             "neutrinopc",
-            "own-loch4"
+            "own-loch4",
+            "MattyRoth83"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "T5OFFLINE"
+            "T5OFFLINE",
+            "Zaacattack990"
           ]
         },
         {
@@ -123,17 +125,17 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -259,11 +261,11 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -273,7 +275,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Rowena"
           ]

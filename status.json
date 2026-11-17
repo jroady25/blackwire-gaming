@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:17:07Z",
+  "generated_at": "2026-11-17T06:22:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -46,13 +46,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "vikings10932"
+            "vikings10932",
+            "Zaacattack990"
           ]
         },
         {
@@ -136,8 +137,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "jana_mew",
-            "DireMeek"
+            "DireMeek",
+            "jana_mew"
           ]
         },
         {
@@ -285,14 +286,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "GrizzMode"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",

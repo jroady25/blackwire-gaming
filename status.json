@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:42:07Z",
+  "generated_at": "2026-11-17T06:47:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,25 +48,27 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "vikings10932"
+            "vikings10932",
+            "GrizzMode"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Beto2k FD"
+            "Beto2k FD",
+            "T5OFFLINE"
           ]
         },
         {
@@ -112,13 +114,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 2,
           "players": [
-            "MonsterM"
+            "MonsterM",
+            "DireMeek"
           ]
         },
         {
@@ -268,14 +271,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "joeygaming63"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.6)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:31:59Z",
+  "generated_at": "2026-11-17T16:37:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -28,12 +28,15 @@
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "DragonWolf7676",
+            "sadismTM"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",
@@ -48,24 +51,24 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v98.6)",
-          "online": true,
           "players_current": 1,
           "players_max": 20,
-          "map": "Extinction_WP",
+          "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
             "Zaacattack990"
           ]
+        },
+        {
+          "name": "BlackWire - Extinction - PVE - (v98.6)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Extinction_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
@@ -202,7 +205,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

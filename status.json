@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T18:17:07Z",
+  "generated_at": "2026-11-17T18:22:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,15 +54,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "neutrinopc",
-            "own-loch4",
-            "MattyRoth83"
+            "own-loch4"
           ]
         },
         {
@@ -81,7 +80,7 @@
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
@@ -141,12 +140,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Harru"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.6)",
@@ -261,11 +262,11 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

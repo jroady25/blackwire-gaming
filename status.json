@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:57:11Z",
+  "generated_at": "2026-11-17T07:02:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -137,14 +137,13 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "jana_mew",
-            "DireMeek"
+            "jana_mew"
           ]
         },
         {
@@ -210,11 +209,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {

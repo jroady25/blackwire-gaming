@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:02:06Z",
+  "generated_at": "2026-11-17T20:08:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "utu_doughboy420"
           ]
@@ -50,14 +50,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 4,
           "players": [
             "HotPolarBear550",
-            "Whiteninja090"
+            "neutrinopc",
+            "sidimaraki100"
           ]
         },
         {
@@ -119,7 +120,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": [
             "temp-75930359"
           ]
@@ -249,12 +250,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.6)",
@@ -291,12 +294,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "CoachTooka"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",

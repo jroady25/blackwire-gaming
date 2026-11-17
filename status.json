@@ -1,20 +1,19 @@
 {
-  "generated_at": "2026-11-17T19:12:13Z",
+  "generated_at": "2026-11-17T19:17:14Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "utu_doughboy420",
-            "Th3originBoS5",
-            "123"
+            "Th3originBoS5"
           ]
         },
         {
@@ -130,11 +129,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -260,23 +259,24 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Rowena"
+            "Rowena",
+            "123"
           ]
         },
         {

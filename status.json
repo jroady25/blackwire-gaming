@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-17T01:12:04Z",
+  "generated_at": "2026-11-17T01:16:57Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Th30nlyDeL"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
@@ -50,14 +48,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "jandles13"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
@@ -288,14 +284,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "mystic_gengar1"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",

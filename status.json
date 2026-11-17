@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:17:42Z",
+  "generated_at": "2026-11-17T14:21:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -62,12 +62,14 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Coffee Addict"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",

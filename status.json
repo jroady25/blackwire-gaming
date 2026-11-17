@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T01:22:02Z",
+  "generated_at": "2026-11-17T01:27:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -288,7 +288,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "GrizzMode"
           ]

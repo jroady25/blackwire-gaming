@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T20:52:03Z",
+  "generated_at": "2026-11-18T20:57:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Lexx"
           ]
@@ -18,14 +18,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Dat_Boi_Mike_70",
-            "DriftNalg"
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -61,8 +60,8 @@
           "nitrado_count": 3,
           "players": [
             "Whiteninja090",
-            "own-loch4",
-            "nashie069"
+            "nashie069",
+            "DriftNalg"
           ]
         },
         {
@@ -287,23 +286,24 @@
         {
           "name": "BlackWire - The Center - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Fyth Shadow"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Zaacattack990",
             "EXDaydreamer"
           ]
         },

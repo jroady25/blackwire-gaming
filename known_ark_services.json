@@ -101,10 +101,6 @@
       "name": "BlackWire - Extinction - PVP - (v98.6)"
     },
     {
-      "service_id": "19368830",
-      "name": "BlackWire - The Island - PVE - (v98.6)"
-    },
-    {
       "service_id": "19377800",
       "name": "BlackWire - The Center - PVE - (v98.6)"
     },
@@ -119,14 +115,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.6)"
+    },
+    {
+      "service_id": "19368830",
+      "name": "BlackWire - The Island - PVE - (v98.6)"
     }
   ],
   "dragonwilds": {
-    "offset": 15737958,
+    "offset": 15741307,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 15737958,
+    "log_size": 15741307,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {

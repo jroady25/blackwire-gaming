@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:22:06Z",
+  "generated_at": "2026-11-18T03:27:10Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,8 +57,8 @@
             "SummerLoven0719",
             "jandles13",
             "vikings10932",
-            "neutrinopc",
-            "LeeDDT"
+            "LeeDDT",
+            "nb_gotcha"
           ]
         },
         {
@@ -271,19 +271,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVE - (v98.6)",
-          "online": true,
-          "players_current": 2,
-          "players_max": 20,
-          "map": "TheIsland_WP",
-          "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "Lexx",
-            "mstngmscle67"
-          ]
-        },
-        {
           "name": "BlackWire - The Center - PVE - (v98.6)",
           "online": true,
           "players_current": 0,
@@ -327,6 +314,17 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - The Island - PVE - (v98.6)",
+          "online": true,
+          "players_current": 2,
+          "players_max": 20,
+          "map": null,
+          "players": [
+            "Lexx",
+            "mstngmscle67"
+          ]
         }
       ]
     },

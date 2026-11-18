@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T02:06:57Z",
+  "generated_at": "2026-11-18T02:11:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -161,13 +161,12 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "lllll_SANT_lllll",
             "President JFK's ..."
           ]
         },
@@ -300,17 +299,18 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "players": [
             "EXDaydreamer",
             "CoachTooka",
             "mystic_gengar1",
             "HotPolarBear550",
-            "MattyRoth83"
+            "MattyRoth83",
+            "Kenny_killer9911"
           ]
         },
         {

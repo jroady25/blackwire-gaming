@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:37:04Z",
+  "generated_at": "2026-11-18T18:42:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -294,12 +294,12 @@
           "count_source": "rcon",
           "nitrado_count": 6,
           "players": [
-            "mystic_gengar1",
             "EXDaydreamer",
             "Vip_person",
             "sneakyalex63",
             "own-loch4",
-            "Zaacattack990"
+            "Zaacattack990",
+            "mystic_gengar1"
           ]
         },
         {

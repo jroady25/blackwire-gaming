@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-18T04:17:12Z",
+  "generated_at": "2026-11-18T04:22:08Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Lexx"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
@@ -22,7 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -160,14 +158,13 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Ty1er_2910",
-            "President JFK's ..."
+            "Ty1er_2910"
           ]
         },
         {
@@ -237,7 +234,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

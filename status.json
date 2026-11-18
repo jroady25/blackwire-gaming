@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:12:19Z",
+  "generated_at": "2026-11-18T13:17:15Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,12 +36,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "ALDBARANT974"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
@@ -126,14 +128,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "ALDBARANT974"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.6)",

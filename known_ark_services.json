@@ -122,16 +122,15 @@
     }
   ],
   "dragonwilds": {
-    "offset": 16009357,
+    "offset": 16012345,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 16009357,
+    "log_size": 16012345,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Astraeos - PVE - (v98.6)": "2026-11-18T10:07:26Z",
-    "ark:BlackWire - The Island - PVE - (v98.6)": "2026-11-18T10:07:26Z",
+    "ark:BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)": "2026-11-18T10:12:17Z",
     "palworld:20122510": "2026-11-16T05:07:05Z"
   }
 }

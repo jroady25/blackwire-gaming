@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:07:05Z",
+  "generated_at": "2026-11-18T19:12:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -294,7 +294,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 5,
           "players": [
             "EXDaydreamer",
             "Vip_person",

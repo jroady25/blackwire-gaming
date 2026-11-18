@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:17:12Z",
+  "generated_at": "2026-11-18T07:22:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,7 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -146,14 +146,12 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "President JFK's ..."
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.6)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:07:10Z",
+  "generated_at": "2026-11-18T04:12:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -165,7 +165,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "Ty1er_2910",
             "President JFK's ..."
@@ -298,14 +298,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "mystic_gengar1"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.6)",

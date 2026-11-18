@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:27:07Z",
+  "generated_at": "2026-11-18T22:32:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Fyth Shadow"
           ]
@@ -291,7 +291,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T03:07:02Z",
+  "generated_at": "2026-11-18T03:12:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -49,17 +49,18 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "players": [
             "SummerLoven0719",
             "jandles13",
             "vikings10932",
             "neutrinopc",
-            "Reilig"
+            "Reilig",
+            "LeeDDT"
           ]
         },
         {
@@ -144,7 +145,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -337,11 +338,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

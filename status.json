@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:47:03Z",
+  "generated_at": "2026-11-18T04:52:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,7 +54,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "SummerLoven0719",
             "jandles13",
@@ -68,7 +68,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "T5OFFLINE"
           ]
@@ -140,7 +140,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

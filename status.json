@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:16:57Z",
+  "generated_at": "2026-11-18T17:22:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -14,7 +14,7 @@
           "players": [
             "utu_doughboy420",
             "Fyth Shadow",
-            "DragonWolf7676"
+            "t0XtraHR"
           ]
         },
         {
@@ -54,7 +54,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -90,11 +90,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -130,15 +130,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "Paul G 2K192906",
-            "Emil G 2K177495"
-          ]
+          "nitrado_count": 1,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.6)",
@@ -205,11 +202,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -235,14 +232,13 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Haitheat",
-            "Zaacattack990"
+            "Haitheat"
           ]
         },
         {
@@ -290,15 +286,16 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "mystic_gengar1",
             "EXDaydreamer",
-            "Vip_person"
+            "Vip_person",
+            "Zaacattack990"
           ]
         },
         {

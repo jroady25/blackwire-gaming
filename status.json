@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:47:07Z",
+  "generated_at": "2026-11-18T06:52:09Z",
   "servers": {
     "ark": {
       "servers": [
@@ -148,13 +148,12 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Ty1er_2910",
             "President JFK's ..."
           ]
         },

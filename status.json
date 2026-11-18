@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T01:32:03Z",
+  "generated_at": "2026-11-18T01:37:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,12 +16,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "DriftNalg"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
@@ -52,24 +54,25 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "SummerLoven0719",
             "LeeDDT",
-            "HotPolarBear550",
-            "jandles13"
+            "jandles13",
+            "vikings10932"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Aphrodite"
+            "Aphrodite",
+            "T5OFFLINE"
           ]
         },
         {
@@ -295,16 +298,17 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "EXDaydreamer",
             "sneakyalex63",
             "CoachTooka",
-            "mystic_gengar1"
+            "mystic_gengar1",
+            "HotPolarBear550"
           ]
         },
         {

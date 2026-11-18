@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T02:32:00Z",
+  "generated_at": "2026-11-18T02:36:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -277,13 +277,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "Rowena",
             "Lexx",
             "mstngmscle67"
           ]
@@ -301,18 +300,19 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 6,
+          "players_current": 7,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 6,
+          "nitrado_count": 7,
           "players": [
             "EXDaydreamer",
             "CoachTooka",
             "mystic_gengar1",
             "HotPolarBear550",
             "MattyRoth83",
-            "Kenny_killer9911"
+            "Kenny_killer9911",
+            "GrizzMode"
           ]
         },
         {

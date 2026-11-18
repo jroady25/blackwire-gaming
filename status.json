@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T12:27:10Z",
+  "generated_at": "2026-11-18T12:32:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -38,14 +38,12 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "miclebia"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
@@ -299,13 +297,12 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.6)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-18T12:27:10Z"
+          "nitrado_count": 0
         }
       ]
     },
@@ -315,9 +312,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:57:10Z",
+  "generated_at": "2026-11-18T18:02:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "t0XtraHR"
           ]
@@ -18,14 +18,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "DriftNalg",
-            "Dat_Boi_Mike_70"
+            "DriftNalg"
           ]
         },
         {
@@ -51,26 +50,25 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "HotPolarBear550"
+            "HotPolarBear550",
+            "Zaacattack990"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
@@ -207,7 +205,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -270,12 +268,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "123"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.6)",

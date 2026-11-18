@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:22:06Z",
+  "generated_at": "2026-11-18T22:27:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,9 +10,9 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": [
-            "Lexx"
+            "Fyth Shadow"
           ]
         },
         {
@@ -42,12 +42,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "miclebia"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
@@ -228,13 +230,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "zolla619"
+            "zolla619",
+            "Dclx00"
           ]
         },
         {
@@ -272,27 +275,24 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "123",
-            "Dclx00"
+            "123"
           ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Fyth Shadow"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",

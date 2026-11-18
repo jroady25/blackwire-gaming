@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:02:08Z",
+  "generated_at": "2026-11-18T19:07:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -128,7 +128,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -262,7 +262,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -290,7 +290,7 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 7,
+          "players_current": 5,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
@@ -298,10 +298,8 @@
           "players": [
             "EXDaydreamer",
             "Vip_person",
-            "sneakyalex63",
             "own-loch4",
             "Zaacattack990",
-            "mystic_gengar1",
             "MattyRoth83"
           ]
         },

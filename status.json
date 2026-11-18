@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T08:02:03Z",
+  "generated_at": "2026-11-18T08:06:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -220,7 +220,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 0,
           "players": []
         },
         {

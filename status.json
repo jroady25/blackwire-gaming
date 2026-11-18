@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:17:04Z",
+  "generated_at": "2026-11-18T22:22:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -158,7 +158,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "President JFK's ...",
             "lllll_SANT_lllll",
@@ -228,25 +228,26 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "zolla619",
-            "Dclx00"
+            "zolla619"
           ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "BigAxxFishStory"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.6)",
@@ -271,13 +272,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "123"
+            "123",
+            "Dclx00"
           ]
         },
         {

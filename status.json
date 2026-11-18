@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T02:51:58Z",
+  "generated_at": "2026-11-18T02:57:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,14 +51,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
             "SummerLoven0719",
-            "LeeDDT",
             "jandles13",
             "vikings10932",
             "neutrinopc"
@@ -67,12 +66,15 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 2,
+          "players": [
+            "Active Netos",
+            "T5OFFLINE"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
@@ -117,13 +119,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "MonsterM",
             "ZV1006187"
           ]
         },
@@ -306,8 +307,8 @@
             "EXDaydreamer",
             "CoachTooka",
             "mystic_gengar1",
-            "Kenny_killer9911",
-            "GrizzMode"
+            "GrizzMode",
+            "HotPolarBear550"
           ]
         },
         {

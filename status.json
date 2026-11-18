@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-18T03:32:05Z",
+  "generated_at": "2026-11-18T03:37:06Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Lexx"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
@@ -273,13 +275,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Lexx",
             "mstngmscle67"
           ]
         },
@@ -296,13 +297,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
-            "EXDaydreamer",
             "CoachTooka",
             "mystic_gengar1",
             "GrizzMode",

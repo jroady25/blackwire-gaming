@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:12:03Z",
+  "generated_at": "2026-11-18T22:17:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,14 +30,13 @@
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "sadismTM",
-            "itssjussskes"
+            "sadismTM"
           ]
         },
         {
@@ -53,12 +52,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "SummerLoven0719"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
@@ -153,14 +154,15 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "President JFK's ...",
-            "lllll_SANT_lllll"
+            "lllll_SANT_lllll",
+            "Ty1er_2910"
           ]
         },
         {
@@ -273,7 +275,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "123"
           ]

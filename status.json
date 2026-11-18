@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T02:47:00Z",
+  "generated_at": "2026-11-18T02:51:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,13 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.6)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "DriftNalg"
+            "DriftNalg",
+            "Berg"
           ]
         },
         {
@@ -66,15 +67,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "Aphrodite",
-            "Active Netos"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.6)",
@@ -299,16 +297,15 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 5,
           "players": [
             "EXDaydreamer",
             "CoachTooka",
             "mystic_gengar1",
-            "HotPolarBear550",
             "Kenny_killer9911",
             "GrizzMode"
           ]

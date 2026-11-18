@@ -2,23 +2,19 @@
   "ark_servers": [
     {
       "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v98.6)"
+      "name": "BlackWire - Ragnarok - PVE - (v98.9)"
     },
     {
       "service_id": "17801131",
-      "name": "BlackWire - Valguero - PVE - (v98.6)"
+      "name": "BlackWire - Valguero - PVE - (v98.9)"
     },
     {
       "service_id": "18012721",
-      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)"
+      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)"
     },
     {
       "service_id": "18111097",
-      "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)"
-    },
-    {
-      "service_id": "18111130",
-      "name": "BlackWire - Astraeos - PVE - (v98.6)"
+      "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)"
     },
     {
       "service_id": "18111154",
@@ -50,7 +46,7 @@
     },
     {
       "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.6)"
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)"
     },
     {
       "service_id": "18863471",
@@ -58,7 +54,7 @@
     },
     {
       "service_id": "18921197",
-      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)"
+      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)"
     },
     {
       "service_id": "19380386",
@@ -66,11 +62,11 @@
     },
     {
       "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v98.6)"
+      "name": "BlackWire - Genesis 1 - PVP - (v98.9)"
     },
     {
       "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v98.6)"
+      "name": "BlackWire - Event Map - (v98.9)"
     },
     {
       "service_id": "18357580",
@@ -78,7 +74,7 @@
     },
     {
       "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v98.6)"
+      "name": "BlackWire - Astraeos - PVP - (v98.9)"
     },
     {
       "service_id": "18859910",
@@ -94,7 +90,7 @@
     },
     {
       "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v98.6)"
+      "name": "BlackWire - Lost Colony - PVE - (v98.9)"
     },
     {
       "service_id": "19368770",
@@ -102,15 +98,15 @@
     },
     {
       "service_id": "19368830",
-      "name": "BlackWire - The Island - PVE - (v98.6)"
+      "name": "BlackWire - The Island - PVE - (v98.9)"
     },
     {
       "service_id": "19377800",
-      "name": "BlackWire - The Center - PVE - (v98.6)"
+      "name": "BlackWire - The Center - PVE - (v98.9)"
     },
     {
       "service_id": "19426823",
-      "name": "BlackWire - Genesis 1 - PVE - (v98.6)"
+      "name": "BlackWire - Genesis 1 - PVE - (v98.9)"
     },
     {
       "service_id": "19466842",
@@ -119,17 +115,22 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
+    },
+    {
+      "service_id": "18111130",
+      "name": "BlackWire - Astraeos - PVE - (v98.6)"
     }
   ],
   "dragonwilds": {
-    "offset": 16563878,
+    "offset": 16567421,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 16563878,
+    "log_size": 16567421,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
+    "ark:BlackWire - Astraeos - PVE - (v98.6)": "2026-11-18T23:52:06Z",
     "palworld:20122510": "2026-11-16T05:07:05Z"
   }
 }

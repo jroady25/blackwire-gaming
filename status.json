@@ -1,52 +1,43 @@
 {
-  "generated_at": "2026-11-18T23:47:09Z",
+  "generated_at": "2026-11-18T23:52:06Z",
   "servers": {
     "ark": {
       "servers": [
         {
-          "name": "BlackWire - Ragnarok - PVE - (v98.6)",
+          "name": "BlackWire - Ragnarok - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Valguero - PVE - (v98.6)",
+          "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.6)",
-          "online": true,
-          "players_current": 3,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 3
-        },
-        {
-          "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.6)",
+          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
           "online": true,
           "players_current": 1,
           "players_max": 20,
-          "map": "TheIsland_WP",
+          "map": "Astraeos_WP",
           "count_source": "nitrado",
           "nitrado_count": 1
         },
         {
-          "name": "BlackWire - Astraeos - PVE - (v98.6)",
+          "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
-          "map": "Astraeos_WP",
+          "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
@@ -117,7 +108,7 @@
           "names_hidden": true
         },
         {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.6)",
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -136,13 +127,13 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.6)",
+          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "nitrado",
-          "nitrado_count": 3
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
@@ -155,23 +146,24 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Genesis 1 - PVP - (v98.6)",
+          "name": "BlackWire - Genesis 1 - PVP - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Event Map - (v98.6)",
+          "name": "BlackWire - Event Map - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
@@ -184,13 +176,13 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Astraeos - PVP - (v98.6)",
+          "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -222,7 +214,7 @@
           "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Lost Colony - PVE - (v98.6)",
+          "name": "BlackWire - Lost Colony - PVE - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -241,16 +233,16 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - The Island - PVE - (v98.6)",
+          "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         },
         {
-          "name": "BlackWire - The Center - PVE - (v98.6)",
+          "name": "BlackWire - The Center - PVE - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -259,7 +251,7 @@
           "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
+          "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -284,6 +276,14 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - Astraeos - PVE - (v98.6)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-18T23:52:06Z"
         }
       ]
     },

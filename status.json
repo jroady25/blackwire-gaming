@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:06:58Z",
+  "generated_at": "2026-11-18T18:12:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,14 +50,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "HotPolarBear550",
-            "Zaacattack990"
+            "HotPolarBear550"
           ]
         },
         {
@@ -113,12 +112,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "SneakEight42233"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
@@ -290,17 +291,18 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.6)",
           "online": true,
-          "players_current": 5,
+          "players_current": 6,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "players": [
             "mystic_gengar1",
             "EXDaydreamer",
             "Vip_person",
             "sneakyalex63",
-            "own-loch4"
+            "own-loch4",
+            "Zaacattack990"
           ]
         },
         {

@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-18T20:26:58Z",
+  "generated_at": "2026-11-18T20:32:01Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.6)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Fyth Shadow",
-            "Tata_Voyage"
+            "Fyth Shadow"
           ]
         },
         {
@@ -117,12 +116,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": []
+          "nitrado_count": 0,
+          "players": [
+            "Aizden1"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.6)",
@@ -240,12 +241,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.6)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Tata_Voyage"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.6)",

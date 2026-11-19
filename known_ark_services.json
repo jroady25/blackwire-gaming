@@ -5,10 +5,6 @@
       "name": "BlackWire - Ragnarok - PVE - (v98.9)"
     },
     {
-      "service_id": "17801131",
-      "name": "BlackWire - Valguero - PVE - (v98.9)"
-    },
-    {
       "service_id": "18012721",
       "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)"
     },
@@ -119,14 +115,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
+    },
+    {
+      "service_id": "17801131",
+      "name": "BlackWire - Valguero - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 17112817,
+    "offset": 17116555,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 17112817,
+    "log_size": 17116555,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {

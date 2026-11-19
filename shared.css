@@ -59,7 +59,7 @@ header{
   padding-block:18px; border-bottom:1px solid var(--line);
 }
 .brand{display:flex; align-items:center; gap:12px; text-decoration:none;}
-.brand-mark{width:40px; height:40px; border-radius:4px; object-fit:cover; object-position:50% 42%; flex:none;}
+.brand-mark{width:40px; height:40px; object-fit:contain; flex:none; filter:drop-shadow(0 0 6px rgba(226,35,26,0.35));}
 .brand-word{font-family:var(--font-display); font-weight:800; font-size:1.3rem; letter-spacing:0.04em; color:var(--text);}
 .brand-word span{color:var(--blood);}
 nav{display:flex; align-items:center; gap:clamp(16px,3vw,32px);}

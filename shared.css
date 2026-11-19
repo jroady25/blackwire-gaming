@@ -68,6 +68,24 @@ nav a{font-size:0.8rem; font-weight:600; letter-spacing:0.07em; text-transform:u
 nav a:hover, nav a.is-current{color:var(--text); border-color:var(--blood);}
 .signin{font-size:0.76rem; font-weight:700; letter-spacing:0.07em; text-transform:uppercase; color:#fff; background:var(--blood); padding:9px 16px; text-decoration:none;}
 .signin:hover{background:#ff3d2f;}
+.signin{white-space:nowrap;}
+/* phones: keep Sign In on one line (it wrapped to two at ~390px wide) */
+@media (max-width:480px){
+  nav{gap:10px;}
+  .brand{gap:8px;}
+  .brand-word{font-size:1.15rem;}
+  .signin{padding:8px 12px;}
+}
+@media (max-width:380px){
+  nav{gap:8px;}
+  .brand{gap:6px;}
+  .brand-mark{width:34px; height:34px;}
+  .brand-word{font-size:1rem;}
+  .signin{padding:7px 10px;}
+  .nav-donate{padding:7px 8px;}
+}
+/* very small phones (320px): the hawk alone, so the buttons still fit */
+@media (max-width:340px){ .brand-word{display:none;} }
 
 /* mobile menu toggle — the nav links used to just vanish under 720px */
 .nav-toggle{

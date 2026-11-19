@@ -65,6 +65,10 @@
       "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)"
     },
     {
+      "service_id": "19826461",
+      "name": "BlackWire - Genesis 1 - PVP - (v98.9)"
+    },
+    {
       "service_id": "18357526",
       "name": "BlackWire - Event Map - (v98.9)"
     },
@@ -115,21 +119,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
-    },
-    {
-      "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 17069686,
+    "offset": 17073035,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 17069686,
+    "log_size": 17073035,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
+    "ark:BlackWire - Mod Test Map - (v98.9)": "2026-11-19T12:27:02Z",
     "palworld:20122510": "2026-11-16T05:07:05Z"
   }
 }

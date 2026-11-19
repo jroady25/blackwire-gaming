@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:07:12Z",
+  "generated_at": "2026-11-19T12:12:13Z",
   "servers": {
     "ark": {
       "servers": [
@@ -278,11 +278,10 @@
         },
         {
           "name": "BlackWire - Genesis 1 - PVP - (v98.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-19T12:02:13Z",
           "names_hidden": true
         }
       ]

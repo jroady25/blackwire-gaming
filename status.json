@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:52:10Z",
+  "generated_at": "2026-11-19T11:57:18Z",
   "servers": {
     "ark": {
       "servers": [
@@ -160,7 +160,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
           "names_hidden": true
         },

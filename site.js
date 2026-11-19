@@ -195,3 +195,27 @@
   a.textContent = 'Wall';
   links.appendChild(a);
 })();
+
+/* Shop Builder link - shopbuilder.blackwiregaming.com, where server owners set up the
+   BlackWire Shop mod (prices, packages, coins) from a phone or PC. Added to the menu
+   (after Guides) and to every footer, opens in a new tab like Merch. */
+(function(){
+  var URL_ = 'https://shopbuilder.blackwiregaming.com';
+  var links = document.getElementById('navLinks');
+  if(links && !links.querySelector('a[data-shopbuilder]')){
+    var a = document.createElement('a');
+    a.href = URL_; a.target = '_blank'; a.rel = 'noopener';
+    a.setAttribute('data-shopbuilder', '1');
+    a.textContent = 'Shop Builder';
+    var guides = links.querySelector('a[href="guides.html"]');
+    if(guides && guides.nextSibling) links.insertBefore(a, guides.nextSibling); else links.appendChild(a);
+  }
+  var foot = document.querySelector('.foot-links');
+  if(foot && !foot.querySelector('a[data-shopbuilder]')){
+    var f = document.createElement('a');
+    f.href = URL_; f.target = '_blank'; f.rel = 'noopener';
+    f.setAttribute('data-shopbuilder', '1');
+    f.textContent = 'Shop Builder';
+    foot.appendChild(f);
+  }
+})();

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:52:27Z",
+  "generated_at": "2026-11-20T20:57:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -63,7 +63,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -83,7 +83,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -112,7 +112,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -131,7 +131,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -170,8 +170,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
@@ -179,7 +180,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -189,7 +190,7 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
         },
@@ -236,7 +237,7 @@
           "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 1,
           "names_hidden": true
         },
@@ -293,8 +294,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": null,
+          "players_current": 1,
           "players_max": 16,
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

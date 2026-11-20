@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-20T02:22:08Z",
+  "generated_at": "2026-11-20T02:27:11Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2
+          "nitrado_count": 3
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",

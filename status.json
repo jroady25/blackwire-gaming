@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T19:12:14Z",
+  "generated_at": "2026-11-20T19:17:19Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,11 +42,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 8,
+          "players_current": 7,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "nitrado",
-          "nitrado_count": 8
+          "nitrado_count": 7
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
@@ -64,7 +64,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -238,7 +238,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

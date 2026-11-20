@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:22:16Z",
+  "generated_at": "2026-11-20T12:27:21Z",
   "servers": {
     "ark": {
       "servers": [
@@ -269,21 +269,23 @@
           "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Mod Test Map - (v98.9)",
+          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
+          "map": "Bjarnheim_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
+          "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-20T12:22:16Z"
+          "map": "TheIsland_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0,
+          "offline_since": "2026-11-20T12:27:21Z"
         }
       ]
     },

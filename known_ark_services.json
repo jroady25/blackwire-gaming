@@ -113,23 +113,24 @@
       "name": "BlackWire - Genesis 1 - PVE - (v98.9)"
     },
     {
-      "service_id": "19466842",
-      "name": "BlackWire - Bjarnheim - PVE - (v98.9)"
-    },
-    {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
+    },
+    {
+      "service_id": "19466842",
+      "name": "BlackWire - Bjarnheim - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 18030601,
+    "offset": 18034339,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 18030601,
+    "log_size": 18034339,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
+    "ark:BlackWire - Bjarnheim - PVE - (v98.9)": "2026-11-20T12:22:16Z",
     "palworld:20122510": "2026-11-16T05:07:05Z"
   }
 }

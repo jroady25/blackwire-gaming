@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:17:11Z",
+  "generated_at": "2026-11-20T12:22:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -269,15 +269,6 @@
           "nitrado_count": 0
         },
         {
-          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
-        },
-        {
           "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -285,6 +276,14 @@
           "map": "TheIsland_WP",
           "count_source": "nitrado",
           "nitrado_count": 0
+        },
+        {
+          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-20T12:22:16Z"
         }
       ]
     },
@@ -294,9 +293,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

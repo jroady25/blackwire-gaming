@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:12:04Z",
+  "generated_at": "2026-11-20T14:17:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -15,11 +15,11 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 2
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
@@ -234,7 +234,7 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",

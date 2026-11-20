@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T09:57:15Z",
+  "generated_at": "2026-11-20T10:02:12Z",
   "servers": {
     "ark": {
       "servers": [
@@ -32,12 +32,13 @@
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
-          "online": true,
+          "online": false,
           "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 1,
+          "offline_since": "2026-11-20T10:02:12Z"
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
@@ -146,12 +147,13 @@
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-20T10:02:12Z",
           "names_hidden": true
         },
         {
@@ -224,12 +226,13 @@
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 0,
+          "offline_since": "2026-11-20T10:02:12Z"
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
@@ -270,12 +273,13 @@
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 0,
+          "offline_since": "2026-11-20T10:02:12Z"
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",

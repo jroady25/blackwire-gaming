@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T22:22:18Z",
+  "generated_at": "2026-11-21T22:27:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -49,11 +49,11 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "nitrado",
-          "nitrado_count": 2
+          "nitrado_count": 3
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
@@ -178,16 +178,12 @@
         {
           "name": "BlackWire - Event Map - (v98.9)",
           "online": true,
-          "players_current": 5,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 3,
           "players": [
-            "do_gotcha",
-            "MattyRoth83",
-            "StankGooose",
-            "Arigatu1",
             "Harru"
           ]
         },
@@ -204,7 +200,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -307,8 +303,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         }
       ]
     },

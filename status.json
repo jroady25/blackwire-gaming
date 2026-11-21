@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:57:14Z",
+  "generated_at": "2026-11-21T01:02:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,11 +51,11 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
@@ -100,11 +100,11 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.9)",
@@ -187,7 +187,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -244,11 +244,11 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 1
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.9)",

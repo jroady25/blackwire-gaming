@@ -122,15 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 19397144,
+    "offset": 19399938,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 19397144,
+    "log_size": 19399938,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)": "2026-11-21T22:17:13Z",
     "palworld:20122510": "2026-11-16T05:07:05Z"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:27:23Z",
+  "generated_at": "2026-11-21T04:32:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -293,11 +293,11 @@
         {
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
-          "map": null,
-          "offline_since": "2026-11-21T04:27:23Z"
+          "players": [],
+          "map": null
         },
         {
           "name": "Palworld Limitless PVP",

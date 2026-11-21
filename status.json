@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T02:17:03Z",
+  "generated_at": "2026-11-21T02:22:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -33,20 +33,20 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 0
+          "nitrado_count": 1
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 6,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "nitrado",
-          "nitrado_count": 6
+          "nitrado_count": 5
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
@@ -280,11 +280,11 @@
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "nitrado",
-          "nitrado_count": 1
+          "nitrado_count": 0
         }
       ]
     },

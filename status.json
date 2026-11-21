@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:42:08Z",
+  "generated_at": "2026-11-21T16:47:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -167,12 +167,14 @@
         {
           "name": "BlackWire - Event Map - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "do_gotcha"
+          ]
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",

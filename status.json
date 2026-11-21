@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T20:02:04Z",
+  "generated_at": "2026-11-21T20:07:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -167,15 +167,17 @@
         {
           "name": "BlackWire - Event Map - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 5,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "do_gotcha",
             "MattyRoth83",
-            "StankGooose"
+            "StankGooose",
+            "FB_Sapper_Actual",
+            "Arigatu1"
           ]
         },
         {
@@ -191,7 +193,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",

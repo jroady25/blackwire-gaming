@@ -122,15 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 19416805,
+    "offset": 19420154,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 19416805,
+    "log_size": 19420154,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Event Map - (v98.9)": "2026-11-21T22:47:01Z",
     "palworld:20122510": "2026-11-16T05:07:05Z"
   }
 }

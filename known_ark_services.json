@@ -122,15 +122,14 @@
     }
   ],
   "dragonwilds": {
-    "offset": 18710587,
+    "offset": 18717479,
     "online": {},
     "last_accept": "d66d2216726c952c",
     "pending_name": null,
-    "log_size": 18710587,
+    "log_size": 18717479,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "palworld:19733590": "2026-11-21T05:16:46Z",
     "palworld:20122510": "2026-11-16T05:07:05Z"
   }
 }

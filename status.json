@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T20:42:01Z",
+  "generated_at": "2026-11-21T20:47:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -167,16 +167,15 @@
         {
           "name": "BlackWire - Event Map - (v98.9)",
           "online": true,
-          "players_current": 7,
+          "players_current": 6,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 7,
+          "nitrado_count": 6,
           "players": [
             "do_gotcha",
             "MattyRoth83",
             "StankGooose",
-            "FB_Sapper_Actual",
             "Arigatu1",
             "Harru",
             "Rowena"

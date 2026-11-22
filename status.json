@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:21:55Z",
+  "generated_at": "2026-11-22T02:26:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,12 +30,14 @@
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "lllll_SANT_lllll"
+          ]
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
@@ -52,16 +54,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "vikings10932",
             "SummerLoven0719",
-            "Zaacattack990",
-            "HotPolarBear550"
+            "Zaacattack990"
           ]
         },
         {
@@ -253,14 +254,13 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Coffee Addict",
-            "Reilig"
+            "Coffee Addict"
           ]
         },
         {
@@ -298,13 +298,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "do_gotcha"
+            "do_gotcha",
+            "Reilig"
           ]
         },
         {

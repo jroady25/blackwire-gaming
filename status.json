@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:26:53Z",
+  "generated_at": "2026-11-22T02:31:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -61,8 +61,8 @@
           "nitrado_count": 3,
           "players": [
             "vikings10932",
-            "SummerLoven0719",
-            "Zaacattack990"
+            "HotPolarBear550",
+            "Kenny_killer9911"
           ]
         },
         {
@@ -72,7 +72,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "vTOPDOGc"
           ]
@@ -162,14 +162,12 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Weasel"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
@@ -214,11 +212,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -254,13 +252,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Coffee Addict"
+            "Coffee Addict",
+            "Zaacattack990"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:46:51Z",
+  "generated_at": "2026-11-22T01:51:46Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,12 +42,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "DomXroller-_-"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
@@ -58,20 +60,22 @@
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "HotPolarBear550",
             "Zaacattack990",
-            "vikings10932"
+            "vikings10932",
+            "HotPolarBear550"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "vTOPDOGc"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
@@ -178,11 +182,11 @@
         {
           "name": "BlackWire - Genesis 1 - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -208,11 +212,11 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

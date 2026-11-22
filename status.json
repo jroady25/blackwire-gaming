@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:51:58Z",
+  "generated_at": "2026-11-22T15:56:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,10 +57,10 @@
           "count_source": "rcon",
           "nitrado_count": 4,
           "players": [
-            "HotPolarBear550",
             "Kenny_killer9911",
             "neutrinopc",
-            "sidimaraki100"
+            "sidimaraki100",
+            "HotPolarBear550"
           ]
         },
         {

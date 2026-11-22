@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:56:58Z",
+  "generated_at": "2026-11-22T03:01:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -30,14 +30,12 @@
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "lllll_SANT_lllll"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
@@ -46,7 +44,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -65,14 +63,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "vTOPDOGc"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
@@ -121,7 +117,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "MonsterM",
             "Aizden1"
@@ -160,12 +156,14 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "lllll_SANT_lllll"
+          ]
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
@@ -234,18 +232,20 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
@@ -294,14 +294,15 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Reilig",
-            "do_gotcha"
+            "do_gotcha",
+            "mystic_gengar1"
           ]
         },
         {

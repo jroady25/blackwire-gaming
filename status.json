@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T03:01:49Z",
+  "generated_at": "2026-11-22T03:06:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,13 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "DriftNalg"
+            "DriftNalg",
+            "mystic_gengar1"
           ]
         },
         {
@@ -50,25 +51,28 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "vikings10932",
-            "Kenny_killer9911"
+            "Kenny_killer9911",
+            "Zaacattack990"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "Sweetpee2"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
@@ -238,14 +242,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
@@ -294,15 +296,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "Reilig",
-            "do_gotcha",
-            "mystic_gengar1"
+            "do_gotcha"
           ]
         },
         {

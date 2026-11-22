@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T05:56:53Z",
+  "generated_at": "2026-11-22T06:01:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,16 +48,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "vikings10932",
-            "LeeDDT",
-            "Zaacattack990",
-            "GrizzMode"
+            "LeeDDT"
           ]
         },
         {
@@ -233,12 +231,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",

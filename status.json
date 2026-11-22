@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:36:53Z",
+  "generated_at": "2026-11-22T21:41:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,13 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 2,
           "players": [
-            "Lexx",
             "ThatMcHaggis",
             "DriftNalg"
           ]
@@ -40,27 +39,24 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "CJ Snipez 11"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Kenny_killer9911",
-            "Whiteninja090",
-            "neutrinopc"
+            "Whiteninja090"
           ]
         },
         {
@@ -292,12 +288,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "mystic_gengar1"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",

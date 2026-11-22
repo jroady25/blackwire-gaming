@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:01:53Z",
+  "generated_at": "2026-11-22T15:06:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "CosmicMint59932"
           ]
@@ -65,13 +65,14 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "neutrinopc"
+            "neutrinopc",
+            "sidimaraki100"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:06:48Z",
+  "generated_at": "2026-11-22T15:11:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -69,7 +69,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "neutrinopc",
             "sidimaraki100"

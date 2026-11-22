@@ -41,10 +41,6 @@
       "name": "BlackWire - Aberration - PVP - (v98.9)"
     },
     {
-      "service_id": "18497059",
-      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)"
-    },
-    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v98.9)"
     },
@@ -119,14 +115,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
+    },
+    {
+      "service_id": "18497059",
+      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 20359408,
+    "offset": 20362951,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 20359408,
+    "log_size": 20362756,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

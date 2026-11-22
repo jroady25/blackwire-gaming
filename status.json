@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:51:54Z",
+  "generated_at": "2026-11-22T02:56:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -42,27 +42,24 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "DomXroller-_-"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "vikings10932",
-            "Kenny_killer9911",
-            "HotPolarBear550"
+            "Kenny_killer9911"
           ]
         },
         {
@@ -120,12 +117,13 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
+            "MonsterM",
             "Aizden1"
           ]
         },
@@ -296,14 +294,13 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Reilig",
-            "Zaacattack990",
             "do_gotcha"
           ]
         },

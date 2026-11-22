@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:17:02Z",
+  "generated_at": "2026-11-22T13:21:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -38,13 +38,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "miclebia"
+            "miclebia",
+            "REGIONA_tool"
           ]
         },
         {

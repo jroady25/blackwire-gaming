@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T23:21:58Z",
+  "generated_at": "2026-11-22T23:27:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -53,10 +53,10 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
-            "Kenny_killer9911",
-            "vikings10932"
+            "vikings10932",
+            "Zaacattack990"
           ]
         },
         {
@@ -298,14 +298,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",

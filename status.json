@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:46:51Z",
+  "generated_at": "2026-11-22T02:51:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -54,14 +54,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "vikings10932",
-            "Kenny_killer9911"
+            "Kenny_killer9911",
+            "HotPolarBear550"
           ]
         },
         {

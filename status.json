@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T18:31:48Z",
+  "generated_at": "2026-11-22T18:36:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,10 +52,10 @@
           "count_source": "rcon",
           "nitrado_count": 4,
           "players": [
-            "vikings10932",
             "Kenny_killer9911",
             "Reilig",
-            "do_gotcha"
+            "do_gotcha",
+            "vikings10932"
           ]
         },
         {
@@ -275,12 +275,14 @@
         {
           "name": "BlackWire - The Center - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "ThatMcHaggis"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",

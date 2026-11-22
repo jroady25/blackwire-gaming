@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T03:26:53Z",
+  "generated_at": "2026-11-22T03:31:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,14 +18,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "DriftNalg",
-            "mystic_gengar1",
             "Lexx"
           ]
         },
@@ -115,13 +114,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "MonsterM",
             "Aizden1"
           ]
         },
@@ -234,7 +232,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -294,14 +292,15 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Reilig",
-            "do_gotcha"
+            "do_gotcha",
+            "mystic_gengar1"
           ]
         },
         {

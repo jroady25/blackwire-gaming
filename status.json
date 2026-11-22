@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T04:01:57Z",
+  "generated_at": "2026-11-22T04:07:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,13 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "DriftNalg",
             "Lexx"
           ]
         },
@@ -49,14 +48,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "vikings10932",
-            "do_gotcha"
+            "vikings10932"
           ]
         },
         {
@@ -288,25 +286,28 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "Reilig",
-            "GrizzMode"
+            "GrizzMode",
+            "do_gotcha"
           ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",

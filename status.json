@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:16:49Z",
+  "generated_at": "2026-11-23T00:21:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -95,7 +95,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -105,7 +105,7 @@
         {
           "name": "BlackWire - Aberration - PVP - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",

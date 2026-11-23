@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:16:57Z",
+  "generated_at": "2026-11-23T01:22:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "Dat_Boi_Mike_70",
             "Zackattack28060"
@@ -214,7 +214,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {

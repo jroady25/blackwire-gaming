@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-23T01:52:00Z",
+  "generated_at": "2026-11-23T01:56:59Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Aphrodite",
-            "Dat_Boi_Mike_70"
+            "Aphrodite"
           ]
         },
         {
@@ -57,9 +56,9 @@
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "vikings10932",
             "mystic_gengar1",
-            "nb_gotcha"
+            "nb_gotcha",
+            "vikings10932"
           ]
         },
         {
@@ -271,13 +270,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Derangedjoka"
+            "Derangedjoka",
+            "Dat_Boi_Mike_70"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:31:55Z",
+  "generated_at": "2026-11-23T06:36:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,7 +57,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -113,14 +113,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "jana_mew"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.9)",
@@ -135,13 +133,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Saladbar82"
+            "Saladbar82",
+            "jana_mew"
           ]
         },
         {
@@ -241,7 +240,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Zaacattack990"
           ]

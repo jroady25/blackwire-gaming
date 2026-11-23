@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:01:50Z",
+  "generated_at": "2026-11-23T00:06:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -52,13 +52,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "vikings10932"
+            "vikings10932",
+            "Zaacattack990"
           ]
         },
         {
@@ -286,24 +287,24 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "mystic_gengar1"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",

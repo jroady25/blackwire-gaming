@@ -1,20 +1,21 @@
 {
-  "generated_at": "2026-11-23T02:21:49Z",
+  "generated_at": "2026-11-23T02:26:56Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Aphrodite",
             "HotPolarBear550",
-            "Lexx"
+            "Lexx",
+            "MattyRoth83"
           ]
         },
         {
@@ -43,13 +44,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "miclebia"
+            "miclebia",
+            "miclebiaso"
           ]
         },
         {

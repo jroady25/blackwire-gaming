@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:32:01Z",
+  "generated_at": "2026-11-23T22:37:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -150,13 +150,14 @@
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Deadwolf501"
+            "Deadwolf501",
+            "Arigatu1"
           ]
         },
         {
@@ -305,14 +306,12 @@
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Adriano"
-          ]
+          "nitrado_count": 0,
+          "players": []
         }
       ]
     },

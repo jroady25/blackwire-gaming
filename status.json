@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:07:00Z",
+  "generated_at": "2026-11-23T01:12:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,14 +18,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "Dat_Boi_Mike_70",
-            "DriftNalg"
+            "Zackattack28060",
+            "ThatMcHaggis"
           ]
         },
         {
@@ -270,13 +271,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Leather Nuts",
             "Derangedjoka"
           ]
         },

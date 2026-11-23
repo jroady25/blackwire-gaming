@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T10:12:00Z",
+  "generated_at": "2026-11-23T10:16:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,11 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 1
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
@@ -28,8 +29,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
@@ -128,7 +130,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -143,13 +145,13 @@
         },
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-23T10:12:00Z"
+          "players": []
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
@@ -163,13 +165,12 @@
         },
         {
           "name": "BlackWire - Genesis 1 - PVP - (v98.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-23T10:12:00Z",
           "names_hidden": true
         },
         {
@@ -271,8 +272,9 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:22:02Z",
+  "generated_at": "2026-11-23T11:27:17Z",
   "servers": {
     "ark": {
       "servers": [
@@ -206,16 +206,6 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Valguero - PVP - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Valguero_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Scorched Earth - PVE - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -300,10 +290,16 @@
           "online": true,
           "players_current": 0,
           "players_max": 20,
-          "map": "TheIsland_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
+          "map": null,
           "players": []
+        },
+        {
+          "name": "BlackWire - Valguero - PVP - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "names_hidden": true
         }
       ]
     },

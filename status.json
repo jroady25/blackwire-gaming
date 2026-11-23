@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T05:16:58Z",
+  "generated_at": "2026-11-23T05:22:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,13 +16,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Lexx"
+            "Lexx",
+            "Zackattack28060"
           ]
         },
         {
@@ -50,28 +51,28 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 5,
           "players": [
             "vikings10932",
             "SummerLoven0719",
             "GrizzMode",
-            "Luckyybear14"
+            "Luckyybear14",
+            "jandles13"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Zackattack28060",
             "Dat_Boi_Mike_70"
           ]
         },

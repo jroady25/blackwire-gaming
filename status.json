@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:12:00Z",
+  "generated_at": "2026-11-23T01:16:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,15 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "Dat_Boi_Mike_70",
-            "Zackattack28060",
-            "ThatMcHaggis"
+            "Zackattack28060"
           ]
         },
         {
@@ -211,7 +210,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -275,7 +274,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Derangedjoka"
           ]
@@ -283,12 +282,14 @@
         {
           "name": "BlackWire - The Center - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "ThatMcHaggis"
+          ]
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",

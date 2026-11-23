@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T09:51:52Z",
+  "generated_at": "2026-11-23T09:56:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -128,13 +128,12 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Saladbar82",
             "jana_mew"
           ]
         },

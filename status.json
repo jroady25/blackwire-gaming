@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-23T14:56:54Z",
+  "generated_at": "2026-11-23T15:01:53Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "HotPolarBear550"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
@@ -48,15 +50,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "neutrinopc",
-            "sidimaraki100",
-            "HotPolarBear550"
+            "sidimaraki100"
           ]
         },
         {
@@ -264,14 +265,15 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "WeariestOrpheus",
-            "SirXexanoth"
+            "SirXexanoth",
+            "Derangedjoka"
           ]
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T04:31:58Z",
+  "generated_at": "2026-11-23T04:36:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,15 +40,16 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "miclebia",
             "miclebiaso",
-            "xcalibur62211"
+            "xcalibur62211",
+            "Ejdinoman41312"
           ]
         },
         {
@@ -68,14 +69,12 @@
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zackattack28060"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",

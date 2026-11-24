@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:27:11Z",
+  "generated_at": "2026-11-24T04:31:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -51,7 +51,7 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -59,7 +59,8 @@
           "players": [
             "GrizzMode",
             "vikings10932",
-            "LeeDDT"
+            "LeeDDT",
+            "Zaacattack990"
           ]
         },
         {
@@ -249,7 +250,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -295,14 +296,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",
@@ -321,11 +320,11 @@
         {
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 16,
-          "map": null,
-          "offline_since": "2026-11-24T04:27:11Z"
+          "players": [],
+          "map": null
         },
         {
           "name": "Palworld Limitless PVP",

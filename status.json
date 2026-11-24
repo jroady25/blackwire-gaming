@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:31:50Z",
+  "generated_at": "2026-11-24T15:36:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -92,7 +92,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

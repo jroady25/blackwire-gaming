@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:21:56Z",
+  "generated_at": "2026-11-24T22:26:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -73,11 +73,11 @@
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -93,7 +93,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -113,14 +113,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Aizden1"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.9)",
@@ -245,12 +243,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "danielrippon__"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
@@ -269,7 +269,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

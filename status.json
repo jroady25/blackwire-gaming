@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:26:59Z",
+  "generated_at": "2026-11-24T22:31:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -93,7 +93,7 @@
         {
           "name": "BlackWire - The Island - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
@@ -243,14 +243,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "danielrippon__"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
@@ -305,12 +303,14 @@
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "FB_Sapper_Actual"
+          ]
         }
       ]
     },

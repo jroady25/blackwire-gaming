@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:02:02Z",
+  "generated_at": "2026-11-24T20:07:06Z",
   "servers": {
     "ark": {
       "servers": [
@@ -57,11 +57,11 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
-            "own-loch4",
             "GrizzMode",
-            "Whiteninja090"
+            "Whiteninja090",
+            "lethalcomp"
           ]
         },
         {

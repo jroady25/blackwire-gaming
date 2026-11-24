@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T01:16:59Z",
+  "generated_at": "2026-11-24T01:22:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,7 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Lexx"
           ]
@@ -160,7 +160,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Deadwolf501"
           ]

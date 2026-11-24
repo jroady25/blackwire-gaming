@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:16:56Z",
+  "generated_at": "2026-11-24T22:21:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -19,12 +19,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Duskbee"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
@@ -71,11 +73,11 @@
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -143,7 +145,7 @@
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
@@ -263,14 +265,12 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "danielrippon__"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.9)",

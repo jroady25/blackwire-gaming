@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:46:54Z",
+  "generated_at": "2026-11-24T00:51:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -41,13 +41,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Ejdinoman41312"
+            "Ejdinoman41312",
+            "xcalibur62211"
           ]
         },
         {
@@ -288,12 +289,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "mystic_gengar1"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",

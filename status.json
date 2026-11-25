@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:22:08Z",
+  "generated_at": "2026-11-25T13:27:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -285,19 +285,18 @@
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T12:51:58Z"
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T12:51:58Z",
           "names_hidden": true
         }
       ]

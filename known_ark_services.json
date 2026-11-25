@@ -57,6 +57,10 @@
       "name": "BlackWire - Lost Colony - PVP - (v98.9)"
     },
     {
+      "service_id": "18921197",
+      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)"
+    },
+    {
       "service_id": "19380386",
       "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)"
     },
@@ -109,27 +113,25 @@
       "name": "BlackWire - Genesis 1 - PVE - (v98.9)"
     },
     {
-      "service_id": "20100016",
-      "name": "BlackWire - Mod Test Map - (v98.9)"
-    },
-    {
       "service_id": "19466842",
       "name": "BlackWire - Bjarnheim - PVE - (v98.9)"
     },
     {
-      "service_id": "18921197",
-      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)"
+      "service_id": "20100016",
+      "name": "BlackWire - Mod Test Map - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22815795,
+    "offset": 22819628,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22815795,
+    "log_size": 22819628,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
+    "ark:BlackWire - Aberration - PVP - (v98.9)": "2026-11-25T11:21:49Z",
+    "ark:BlackWire - Valguero - PVP - (v98.9)": "2026-11-25T11:21:49Z",
     "ark:BlackWire - Genesis 1 - PVE - (v98.9)": "2026-11-25T11:16:50Z",
     "ark:BlackWire - Bjarnheim - PVE - (v98.9)": "2026-11-25T11:16:50Z"
   }

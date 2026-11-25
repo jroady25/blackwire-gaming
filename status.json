@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:41:59Z",
+  "generated_at": "2026-11-25T09:47:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -45,23 +45,25 @@
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-25T09:47:11Z"
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
@@ -257,13 +259,13 @@
         },
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": []
+          "count_source": "nitrado",
+          "nitrado_count": 0,
+          "offline_since": "2026-11-25T09:47:11Z"
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.9)",
@@ -288,14 +290,13 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Naykdtime",
-            "Zaacattack990"
+            "Naykdtime"
           ]
         },
         {
@@ -324,10 +325,11 @@
         {
           "name": "Palworld Limitless PVP",
           "service_id": "19733590",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 16,
           "map": null,
+          "offline_since": "2026-11-25T09:47:11Z",
           "names_hidden": true
         },
         {

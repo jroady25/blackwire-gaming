@@ -81,6 +81,10 @@
       "name": "BlackWire - Astraeos - PVP - (v98.9)"
     },
     {
+      "service_id": "18859910",
+      "name": "BlackWire - Valguero - PVP - (v98.9)"
+    },
+    {
       "service_id": "18860204",
       "name": "BlackWire - Scorched Earth - PVE - (v98.9)"
     },
@@ -109,25 +113,28 @@
       "name": "BlackWire - Genesis 1 - PVE - (v98.9)"
     },
     {
-      "service_id": "20100016",
-      "name": "BlackWire - Mod Test Map - (v98.9)"
-    },
-    {
-      "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v98.9)"
-    },
-    {
       "service_id": "19466842",
       "name": "BlackWire - Bjarnheim - PVE - (v98.9)"
+    },
+    {
+      "service_id": "20100016",
+      "name": "BlackWire - Mod Test Map - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22846641,
+    "offset": 22849435,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22846641,
+    "log_size": 22849435,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:Blackwire - The Island - Primal Chaos - PVE - (v98.9)": "2026-11-25T12:06:57Z",
+    "ark:BlackWire - Scorched Earth - PVP - (v98.9)": "2026-11-25T12:06:57Z",
+    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)": "2026-11-25T12:06:57Z",
+    "ark:BlackWire - Extinction - PVP - (v98.9)": "2026-11-25T12:06:57Z",
+    "ark:BlackWire - The Center - PVE - (v98.9)": "2026-11-25T12:06:57Z",
+    "ark:BlackWire - Mod Test Map - (v98.9)": "2026-11-25T12:06:57Z"
+  }
 }

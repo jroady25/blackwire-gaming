@@ -113,25 +113,29 @@
       "name": "BlackWire - Mod Test Map - (v98.9)"
     },
     {
-      "service_id": "19368830",
-      "name": "BlackWire - The Island - PVE - (v98.9)"
-    },
-    {
       "service_id": "18111130",
       "name": "BlackWire - Astraeos - PVE - (v98.9)"
+    },
+    {
+      "service_id": "19368830",
+      "name": "BlackWire - The Island - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22762618,
+    "offset": 22765967,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22762423,
+    "log_size": 22765967,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - The Island - PVE - (v98.9)": "2026-11-25T09:47:11Z",
+    "ark:Blackwire - The Island - Primal Chaos - PVE - (v98.9)": "2026-11-25T10:02:17Z",
+    "ark:BlackWire - The Fractured Seas - Rp - PVP - (v98.9)": "2026-11-25T10:02:17Z",
+    "ark:BlackWire - Lost Colony - PVE - (v98.9)": "2026-11-25T10:02:17Z",
+    "ark:BlackWire - Bjarnheim - PVE - (v98.9)": "2026-11-25T10:02:17Z",
     "ark:BlackWire - Astraeos - PVE - (v98.9)": "2026-11-25T09:47:11Z",
+    "ark:BlackWire - The Island - PVE - (v98.9)": "2026-11-25T09:47:11Z",
     "palworld:19733590": "2026-11-25T09:47:11Z"
   }
 }

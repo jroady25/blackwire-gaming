@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:22:03Z",
+  "generated_at": "2026-11-25T14:26:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -159,6 +159,16 @@
           "players": []
         },
         {
+          "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 26,
+          "map": "Genesis_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Genesis 1 - PVP - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -214,6 +224,16 @@
           "players_current": 0,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Abberation - PVE - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
@@ -286,22 +306,6 @@
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 26,
-          "map": null,
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Abberation - PVE - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

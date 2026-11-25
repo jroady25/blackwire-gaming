@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:06:56Z",
+  "generated_at": "2026-11-25T09:10:39Z",
   "servers": {
     "ark": {
       "servers": [
@@ -284,12 +284,12 @@
           "players": []
         },
         {
-          "name": "BlackWire - Ragnarok - PVE - (v98.9)",
+          "name": "BlackWire - Event Map - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T08:56:52Z"
+          "offline_since": "2026-11-25T09:01:56Z"
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
@@ -300,12 +300,12 @@
           "offline_since": "2026-11-25T09:01:56Z"
         },
         {
-          "name": "BlackWire - Event Map - (v98.9)",
+          "name": "BlackWire - Ragnarok - PVE - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T09:01:56Z"
+          "offline_since": "2026-11-25T08:56:52Z"
         }
       ]
     },

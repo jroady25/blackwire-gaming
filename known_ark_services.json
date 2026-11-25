@@ -57,10 +57,6 @@
       "name": "BlackWire - Lost Colony - PVP - (v98.9)"
     },
     {
-      "service_id": "18921197",
-      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)"
-    },
-    {
       "service_id": "19380386",
       "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)"
     },
@@ -119,14 +115,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
+    },
+    {
+      "service_id": "18921197",
+      "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22789337,
+    "offset": 22792880,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22789337,
+    "log_size": 22792880,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {

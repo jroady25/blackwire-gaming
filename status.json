@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T10:36:54Z",
+  "generated_at": "2026-11-25T10:41:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -142,16 +142,6 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-25T10:32:02Z"
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
@@ -302,6 +292,14 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T10:32:02Z"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:46:55Z",
+  "generated_at": "2026-11-25T03:51:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,16 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "DriftNalg",
             "BaggedUpBaggins",
-            "Melody",
-            "Dat_Boi_Mike_70"
+            "Melody"
           ]
         },
         {
@@ -53,14 +52,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "vikings10932",
-            "LeeDDT"
+            "LeeDDT",
+            "Zaacattack990"
           ]
         },
         {
@@ -210,7 +210,7 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -246,15 +246,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
             "KAKASHIxHATAKE97",
-            "legendx12x",
-            "Zaacattack990"
+            "legendx12x"
           ]
         },
         {
@@ -270,13 +269,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Lexx"
+            "Lexx",
+            "Dat_Boi_Mike_70"
           ]
         },
         {
@@ -286,7 +286,7 @@
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {
@@ -308,7 +308,7 @@
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

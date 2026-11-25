@@ -9,6 +9,10 @@
       "name": "BlackWire - Valguero - PVE - (v98.9)"
     },
     {
+      "service_id": "18012721",
+      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)"
+    },
+    {
       "service_id": "18111097",
       "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)"
     },
@@ -65,6 +69,10 @@
       "name": "BlackWire - Event Map - (v98.9)"
     },
     {
+      "service_id": "18357580",
+      "name": "BlackWire - The Island - SOTF - PVP - (v98.9)"
+    },
+    {
       "service_id": "18610040",
       "name": "BlackWire - Astraeos - PVP - (v98.9)"
     },
@@ -105,33 +113,24 @@
       "name": "BlackWire - Mod Test Map - (v98.9)"
     },
     {
-      "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v98.9)"
-    },
-    {
       "service_id": "19072757",
       "name": "BlackWire - Lost Colony - PVE - (v98.9)"
     },
     {
-      "service_id": "18012721",
-      "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)"
-    },
-    {
-      "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v98.9)"
+      "service_id": "18638510",
+      "name": "BlackWire - Ragnarok - PVP - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22896664,
+    "offset": 22899942,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22896664,
+    "log_size": 22899942,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Ragnarok - PVP - (v98.9)": "2026-11-25T12:51:58Z",
     "ark:BlackWire - Lost Colony - PVE - (v98.9)": "2026-11-25T12:51:58Z",
-    "ark:BlackWire - The Island - SOTF - PVP - (v98.9)": "2026-11-25T12:51:58Z"
+    "ark:BlackWire - Ragnarok - PVP - (v98.9)": "2026-11-25T12:51:58Z"
   }
 }

@@ -89,6 +89,10 @@
       "name": "BlackWire - Abberation - PVE - (v98.9)"
     },
     {
+      "service_id": "19072757",
+      "name": "BlackWire - Lost Colony - PVE - (v98.9)"
+    },
+    {
       "service_id": "19368770",
       "name": "BlackWire - Extinction - PVP - (v98.9)"
     },
@@ -115,19 +119,18 @@
     {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v98.9)"
-    },
-    {
-      "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22906834,
+    "offset": 22910183,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22906834,
+    "log_size": 22910183,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)": "2026-11-25T13:37:06Z",
+    "ark:BlackWire - Genesis 1 - PVP - (v98.9)": "2026-11-25T13:37:06Z"
+  }
 }

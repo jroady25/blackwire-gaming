@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:22:01Z",
+  "generated_at": "2026-11-25T12:26:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -246,7 +246,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Extinction - PVP - (v98.9)",
+          "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -255,7 +255,15 @@
           "names_hidden": true
         },
         {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
+          "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T12:06:57Z"
+        },
+        {
+          "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -271,15 +279,7 @@
           "offline_since": "2026-11-25T12:06:57Z"
         },
         {
-          "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:06:57Z"
-        },
-        {
-          "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
+          "name": "BlackWire - Extinction - PVP - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -288,7 +288,7 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Mod Test Map - (v98.9)",
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -303,9 +303,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "wraiyth"
+          ],
           "map": null
         },
         {

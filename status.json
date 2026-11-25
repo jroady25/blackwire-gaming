@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:51:58Z",
+  "generated_at": "2026-11-25T12:57:02Z",
   "servers": {
     "ark": {
       "servers": [
@@ -114,6 +114,17 @@
           "players": []
         },
         {
+          "name": "BlackWire - Ragnarok - PVP - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Ragnarok_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0,
+          "offline_since": "2026-11-25T12:51:58Z",
+          "names_hidden": true
+        },
+        {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -174,6 +185,17 @@
           "players": []
         },
         {
+          "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "TheIsland_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0,
+          "offline_since": "2026-11-25T12:51:58Z",
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -212,6 +234,16 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "count_source": "nitrado",
+          "nitrado_count": 0,
+          "offline_since": "2026-11-25T12:51:58Z"
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
@@ -272,32 +304,6 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
-        },
-        {
-          "name": "BlackWire - Ragnarok - PVP - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:51:58Z",
-          "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:51:58Z"
-        },
-        {
-          "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:51:58Z",
-          "names_hidden": true
         }
       ]
     },

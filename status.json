@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-25T11:11:50Z",
+  "generated_at": "2026-11-25T11:16:50Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "ThatMcHaggis"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
@@ -267,23 +265,13 @@
         },
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Bjarnheim_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-25T11:16:50Z"
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",
@@ -294,6 +282,14 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T11:16:50Z"
         },
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",

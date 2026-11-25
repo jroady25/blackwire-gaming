@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:11:56Z",
+  "generated_at": "2026-11-25T14:16:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,7 +20,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "DriftNalg"
           ]
@@ -48,13 +48,14 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "neutrinopc"
+            "neutrinopc",
+            "sidimaraki100"
           ]
         },
         {
@@ -136,6 +137,16 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Lost Colony - PVP - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
         },
         {
           "name": "BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)",
@@ -278,10 +289,10 @@
           "players": []
         },
         {
-          "name": "BlackWire - Lost Colony - PVP - (v98.9)",
+          "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
           "online": true,
           "players_current": 0,
-          "players_max": 20,
+          "players_max": 26,
           "map": null,
           "names_hidden": true
         },
@@ -292,15 +303,6 @@
           "players_max": 20,
           "map": null,
           "players": []
-        },
-        {
-          "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 26,
-          "map": null,
-          "offline_since": "2026-11-25T13:41:55Z",
-          "names_hidden": true
         }
       ]
     },

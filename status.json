@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:16:52Z",
+  "generated_at": "2026-11-25T21:21:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -254,11 +254,11 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -294,6 +294,16 @@
           "players": []
         },
         {
+          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Bjarnheim_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
           "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -301,14 +311,6 @@
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         }
       ]

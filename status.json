@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:41:53Z",
+  "generated_at": "2026-11-25T05:46:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -111,12 +111,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "elliandtiny"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.9)",

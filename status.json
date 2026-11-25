@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:46:53Z",
+  "generated_at": "2026-11-25T11:51:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -266,23 +266,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T11:16:50Z"
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T11:21:49Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Valguero - PVP - (v98.9)",
           "online": false,
           "players_current": 0,
@@ -292,7 +275,23 @@
           "names_hidden": true
         },
         {
+          "name": "BlackWire - Aberration - PVP - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "names_hidden": true
+        },
+        {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T11:16:50Z"
+        },
+        {
+          "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

@@ -13,20 +13,12 @@
       "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)"
     },
     {
-      "service_id": "18111097",
-      "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)"
-    },
-    {
       "service_id": "18111130",
       "name": "BlackWire - Astraeos - PVE - (v98.9)"
     },
     {
       "service_id": "18111154",
       "name": "BlackWire - Extinction - PVE - (v98.9)"
-    },
-    {
-      "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v98.9)"
     },
     {
       "service_id": "18111211",
@@ -47,10 +39,6 @@
     {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v98.9)"
-    },
-    {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)"
     },
     {
       "service_id": "18863471",
@@ -97,16 +85,8 @@
       "name": "BlackWire - Lost Colony - PVE - (v98.9)"
     },
     {
-      "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v98.9)"
-    },
-    {
       "service_id": "19368830",
       "name": "BlackWire - The Island - PVE - (v98.9)"
-    },
-    {
-      "service_id": "19377800",
-      "name": "BlackWire - The Center - PVE - (v98.9)"
     },
     {
       "service_id": "19426823",
@@ -117,24 +97,44 @@
       "name": "BlackWire - Bjarnheim - PVE - (v98.9)"
     },
     {
+      "service_id": "18111202",
+      "name": "BlackWire - Scorched Earth - PVP - (v98.9)"
+    },
+    {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
+    },
+    {
+      "service_id": "18111097",
+      "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)"
+    },
+    {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)"
+    },
+    {
+      "service_id": "19368770",
+      "name": "BlackWire - Extinction - PVP - (v98.9)"
+    },
+    {
+      "service_id": "19377800",
+      "name": "BlackWire - The Center - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22852783,
+    "offset": 22856327,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22852783,
+    "log_size": 22856327,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:Blackwire - The Island - Primal Chaos - PVE - (v98.9)": "2026-11-25T12:06:57Z",
     "ark:BlackWire - Scorched Earth - PVP - (v98.9)": "2026-11-25T12:06:57Z",
+    "ark:BlackWire - Mod Test Map - (v98.9)": "2026-11-25T12:06:57Z",
+    "ark:Blackwire - The Island - Primal Chaos - PVE - (v98.9)": "2026-11-25T12:06:57Z",
     "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)": "2026-11-25T12:06:57Z",
     "ark:BlackWire - Extinction - PVP - (v98.9)": "2026-11-25T12:06:57Z",
-    "ark:BlackWire - The Center - PVE - (v98.9)": "2026-11-25T12:06:57Z",
-    "ark:BlackWire - Mod Test Map - (v98.9)": "2026-11-25T12:06:57Z"
+    "ark:BlackWire - The Center - PVE - (v98.9)": "2026-11-25T12:06:57Z"
   }
 }

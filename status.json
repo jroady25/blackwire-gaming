@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T04:37:02Z",
+  "generated_at": "2026-11-25T04:42:00Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,13 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "BaggedUpBaggins",
-            "Melody",
             "Dat_Boi_Mike_70"
           ]
         },
@@ -236,12 +235,14 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
@@ -299,14 +300,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:36:57Z",
+  "generated_at": "2026-11-25T12:42:16Z",
   "servers": {
     "ark": {
       "servers": [
@@ -244,6 +244,14 @@
           "players": []
         },
         {
+          "name": "BlackWire - The Center - PVE - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
+        },
+        {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -252,36 +260,12 @@
           "names_hidden": true
         },
         {
-          "name": "BlackWire - Mod Test Map - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:06:57Z"
-        },
-        {
-          "name": "BlackWire - The Center - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:06:57Z"
-        },
-        {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T12:06:57Z"
-        },
-        {
-          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:06:57Z"
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
@@ -291,6 +275,22 @@
           "map": null,
           "offline_since": "2026-11-25T12:06:57Z",
           "names_hidden": true
+        },
+        {
+          "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Mod Test Map - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T12:06:57Z"
         }
       ]
     },

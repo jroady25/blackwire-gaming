@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:02:02Z",
+  "generated_at": "2026-11-25T13:07:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -264,23 +264,6 @@
           "players": []
         },
         {
-          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:51:58Z"
-        },
-        {
-          "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:51:58Z",
-          "names_hidden": true
-        },
-        {
           "name": "BlackWire - Ragnarok - PVP - (v98.9)",
           "online": false,
           "players_current": 0,
@@ -296,6 +279,23 @@
           "players_max": 20,
           "map": null,
           "offline_since": "2026-11-25T12:51:58Z"
+        },
+        {
+          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T12:51:58Z"
+        },
+        {
+          "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T12:51:58Z",
+          "names_hidden": true
         }
       ]
     },

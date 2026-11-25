@@ -45,6 +45,10 @@
       "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)"
     },
     {
+      "service_id": "18638510",
+      "name": "BlackWire - Ragnarok - PVP - (v98.9)"
+    },
+    {
       "service_id": "18667313",
       "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)"
     },
@@ -115,22 +119,26 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
-    },
-    {
-      "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22910183,
+    "offset": 22913531,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22910183,
+    "log_size": 22913531,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
+    "ark:BlackWire - Valguero - PVE - (v98.9)": "2026-11-25T13:41:55Z",
+    "ark:BlackWire - The Center - PVP - (v98.9)": "2026-11-25T13:41:55Z",
+    "ark:BlackWire - The Island - PVP - (v98.9)": "2026-11-25T13:41:55Z",
     "ark:Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)": "2026-11-25T13:37:06Z",
-    "ark:BlackWire - Genesis 1 - PVP - (v98.9)": "2026-11-25T13:37:06Z"
+    "ark:BlackWire - Lost Colony - PVP - (v98.9)": "2026-11-25T13:41:55Z",
+    "ark:BlackWire - The Fractured Seas - Rp - PVP - (v98.9)": "2026-11-25T13:41:55Z",
+    "ark:BlackWire - Genesis 1 - PVP - (v98.9)": "2026-11-25T13:37:06Z",
+    "ark:BlackWire - Astraeos - PVP - (v98.9)": "2026-11-25T13:41:55Z",
+    "ark:BlackWire - Scorched Earth - PVE - (v98.9)": "2026-11-25T13:41:55Z",
+    "ark:BlackWire - Abberation - PVE - (v98.9)": "2026-11-25T13:41:55Z"
   }
 }

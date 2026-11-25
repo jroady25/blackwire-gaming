@@ -113,20 +113,20 @@
       "name": "BlackWire - Mod Test Map - (v98.9)"
     },
     {
-      "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v98.9)"
-    },
-    {
       "service_id": "18638510",
       "name": "BlackWire - Ragnarok - PVP - (v98.9)"
+    },
+    {
+      "service_id": "19072757",
+      "name": "BlackWire - Lost Colony - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22903291,
+    "offset": 22906834,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22903291,
+    "log_size": 22906834,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

@@ -113,25 +113,24 @@
       "name": "BlackWire - Event Map - (v98.9)"
     },
     {
-      "service_id": "18111154",
-      "name": "BlackWire - Extinction - PVE - (v98.9)"
-    },
-    {
       "service_id": "17681860",
       "name": "BlackWire - Ragnarok - PVE - (v98.9)"
+    },
+    {
+      "service_id": "18111154",
+      "name": "BlackWire - Extinction - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22732132,
+    "offset": 22735481,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22732132,
+    "log_size": 22735481,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:BlackWire - Event Map - (v98.9)": "2026-11-25T09:01:56Z",
-    "ark:BlackWire - Extinction - PVE - (v98.9)": "2026-11-25T09:01:56Z",
-    "ark:BlackWire - Ragnarok - PVE - (v98.9)": "2026-11-25T08:56:52Z"
+    "ark:BlackWire - Ragnarok - PVE - (v98.9)": "2026-11-25T08:56:52Z",
+    "ark:BlackWire - Extinction - PVE - (v98.9)": "2026-11-25T09:01:56Z"
   }
 }

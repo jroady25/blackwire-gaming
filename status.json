@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:41:55Z",
+  "generated_at": "2026-11-25T16:02:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -10,7 +10,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "ValiantUK92"
           ]
@@ -24,15 +24,6 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
-        },
-        {
-          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Astraeos_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
@@ -110,12 +101,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Aizden1"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.9)",
@@ -308,6 +301,14 @@
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
+          "players": []
+        },
+        {
+          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
           "players": []
         }
       ]

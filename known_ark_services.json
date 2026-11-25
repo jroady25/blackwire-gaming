@@ -122,16 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 22969891,
+    "offset": 22977073,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22969891,
+    "log_size": 22977073,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:Event Map \u2014 Club Ark": "2026-11-25T15:11:51Z",
-    "palworld:19733590": "2026-11-25T15:11:51Z",
-    "palworld:20122510": "2026-11-25T15:11:51Z"
-  }
+  "offline_since": {}
 }

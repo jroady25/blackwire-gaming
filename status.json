@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T02:46:53Z",
+  "generated_at": "2026-11-25T02:51:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "DriftNalg",
-            "BaggedUpBaggins"
+            "BaggedUpBaggins",
+            "Melody"
           ]
         },
         {
@@ -51,15 +52,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 3,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "vikings10932",
             "LeeDDT",
-            "neutrinopc"
+            "neutrinopc",
+            "Zaacattack990"
           ]
         },
         {
@@ -253,7 +255,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "mystic_gengar1",
             "legendx12x",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:56:52Z",
+  "generated_at": "2026-11-25T12:01:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -91,6 +91,16 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "names_hidden": true
+        },
+        {
+          "name": "BlackWire - Aberration - PVP - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
@@ -256,6 +266,16 @@
           "players": []
         },
         {
+          "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "Genesis_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
           "name": "BlackWire - Mod Test Map - (v98.9)",
           "online": true,
           "players_current": 0,
@@ -263,14 +283,6 @@
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
           "players": []
         },
         {
@@ -288,14 +300,6 @@
           "players_max": 20,
           "map": null,
           "players": []
-        },
-        {
-          "name": "BlackWire - Aberration - PVP - (v98.9)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "names_hidden": true
         }
       ]
     },

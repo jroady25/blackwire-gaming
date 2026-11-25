@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:26:58Z",
+  "generated_at": "2026-11-25T12:32:04Z",
   "servers": {
     "ark": {
       "servers": [
@@ -36,14 +36,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "nb_gotcha"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.9)",
@@ -246,7 +244,7 @@
           "players": []
         },
         {
-          "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
+          "name": "BlackWire - Extinction - PVP - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
@@ -263,14 +261,6 @@
           "offline_since": "2026-11-25T12:06:57Z"
         },
         {
-          "name": "BlackWire - Mod Test Map - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": null,
-          "offline_since": "2026-11-25T12:06:57Z"
-        },
-        {
           "name": "BlackWire - The Center - PVE - (v98.9)",
           "online": false,
           "players_current": 0,
@@ -279,7 +269,15 @@
           "offline_since": "2026-11-25T12:06:57Z"
         },
         {
-          "name": "BlackWire - Extinction - PVP - (v98.9)",
+          "name": "BlackWire - Mod Test Map - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T12:06:57Z"
+        },
+        {
+          "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,

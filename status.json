@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:12:01Z",
+  "generated_at": "2026-11-25T13:17:11Z",
   "servers": {
     "ark": {
       "servers": [
@@ -264,12 +264,13 @@
           "players": []
         },
         {
-          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
+          "name": "BlackWire - Ragnarok - PVP - (v98.9)",
           "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T12:51:58Z"
+          "offline_since": "2026-11-25T12:51:58Z",
+          "names_hidden": true
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
@@ -280,13 +281,12 @@
           "offline_since": "2026-11-25T12:51:58Z"
         },
         {
-          "name": "BlackWire - Ragnarok - PVP - (v98.9)",
-          "online": false,
+          "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T12:51:58Z",
-          "names_hidden": true
+          "players": []
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
@@ -305,11 +305,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

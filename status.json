@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:21:52Z",
+  "generated_at": "2026-11-25T03:26:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,7 +44,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": [
             "miclebia"
           ]
@@ -52,14 +52,17 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 5,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 5,
           "players": [
             "vikings10932",
-            "LeeDDT"
+            "LeeDDT",
+            "legendx12x",
+            "Zaacattack990",
+            "KAKASHIxHATAKE97"
           ]
         },
         {
@@ -207,7 +210,7 @@
         {
           "name": "BlackWire - Astraeos - PVP - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
@@ -247,15 +250,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "legendx12x",
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.9)",
@@ -270,14 +270,13 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.9)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Lexx",
-            "KAKASHIxHATAKE97"
+            "Lexx"
           ]
         },
         {

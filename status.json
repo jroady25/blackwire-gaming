@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T07:02:00Z",
+  "generated_at": "2026-11-25T07:07:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -290,14 +290,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",

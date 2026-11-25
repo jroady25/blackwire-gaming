@@ -1,18 +1,8 @@
 {
-  "generated_at": "2026-11-25T09:01:56Z",
+  "generated_at": "2026-11-25T09:06:56Z",
   "servers": {
     "ark": {
       "servers": [
-        {
-          "name": "BlackWire - Ragnarok - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Ragnarok_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-25T08:56:52Z"
-        },
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
@@ -56,16 +46,6 @@
           "players": [
             "Zaacattack990"
           ]
-        },
-        {
-          "name": "BlackWire - Extinction - PVE - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Extinction_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-25T09:01:56Z"
         },
         {
           "name": "BlackWire - Scorched Earth - PVP - (v98.9)",
@@ -180,16 +160,6 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "names_hidden": true
-        },
-        {
-          "name": "BlackWire - Event Map - (v98.9)",
-          "online": false,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "Genesis_WP",
-          "count_source": "nitrado",
-          "nitrado_count": 0,
-          "offline_since": "2026-11-25T09:01:56Z"
         },
         {
           "name": "BlackWire - The Island - SOTF - PVP - (v98.9)",
@@ -312,6 +282,30 @@
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []
+        },
+        {
+          "name": "BlackWire - Ragnarok - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T08:56:52Z"
+        },
+        {
+          "name": "BlackWire - Extinction - PVE - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T09:01:56Z"
+        },
+        {
+          "name": "BlackWire - Event Map - (v98.9)",
+          "online": false,
+          "players_current": 0,
+          "players_max": 20,
+          "map": null,
+          "offline_since": "2026-11-25T09:01:56Z"
         }
       ]
     },

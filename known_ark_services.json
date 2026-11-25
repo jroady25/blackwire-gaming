@@ -21,6 +21,10 @@
       "name": "BlackWire - Astraeos - PVE - (v98.9)"
     },
     {
+      "service_id": "18111154",
+      "name": "BlackWire - Extinction - PVE - (v98.9)"
+    },
+    {
       "service_id": "18111202",
       "name": "BlackWire - Scorched Earth - PVP - (v98.9)"
     },
@@ -63,6 +67,10 @@
     {
       "service_id": "19826461",
       "name": "BlackWire - Genesis 1 - PVP - (v98.9)"
+    },
+    {
+      "service_id": "18357526",
+      "name": "BlackWire - Event Map - (v98.9)"
     },
     {
       "service_id": "18357580",
@@ -111,22 +119,14 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.9)"
-    },
-    {
-      "service_id": "18111154",
-      "name": "BlackWire - Extinction - PVE - (v98.9)"
-    },
-    {
-      "service_id": "18357526",
-      "name": "BlackWire - Event Map - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22742108,
+    "offset": 22745651,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22742108,
+    "log_size": 22745651,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

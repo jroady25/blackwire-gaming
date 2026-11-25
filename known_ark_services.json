@@ -105,33 +105,29 @@
       "name": "BlackWire - Mod Test Map - (v98.9)"
     },
     {
-      "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v98.9)"
+      "service_id": "19426823",
+      "name": "BlackWire - Genesis 1 - PVE - (v98.9)"
     },
     {
-      "service_id": "18293911",
-      "name": "BlackWire - Aberration - PVP - (v98.9)"
+      "service_id": "18859910",
+      "name": "BlackWire - Valguero - PVP - (v98.9)"
     },
     {
       "service_id": "19466842",
       "name": "BlackWire - Bjarnheim - PVE - (v98.9)"
     },
     {
-      "service_id": "19426823",
-      "name": "BlackWire - Genesis 1 - PVE - (v98.9)"
+      "service_id": "18293911",
+      "name": "BlackWire - Aberration - PVP - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 22839749,
+    "offset": 22842903,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 22839749,
+    "log_size": 22842903,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Valguero - PVP - (v98.9)": "2026-11-25T11:21:49Z",
-    "ark:BlackWire - Bjarnheim - PVE - (v98.9)": "2026-11-25T11:16:50Z",
-    "ark:BlackWire - Genesis 1 - PVE - (v98.9)": "2026-11-25T11:16:50Z"
-  }
+  "offline_since": {}
 }

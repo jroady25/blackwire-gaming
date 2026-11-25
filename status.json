@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:51:59Z",
+  "generated_at": "2026-11-25T11:56:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,12 +16,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.9)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "ThatMcHaggis"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.9)",
@@ -246,14 +248,12 @@
         {
           "name": "BlackWire - The Center - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "ThatMcHaggis"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.9)",
@@ -266,16 +266,15 @@
           "players": []
         },
         {
-          "name": "BlackWire - Valguero - PVP - (v98.9)",
-          "online": false,
+          "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T11:21:49Z",
-          "names_hidden": true
+          "players": []
         },
         {
-          "name": "BlackWire - Aberration - PVP - (v98.9)",
+          "name": "BlackWire - Valguero - PVP - (v98.9)",
           "online": true,
           "players_current": 0,
           "players_max": 20,
@@ -284,19 +283,19 @@
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.9)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T11:16:50Z"
+          "players": []
         },
         {
-          "name": "BlackWire - Genesis 1 - PVE - (v98.9)",
-          "online": false,
+          "name": "BlackWire - Aberration - PVP - (v98.9)",
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": null,
-          "offline_since": "2026-11-25T11:16:50Z"
+          "names_hidden": true
         }
       ]
     },

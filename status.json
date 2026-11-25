@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T00:36:50Z",
+  "generated_at": "2026-11-25T00:41:58Z",
   "servers": {
     "ark": {
       "servers": [
@@ -44,13 +44,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "KRAKEN"
+            "KRAKEN",
+            "Gael"
           ]
         },
         {

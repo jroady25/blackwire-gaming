@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:31:49Z",
+  "generated_at": "2026-11-25T05:36:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -22,9 +22,9 @@
           "count_source": "rcon",
           "nitrado_count": 3,
           "players": [
-            "Dat_Boi_Mike_70",
             "BaggedUpBaggins",
-            "lostplanetmotel"
+            "lostplanetmotel",
+            "Dat_Boi_Mike_70"
           ]
         },
         {

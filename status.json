@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:06:53Z",
+  "generated_at": "2026-11-26T17:11:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -240,12 +240,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "legendx12x"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
@@ -260,14 +262,13 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Coffee Addict",
-            "legendx12x"
+            "Coffee Addict"
           ]
         },
         {

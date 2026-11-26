@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:41:52Z",
+  "generated_at": "2026-11-26T18:46:52Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": [
-            "Melody"
-          ]
+          "nitrado_count": 1,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.23)",
@@ -274,7 +272,7 @@
           "nitrado_count": 2,
           "players": [
             "Coffee Addict",
-            "123"
+            "Melody"
           ]
         },
         {

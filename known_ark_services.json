@@ -41,10 +41,6 @@
       "name": "BlackWire - Ragnarok - PVP - (v98.23)"
     },
     {
-      "service_id": "18667313",
-      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)"
-    },
-    {
       "service_id": "18863471",
       "name": "BlackWire - Lost Colony - PVP - (v98.23)"
     },
@@ -82,7 +78,7 @@
     },
     {
       "service_id": "19072757",
-      "name": "BlackWire - Lost Colony - PVE - (v98.9)"
+      "name": "BlackWire - Lost Colony - PVE - (v98.23)"
     },
     {
       "service_id": "19368770",
@@ -109,24 +105,28 @@
       "name": "BlackWire - Mod Test Map - (v98.23)"
     },
     {
-      "service_id": "17681860",
-      "name": "BlackWire - Ragnarok - PVE - (v98.9)"
-    },
-    {
       "service_id": "18357526",
       "name": "BlackWire - Event Map - (v98.9)"
     },
     {
       "service_id": "18111130",
       "name": "BlackWire - Astraeos - PVE - (v98.9)"
+    },
+    {
+      "service_id": "17681860",
+      "name": "BlackWire - Ragnarok - PVE - (v98.9)"
+    },
+    {
+      "service_id": "18667313",
+      "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)"
     }
   ],
   "dragonwilds": {
-    "offset": 23471700,
+    "offset": 23475894,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 23471700,
+    "log_size": 23475894,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

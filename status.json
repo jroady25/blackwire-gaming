@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:36:54Z",
+  "generated_at": "2026-11-26T19:41:47Z",
   "servers": {
     "ark": {
       "servers": [
@@ -96,13 +96,13 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "names_hidden": true
         },
         {
           "name": "BlackWire - Aberration - PVP - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
@@ -116,7 +116,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "elliandtiny",
             "Planalto007"
@@ -261,11 +261,11 @@
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

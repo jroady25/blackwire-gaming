@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T05:56:57Z",
+  "generated_at": "2026-11-26T06:01:56Z",
   "servers": {
     "ark": {
       "servers": [
@@ -76,11 +76,11 @@
         {
           "name": "BlackWire - The Center - PVP - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheCenter_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {

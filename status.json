@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T19:16:52Z",
+  "generated_at": "2026-11-26T19:21:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -114,14 +114,15 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "elliandtiny",
-            "Aizden1"
+            "Aizden1",
+            "Planalto007"
           ]
         },
         {

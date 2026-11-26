@@ -6,7 +6,7 @@
     },
     {
       "service_id": "17801131",
-      "name": "BlackWire - Valguero - PVE - (v98.9)"
+      "name": "BlackWire - Valguero - PVE - (v98.23)"
     },
     {
       "service_id": "18012721",
@@ -106,7 +106,7 @@
     },
     {
       "service_id": "19377800",
-      "name": "BlackWire - The Center - PVE - (v98.9)"
+      "name": "BlackWire - The Center - PVE - (v98.23)"
     },
     {
       "service_id": "19426823",
@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 23586110,
+    "offset": 23589653,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 23586110,
+    "log_size": 23589653,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

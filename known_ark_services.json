@@ -14,7 +14,7 @@
     },
     {
       "service_id": "18111097",
-      "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.9)"
+      "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.23)"
     },
     {
       "service_id": "18111130",
@@ -42,7 +42,7 @@
     },
     {
       "service_id": "18497059",
-      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.9)"
+      "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.23)"
     },
     {
       "service_id": "18638510",
@@ -62,7 +62,7 @@
     },
     {
       "service_id": "19380386",
-      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.9)"
+      "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.23)"
     },
     {
       "service_id": "19826461",
@@ -74,7 +74,7 @@
     },
     {
       "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v98.9)"
+      "name": "BlackWire - The Island - SOTF - PVP - (v98.23)"
     },
     {
       "service_id": "18610040",
@@ -86,7 +86,7 @@
     },
     {
       "service_id": "18860204",
-      "name": "BlackWire - Scorched Earth - PVE - (v98.9)"
+      "name": "BlackWire - Scorched Earth - PVE - (v98.23)"
     },
     {
       "service_id": "18863102",
@@ -118,28 +118,18 @@
     },
     {
       "service_id": "20100016",
-      "name": "BlackWire - Mod Test Map - (v98.9)"
+      "name": "BlackWire - Mod Test Map - (v98.23)"
     }
   ],
   "dragonwilds": {
-    "offset": 23465459,
+    "offset": 23469002,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 23465264,
+    "log_size": 23469002,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {
-    "ark:Blackwire - Astraeos - Primal Chaos - PVE - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - Ragnarok - Paleo Ark - PVE - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - The Fractured Seas - Rp - PVP - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - Event Map - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - The Island - SOTF - PVP - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - Scorched Earth - PVE - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - Abberation - PVE - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - Lost Colony - PVE - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - The Island - PVE - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - Genesis 1 - PVE - (v98.9)": "2026-11-26T03:26:52Z",
-    "ark:BlackWire - Mod Test Map - (v98.9)": "2026-11-26T03:26:52Z"
+    "ark:BlackWire - Ragnarok - PVE - (v98.9)": "2026-11-26T03:31:59Z"
   }
 }

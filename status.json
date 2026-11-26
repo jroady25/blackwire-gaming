@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:46:55Z",
+  "generated_at": "2026-11-26T12:51:48Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "ThatMcHaggis"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.23)",
@@ -48,14 +46,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": [
-            "Whiteninja090"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.23)",
@@ -220,12 +216,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "El_gordito pr"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.23)",

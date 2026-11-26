@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T06:01:56Z",
+  "generated_at": "2026-11-26T06:06:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -120,7 +120,7 @@
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 6,
           "names_hidden": true
         },
         {

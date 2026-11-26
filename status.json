@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T22:36:51Z",
+  "generated_at": "2026-11-26T22:41:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,14 +16,12 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "DriftNalg"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.23)",
@@ -48,14 +46,15 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 3,
           "players": [
             "vikings10932",
-            "Reilig"
+            "Reilig",
+            "nb_gotcha"
           ]
         },
         {
@@ -247,7 +246,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "legendx12x"
           ]
@@ -288,12 +287,14 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
-          "players": []
+          "players": [
+            "mystic_gengar1"
+          ]
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.23)",

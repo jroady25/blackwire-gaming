@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:17:10Z",
+  "generated_at": "2026-11-26T14:22:05Z",
   "servers": {
     "ark": {
       "servers": [
@@ -192,7 +192,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -242,7 +242,7 @@
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
             "Mr_Kenobii"
           ]

@@ -26,7 +26,7 @@
     },
     {
       "service_id": "18111202",
-      "name": "BlackWire - Scorched Earth - PVP - (v98.9)"
+      "name": "BlackWire - Scorched Earth - PVP - (v98.23)"
     },
     {
       "service_id": "18111211",
@@ -66,7 +66,7 @@
     },
     {
       "service_id": "19826461",
-      "name": "BlackWire - Genesis 1 - PVP - (v98.9)"
+      "name": "BlackWire - Genesis 1 - PVP - (v98.23)"
     },
     {
       "service_id": "18357526",
@@ -122,11 +122,11 @@
     }
   ],
   "dragonwilds": {
-    "offset": 23449436,
+    "offset": 23452230,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 23449436,
+    "log_size": 23452230,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

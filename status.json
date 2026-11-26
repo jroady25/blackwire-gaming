@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T00:46:57Z",
+  "generated_at": "2026-11-26T00:51:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -20,9 +20,9 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": [
-            "Melody"
+            "Lexx"
           ]
         },
         {
@@ -266,7 +266,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {

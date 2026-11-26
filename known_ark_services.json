@@ -78,11 +78,11 @@
     },
     {
       "service_id": "18610040",
-      "name": "BlackWire - Astraeos - PVP - (v98.9)"
+      "name": "BlackWire - Astraeos - PVP - (v98.23)"
     },
     {
       "service_id": "18859910",
-      "name": "BlackWire - Valguero - PVP - (v98.9)"
+      "name": "BlackWire - Valguero - PVP - (v98.23)"
     },
     {
       "service_id": "18860204",
@@ -98,7 +98,7 @@
     },
     {
       "service_id": "19368770",
-      "name": "BlackWire - Extinction - PVP - (v98.9)"
+      "name": "BlackWire - Extinction - PVP - (v98.23)"
     },
     {
       "service_id": "19368830",
@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 23435362,
+    "offset": 23438711,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 23435362,
+    "log_size": 23438711,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Extinction - PVP - (v98.9)": "2026-11-26T02:42:06Z"
-  }
+  "offline_since": {}
 }

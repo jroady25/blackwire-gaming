@@ -46,7 +46,7 @@
     },
     {
       "service_id": "18638510",
-      "name": "BlackWire - Ragnarok - PVP - (v98.9)"
+      "name": "BlackWire - Ragnarok - PVP - (v98.23)"
     },
     {
       "service_id": "18667313",
@@ -54,7 +54,7 @@
     },
     {
       "service_id": "18863471",
-      "name": "BlackWire - Lost Colony - PVP - (v98.9)"
+      "name": "BlackWire - Lost Colony - PVP - (v98.23)"
     },
     {
       "service_id": "18921197",
@@ -122,14 +122,12 @@
     }
   ],
   "dragonwilds": {
-    "offset": 23445603,
+    "offset": 23449436,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 23445603,
+    "log_size": 23449436,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {
-    "ark:BlackWire - Genesis 1 - PVP - (v98.9)": "2026-11-26T02:57:07Z"
-  }
+  "offline_since": {}
 }

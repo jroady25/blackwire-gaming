@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T13:51:51Z",
+  "generated_at": "2026-11-26T13:56:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -238,14 +238,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Mr_Kenobii"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",

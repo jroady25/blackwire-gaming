@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:51:57Z",
+  "generated_at": "2026-11-27T15:56:54Z",
   "servers": {
     "ark": {
       "servers": [
@@ -46,14 +46,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "neutrinopc",
-            "danielrippon__",
             "sidimaraki100"
           ]
         },
@@ -64,7 +63,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -240,12 +239,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "danielrippon__"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
@@ -284,7 +285,7 @@
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
             "mystic_gengar1",
             "vTOPDOGc"

@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-27T20:22:00Z",
+  "generated_at": "2026-11-27T20:26:58Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
-          "players": []
+          "players": [
+            "HotPolarBear550"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
@@ -20,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Dat_Boi_Mike_70"
           ]
@@ -132,12 +134,14 @@
         {
           "name": "Blackwire - Astraeos - Primal Chaos - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Kishiyasha"
+          ]
         },
         {
           "name": "BlackWire - Lost Colony - PVP - (v98.23)",
@@ -319,9 +323,11 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "athena8r"
+          ],
           "map": null
         },
         {

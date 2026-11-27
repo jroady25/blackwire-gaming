@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlackWire Community - Mods - BlackWire Gaming</title>
+<meta name="color-scheme" content="dark">
+<meta name="description" content="A custom ESC menu for the BlackWire Gaming servers — Discord and website links, one-tap FPS boost presets, and a quick way for players to grab their own EOS ID.">
+<link rel="icon" type="image/jpeg" href="../assets/nav-icon.jpg">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#0a0706">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BlackWire">
+<meta name="mobile-web-app-capable" content="yes">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BlackWire Community - Mods - BlackWire Gaming">
+<meta property="og:description" content="A custom ESC menu for the BlackWire Gaming servers — Discord and website links, one-tap FPS boost presets, and a quick way for players to grab their own EOS ID.">
+<meta property="og:image" content="https://blackwiregaming.com/assets/hawk-emblem.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared.css?v=6">
+<link rel="stylesheet" href="../mods.css?v=1">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+<header class="wrap">
+  <a class="brand" href="../index.html">
+    <img class="brand-mark" src="../assets/nav-mark.webp?v=1" alt="">
+    <span class="brand-word">BLACK<span>WIRE</span></span>
+  </a>
+  <nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html#play">Play</a>
+      <a href="../index.html#live">Servers</a>
+      <a href="../index.html#why">About</a>
+      <a href="../guides.html">Guides</a>
+      <a class="is-current" href="../mods.html">Mods</a>
+    </div>
+    <a class="signin" href="../sign-in.html">Sign In</a>
+  </nav>
+</header>
+<div class="hazard-bar"></div>
+<span id="main" tabindex="-1"></span>
+
+<div class="wrap">
+  <a class="crumb" href="../mods.html">All mods</a>
+  <section class="mod-hero">
+    <div>
+      <span class="section-eyebrow" style="text-align:left;">mods / server_admin</span>
+      <h1>BlackWire <em>Community.</em></h1>
+      <p class="lead">A custom ESC menu for the BlackWire Gaming servers — Discord and website links, one-tap FPS boost presets, and a quick way for players to grab their own EOS ID.</p>
+      <div class="ctas"><a class="btn-primary" href="https://www.curseforge.com/ark-survival-ascended/mods/blackwire-community-mod" target="_blank" rel="noopener">Get it on CurseForge</a>
+        <a class="btn-ghost" href="#guide">Full guide</a><a class="btn-ghost" href="#settings">Server settings</a><a class="btn-ghost" href="https://discord.gg/FNnNEa8A6S" target="_blank" rel="noopener">Help on Discord</a></div>
+    </div>
+    <div class="mod-frame"><img src="../assets/mods/mod-community.jpg" alt="BlackWire Community"></div>
+  </section>
+  <div class="facts">
+    <div><span>Works on</span><b>PC · Xbox · PlayStation</b></div>
+    <div><span>Servers</span><b>Single player · Dedicated</b></div>
+    <div><span>Languages</span><b>14, follows the game</b></div>
+    <div><span>Setup</span><b>Optional INI</b></div>
+  </div>
+
+  <section class="msec" id="what"><div class="head"><span class="section-eyebrow">01 · what_it_does</span></div>
+    <div class="head" style="margin-top:-10px"><h2>What it <em>does.</em></h2></div>
+    <ul class="feat-list"><li>One-click Discord and website links plus scannable codes, also on every player&#x27;s own wheel.</li><li>Links can include the player&#x27;s EOS ID for store and vote pages, and players can copy their own EOS ID.</li><li>One-tap graphics presets: no grass, no motion blur, longer view distance, an FPS counter and more.</li><li>Console-safe presets on Xbox and PlayStation.</li><li>A server info card with your own message and a countdown to the next restart, plus a HUD watermark you can switch off.</li></ul></section>
+
+  <section class="msec" id="guide"><div class="head"><span class="section-eyebrow">02 · full_guide</span></div>
+  <div class="head" style="margin-top:-10px"><h2>How it <em>works.</em></h2><span class="sub">Each server sets its own links, labels and buttons in settings.ini.</span></div>
+  <h3 class="gh">The buttons</h3><p class="gp">Every button can be hidden or renamed by the server owner.</p><div class="ctrl"><table class="gt "><thead><tr><th>Button</th><th>What it does</th></tr></thead><tbody><tr><td>SOFT INI</td><td>Runs a short list of graphics commands. Default: no volumetric clouds, smaller grass, no fog.</td></tr><tr><td>HARD INI</td><td>Everything in Soft INI, plus the lowest shadows, a sharper image, full screen resolution and no debris from broken structures.</td></tr><tr><td>RESET</td><td>Puts the game's normal graphics settings back.</td></tr><tr><td>One-tap fixes</td><td>No Grass, No Motion Blur, Fix Blurry, No Bloom / DOF, View Distance and Show FPS.</td></tr><tr><td>DISCORD / WEBSITE</td><td>Opens your links. Put <code>{EOSID}</code> in a link and it is replaced with the player's EOS ID, for store and vote pages.</td></tr><tr><td>MY EOS ID</td><td>Shows the player their EOS ID so they can copy it.</td></tr></tbody></table></div><div class="gcards c3"><div class="gcard"><h4>Console-safe</h4><p>On Xbox and PlayStation the INI buttons use a shorter list that is safe on console. Owners can set their own console list.</p></div><div class="gcard"><h4>Your own commands</h4><p>Owners can set up to 10 commands each for the Soft and Hard INI buttons.</p></div><div class="gcard"><h4>Server info card</h4><p>Your own message plus a countdown to the next restart. Add your restart times and the card shows up. Leave both empty and it stays hidden.</p></div><div class="gcard"><h4>HUD watermark</h4><p>A small BlackWire crest in the bottom-left corner. Admins can switch it off from the menu.</p></div><div class="gcard"><h4>On every player's wheel</h4><p>A Community folder on the radial wheel with the Discord and Website links, so players don't need to open the pause menu.</p></div><div class="gcard"><h4>In 14 languages</h4><p>The menu follows the player's game language.</p></div></div>
+</section>
+
+    <section class="msec" id="use"><div class="head"><span class="section-eyebrow">03 · how_to_use</span></div>
+    <div class="head" style="margin-top:-10px"><h2>How to <em>use it.</em></h2></div>
+    <div class="howto">Open the pause menu as normal. Every player also gets a Community folder on their radial wheel with your Discord and Website links.</div></section>
+
+
+
+  <section class="msec" id="pics"><div class="head"><span class="section-eyebrow">04 · in_game</span></div>
+    <div class="head" style="margin-top:-10px"><h2>In <em>game.</em></h2></div>
+    <div class="gallery gn2"><figure><img src="../assets/mods/community/COM_01_pause_menu.jpg" alt="Pause menu" loading="lazy"><figcaption>Pause menu</figcaption></figure><figure><img src="../assets/mods/community/COM_02_hud_watermark.jpg" alt="HUD watermark" loading="lazy"><figcaption>HUD watermark</figcaption></figure></div></section>
+
+  <section class="msec" id="settings"><div class="head"><span class="section-eyebrow">05 · server_settings</span></div>
+    <div class="head" style="margin-top:-10px"><h2>Server <em>settings.</em></h2><span class="sub">Every line is optional. Change what you want and copy the block into GameUserSettings.ini.</span></div>
+    <div class="inib">
+      <div class="rows" id="rows"><details class="grp" open><summary class="grp-h">Settings <i>1 settings</i></summary><div class="row wide" data-row="DiscordURL"><label for="k_DiscordURL"><b>DiscordURL</b><span>Always put links in quotes, like DiscordURL=&quot;https://discord.gg/yourcode&quot;. Without quotes ARK cuts the link off at the //. Link the Discord button opens (put your own)</span><small>Default &quot;https://discord.gg/blackwire&quot;</small></label><input type="text" id="k_DiscordURL" data-k="DiscordURL" value="&quot;https://discord.gg/blackwire&quot;" placeholder="" aria-label="DiscordURL"></div></details><details class="grp" open><summary class="grp-h">General <i>36 settings</i></summary><div class="row wide" data-row="WebsiteURL"><label for="k_WebsiteURL"><b>WebsiteURL</b><span>Link the Website button opens (put your own) Tip: {EOSID} anywhere in a link is replaced with the player&#x27;s EOS ID, e.g. https://store.example.com/?player={EOSID}</span><small>Default &quot;https://www.blackwiregaming.com/&quot;</small></label><input type="text" id="k_WebsiteURL" data-k="WebsiteURL" value="&quot;https://www.blackwiregaming.com/&quot;" placeholder="" aria-label="WebsiteURL"></div><div class="row wide" data-row="ServerMessage"><label for="k_ServerMessage"><b>ServerMessage</b><span>SERVER INFO card in the menu. Leave both empty and the card stays hidden Your message, e.g. Wipe on Friday. Rates x3 this weekend.</span><small>Default empty</small></label><input type="text" id="k_ServerMessage" data-k="ServerMessage" value="" placeholder="" aria-label="ServerMessage"></div><div class="row wide" data-row="RestartTimes"><label for="k_RestartTimes"><b>RestartTimes</b><span>Daily restart times, server clock, 24-hour HH:MM with a comma between each, e.g. 06:00,18:00</span><small>Default empty</small></label><input type="text" id="k_RestartTimes" data-k="RestartTimes" value="" placeholder="" aria-label="RestartTimes"></div><div class="row" data-row="ShowSoftIni"><label for="k_ShowSoftIni"><b>ShowSoftIni</b><span>False hides that button (write False with a capital F)</span><small>Default True</small></label><div class="sw" data-k="ShowSoftIni"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowHardIni"><label for="k_ShowHardIni"><b>ShowHardIni</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowHardIni"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowReset"><label for="k_ShowReset"><b>ShowReset</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowReset"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowNoGrass"><label for="k_ShowNoGrass"><b>ShowNoGrass</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowNoGrass"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowNoMotionBlur"><label for="k_ShowNoMotionBlur"><b>ShowNoMotionBlur</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowNoMotionBlur"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowFixBlurry"><label for="k_ShowFixBlurry"><b>ShowFixBlurry</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowFixBlurry"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowNoBloomDof"><label for="k_ShowNoBloomDof"><b>ShowNoBloomDof</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowNoBloomDof"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowViewDistance"><label for="k_ShowViewDistance"><b>ShowViewDistance</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowViewDistance"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowShowFps"><label for="k_ShowShowFps"><b>ShowShowFps</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowShowFps"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowDiscord"><label for="k_ShowDiscord"><b>ShowDiscord</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowDiscord"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowWebsite"><label for="k_ShowWebsite"><b>ShowWebsite</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowWebsite"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowMyEosId"><label for="k_ShowMyEosId"><b>ShowMyEosId</b><span></span><small>Default True</small></label><div class="sw" data-k="ShowMyEosId"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row" data-row="ShowWatermark"><label for="k_ShowWatermark"><b>ShowWatermark</b><span>False hides the BlackWire crest in the bottom-left corner of the screen</span><small>Default True</small></label><div class="sw" data-k="ShowWatermark"><button type="button" data-v="True" aria-pressed="true">ON</button><button type="button" data-v="False" aria-pressed="false">OFF</button></div></div><div class="row wide" data-row="LabelSoftIni"><label for="k_LabelSoftIni"><b>LabelSoftIni</b><span>Text on each button</span><small>Default SOFT INI</small></label><input type="text" id="k_LabelSoftIni" data-k="LabelSoftIni" value="SOFT INI" placeholder="" aria-label="LabelSoftIni"></div><div class="row wide" data-row="LabelHardIni"><label for="k_LabelHardIni"><b>LabelHardIni</b><span></span><small>Default HARD INI</small></label><input type="text" id="k_LabelHardIni" data-k="LabelHardIni" value="HARD INI" placeholder="" aria-label="LabelHardIni"></div><div class="row wide" data-row="LabelReset"><label for="k_LabelReset"><b>LabelReset</b><span></span><small>Default RESET</small></label><input type="text" id="k_LabelReset" data-k="LabelReset" value="RESET" placeholder="" aria-label="LabelReset"></div><div class="row wide" data-row="LabelNoGrass"><label for="k_LabelNoGrass"><b>LabelNoGrass</b><span></span><small>Default NO GRASS</small></label><input type="text" id="k_LabelNoGrass" data-k="LabelNoGrass" value="NO GRASS" placeholder="" aria-label="LabelNoGrass"></div><div class="row wide" data-row="LabelNoMotionBlur"><label for="k_LabelNoMotionBlur"><b>LabelNoMotionBlur</b><span></span><small>Default NO MOTION BLUR</small></label><input type="text" id="k_LabelNoMotionBlur" data-k="LabelNoMotionBlur" value="NO MOTION BLUR" placeholder="" aria-label="LabelNoMotionBlur"></div><div class="row wide" data-row="LabelFixBlurry"><label for="k_LabelFixBlurry"><b>LabelFixBlurry</b><span></span><small>Default FIX BLURRY</small></label><input type="text" id="k_LabelFixBlurry" data-k="LabelFixBlurry" value="FIX BLURRY" placeholder="" aria-label="LabelFixBlurry"></div><div class="row wide" data-row="LabelNoBloomDof"><label for="k_LabelNoBloomDof"><b>LabelNoBloomDof</b><span></span><small>Default NO BLOOM / DOF</small></label><input type="text" id="k_LabelNoBloomDof" data-k="LabelNoBloomDof" value="NO BLOOM / DOF" placeholder="" aria-label="LabelNoBloomDof"></div><div class="row wide" data-row="LabelViewDistance"><label for="k_LabelViewDistance"><b>LabelViewDistance</b><span></span><small>Default VIEW DISTANCE</small></label><input type="text" id="k_LabelViewDistance" data-k="LabelViewDistance" value="VIEW DISTANCE" placeholder="" aria-label="LabelViewDistance"></div><div class="row wide" data-row="LabelShowFps"><label for="k_LabelShowFps"><b>LabelShowFps</b><span></span><small>Default SHOW FPS</small></label><input type="text" id="k_LabelShowFps" data-k="LabelShowFps" value="SHOW FPS" placeholder="" aria-label="LabelShowFps"></div><div class="row wide" data-row="LabelDiscord"><label for="k_LabelDiscord"><b>LabelDiscord</b><span></span><small>Default DISCORD</small></label><input type="text" id="k_LabelDiscord" data-k="LabelDiscord" value="DISCORD" placeholder="" aria-label="LabelDiscord"></div><div class="row wide" data-row="LabelWebsite"><label for="k_LabelWebsite"><b>LabelWebsite</b><span></span><small>Default WEBSITE</small></label><input type="text" id="k_LabelWebsite" data-k="LabelWebsite" value="WEBSITE" placeholder="" aria-label="LabelWebsite"></div><div class="row wide" data-row="LabelMyEosId"><label for="k_LabelMyEosId"><b>LabelMyEosId</b><span></span><small>Default MY EOS ID</small></label><input type="text" id="k_LabelMyEosId" data-k="LabelMyEosId" value="MY EOS ID" placeholder="" aria-label="LabelMyEosId"></div><div class="row wide" data-row="SoftIniCommands"><label for="k_SoftIniCommands"><b>SoftIniCommands</b><span>Commands the SOFT INI button runs (comma between each, up to 10)</span><small>Default r.VolumetricCloud 0,grass.sizeScale 0.2,r.fog 0</small></label><input type="text" id="k_SoftIniCommands" data-k="SoftIniCommands" value="r.VolumetricCloud 0,grass.sizeScale 0.2,r.fog 0" placeholder="" aria-label="SoftIniCommands"></div><div class="row wide" data-row="HardIniCommands"><label for="k_HardIniCommands"><b>HardIniCommands</b><span>Commands the HARD INI button runs (comma between each, up to 10)</span><small>Default the long list already in the box</small></label><input type="text" id="k_HardIniCommands" data-k="HardIniCommands" value="r.VolumetricCloud 0,grass.sizeScale 0.2,r.fog 0,ark.MaxActiveDestroyedMeshGeoCollectionCount 0,r.Tonemapper.Sharpen 2,r.ScreenPercentage 100,r.ShadowQuality 0" placeholder="" aria-label="HardIniCommands"></div><div class="row wide" data-row="SoftIniCommandsConsole"><label for="k_SoftIniCommandsConsole"><b>SoftIniCommandsConsole</b><span>Xbox / PlayStation only: other commands for those buttons. Empty = a short console-safe list (SOFT: r.VolumetricCloud 0,r.Fog 0   HARD: those + grass.sizeScale 0.2,r.ShadowQuality 0)</span><small>Default empty</small></label><input type="text" id="k_SoftIniCommandsConsole" data-k="SoftIniCommandsConsole" value="" placeholder="" aria-label="SoftIniCommandsConsole"></div><div class="row wide" data-row="HardIniCommandsConsole"><label for="k_HardIniCommandsConsole"><b>HardIniCommandsConsole</b><span></span><small>Default empty</small></label><input type="text" id="k_HardIniCommandsConsole" data-k="HardIniCommandsConsole" value="" placeholder="" aria-label="HardIniCommandsConsole"></div><div class="row wide" data-row="BrandURL"><label for="k_BrandURL"><b>BrandURL</b><span>Old picture links, not used any more. Leave these empty</span><small>Default empty</small></label><input type="text" id="k_BrandURL" data-k="BrandURL" value="" placeholder="" aria-label="BrandURL"></div><div class="row wide" data-row="MenuBrandURL"><label for="k_MenuBrandURL"><b>MenuBrandURL</b><span></span><small>Default empty</small></label><input type="text" id="k_MenuBrandURL" data-k="MenuBrandURL" value="" placeholder="" aria-label="MenuBrandURL"></div><div class="row wide" data-row="DiscordQRURL"><label for="k_DiscordQRURL"><b>DiscordQRURL</b><span></span><small>Default empty</small></label><input type="text" id="k_DiscordQRURL" data-k="DiscordQRURL" value="" placeholder="" aria-label="DiscordQRURL"></div><div class="row wide" data-row="WebsiteQRURL"><label for="k_WebsiteQRURL"><b>WebsiteQRURL</b><span></span><small>Default empty</small></label><input type="text" id="k_WebsiteQRURL" data-k="WebsiteQRURL" value="" placeholder="" aria-label="WebsiteQRURL"></div></details></div>
+      <aside class="out" aria-label="Your settings">
+        <div class="bar"><span>GameUserSettings.ini · <b id="nchg">0 changed</b></span></div>
+        <pre id="ini" aria-live="polite"></pre>
+        <div class="acts"><button type="button" class="go" id="copy">Copy</button><button type="button" id="reset">Reset</button>
+          <label><input type="checkbox" id="onlychg" checked> Only changed lines</label></div>
+        <p class="where">Paste it at the end of your server's GameUserSettings.ini, then restart the server. Lines you leave out keep their defaults.</p>
+      </aside>
+    </div></section>
+
+  <div class="help-band"><div><h3>Stuck or found a bug?</h3><p>Ask in the Community channel on the BlackWire Mods Discord.</p></div>
+
+    <a class="btn-primary" href="https://discord.gg/FNnNEa8A6S" target="_blank" rel="noopener">Open the Mods Discord</a></div>
+</div>
+<script>
+(() => {
+  document.querySelectorAll('[data-copy]').forEach((b) => b.addEventListener('click', async () => { try { await navigator.clipboard.writeText(b.dataset.copy); } catch {} const d = document.createElement('div'); d.className = 'toast'; d.textContent = 'Copied'; document.body.append(d); setTimeout(() => d.remove(), 1800); }));
+  if (!document.getElementById('ini')) return;
+  const SEC = "BlackWirePauseMenu", DEF = {"DiscordURL": "\"https://discord.gg/blackwire\"", "WebsiteURL": "\"https://www.blackwiregaming.com/\"", "ServerMessage": "", "RestartTimes": "", "ShowSoftIni": "True", "ShowHardIni": "True", "ShowReset": "True", "ShowNoGrass": "True", "ShowNoMotionBlur": "True", "ShowFixBlurry": "True", "ShowNoBloomDof": "True", "ShowViewDistance": "True", "ShowShowFps": "True", "ShowDiscord": "True", "ShowWebsite": "True", "ShowMyEosId": "True", "ShowWatermark": "True", "LabelSoftIni": "SOFT INI", "LabelHardIni": "HARD INI", "LabelReset": "RESET", "LabelNoGrass": "NO GRASS", "LabelNoMotionBlur": "NO MOTION BLUR", "LabelFixBlurry": "FIX BLURRY", "LabelNoBloomDof": "NO BLOOM / DOF", "LabelViewDistance": "VIEW DISTANCE", "LabelShowFps": "SHOW FPS", "LabelDiscord": "DISCORD", "LabelWebsite": "WEBSITE", "LabelMyEosId": "MY EOS ID", "SoftIniCommands": "r.VolumetricCloud 0,grass.sizeScale 0.2,r.fog 0", "HardIniCommands": "r.VolumetricCloud 0,grass.sizeScale 0.2,r.fog 0,ark.MaxActiveDestroyedMeshGeoCollectionCount 0,r.Tonemapper.Sharpen 2,r.ScreenPercentage 100,r.ShadowQuality 0", "SoftIniCommandsConsole": "", "HardIniCommandsConsole": "", "BrandURL": "", "MenuBrandURL": "", "DiscordQRURL": "", "WebsiteQRURL": ""}, ORDER = ["DiscordURL", "WebsiteURL", "ServerMessage", "RestartTimes", "ShowSoftIni", "ShowHardIni", "ShowReset", "ShowNoGrass", "ShowNoMotionBlur", "ShowFixBlurry", "ShowNoBloomDof", "ShowViewDistance", "ShowShowFps", "ShowDiscord", "ShowWebsite", "ShowMyEosId", "ShowWatermark", "LabelSoftIni", "LabelHardIni", "LabelReset", "LabelNoGrass", "LabelNoMotionBlur", "LabelFixBlurry", "LabelNoBloomDof", "LabelViewDistance", "LabelShowFps", "LabelDiscord", "LabelWebsite", "LabelMyEosId", "SoftIniCommands", "HardIniCommands", "SoftIniCommandsConsole", "HardIniCommandsConsole", "BrandURL", "MenuBrandURL", "DiscordQRURL", "WebsiteQRURL"];
+  const val = {...DEF}, pre = document.getElementById('ini'), only = document.getElementById('onlychg');
+  const esc = (s) => s.replace(/[&<>]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+  function line(k) { let v = val[k]; if (/Webhook|URL|Link/.test(k) && /^https?:/.test(v)) v = '"' + v + '"'; return k + '=' + v; }
+  function render() {
+    const chg = ORDER.filter((k) => String(val[k]) !== String(DEF[k]));
+    document.getElementById('nchg').textContent = chg.length + ' changed';
+    document.querySelectorAll('[data-row]').forEach((r) => r.classList.toggle('changed', chg.includes(r.dataset.row)));
+    const keys = only.checked ? chg : ORDER;
+    pre.innerHTML = '<span class="s">[' + SEC + ']</span>\n' + (keys.length ? keys.map((k) => '<span class="k">' + esc(k) + '</span>=' + esc(line(k).split('=').slice(1).join('='))).join('\n')
+      : '<span class="c">; nothing changed yet - the defaults are already on</span>');
+  }
+  document.querySelectorAll('#rows input').forEach((i) => i.addEventListener('input', () => {
+    let v = i.value.trim();
+    if (i.type === 'number' && v !== '') { const n = Math.min(+i.max, Math.max(+i.min, (i.step === 'any' ? +v : Math.round(+v)))); v = String(n); }
+    val[i.dataset.k] = v; render(); }));
+  document.querySelectorAll('#rows input[type=number]').forEach((i) => i.addEventListener('change', () => { i.value = val[i.dataset.k]; }));
+  document.querySelectorAll('#rows .sw').forEach((s) => s.addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return;
+    s.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', x === b)); val[s.dataset.k] = b.dataset.v; render(); }));
+  only.addEventListener('change', render);
+  function toast(t) { const d = document.createElement('div'); d.className = 'toast'; d.textContent = t; document.body.append(d); setTimeout(() => d.remove(), 1800); }
+  async function copy(t) { try { await navigator.clipboard.writeText(t); toast('Copied'); } catch { toast('Select the text and copy it'); } }
+  document.getElementById('copy').addEventListener('click', () => copy(pre.textContent));
+  document.getElementById('reset').addEventListener('click', () => { Object.assign(val, DEF);
+    document.querySelectorAll('#rows input').forEach((i) => i.value = DEF[i.dataset.k]);
+    document.querySelectorAll('#rows .sw').forEach((s) => s.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', b.dataset.v === DEF[s.dataset.k]))); render(); });
+  render();
+})();
+</script>
+<footer class="wrap">
+  <div class="foot-brand">BLACKWIRE GAMING &mdash; Connect &bull; Conquer &bull; Survive</div>
+  <a class="foot-partner" href="https://nitrado.net" target="_blank" rel="noopener sponsored">Official Nitrado Partner</a>
+  <div class="foot-links">
+    <a href="../guides.html">Guides</a>
+    <a href="../mods.html">Mods</a>
+    <a href="../support.html">Support</a>
+    <a href="../privacy.html">Privacy</a>
+    <a href="../terms.html">Terms</a>
+  </div>
+</footer>
+
+<script src="../site.js?v=5"></script>
+</body></html>

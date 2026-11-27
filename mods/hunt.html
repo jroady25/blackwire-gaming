@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BlackWire Hunt - Mods - BlackWire Gaming</title>
+<meta name="color-scheme" content="dark">
+<meta name="description" content="Server-wide rare creature hunts: a glowing high-level creature appears, everyone races to kill or tame it, and every hunter nearby gets a Hunt Crate.">
+<link rel="icon" type="image/jpeg" href="../assets/nav-icon.jpg">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#0a0706">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BlackWire">
+<meta name="mobile-web-app-capable" content="yes">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BlackWire Hunt - Mods - BlackWire Gaming">
+<meta property="og:description" content="Server-wide rare creature hunts: a glowing high-level creature appears, everyone races to kill or tame it, and every hunter nearby gets a Hunt Crate.">
+<meta property="og:image" content="https://blackwiregaming.com/assets/hawk-emblem.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared.css?v=6">
+<link rel="stylesheet" href="../mods.css?v=1">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+<header class="wrap">
+  <a class="brand" href="../index.html">
+    <img class="brand-mark" src="../assets/nav-mark.webp?v=1" alt="">
+    <span class="brand-word">BLACK<span>WIRE</span></span>
+  </a>
+  <nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html#play">Play</a>
+      <a href="../index.html#live">Servers</a>
+      <a href="../index.html#why">About</a>
+      <a href="../guides.html">Guides</a>
+      <a class="is-current" href="../mods.html">Mods</a>
+    </div>
+    <a class="signin" href="../sign-in.html">Sign In</a>
+  </nav>
+</header>
+<div class="hazard-bar"></div>
+<span id="main" tabindex="-1"></span>
+
+<div class="wrap">
+  <a class="crumb" href="../mods.html">All mods</a>
+  <section class="mod-hero">
+    <div>
+      <span class="section-eyebrow" style="text-align:left;">mods / creatures_npcs</span>
+      <h1>BlackWire <em>Hunt.</em></h1>
+      <p class="lead">Server-wide rare creature hunts: a glowing high-level creature appears, everyone races to kill or tame it, and every hunter nearby gets a Hunt Crate.</p>
+      <div class="ctas"><a class="btn-primary" href="https://www.curseforge.com/ark-survival-ascended/mods/blackwire-hunt" target="_blank" rel="noopener">Get it on CurseForge</a>
+        <a class="btn-ghost" href="#guide">Full guide</a><a class="btn-ghost" href="#settings">Server settings</a><a class="btn-ghost" href="https://discord.gg/FNnNEa8A6S" target="_blank" rel="noopener">Help on Discord</a></div>
+    </div>
+    <div class="mod-frame"><img src="../assets/mods/mod-hunt.jpg" alt="BlackWire Hunt"></div>
+  </section>
+  <div class="facts">
+    <div><span>Works on</span><b>PC · Xbox · PlayStation</b></div>
+    <div><span>Servers</span><b>Single player · Dedicated</b></div>
+    <div><span>Languages</span><b>14, follows the game</b></div>
+    <div><span>Setup</span><b>Optional INI</b></div>
+  </div>
+
+  <section class="msec" id="what"><div class="head"><span class="section-eyebrow">01 · what_it_does</span></div>
+    <div class="head" style="margin-top:-10px"><h2>What it <em>does.</em></h2></div>
+    <ul class="feat-list"><li>Four tiers: Rare, Epic, Legendary and Mythic, with higher levels, escorts and tier powers.</li><li>A Hunter&#x27;s Notice banner shows each player their own distance and direction to the creature.</li><li>Kill or tame it before time runs out, and every hunter nearby gets their own Hunt Crate.</li><li>Hunt Trophies on Legendary and Mythic hunts for the top damage dealer, placed as a statue with your name.</li><li>A Hunt Board with the current hunt, top hunters and recent results.</li><li>Optional Discord announcements, and admin controls on the wheel to start or end a hunt.</li></ul></section>
+
+  
+<section class="msec" id="guide"><div class="head"><span class="section-eyebrow">02 · full_guide</span></div>
+  <div class="head" style="margin-top:-10px"><h2>How it <em>works.</em></h2><span class="sub">Numbers are the defaults. Server owners can change them in the settings below.</span></div>
+
+  <h3 class="gh">The four tiers</h3>
+  <p class="gp">Every hunt rolls a tier. Higher tiers are rarer, stronger, bring escorts and glow in their own colour so you know what you are up against from across the map.</p>
+  <div class="ctrl"><table class="tiers"><thead><tr><th>Tier</th><th>Chance</th><th>Level</th><th>Escorts</th><th>Power</th></tr></thead><tbody>
+    <tr><td><span class="tier" style="--c:#3d8bff">Rare</span></td><td>60%</td><td>120 to 220</td><td>None</td><td class="dim">None</td></tr>
+    <tr><td><span class="tier" style="--c:#a45cff">Epic</span></td><td>28%</td><td>150 to 275 <small>+25%</small></td><td>1</td><td class="dim">None</td></tr>
+    <tr><td><span class="tier" style="--c:#f2b632">Legendary</span></td><td>10%</td><td>180 to 330 <small>+50%</small></td><td>2</td><td>Its hits can <b>freeze</b> you</td></tr>
+    <tr><td><span class="tier" style="--c:#ff3b2e">Mythic</span></td><td>2%</td><td>210 to 385 <small>+75%</small></td><td>3</td><td>Its hits can <b>set you on fire</b></td></tr>
+  </tbody></table></div>
+  <p class="note">Escorts are the same species at 60% of the hunt creature's level and glow faintly in the same colour. Each hit from a Legendary or Mythic has a 25% chance to use its power, and only while it is still wild.</p>
+
+  <h3 class="gh">A hunt from start to finish</h3>
+  <ol class="steps">
+    <li><b>The call goes out.</b> The first hunt comes 10 minutes after a server start, then one every 45 minutes. A glowing creature appears near a player and every player on the server gets the Hunter's Notice.</li>
+    <li><b>Track it down.</b> The banner shows each player their own distance and direction. A hint comes every 5 minutes, and anyone within 400 m gets a CLOSE! warning every minute. From far away a beam marks where it is.</li>
+    <li><b>No quick tames.</b> For the first 5 minutes the creature can't be tamed, so everyone gets a fair shot.</li>
+    <li><b>Bring it down.</b> You have 20 minutes. Kill it or tame it and the hunt is won. Hunters who were within 150 m each get their own Hunt Crate.</li>
+    <li><b>Or it gets away.</b> If time runs out the creature and its escorts leave the world, and everyone is told when the next hunt is due.</li>
+  </ol>
+
+  <div class="gcards">
+    <div class="gcard"><h4>Hunt Crates</h4><p>One crate for every hunter in range, in the hunt's tier. It drops at the kill spot and only your tribe can open it, for 30 minutes. The LootQuality setting makes the items better, never fewer.</p></div>
+    <div class="gcard"><h4>Trophies</h4><p>On Legendary and Mythic hunts, the hunter who did the most damage also finds a trophy in their crate: a statue of the creature with its level and your name. Place it in your base. It can be picked up or demolished like any structure.</p></div>
+    <div class="gcard"><h4>The Hunt Board</h4><p>Three parts: <b>Right now</b> (the wanted poster for the current hunt), <b>Top hunters</b> (most hunts won on this server) and <b>Last hunts</b> (the last 5 results). It is saved, so it survives restarts.</p></div>
+    <div class="gcard"><h4>Taming one</h4><p>A tamed hunt creature keeps its tier glow for good, even after a cryopod or an upload to another map. Its freeze and fire powers stay with wild ones only.</p></div>
+    <div class="gcard"><h4>Sea hunts</h4><p>If the player the hunt picks is out in the water (swimming, diving or riding a sea creature), the hunt places a sea creature in the water instead. Owners can turn this off.</p></div>
+    <div class="gcard"><h4>Which creatures</h4><p>Any creature on the map, modded ones included, except small and harmless ones like Dodos, Compys, fish and bugs. Owners can set their own skip list.</p></div>
+    <div class="gcard"><h4>Discord posts</h4><p>Optional. Add a Discord webhook and every hunt start and result is posted to your channel or thread, with an optional role ping. No bot needed.</p></div>
+    <div class="gcard"><h4>For admins</h4><p>Admins see a BlackWire Hunt page on their wheel: <b>Start a hunt</b>, <b>Start a Legendary hunt</b> and <b>End the hunt</b>.</p></div>
+  </div>
+</section>
+
+
+    <section class="msec" id="use"><div class="head"><span class="section-eyebrow">03 · how_to_use</span></div>
+    <div class="head" style="margin-top:-10px"><h2>How to <em>use it.</em></h2><span class="sub">No items to craft. It works the moment the mod is on.</span></div>
+    <div class="ctrl"><table><thead><tr><th>To do this</th><th>PC</th><th>Xbox</th><th>PlayStation</th></tr></thead><tbody>
+      <tr><td>Open the Hunt Board</td><td><span class="key">Hold <kbd>E</kbd> on yourself</span></td><td><span class="key">Hold <kbd class="x">X</kbd> on yourself</span></td><td><span class="key">Hold <kbd class="sq">&#9633;</kbd> on yourself</span></td></tr>
+      <tr><td>Track the creature</td><td colspan="3" style="color:var(--text-dim)">The Hunter's Notice banner shows your own distance and direction. Get within 400 m for CLOSE! warnings.</td></tr>
+      <tr><td>Get your Hunt Crate</td><td colspan="3" style="color:var(--text-dim)">Be within 150 m when the creature is killed or tamed. Every hunter there gets their own crate.</td></tr>
+      <tr><td>Start or end a hunt (admins)</td><td colspan="3" style="color:var(--text-dim)">From the Hunt admin folder on the wheel.</td></tr>
+    </tbody></table></div>
+    <p class="note">Distances and times shown are the defaults. Your server may have changed them.</p></section>
+
+
+
+  <section class="msec" id="pics"><div class="head"><span class="section-eyebrow">04 · in_game</span></div>
+    <div class="head" style="margin-top:-10px"><h2>In <em>game.</em></h2></div>
+    <div class="gallery gn5"><figure><img src="../assets/mods/hunt/HUNT_01_hunt_starts.jpg" alt="A hunt starts: every player gets the call" loading="lazy"><figcaption>A hunt starts: every player gets the call</figcaption></figure><figure><img src="../assets/mods/hunt/HUNT_02_hunt_won.jpg" alt="Hunt won" loading="lazy"><figcaption>Hunt won</figcaption></figure><figure><img src="../assets/mods/hunt/HUNT_03_board.jpg" alt="The Hunt Board during a hunt" loading="lazy"><figcaption>The Hunt Board during a hunt</figcaption></figure><figure><img src="../assets/mods/hunt/HUNT_03b_board_no_hunt.jpg" alt="Hunt Board between hunts" loading="lazy"><figcaption>Hunt Board between hunts</figcaption></figure><figure><img src="../assets/mods/hunt/HUNT_04_crates.jpg" alt="Hunt Crates for every hunter" loading="lazy"><figcaption>Hunt Crates for every hunter</figcaption></figure></div></section>
+
+  <section class="msec" id="settings"><div class="head"><span class="section-eyebrow">05 · server_settings</span></div>
+    <div class="head" style="margin-top:-10px"><h2>Server <em>settings.</em></h2><span class="sub">Every line is optional. Change what you want and copy the block into GameUserSettings.ini.</span></div>
+    <div class="inib">
+      <div class="rows" id="rows"><details class="grp" open><summary class="grp-h">Timing <i>4 settings</i></summary><div class="row" data-row="Enabled"><label for="k_Enabled"><b>Enabled</b><span>0 turns hunts off</span><small>Default 1</small></label><div class="sw" data-k="Enabled"><button type="button" data-v="1" aria-pressed="true">ON</button><button type="button" data-v="0" aria-pressed="false">OFF</button></div></div><div class="row" data-row="FirstHuntMinutes"><label for="k_FirstHuntMinutes"><b>FirstHuntMinutes</b><span>Minutes after a server start before the first hunt</span><small>Default 10 · 1 to 1440</small></label><input type="number" id="k_FirstHuntMinutes" data-k="FirstHuntMinutes" value="10" min="1" max="1440" aria-label="FirstHuntMinutes"></div><div class="row" data-row="IntervalMinutes"><label for="k_IntervalMinutes"><b>IntervalMinutes</b><span>Minutes between hunts, skipped while one is running</span><small>Default 45 · 5 to 1440</small></label><input type="number" id="k_IntervalMinutes" data-k="IntervalMinutes" value="45" min="5" max="1440" aria-label="IntervalMinutes"></div><div class="row" data-row="HuntMinutes"><label for="k_HuntMinutes"><b>HuntMinutes</b><span>Minutes players have to bring the creature down</span><small>Default 20 · 3 to 240</small></label><input type="number" id="k_HuntMinutes" data-k="HuntMinutes" value="20" min="3" max="240" aria-label="HuntMinutes"></div></details><details class="grp" open><summary class="grp-h">The creature <i>13 settings</i></summary><div class="row" data-row="MinLevel"><label for="k_MinLevel"><b>MinLevel</b><span>Level range of the hunted creature (Epic +25%, Legendary +50%, Mythic +75%)</span><small>Default 120</small></label><input type="number" id="k_MinLevel" data-k="MinLevel" value="120" min="0" max="100000000" aria-label="MinLevel"></div><div class="row" data-row="MaxLevel"><label for="k_MaxLevel"><b>MaxLevel</b><span></span><small>Default 220</small></label><input type="number" id="k_MaxLevel" data-k="MaxLevel" value="220" min="0" max="100000000" aria-label="MaxLevel"></div><div class="row" data-row="RareWeight"><label for="k_RareWeight"><b>RareWeight</b><span>How often each tier comes up. 0 switches a tier off</span><small>Default 60</small></label><input type="number" id="k_RareWeight" data-k="RareWeight" value="60" min="0" max="100000000" aria-label="RareWeight"></div><div class="row" data-row="EpicWeight"><label for="k_EpicWeight"><b>EpicWeight</b><span></span><small>Default 28</small></label><input type="number" id="k_EpicWeight" data-k="EpicWeight" value="28" min="0" max="100000000" aria-label="EpicWeight"></div><div class="row" data-row="LegendaryWeight"><label for="k_LegendaryWeight"><b>LegendaryWeight</b><span></span><small>Default 10</small></label><input type="number" id="k_LegendaryWeight" data-k="LegendaryWeight" value="10" min="0" max="100000000" aria-label="LegendaryWeight"></div><div class="row" data-row="MythicWeight"><label for="k_MythicWeight"><b>MythicWeight</b><span></span><small>Default 2</small></label><input type="number" id="k_MythicWeight" data-k="MythicWeight" value="2" min="0" max="100000000" aria-label="MythicWeight"></div><div class="row" data-row="EpicEscorts"><label for="k_EpicEscorts"><b>EpicEscorts</b><span>Escorts (same species, 60% of the level) per tier</span><small>Default 1</small></label><input type="number" id="k_EpicEscorts" data-k="EpicEscorts" value="1" min="0" max="100000000" aria-label="EpicEscorts"></div><div class="row" data-row="LegendaryEscorts"><label for="k_LegendaryEscorts"><b>LegendaryEscorts</b><span></span><small>Default 2</small></label><input type="number" id="k_LegendaryEscorts" data-k="LegendaryEscorts" value="2" min="0" max="100000000" aria-label="LegendaryEscorts"></div><div class="row" data-row="MythicEscorts"><label for="k_MythicEscorts"><b>MythicEscorts</b><span></span><small>Default 3</small></label><input type="number" id="k_MythicEscorts" data-k="MythicEscorts" value="3" min="0" max="100000000" aria-label="MythicEscorts"></div><div class="row" data-row="TameLockMinutes"><label for="k_TameLockMinutes"><b>TameLockMinutes</b><span>Minutes the creature can&#x27;t be tamed after it appears (0 = off)</span><small>Default 5</small></label><input type="number" id="k_TameLockMinutes" data-k="TameLockMinutes" value="5" min="0" max="100000000" aria-label="TameLockMinutes"></div><div class="row" data-row="AbilityChance"><label for="k_AbilityChance"><b>AbilityChance</b><span>Chance per hit that a Legendary freezes / a Mythic sets you on fire, in % (0 = off)</span><small>Default 25</small></label><input type="number" id="k_AbilityChance" data-k="AbilityChance" value="25" min="0" max="100000000" aria-label="AbilityChance"></div><div class="row" data-row="OceanHunts"><label for="k_OceanHunts"><b>OceanHunts</b><span>1 = a player out in the water gets a sea creature hunt, 0 = always land creatures</span><small>Default 1</small></label><div class="sw" data-k="OceanHunts"><button type="button" data-v="1" aria-pressed="true">ON</button><button type="button" data-v="0" aria-pressed="false">OFF</button></div></div><div class="row wide" data-row="ExcludeCreatures"><label for="k_ExcludeCreatures"><b>ExcludeCreatures</b><span>Creatures to leave out: parts of class names, comma separated (empty = built-in list of small creatures)</span><small>Default empty</small></label><input type="text" id="k_ExcludeCreatures" data-k="ExcludeCreatures" value="" placeholder="e.g. Dodo,Compy" aria-label="ExcludeCreatures"></div></details><details class="grp" ><summary class="grp-h">Rewards <i>2 settings</i></summary><div class="row" data-row="RewardRadiusMeters"><label for="k_RewardRadiusMeters"><b>RewardRadiusMeters</b><span>Hunters within this many meters of the kill each get a Hunt Crate</span><small>Default 150 · 10 to 2000</small></label><input type="number" id="k_RewardRadiusMeters" data-k="RewardRadiusMeters" value="150" min="10" max="2000" aria-label="RewardRadiusMeters"></div><div class="row" data-row="LootQuality"><label for="k_LootQuality"><b>LootQuality</b><span>Crate quality in %: 100 = normal, 200 = double. Changes quality, not the number of items</span><small>Default 100 · 10 to 500</small></label><input type="number" id="k_LootQuality" data-k="LootQuality" value="100" min="10" max="500" aria-label="LootQuality"></div></details><details class="grp" ><summary class="grp-h">Hints <i>2 settings</i></summary><div class="row" data-row="HintMinutes"><label for="k_HintMinutes"><b>HintMinutes</b><span>Minutes between hints</span><small>Default 5 · 1 to 60</small></label><input type="number" id="k_HintMinutes" data-k="HintMinutes" value="5" min="1" max="60" aria-label="HintMinutes"></div><div class="row" data-row="CloseHintMeters"><label for="k_CloseHintMeters"><b>CloseHintMeters</b><span>Players this close get a CLOSE! warning every minute (meters, 0 = off)</span><small>Default 400</small></label><input type="number" id="k_CloseHintMeters" data-k="CloseHintMeters" value="400" min="0" max="100000000" aria-label="CloseHintMeters"></div></details><details class="grp" ><summary class="grp-h">Discord announcements <i>3 settings</i></summary><div class="row wide" data-row="DiscordWebhook"><label for="k_DiscordWebhook"><b>DiscordWebhook</b><span>Discord announcements: a Discord webhook link and optional thread ID. No bot needed. Put the link INSIDE QUOTE MARKS, like DiscordWebhook=&quot;https://discord.com/api/webhooks/...&quot; (without the quote marks the ini cuts the link off at the // and nothing gets posted)</span><small>Default empty</small></label><input type="text" id="k_DiscordWebhook" data-k="DiscordWebhook" value="" placeholder="https://discord.com/api/webhooks/..." aria-label="DiscordWebhook"></div><div class="row wide" data-row="DiscordThreadID"><label for="k_DiscordThreadID"><b>DiscordThreadID</b><span></span><small>Default empty</small></label><input type="text" id="k_DiscordThreadID" data-k="DiscordThreadID" value="" placeholder="" aria-label="DiscordThreadID"></div><div class="row wide" data-row="DiscordRoleID"><label for="k_DiscordRoleID"><b>DiscordRoleID</b><span>Optional Discord role to ping on hunt posts: the role&#x27;s ID (Server Settings &gt; Roles &gt; right-click &gt; Copy Role ID). The role must allow @mentions.</span><small>Default empty</small></label><input type="text" id="k_DiscordRoleID" data-k="DiscordRoleID" value="" placeholder="" aria-label="DiscordRoleID"></div></details></div>
+      <aside class="out" aria-label="Your settings">
+        <div class="bar"><span>GameUserSettings.ini · <b id="nchg">0 changed</b></span></div>
+        <pre id="ini" aria-live="polite"></pre>
+        <div class="acts"><button type="button" class="go" id="copy">Copy</button><button type="button" id="reset">Reset</button>
+          <label><input type="checkbox" id="onlychg" checked> Only changed lines</label></div>
+        <p class="where">Paste it at the end of your server's GameUserSettings.ini, then restart the server. Lines you leave out keep their defaults.</p>
+      </aside>
+    </div></section>
+
+  <section class="msec" id="codes"><div class="head"><span class="section-eyebrow">06 · spawn_codes</span></div>
+    <div class="head" style="margin-top:-10px"><h2>Spawn <em>codes.</em></h2><span class="sub">For admins, in the console.</span></div>
+    <div class="codes"><div class="code"><b>Hunt Mark</b><code>cheat giveitem &quot;Blueprint&#x27;/BlackWire_Hunt/Items/PrimalItem_BWH_Mark.PrimalItem_BWH_Mark&#x27;&quot; 1 0 0</code><button type="button" data-copy="cheat giveitem &quot;Blueprint&#x27;/BlackWire_Hunt/Items/PrimalItem_BWH_Mark.PrimalItem_BWH_Mark&#x27;&quot; 1 0 0">Copy</button></div></div></section>
+
+  <section class="msec" id="changes"><div class="head"><span class="section-eyebrow">07 · changelog</span></div>
+    <div class="head" style="margin-top:-10px"><h2>What's <em>new.</em></h2></div>
+    <ul class="clog"><li><time>23 Nov 2026</time><ul><li>Placed Hunt trophies can be picked up, demolished and destroyed again. You can now aim at the statue, not just the base.</li><li>Wheel entries back on the main wheel.</li></ul></li><li><time>21 Nov 2026</time><ul><li>Admins now see the Hunt admin folder on the wheel (it never showed before).</li><li>The Rare Hunt banner hides while a menu is open.</li></ul></li></ul></section>
+
+  <div class="help-band"><div><h3>Stuck or found a bug?</h3><p>Ask in the Hunt channel on the BlackWire Mods Discord.</p></div>
+
+    <a class="btn-primary" href="https://discord.gg/FNnNEa8A6S" target="_blank" rel="noopener">Open the Mods Discord</a></div>
+</div>
+<script>
+(() => {
+  document.querySelectorAll('[data-copy]').forEach((b) => b.addEventListener('click', async () => { try { await navigator.clipboard.writeText(b.dataset.copy); } catch {} const d = document.createElement('div'); d.className = 'toast'; d.textContent = 'Copied'; document.body.append(d); setTimeout(() => d.remove(), 1800); }));
+  if (!document.getElementById('ini')) return;
+  const SEC = "BlackWireHunt", DEF = {"Enabled": "1", "FirstHuntMinutes": "10", "IntervalMinutes": "45", "HuntMinutes": "20", "MinLevel": "120", "MaxLevel": "220", "RewardRadiusMeters": "150", "RareWeight": "60", "EpicWeight": "28", "LegendaryWeight": "10", "MythicWeight": "2", "LootQuality": "100", "EpicEscorts": "1", "LegendaryEscorts": "2", "MythicEscorts": "3", "TameLockMinutes": "5", "HintMinutes": "5", "CloseHintMeters": "400", "AbilityChance": "25", "OceanHunts": "1", "ExcludeCreatures": "", "DiscordWebhook": "", "DiscordThreadID": "", "DiscordRoleID": ""}, ORDER = ["Enabled", "FirstHuntMinutes", "IntervalMinutes", "HuntMinutes", "MinLevel", "MaxLevel", "RewardRadiusMeters", "RareWeight", "EpicWeight", "LegendaryWeight", "MythicWeight", "LootQuality", "EpicEscorts", "LegendaryEscorts", "MythicEscorts", "TameLockMinutes", "HintMinutes", "CloseHintMeters", "AbilityChance", "OceanHunts", "ExcludeCreatures", "DiscordWebhook", "DiscordThreadID", "DiscordRoleID"];
+  const val = {...DEF}, pre = document.getElementById('ini'), only = document.getElementById('onlychg');
+  const esc = (s) => s.replace(/[&<>]/g, (c) => ({'&': '&amp;', '<': '&lt;', '>': '&gt;'}[c]));
+  function line(k) { let v = val[k]; if (/Webhook|URL|Link/.test(k) && /^https?:/.test(v)) v = '"' + v + '"'; return k + '=' + v; }
+  function render() {
+    const chg = ORDER.filter((k) => String(val[k]) !== String(DEF[k]));
+    document.getElementById('nchg').textContent = chg.length + ' changed';
+    document.querySelectorAll('[data-row]').forEach((r) => r.classList.toggle('changed', chg.includes(r.dataset.row)));
+    const keys = only.checked ? chg : ORDER;
+    pre.innerHTML = '<span class="s">[' + SEC + ']</span>\n' + (keys.length ? keys.map((k) => '<span class="k">' + esc(k) + '</span>=' + esc(line(k).split('=').slice(1).join('='))).join('\n')
+      : '<span class="c">; nothing changed yet - the defaults are already on</span>');
+  }
+  document.querySelectorAll('#rows input').forEach((i) => i.addEventListener('input', () => {
+    let v = i.value.trim();
+    if (i.type === 'number' && v !== '') { const n = Math.min(+i.max, Math.max(+i.min, (i.step === 'any' ? +v : Math.round(+v)))); v = String(n); }
+    val[i.dataset.k] = v; render(); }));
+  document.querySelectorAll('#rows input[type=number]').forEach((i) => i.addEventListener('change', () => { i.value = val[i.dataset.k]; }));
+  document.querySelectorAll('#rows .sw').forEach((s) => s.addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return;
+    s.querySelectorAll('button').forEach((x) => x.setAttribute('aria-pressed', x === b)); val[s.dataset.k] = b.dataset.v; render(); }));
+  only.addEventListener('change', render);
+  function toast(t) { const d = document.createElement('div'); d.className = 'toast'; d.textContent = t; document.body.append(d); setTimeout(() => d.remove(), 1800); }
+  async function copy(t) { try { await navigator.clipboard.writeText(t); toast('Copied'); } catch { toast('Select the text and copy it'); } }
+  document.getElementById('copy').addEventListener('click', () => copy(pre.textContent));
+  document.getElementById('reset').addEventListener('click', () => { Object.assign(val, DEF);
+    document.querySelectorAll('#rows input').forEach((i) => i.value = DEF[i.dataset.k]);
+    document.querySelectorAll('#rows .sw').forEach((s) => s.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', b.dataset.v === DEF[s.dataset.k]))); render(); });
+  render();
+})();
+</script>
+<footer class="wrap">
+  <div class="foot-brand">BLACKWIRE GAMING &mdash; Connect &bull; Conquer &bull; Survive</div>
+  <a class="foot-partner" href="https://nitrado.net" target="_blank" rel="noopener sponsored">Official Nitrado Partner</a>
+  <div class="foot-links">
+    <a href="../guides.html">Guides</a>
+    <a href="../mods.html">Mods</a>
+    <a href="../support.html">Support</a>
+    <a href="../privacy.html">Privacy</a>
+    <a href="../terms.html">Terms</a>
+  </div>
+</footer>
+
+<script src="../site.js?v=5"></script>
+</body></html>

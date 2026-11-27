@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:52:02Z",
+  "generated_at": "2026-11-27T05:56:57Z",
   "servers": {
     "ark": {
       "servers": [
@@ -16,12 +16,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Dat_Boi_Mike_70"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - Paleo Ark - PVE - (v98.23)",
@@ -36,12 +38,14 @@
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Zaacattack990"
+          ]
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
@@ -228,14 +232,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Dat_Boi_Mike_70"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",

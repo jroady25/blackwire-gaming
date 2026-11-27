@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-27T02:11:54Z",
+  "generated_at": "2026-11-27T02:16:57Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Aphrodite"
+            "Aphrodite",
+            "Zaacattack990"
           ]
         },
         {
@@ -243,15 +244,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "mystic_gengar1",
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
@@ -292,7 +290,7 @@
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "Reilig"
+            "mystic_gengar1"
           ]
         },
         {

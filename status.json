@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:11:54Z",
+  "generated_at": "2026-11-27T13:16:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -315,11 +315,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "wraiyth"
-          ],
+          "players": [],
           "map": null
         },
         {

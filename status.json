@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:02:11Z",
+  "generated_at": "2026-11-27T09:07:01Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,11 +50,11 @@
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "players": [
             "LeeDDT",
-            "Zaacattack990",
-            "Naykdtime"
+            "Naykdtime",
+            "Zaacattack990"
           ]
         },
         {
@@ -226,7 +226,7 @@
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

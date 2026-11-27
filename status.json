@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:56:51Z",
+  "generated_at": "2026-11-27T01:01:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,16 +18,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
           "online": true,
-          "players_current": 4,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 4,
+          "nitrado_count": 3,
           "players": [
             "DriftNalg",
             "Dat_Boi_Mike_70",
-            "Melody",
-            "ThatMcHaggis"
+            "Melody"
           ]
         },
         {
@@ -53,14 +52,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "vikings10932",
-            "Zaacattack990"
+            "vikings10932"
           ]
         },
         {
@@ -96,11 +94,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "names_hidden": true
         },
         {
@@ -270,12 +268,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Derangedjoka"
+          ]
         },
         {
           "name": "BlackWire - The Center - PVE - (v98.23)",

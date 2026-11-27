@@ -73,10 +73,6 @@
       "name": "BlackWire - Event Map - (v98.23)"
     },
     {
-      "service_id": "18357580",
-      "name": "BlackWire - The Island - SOTF - PVP - (v98.23)"
-    },
-    {
       "service_id": "18610040",
       "name": "BlackWire - Astraeos - PVP - (v98.23)"
     },
@@ -119,14 +115,18 @@
     {
       "service_id": "20100016",
       "name": "BlackWire - Mod Test Map - (v98.23)"
+    },
+    {
+      "service_id": "18357580",
+      "name": "BlackWire - The Island - SOTF - PVP - (v98.23)"
     }
   ],
   "dragonwilds": {
-    "offset": 24811690,
+    "offset": 24814873,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 24811690,
+    "log_size": 24814873,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
   "offline_since": {}

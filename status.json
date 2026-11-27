@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:42:04Z",
+  "generated_at": "2026-11-27T02:47:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -242,6 +242,16 @@
           "players": []
         },
         {
+          "name": "BlackWire - Lost Colony - PVE - (v98.23)",
+          "online": true,
+          "players_current": 0,
+          "players_max": 20,
+          "map": "LostColony_WP",
+          "count_source": "rcon",
+          "nitrado_count": 0,
+          "players": []
+        },
+        {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
           "online": true,
           "players_current": 1,
@@ -274,14 +284,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "mystic_gengar1"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.23)",
@@ -299,16 +307,6 @@
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
-        },
-        {
-          "name": "BlackWire - Lost Colony - PVE - (v98.23)",
-          "online": true,
-          "players_current": 0,
-          "players_max": 20,
-          "map": "LostColony_WP",
           "count_source": "rcon",
           "nitrado_count": 0,
           "players": []

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:56:54Z",
+  "generated_at": "2026-11-27T16:01:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -219,12 +219,14 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "mystic_gengar1"
+          ]
         },
         {
           "name": "BlackWire - Abberation - PVE - (v98.23)",
@@ -239,14 +241,12 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "danielrippon__"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
@@ -281,13 +281,12 @@
         {
           "name": "BlackWire - Genesis 1 - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Genesis_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "mystic_gengar1",
             "vTOPDOGc"
           ]
         },

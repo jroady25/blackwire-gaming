@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T12:26:51Z",
+  "generated_at": "2026-11-27T12:31:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -48,14 +48,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Extinction - PVE - (v98.23)",
@@ -110,14 +108,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Planalto007"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.23)",
@@ -264,13 +260,14 @@
         {
           "name": "BlackWire - The Island - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Naykdtime"
+            "Naykdtime",
+            "Zaacattack990"
           ]
         },
         {
@@ -305,13 +302,13 @@
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.23)",
-          "online": false,
+          "online": true,
           "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "nitrado",
+          "count_source": "rcon",
           "nitrado_count": 0,
-          "offline_since": "2026-11-27T12:26:51Z"
+          "players": []
         }
       ]
     },

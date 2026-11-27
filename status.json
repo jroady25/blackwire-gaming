@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:16:52Z",
+  "generated_at": "2026-11-27T21:21:49Z",
   "servers": {
     "ark": {
       "servers": [
@@ -46,14 +46,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 4,
           "players": [
             "Whiteninja090",
-            "lethalcomp"
+            "lethalcomp",
+            "neutrinopc",
+            "sidimaraki100"
           ]
         },
         {
@@ -109,14 +111,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
-          "players": [
-            "CynicRose"
-          ]
+          "nitrado_count": 1,
+          "players": []
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.23)",
@@ -223,13 +223,12 @@
         {
           "name": "BlackWire - Scorched Earth - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "ScorchedEarth_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "vTOPDOGc",
             "Naykdtime"
           ]
         },
@@ -246,24 +245,23 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Coffee Addict",
-            "MattyRoth83"
+            "Coffee Addict"
           ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {

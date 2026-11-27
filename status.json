@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T23:27:03Z",
+  "generated_at": "2026-11-27T23:32:03Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,14 +18,15 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 3,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
             "Dat_Boi_Mike_70",
-            "Derangedjoka"
+            "Derangedjoka",
+            "ThatMcHaggis"
           ]
         },
         {

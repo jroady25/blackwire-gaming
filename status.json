@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T20:31:52Z",
+  "generated_at": "2026-11-27T20:36:51Z",
   "servers": {
     "ark": {
       "servers": [
@@ -244,12 +244,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Coffee Addict"
+          ]
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
@@ -321,9 +323,12 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 0,
+          "players_current": 2,
           "players_max": 16,
-          "players": [],
+          "players": [
+            "arty8r",
+            "Athena"
+          ],
           "map": null
         },
         {

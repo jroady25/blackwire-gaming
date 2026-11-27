@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-11-27T22:01:53Z",
+  "generated_at": "2026-11-27T22:06:50Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "Aphrodite"
+          ]
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
@@ -20,7 +22,7 @@
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Melody"
           ]
@@ -48,17 +50,16 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 5,
+          "players_current": 4,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 5,
+          "nitrado_count": 4,
           "players": [
             "lethalcomp",
             "vikings10932",
             "Lexx",
-            "Whiteninja090",
-            "vTOPDOGc"
+            "Whiteninja090"
           ]
         },
         {
@@ -68,7 +69,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
+          "nitrado_count": 1,
           "players": []
         },
         {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T02:17:03Z",
+  "generated_at": "2026-11-28T02:21:07Z",
   "servers": {
     "ark": {
       "servers": [
@@ -18,13 +18,14 @@
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "Valguero_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "DriftNalg"
+            "DriftNalg",
+            "Lexx"
           ]
         },
         {
@@ -113,13 +114,12 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "Magi_s18",
             "elliandtiny"
           ]
         },
@@ -270,7 +270,7 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
             "Derangedjoka"
           ]

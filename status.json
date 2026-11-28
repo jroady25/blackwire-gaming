@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:31:51Z",
+  "generated_at": "2026-11-28T10:36:53Z",
   "servers": {
     "ark": {
       "servers": [
@@ -231,15 +231,12 @@
         {
           "name": "BlackWire - Abberation - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
           "nitrado_count": 2,
-          "players": [
-            "Zaacattack990",
-            "Naykdtime"
-          ]
+          "players": []
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",

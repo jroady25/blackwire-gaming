@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-28T04:26:49Z",
+  "generated_at": "2026-11-28T04:31:55Z",
   "servers": {
     "ark": {
       "servers": [
         {
           "name": "BlackWire - Ragnarok - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Aphrodite"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Valguero - PVE - (v98.23)",
@@ -236,7 +234,7 @@
           "players_max": 20,
           "map": "Aberration_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -317,12 +315,9 @@
           "name": "Palworld Golden Aces",
           "service_id": "17667688",
           "online": true,
-          "players_current": 2,
+          "players_current": 0,
           "players_max": 16,
-          "players": [
-            "Athena",
-            "arty8r"
-          ],
+          "players": [],
           "map": null
         },
         {

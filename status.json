@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T09:56:54Z",
+  "generated_at": "2026-11-28T10:01:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -35,16 +35,13 @@
         },
         {
           "name": "Blackwire - The Island - Primal Chaos - PVE - (v98.23)",
-          "online": true,
+          "online": false,
           "players_current": 2,
           "players_max": 20,
           "map": "TheIsland_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 2,
-          "players": [
-            "miclebia",
-            "miclebiaso"
-          ]
+          "offline_since": "2026-11-28T10:01:59Z"
         },
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
@@ -158,12 +155,13 @@
         },
         {
           "name": "BlackWire - The Fractured Seas - Rp - PVP - (v98.23)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 26,
           "map": "Genesis_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
+          "offline_since": "2026-11-28T10:01:59Z",
           "names_hidden": true
         },
         {
@@ -241,13 +239,13 @@
         },
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "LostColony_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-28T10:01:59Z"
         },
         {
           "name": "BlackWire - Extinction - PVP - (v98.23)",
@@ -291,13 +289,13 @@
         },
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.23)",
-          "online": true,
+          "online": false,
           "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
-          "count_source": "rcon",
+          "count_source": "nitrado",
           "nitrado_count": 0,
-          "players": []
+          "offline_since": "2026-11-28T10:01:59Z"
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.23)",

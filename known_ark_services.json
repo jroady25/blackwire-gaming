@@ -122,12 +122,17 @@
     }
   ],
   "dragonwilds": {
-    "offset": 25656732,
+    "offset": 25659720,
     "online": {},
     "last_accept": "daa7456504cea5aa",
     "pending_name": null,
-    "log_size": 25656732,
+    "log_size": 25659720,
     "log_path": "/games/ni13429966_1/ftproot/dragonwilds/RSDragonwilds/Saved/Logs/RSDragonwilds.log"
   },
-  "offline_since": {}
+  "offline_since": {
+    "ark:Blackwire - The Island - Primal Chaos - PVE - (v98.23)": "2026-11-28T10:01:59Z",
+    "ark:BlackWire - The Fractured Seas - Rp - PVP - (v98.23)": "2026-11-28T10:01:59Z",
+    "ark:BlackWire - Lost Colony - PVE - (v98.23)": "2026-11-28T10:01:59Z",
+    "ark:BlackWire - Bjarnheim - PVE - (v98.23)": "2026-11-28T10:01:59Z"
+  }
 }

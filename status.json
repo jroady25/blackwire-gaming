@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T03:17:02Z",
+  "generated_at": "2026-11-28T03:22:08Z",
   "servers": {
     "ark": {
       "servers": [
@@ -128,11 +128,11 @@
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.23)",
           "online": true,
-          "players_current": 3,
+          "players_current": 2,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 3,
+          "nitrado_count": 2,
           "names_hidden": true
         },
         {
@@ -254,8 +254,8 @@
           "count_source": "rcon",
           "nitrado_count": 2,
           "players": [
-            "Naykdtime",
-            "Zaacattack990"
+            "Zaacattack990",
+            "legendx12x"
           ]
         },
         {

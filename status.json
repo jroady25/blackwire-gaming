@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T15:31:55Z",
+  "generated_at": "2026-11-28T15:36:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,14 +50,13 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 0,
           "players": [
-            "Whiteninja090",
-            "XmazonegroX"
+            "Whiteninja090"
           ]
         },
         {
@@ -67,7 +66,7 @@
           "players_max": 20,
           "map": "Extinction_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "players": []
         },
         {
@@ -93,11 +92,11 @@
         {
           "name": "BlackWire - The Island - PVP - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 0,
           "names_hidden": true
         },
         {
@@ -113,12 +112,14 @@
         {
           "name": "Blackwire - Ragnarok - Primal Chaos - PVE - (v98.23)",
           "online": true,
-          "players_current": 0,
+          "players_current": 1,
           "players_max": 20,
           "map": "Ragnarok_WP",
           "count_source": "rcon",
-          "nitrado_count": 0,
-          "players": []
+          "nitrado_count": 1,
+          "players": [
+            "SantosCastro"
+          ]
         },
         {
           "name": "BlackWire - Ragnarok - PVP - (v98.23)",

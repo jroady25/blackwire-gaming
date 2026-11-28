@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T16:07:03Z",
+  "generated_at": "2026-11-28T16:11:59Z",
   "servers": {
     "ark": {
       "servers": [
@@ -50,13 +50,12 @@
         {
           "name": "BlackWire - Astraeos - PVE - (v98.23)",
           "online": true,
-          "players_current": 2,
+          "players_current": 1,
           "players_max": 20,
           "map": "Astraeos_WP",
           "count_source": "rcon",
           "nitrado_count": 1,
           "players": [
-            "neutrinopc",
             "Zaacattack990"
           ]
         },

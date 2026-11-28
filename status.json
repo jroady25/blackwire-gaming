@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T10:56:50Z",
+  "generated_at": "2026-11-28T11:01:50Z",
   "servers": {
     "ark": {
       "servers": [
@@ -40,9 +40,9 @@
           "players_max": 20,
           "map": "TheIsland_WP",
           "count_source": "rcon",
-          "nitrado_count": 2,
+          "nitrado_count": 1,
           "players": [
-            "miclebiaso"
+            "miclebia"
           ]
         },
         {
@@ -240,13 +240,14 @@
         {
           "name": "BlackWire - Lost Colony - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 2,
           "players_max": 20,
           "map": "LostColony_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
+          "nitrado_count": 2,
           "players": [
-            "Naykdtime"
+            "Naykdtime",
+            "Zaacattack990"
           ]
         },
         {
@@ -292,14 +293,12 @@
         {
           "name": "BlackWire - Bjarnheim - PVE - (v98.23)",
           "online": true,
-          "players_current": 1,
+          "players_current": 0,
           "players_max": 20,
           "map": "Bjarnheim_WP",
           "count_source": "rcon",
-          "nitrado_count": 1,
-          "players": [
-            "Zaacattack990"
-          ]
+          "nitrado_count": 0,
+          "players": []
         },
         {
           "name": "BlackWire - Mod Test Map - (v98.23)",
